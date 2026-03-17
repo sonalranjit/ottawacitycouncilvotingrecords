@@ -33,7 +33,7 @@ def test_create_run_directory(tmp_path):
     run_dir = scraper.create_run_directory(args, now=now)
     assert run_dir.exists()
     assert run_dir.is_dir()
-    assert run_dir.parent == tmp_path / "datasets"
+    assert run_dir.parent == tmp_path / "datasets" / "runs"
     assert run_dir.name == "2026-03-01_to_2026-03-10_20260301T123456_789000"
 
 

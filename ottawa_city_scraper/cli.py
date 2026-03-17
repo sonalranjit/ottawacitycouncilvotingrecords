@@ -40,6 +40,7 @@ def build_run_dir_name(start_date: str, end_date: str, now: datetime | None = No
 
 def create_run_directory(args: argparse.Namespace, now: datetime | None = None) -> Path:
     output_root = Path(args.output_root)
+    output_root = output_root / "runs"
     output_root.mkdir(parents=True, exist_ok=True)
     run_dir = output_root / build_run_dir_name(args.start_date, args.end_date, now=now)
     run_dir.mkdir()

@@ -4,6 +4,9 @@ import argparse
 from datetime import date, datetime, timedelta
 import logging
 from pathlib import Path
+from zoneinfo import ZoneInfo
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
@@ -21,6 +24,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--start-date", default=date.today().strftime("%Y-%m-%d"), help="Start date to scrape meetings from in format YYYY-mm-dd")
     parser.add_argument("--end-date", default=(date.today() + timedelta(days=1)).strftime("%Y-%m-%d"), help="End date to scrape meetings until in format YYYY-mm-dd")
     parser.add_argument("--output-root", default="datasets", help="Directory where each run folder will be created")
+    parser.add_argument(
+        "--verify-cert",
+        action="store_true",
+        help="Verify TLS certificates (default: disabled for self-signed certificates)",
+    )
     return parser.parse_args(argv)
 
 
@@ -37,9 +45,55 @@ def create_run_directory(args: argparse.Namespace, now: datetime | None = None) 
     return run_dir
 
 
+def format_calendar_datetime(date_text: str) -> str:
+    local = datetime.fromisoformat(date_text).replace(
+        hour=0,
+        minute=0,
+        second=0,
+        microsecond=0,
+        tzinfo=ZoneInfo("America/Toronto")
+    )
+    return local.isoformat()
+
+
+def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
+    session = requests.Session()
+    session.trust_env = False
+    url = (
+        f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}"
+        "/MeetingsCalendarView.aspx/GetCalendarMeetings"
+    )
+    headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "calendarStartDate": format_calendar_datetime(args.start_date),
+        "calendarEndDate": format_calendar_datetime(args.end_date),
+    }
+
+    with warnings.catch_warnings():
+        if not args.verify_cert:
+            warnings.filterwarnings("ignore", category=InsecureRequestWarning)
+        response = session.post(
+            url,
+            headers=headers,
+            data=json.dumps(payload),
+            timeout=(10, 60),
+            verify=args.verify_cert,
+        )
+    response.raise_for_status()
+    output_path = run_dir / "calendar_meetings.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(response.json(), f, indent=2)
+    logger.info("Saved calendar meetings to %s", output_path)
+    return output_path
+
+
 def main(args: argparse.Namespace) -> int:
     run_dir = create_run_directory(args)
     logger.info(f"Working directory: {run_dir}")
+    fetch_calendar_meetings(args, run_dir)
     logger.info(f"Start date: {args.start_date}")
     logger.info(f"End date: {args.end_date}")
     return 0

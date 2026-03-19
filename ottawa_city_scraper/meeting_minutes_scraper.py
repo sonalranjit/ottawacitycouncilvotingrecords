@@ -19,14 +19,33 @@ def fetch_html(url: str, verify_cert: bool = False) -> str:
 def load_html_file(file_path: str | Path) -> str:
     return(Path(file_path).read_text(encoding="utf-8"))
 
+def normalize_councillor_name(raw_name: str) -> str:
+    name = raw_name.strip().rstrip(",")
+    return name.removeprefix("Mayor ").removeprefix("Councillor ")
+
 def parse_minutes_html(html: str, source: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
-    agenda_header_table = soup.find('div', class_='AgendaHeaderDetailsTable')
-    meeting_number = agenda_header_table.find('div', class_='AgendaMeetingNumberText').get_text(strip=True)
-    meeting_date = agenda_header_table.find('div', class_='AgendaMeetingTime').find('time')['datetime']
-    meeting_start_time = agenda_header_table.find('span', class_='AgendaMeetingTimeStart').find('time')['datetime']
-    meeting_location = agenda_header_table.find('div', class_='Location').get_text(strip=True)
-    logger.info(meeting_location)
+    agenda_header_details_table = soup.find('div', class_='AgendaHeaderDetailsTable')
+    meeting_number = agenda_header_details_table.find('div', class_='AgendaMeetingNumberText').get_text(strip=True)
+    meeting_date = agenda_header_details_table.find('div', class_='AgendaMeetingTime').find('time')['datetime']
+    meeting_start_time = agenda_header_details_table.find('span', class_='AgendaMeetingTimeStart').find('time')['datetime']
+    meeting_location = agenda_header_details_table.find('div', class_='Location').get_text(strip=True)
+    agenda_header_attendance_table = soup.find('div', class_='AgendaHeaderAttendanceTable').find_all('div')
+    present_attendees = []
+    absent_attendees = []
+
+    for attendance_div in agenda_header_attendance_table:
+        attendance_label = attendance_div.find('div', class_='Label')
+        if attendance_label is not None and attendance_label.get_text(strip=True) == "Present:":
+            present_councillors = attendance_div.find_all('li')
+            for councillor in present_councillors:
+                logger.info("Present councillor: %s", normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
+                present_attendees.append(normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
+        elif attendance_label is not None and attendance_label.get_text(strip=True) == "Absent:":
+            absent_councillors = attendance_div.find_all('li')
+            for councillor in absent_councillors:
+                logger.info("Absent councillor: %s", normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
+                absent_attendees.append(normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
 
     return {
         "source": source,
@@ -35,6 +54,8 @@ def parse_minutes_html(html: str, source: str) -> dict:
         "meeting_date": meeting_date,
         "meeting_start_time": meeting_start_time,
         "meeting_location": meeting_location,
+        "present_attendees": present_attendees,
+        "absent_attendees": absent_attendees,
         "motions": [],
         "votes": [],
     }

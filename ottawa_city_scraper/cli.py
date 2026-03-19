@@ -227,7 +227,7 @@ def main(args: argparse.Namespace) -> int:
     write_json_to_run_dir(
         run_dir,
         "scraped-meeting-minutes.json",
-        scrape_minutes_page(meeting_minutes_to_scrape, False),
+        scrape_minutes_page(url=meeting_minutes_to_scrape, verify_cert=False),
         log_label="scraped meeting minutes",
     )
     

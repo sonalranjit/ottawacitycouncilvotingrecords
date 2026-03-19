@@ -2,6 +2,7 @@ import requests
 import json
 import logging
 from urllib.parse import urljoin
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 
@@ -15,11 +16,14 @@ def fetch_html(url: str, verify_cert: bool = False) -> str:
     response.raise_for_status()
     return response.text
 
-def parse_minutes_html(html: str, source_url: str) -> dict:
+def load_html_file(file_path: str | Path) -> str:
+    return(Path(file_path).read_text(encoding="utf-8"))
+
+def parse_minutes_html(html: str, source: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
 
     return {
-        "source_url": source_url,
+        "source": source,
         "title": soup.title.get_text(strip=True) if soup.title else None,
         "motions": [],
         "votes": [],
@@ -33,8 +37,26 @@ def normalize_minutes_data(parsed: dict, source_url: str) -> dict:
         "votes": parsed.get("votes", []),
     }
 
-def scrape_minutes_page(url: str, verify_cert: bool = False) -> dict:
+def scrape_minutes_page(
+        *,
+        url: str | None = None,
+        html_file: str | Path | None = None,
+        verify_cert: bool = False,
+    ) -> dict:
+    if url is not None and html_file is not None:
+        raise ValueError("Provide exactly one of 'url' or 'html_file'")
+    
+    if url is None and html_file is None:
+        raise ValueError("Provide one of 'url' or 'html_file'")
+
+    if html_file is not None:
+        html = load_html_file(html_file)
+        return parse_minutes_html(html, source=str(html_file))
+    
+    if url is None:
+        raise ValueError("url is required when html_file is not provided")
+
     logger.info("Scraping minutes page: %s", url)
     html = fetch_html(url, verify_cert=verify_cert)
-    parsed = parse_minutes_html(html, source_url=url)
+    parsed = parse_minutes_html(html, source=url)
     return normalize_minutes_data(parsed, source_url=url)

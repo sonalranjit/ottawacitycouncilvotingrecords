@@ -21,10 +21,20 @@ def load_html_file(file_path: str | Path) -> str:
 
 def parse_minutes_html(html: str, source: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
+    agenda_header_table = soup.find('div', class_='AgendaHeaderDetailsTable')
+    meeting_number = agenda_header_table.find('div', class_='AgendaMeetingNumberText').get_text(strip=True)
+    meeting_date = agenda_header_table.find('div', class_='AgendaMeetingTime').find('time')['datetime']
+    meeting_start_time = agenda_header_table.find('span', class_='AgendaMeetingTimeStart').find('time')['datetime']
+    meeting_location = agenda_header_table.find('div', class_='Location').get_text(strip=True)
+    logger.info(meeting_location)
 
     return {
         "source": source,
         "title": soup.title.get_text(strip=True) if soup.title else None,
+        "meeting_number": int(meeting_number),
+        "meeting_date": meeting_date,
+        "meeting_start_time": meeting_start_time,
+        "meeting_location": meeting_location,
         "motions": [],
         "votes": [],
     }

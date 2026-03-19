@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 from typing import Any
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
+from meeting_minutes_scraper import scrape_minutes_page
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
@@ -45,6 +46,20 @@ def create_run_directory(args: argparse.Namespace, now: datetime | None = None) 
     run_dir = output_root / build_run_dir_name(args.start_date, args.end_date, now=now)
     run_dir.mkdir()
     return run_dir
+
+
+def write_json_to_run_dir(
+    run_dir: Path,
+    filename: str,
+    payload: Any,
+    *,
+    log_label: str | None = None,
+) -> Path:
+    output_path = run_dir / filename
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+    logger.info("Saved %s to %s", log_label or filename, output_path)
+    return output_path
 
 
 def format_calendar_datetime(date_text: str) -> str:
@@ -185,11 +200,12 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
             verify=args.verify_cert,
         )
     response.raise_for_status()
-    output_path = run_dir / "calendar_meetings.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(response.json(), f, indent=2)
-    logger.info("Saved calendar meetings to %s", output_path)
-    return output_path
+    return write_json_to_run_dir(
+        run_dir,
+        "calendar_meetings.json",
+        response.json(),
+        log_label="calendar meetings",
+    )
 
 
 
@@ -206,6 +222,15 @@ def main(args: argparse.Namespace) -> int:
     logger.info(f"Parsed meetings: {len(meetings)}")
     logger.info(f"Start date: {args.start_date}")
     logger.info(f"End date: {args.end_date}")
+    logger.info("Scraping: %s/%s", OTTAWA_ESCRIBE_MEETINGS_BASE_URL, postminutes_html_english[0]["documents"][0]["url"])
+    meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{postminutes_html_english[0]["documents"][0]["url"]}"
+    write_json_to_run_dir(
+        run_dir,
+        "scraped-meeting-minutes.json",
+        scrape_minutes_page(meeting_minutes_to_scrape, False),
+        log_label="scraped meeting minutes",
+    )
+    
     return 0
 
 if __name__ == "__main__":

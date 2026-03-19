@@ -167,7 +167,6 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
         "/MeetingsCalendarView.aspx/GetCalendarMeetings"
     )
     headers = {
-        "Accept": "application/json, text/javascript, */*; q=0.01",
         "Content-Type": "application/json",
     }
     payload = {

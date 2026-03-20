@@ -31,11 +31,12 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
     meeting_date = agenda_header_details_table.find('div', class_='AgendaMeetingTime').find('time')['datetime']
     meeting_start_time = agenda_header_details_table.find('span', class_='AgendaMeetingTimeStart').find('time')['datetime']
     meeting_location = agenda_header_details_table.find('div', class_='Location').get_text(strip=True)
-    agenda_header_attendance_table = agenda_header.find('div', class_='AgendaHeaderAttendanceTable').find_all('div')
     present_attendees = []
     absent_attendees = []
+    attendance_table = agenda_header.find('div', class_='AgendaHeaderAttendanceTable')
+    attendance_divs = [] if attendance_table is None else attendance_table.find_all('div')
 
-    for attendance_div in agenda_header_attendance_table:
+    for attendance_div in attendance_divs:
         attendance_label = attendance_div.find('div', class_='Label')
         if attendance_label is not None and attendance_label.get_text(strip=True) == "Present:":
             present_councillors = attendance_div.find_all('li')
@@ -46,7 +47,7 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
             for councillor in absent_councillors:
                 absent_attendees.append(normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
     return {
-        "meeting_number": int(meeting_number),
+        "meeting_number": int(meeting_number) if meeting_number is not None and meeting_number != "" else 0,
         "meeting_date": meeting_date,
         "meeting_start_time": meeting_start_time,
         "meeting_location": meeting_location,

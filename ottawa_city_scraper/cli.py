@@ -1,6 +1,7 @@
 import requests
 import json
 import argparse
+import re
 from datetime import date, datetime, timedelta
 import logging
 from pathlib import Path
@@ -60,6 +61,16 @@ def write_json_to_run_dir(
         json.dump(payload, f, indent=2)
     logger.info("Saved %s to %s", log_label or filename, output_path)
     return output_path
+
+
+def build_meeting_minutes_filename(meeting: dict[str, Any]) -> str:
+    meeting_name = meeting.get("name") or "meeting"
+    start_date = meeting.get("start_date") or ""
+    meeting_id = meeting.get("id") or "unknown-id"
+
+    start_dt = datetime.strptime(start_date, "%Y/%m/%d %H:%M:%S")
+    slug = re.sub(r"[^a-z0-9]+", "_", meeting_name.lower()).strip("_")
+    return f"{start_dt:%Y-%m-%d}_{slug}_{meeting_id}_postminutes.json"
 
 
 def format_calendar_datetime(date_text: str) -> str:
@@ -222,14 +233,17 @@ def main(args: argparse.Namespace) -> int:
     logger.info(f"Parsed meetings: {len(meetings)}")
     logger.info(f"Start date: {args.start_date}")
     logger.info(f"End date: {args.end_date}")
-    logger.info("Scraping: %s/%s", OTTAWA_ESCRIBE_MEETINGS_BASE_URL, postminutes_html_english[0]["documents"][0]["url"])
-    meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{postminutes_html_english[0]["documents"][0]["url"]}"
-    write_json_to_run_dir(
-        run_dir,
-        "scraped-meeting-minutes.json",
-        scrape_minutes_page(url=meeting_minutes_to_scrape, verify_cert=False),
-        log_label="scraped meeting minutes",
-    )
+    for meeting in postminutes_html_english:
+        output_filename = build_meeting_minutes_filename(meeting)
+        for document in meeting.get("documents", []):
+            meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{document['url']}"
+            logger.info("Scraping: %s", meeting_minutes_to_scrape)
+            write_json_to_run_dir(
+                run_dir,
+                output_filename,
+                scrape_minutes_page(url=meeting_minutes_to_scrape, verify_cert=args.verify_cert),
+                log_label="scraped meeting minutes",
+            )
     
     return 0
 

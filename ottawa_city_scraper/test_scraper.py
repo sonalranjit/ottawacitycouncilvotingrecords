@@ -25,7 +25,7 @@ def main(args: argparse.Namespace) -> int:
     run_dir = create_run_directory(args)
     write_json_to_run_dir(
         run_dir,
-        "scraped-meeting-meetings.json",
+        "scraped-meeting-minutes.json",
         scrape_minutes_page(html_file="datasets/website-capture/city-council-2025-02-25.html"),
         log_label="Scraped meeting minutes",
     )

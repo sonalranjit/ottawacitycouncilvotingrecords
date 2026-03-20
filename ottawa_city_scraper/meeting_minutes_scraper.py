@@ -3,6 +3,7 @@ import json
 import logging
 from urllib.parse import urljoin
 from pathlib import Path
+from typing import Any
 
 from bs4 import BeautifulSoup
 
@@ -52,6 +53,24 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
         "absent_attendees": absent_attendees
     }
 
+def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
+    parsed_agenda_item_motions = []
+    for agenda_item_motion in agenda_item_motions.find_all('li', class_='AgendaItemMotion', recursive=False):
+        parsed_agenda_item_motion: dict[str, str] = {}
+        motion_number = agenda_item_motion.find('div', class_='Number', recursive=False)
+        motion_number_text = "" if motion_number is None else motion_number.get_text(strip=True)
+        motion_moved_by = agenda_item_motion.find('div', class_='MovedBy', recursive=False)
+        motion_moved_by_text = "" if motion_moved_by is None else motion_moved_by.get_text(strip=True)
+        motion_seconded_by = agenda_item_motion.find('div', class_='SecondedBy', recursive=False)
+        motion_seconded_by_text = "" if motion_seconded_by is None else motion_seconded_by.get_text(strip=True)
+        parsed_agenda_item_motion["motion_number"] = motion_number_text
+        parsed_agenda_item_motion["motion_moved_by"] = motion_moved_by_text
+        parsed_agenda_item_motion["motion_seconded_by"] = motion_seconded_by_text
+        if not any(parsed_agenda_item_motion.values()):
+            continue
+        parsed_agenda_item_motions.append(parsed_agenda_item_motion)
+    return parsed_agenda_item_motions
+
 def parse_agenda_item_container(agenda_item_container: BeautifulSoup) -> dict:
     parsed_agenda_item_container = {}
     agenda_items = agenda_item_container.find_all('div', class_='AgendaItem', recursive=False)
@@ -60,15 +79,37 @@ def parse_agenda_item_container(agenda_item_container: BeautifulSoup) -> dict:
         agenda_item_title = agenda_item.find('div', class_='AgendaItemTitle')
         parsed_agenda_item_container["agenda_item_number"] = "" if agenda_item_counter is None else agenda_item_counter.get_text(strip=True)
         parsed_agenda_item_container["title"] = "" if agenda_item_title is None else agenda_item_title.get_text(strip=True)
+        description_parts = []
+        minutes_parts = []
+        motions = []
         agenda_item_content_rows = agenda_item.find_all('div', class_='AgendaItemContentRow', recursive=False)
         for agenda_item_content_row in agenda_item_content_rows:
             agenda_item_description = agenda_item_content_row.find('div', class_='AgendaItemDescription', recursive=False)
             agenda_item_minutes = agenda_item_content_row.find('div', class_='AgendaItemMinutes', recursive=False)
+            agenda_item_motions = agenda_item_content_row.find('ul', class_='AgendaItemMotions', recursive=False)
             agenda_item_description_text = "" if agenda_item_description is None else "\n".join([p.get_text() for p in agenda_item_description.find_all('p')])
             agenda_item_minutes_text = "" if agenda_item_minutes is None else "\n".join([p.get_text() for p in agenda_item_minutes.find_all('p')])
-            parsed_agenda_item_container["description"] = agenda_item_description_text
-            parsed_agenda_item_container["minutes"] = agenda_item_minutes_text
-    sub_agenda_item_containers = agenda_item_container.find_all('div', class_='AgendaItemContainer', recursive=True)
+            if agenda_item_description_text:
+                description_parts.append(agenda_item_description_text)
+            if agenda_item_minutes_text:
+                minutes_parts.append(agenda_item_minutes_text)
+            if agenda_item_motions is not None:
+                motions.extend(parse_agenda_item_motions(agenda_item_motions))
+        parsed_agenda_item_container["description"] = "\n".join(description_parts)
+        parsed_agenda_item_container["minutes"] = "\n".join(minutes_parts)
+        parsed_agenda_item_container["motions"] = motions
+    sub_agenda_item_containers = []
+    for child_div in agenda_item_container.find_all('div', recursive=False):
+        child_classes = child_div.get("class", [])
+        if "AgendaItem" in child_classes:
+            continue
+        if "AgendaItemContainer" in child_classes:
+            sub_agenda_item_containers.append(child_div)
+            continue
+        sub_agenda_item_containers.extend(
+            child_div.find_all('div', class_='AgendaItemContainer', recursive=False)
+        )
+
     if len(sub_agenda_item_containers) > 0:
         sub_agenda_items = []
         for sub_agenda_item_container in sub_agenda_item_containers:

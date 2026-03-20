@@ -38,12 +38,10 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
         if attendance_label is not None and attendance_label.get_text(strip=True) == "Present:":
             present_councillors = attendance_div.find_all('li')
             for councillor in present_councillors:
-                logger.info("Present councillor: %s", normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
                 present_attendees.append(normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
         elif attendance_label is not None and attendance_label.get_text(strip=True) == "Absent:":
             absent_councillors = attendance_div.find_all('li')
             for councillor in absent_councillors:
-                logger.info("Absent councillor: %s", normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
                 absent_attendees.append(normalize_councillor_name(councillor.get_text(strip=True, separator=" ")))
     return {
         "meeting_number": int(meeting_number),
@@ -54,11 +52,50 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
         "absent_attendees": absent_attendees
     }
 
+def parse_agenda_item_container(agenda_item_container: BeautifulSoup) -> dict:
+    parsed_agenda_item_container = {}
+    agenda_items = agenda_item_container.find_all('div', class_='AgendaItem', recursive=False)
+    for agenda_item in agenda_items:
+        agenda_item_counter = agenda_item.find('div', class_='AgendaItemCounter')
+        agenda_item_title = agenda_item.find('div', class_='AgendaItemTitle')
+        parsed_agenda_item_container["agenda_item_number"] = "" if agenda_item_counter is None else agenda_item_counter.get_text(strip=True)
+        parsed_agenda_item_container["title"] = "" if agenda_item_title is None else agenda_item_title.get_text(strip=True)
+        agenda_item_content_rows = agenda_item.find_all('div', class_='AgendaItemContentRow', recursive=False)
+        for agenda_item_content_row in agenda_item_content_rows:
+            agenda_item_description = agenda_item_content_row.find('div', class_='AgendaItemDescription', recursive=False)
+            agenda_item_minutes = agenda_item_content_row.find('div', class_='AgendaItemMinutes', recursive=False)
+            agenda_item_description_text = "" if agenda_item_description is None else "\n".join([p.get_text() for p in agenda_item_description.find_all('p')])
+            agenda_item_minutes_text = "" if agenda_item_minutes is None else "\n".join([p.get_text() for p in agenda_item_minutes.find_all('p')])
+            parsed_agenda_item_container["description"] = agenda_item_description_text
+            parsed_agenda_item_container["minutes"] = agenda_item_minutes_text
+    sub_agenda_item_containers = agenda_item_container.find_all('div', class_='AgendaItemContainer', recursive=True)
+    if len(sub_agenda_item_containers) > 0:
+        sub_agenda_items = []
+        for sub_agenda_item_container in sub_agenda_item_containers:
+            parsed_sub_agenda_item_container = parse_agenda_item_container(sub_agenda_item_container)
+            sub_agenda_items.append(parsed_sub_agenda_item_container)
+        parsed_agenda_item_container["sub_agendas_items"] = sub_agenda_items
+    return parsed_agenda_item_container
+
+def parse_agenda_items(agenda_items: BeautifulSoup) -> dict:
+    parsed_agenda_items = []
+    agenda_item_containers = agenda_items.find_all('div', class_='AgendaItemContainer', recursive=False)
+    for agenda_item_container in agenda_item_containers:
+        parsed_agenda_item_container = parse_agenda_item_container(agenda_item_container)
+        parsed_agenda_items.append(parsed_agenda_item_container)
+
+    return {
+        "total_agenda_items": len(agenda_item_containers),
+        "agenda_items": parsed_agenda_items
+    }
+
+
 def parse_minutes_html(html: str, source: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     agenda_header = soup.find('header', class_='AgendaHeader')
-    logger.info(agenda_header)
+    agenda_items = soup.find('div', class_='AgendaItems')
     parsed_header = parse_header(agenda_header)
+    parsed_agenda_items = parse_agenda_items(agenda_items)
 
     return {
         "source": source,
@@ -69,8 +106,7 @@ def parse_minutes_html(html: str, source: str) -> dict:
         "meeting_location": parsed_header["meeting_location"],
         "present_attendees": parsed_header["present_attendees"],
         "absent_attendees": parsed_header["absent_attendees"],
-        "motions": [],
-        "votes": [],
+        "agenda_items": parsed_agenda_items,
     }
 
 def normalize_minutes_data(parsed: dict, source_url: str) -> dict:

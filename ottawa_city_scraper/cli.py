@@ -28,6 +28,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--end-date", default=(date.today() + timedelta(days=1)).strftime("%Y-%m-%d"), help="End date to scrape meetings until in format YYYY-mm-dd")
     parser.add_argument("--output-root", default="datasets", help="Directory where each run folder will be created")
     parser.add_argument(
+        "--meeting-name",
+        help="Only scrape meetings whose name matches this value exactly (case-insensitive)",
+    )
+    parser.add_argument(
         "--verify-cert",
         action="store_true",
         help="Verify TLS certificates (default: disabled for self-signed certificates)",
@@ -161,6 +165,18 @@ def filter_postminutes_html_english_documents(
     return filtered
 
 
+def filter_meetings_by_name(
+    meetings: list[dict[str, Any]],
+    meeting_name: str,
+) -> list[dict[str, Any]]:
+    meeting_name_normalized = meeting_name.strip().lower()
+    return [
+        meeting
+        for meeting in meetings
+        if (meeting.get("name") or "").strip().lower() == meeting_name_normalized
+    ]
+
+
 def print_meeting_documents(meetings: list[dict[str, Any]]) -> None:
     for meeting in meetings:
         meeting_name = meeting.get("name") or "Unknown meeting"
@@ -224,6 +240,8 @@ def main(args: argparse.Namespace) -> int:
     run_dir = create_run_directory(args)
     meetings_path = fetch_calendar_meetings(args, run_dir)
     meetings = parse_meetings_json(meetings_path)
+    if args.meeting_name:
+        meetings = filter_meetings_by_name(meetings, args.meeting_name)
     postminutes_html_english = filter_postminutes_html_english_documents(meetings)
     postminutes_html_english_count = sum(len(m.get("documents", [])) for m in postminutes_html_english)
     print_meeting_documents(postminutes_html_english)

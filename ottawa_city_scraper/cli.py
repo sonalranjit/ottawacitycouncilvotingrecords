@@ -1,6 +1,7 @@
 import requests
 import json
 import argparse
+import re
 from datetime import date, datetime, timedelta
 import logging
 from pathlib import Path
@@ -8,6 +9,7 @@ from zoneinfo import ZoneInfo
 from typing import Any
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
+from meeting_minutes_scraper import scrape_minutes_page
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
@@ -25,6 +27,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--start-date", default=date.today().strftime("%Y-%m-%d"), help="Start date to scrape meetings from in format YYYY-mm-dd")
     parser.add_argument("--end-date", default=(date.today() + timedelta(days=1)).strftime("%Y-%m-%d"), help="End date to scrape meetings until in format YYYY-mm-dd")
     parser.add_argument("--output-root", default="datasets", help="Directory where each run folder will be created")
+    parser.add_argument(
+        "--meeting-name",
+        help="Only scrape meetings whose name matches this value exactly (case-insensitive)",
+    )
     parser.add_argument(
         "--verify-cert",
         action="store_true",
@@ -45,6 +51,30 @@ def create_run_directory(args: argparse.Namespace, now: datetime | None = None) 
     run_dir = output_root / build_run_dir_name(args.start_date, args.end_date, now=now)
     run_dir.mkdir()
     return run_dir
+
+
+def write_json_to_run_dir(
+    run_dir: Path,
+    filename: str,
+    payload: Any,
+    *,
+    log_label: str | None = None,
+) -> Path:
+    output_path = run_dir / filename
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+    logger.info("Saved %s to %s", log_label or filename, output_path)
+    return output_path
+
+
+def build_meeting_minutes_filename(meeting: dict[str, Any]) -> str:
+    meeting_name = meeting.get("name") or "meeting"
+    start_date = meeting.get("start_date") or ""
+    meeting_id = meeting.get("id") or "unknown-id"
+
+    start_dt = datetime.strptime(start_date, "%Y/%m/%d %H:%M:%S")
+    slug = re.sub(r"[^a-z0-9]+", "_", meeting_name.lower()).strip("_")
+    return f"{start_dt:%Y-%m-%d}_{slug}_{meeting_id}_postminutes.json"
 
 
 def format_calendar_datetime(date_text: str) -> str:
@@ -135,6 +165,18 @@ def filter_postminutes_html_english_documents(
     return filtered
 
 
+def filter_meetings_by_name(
+    meetings: list[dict[str, Any]],
+    meeting_name: str,
+) -> list[dict[str, Any]]:
+    meeting_name_normalized = meeting_name.strip().lower()
+    return [
+        meeting
+        for meeting in meetings
+        if (meeting.get("name") or "").strip().lower() == meeting_name_normalized
+    ]
+
+
 def print_meeting_documents(meetings: list[dict[str, Any]]) -> None:
     for meeting in meetings:
         meeting_name = meeting.get("name") or "Unknown meeting"
@@ -167,7 +209,6 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
         "/MeetingsCalendarView.aspx/GetCalendarMeetings"
     )
     headers = {
-        "Accept": "application/json, text/javascript, */*; q=0.01",
         "Content-Type": "application/json",
     }
     payload = {
@@ -186,11 +227,12 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
             verify=args.verify_cert,
         )
     response.raise_for_status()
-    output_path = run_dir / "calendar_meetings.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(response.json(), f, indent=2)
-    logger.info("Saved calendar meetings to %s", output_path)
-    return output_path
+    return write_json_to_run_dir(
+        run_dir,
+        "calendar_meetings.json",
+        response.json(),
+        log_label="calendar meetings",
+    )
 
 
 
@@ -198,6 +240,8 @@ def main(args: argparse.Namespace) -> int:
     run_dir = create_run_directory(args)
     meetings_path = fetch_calendar_meetings(args, run_dir)
     meetings = parse_meetings_json(meetings_path)
+    if args.meeting_name:
+        meetings = filter_meetings_by_name(meetings, args.meeting_name)
     postminutes_html_english = filter_postminutes_html_english_documents(meetings)
     postminutes_html_english_count = sum(len(m.get("documents", [])) for m in postminutes_html_english)
     print_meeting_documents(postminutes_html_english)
@@ -207,6 +251,22 @@ def main(args: argparse.Namespace) -> int:
     logger.info(f"Parsed meetings: {len(meetings)}")
     logger.info(f"Start date: {args.start_date}")
     logger.info(f"End date: {args.end_date}")
+    for meeting in postminutes_html_english:
+        output_filename = build_meeting_minutes_filename(meeting)
+        for document in meeting.get("documents", []):
+            meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{document['url']}"
+            logger.info("Scraping: %s", meeting_minutes_to_scrape)
+            write_json_to_run_dir(
+                run_dir,
+                output_filename,
+                scrape_minutes_page(
+                    url=meeting_minutes_to_scrape,
+                    verify_cert=args.verify_cert,
+                    base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
+                ),
+                log_label="scraped meeting minutes",
+            )
+    
     return 0
 
 if __name__ == "__main__":

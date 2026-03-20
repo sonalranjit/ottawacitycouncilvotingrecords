@@ -87,12 +87,19 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
     for agenda_item_motion in agenda_item_motions.find_all('li', class_='AgendaItemMotion', recursive=False):
         parsed_agenda_item_motion: dict[str, str] = {}
         pre_motion_text = agenda_item_motion.find('div', class_='PremotionText', recursive=False)
+
         motion_number = agenda_item_motion.find('div', class_='Number', recursive=False)
-        motion_number_text = "" if motion_number is None else motion_number.get_text(strip=True)
+        motion_number_value = None if motion_number is None else motion_number.find('span', class_='Value', recursive=False)
+        motion_number_text = "" if motion_number_value is None else motion_number_value.get_text(strip=True)
+
         motion_moved_by = agenda_item_motion.find('div', class_='MovedBy', recursive=False)
-        motion_moved_by_text = "" if motion_moved_by is None else motion_moved_by.get_text(strip=True)
+        motion_moved_by_value = None if motion_moved_by is None else motion_moved_by.find('span', class_='Value', recursive=False)
+        motion_moved_by_text = "" if motion_moved_by_value is None else motion_moved_by_value.get_text(strip=True)
+
         motion_seconded_by = agenda_item_motion.find('div', class_='SecondedBy', recursive=False)
-        motion_seconded_by_text = "" if motion_seconded_by is None else motion_seconded_by.get_text(strip=True)
+        motion_seconded_by_value = None if motion_seconded_by is None else motion_seconded_by.find('span', class_='Value', recursive=False)
+        motion_seconded_by_text = "" if motion_seconded_by_value is None else motion_seconded_by_value.get_text(strip=True)
+
         motion_text = agenda_item_motion.find('div', class_='MotionText', recursive=False)
         motion_voters = agenda_item_motion.find('table', class_='MotionVoters', recursive=False)
         parsed_motion_voters = {}

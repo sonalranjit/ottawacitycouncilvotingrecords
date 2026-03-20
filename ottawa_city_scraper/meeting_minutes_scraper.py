@@ -57,15 +57,24 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
     parsed_agenda_item_motions = []
     for agenda_item_motion in agenda_item_motions.find_all('li', class_='AgendaItemMotion', recursive=False):
         parsed_agenda_item_motion: dict[str, str] = {}
+        pre_motion_text = agenda_item_motion.find('div', class_='PremotionText', recursive=False)
         motion_number = agenda_item_motion.find('div', class_='Number', recursive=False)
         motion_number_text = "" if motion_number is None else motion_number.get_text(strip=True)
         motion_moved_by = agenda_item_motion.find('div', class_='MovedBy', recursive=False)
         motion_moved_by_text = "" if motion_moved_by is None else motion_moved_by.get_text(strip=True)
         motion_seconded_by = agenda_item_motion.find('div', class_='SecondedBy', recursive=False)
         motion_seconded_by_text = "" if motion_seconded_by is None else motion_seconded_by.get_text(strip=True)
+        motion_text = agenda_item_motion.find('div', class_='MotionText', recursive=False)
+        motion_result = agenda_item_motion.find('div', class_='MotionResult', recursive=False)
+        motion_result_text = "" if motion_result is None else motion_result.get_text(strip=True)
+        post_motion_text = agenda_item_motion.find('div', class_='PostMotionText', recursive=False)
+        parsed_agenda_item_motion["premotion_text"] = "" if pre_motion_text is None else pre_motion_text.get_text(strip=True)
         parsed_agenda_item_motion["motion_number"] = motion_number_text
         parsed_agenda_item_motion["motion_moved_by"] = motion_moved_by_text
         parsed_agenda_item_motion["motion_seconded_by"] = motion_seconded_by_text
+        parsed_agenda_item_motion["motion_text"] = "" if motion_text is None else motion_text.get_text(strip=True)
+        parsed_agenda_item_motion["motion_result"] = motion_result_text
+        parsed_agenda_item_motion["post_motion_text"] = "" if post_motion_text is None else post_motion_text.get_text(strip=True)
         if not any(parsed_agenda_item_motion.values()):
             continue
         parsed_agenda_item_motions.append(parsed_agenda_item_motion)

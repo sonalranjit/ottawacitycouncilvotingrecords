@@ -194,9 +194,15 @@ def parse_minutes_html(html: str, source: str) -> dict:
 def normalize_minutes_data(parsed: dict, source_url: str) -> dict:
     return {
         "source_url": source_url,
+        "source": parsed.get("source"),
         "title": parsed.get("title"),
-        "motions": parsed.get("motions", []),
-        "votes": parsed.get("votes", []),
+        "meeting_number": parsed.get("meeting_number"),
+        "meeting_date": parsed.get("meeting_date"),
+        "meeting_start_time": parsed.get("meeting_start_time"),
+        "meeting_location": parsed.get("meeting_location"),
+        "present_attendees": parsed.get("present_attendees", []),
+        "absent_attendees": parsed.get("absent_attendees", []),
+        "agenda_items": parsed.get("agenda_items", {}),
     }
 
 def scrape_minutes_page(
@@ -218,7 +224,6 @@ def scrape_minutes_page(
     if url is None:
         raise ValueError("url is required when html_file is not provided")
 
-    logger.info("Scraping minutes page: %s", url)
     html = fetch_html(url, verify_cert=verify_cert)
     parsed = parse_minutes_html(html, source=url)
     return normalize_minutes_data(parsed, source_url=url)

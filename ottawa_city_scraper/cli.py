@@ -241,7 +241,11 @@ def main(args: argparse.Namespace) -> int:
             write_json_to_run_dir(
                 run_dir,
                 output_filename,
-                scrape_minutes_page(url=meeting_minutes_to_scrape, verify_cert=args.verify_cert),
+                scrape_minutes_page(
+                    url=meeting_minutes_to_scrape,
+                    verify_cert=args.verify_cert,
+                    base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
+                ),
                 log_label="scraped meeting minutes",
             )
     

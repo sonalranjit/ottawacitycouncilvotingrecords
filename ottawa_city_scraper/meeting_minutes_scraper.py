@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
 def fetch_html(url: str, verify_cert: bool = False) -> str:
     session = requests.Session()
@@ -113,14 +114,32 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
         parsed_agenda_item_motions.append(parsed_agenda_item_motion)
     return parsed_agenda_item_motions
 
+def parse_agenda_item_attachments_list(agenda_item_attachments_list: BeautifulSoup) -> list[dict]:
+    attachments_list = []
+    agenda_item_attachments = agenda_item_attachments_list.find_all('div', class_='AgendaItemAttachment', recursive=False)
+
+    for agenda_item_attachment in agenda_item_attachments:
+        attachment = {}
+        attachment_a_tag= agenda_item_attachment.find('a', recursive=False)
+        if attachment_a_tag is not None:
+            attachment["link"] = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{attachment_a_tag["href"]}"
+            attachment["attachment_title"] = attachment_a_tag["data-original-title"]
+            attachments_list.append(attachment)
+    return attachments_list
+
 def parse_agenda_item_container(agenda_item_container: BeautifulSoup) -> dict:
     parsed_agenda_item_container = {}
     agenda_items = agenda_item_container.find_all('div', class_='AgendaItem', recursive=False)
     for agenda_item in agenda_items:
         agenda_item_counter = agenda_item.find('div', class_='AgendaItemCounter')
         agenda_item_title = agenda_item.find('div', class_='AgendaItemTitle')
+        agenda_item_attachments_list = agenda_item.find('div', class_='AgendaItemAttachmentsList', recursive=True)
+        parsed_agenda_item_attachments_list = []
+        if agenda_item_attachments_list is not None:
+            parsed_agenda_item_attachments_list = parse_agenda_item_attachments_list(agenda_item_attachments_list)
         parsed_agenda_item_container["agenda_item_number"] = "" if agenda_item_counter is None else agenda_item_counter.get_text(strip=True)
         parsed_agenda_item_container["title"] = "" if agenda_item_title is None else agenda_item_title.get_text(strip=True)
+        parsed_agenda_item_container["attachments"] = parsed_agenda_item_attachments_list
         description_parts = []
         minutes_parts = []
         motions = []
@@ -173,7 +192,7 @@ def parse_agenda_items(agenda_items: BeautifulSoup) -> dict:
     }
 
 
-def parse_minutes_html(html: str, source: str) -> dict:
+def parse_minutes_html(html: str, source: str, base_url: str | None = None) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     agenda_header = soup.find('header', class_='AgendaHeader')
     agenda_items = soup.find('div', class_='AgendaItems')
@@ -182,6 +201,7 @@ def parse_minutes_html(html: str, source: str) -> dict:
 
     return {
         "source": source,
+        "base_url": base_url,
         "title": soup.title.get_text(strip=True) if soup.title else None,
         "meeting_number": parsed_header["meeting_number"],
         "meeting_date": parsed_header["meeting_date"],
@@ -196,6 +216,7 @@ def normalize_minutes_data(parsed: dict, source_url: str) -> dict:
     return {
         "source_url": source_url,
         "source": parsed.get("source"),
+        "base_url": parsed.get("base_url"),
         "title": parsed.get("title"),
         "meeting_number": parsed.get("meeting_number"),
         "meeting_date": parsed.get("meeting_date"),
@@ -211,7 +232,9 @@ def scrape_minutes_page(
         url: str | None = None,
         html_file: str | Path | None = None,
         verify_cert: bool = False,
+        base_url: str | None = None,
     ) -> dict:
+    resolved_base_url = base_url or OTTAWA_ESCRIBE_MEETINGS_BASE_URL
     if url is not None and html_file is not None:
         raise ValueError("Provide exactly one of 'url' or 'html_file'")
     
@@ -220,11 +243,11 @@ def scrape_minutes_page(
 
     if html_file is not None:
         html = load_html_file(html_file)
-        return parse_minutes_html(html, source=str(html_file))
+        return parse_minutes_html(html, source=str(html_file), base_url=resolved_base_url)
     
     if url is None:
         raise ValueError("url is required when html_file is not provided")
 
     html = fetch_html(url, verify_cert=verify_cert)
-    parsed = parse_minutes_html(html, source=url)
+    parsed = parse_minutes_html(html, source=url, base_url=resolved_base_url)
     return normalize_minutes_data(parsed, source_url=url)

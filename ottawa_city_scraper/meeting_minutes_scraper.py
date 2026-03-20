@@ -4,6 +4,7 @@ import logging
 from urllib.parse import urljoin
 from pathlib import Path
 from typing import Any
+import re
 
 from bs4 import BeautifulSoup
 
@@ -53,6 +54,32 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
         "absent_attendees": absent_attendees
     }
 
+def parse_motion_voters(motion_voters: BeautifulSoup) -> dict:
+    parsed_votes = {} 
+    vote_rows = motion_voters.find_all('tr')
+    for vote_row in vote_rows:
+        voter_vote = vote_row.find('td', class_='VoterVote', recursive=False)
+        votes_users = vote_row.find('td', class_='VotesUsers', recursive=False)
+        voter_vote_text = "" if voter_vote is None else voter_vote.get_text(strip=True)
+        votes_users = "" if votes_users is None else votes_users.get_text(strip=True).split(',')
+        votes_users_sanitized = []
+        for votes_user in  votes_users:
+            sanitized_user_text = votes_user.removeprefix(" ").removeprefix(" and ")
+            votes_users_sanitized.append(sanitized_user_text)
+        if voter_vote_text.startswith("For"):
+            for_votes_match = re.search(r"\((\d+)\)", voter_vote_text)
+            parsed_votes["for"] = {
+                "councillors": votes_users_sanitized,
+                "count": int(for_votes_match.group(1))
+            } 
+        elif voter_vote_text.startswith("Against"):
+            against_votes_match = re.search(r"\((\d+)\)", voter_vote_text)
+            parsed_votes["against"] = {
+                "councillors": votes_users_sanitized,
+                "count": int(against_votes_match.group(1))
+            }
+    return parsed_votes
+
 def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
     parsed_agenda_item_motions = []
     for agenda_item_motion in agenda_item_motions.find_all('li', class_='AgendaItemMotion', recursive=False):
@@ -65,6 +92,10 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
         motion_seconded_by = agenda_item_motion.find('div', class_='SecondedBy', recursive=False)
         motion_seconded_by_text = "" if motion_seconded_by is None else motion_seconded_by.get_text(strip=True)
         motion_text = agenda_item_motion.find('div', class_='MotionText', recursive=False)
+        motion_voters = agenda_item_motion.find('table', class_='MotionVoters', recursive=False)
+        parsed_motion_voters = {}
+        if motion_voters is not None:
+            parsed_motion_voters = parse_motion_voters(motion_voters)
         motion_result = agenda_item_motion.find('div', class_='MotionResult', recursive=False)
         motion_result_text = "" if motion_result is None else motion_result.get_text(strip=True)
         post_motion_text = agenda_item_motion.find('div', class_='PostMotionText', recursive=False)
@@ -73,6 +104,7 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
         parsed_agenda_item_motion["motion_moved_by"] = motion_moved_by_text
         parsed_agenda_item_motion["motion_seconded_by"] = motion_seconded_by_text
         parsed_agenda_item_motion["motion_text"] = "" if motion_text is None else motion_text.get_text(strip=True)
+        parsed_agenda_item_motion["motion_votes"] = parsed_motion_voters
         parsed_agenda_item_motion["motion_result"] = motion_result_text
         parsed_agenda_item_motion["post_motion_text"] = "" if post_motion_text is None else post_motion_text.get_text(strip=True)
         if not any(parsed_agenda_item_motion.values()):

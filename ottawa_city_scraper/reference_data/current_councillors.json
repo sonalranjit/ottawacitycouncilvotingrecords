@@ -75,7 +75,7 @@
        "full_name": "Glen Gower",
        "first_name": "Glen",
        "last_name": "Gower",
-       "first_name_initial": "G. Glower",
+       "first_name_initial": "G. Gower",
        "title": "Councillor",
        "ward_number": "6",
        "ward_name": "Stittsville",
@@ -238,6 +238,18 @@
        "telephone": "613-580-2489",
        "fax": "613-580-2697",
        "email": "catherine.kitts@ottawa.ca"
+   },
+   {
+       "full_name": "George Darouze",
+       "first_name": "George",
+       "last_name": "Darouze",
+       "first_name_initial": "G. Darouze",
+       "title": "Councillor",
+       "ward_number": "20",
+       "ward_name": "Osgoode",
+       "telephone": "",
+       "fax": "",
+       "email": "george.darouze@ottawa.ca"
    },
    {
        "full_name": "Isabelle Skalski",

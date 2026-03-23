@@ -10,6 +10,9 @@ from typing import Any
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 from meeting_minutes_scraper import scrape_minutes_page
+from db.connection import get_connection
+from db.schema import create_tables
+from db import upsert
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
@@ -35,6 +38,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--verify-cert",
         action="store_true",
         help="Verify TLS certificates (default: disabled for self-signed certificates)",
+    )
+    parser.add_argument(
+        "--db-path",
+        default="ottawa_council.duckdb",
+        help="Path to the persistent DuckDB file (default: ottawa_council.duckdb)",
     )
     return parser.parse_args(argv)
 
@@ -237,6 +245,11 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
 
 
 def main(args: argparse.Namespace) -> int:
+    con = get_connection(args.db_path)
+    create_tables(con)
+    upsert.seed_councillors(con)
+    logger.info("Database ready: %s", args.db_path)
+
     run_dir = create_run_directory(args)
     meetings_path = fetch_calendar_meetings(args, run_dir)
     meetings = parse_meetings_json(meetings_path)
@@ -256,17 +269,20 @@ def main(args: argparse.Namespace) -> int:
         for document in meeting.get("documents", []):
             meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{document['url']}"
             logger.info("Scraping: %s", meeting_minutes_to_scrape)
+            scraped = scrape_minutes_page(
+                url=meeting_minutes_to_scrape,
+                verify_cert=args.verify_cert,
+                base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
+            )
             write_json_to_run_dir(
                 run_dir,
                 output_filename,
-                scrape_minutes_page(
-                    url=meeting_minutes_to_scrape,
-                    verify_cert=args.verify_cert,
-                    base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
-                ),
+                scraped,
                 log_label="scraped meeting minutes",
             )
-    
+            upsert.insert_meeting(con, meeting["id"], meeting, scraped)
+
+    con.close()
     return 0
 
 if __name__ == "__main__":

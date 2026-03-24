@@ -29,7 +29,8 @@ def normalize_councillor_name(raw_name: str) -> str:
 def parse_header(agenda_header: BeautifulSoup) -> dict:
     agenda_header_details_table = agenda_header.find('div', class_='AgendaHeaderDetailsTable')
     meeting_number = None if agenda_header_details_table is None else agenda_header_details_table.find('div', class_='AgendaMeetingNumberText')
-    meeting_number_int = meeting_number.get_text(strip=True) if meeting_number is not None and meeting_number != "" else 0
+    meeting_number_text = "" if meeting_number is None else meeting_number.get_text(strip=True)
+    meeting_number_int = int(meeting_number_text) if meeting_number_text != "" else 0
     agenda_meeting_time = None if agenda_header_details_table is None else agenda_header_details_table.find('div', class_='AgendaMeetingTime')
     agenda_meeting_time_time =  None if agenda_meeting_time is None else agenda_meeting_time.find('time')
     agenda_meeting_time_datetime = None if agenda_meeting_time_time is None else agenda_meeting_time_time['datetime']
@@ -70,10 +71,11 @@ def parse_motion_voters(motion_voters: BeautifulSoup) -> dict:
         votes_users = vote_row.find('td', class_='VotesUsers', recursive=False)
         voter_vote_text = "" if voter_vote is None else voter_vote.get_text(strip=True)
         votes_users = "" if votes_users is None else votes_users.get_text(strip=True).split(',')
-        votes_users_sanitized = []
-        for votes_user in  votes_users:
-            sanitized_user_text = votes_user.removeprefix(" ").removeprefix(" and ")
-            votes_users_sanitized.append(sanitized_user_text)
+        votes_users_sanitized = [
+            normalize_councillor_name(v)
+            for v in votes_users
+            if normalize_councillor_name(v)
+        ]
         if voter_vote_text.startswith("For"):
             for_votes_match = re.search(r"\((\d+)\)", voter_vote_text)
             parsed_votes["for"] = {

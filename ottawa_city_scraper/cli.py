@@ -2,6 +2,7 @@ import requests
 import json
 import argparse
 import re
+from fnmatch import fnmatch
 from datetime import date, datetime, timedelta
 import logging
 from pathlib import Path
@@ -32,7 +33,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--output-root", default="datasets", help="Directory where each run folder will be created")
     parser.add_argument(
         "--meeting-name",
-        help="Only scrape meetings whose name matches this value exactly (case-insensitive)",
+        required=True,
+        nargs="+",
+        metavar="NAME",
+        help="One or more meeting name patterns to scrape (required). Supports wildcards (* and ?). e.g. 'City Council' '*Committee*'",
     )
     parser.add_argument(
         "--verify-cert",
@@ -175,13 +179,13 @@ def filter_postminutes_html_english_documents(
 
 def filter_meetings_by_name(
     meetings: list[dict[str, Any]],
-    meeting_name: str,
+    meeting_names: list[str],
 ) -> list[dict[str, Any]]:
-    meeting_name_normalized = meeting_name.strip().lower()
+    patterns = [name.strip().lower() for name in meeting_names]
     return [
         meeting
         for meeting in meetings
-        if (meeting.get("name") or "").strip().lower() == meeting_name_normalized
+        if any(fnmatch((meeting.get("name") or "").strip().lower(), p) for p in patterns)
     ]
 
 

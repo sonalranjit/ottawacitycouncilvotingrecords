@@ -169,7 +169,8 @@ def main() -> None:
 
     if args.list:
         for c in sorted(councillors, key=lambda x: x["last_name"]):
-            print(f"{c['full_name']:25}  {_to_slug(c['full_name'])}")
+            suffix = "" if c.get("active", True) else "  (inactive)"
+            print(f"{c['full_name']:25}  {_to_slug(c['full_name'])}{suffix}")
         return
 
     con = duckdb.connect(args.db, read_only=True)

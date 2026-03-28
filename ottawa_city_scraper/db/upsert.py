@@ -29,8 +29,8 @@ def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
             """
             INSERT OR REPLACE INTO councillors
                 (full_name, first_name, last_name, first_name_initial,
-                 title, ward_number, ward_name, telephone, fax, email)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 title, ward_number, ward_name, telephone, fax, email, active)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             [
                 c.get("full_name", ""),
@@ -43,6 +43,7 @@ def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
                 c.get("telephone", ""),
                 c.get("fax", ""),
                 c.get("email", ""),
+                c.get("active", True),
             ],
         )
     logger.info("Seeded %d councillors", len(councillors))

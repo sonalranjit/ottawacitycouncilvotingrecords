@@ -153,6 +153,41 @@ def _insert_agenda_item(
         _insert_agenda_item(con, meeting_id, sub_item)
 
 
+def _reconstruct_dissent_votes(
+    con: duckdb.DuckDBPyConnection,
+    meeting_id: str,
+    dissenters: list[str],
+) -> dict[str, Any]:
+    """
+    Build a for/against vote dict from dissent-only notation.
+
+    Attendance has already been inserted before motions are processed, so we can
+    join meeting_attendance with councillors to get the initial-format names that
+    match what the structured MotionVoters tables produce.
+    """
+    # Join on full_name first; fall back to matching on last name alone to handle
+    # councillors whose HTML attendance name differs from the reference full_name
+    # (e.g. "Matt Luloff" in HTML vs "Matthew Luloff" in the reference data).
+    # All councillor last names are unique so last-name matching is unambiguous.
+    rows = con.execute(
+        """
+        SELECT c.first_name_initial
+        FROM meeting_attendance ma
+        JOIN councillors c
+          ON ma.councillor_name = c.full_name
+          OR SPLIT_PART(ma.councillor_name, ' ', 2) = SPLIT_PART(c.full_name, ' ', 2)
+        WHERE ma.meeting_id = ? AND ma.status = 'present'
+        """,
+        [meeting_id],
+    ).fetchall()
+    present_initials = [r[0] for r in rows]
+    for_voters = [name for name in present_initials if name not in dissenters]
+    return {
+        "for": {"councillors": for_voters, "count": len(for_voters)},
+        "against": {"councillors": dissenters, "count": len(dissenters)},
+    }
+
+
 def _insert_motion(
     con: duckdb.DuckDBPyConnection,
     meeting_id: str,
@@ -164,6 +199,9 @@ def _insert_motion(
     motion_id = _hash(item_id, motion_number, motion.get("motion_moved_by", ""), motion_text[:100])
 
     motion_votes = motion.get("motion_votes", {})
+    dissent_voters = motion.get("dissent_voters", [])
+    if not motion_votes and dissent_voters:
+        motion_votes = _reconstruct_dissent_votes(con, meeting_id, dissent_voters)
     for_data = motion_votes.get("for", {})
     against_data = motion_votes.get("against", {})
 

@@ -17,7 +17,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from conftest import normalize_meeting_url
+from conftest import normalize_meeting_url, CUTOFF_DATE
 
 ROOT = Path(__file__).resolve().parents[1]
 HORIZON_DIR = ROOT / "datasets" / "horizonottawa" / "votes_by_councillor" / "csv"
@@ -27,6 +27,8 @@ EXPORT_DIR  = ROOT / "datasets" / "exported-votes"
 def _load(directory: Path, normalize: bool = False) -> pd.DataFrame:
     frames = [pd.read_csv(f) for f in sorted(directory.glob("*.csv"))]
     df = pd.concat(frames, ignore_index=True)
+    df["date"] = pd.to_datetime(df["date"])
+    df = df[df["date"] >= CUTOFF_DATE].copy()
     df["meeting_url"] = normalize_meeting_url(df["meeting_link"]) if normalize else df["meeting_link"]
     df["for_count"]     = df["vote_tally"].str.extract(r"(\d+) Yes").astype(int)
     df["against_count"] = df["vote_tally"].str.extract(r"(\d+) No").astype(int)

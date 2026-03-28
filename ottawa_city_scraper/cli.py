@@ -76,6 +76,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--max-delay", type=float, default=3.0,
         help="Maximum seconds to wait between meeting scrapes (default: 3.0)",
     )
+    parser.add_argument(
+        "--no-parquet", action="store_true",
+        help="Skip Parquet export after scraping (default: export enabled)",
+    )
     return parser.parse_args(argv)
 
 
@@ -295,6 +299,7 @@ def main(args: argparse.Namespace) -> int:
     logger.info(f"Parsed meetings: {len(meetings)}")
     logger.info(f"Start date: {args.start_date}")
     logger.info(f"End date: {args.end_date}")
+    scraped_meeting_ids: list[str] = []
     for meeting in postminutes_html_english:
         output_filename = build_meeting_minutes_filename(meeting)
         for document in meeting.get("documents", []):
@@ -313,10 +318,15 @@ def main(args: argparse.Namespace) -> int:
                 log_label="scraped meeting minutes",
             )
             upsert.insert_meeting(con, meeting["id"], meeting, scraped)
+            scraped_meeting_ids.append(meeting["id"])
             delay = random.uniform(args.min_delay, args.max_delay)
             if delay > 0:
                 logger.info("Waiting %.1fs before next request...", delay)
                 time.sleep(delay)
+
+    if not args.no_parquet and scraped_meeting_ids:
+        from .db.parquet_export import export_run_parquet
+        export_run_parquet(con, run_dir, scraped_meeting_ids)
 
     con.close()
     return 0

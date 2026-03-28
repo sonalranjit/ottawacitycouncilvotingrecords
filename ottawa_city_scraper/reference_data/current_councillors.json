@@ -3,275 +3,338 @@
         "full_name": "Mark Sutcliffe",
         "first_name": "Mark",
         "last_name": "Sutcliffe",
+        "first_name_initial": "M. Sutcliffe",
         "title": "Mayor",
         "ward_number": "",
         "ward_name": "",
         "telephone": "613-580-2496",
         "fax": "613-580-2509",
-        "email": "mark.sutcliffe@ottawa.ca"
+        "email": "mark.sutcliffe@ottawa.ca",
+        "active": true
    },
    {
        "full_name": "Matthew Luloff",
        "first_name": "Matthew",
        "last_name": "Luloff",
+       "first_name_initial": "M. Luloff",
        "title": "Councillor and Deputy Mayor",
        "ward_number": "1",
        "ward_name": "Orléans East-Cumberland",
        "telephone": "613-580-2471",
        "fax": "613-580-2511",
-       "email": "matt.luloff@ottawa.ca"
+       "email": "matt.luloff@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Laura Dudas",
        "first_name": "Laura",
        "last_name": "Dudas",
+       "first_name_initial": "L. Dudas",
        "title": "Councillor",
        "ward_number": "2",
        "ward_name": "Orléans West-Innes",
        "telephone": "613-580-2472",
        "fax": "613-580-2512",
-       "email": "laura.dudas@ottawa.ca"
+       "email": "laura.dudas@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "David Hill",
        "first_name": "David",
        "last_name": "Hill",
+       "first_name_initial": "D. Hill",
        "title": "Councillor",
        "ward_number": "3",
        "ward_name": "Barrhaven West",
        "telephone": "613-580-2473",
        "fax": "613-580-2513",
-       "email": "david.hill@ottawa.ca"
+       "email": "david.hill@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Cathy Curry",
        "first_name": "Cathy",
        "last_name": "Curry",
+       "first_name_initial": "C. Curry",
        "title": "Councillor",
        "ward_number": "4",
        "ward_name": "Kanata North",
        "telephone": "613-580-2474",
        "fax": "613-580-2514",
-       "email": "cathy.curry@ottawa.ca"
+       "email": "cathy.curry@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Clarke Kelly",
        "first_name": "Clarke",
        "last_name": "Kelly",
+       "first_name_initial": "C. Kelly",
        "title": "Councillor",
        "ward_number": "5",
        "ward_name": "West Carleton-March",
        "telephone": "613-580-2475",
        "fax": "613-580-2515",
-       "email": "clarke.kelly@ottawa.ca"
+       "email": "clarke.kelly@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Glen Gower",
        "first_name": "Glen",
        "last_name": "Gower",
+       "first_name_initial": "G. Gower",
        "title": "Councillor",
        "ward_number": "6",
        "ward_name": "Stittsville",
        "telephone": "613-580-2476",
        "fax": "613-580-2516",
-       "email": "glen.gower@ottawa.ca"
+       "email": "glen.gower@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Theresa Kavanagh",
        "first_name": "Theresa",
        "last_name": "Kavanagh",
+       "first_name_initial": "T. Kavanagh",
        "title": "Councillor",
        "ward_number": "7",
        "ward_name": "Bay",
        "telephone": "613-580-2477",
        "fax": "613-580-2517",
-       "email": "bayward@ottawa.ca"
+       "email": "bayward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Laine Johnson",
        "first_name": "Laine",
        "last_name": "Johnson",
+       "first_name_initial": "L. Johnson",
        "title": "Councillor",
        "ward_number": "8",
        "ward_name": "College",
        "telephone": "613-580-2478",
        "fax": "613-580-2518",
-       "email": "collegeward@ottawa.ca"
+       "email": "collegeward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Sean Devine",
        "first_name": "Sean",
        "last_name": "Devine",
+       "first_name_initial": "S. Devine",
        "title": "Councillor",
        "ward_number": "9",
        "ward_name": "Knoxdale-Merivale",
        "telephone": "613-580-2479",
        "fax": "613-580-2519",
-       "email": "knoxdalemerivale@ottawa.ca"
+       "email": "knoxdalemerivale@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Jessica Bradley",
        "first_name": "Jessica",
        "last_name": "Bradley",
+       "first_name_initial": "J. Bradley",
        "title": "Councillor",
        "ward_number": "10",
        "ward_name": "Gloucester-Southgate",
        "telephone": "613-580-2480",
        "fax": "613-580-2520",
-       "email": "jessica.bradley@ottawa.ca"
+       "email": "jessica.bradley@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Tim Tierney",
        "first_name": "Tim",
        "last_name": "Tierney",
+       "first_name_initial": "T. Tierney",
        "title": "Councillor",
        "ward_number": "11",
        "ward_name": "Beacon Hill-Cyrville",
        "telephone": "613-580-2481",
        "fax": "613-580-2521",
-       "email": "tim.tierney@ottawa.ca"
+       "email": "tim.tierney@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Stéphanie Plante",
        "first_name": "Stéphanie",
        "last_name": "Plante",
+       "first_name_initial": "S. Plante",
        "title": "Councillor",
        "ward_number": "12",
        "ward_name": "Rideau-Vanier",
        "telephone": "613-580-2482",
        "fax": "613-580-2522",
-       "email": "stephanie.plante@ottawa.ca"
+       "email": "stephanie.plante@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Rawlson King",
        "first_name": "Rawlson",
        "last_name": "King",
+       "first_name_initial": "R. King",
        "title": "Councillor",
        "ward_number": "13",
        "ward_name": "Rideau-Rockcliffe",
        "telephone": "613-580-2483",
        "fax": "613-580-2523",
-       "email": "rideaurockcliffeward@ottawa.ca"
+       "email": "rideaurockcliffeward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Ariel Troster",
        "first_name": "Ariel",
        "last_name": "Troster",
+       "first_name_initial": "A. Troster",
        "title": "Councillor",
        "ward_number": "14",
        "ward_name": "Somerset",
        "telephone": "613-580-2484",
        "fax": "613-580-2524",
-       "email": "ariel.troster@ottawa.ca"
+       "email": "ariel.troster@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Jeff Leiper",
        "first_name": "Jeff",
        "last_name": "Leiper",
+       "first_name_initial": "J. Leiper",
        "title": "Councillor",
        "ward_number": "15",
        "ward_name": "Kitchissippi",
        "telephone": "613-580-2485",
        "fax": "613-580-2525",
-       "email": "jeff.leiper@ottawa.ca"
+       "email": "jeff.leiper@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Riley Brockington",
        "first_name": "Riley",
        "last_name": "Brockington",
+       "first_name_initial": "R. Brockington",
        "title": "Councillor",
        "ward_number": "16",
        "ward_name": "River",
        "telephone": "613-580-2486",
        "fax": "613-580-2526",
-       "email": "riley.brockington@ottawa.ca"
+       "email": "riley.brockington@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Shawn Menard",
        "first_name": "Shawn",
        "last_name": "Menard",
+       "first_name_initial": "S. Menard",
        "title": "Councillor",
        "ward_number": "17",
        "ward_name": "Capital",
        "telephone": "613-580-2487",
        "fax": "613-580-2527",
-       "email": "capitalward@ottawa.ca"
+       "email": "capitalward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Marty Carr",
        "first_name": "Marty",
        "last_name": "Carr",
+       "first_name_initial": "M. Carr",
        "title": "Councillor",
        "ward_number": "18",
        "ward_name": "Alta Vista",
        "telephone": "613-580-2488",
        "fax": "613-580-2528",
-       "email": "marty.carr@ottawa.ca"
+       "email": "marty.carr@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Catherine Kitts",
        "first_name": "Catherine",
        "last_name": "Kitts",
+       "first_name_initial": "C. Kitts",
        "title": "Councillor",
        "ward_number": "19",
        "ward_name": "Orléans South-Navan",
        "telephone": "613-580-2489",
        "fax": "613-580-2697",
-       "email": "catherine.kitts@ottawa.ca"
+       "email": "catherine.kitts@ottawa.ca",
+       "active": true
+   },
+   {
+       "full_name": "George Darouze",
+       "first_name": "George",
+       "last_name": "Darouze",
+       "first_name_initial": "G. Darouze",
+       "title": "Councillor",
+       "ward_number": "20",
+       "ward_name": "Osgoode",
+       "telephone": "",
+       "fax": "",
+       "email": "george.darouze@ottawa.ca",
+       "active": false
    },
    {
        "full_name": "Isabelle Skalski",
        "first_name": "Isabelle",
        "last_name": "Skalski",
+       "first_name_initial": "I. Skalski",
        "title": "Councillor",
        "ward_number": "20",
        "ward_name": "Osgoode",
        "telephone": "613-580-2490",
        "fax": "",
-       "email": "isabelle.skalski@ottawa.ca"
+       "email": "isabelle.skalski@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "David Brown",
        "first_name": "David",
        "last_name": "Brown",
+       "first_name_initial": "D. Brown",
        "title": "Councillor",
        "ward_number": "21",
        "ward_name": "Rideau-Jock",
        "telephone": "613-580-2491",
        "fax": "613-580-2531",
-       "email": "ward21@ottawa.ca"
+       "email": "ward21@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Steve Desroches",
        "first_name": "Steve",
        "last_name": "Desroches",
+       "first_name_initial": "S. Desroches",
        "title": "Councillor",
        "ward_number": "22",
        "ward_name": "Riverside South-Findlay Creek",
        "telephone": "613-580-2751",
        "fax": "613-580-2761",
-       "email": "steve.desroches@ottawa.ca"
+       "email": "steve.desroches@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Allan Hubley",
        "first_name": "Allan",
        "last_name": "Hubley",
+       "first_name_initial": "A. Hubley",
        "title": "Councillor",
        "ward_number": "23",
        "ward_name": "Kanata South",
        "telephone": "613-580-2752",
        "fax": "613-580-2762",
-       "email": "allan.hubley@ottawa.ca"
+       "email": "allan.hubley@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Wilson Lo",
        "first_name": "Wilson",
        "last_name": "Lo",
+       "first_name_initial": "W. Lo",
        "title": "Councillor",
        "ward_number": "24",
        "ward_name": "Barrhaven East",
        "telephone": "613-580-2846",
        "fax": "",
-       "email": "wilson.lo@ottawa.ca"
+       "email": "wilson.lo@ottawa.ca",
+       "active": true
    }
 ]

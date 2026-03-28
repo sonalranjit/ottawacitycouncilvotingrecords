@@ -2,6 +2,7 @@ import requests
 import json
 import argparse
 import re
+from fnmatch import fnmatch
 from datetime import date, datetime, timedelta
 import logging
 from pathlib import Path
@@ -10,6 +11,9 @@ from typing import Any
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 from meeting_minutes_scraper import scrape_minutes_page
+from db.connection import get_connection
+from db.schema import create_tables
+from db import upsert
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
@@ -29,12 +33,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--output-root", default="datasets", help="Directory where each run folder will be created")
     parser.add_argument(
         "--meeting-name",
-        help="Only scrape meetings whose name matches this value exactly (case-insensitive)",
+        required=True,
+        nargs="+",
+        metavar="NAME",
+        help="One or more meeting name patterns to scrape (required). Supports wildcards (* and ?). e.g. 'City Council' '*Committee*'",
     )
     parser.add_argument(
         "--verify-cert",
         action="store_true",
         help="Verify TLS certificates (default: disabled for self-signed certificates)",
+    )
+    parser.add_argument(
+        "--db-path",
+        default="ottawa_council.duckdb",
+        help="Path to the persistent DuckDB file (default: ottawa_council.duckdb)",
     )
     return parser.parse_args(argv)
 
@@ -167,13 +179,13 @@ def filter_postminutes_html_english_documents(
 
 def filter_meetings_by_name(
     meetings: list[dict[str, Any]],
-    meeting_name: str,
+    meeting_names: list[str],
 ) -> list[dict[str, Any]]:
-    meeting_name_normalized = meeting_name.strip().lower()
+    patterns = [name.strip().lower() for name in meeting_names]
     return [
         meeting
         for meeting in meetings
-        if (meeting.get("name") or "").strip().lower() == meeting_name_normalized
+        if any(fnmatch((meeting.get("name") or "").strip().lower(), p) for p in patterns)
     ]
 
 
@@ -237,6 +249,11 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
 
 
 def main(args: argparse.Namespace) -> int:
+    con = get_connection(args.db_path)
+    create_tables(con)
+    upsert.seed_councillors(con)
+    logger.info("Database ready: %s", args.db_path)
+
     run_dir = create_run_directory(args)
     meetings_path = fetch_calendar_meetings(args, run_dir)
     meetings = parse_meetings_json(meetings_path)
@@ -256,17 +273,20 @@ def main(args: argparse.Namespace) -> int:
         for document in meeting.get("documents", []):
             meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{document['url']}"
             logger.info("Scraping: %s", meeting_minutes_to_scrape)
+            scraped = scrape_minutes_page(
+                url=meeting_minutes_to_scrape,
+                verify_cert=args.verify_cert,
+                base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
+            )
             write_json_to_run_dir(
                 run_dir,
                 output_filename,
-                scrape_minutes_page(
-                    url=meeting_minutes_to_scrape,
-                    verify_cert=args.verify_cert,
-                    base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
-                ),
+                scraped,
                 log_label="scraped meeting minutes",
             )
-    
+            upsert.insert_meeting(con, meeting["id"], meeting, scraped)
+
+    con.close()
     return 0
 
 if __name__ == "__main__":

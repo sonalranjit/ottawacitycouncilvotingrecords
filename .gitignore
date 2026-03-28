@@ -275,11 +275,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
 
-datasets
-*.duckdb
 tests/html_report
-
-# Frontend generated data and build output
-frontend/public/data/
-frontend/dist/
-frontend/node_modules/

@@ -15,7 +15,8 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
             ward_name           VARCHAR,
             telephone           VARCHAR,
             fax                 VARCHAR,
-            email               VARCHAR
+            email               VARCHAR,
+            active              BOOLEAN DEFAULT TRUE
         )
     """)
 

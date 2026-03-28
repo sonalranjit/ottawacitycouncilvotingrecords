@@ -29,8 +29,8 @@ def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
             """
             INSERT OR REPLACE INTO councillors
                 (full_name, first_name, last_name, first_name_initial,
-                 title, ward_number, ward_name, telephone, fax, email)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 title, ward_number, ward_name, telephone, fax, email, active)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             [
                 c.get("full_name", ""),
@@ -43,6 +43,7 @@ def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
                 c.get("telephone", ""),
                 c.get("fax", ""),
                 c.get("email", ""),
+                c.get("active", True),
             ],
         )
     logger.info("Seeded %d councillors", len(councillors))
@@ -153,6 +154,65 @@ def _insert_agenda_item(
         _insert_agenda_item(con, meeting_id, sub_item)
 
 
+def _canonical_councillor_name(con: duckdb.DuckDBPyConnection, raw_name: str) -> str:
+    """Resolve a voter name to the canonical first_name_initial format.
+
+    Some meetings list voters as full names (e.g. 'Isabelle Skalski') while others
+    use the initial format ('I. Skalski').  Normalising at insert time keeps the
+    votes table consistent so the export query (WHERE councillor_name = initial)
+    always finds the right rows.
+
+    Matches on first_name_initial first (already canonical), then full_name.
+    Falls back to raw_name if no councillor is found.
+    """
+    row = con.execute(
+        """
+        SELECT first_name_initial
+        FROM councillors
+        WHERE first_name_initial = ?
+           OR full_name = ?
+        LIMIT 1
+        """,
+        [raw_name, raw_name],
+    ).fetchone()
+    return row[0] if row else raw_name
+
+
+def _reconstruct_dissent_votes(
+    con: duckdb.DuckDBPyConnection,
+    meeting_id: str,
+    dissenters: list[str],
+) -> dict[str, Any]:
+    """
+    Build a for/against vote dict from dissent-only notation.
+
+    Attendance has already been inserted before motions are processed, so we can
+    join meeting_attendance with councillors to get the initial-format names that
+    match what the structured MotionVoters tables produce.
+    """
+    # Join on full_name first; fall back to matching on last name alone to handle
+    # councillors whose HTML attendance name differs from the reference full_name
+    # (e.g. "Matt Luloff" in HTML vs "Matthew Luloff" in the reference data).
+    # All councillor last names are unique so last-name matching is unambiguous.
+    rows = con.execute(
+        """
+        SELECT c.first_name_initial
+        FROM meeting_attendance ma
+        JOIN councillors c
+          ON ma.councillor_name = c.full_name
+          OR SPLIT_PART(ma.councillor_name, ' ', 2) = SPLIT_PART(c.full_name, ' ', 2)
+        WHERE ma.meeting_id = ? AND ma.status = 'present'
+        """,
+        [meeting_id],
+    ).fetchall()
+    present_initials = [r[0] for r in rows]
+    for_voters = [name for name in present_initials if name not in dissenters]
+    return {
+        "for": {"councillors": for_voters, "count": len(for_voters)},
+        "against": {"councillors": dissenters, "count": len(dissenters)},
+    }
+
+
 def _insert_motion(
     con: duckdb.DuckDBPyConnection,
     meeting_id: str,
@@ -164,6 +224,9 @@ def _insert_motion(
     motion_id = _hash(item_id, motion_number, motion.get("motion_moved_by", ""), motion_text[:100])
 
     motion_votes = motion.get("motion_votes", {})
+    dissent_voters = motion.get("dissent_voters", [])
+    if not motion_votes and dissent_voters:
+        motion_votes = _reconstruct_dissent_votes(con, meeting_id, dissent_voters)
     for_data = motion_votes.get("for", {})
     against_data = motion_votes.get("against", {})
 
@@ -195,7 +258,7 @@ def _insert_motion(
                 INSERT OR REPLACE INTO votes (motion_id, councillor_name, vote)
                 VALUES (?, ?, 'for')
                 """,
-                [motion_id, name],
+                [motion_id, _canonical_councillor_name(con, name)],
             )
 
     for name in against_data.get("councillors", []):
@@ -205,5 +268,5 @@ def _insert_motion(
                 INSERT OR REPLACE INTO votes (motion_id, councillor_name, vote)
                 VALUES (?, ?, 'against')
                 """,
-                [motion_id, name],
+                [motion_id, _canonical_councillor_name(con, name)],
             )

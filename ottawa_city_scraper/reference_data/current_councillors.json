@@ -9,7 +9,8 @@
         "ward_name": "",
         "telephone": "613-580-2496",
         "fax": "613-580-2509",
-        "email": "mark.sutcliffe@ottawa.ca"
+        "email": "mark.sutcliffe@ottawa.ca",
+        "active": true
    },
    {
        "full_name": "Matthew Luloff",
@@ -21,7 +22,8 @@
        "ward_name": "Orléans East-Cumberland",
        "telephone": "613-580-2471",
        "fax": "613-580-2511",
-       "email": "matt.luloff@ottawa.ca"
+       "email": "matt.luloff@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Laura Dudas",
@@ -33,7 +35,8 @@
        "ward_name": "Orléans West-Innes",
        "telephone": "613-580-2472",
        "fax": "613-580-2512",
-       "email": "laura.dudas@ottawa.ca"
+       "email": "laura.dudas@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "David Hill",
@@ -45,7 +48,8 @@
        "ward_name": "Barrhaven West",
        "telephone": "613-580-2473",
        "fax": "613-580-2513",
-       "email": "david.hill@ottawa.ca"
+       "email": "david.hill@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Cathy Curry",
@@ -57,7 +61,8 @@
        "ward_name": "Kanata North",
        "telephone": "613-580-2474",
        "fax": "613-580-2514",
-       "email": "cathy.curry@ottawa.ca"
+       "email": "cathy.curry@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Clarke Kelly",
@@ -69,7 +74,8 @@
        "ward_name": "West Carleton-March",
        "telephone": "613-580-2475",
        "fax": "613-580-2515",
-       "email": "clarke.kelly@ottawa.ca"
+       "email": "clarke.kelly@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Glen Gower",
@@ -81,7 +87,8 @@
        "ward_name": "Stittsville",
        "telephone": "613-580-2476",
        "fax": "613-580-2516",
-       "email": "glen.gower@ottawa.ca"
+       "email": "glen.gower@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Theresa Kavanagh",
@@ -93,7 +100,8 @@
        "ward_name": "Bay",
        "telephone": "613-580-2477",
        "fax": "613-580-2517",
-       "email": "bayward@ottawa.ca"
+       "email": "bayward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Laine Johnson",
@@ -105,7 +113,8 @@
        "ward_name": "College",
        "telephone": "613-580-2478",
        "fax": "613-580-2518",
-       "email": "collegeward@ottawa.ca"
+       "email": "collegeward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Sean Devine",
@@ -117,7 +126,8 @@
        "ward_name": "Knoxdale-Merivale",
        "telephone": "613-580-2479",
        "fax": "613-580-2519",
-       "email": "knoxdalemerivale@ottawa.ca"
+       "email": "knoxdalemerivale@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Jessica Bradley",
@@ -129,7 +139,8 @@
        "ward_name": "Gloucester-Southgate",
        "telephone": "613-580-2480",
        "fax": "613-580-2520",
-       "email": "jessica.bradley@ottawa.ca"
+       "email": "jessica.bradley@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Tim Tierney",
@@ -141,7 +152,8 @@
        "ward_name": "Beacon Hill-Cyrville",
        "telephone": "613-580-2481",
        "fax": "613-580-2521",
-       "email": "tim.tierney@ottawa.ca"
+       "email": "tim.tierney@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Stéphanie Plante",
@@ -153,7 +165,8 @@
        "ward_name": "Rideau-Vanier",
        "telephone": "613-580-2482",
        "fax": "613-580-2522",
-       "email": "stephanie.plante@ottawa.ca"
+       "email": "stephanie.plante@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Rawlson King",
@@ -165,7 +178,8 @@
        "ward_name": "Rideau-Rockcliffe",
        "telephone": "613-580-2483",
        "fax": "613-580-2523",
-       "email": "rideaurockcliffeward@ottawa.ca"
+       "email": "rideaurockcliffeward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Ariel Troster",
@@ -177,7 +191,8 @@
        "ward_name": "Somerset",
        "telephone": "613-580-2484",
        "fax": "613-580-2524",
-       "email": "ariel.troster@ottawa.ca"
+       "email": "ariel.troster@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Jeff Leiper",
@@ -189,7 +204,8 @@
        "ward_name": "Kitchissippi",
        "telephone": "613-580-2485",
        "fax": "613-580-2525",
-       "email": "jeff.leiper@ottawa.ca"
+       "email": "jeff.leiper@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Riley Brockington",
@@ -201,7 +217,8 @@
        "ward_name": "River",
        "telephone": "613-580-2486",
        "fax": "613-580-2526",
-       "email": "riley.brockington@ottawa.ca"
+       "email": "riley.brockington@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Shawn Menard",
@@ -213,7 +230,8 @@
        "ward_name": "Capital",
        "telephone": "613-580-2487",
        "fax": "613-580-2527",
-       "email": "capitalward@ottawa.ca"
+       "email": "capitalward@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Marty Carr",
@@ -225,7 +243,8 @@
        "ward_name": "Alta Vista",
        "telephone": "613-580-2488",
        "fax": "613-580-2528",
-       "email": "marty.carr@ottawa.ca"
+       "email": "marty.carr@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Catherine Kitts",
@@ -237,7 +256,8 @@
        "ward_name": "Orléans South-Navan",
        "telephone": "613-580-2489",
        "fax": "613-580-2697",
-       "email": "catherine.kitts@ottawa.ca"
+       "email": "catherine.kitts@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "George Darouze",
@@ -249,7 +269,8 @@
        "ward_name": "Osgoode",
        "telephone": "",
        "fax": "",
-       "email": "george.darouze@ottawa.ca"
+       "email": "george.darouze@ottawa.ca",
+       "active": false
    },
    {
        "full_name": "Isabelle Skalski",
@@ -261,7 +282,8 @@
        "ward_name": "Osgoode",
        "telephone": "613-580-2490",
        "fax": "",
-       "email": "isabelle.skalski@ottawa.ca"
+       "email": "isabelle.skalski@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "David Brown",
@@ -273,7 +295,8 @@
        "ward_name": "Rideau-Jock",
        "telephone": "613-580-2491",
        "fax": "613-580-2531",
-       "email": "ward21@ottawa.ca"
+       "email": "ward21@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Steve Desroches",
@@ -285,7 +308,8 @@
        "ward_name": "Riverside South-Findlay Creek",
        "telephone": "613-580-2751",
        "fax": "613-580-2761",
-       "email": "steve.desroches@ottawa.ca"
+       "email": "steve.desroches@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Allan Hubley",
@@ -297,7 +321,8 @@
        "ward_name": "Kanata South",
        "telephone": "613-580-2752",
        "fax": "613-580-2762",
-       "email": "allan.hubley@ottawa.ca"
+       "email": "allan.hubley@ottawa.ca",
+       "active": true
    },
    {
        "full_name": "Wilson Lo",
@@ -309,6 +334,7 @@
        "ward_name": "Barrhaven East",
        "telephone": "613-580-2846",
        "fax": "",
-       "email": "wilson.lo@ottawa.ca"
+       "email": "wilson.lo@ottawa.ca",
+       "active": true
    }
 ]

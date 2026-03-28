@@ -26,6 +26,28 @@ def normalize_councillor_name(raw_name: str) -> str:
     name = raw_name.strip().rstrip(",")
     return name.removeprefix("Mayor ").removeprefix("and ").removeprefix("Councillor ")
 
+
+_DISSENT_RE = re.compile(
+    r"Carried with dissents?\s+from\s+(?:Councillors?\s+)?(.+?)\.?\s*$",
+    re.IGNORECASE,
+)
+
+
+def _extract_dissent_names(text: str) -> list[str]:
+    """Parse 'Carried with dissent(s) from Councillor(s) X and Y' → ['X', 'Y']."""
+    m = _DISSENT_RE.search(text)
+    if not m:
+        return []
+    names_str = m.group(1).rstrip(".")
+    parts = re.split(r"\s+and\s+", names_str)
+    names = []
+    for part in parts:
+        for raw in part.split(","):
+            name = normalize_councillor_name(raw.strip())
+            if name:
+                names.append(name)
+    return names
+
 def parse_header(agenda_header: BeautifulSoup) -> dict:
     agenda_header_details_table = agenda_header.find('div', class_='AgendaHeaderDetailsTable')
     meeting_number = None if agenda_header_details_table is None else agenda_header_details_table.find('div', class_='AgendaMeetingNumberText')
@@ -113,6 +135,15 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
         parsed_motion_voters = {}
         if motion_voters is not None:
             parsed_motion_voters = parse_motion_voters(motion_voters)
+        # Extract and remove any "Carried with dissents from Councillors X and Y" sentences
+        # embedded in the MotionText div so they don't pollute the stored motion text.
+        dissent_voters: list[str] = []
+        if motion_text is not None and not parsed_motion_voters:
+            for p in list(motion_text.find_all('p')):
+                names = _extract_dissent_names(p.get_text(strip=True))
+                if names:
+                    dissent_voters = names
+                    p.decompose()
         motion_result = agenda_item_motion.find('div', class_='MotionResult', recursive=False)
         motion_result_text = "" if motion_result is None else motion_result.get_text(strip=True)
         post_motion_text = agenda_item_motion.find('div', class_='PostMotionText', recursive=False)
@@ -122,6 +153,7 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
         parsed_agenda_item_motion["motion_seconded_by"] = motion_seconded_by_text
         parsed_agenda_item_motion["motion_text"] = "" if motion_text is None else motion_text.get_text(strip=True)
         parsed_agenda_item_motion["motion_votes"] = parsed_motion_voters
+        parsed_agenda_item_motion["dissent_voters"] = dissent_voters
         parsed_agenda_item_motion["motion_result"] = motion_result_text
         parsed_agenda_item_motion["post_motion_text"] = "" if post_motion_text is None else post_motion_text.get_text(strip=True)
         if not any(parsed_agenda_item_motion.values()):

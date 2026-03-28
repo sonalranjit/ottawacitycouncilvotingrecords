@@ -3,56 +3,64 @@
 name: Scrape new meetings
 
 on:
-#  schedule:
-#    - cron: "00 9 * * *"
-  pull_request:
-    types: [opened, synchronize, edited, ready_for_review]
-    
+  schedule:
+    - cron: "00 9 * * *"
+  workflow_dispatch:
+
 permissions:
   contents: write
-    
+
 jobs:
   scrape-latest-meeting-minutes:
     runs-on: ubuntu-latest
     steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-        - name: Setup python
-          uses: actions/setup-python@v5
-          with:
-            python-version: "3.12.0"
-            cache: "pip"
-            cache-dependency-path: requirements.txt
-        - name: Set date range
-          run: |
-            echo "END_DATE=$(date -u +%Y-%m-%d)" >> $GITHUB_ENV
-            echo "START_DATE=$(date -u -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_ENV
-        - name: Run scraper
-          run: |
-            python ottawa_city_scraper/cli.py \
-              --start-date ${{ env.START_DATE }} \
-              --end-date ${{ env.END_DATE }} \
-              --meeting-name "City Council" "*Committee*" "*Commission*" \
-              --db-path datasets/ottawa_city_scraper.duckdb
-        - name: Check if there are changes that need to be committed
-          run: |
-            if [ -z "$(git status --porcelain)" ]; then
-              echo "should_commit=False" >> "$GITHUB_ENV"
-            else
-              echo "should_commit=True" >> "$GITHUB_ENV"
-            fi
-        - name: Commit changes
-          if: ${{ env.should_commit == 'True' }}
-          run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add datasets
-            git commit -m "Scrape: update voting records ${{ env.END_DATE}}" || echo "No changes to commit"
-        - name: Cherry pick and push commit to data branch
-          if: ${{ env.should_commit == 'True'}}
-          run: |
-            git switch data
-            git pull origin data
-            git cherry-pick main --strategy-option=theirs
-            git push origin data
-    
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.0"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set date range
+        run: |
+          echo "END_DATE=$(date -u +%Y-%m-%d)" >> $GITHUB_ENV
+          echo "START_DATE=$(date -u -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_ENV
+
+      - name: Run scraper
+        run: |
+          python -m ottawa_city_scraper.cli \
+            --start-date ${{ env.START_DATE }} \
+            --end-date ${{ env.END_DATE }} \
+            --meeting-name "City Council" "*Committee*" "*Commission*" \
+            --db-path datasets/ottawa_city_scraper.duckdb
+
+      - name: Check for changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "should_commit=False" >> "$GITHUB_ENV"
+          else
+            echo "should_commit=True" >> "$GITHUB_ENV"
+          fi
+
+      - name: Commit changes
+        if: ${{ env.should_commit == 'True' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add datasets
+          git commit -m "Scrape: update voting records ${{ env.END_DATE }}"
+          echo "COMMIT_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+      - name: Push commit to data branch
+        if: ${{ env.should_commit == 'True' }}
+        run: |
+          git switch data
+          git pull origin data
+          git cherry-pick ${{ env.COMMIT_SHA }} --strategy-option=theirs
+          git push origin data

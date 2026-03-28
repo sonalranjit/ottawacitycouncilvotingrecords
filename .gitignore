@@ -277,3 +277,4 @@ $RECYCLE.BIN/
 
 datasets
 *.duckdb
+tests/html_report

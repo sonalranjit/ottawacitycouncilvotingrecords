@@ -10,7 +10,7 @@ if str(ROOT) not in sys.path:
 # Only validate votes from the last 6 months to keep tests focused on current data.
 CUTOFF_DATE = pd.Timestamp("2025-12-27")
 
-HTML_DIR = Path(__file__).resolve().parent / "html"
+HTML_REPORT_DIR = Path(__file__).resolve().parent / "html_report"
 
 
 def normalize_meeting_url(url_series: "pd.Series") -> "pd.Series":
@@ -34,7 +34,7 @@ def pytest_sessionfinish(session, exitstatus):
         print(f"\nWarning: could not generate HTML report: {exc}")
         return
 
-    HTML_DIR.mkdir(exist_ok=True)
-    out = HTML_DIR / "horizonottawa_comparison_report.html"
+    HTML_REPORT_DIR.mkdir(exist_ok=True)
+    out = HTML_REPORT_DIR / "horizonottawa_comparison_report.html"
     out.write_text(html, encoding="utf-8")
     print(f"\nHTML report written to {out.relative_to(ROOT)}")

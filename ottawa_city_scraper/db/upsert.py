@@ -153,6 +153,30 @@ def _insert_agenda_item(
         _insert_agenda_item(con, meeting_id, sub_item)
 
 
+def _canonical_councillor_name(con: duckdb.DuckDBPyConnection, raw_name: str) -> str:
+    """Resolve a voter name to the canonical first_name_initial format.
+
+    Some meetings list voters as full names (e.g. 'Isabelle Skalski') while others
+    use the initial format ('I. Skalski').  Normalising at insert time keeps the
+    votes table consistent so the export query (WHERE councillor_name = initial)
+    always finds the right rows.
+
+    Matches on first_name_initial first (already canonical), then full_name.
+    Falls back to raw_name if no councillor is found.
+    """
+    row = con.execute(
+        """
+        SELECT first_name_initial
+        FROM councillors
+        WHERE first_name_initial = ?
+           OR full_name = ?
+        LIMIT 1
+        """,
+        [raw_name, raw_name],
+    ).fetchone()
+    return row[0] if row else raw_name
+
+
 def _reconstruct_dissent_votes(
     con: duckdb.DuckDBPyConnection,
     meeting_id: str,
@@ -233,7 +257,7 @@ def _insert_motion(
                 INSERT OR REPLACE INTO votes (motion_id, councillor_name, vote)
                 VALUES (?, ?, 'for')
                 """,
-                [motion_id, name],
+                [motion_id, _canonical_councillor_name(con, name)],
             )
 
     for name in against_data.get("councillors", []):
@@ -243,5 +267,5 @@ def _insert_motion(
                 INSERT OR REPLACE INTO votes (motion_id, councillor_name, vote)
                 VALUES (?, ?, 'against')
                 """,
-                [motion_id, name],
+                [motion_id, _canonical_councillor_name(con, name)],
             )

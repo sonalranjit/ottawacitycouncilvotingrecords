@@ -12,10 +12,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
-def fetch_html(url: str, verify_cert: bool = False) -> str:
-    session = requests.Session()
-    session.trust_env = False
-    response = session.get(url, timeout=(10, 60), verify=verify_cert)
+def fetch_html(url: str, verify_cert: bool = False, session: requests.Session | None = None) -> str:
+    s = session or requests.Session()
+    if session is None:
+        s.trust_env = False
+    response = s.get(url, timeout=(10, 60), verify=verify_cert)
     response.raise_for_status()
     return response.text
 
@@ -280,6 +281,7 @@ def scrape_minutes_page(
         html_file: str | Path | None = None,
         verify_cert: bool = False,
         base_url: str | None = None,
+        session: requests.Session | None = None,
     ) -> dict:
     resolved_base_url = base_url or OTTAWA_ESCRIBE_MEETINGS_BASE_URL
     if url is not None and html_file is not None:
@@ -295,6 +297,6 @@ def scrape_minutes_page(
     if url is None:
         raise ValueError("url is required when html_file is not provided")
 
-    html = fetch_html(url, verify_cert=verify_cert)
+    html = fetch_html(url, verify_cert=verify_cert, session=session)
     parsed = parse_minutes_html(html, source=url, base_url=resolved_base_url)
     return normalize_minutes_data(parsed, source_url=url)

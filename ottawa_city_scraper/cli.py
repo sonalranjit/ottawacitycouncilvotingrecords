@@ -1,3 +1,5 @@
+import random
+import time
 import requests
 import json
 import argparse
@@ -9,13 +11,31 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 from typing import Any
 import warnings
+from requests.adapters import HTTPAdapter
 from urllib3.exceptions import InsecureRequestWarning
+from urllib3.util.retry import Retry
 from meeting_minutes_scraper import scrape_minutes_page
 from db.connection import get_connection
 from db.schema import create_tables
 from db import upsert
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
+
+
+def _build_session() -> requests.Session:
+    session = requests.Session()
+    session.trust_env = False
+    retry = Retry(
+        total=5,
+        backoff_factor=2,  # waits 2, 4, 8, 16, 32 seconds between retries
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET", "POST"],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
 
 logging.basicConfig(
     level="INFO",
@@ -47,6 +67,14 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--db-path",
         default="ottawa_council.duckdb",
         help="Path to the persistent DuckDB file (default: ottawa_council.duckdb)",
+    )
+    parser.add_argument(
+        "--min-delay", type=float, default=1.0,
+        help="Minimum seconds to wait between meeting scrapes (default: 1.0)",
+    )
+    parser.add_argument(
+        "--max-delay", type=float, default=3.0,
+        help="Maximum seconds to wait between meeting scrapes (default: 3.0)",
     )
     return parser.parse_args(argv)
 
@@ -213,9 +241,7 @@ def print_meeting_documents(meetings: list[dict[str, Any]]) -> None:
         print()
 
 
-def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path) -> Path:
-    session = requests.Session()
-    session.trust_env = False
+def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path, session: requests.Session) -> Path:
     url = (
         f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}"
         "/MeetingsCalendarView.aspx/GetCalendarMeetings"
@@ -254,8 +280,9 @@ def main(args: argparse.Namespace) -> int:
     upsert.seed_councillors(con)
     logger.info("Database ready: %s", args.db_path)
 
+    session = _build_session()
     run_dir = create_run_directory(args)
-    meetings_path = fetch_calendar_meetings(args, run_dir)
+    meetings_path = fetch_calendar_meetings(args, run_dir, session=session)
     meetings = parse_meetings_json(meetings_path)
     if args.meeting_name:
         meetings = filter_meetings_by_name(meetings, args.meeting_name)
@@ -277,6 +304,7 @@ def main(args: argparse.Namespace) -> int:
                 url=meeting_minutes_to_scrape,
                 verify_cert=args.verify_cert,
                 base_url=OTTAWA_ESCRIBE_MEETINGS_BASE_URL,
+                session=session,
             )
             write_json_to_run_dir(
                 run_dir,
@@ -285,6 +313,10 @@ def main(args: argparse.Namespace) -> int:
                 log_label="scraped meeting minutes",
             )
             upsert.insert_meeting(con, meeting["id"], meeting, scraped)
+            delay = random.uniform(args.min_delay, args.max_delay)
+            if delay > 0:
+                logger.info("Waiting %.1fs before next request...", delay)
+                time.sleep(delay)
 
     con.close()
     return 0

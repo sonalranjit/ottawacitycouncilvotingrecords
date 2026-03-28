@@ -14,10 +14,10 @@ import warnings
 from requests.adapters import HTTPAdapter
 from urllib3.exceptions import InsecureRequestWarning
 from urllib3.util.retry import Retry
-from meeting_minutes_scraper import scrape_minutes_page
-from db.connection import get_connection
-from db.schema import create_tables
-from db import upsert
+from .meeting_minutes_scraper import scrape_minutes_page
+from .db.connection import get_connection
+from .db.schema import create_tables
+from .db import upsert
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 

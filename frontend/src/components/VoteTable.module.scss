@@ -1,0 +1,136 @@
+@use '../styles/variables' as *;
+
+.wrapper {
+  overflow-x: auto;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  background: $color-surface;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $font-size-sm;
+
+  th,
+  td {
+    padding: $spacing-sm $spacing-md;
+    text-align: left;
+    border-bottom: 1px solid $color-border;
+    vertical-align: top;
+  }
+
+  thead th {
+    background-color: $color-bg;
+    font-weight: 600;
+    color: $color-text-muted;
+    white-space: nowrap;
+    border-bottom: 2px solid $color-border;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  tbody tr:hover {
+    background-color: color-mix(in srgb, $color-accent 4%, transparent);
+  }
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    color: $color-text-primary;
+  }
+}
+
+.dateCell a {
+  color: $color-accent;
+  white-space: nowrap;
+}
+
+.motionText {
+  display: block;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.expandBtn {
+  display: block;
+  margin-top: $spacing-xs;
+  background: none;
+  border: none;
+  padding: 0;
+  color: $color-accent;
+  font-size: 0.78rem;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.itemTitle {
+  display: block;
+  font-size: 0.75rem;
+  color: $color-text-muted;
+  margin-top: 2px;
+}
+
+.voteBadge,
+.resultBadge {
+  display: inline-block;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.voteFor {
+  background-color: color-mix(in srgb, $color-for 15%, transparent);
+  color: $color-for;
+}
+
+.voteAgainst {
+  background-color: color-mix(in srgb, $color-against 15%, transparent);
+  color: $color-against;
+}
+
+.carried {
+  background-color: color-mix(in srgb, $color-for 10%, transparent);
+  color: $color-for;
+}
+
+.lost {
+  background-color: color-mix(in srgb, $color-against 10%, transparent);
+  color: $color-against;
+}
+
+.tally {
+  white-space: nowrap;
+}
+
+.forCount {
+  color: $color-for;
+  font-weight: 600;
+}
+
+.againstCount {
+  color: $color-against;
+  font-weight: 600;
+}
+
+.hideMobile {
+  @media (max-width: 640px) {
+    display: none;
+  }
+}
+
+.empty {
+  padding: $spacing-lg;
+  text-align: center;
+  color: $color-text-muted;
+}

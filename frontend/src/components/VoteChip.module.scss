@@ -1,0 +1,28 @@
+@use '../styles/variables' as *;
+@use 'sass:color';
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  font-size: 0.78rem;
+  font-weight: 500;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.for {
+  background-color: color-mix(in srgb, $color-for 12%, transparent);
+  color: color.adjust($color-for, $lightness: -5%);
+}
+
+.against {
+  background-color: color-mix(in srgb, $color-against 12%, transparent);
+  color: color.adjust($color-against, $lightness: -5%);
+}
+
+.highlight {
+  border-color: currentColor;
+  font-weight: 700;
+}

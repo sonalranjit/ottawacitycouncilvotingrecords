@@ -64,6 +64,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Verify TLS certificates (default: disabled for self-signed certificates)",
     )
     parser.add_argument(
+        "--municipality",
+        default="ottawa",
+        help="Municipality slug to tag scraped meetings with (default: ottawa)",
+    )
+    parser.add_argument(
         "--db-path",
         default="ottawa_council.duckdb",
         help="Path to the persistent DuckDB file (default: ottawa_council.duckdb)",
@@ -317,7 +322,7 @@ def main(args: argparse.Namespace) -> int:
                 scraped,
                 log_label="scraped meeting minutes",
             )
-            upsert.insert_meeting(con, meeting["id"], meeting, scraped)
+            upsert.insert_meeting(con, meeting["id"], meeting, scraped, args.municipality)
             scraped_meeting_ids.append(meeting["id"])
             delay = random.uniform(args.min_delay, args.max_delay)
             if delay > 0:

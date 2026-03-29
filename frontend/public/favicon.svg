@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#005a9e"/>
+  <!-- Magnifying glass -->
+  <circle cx="216" cy="216" r="112" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round"/>
+  <line x1="296" y1="300" x2="400" y2="404" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  <!-- Vote data bars inside lens -->
+  <rect x="156" y="172" width="80" height="22" rx="6" fill="#5DCAA5"/>
+  <rect x="156" y="204" width="56" height="22" rx="6" fill="#F09595"/>
+  <rect x="156" y="236" width="90" height="22" rx="6" fill="#5DCAA5"/>
+  <!-- Vote indicator dots -->
+  <circle cx="264" cy="183" r="14" fill="#5DCAA5"/>
+  <circle cx="264" cy="215" r="14" fill="#F09595"/>
+  <circle cx="264" cy="247" r="14" fill="#5DCAA5"/>
+</svg>

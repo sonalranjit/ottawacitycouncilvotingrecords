@@ -113,6 +113,68 @@ All upserts use `INSERT OR REPLACE` with deterministic hash-based IDs — re-scr
 
 ---
 
+## Frontend web UI
+
+A React/TypeScript single-page app for browsing the scraped data. It reads static JSON files exported from the database and requires no server.
+
+### Setup
+
+```bash
+cd frontend
+npm install
+```
+
+### Export static data
+
+Generate the JSON files that the UI reads from the database:
+
+```bash
+# From the repo root
+python -m ottawa_city_scraper.export_web_data
+
+# Or via npm script (from frontend/)
+npm run export-data
+```
+
+This writes three sets of files to `frontend/public/data/`:
+
+| File | Contents |
+|---|---|
+| `index.json` | All dates with motion data + active councillor list |
+| `dates/{YYYY-MM-DD}.json` | Meetings → agenda items → motions → votes for one date |
+| `councillors/{slug}.json` | Full vote history for one councillor |
+
+Options: `--db <path>` (default: `datasets/ottawa_city_scraper.duckdb`), `--output-dir <path>` (default: `frontend/public/data`).
+
+### Dev server
+
+```bash
+cd frontend
+npm run dev
+```
+
+### Pages
+
+- **Motions by date** (`/`) — pick a date to see all meetings, agenda items, and motions with vote tallies and individual votes.
+- **Councillor history** (`/councillors/:slug`) — select a councillor to see their full vote history in a sortable table.
+
+### Build
+
+```bash
+cd frontend
+npm run build   # outputs to frontend/dist/
+npm run preview # serve the production build locally
+```
+
+### Tests
+
+```bash
+cd frontend
+npm test
+```
+
+---
+
 ## Automated scraping (GitHub Actions)
 
 The workflow in `.github/workflows/get-new-data.yml` runs daily at 09:00 UTC. It scrapes the previous day's meetings, commits any new data, and cherry-picks the commit onto the `data` branch.

@@ -28,12 +28,13 @@ def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
         con.execute(
             """
             INSERT OR REPLACE INTO councillors
-                (full_name, first_name, last_name, first_name_initial,
+                (full_name, municipality, first_name, last_name, first_name_initial,
                  title, ward_number, ward_name, telephone, fax, email, active)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             [
                 c.get("full_name", ""),
+                c.get("municipality", "ottawa"),
                 c.get("first_name", ""),
                 c.get("last_name", ""),
                 c.get("first_name_initial", ""),
@@ -58,6 +59,7 @@ def insert_meeting(
     meeting_id: str,
     calendar_meeting: dict[str, Any],
     scraped_minutes: dict[str, Any],
+    municipality: str = "ottawa",
 ) -> None:
     """
     Upsert a meeting and all its child records (attendance, agenda items,
@@ -66,12 +68,13 @@ def insert_meeting(
     con.execute(
         """
         INSERT OR REPLACE INTO meetings
-            (meeting_id, meeting_number, meeting_date, meeting_start_time,
+            (meeting_id, municipality, meeting_number, meeting_date, meeting_start_time,
              meeting_location, meeting_name, meeting_type, source_url)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             meeting_id,
+            municipality,
             scraped_minutes.get("meeting_number"),
             scraped_minutes.get("meeting_date"),
             scraped_minutes.get("meeting_start_time"),
@@ -145,6 +148,18 @@ def _insert_agenda_item(
             item.get("minutes", ""),
         ],
     )
+
+    for attachment in item.get("attachments", []):
+        url = attachment.get("link", "")
+        title = attachment.get("attachment_title", "")
+        if url:
+            con.execute(
+                """
+                INSERT OR REPLACE INTO agenda_item_attachments (item_id, url, attachment_title)
+                VALUES (?, ?, ?)
+                """,
+                [item_id, url, title],
+            )
 
     for motion in item.get("motions", []):
         _insert_motion(con, meeting_id, item_id, motion)

@@ -1,0 +1,28 @@
+@use 'variables' as *;
+@use 'reset';
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  background-color: $color-bg;
+  color: $color-text-primary;
+  line-height: 1.6;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+select {
+  font: inherit;
+  padding: $spacing-xs $spacing-sm;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  background: $color-surface;
+  color: $color-text-primary;
+}

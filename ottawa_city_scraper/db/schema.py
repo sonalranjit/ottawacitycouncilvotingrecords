@@ -6,7 +6,8 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
 
     con.execute("""
         CREATE TABLE IF NOT EXISTS councillors (
-            full_name           VARCHAR PRIMARY KEY,
+            full_name           VARCHAR,
+            municipality        VARCHAR,
             first_name          VARCHAR,
             last_name           VARCHAR,
             first_name_initial  VARCHAR,
@@ -16,13 +17,15 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
             telephone           VARCHAR,
             fax                 VARCHAR,
             email               VARCHAR,
-            active              BOOLEAN DEFAULT TRUE
+            active              BOOLEAN DEFAULT TRUE,
+            PRIMARY KEY (full_name, municipality)
         )
     """)
 
     con.execute("""
         CREATE TABLE IF NOT EXISTS meetings (
             meeting_id          VARCHAR PRIMARY KEY,
+            municipality        VARCHAR,
             meeting_number      INTEGER,
             meeting_date        VARCHAR,
             meeting_start_time  VARCHAR,
@@ -79,5 +82,15 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
             councillor_name VARCHAR,
             vote            VARCHAR,
             PRIMARY KEY (motion_id, councillor_name)
+        )
+    """)
+
+    # Attachments linked to agenda items
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS agenda_item_attachments (
+            item_id             VARCHAR,
+            url                 VARCHAR,
+            attachment_title    VARCHAR,
+            PRIMARY KEY (item_id, url)
         )
     """)

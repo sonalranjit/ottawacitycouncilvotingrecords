@@ -1,0 +1,163 @@
+@use '../styles/variables' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.controls {
+  display: flex;
+  align-items: flex-end;
+  gap: $spacing-lg;
+  flex-wrap: wrap;
+}
+
+.datePickerGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.label {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $color-text-muted;
+}
+
+.dateSelect {
+  font-size: $font-size-base;
+  padding: $spacing-sm $spacing-md;
+  min-width: 160px;
+}
+
+.summary {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  padding-bottom: $spacing-xs; // align with select bottom
+}
+
+.loading {
+  color: $color-text-muted;
+  padding: $spacing-lg 0;
+}
+
+.empty {
+  color: $color-text-muted;
+}
+
+.error {
+  color: $color-against;
+  padding: $spacing-md;
+  border: 1px solid $color-against;
+  border-radius: $border-radius;
+}
+
+.meeting {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  overflow: hidden;
+}
+
+.meetingHeader {
+  background-color: color-mix(in srgb, $color-accent 8%, transparent);
+  border-bottom: 1px solid $color-border;
+  padding: $spacing-md $spacing-lg;
+  display: flex;
+  align-items: baseline;
+  gap: $spacing-md;
+  flex-wrap: wrap;
+}
+
+.meetingName {
+  font-size: $font-size-lg;
+  font-weight: 700;
+  color: $color-text-primary;
+}
+
+.meetingMeta {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.sourceLink {
+  color: $color-accent;
+  font-weight: 500;
+  font-size: $font-size-sm;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.attendance {
+  padding: $spacing-md $spacing-lg;
+  border-bottom: 1px solid $color-border;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.attendanceLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+.attendees {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+.attendee {
+  font-size: $font-size-sm;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  background: color-mix(in srgb, $color-for 12%, transparent);
+  color: $color-for;
+
+  &.absent {
+    background: color-mix(in srgb, $color-against 12%, transparent);
+    color: $color-against;
+  }
+}
+
+.agendaItem {
+  padding: $spacing-md $spacing-lg;
+  border-bottom: 1px solid $color-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.itemTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $color-text-primary;
+  margin-bottom: $spacing-md;
+  display: flex;
+  gap: $spacing-sm;
+  align-items: baseline;
+}
+
+.itemNumber {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.motions {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}

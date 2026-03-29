@@ -1,0 +1,78 @@
+@use '../styles/variables' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.loading {
+  color: $color-text-muted;
+}
+
+.error {
+  color: $color-against;
+  padding: $spacing-md;
+  border: 1px solid $color-against;
+  border-radius: $border-radius;
+}
+
+.councillorCard {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-left: 4px solid $color-accent;
+  border-radius: $border-radius;
+  padding: $spacing-md $spacing-lg;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: $spacing-lg;
+  flex-wrap: wrap;
+}
+
+.cardMain {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.name {
+  font-size: $font-size-lg;
+  font-weight: 700;
+}
+
+.role {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  align-items: flex-end;
+
+  @media (max-width: 600px) {
+    align-items: flex-start;
+  }
+}
+
+.metaLink {
+  font-size: $font-size-sm;
+  color: $color-accent;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tableHeader {
+  display: flex;
+  align-items: center;
+}
+
+.voteCount {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  font-weight: 500;
+}

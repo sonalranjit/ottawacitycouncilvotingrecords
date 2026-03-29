@@ -23,7 +23,8 @@ import duckdb
 ROOT = Path(__file__).resolve().parents[1]
 COUNCILLORS_JSON = Path(__file__).parent / "reference_data" / "current_councillors.json"
 DB_PATH = ROOT / "datasets" / "ottawa_city_scraper.duckdb"
-DEFAULT_OUTPUT = ROOT / "frontend" / "public" / "data"
+DEFAULT_MUNICIPALITY = "ottawa"
+DEFAULT_OUTPUT = ROOT / "frontend" / "public" / "data" / DEFAULT_MUNICIPALITY
 
 
 def _to_slug(name: str) -> str:
@@ -44,7 +45,7 @@ def _write_json(path: Path, data: object) -> None:
 # index.json
 # ---------------------------------------------------------------------------
 
-def export_index(con: duckdb.DuckDBPyConnection, councillors: list[dict], output_dir: Path) -> list[str]:
+def export_index(con: duckdb.DuckDBPyConnection, councillors: list[dict], output_dir: Path, municipality: str) -> list[str]:
     """Write index.json; return sorted-descending list of dates with motion data."""
     dates = [
         row[0]
@@ -53,8 +54,10 @@ def export_index(con: duckdb.DuckDBPyConnection, councillors: list[dict], output
             SELECT DISTINCT strftime('%Y-%m-%d', CAST(m.meeting_date AS DATE))
             FROM meetings m
             JOIN motions mo ON m.meeting_id = mo.meeting_id
+            WHERE m.municipality = ?
             ORDER BY 1 DESC
-            """
+            """,
+            [municipality],
         ).fetchall()
     ]
 
@@ -87,7 +90,7 @@ def export_index(con: duckdb.DuckDBPyConnection, councillors: list[dict], output
 # dates/{YYYY-MM-DD}.json
 # ---------------------------------------------------------------------------
 
-def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path) -> None:
+def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path, municipality: str) -> None:
     """Write dates/{date}.json with all meetings → agenda_items → motions → votes."""
 
     # Fetch all meetings on this date that have at least one motion
@@ -104,9 +107,10 @@ def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path
         FROM meetings m
         JOIN motions mo ON m.meeting_id = mo.meeting_id
         WHERE strftime('%Y-%m-%d', CAST(m.meeting_date AS DATE)) = ?
+          AND m.municipality = ?
         ORDER BY m.meeting_name
         """,
-        [date],
+        [date, municipality],
     ).fetchall()
 
     if not meetings_rows:
@@ -129,6 +133,24 @@ def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path
         """,
         meeting_ids,
     ).fetchall()
+
+    # Fetch all attachments for these agenda items
+    item_ids = [r[0] for r in items_rows]
+    attachments_by_item: dict[str, list[dict]] = {r[0]: [] for r in items_rows}
+    if item_ids:
+        att_placeholders = ", ".join("?" * len(item_ids))
+        att_rows = con.execute(
+            f"""
+            SELECT item_id, url, attachment_title
+            FROM agenda_item_attachments
+            WHERE item_id IN ({att_placeholders})
+            ORDER BY item_id, attachment_title
+            """,
+            item_ids,
+        ).fetchall()
+        for att_item_id, url, title in att_rows:
+            if att_item_id in attachments_by_item:
+                attachments_by_item[att_item_id].append({"url": url, "title": title})
 
     # Fetch all motions for these meetings
     motions_rows = con.execute(
@@ -197,6 +219,7 @@ def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path
             "agenda_item_number": agenda_item_number or "",
             "title": (title or "").strip(),
             "motions": motions,
+            "attachments": attachments_by_item.get(item_id, []),
         })
 
     # Assemble meetings
@@ -218,9 +241,9 @@ def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path
     _write_json(output_dir / "dates" / f"{date}.json", {"date": date, "meetings": meetings})
 
 
-def export_all_dates(con: duckdb.DuckDBPyConnection, dates: list[str], output_dir: Path) -> None:
+def export_all_dates(con: duckdb.DuckDBPyConnection, dates: list[str], output_dir: Path, municipality: str) -> None:
     for date in dates:
-        export_date_file(con, date, output_dir)
+        export_date_file(con, date, output_dir, municipality)
     print(f"  dates/  ({len(dates)} files)", file=sys.stderr)
 
 
@@ -325,8 +348,12 @@ def main() -> None:
         help=f"Path to DuckDB file (default: {DB_PATH})",
     )
     parser.add_argument(
-        "--output-dir", "-o", default=str(DEFAULT_OUTPUT),
-        help=f"Output directory for JSON files (default: {DEFAULT_OUTPUT})",
+        "--municipality", "-m", default=DEFAULT_MUNICIPALITY,
+        help=f"Municipality slug to export (default: {DEFAULT_MUNICIPALITY})",
+    )
+    parser.add_argument(
+        "--output-dir", "-o", default=None,
+        help="Output directory for JSON files (default: frontend/public/data/<municipality>)",
     )
     args = parser.parse_args()
 
@@ -334,16 +361,16 @@ def main() -> None:
     if not db_path.exists():
         sys.exit(f"Database not found: {db_path}")
 
-    output_dir = Path(args.output_dir)
+    output_dir = Path(args.output_dir) if args.output_dir else ROOT / "frontend" / "public" / "data" / args.municipality
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Exporting from {db_path} → {output_dir}", file=sys.stderr)
+    print(f"Exporting municipality={args.municipality} from {db_path} → {output_dir}", file=sys.stderr)
 
     councillors = _load_councillors()
     con = duckdb.connect(str(db_path), read_only=True)
 
-    dates = export_index(con, councillors, output_dir)
-    export_all_dates(con, dates, output_dir)
+    dates = export_index(con, councillors, output_dir, args.municipality)
+    export_all_dates(con, dates, output_dir, args.municipality)
     export_all_councillors(con, councillors, output_dir)
 
     con.close()

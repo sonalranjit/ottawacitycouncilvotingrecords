@@ -46,6 +46,10 @@ export default function MotionsByDate() {
     return <div className={styles.error}>Error: {error}</div>;
   }
 
+  const councillorTitles = new Map(
+    index?.councillors.map((c) => [c.full_name, c.title]) ?? []
+  );
+
   const totalMotions = dateData?.meetings.reduce(
     (sum, m) => sum + m.agenda_items.reduce((s, i) => s + i.motions.length, 0),
     0,
@@ -103,6 +107,24 @@ export default function MotionsByDate() {
               )}
             </div>
           </div>
+
+          {meeting.attendance && meeting.attendance.length > 0 && (
+            <div className={styles.attendance}>
+              <span className={styles.attendanceLabel}>Attendance</span>
+              <div className={styles.attendees}>
+                {meeting.attendance.map((a) => (
+                  <span
+                    key={a.councillor_name}
+                    className={`${styles.attendee} ${a.status === 'absent' ? styles.absent : ''}`}
+                  >
+                    {councillorTitles.has(a.councillor_name)
+                      ? `${councillorTitles.get(a.councillor_name)} ${a.councillor_name}`
+                      : a.councillor_name}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
 
           {meeting.agenda_items.map((item) => (
             <div key={item.item_id} className={styles.agendaItem}>

@@ -94,6 +94,41 @@
   }
 }
 
+.attendance {
+  padding: $spacing-md $spacing-lg;
+  border-bottom: 1px solid $color-border;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.attendanceLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+.attendees {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+.attendee {
+  font-size: $font-size-sm;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  background: color-mix(in srgb, $color-for 12%, transparent);
+  color: $color-for;
+
+  &.absent {
+    background: color-mix(in srgb, $color-against 12%, transparent);
+    color: $color-against;
+  }
+}
+
 .agendaItem {
   padding: $spacing-md $spacing-lg;
   border-bottom: 1px solid $color-border;

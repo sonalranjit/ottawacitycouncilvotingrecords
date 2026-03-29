@@ -45,6 +45,11 @@ export interface AgendaItem {
   attachments: Attachment[];
 }
 
+export interface AttendanceRecord {
+  councillor_name: string;
+  status: 'present' | 'absent';
+}
+
 export interface Meeting {
   meeting_id: string;
   meeting_name: string;
@@ -53,6 +58,7 @@ export interface Meeting {
   start_time: string;
   location: string;
   source_url: string;
+  attendance: AttendanceRecord[];
   agenda_items: AgendaItem[];
 }
 

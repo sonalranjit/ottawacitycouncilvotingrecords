@@ -119,6 +119,21 @@ def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path
     meeting_ids = [r[0] for r in meetings_rows]
     placeholders = ", ".join("?" * len(meeting_ids))
 
+    # Fetch attendance for these meetings
+    attendance_rows = con.execute(
+        f"""
+        SELECT meeting_id, councillor_name, status
+        FROM meeting_attendance
+        WHERE meeting_id IN ({placeholders})
+        ORDER BY meeting_id, councillor_name
+        """,
+        meeting_ids,
+    ).fetchall()
+    attendance_by_meeting: dict[str, list[dict]] = {r[0]: [] for r in meetings_rows}
+    for att_meeting_id, councillor_name, status in attendance_rows:
+        if att_meeting_id in attendance_by_meeting:
+            attendance_by_meeting[att_meeting_id].append({"councillor_name": councillor_name, "status": status})
+
     # Fetch all agenda items for these meetings
     items_rows = con.execute(
         f"""
@@ -235,6 +250,7 @@ def export_date_file(con: duckdb.DuckDBPyConnection, date: str, output_dir: Path
             "start_time": str(meeting_start_time) if meeting_start_time else "",
             "location": meeting_location or "",
             "source_url": source_url or "",
+            "attendance": attendance_by_meeting.get(meeting_id, []),
             "agenda_items": agenda_items,
         })
 

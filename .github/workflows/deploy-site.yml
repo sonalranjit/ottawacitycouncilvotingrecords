@@ -35,7 +35,7 @@ jobs:
           python -m ottawa_city_scraper.export_web_data
       - name: Build static frontend
         run: |
-          cd frontend && npm run build
+          cd frontend && npm install && npm run build
       - name: Deploy to Cloudflare
         uses: cloudflare/wrangler-action@v3
         with:

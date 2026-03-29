@@ -32,11 +32,17 @@ export interface Motion {
   votes: VoteRecord[];
 }
 
+export interface Attachment {
+  url: string;
+  title: string;
+}
+
 export interface AgendaItem {
   item_id: string;
   agenda_item_number: string;
   title: string;
   motions: Motion[];
+  attachments: Attachment[];
 }
 
 export interface Meeting {

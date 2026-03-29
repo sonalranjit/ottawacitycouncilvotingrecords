@@ -112,7 +112,7 @@ export default function MotionsByDate() {
               </h3>
               <div className={styles.motions}>
                 {item.motions.map((motion) => (
-                  <MotionCard key={motion.motion_id} motion={motion} />
+                  <MotionCard key={motion.motion_id} motion={motion} attachments={item.attachments} />
                 ))}
               </div>
             </div>

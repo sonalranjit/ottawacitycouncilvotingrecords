@@ -20,7 +20,7 @@ export default function CouncillorHistory() {
         setIndex(data);
         // If no slug in URL, redirect to first councillor
         if (!slug && data.councillors.length > 0) {
-          navigate(`/councillors/${data.councillors[0].slug}`, { replace: true });
+          navigate(`/ottawa/councillors/${data.councillors[0].slug}`, { replace: true });
         }
       })
       .catch((e: Error) => setError(e.message));
@@ -42,7 +42,7 @@ export default function CouncillorHistory() {
   }, [slug]);
 
   function handleCouncillorChange(newSlug: string) {
-    navigate(`/councillors/${newSlug}`);
+    navigate(`/ottawa/councillors/${newSlug}`);
   }
 
   if (error) {

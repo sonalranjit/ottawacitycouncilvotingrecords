@@ -87,6 +87,38 @@
   }
 }
 
+.attachments {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.attachmentsLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+.attachmentList {
+  margin: 0;
+  padding-left: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.attachment {
+  font-size: $font-size-sm;
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .tally {
   display: flex;
   gap: $spacing-xs;

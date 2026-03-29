@@ -15,10 +15,10 @@ async function fetchJSON<T>(path: string): Promise<T> {
 }
 
 export const fetchIndex = (): Promise<IndexData> =>
-  fetchJSON<IndexData>('/data/index.json');
+  fetchJSON<IndexData>('/data/ottawa/index.json');
 
 export const fetchDateData = (date: string): Promise<DateData> =>
-  fetchJSON<DateData>(`/data/dates/${date}.json`);
+  fetchJSON<DateData>(`/data/ottawa/dates/${date}.json`);
 
 export const fetchCouncillorData = (slug: string): Promise<CouncillorData> =>
-  fetchJSON<CouncillorData>(`/data/councillors/${slug}.json`);
+  fetchJSON<CouncillorData>(`/data/ottawa/councillors/${slug}.json`);

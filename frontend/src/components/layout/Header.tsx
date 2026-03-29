@@ -11,14 +11,14 @@ export default function Header() {
         </div>
         <nav className={styles.nav}>
           <NavLink
-            to="/"
+            to="/ottawa"
             end
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             Motions by Date
           </NavLink>
           <NavLink
-            to="/councillors"
+            to="/ottawa/councillors"
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             Councillors

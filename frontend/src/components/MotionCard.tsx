@@ -1,15 +1,16 @@
 import { useState } from 'react';
-import type { Motion } from '../types';
+import type { Motion, Attachment } from '../types';
 import { resultVariant } from '../utils/format';
 import VoteChip from './VoteChip';
 import styles from './MotionCard.module.scss';
 
 interface Props {
   motion: Motion;
+  attachments?: Attachment[];
   highlightCouncillor?: string;
 }
 
-export default function MotionCard({ motion, highlightCouncillor }: Props) {
+export default function MotionCard({ motion, attachments, highlightCouncillor }: Props) {
   const [expanded, setExpanded] = useState(false);
   const [showVotes, setShowVotes] = useState(false);
 
@@ -41,6 +42,26 @@ export default function MotionCard({ motion, highlightCouncillor }: Props) {
         <button className={styles.toggleText} onClick={() => setExpanded(!expanded)}>
           {expanded ? 'Show less' : 'Show more'}
         </button>
+      )}
+
+      {attachments && attachments.length > 0 && (
+        <div className={styles.attachments}>
+          <span className={styles.attachmentsLabel}>Documents</span>
+          <ul className={styles.attachmentList}>
+            {attachments.map((a) => (
+              <li key={a.url}>
+                <a
+                  href={a.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.attachment}
+                >
+                  {a.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
 
       <div className={styles.tally}>

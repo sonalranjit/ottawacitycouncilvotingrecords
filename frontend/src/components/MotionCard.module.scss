@@ -1,0 +1,151 @@
+@use '../styles/variables' as *;
+
+.card {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  flex-wrap: wrap;
+}
+
+.motionNum {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $color-text-muted;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.result {
+  display: inline-block;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  font-size: $font-size-sm;
+  font-weight: 600;
+}
+
+.carried {
+  background-color: color-mix(in srgb, $color-for 15%, transparent);
+  color: $color-for;
+}
+
+.lost {
+  background-color: color-mix(in srgb, $color-against 15%, transparent);
+  color: $color-against;
+}
+
+.neutral {
+  background-color: color-mix(in srgb, $color-neutral 15%, transparent);
+  color: $color-neutral;
+}
+
+.movers {
+  display: flex;
+  gap: $spacing-md;
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  flex-wrap: wrap;
+}
+
+.motionText {
+  font-size: $font-size-sm;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-break: break-word;
+
+  &.expanded {
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+  }
+}
+
+.toggleText {
+  background: none;
+  border: none;
+  color: $color-accent;
+  font-size: $font-size-sm;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tally {
+  display: flex;
+  gap: $spacing-xs;
+  font-size: $font-size-sm;
+  font-weight: 600;
+}
+
+.forCount {
+  color: $color-for;
+}
+
+.tallyDivider {
+  color: $color-text-muted;
+}
+
+.againstCount {
+  color: $color-against;
+}
+
+.toggleVotes {
+  background: none;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  padding: $spacing-xs $spacing-sm;
+  cursor: pointer;
+  align-self: flex-start;
+
+  &:hover {
+    background: $color-bg;
+    color: $color-text-primary;
+  }
+}
+
+.votes {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  padding-top: $spacing-xs;
+  border-top: 1px solid $color-border;
+}
+
+.voteGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.voteGroupLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}

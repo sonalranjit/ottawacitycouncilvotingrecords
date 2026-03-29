@@ -1,0 +1,74 @@
+@use '../../styles/variables' as *;
+
+.header {
+  background-color: $color-accent;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.inner {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: $spacing-md $spacing-lg;
+  display: flex;
+  align-items: center;
+  gap: $spacing-lg;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $spacing-sm;
+    padding: $spacing-sm $spacing-md;
+  }
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.brandTitle {
+  font-size: $font-size-lg;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.brandSub {
+  font-size: $font-size-sm;
+  opacity: 0.85;
+}
+
+.nav {
+  display: flex;
+  gap: $spacing-md;
+  margin-left: auto;
+
+  @media (max-width: 600px) {
+    margin-left: 0;
+  }
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: $font-size-sm;
+  font-weight: 500;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+  }
+}
+
+.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}

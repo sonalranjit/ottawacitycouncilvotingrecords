@@ -1,0 +1,23 @@
+@use '../styles/variables' as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.label {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $color-text-muted;
+}
+
+.select {
+  font-size: $font-size-base;
+  padding: $spacing-sm $spacing-md;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  background: $color-surface;
+  color: $color-text-primary;
+  max-width: 360px;
+}

@@ -1,0 +1,22 @@
+@use './styles/variables' as *;
+
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: $spacing-lg 0 $spacing-xl;
+}
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $spacing-lg;
+
+  @media (max-width: 600px) {
+    padding: 0 $spacing-md;
+  }
+}

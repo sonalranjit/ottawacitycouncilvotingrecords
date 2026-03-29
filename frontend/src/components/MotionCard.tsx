@@ -1,0 +1,94 @@
+import { useState } from 'react';
+import type { Motion } from '../types';
+import { resultVariant } from '../utils/format';
+import VoteChip from './VoteChip';
+import styles from './MotionCard.module.scss';
+
+interface Props {
+  motion: Motion;
+  highlightCouncillor?: string;
+}
+
+export default function MotionCard({ motion, highlightCouncillor }: Props) {
+  const [expanded, setExpanded] = useState(false);
+  const [showVotes, setShowVotes] = useState(false);
+
+  const forVotes = motion.votes.filter((v) => v.vote === 'for');
+  const againstVotes = motion.votes.filter((v) => v.vote === 'against');
+  const hasVotes = motion.votes.length > 0;
+
+  return (
+    <div className={styles.card}>
+      <div className={styles.header}>
+        <span className={styles.motionNum}>Motion {motion.motion_number}</span>
+        <span className={`${styles.result} ${styles[resultVariant(motion.motion_result)] ?? ''}`}>
+          {motion.motion_result || 'Unknown'}
+        </span>
+      </div>
+
+      {(motion.motion_moved_by || motion.motion_seconded_by) && (
+        <div className={styles.movers}>
+          {motion.motion_moved_by && <span>Moved: {motion.motion_moved_by}</span>}
+          {motion.motion_seconded_by && <span>Seconded: {motion.motion_seconded_by}</span>}
+        </div>
+      )}
+
+      <div className={`${styles.motionText} ${expanded ? styles.expanded : ''}`}>
+        {motion.motion_text || <em>No motion text recorded.</em>}
+      </div>
+
+      {motion.motion_text.length > 200 && (
+        <button className={styles.toggleText} onClick={() => setExpanded(!expanded)}>
+          {expanded ? 'Show less' : 'Show more'}
+        </button>
+      )}
+
+      <div className={styles.tally}>
+        <span className={styles.forCount}>{motion.for_count} For</span>
+        <span className={styles.tallyDivider}>/</span>
+        <span className={styles.againstCount}>{motion.against_count} Against</span>
+      </div>
+
+      {hasVotes && (
+        <button className={styles.toggleVotes} onClick={() => setShowVotes(!showVotes)}>
+          {showVotes ? 'Hide votes' : `Show votes (${motion.votes.length})`}
+        </button>
+      )}
+
+      {showVotes && hasVotes && (
+        <div className={styles.votes}>
+          {forVotes.length > 0 && (
+            <div className={styles.voteGroup}>
+              <span className={styles.voteGroupLabel}>For</span>
+              <div className={styles.chips}>
+                {forVotes.map((v) => (
+                  <VoteChip
+                    key={v.councillor_name}
+                    councillor_name={v.councillor_name}
+                    vote={v.vote}
+                    highlight={v.councillor_name === highlightCouncillor}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+          {againstVotes.length > 0 && (
+            <div className={styles.voteGroup}>
+              <span className={styles.voteGroupLabel}>Against</span>
+              <div className={styles.chips}>
+                {againstVotes.map((v) => (
+                  <VoteChip
+                    key={v.councillor_name}
+                    councillor_name={v.councillor_name}
+                    vote={v.vote}
+                    highlight={v.councillor_name === highlightCouncillor}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}

@@ -74,9 +74,10 @@
 
 .itemTitle {
   display: block;
-  font-size: 0.75rem;
-  color: $color-text-muted;
-  margin-top: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $color-text-primary;
+  margin-bottom: $spacing-xs;
 }
 
 .voteBadge,

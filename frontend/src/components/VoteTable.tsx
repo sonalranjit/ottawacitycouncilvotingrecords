@@ -61,6 +61,9 @@ export default function VoteTable({ votes }: Props) {
               <td className={styles.hideMobile}>{row.meeting_name}</td>
               <td className={styles.hideMobile}>{row.agenda_item_number}</td>
               <td>
+                {row.item_title && (
+                  <span className={styles.itemTitle}>{row.item_title}</span>
+                )}
                 <span className={styles.motionText}>
                   {isLong && !isExpanded
                     ? row.motion_text.slice(0, TRUNCATE_AT) + '…'
@@ -73,9 +76,6 @@ export default function VoteTable({ votes }: Props) {
                   >
                     {isExpanded ? 'Show less' : 'Show more'}
                   </button>
-                )}
-                {row.item_title && (
-                  <span className={styles.itemTitle}>{row.item_title}</span>
                 )}
               </td>
               <td>

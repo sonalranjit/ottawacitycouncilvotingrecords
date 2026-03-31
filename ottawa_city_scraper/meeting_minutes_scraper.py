@@ -53,7 +53,8 @@ def parse_header(agenda_header: BeautifulSoup) -> dict:
     agenda_header_details_table = agenda_header.find('div', class_='AgendaHeaderDetailsTable')
     meeting_number = None if agenda_header_details_table is None else agenda_header_details_table.find('div', class_='AgendaMeetingNumberText')
     meeting_number_text = "" if meeting_number is None else meeting_number.get_text(strip=True)
-    meeting_number_int = int(meeting_number_text) if meeting_number_text != "" else 0
+    _meeting_num = re.match(r'\d+', meeting_number_text)
+    meeting_number_int = int(_meeting_num.group()) if _meeting_num else 0
     agenda_meeting_time = None if agenda_header_details_table is None else agenda_header_details_table.find('div', class_='AgendaMeetingTime')
     agenda_meeting_time_time =  None if agenda_meeting_time is None else agenda_meeting_time.find('time')
     agenda_meeting_time_datetime = None if agenda_meeting_time_time is None else agenda_meeting_time_time['datetime']
@@ -152,7 +153,9 @@ def parse_agenda_item_motions(agenda_item_motions: BeautifulSoup) -> list[dict]:
         parsed_agenda_item_motion["motion_number"] = motion_number_text
         parsed_agenda_item_motion["motion_moved_by"] = motion_moved_by_text
         parsed_agenda_item_motion["motion_seconded_by"] = motion_seconded_by_text
-        parsed_agenda_item_motion["motion_text"] = "" if motion_text is None else motion_text.get_text(strip=True)
+        parsed_agenda_item_motion["motion_text"] = "" if motion_text is None else "\n".join(
+            p.get_text(strip=True) for p in motion_text.find_all('p') if p.get_text(strip=True)
+        )
         parsed_agenda_item_motion["motion_votes"] = parsed_motion_voters
         parsed_agenda_item_motion["dissent_voters"] = dissent_voters
         parsed_agenda_item_motion["motion_result"] = motion_result_text

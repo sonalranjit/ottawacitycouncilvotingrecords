@@ -1,0 +1,670 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a4925cf6-8d54-4bfe-adb0-6db93971cc2e&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a4925cf6-8d54-4bfe-adb0-6db93971cc2e&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Public Works and Infrastructure Committee - March 30, 2026",
+  "meeting_number": 25,
+  "meeting_date": "2026-03-30",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Tim Tierney",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Jessica Bradley",
+    "Steve Desroches",
+    "Sean Devine",
+    "Laura Dudas",
+    "Glen Gower",
+    "Laine Johnson",
+    "Wilson Lo",
+    "Matt Luloff",
+    "Isabelle Skalski",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 12,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305842",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305843",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, April 8, 2026 in Public Works and Infrastructure Committee Report 25.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Friday, March 27, 2026, and the deadline to register to speak by email is 8:30 am on Monday, March 30, 2026.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PWIC Minutes 24 \u2013 February 26, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305840",
+                "attachment_title": "PWIC 24 Summary Minutes - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305841",
+                "attachment_title": "PWIC 24 Summary Minutes - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PWIC-2025-08 - Vision Zero Initiatives for City\u2019s Heavy Equipment Fleet",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305844",
+                "attachment_title": "2025-08 - Councillor Johnson - Vision Zero Initiatives for City"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "OCC-2025-19 -\u00a0Request for Information Concerning Heavy Construction Vehicle Traffic Safety in Residential Neighbourhoods",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305845",
+                "attachment_title": "OCC 2025-19 - Heavy Construction Vehicle Traffic Safety in Residential Neighbourhoods - BIL.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "OCC-2026-01 - NCC Land Negotiations and Bank Street Renewal Project",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305855",
+                "attachment_title": "OCC-2026-01 - Carr - NCC and Bank Street Renewal Project - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305856",
+                "attachment_title": "OCC-2026-01 - Carr - NCC and Bank Street Renewal Project - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Road Modifications for the Manor Park Integrated Road, Water and Sewer Project (Arundel Avenue, Kilbarry Crescent, Braemar Street, Finter Street, Farnham Crescent and Jeffrey Avenue)",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305857",
+                "attachment_title": "Report - Road Modifications for the Manor Park Integrated Road, Water and Sewer Project (REV).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305858",
+                "attachment_title": "Doc 1 - Appendix - Road Modifications for the Manor Park.pdf"
+              }
+            ],
+            "description": "File No.: ACS2026-PDB-TP-0013 - Rideau-Rockcliffe (13)\u00a0",
+            "minutes": "Jennifer Armstrong, Director, Transportation Planning, Planning, Development & Building Department, and Carina Duclos, Director, Infrastructure Services, Infrastructure & Water Services Department answered questions from the Committee regarding the report.\nSubsequently, the following residents spoke before the Committee and provided comments on the item:\nAdditionally, written correspondence was received by and filed with the Office of the City Clerk and distributed to Committee Members:\nLastly, motions were introduced and voted on by the Committee.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Public Works and Infrastructure Committee recommend that Council approve the road modifications described in Document 1, as part of the Manor Park Integrated Road, Sewer, and Water Project.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-01",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS this report has direct implications on Ward 13 - Rideau-Rockcliffe, as referenced in the Ward Councillor Comment section of the staff report; and\nWHEREAS the Ward Councillor Comment section was inadvertently omitted from the report before it was circulated; and\nWHEREAS the Background section of the report incorrectly referenced a survey as coming from the Councillor\u2019s office rather than from the City.\nTHEREFORE BE IT RESOLVED that the staff report be revised to add the text under the Ward Councillor Comment Section; and\nBE IT FURTHER RESOLVED that the staff report be revised as follows:\n\u201cThe results of aCouncillorCity\u00a0survey indicated 52 per cent of respondents oppose the sidewalks, 40 per cent are in support, and eight per cent did not express an opinion.\u201d\u00a0A Councillor-led survey showed higher opposition to the sidewalks, particularly on the affected streets.\nCouncillor Comments:\nI am unable to provide concurrence for the sidewalk component of this integrated renewal project and respectfully oppose the staff recommendation to proceed with sidewalk construction at this time.\nAs outlined in correspondence with City staff and confirmed by the Office of the City Clerk, the Solicitor, the General Manager of Infrastructure and Water Services, and the General Manager of Planning, Development and Building Services, my decision to defer sidewalk installation beyond Summer 2026 effectively removed the Ward Councillor concurrence required to proceed with this aspect of the project under delegated authority. Section 40 of Schedule I of the Delegated Authority By-law requires Ward Councillor concurrence for road modifications to proceed under delegated authority. Since staff continue to recommend sidewalks, and I do not concur with proceeding at this time, and this matter appropriately rises to the Public Works and Infrastructure Committee and Council for decision in accordance with the Road Modification Approval process.\nI understood from staff that deferral would allow time for the comprehensive transportation study that Manor Park requires given the significant changes affecting the community. In April 2025\u00a0my office was presented with three options: proceed with sidewalks, bring a motion to remove, or defer sidewalks while further planning and review is conducted. I confirmed my preference for deferral with the understanding this was within policy and would provide the necessary time for proper analysis. Staff initially agreed to this approach. However, staff subsequently removed deferral as an option because they did not want to proceed with comprehensive study. Staff have clarified that deferral in their understanding meant only shifting the sidewalk from Fall 2025 to Summer 2026 to allow for additional consultation or information, not the neighbourhood-level holistic transportation planning that is required. Any deferral beyond Summer 2026 for whatever reason would remove the sidewalks from this capital project and require a future sidewalk project to be approved by Council. Given staff's unwillingness to undertake the necessary comprehensive transportation analysis and the contract timelines, staff brought this matter to Committee and Council for decision.\nWhile I strongly support the City's policies promoting active transportation, accessibility, and Vision Zero principles, I believe that the specific circumstances affecting Manor Park represent an exceptional case that should warrant reconsideration of how the City's Integrated Renewal Policy is applied in areas undergoing significant transformation. We must acknowledge that current policy frameworks do not adequately account for situations where holistic transportation planning considerations require comprehensive analysis that cannot be completed within standard project timelines.\nManor Park is experiencing an unprecedented convergence of major transportation and land-use changes that will fundamentally alter pedestrian patterns and mobility needs throughout the community. These interconnected changes include the future re-opening of Hemlock Road to Wateridge Village, which will introduce a major new traffic corridor, a potential full reconstruction of Beechwood Avenue that could transform our traditional main street into a central active transportation spine, proposed intersection redesigns at Eastbourne, Braemar, and Ava that may include a traffic circle, and implementation of the Manor Park Secondary Plan, which will guide future land-use decisions and shift traffic and pedestrian patterns considerably. The cumulative impact of these changes should warrant a more flexible policy approach that allows for comprehensive planning before infrastructure commitments are made.\nAdditionally, the internal streets of Manor Park function primarily as low-volume, local access roads with limited connectivity between major corridors and, as a result, do not experience the same level of through-traffic pressures; in contrast, current and anticipated traffic increases are concentrated along key arterial and collector corridors, including Hemlock Road, St. Laurent Boulevard, Sandridge Road and Birch Avenue, where higher traffic volumes and speeds create a greater need for targeted, pedestrian-focused design and permanent traffic calming measures.\nThe Manor Park Official Plan Amendment approved in 2021 introduced dramatic increases in density across 35 acres, including high-rise buildings up to 30 stories. This level of intensification will generate substantial additional vehicle traffic, pedestrian activity, and cycling demand that will interact with the proposed infrastructure renewal areas in complex ways. During consideration of the Official Plan Amendment, both my office and the Manor Park Community Association specifically recommended that the City undertake comprehensive, holistic transportation planning for the community to address the complex interactions between intensification, existing infrastructure, and planned transportation changes. Despite these clear recommendations made in 2021, this essential holistic transportation planning exercise has not been undertaken by City staff. This gap in planning should warrant policy flexibility to defer infrastructure decisions until proper analysis can be completed.\nThe absence of this holistic planning framework means that infrastructure investments, including sidewalks in this instance, risk being implemented in isolation without proper consideration of their integration with the community's transformed transportation landscape. Specific traffic studies are required, including comprehensive vehicle traffic analysis and projections accounting for intensification impacts, ground-level pedestrian and cycling assessment in the context of future demand, cumulative impact assessment of multiple concurrent transportation changes, and adjacent neighbourhood impact studies for streets affected by proximity to intensive development. The implementation of the Manor Park Secondary Plan represents a master planning exercise that will effectively determine how development in Manor Park over the next 20 to 50 years will occur. Within this long-term planning context, implementing sidewalks without understanding the full scope of future traffic patterns risks creating infrastructure that may be inadequate, inappropriately located, or require costly future modifications to accommodate the community's transformed transportation needs. These circumstances should warrant policy provisions that allow for deferral pending comprehensive analysis.\nMy office conducted an extensive eight-month consultation process that included two public information sessions, community surveys, ongoing resident feedback, and additional consultation sessions. This represents significantly more engagement than the typical single public information session for integrated renewal projects. Based on community survey data from 338 respondents, there is substantial opposition to sidewalk installation in the proposed area. Only 71 respondents (21%) expressed support while 267 respondents (79%) opposed the installation. Opposition was particularly concentrated on directly affected streets: Kilbarry Crescent received 50 responses, all opposed, Arundel Avenue received 34 responses with 31 opposed, and Farnham Crescent, Eastbourne Avenue, and Braemar Street showed unanimous or near-unanimous opposition. While community preference alone may not justify deferral under current policy, the combination of strong community opposition and the genuine need for comprehensive transportation planning should warrant policy flexibility in this exceptional circumstance.\nI acknowledge the accessibility concerns raised in the staff report. My office heard from residents with mobility challenges on both sides of this issue. Some residents noted that the current infrastructure forces wheelchair users into dangerous situations and that winters are particularly challenging for people with mobility issues. Others with mobility challenges expressed preference for no sidewalks due to technical requirements of specific mobility equipment or difficulty navigating sidewalks due to sensory processing challenges. These competing accessibility needs further underscore the importance of comprehensive transportation planning that can properly assess and address the full range of community mobility requirements. The existence of conflicting accessibility perspectives should warrant a more deliberative policy approach that allows time for thorough analysis.\nI support proceeding with the critical underground infrastructure work (sewers, watermains, roadways, and curbs) as scheduled. Curbs will be installed as required for proper drainage, road protection, and infrastructure longevity. However, sidewalk implementation should be deferred and revisited as part of the comprehensive transportation analysis that must be conducted to ensure coordinated planning given the multiple changes affecting Manor Park's transportation landscape. This deferral represents responsible stewardship of public infrastructure investments by ensuring that sidewalk decisions are made with full knowledge of how they will integrate with the community's evolving transportation network. The cost of implementing sidewalks as part of this $13.9 million project (approximately $180,000) will be removed from the project scope.\nI respectfully request that Council defer the sidewalk component of this project and direct staff to undertake the comprehensive transportation planning that should have been completed following approval of the Manor Park Secondary Plan in 2021. This case demonstrates that current policy frameworks should be reconsidered to allow for greater flexibility when communities face exceptional circumstances involving multiple concurrent transportation changes and significant intensification that require comprehensive analysis before infrastructure decisions are finalized.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-02",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the City\u2019s Transportation Master Plan, Complete Streets Policy, and Vision Zero framework support safe, accessible, and connected pedestrian networks, while allowing for context-sensitive application; and\nWHEREAS integrated infrastructure renewal projects present an important opportunity to improve pedestrian infrastructure, but sidewalk installation on individual streets does not always produce meaningful connectivity in the short-term when evaluated in isolation; and\nWHEREAS effective transportation planning to address pedestrian missing links requires sidewalks to be assessed in relation to nearby intersections, crossings, schools, transit routes, and existing or planned pedestrian infrastructure; and\nWHEREAS the Manor Park neighbourhood is experiencing evolving transportation pressures including the future reopening of Hemlock Road connecting to Wateridge Village, redevelopment along St. Laurent Boulevard, and continued growth within Manor Park Estates; and\nWHEREAS Manor Park Public School has a longstanding need for safer pedestrian access, with existing conditions including a painted walking path, constrained sidewalks, and congestion during school drop-off and pick-up periods; and\nWHEREAS the City\u2019s Transportation Master Plan identifies pedestrian improvements in the vicinity of Eastbourne Avenue and Manor Park Public School, but these improvements are currently unfunded and scheduled beyond the existing five-year capital horizon; and\nWHEREAS the current Manor Park integrated renewal project has allocated $180,000 for sidewalk construction streets that would not significantly improve pedestrian connectivity at this time; and\nWHEREAS redirecting resources and construction to priority pedestrian connections could improve safety for school children and accelerate delivery of meaningful network improvements;\nWHEREAS the review of sidewalk placement within the Manor Park integrated renewal project highlighted that the proposed sidewalk segments do not directly improve pedestrian connectivity at this time, and prompted consideration of how pedestrian infrastructure investments could better address key neighbourhood connections\nTHEREFORE BE IT RESOLVED that staff be directed to review opportunities to reallocate funding from within the current project, where feasible, or identify additional funding sources, to accelerate pedestrian connectivity improvements serving Manor Park Public School; and\nBE IT FURTHER RESOLVED that staff prioritize improvements that strengthen connections between the school, surrounding neighbourhood streets, and transit routes, including but not limited to Eastbourne Avenue, Thornwood Road adjacent to Manor Park Public School, and the Braemar\u2013Eastbourne area; and\nBE IT FURTHER RESOLVED that staff identify potential funding sources within the current project, where feasible, or from other available sources, to advance these pedestrian connectivity improvements sooner than currently planned, and provide this information to the Ward Councillor, with a summary circulated to Committee members; and\nBE IT FURTHER RESOLVED that staff also outline any design or timing adjustments required to accelerate these pedestrian safety improvements, with a view to advancing implementation as early as feasible.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "T. Tierney",
+                      "W. Lo",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 5
+                  },
+                  "against": {
+                    "councillors": [
+                      "G. Gower",
+                      "C. Kitts",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "S. Desroches"
+                    ],
+                    "count": 7
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (5 to 7)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-03",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Manor Park Official Plan Amendment, approved in 2021, and the resulting Secondary Plan could introduce a scale of intensification that will significantly alter traffic and pedestrian patterns throughout the community; and\nWHEREAS the reopening of Hemlock Road to Wateridge Village, the potential reconstruction of Beechwood Avenue, proposed intersection modifications at Eastbourne, Braemar, and Ava, and the build-out of the Manor Park Secondary Plan represent a convergence of transportation changes that require coordinated analysis before further infrastructure decisions are made; and\nWHEREAS both the Ward Councillor and the Manor Park Community Association recommended at the time of OPA approval in 2021 that the City undertake comprehensive transportation planning for the community, and that recommendation has not been acted upon; and WHEREAS the internal streets of Manor Park function primarily as low-volume, local access roads with limited connectivity between major corridors, and therefore do not experience the same level of through-traffic pressures; and\nWHEREAS current and anticipated traffic increases are concentrated along key arterial and collector corridors, including Hemlock Road, St. Laurent Boulevard, Sandridge Road and Birch Avenue, where higher traffic volumes and speeds create greater need for targeted, pedestrian-focused design and permanent traffic calming measures; and\nWHEREAS City planning frameworks, including the Transportation Master Plan, do not provide a neighbourhood-specific, cumulative assessment of transportation impacts within Manor Park; and\nTHEREFORE BE IT RESOLVED that staff be directed to develop a scoped work plan and resource estimate for a neighbourhood-level transportation assessment for the Manor Park community, encompassing traffic projections, pedestrian and cycling demand, cumulative impacts of all planned transportation changes, and a prioritized pedestrian infrastructure investment plan; and\nBE IT FURTHER RESOLVED that staff advise Committee whether this study can be resourced within existing budgets or requires a dedicated funding allocation; and\nBE IT FURTHER RESOLVED that staff report back to the Public Works and Infrastructure Committee no later than Q4 2026, with recommendations to inform future transportation and pedestrian infrastructure planning decisions within Manor Park.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "L. Johnson",
+                      "J. Bradley",
+                      "A. Troster",
+                      "S. Desroches",
+                      "W. Lo",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 11
+                  },
+                  "against": {
+                    "councillors": [
+                      "S. Devine"
+                    ],
+                    "count": 1
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (11 to 1)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-04",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Manor Park integrated infrastructure renewal project for Braemar Street, Finter Street and Kilbarry Road is under construction, with contract timelines requiring final sidewalk decisions to be confirmed by mid-April to proceed with construction scheduling; and\nWHEREAS feedback received through the project review process raised concerns regarding the functional value and placement of sidewalks within the broader pedestrian network; and\nWHEREAS sidewalks should be prioritized based on their ability to meaningfully improve connectivity to key destinations such as Manor Park Public School, transit corridors, and major intersections; and\nWHEREAS the Manor Park Official Plan Amendment (2021), together with the reopening of Hemlock Road to Wateridge Village, the potential reconstruction of Beechwood Avenue, proposed intersection modifications, and ongoing neighbourhood growth, represent a convergence of transportation changes that will significantly alter traffic and pedestrian patterns and require a coordinated, network-based and holistic approach to pedestrian connectivity planning; and\nWHEREAS previous recommendations to undertake comprehensive transportation planning for the Manor Park community have not yet been implemented; and\nWHEREAS this direction is site-specific and does not alter the City\u2019s Complete Streets Policy, Transportation Master Plan, or broader objectives to expand pedestrian infrastructure across Ottawa; and\nWHEREAS delaying direction on sidewalk placement could impact the construction timeline as the contractor must finalize plans and coordinate construction activities to meet contract obligations;\nTHEREFORE BE IT RESOLVED that, as part of the Roadway Modification Approval (RMA), staff be directed to defer the construction of all proposed sidewalks within the Manor Park integrated infrastructure renewal project, to be reconsidered through a coordinated, network-based and holistic approach to pedestrian connectivity planning, including in conjunction with future infrastructure works such as intersection improvements and traffic calming measures; and\nBE IT FURTHER RESOLVED that the project proceed with roadway and curb construction consistent with this direction to maintain the planned construction schedule; and\nBE IT FURTHER RESOLVED that this direction is site-specific and shall not be interpreted as a precedent for sidewalk deferral or removal in other neighbourhoods or projects; and\nBE IT FURTHER RESOLVED that staff consider prioritizing any available funding associated with deferred sidewalk works toward future pedestrian connectivity improvements within the ward, in alignment with identified network priorities; and\nBE IT FURTHER RESOLVED that sidewalks on these streets may be reconsidered following completion of a broader assessment of pedestrian connectivity needs within Manor Park, including connections to Manor Park Public School, transit routes, and surrounding streets.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "T. Tierney",
+                      "W. Lo",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 5
+                  },
+                  "against": {
+                    "councillors": [
+                      "G. Gower",
+                      "C. Kitts",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "S. Desroches"
+                    ],
+                    "count": 7
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (5 to 7)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Bank Street Active Transportation and Transit Priority Feasibility Study",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305853",
+                "attachment_title": "Report - Bank St Active Transportation and Transit Priority Feasibility Study.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305854",
+                "attachment_title": "Document 1 - Bank St Hwy 417 to Canal, Recommended Plan.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-TP-0004 - Capital (17)",
+            "minutes": "Jennifer Armstrong, Director, Transportation Planning, Planning, Development & Building Department, Lise Guevremont, Senior Project Manager, Planning, Development & Building Department, Pat Scrimgeour, Director, Transit Customer Systems & Planning, Transit Services Department and Marcia Wallace, General Manager, Planning, Development Building Services, Planning, Development & Building Department answered questions from the Committee with regards to the report.\nThe following delegations signed up to speak:\nAdditionally, written correspondence was received by and filed with the Office of the City Clerk and distributed to Committee Members:\nLastly, succeeding the Committee's discussion, the following Directions to Staff were presented:\nDirection to Staff (Vice-Chair C. Kitts on behalf of Councillor S. Menard):\nAs per recommendation 4 of the Bank Street Active Transportation and Transit Priority Feasibility Study File Number: ACS2026-PDB-TP-0004 Report to Public Works and Infrastructure Committee on March 30, 2026, city staff will be investigating opportunities to improve north-south cycling routes parallel to Bank Street along streets such as Percy, Craig, Lyon and O\u2019Connor as part of the Active Transportation Planning program.\nTo complement recommendation 4, that staff be directed to investigate the inclusion of a comfortable, well-signed bicycling route through Lansdowne Park via shared local roads and other facilities where feasible, connecting Bank Street to the O\u2019Connor/Holmwood bicycling route, as part of this recommendation.\nDirection to Staff (Vice-Chair C. Kitts on behalf of Councillor S. Menard):\nThat staff be directed to reduce the pilot period to twelve months/one year.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Public Works and Infrastructure Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-05",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Bank Street is one of the city\u2019s most significant transit corridors and is designated as a Transit Priority Corridor in the Transportation Master Plan, with Routes 6 and 7 being the second and third highest ridership bus routes in the City\u2019s transit system; and,\nWHEREAS the Bank Street Active Transportation and Transit Priority Feasibility Study identifies the critical need for more reliable transit service on Bank Street between Highway 417 and the Rideau Canal and recommends new bus-only lanes within the study limits, including a pilot that is targeted to launch in summer 2027 with a report-back on findings by end of Q4 2028; and,\nWHEREAS Bank Street north of the study limits, from Catherine Street to Wellington Street, shares the above characteristics and may also offer the opportunity for transit priority measures such as bus-only lanes to improve transit travel times and reliability; and,\nWHEREAS the Transportation Master Plan identifies Bank Street from Catherine Street to Wellington Street as a candidate for tactical transit improvements such as bus-only lanes, and allocates funding annually for planning and implementation of the most critical isolated measures and tactical improvement projects;\nTHEREFORE BE IT RESOLVED THAT the report-back on the results of the pilot also provide recommendations for a future feasibility study of tactical transit improvements on Bank Street between Catherine Street and Wellington Street, considering the results of the pilot between Highway 417 and the Rideau Canal.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-06",
+                "motion_moved_by": "S. Devine",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Bank Street Active Transportation and Transit Priority Pilot Project will be monitored and evaluated to understand its operational, transportation, and community impacts; and\nWHEREAS the staff report indicates that a comprehensive Monitoring Plan will be used to assess the outcomes of the pilot, but such plan has not yet been developed; and\nWHEREAS local businesses and BIAs have expressed interest in understanding how the pilot may affect access, parking, and commercial activity along the corridor; and\nWHEREAS other municipalities have implemented transit priority pilots on commercial corridors and have developed a range of monitoring approaches to assess local business impacts; and\nWHEREAS Council has an interest in ensuring that the Monitoring Plan for the Bank Street pilot is transparent, clearly defined, and capable of informing future transit priority decisions;\nTHEREFORE BE IT RESOLVED that as part of developing the comprehensive Monitoring Plan for the Bank Street Transit Priority Pilot, Staff will incorporate a transparent and clearly defined approach to monitoring potential local business impacts \u2013 positive, negative, or neutral - including the following components:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-07",
+                "motion_moved_by": "W. Lo",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS report ACS2026-PDB-TP-0004 recommends significant changes to Bank Street between Highway 417 and the Rideau Canal, including bus stops relocations, on-street parking, and road layout; and\nWHEREAS residential properties are afforded the opportunity to support or object to street parking changes by petition; and\nWHEREAS the same opportunity is not afforded to businesses who will be affected by changes in the recommended plan; and\nTHEREFORE BE IT RESOLVED THAT the approval of recommendations 1, 2, and 3 for Bank Street between Highway 417 and Holmwood Avenue be conditional on signatures of support from two-thirds of the businesses in the affected section of Bank Street, including businesses with Bank Street frontage but a primary entrance on an intersecting street; and\nBE IT FURTHER RESOLVED THAT the recommended plan for Bank Street between Holmwood Avenue and the Rideau Canal be approved and implemented, pending detailed design and funding.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "W. Lo"
+                    ],
+                    "count": 2
+                  },
+                  "against": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 9
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (2 to 9)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Public Works Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Large Quadricycle Pilot Program Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305847",
+                "attachment_title": "English Report - Large Quadricycle Pilot Program.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305848",
+                "attachment_title": "French Report - Large Quadricycle Pilot Program.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305849",
+                "attachment_title": "English Document 1 - By-law - Large Quadricycle.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305850",
+                "attachment_title": "French Document 1 - By-law - Large Quadricycle.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305851",
+                "attachment_title": "English Document 2 - Large Quadricycle - Route Restrictions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305852",
+                "attachment_title": "French Document 2 - Large Quadricycle - Route Restrictions.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PWD-TRF-0001 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Public Works and Infrastructure Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Motion \u2013 Councillor A. Troster (on behalf of Councillor T. Kavanagh) - Road Murals",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305846",
+                "attachment_title": "Motion \u2013 A. Troster (Kavanagh) - Road Murals - BIL.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0024 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nThat Public Works and Infrastructure Committee direct staff to:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Flagstaff Drive and traffic calming",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-08",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion due to safety concerns in the vicinity of St. Juan Diego Catholic School in Barrhaven.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-09",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Barrhaven West is one of the fastest growing wards in Ottawa; and\nWHEREAS Half Moon Bay has had three new schools open their doors in the last two years; and\nWHEREAS on Friday March 13th, 2026 a student was struck leaving St Juan Diego Elementary School by a car and required medical attention at CHEO; and\nWHEREAS there are assessments underway that are not yet complete for potential Adult School Crossing Guards in the vicinity of the school; and\nWHEREAS staff have recently installed temporary signage to create an all-way stop at the intersection of Flagstaff Drive and Cygnus street as a construction-related traffic management initiative; and\nWHEREAS installing a permanent stop control, with a single crosswalk where it can be accommodated between existing driveways on Flagstaff Drive on the East Side of Cygnus street, to improve pedestrian crossing safety at this intersection would trigger the Integrated Accessibility Standards Regulation (IASR) under the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), requiring curb depressions aligned with the pedestrian travel path and properly placed tactile walking surface indicators (TWSIs); and\nWHEREAS the conditions required for staff to exercise delegated authority to implement a permanent all-way stop control at the intersection of Cygnus Street and Flagstaff Drive have not been met; and\nWHEREAS the intersection of Cygnus Street and Flagstaff Drive is not eligible for Pedestrian Accessibility Intersection and Ramping (PAIR) Program funding as it does not meet Council-approved criteria for the permanent traffic control; and\nWHEREAS a permanent all-way stop control at this location cannot be implemented until all legislated accessible design features are installed;\nTHEREFORE BE IT RESOLVED THAT the Public Works and Infrastructure Committee recommend that Council approve making the temporary all-way stop at Cygnus Street and Flagstaff Drive permanent, including establishing one crosswalk on the east side of Cygnus Street on Flagstaff Drive, once all legislated accessible features are in place; and\nBE IT FURTHER RESOLVED the Ward 3 Temporary Traffic Calming budget be deemed an appropriate funding source for the installation of the required accessibility features to ensure compliance with the Integrated Accessibility Standards Regulation (IASR) under the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), as well as any associated signage and pavement marking costs for the permanent stop control and crosswalk; and\nBE IT FURTHER RESOLVED that any use of the Ward 3 Temporary Traffic Calming Budget for this project be coordinated between the Ward Councillor and relevant city staff; and\nBE IT FURTHER RESOLVED THAT this work be undertaken as soon as practicable, following the confirmation and securing of a funding source, compliance with procurement requirements, and the scheduling of any necessary construction or installation activities; and,\nBE IT FURTHER RESOLVED that staff be directed to review and report back to council as part of the 2027 Road Safety Action Plan refresh on options to improve traffic calming around schools, including, but not limited to, additional support for high growth wards.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.2",
+            "title": "Speed Zoning Policy Update",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-10",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Rules of Procedure be waived for consideration today to allow timely reporting back to committee in April.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-11",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WhereasCouncil approved the 2024 Road Safety Action Plan \u2013 Implementation Plan, which included a review and update to the City\u2019s Speed Zoning Policy as one of its deliverables; and\nWhereasspeeding and reckless driving continue to be a significant concern within the community; and\nWhereasvulnerable road users, including pedestrians and cyclists, have recently been struck by vehicles in residential neighbourhoods; and\nWhereasspeed is estimated to be a contributing factor in approximately 27 per cent of collisions, according to a 2021 Transport Canada report; and\nWhereasspeed is a critical factor in the survivability of pedestrians involved in motor vehicle collisions\nTherefore be it resolved thatstaff report on the status of the Speed Zoning Policy update at the April 2026 meeting of PWIC.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.3",
+            "title": "Speed Data Following Removal of Speed Cameras",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-12",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Rules of Procedure be waived for consideration today to allow timely reporting back to committee in April.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-25-13",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Whereasspeeding and reckless driving continue to present safety risks on Ottawa\u2019s road network; and\nWhereasdata from the original eight automated speed enforcement pilot locations showed sustained and continuous driver compliance with posted speed limits year over year while the speed cameras were in place; and\nWhereasthe removal of municipal speed cameras throughBill 56, Building a more Competitive Economy Act, 2025has reduced the range of tools available to the City of Ottawa to manage speeding; and\nWhereasstaff have been collecting data at the eight original pilot sites to monitor the impact of theBill 56on driver speed\nTherefore be it resolved\u00a0thatstaff report on the speed data they have collected since the removal of the speed cameras at the April 2026 meeting of PWIC.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.4",
+            "title": "Fourth Avenue parking time limits",
+            "attachments": [],
+            "description": "",
+            "minutes": "Moved by Councillor L. Johnson (on behalf of S. Menard)",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Fourth Avenue is classified as a Local Road running east-west between Bronson Avenue and Queen Elizabeth Drive in the Glebe: and\nWHEREAS Fourth Avenue between Percy Street and Bank Street is primarily a residential street, with a church located at Fourth Avenue and Percy Street, two elementary schools located at Fourth Avenue and Lyon Avenue, and a church and a bank located on Bank Street and Fourth Avenue; and\nWHEREAS the majority of Fourth Avenue between Percy Street and Bank Street is currently signed with a one-hour time limit except for a section of paid-parking spaces located on the south side of the street approaching Bank Street and a section located on the south side of Fourth Avenue near Percy Street outside Blessed Sacrament Catholic Church that is a mix of unsigned parking and signed no-parking; and\nWHEREAS other east-west streets in the Glebe are a mixture of signed one-hour, two-hour, three-hour and unsigned parking limits; and\nWHEREAS most other east-west streets in this section of the Glebe are signed two-hour parking limits between Percy Street and Bank Street; and\nWHEREAS there is an expressed desire from residents, visitors and businesses in the area for greater consistency in parking time limits in the Glebe; and\nWHEREAS Blessed Sacrament Catholic Church has expressed concern over the one-hour parking limit, as it does not allow attendees sufficient time to park for a Sunday service; and\nWHEREAS the Councillor\u2019s office intends to study the change in the parking limit as part of the greater study of parking time limits in the Glebe; and\nWHEREAS the conditions under which staff have delegated authority to implement a change to the curbside parking regulations along Fourth Avenue between Percy Street and Bank Street are not met, based on the On-Street Parking Regulation Change Policy, as approved by Council in April 2017;\nTHEREFORE BE IT RESOLVED THAT Public Works and Infrastructure Committee recommend that Council approve increasing the parking duration where currently one-hour 7 am to 7 pm, to 2 hours on Fourth Avenue between Percy Street and Bank Street; and\nBE IT FURTHER RESOLVED that the corresponding signage changes be completed as soon as practicable.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.5",
+            "title": "Cityview Ditch Rehabilitation Project Area",
+            "attachments": [],
+            "description": "",
+            "minutes": "Moved by Councillor L. Johnson",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the City of Ottawa has identified a need to rehabilitate the ditch system in the Cityview and Crestview neighbourhoods in College Ward; and\nWHEREAS an assessment was done by IWSD Staff and determined that the 2025 cost to install sewers through the Local Improvement Process was $140 000 per property owner; and\nWHEREAS the project area of the Cityview Ditch Rehabilitation Project has been deemed ineligible for a street-by-street Local Improvement Process due to the technical engineering requirements; and\nWHEREAS the project will be done in phases with phase 1 starting spring 2026;\nTHEREFORE BE IT RESOLVED that Staff investigate financial opportunities from the Government of Canada and the Province of Ontario to subsize the costs to install sewers in the Cityview Ditch Rehabilitation project area.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Sidewalk Cost Estimates (Integrated vs. Standalone Construction)",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor M. Luloff (on behalf of R. King)",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "The staff report references an estimated cost of approximately $150,000\u2013$180,000 for sidewalk construction within the current integrated infrastructure contract, compared to $500,000\u2013$700,000 for delivery as a future standalone project. This variance has been presented as a material consideration in Committee deliberations and warrants further clarification.\nCould staff please provide the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: Thursday, April 23, 2026.",
+        "minutes": "The meeting adjourned at 5:17 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

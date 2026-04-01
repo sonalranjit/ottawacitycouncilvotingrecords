@@ -5,6 +5,7 @@ Generates:
   {output_dir}/index.json                         — all dates + councillor list
   {output_dir}/dates/{YYYY-MM-DD}.json            — per-date meetings/motions/votes
   {output_dir}/councillors/{slug}.json            — per-councillor vote history
+  {output_dir}/feed.xml                           — RSS feed of recent motions
 
 Usage:
     python -m ottawa_city_scraper.export_web_data
@@ -16,6 +17,9 @@ import argparse
 import json
 import sys
 import unicodedata
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from email.utils import format_datetime
 from pathlib import Path
 
 import duckdb
@@ -352,6 +356,78 @@ def export_all_councillors(
 
 
 # ---------------------------------------------------------------------------
+# feed.xml
+# ---------------------------------------------------------------------------
+
+SITE_URL = "https://howtheyvoted.ca"
+
+
+def export_rss_feed(con: duckdb.DuckDBPyConnection, output_dir: Path, municipality: str) -> None:
+    """Write feed.xml with the most recent 100 motions as an RSS 2.0 feed."""
+    rows = con.execute(
+        """
+        SELECT m.motion_id, m.motion_text, m.motion_result, m.for_count, m.against_count,
+               a.title AS item_title, a.agenda_item_number,
+               strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE)) AS meeting_date,
+               mt.meeting_name, mt.source_url
+        FROM motions m
+        JOIN agenda_items a ON m.item_id = a.item_id
+        JOIN meetings mt ON m.meeting_id = mt.meeting_id
+        WHERE mt.municipality = ?
+        ORDER BY mt.meeting_date DESC, mt.meeting_id, a.agenda_item_number, m.motion_id
+        LIMIT 100
+        """,
+        [municipality],
+    ).fetchall()
+
+    feed_url = f"{SITE_URL}/data/ottawa/feed.xml"
+    ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
+
+    rss = ET.Element("rss", {"version": "2.0"})
+    channel = ET.SubElement(rss, "channel")
+    ET.SubElement(channel, "title").text = "Ottawa City Council Voting Records"
+    ET.SubElement(channel, "link").text = SITE_URL
+    ET.SubElement(channel, "description").text = "Motions voted on by Ottawa City Council"
+    ET.SubElement(channel, "language").text = "en-ca"
+    atom_link = ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link")
+    atom_link.set("href", feed_url)
+    atom_link.set("rel", "self")
+    atom_link.set("type", "application/rss+xml")
+
+    for (motion_id, motion_text, motion_result, for_count, against_count,
+         item_title, agenda_item_number, meeting_date, meeting_name, source_url) in rows:
+
+        result_str = motion_result or "Unknown"
+        item_label = f"{agenda_item_number} \u2013 {(item_title or '').strip()}".strip(" \u2013") if item_title else (agenda_item_number or "")
+        title_text = f"{result_str}: {item_label}" if item_label else result_str
+
+        desc_lines = [f"Result: {result_str} (For: {for_count or 0}, Against: {against_count or 0})"]
+        if motion_text:
+            desc_lines.append((motion_text or "").strip())
+        if source_url:
+            desc_lines.append(f"Source: {source_url}")
+
+        dt = datetime.strptime(meeting_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+
+        item = ET.SubElement(channel, "item")
+        ET.SubElement(item, "title").text = title_text
+        ET.SubElement(item, "link").text = f"{SITE_URL}/#/ottawa?date={meeting_date}"
+        ET.SubElement(item, "description").text = "\n\n".join(desc_lines)
+        ET.SubElement(item, "pubDate").text = format_datetime(dt)
+        ET.SubElement(item, "guid", isPermaLink="false").text = motion_id
+        ET.SubElement(item, "category").text = meeting_name or ""
+
+    ET.indent(rss, space="  ")
+    out_path = output_dir / "feed.xml"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        ET.ElementTree(rss).write(f, encoding="unicode", xml_declaration=False)
+
+    print(f"  feed.xml  ({len(rows)} items)", file=sys.stderr)
+
+
+# ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
 
@@ -388,6 +464,7 @@ def main() -> None:
     dates = export_index(con, councillors, output_dir, args.municipality)
     export_all_dates(con, dates, output_dir, args.municipality)
     export_all_councillors(con, councillors, output_dir)
+    export_rss_feed(con, output_dir, args.municipality)
 
     con.close()
     print("Done.", file=sys.stderr)

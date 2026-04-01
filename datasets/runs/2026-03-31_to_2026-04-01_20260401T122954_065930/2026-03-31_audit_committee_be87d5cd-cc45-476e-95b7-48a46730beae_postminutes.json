@@ -1,0 +1,326 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=be87d5cd-cc45-476e-95b7-48a46730beae&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=be87d5cd-cc45-476e-95b7-48a46730beae&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Audit Committee - March 31, 2026",
+  "meeting_number": 16,
+  "meeting_date": "2026-03-31",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Cathy Curry",
+    "Vice-chair: Councillor Allan Hubley",
+    "David Brown",
+    "Marty Carr",
+    "David Hill",
+    "Theresa Kavanagh",
+    "Catherine Kitts"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 9,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305578",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305579",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on April 8, 2026 in Audit Committee Report 16.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on March 30, 2026, and the deadline to register to speak by email is 8:30 am on March 31, 2026.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "1.1",
+            "title": "Motion to Add Reports",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-16-01",
+                "motion_moved_by": "A. Hubley",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Audit Committee approve the addition of the following reports, dated March 30, 2026, and published after the agenda, pursuant to subsection 89(3) of the Procedure By-law (being by-law no. 2025-100) to allow for consideration of these matters:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "AC Minutes 15 \u2013 November 28, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305576",
+                "attachment_title": "AC English Minutes 15_2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305577",
+                "attachment_title": "AC French Minutes 15_2025.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Auditor General",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Budget Reallocation",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305580",
+                "attachment_title": "Report - OAG Budget Reallocation.pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS2026-OAG-BVG-005 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee recommend Council approve the budget reallocation for 2 full-time employees.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Office of the Auditor General (OAG) \u2013 Semi-annual Report on Follow-up Procedures",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305581",
+                "attachment_title": "Report - OAG Semi-annual Report on Follow-up Procedures.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305582",
+                "attachment_title": "Document 1 English -\u202fOAG Semi-Annual Report on Follow-up Procedures.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305583",
+                "attachment_title": "Document 1 French -\u202fOAG Semi-Annual Report on Follow-up Procedures.pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS2026-OAG-BVG-001 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee recommend Council receive the Semi-Annual Report on Follow-up Procedures.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Office of the Auditor General (OAG) \u2013 2025 Report on the Fraud and Waste Hotline",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305584",
+                "attachment_title": "Report - 2025 Report on the Fraud and Waste Hotline.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305585",
+                "attachment_title": "Document 1 English - OAG 2025 Report on the FWHL.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305586",
+                "attachment_title": "Document 1 French - OAG 2025 Report on the FWHL.pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS2026-OAG-BVG-002 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee recommend Council receive the 2025 Report on the Fraud and Waste Hotline.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.4",
+            "title": "Office of the Auditor General (OAG) \u2013 2025 Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305587",
+                "attachment_title": "Report - OAG 2025 Annual Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305588",
+                "attachment_title": "Document 1 English - OAG 2025 Annual Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305589",
+                "attachment_title": "Document 1 French - OAG 2025 Annual Report.pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS2026-OAG-BVG-003 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee recommend Council receive the 2025 Annual Report",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.5",
+            "title": "Office of the Auditor General (OAG) \u2013 OC Transpo Recruitment and Staffing Investigation",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305590",
+                "attachment_title": "Report - OAG OC Transpo Recruitment and Staffing.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305591",
+                "attachment_title": "Document 1 English - OAG OC Transpo Recruitment and Staffing.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305592",
+                "attachment_title": "Document 1 French - OAG OC Transpo Recruitment and Staffing.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305593",
+                "attachment_title": "Document 2 English - OAG OC Transpo Recruitment and Staffing Highlights.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305594",
+                "attachment_title": "Document 2 French - OAG OC Transpo Recruitment and Staffing Highlights.pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS2026-OAG-BVG-004 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee receive the investigation report and recommend that Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: April 30, 2026",
+        "minutes": "The meeting adjourned at 10:41 am.",
+        "motions": []
+      }
+    ]
+  }
+}

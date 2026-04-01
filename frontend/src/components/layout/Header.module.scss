@@ -72,3 +72,30 @@
   color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+.rssLink {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: $font-size-sm;
+  font-weight: 500;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius;
+  text-decoration: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  &:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+  }
+}
+
+.rssIcon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  stroke: currentColor;
+  flex-shrink: 0;
+}

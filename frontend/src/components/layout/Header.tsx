@@ -29,6 +29,19 @@ export default function Header() {
           >
             About
           </NavLink>
+          <a
+            href="./data/ottawa/feed.xml"
+            className={styles.rssLink}
+            title="Subscribe via RSS"
+            aria-label="RSS Feed"
+          >
+            <svg className={styles.rssIcon} viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="3" cy="13" r="2" />
+              <path d="M3 7a6 6 0 0 1 6 6" fill="none" strokeWidth="2" strokeLinecap="round" />
+              <path d="M3 2a11 11 0 0 1 11 11" fill="none" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+            RSS
+          </a>
         </nav>
       </div>
     </header>

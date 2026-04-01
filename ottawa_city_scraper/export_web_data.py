@@ -389,6 +389,7 @@ def export_rss_feed(con: duckdb.DuckDBPyConnection, output_dir: Path, municipali
     ET.SubElement(channel, "link").text = SITE_URL
     ET.SubElement(channel, "description").text = "Motions voted on by Ottawa City Council"
     ET.SubElement(channel, "language").text = "en-ca"
+    ET.SubElement(channel, "lastBuildDate").text = format_datetime(datetime.now(tz=timezone.utc))
     atom_link = ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link")
     atom_link.set("href", feed_url)
     atom_link.set("rel", "self")

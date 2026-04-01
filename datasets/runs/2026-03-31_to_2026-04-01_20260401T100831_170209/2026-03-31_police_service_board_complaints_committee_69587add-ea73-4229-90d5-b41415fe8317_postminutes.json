@@ -1,0 +1,65 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=69587add-ea73-4229-90d5-b41415fe8317&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=69587add-ea73-4229-90d5-b41415fe8317&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Police Service Board Complaints Committee - March 31, 2026",
+  "meeting_number": 1,
+  "meeting_date": "2026-03-31",
+  "meeting_start_time": "13:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Councillor Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Complaints Committee adjourn the public portion of its meeting to move In Camera to discuss complaints INV-25-186, INV-25-93and INV-25-183pursuant to section 44(2)(b) personal matters about an identifiable individual, including members of the police service or any other employees of the board.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 1:01 pm.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Tuesday, April 7, 2026 - 10:00 AM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

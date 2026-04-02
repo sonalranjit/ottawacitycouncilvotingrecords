@@ -183,10 +183,25 @@
 }
 
 .summary {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.summaryLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+  font-style: italic;
+}
+
+.summaryText {
   font-size: $font-size-sm;
   line-height: 1.5;
-  color: $color-text-primary;
   margin: 0;
+  color: $color-text-primary;
   font-style: italic;
 }
 

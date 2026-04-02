@@ -39,6 +39,13 @@ export default function About() {
           in the source HTML. All data is exported as static JSON files at build time.
         </p>
         <p>
+          Motions are also enriched with plain-English summaries and thematic tags using Claude AI.
+          These summaries are written for everyday residents with no background in politics or law —
+          concrete, jargon-free, and focused on what the vote actually means. Tags group motions
+          by topic (e.g. Budget &amp; Finance, Housing &amp; Zoning) and power the{' '}
+          <a href="/ottawa/tags">Topics</a> page.
+        </p>
+        <p>
           The source code for the scraper is available on{' '}
           <a href="https://github.com/sranjit/ottawacitycouncilvotingrecords" target="_blank" rel="noopener noreferrer">
           GitHub.
@@ -86,6 +93,28 @@ export default function About() {
           </p>
           <p className={styles.endpointExample}>
             Example: <code>/data/ottawa/councillors/ariel-troster.json</code>
+          </p>
+        </div>
+
+        <div className={styles.endpoint}>
+          <h3 className={styles.endpointTitle}>Topic Tag Index</h3>
+          <code className={styles.url}>/data/ottawa/tags/index.json</code>
+          <p className={styles.endpointDesc}>
+            Returns all topic tags with their URL-safe slug and motion count, sorted by
+            number of motions descending.
+          </p>
+        </div>
+
+        <div className={styles.endpoint}>
+          <h3 className={styles.endpointTitle}>Motions by Tag</h3>
+          <code className={styles.url}>/data/ottawa/tags/[slug].json</code>
+          <p className={styles.endpointDesc}>
+            Returns all motions tagged with a given topic, including their AI-generated
+            summary, vote tallies, and meeting metadata. Tag slugs are lowercased, with
+            spaces replaced by hyphens and <code>&amp;</code> replaced by <code>and</code>.
+          </p>
+          <p className={styles.endpointExample}>
+            Example: <code>/data/ottawa/tags/budget-and-finance.json</code>
           </p>
         </div>
       </section>

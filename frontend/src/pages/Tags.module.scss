@@ -1,0 +1,185 @@
+@use '../styles/variables' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.loading,
+.error {
+  color: $color-text-muted;
+  padding: $spacing-md;
+}
+
+.error {
+  color: $color-against;
+  border: 1px solid $color-against;
+  border-radius: $border-radius;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xs;
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.breadcrumbLink {
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.breadcrumbSep {
+  color: $color-text-muted;
+}
+
+.heading {
+  font-size: $font-size-lg;
+  font-weight: 700;
+  margin: 0;
+}
+
+.intro {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  margin: 0;
+}
+
+// Tag index grid
+.tagGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: $spacing-md;
+}
+
+.tagCard {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  padding: $spacing-md;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: $color-accent;
+    box-shadow: 0 2px 6px color-mix(in srgb, $color-accent 15%, transparent);
+  }
+}
+
+.tagName {
+  font-weight: 600;
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.tagCount {
+  font-size: 0.78rem;
+  color: $color-text-muted;
+}
+
+// Per-tag motion list
+.motionList {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.motionCard {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.motionMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-sm;
+  align-items: baseline;
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.motionDate {
+  color: $color-accent;
+  white-space: nowrap;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.motionMeeting {
+  color: $color-text-muted;
+}
+
+.motionItem {
+  color: $color-text-primary;
+  font-weight: 500;
+}
+
+.motionSummary {
+  font-size: $font-size-sm;
+  line-height: 1.5;
+  margin: 0;
+  font-style: italic;
+}
+
+.motionFooter {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  flex-wrap: wrap;
+}
+
+.result {
+  display: inline-block;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  font-size: $font-size-sm;
+  font-weight: 600;
+}
+
+.carried {
+  background-color: color-mix(in srgb, #2d7d46 15%, transparent);
+  color: #2d7d46;
+}
+
+.lost {
+  background-color: color-mix(in srgb, #c0392b 15%, transparent);
+  color: #c0392b;
+}
+
+.neutral {
+  background-color: color-mix(in srgb, #555 15%, transparent);
+  color: #555;
+}
+
+.tally {
+  font-size: $font-size-sm;
+}
+
+.forCount {
+  color: #2d7d46;
+  font-weight: 600;
+}
+
+.againstCount {
+  color: #c0392b;
+  font-weight: 600;
+}

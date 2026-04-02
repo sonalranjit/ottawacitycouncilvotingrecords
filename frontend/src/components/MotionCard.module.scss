@@ -181,3 +181,18 @@
   flex-wrap: wrap;
   gap: $spacing-xs;
 }
+
+.summary {
+  font-size: $font-size-sm;
+  line-height: 1.5;
+  color: $color-text-primary;
+  margin: 0;
+  font-style: italic;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+  margin-top: $spacing-xs;
+}

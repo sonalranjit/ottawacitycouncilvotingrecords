@@ -85,6 +85,19 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--no-parquet", action="store_true",
         help="Skip Parquet export after scraping (default: export enabled)",
     )
+    parser.add_argument(
+        "--enrich",
+        action="store_true",
+        help=(
+            "After scraping, enrich newly scraped motions with AI-generated summaries and tags "
+            "using the Anthropic API. Requires ANTHROPIC_API_KEY env var (or --enrich-api-key)."
+        ),
+    )
+    parser.add_argument(
+        "--enrich-api-key",
+        default=None,
+        help="Anthropic API key for --enrich (default: ANTHROPIC_API_KEY env var)",
+    )
     return parser.parse_args(argv)
 
 
@@ -332,6 +345,20 @@ def main(args: argparse.Namespace) -> int:
     if not args.no_parquet and scraped_meeting_ids:
         from .db.parquet_export import export_run_parquet
         export_run_parquet(con, run_dir, scraped_meeting_ids)
+
+    if args.enrich:
+        import os
+        api_key = args.enrich_api_key or os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.error(
+                "ANTHROPIC_API_KEY is not set. "
+                "Set the environment variable or use --enrich-api-key."
+            )
+            con.close()
+            return 1
+        from .tag_motions import enrich_motions
+        logger.info("Enriching newly scraped motions with AI summaries and tags...")
+        enrich_motions(con=con, api_key=api_key)
 
     con.close()
     return 0

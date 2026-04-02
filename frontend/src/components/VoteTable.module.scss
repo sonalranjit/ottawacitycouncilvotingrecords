@@ -51,10 +51,26 @@
   white-space: nowrap;
 }
 
+.summary {
+  display: block;
+  font-style: italic;
+  color: $color-text-primary;
+  word-break: break-word;
+  margin-bottom: $spacing-xs;
+}
+
 .motionText {
   display: block;
   word-break: break-word;
   white-space: pre-wrap;
+  margin-top: $spacing-xs;
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+  margin-top: $spacing-xs;
 }
 
 .expandBtn {

@@ -30,6 +30,8 @@ export interface Motion {
   for_count: number;
   against_count: number;
   votes: VoteRecord[];
+  summary?: string;
+  tags?: string[];
 }
 
 export interface Attachment {
@@ -81,9 +83,42 @@ export interface CouncillorVoteRow {
   for_count: number;
   against_count: number;
   vote: 'for' | 'against';
+  summary?: string;
+  tags?: string[];
 }
 
 export interface CouncillorData {
   councillor: CouncillorMeta;
   votes: CouncillorVoteRow[];
+}
+
+export interface TagMeta {
+  tag: string;
+  slug: string;
+  motion_count: number;
+}
+
+export interface TagIndexData {
+  tags: TagMeta[];
+}
+
+export interface TagMotion {
+  motion_id: string;
+  summary: string;
+  motion_text: string;
+  motion_result: string;
+  for_count: number;
+  against_count: number;
+  item_title: string;
+  agenda_item_number: string;
+  date: string;
+  meeting_name: string;
+  source_url: string;
+  tags: string[];
+}
+
+export interface TagData {
+  tag: string;
+  slug: string;
+  motions: TagMotion[];
 }

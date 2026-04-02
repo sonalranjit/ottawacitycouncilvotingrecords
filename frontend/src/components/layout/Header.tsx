@@ -24,6 +24,12 @@ export default function Header() {
             Councillors
           </NavLink>
           <NavLink
+            to="/ottawa/tags"
+            className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+          >
+            Topics
+          </NavLink>
+          <NavLink
             to="/ottawa/about"
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >

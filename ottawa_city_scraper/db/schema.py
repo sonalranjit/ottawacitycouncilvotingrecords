@@ -94,3 +94,16 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
             PRIMARY KEY (item_id, url)
         )
     """)
+
+    # AI-generated summaries and thematic tags for motions.
+    # Kept separate from motions so re-scrapes (INSERT OR REPLACE INTO motions) don't wipe enrichment data.
+    # motion_id is the same deterministic hash used in the motions table.
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS motion_ai_enrichment (
+            motion_id   VARCHAR PRIMARY KEY,
+            summary     VARCHAR,
+            tags        VARCHAR[],
+            model       VARCHAR,
+            enriched_at TIMESTAMP DEFAULT current_timestamp
+        )
+    """)

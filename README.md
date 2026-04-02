@@ -49,9 +49,13 @@ python -m ottawa_city_scraper.cli \
 | `--meeting-name` | _(required)_ | One or more meeting name patterns. Supports wildcards (`*`, `?`). e.g. `"City Council" "*Committee*"` |
 | `--db-path` | `ottawa_council.duckdb` | Path to the persistent DuckDB file |
 | `--output-root` | `datasets` | Base directory for run output folders |
+| `--municipality` | `ottawa` | Municipality slug to tag scraped meetings with |
 | `--min-delay` | `1.0` | Minimum seconds to wait between meeting scrapes |
 | `--max-delay` | `3.0` | Maximum seconds to wait between meeting scrapes |
 | `--verify-cert` | off | Enforce TLS certificate verification |
+| `--no-parquet` | off | Skip Parquet export after scraping |
+| `--enrich` | off | After scraping, enrich new motions with AI-generated summaries and tags (requires `ANTHROPIC_API_KEY`) |
+| `--enrich-api-key` | env var | Anthropic API key for `--enrich` (overrides `ANTHROPIC_API_KEY`) |
 
 A random delay between `--min-delay` and `--max-delay` is applied after each meeting scrape to avoid rate limiting. For large date ranges, consider increasing these values.
 
@@ -67,6 +71,44 @@ Run outputs are written under:
 ```
 <output-root>/runs/<start>_to_<end>_<timestamp>/
 ```
+
+---
+
+## AI enrichment (summaries and tags)
+
+Motions can be enriched with plain-English summaries and thematic tags using Claude. Enrichments are stored in the `motion_ai_enrichment` table and used by the web UI.
+
+### Enrich while scraping
+
+Pass `--enrich` to the scraper to automatically enrich newly scraped motions after each run:
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+python -m ottawa_city_scraper.cli \
+  --start-date 2026-03-01 \
+  --end-date 2026-03-18 \
+  --meeting-name "City Council" \
+  --enrich
+```
+
+### Bulk-enrich existing data
+
+To enrich all motions already in the database:
+
+```bash
+python -m ottawa_city_scraper.tag_motions
+
+# Preview the first batch without making API calls
+python -m ottawa_city_scraper.tag_motions --dry-run
+
+# Re-process motions that are already enriched
+python -m ottawa_city_scraper.tag_motions --re-enrich
+
+# Custom DB path or batch size
+python -m ottawa_city_scraper.tag_motions --db datasets/ottawa_city_scraper.duckdb --batch-size 10
+```
+
+Enrichment is idempotent by default — already-enriched motions are skipped unless `--re-enrich` is passed.
 
 ---
 
@@ -106,8 +148,10 @@ Votes are stored in a DuckDB file (`ottawa_council.duckdb` by default) with the 
 | `meetings` | One row per scraped meeting |
 | `meeting_attendance` | Present/absent status per councillor per meeting |
 | `agenda_items` | Flattened agenda items (supports nested sub-items) |
+| `agenda_item_attachments` | Attachment URLs linked to agenda items |
 | `motions` | One row per motion with for/against counts |
 | `votes` | One row per councillor per motion |
+| `motion_ai_enrichment` | AI-generated summaries and thematic tags per motion (kept separate so re-scraping does not overwrite enrichments) |
 
 All upserts use `INSERT OR REPLACE` with deterministic hash-based IDs — re-scraping the same meeting never creates duplicate records.
 
@@ -136,15 +180,18 @@ python -m ottawa_city_scraper.export_web_data
 npm run export-data
 ```
 
-This writes three sets of files to `frontend/public/data/`:
+This writes the following files to `frontend/public/data/<municipality>/`:
 
 | File | Contents |
 |---|---|
 | `index.json` | All dates with motion data + active councillor list |
 | `dates/{YYYY-MM-DD}.json` | Meetings → agenda items → motions → votes for one date |
 | `councillors/{slug}.json` | Full vote history for one councillor |
+| `feed.xml` | RSS 2.0 feed of the most recent 100 motions |
+| `tags/index.json` | All topic tags with motion counts |
+| `tags/{slug}.json` | Motions for one topic tag |
 
-Options: `--db <path>` (default: `datasets/ottawa_city_scraper.duckdb`), `--output-dir <path>` (default: `frontend/public/data`).
+Options: `--db <path>` (default: `datasets/ottawa_city_scraper.duckdb`), `--output-dir <path>` (default: `frontend/public/data/ottawa`).
 
 ### Dev server
 
@@ -157,6 +204,7 @@ npm run dev
 
 - **Motions by date** (`/`) — pick a date to see all meetings, agenda items, and motions with vote tallies and individual votes.
 - **Councillor history** (`/councillors/:slug`) — select a councillor to see their full vote history in a sortable table.
+- **Topics** (`/tags`) — browse motions grouped by thematic tag (e.g. Budget & Finance, Housing & Zoning). Populated from AI enrichment data.
 
 ### Build
 

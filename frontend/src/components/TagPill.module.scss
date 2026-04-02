@@ -1,0 +1,28 @@
+@use '../styles/variables' as *;
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px $spacing-sm;
+  border-radius: $border-radius-pill;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: color-mix(in srgb, $color-accent 10%, transparent);
+  color: $color-accent;
+  border: 1px solid color-mix(in srgb, $color-accent 25%, transparent);
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+
+  &:hover {
+    background-color: color-mix(in srgb, $color-accent 20%, transparent);
+    border-color: color-mix(in srgb, $color-accent 45%, transparent);
+  }
+
+  &.active {
+    background-color: $color-accent;
+    color: #fff;
+    border-color: $color-accent;
+  }
+}

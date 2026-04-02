@@ -51,12 +51,27 @@
   white-space: nowrap;
 }
 
+.summaryBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: $spacing-xs;
+}
+
+.summaryLabel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+  font-style: italic;
+}
+
 .summary {
   display: block;
   font-style: italic;
   color: $color-text-primary;
   word-break: break-word;
-  margin-bottom: $spacing-xs;
 }
 
 .motionText {
@@ -92,8 +107,13 @@
   display: block;
   font-size: 0.8rem;
   font-weight: 600;
-  color: $color-text-primary;
+  color: $color-accent;
   margin-bottom: $spacing-xs;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .voteBadge,

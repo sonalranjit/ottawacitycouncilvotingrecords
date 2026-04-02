@@ -115,6 +115,7 @@ export interface TagMotion {
   meeting_name: string;
   source_url: string;
   tags: string[];
+  votes: VoteRecord[];
 }
 
 export interface TagData {

@@ -560,6 +560,22 @@ def export_tags(
             motion_ids + [municipality],
         ).fetchall()
 
+        fetched_motion_ids = [r[0] for r in rows]
+        votes_by_motion: dict[str, list[dict]] = {mid: [] for mid in fetched_motion_ids}
+        if fetched_motion_ids:
+            vote_placeholders = ", ".join("?" * len(fetched_motion_ids))
+            vote_rows = con.execute(
+                f"""
+                SELECT motion_id, councillor_name, vote
+                FROM votes
+                WHERE motion_id IN ({vote_placeholders})
+                ORDER BY motion_id, councillor_name
+                """,
+                fetched_motion_ids,
+            ).fetchall()
+            for v_motion_id, councillor_name, vote in vote_rows:
+                votes_by_motion[v_motion_id].append({"councillor_name": councillor_name, "vote": vote})
+
         motions = []
         for (motion_id, motion_text, motion_result, for_count, against_count,
              item_title, agenda_item_number, meeting_date, meeting_name, source_url) in rows:
@@ -577,6 +593,7 @@ def export_tags(
                 "meeting_name": meeting_name or "",
                 "source_url": source_url or "",
                 "tags": enrichment.get("tags", []),
+                "votes": votes_by_motion.get(motion_id, []),
             })
 
         _write_json(output_dir / "tags" / f"{slug}.json", {"tag": tag, "slug": slug, "motions": motions})

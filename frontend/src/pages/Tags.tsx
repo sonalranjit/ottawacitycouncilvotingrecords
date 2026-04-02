@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { fetchTagIndex, fetchTagData } from '../api/data';
 import type { TagIndexData, TagData } from '../types';
 import { resultVariant, formatDate } from '../utils/format';
+import VoteChip from '../components/VoteChip';
 import styles from './Tags.module.scss';
 
 export default function Tags() {
@@ -88,9 +89,18 @@ export default function Tags() {
                   {formatDate(m.date)}
                 </a>
                 <span className={styles.motionMeeting}>{m.meeting_name}</span>
-                {m.item_title && <span className={styles.motionItem}>{m.item_title}</span>}
+                {m.item_title && (
+                  <Link to={`/ottawa?date=${m.date}`} className={styles.motionItem}>
+                    {m.item_title}
+                  </Link>
+                )}
               </div>
-              {m.summary && <p className={styles.motionSummary}>{m.summary}</p>}
+              {m.summary && (
+                <div className={styles.motionSummaryBlock}>
+                  <span className={styles.motionSummaryLabel}>Summary</span>
+                  <p className={styles.motionSummary}>{m.summary}</p>
+                </div>
+              )}
               <div className={styles.motionFooter}>
                 <span className={`${styles.result} ${styles[resultVariant(m.motion_result)] ?? ''}`}>
                   {m.motion_result || 'Unknown'}
@@ -101,6 +111,30 @@ export default function Tags() {
                   <span className={styles.againstCount}>{m.against_count} Against</span>
                 </span>
               </div>
+              {m.votes && m.votes.length > 0 && (
+                <div className={styles.voteGroups}>
+                  {m.votes.filter((v) => v.vote === 'for').length > 0 && (
+                    <div className={styles.voteGroup}>
+                      <span className={styles.voteGroupLabel}>For</span>
+                      <div className={styles.chips}>
+                        {m.votes.filter((v) => v.vote === 'for').map((v) => (
+                          <VoteChip key={v.councillor_name} councillor_name={v.councillor_name} vote={v.vote} />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  {m.votes.filter((v) => v.vote === 'against').length > 0 && (
+                    <div className={styles.voteGroup}>
+                      <span className={styles.voteGroupLabel}>Against</span>
+                      <div className={styles.chips}>
+                        {m.votes.filter((v) => v.vote === 'against').map((v) => (
+                          <VoteChip key={v.councillor_name} councillor_name={v.councillor_name} vote={v.vote} />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>

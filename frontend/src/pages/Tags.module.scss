@@ -129,8 +129,28 @@
 }
 
 .motionItem {
-  color: $color-text-primary;
+  color: $color-accent;
   font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.motionSummaryBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.motionSummaryLabel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
 }
 
 .motionSummary {
@@ -138,6 +158,32 @@
   line-height: 1.5;
   margin: 0;
   font-style: italic;
+}
+
+.voteGroups {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.voteGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.voteGroupLabel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
 }
 
 .motionFooter {

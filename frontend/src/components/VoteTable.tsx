@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import type { CouncillorVoteRow } from '../types';
 import { formatDate, resultLabel, resultVariant, toSlug } from '../utils/format';
 import TagPill from './TagPill';
@@ -64,11 +65,16 @@ export default function VoteTable({ votes, onTagFilter }: Props) {
               <td className={styles.hideMobile}>{row.agenda_item_number}</td>
               <td>
                 {row.item_title && (
-                  <span className={styles.itemTitle}>{row.item_title}</span>
+                  <Link to={`/ottawa?date=${row.date}`} className={styles.itemTitle}>
+                    {row.item_title}
+                  </Link>
                 )}
                 {row.summary ? (
                   <>
-                    <span className={styles.summary}>{row.summary}</span>
+                    <div className={styles.summaryBlock}>
+                      <span className={styles.summaryLabel}>Summary</span>
+                      <span className={styles.summary}>{row.summary}</span>
+                    </div>
                     {isLong && (
                       <button
                         className={styles.expandBtn}

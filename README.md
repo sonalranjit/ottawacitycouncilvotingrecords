@@ -193,6 +193,51 @@ This writes the following files to `frontend/public/data/<municipality>/`:
 
 Options: `--db <path>` (default: `datasets/ottawa_city_scraper.duckdb`), `--output-dir <path>` (default: `frontend/public/data/ottawa`).
 
+#### Tag slugs
+
+Tag slugs are generated from the tag name: lowercased, `&` replaced with `and`, special characters stripped, and spaces replaced with `-`. For example:
+
+| Tag | Slug |
+|---|---|
+| `Budget & Finance` | `budget-and-finance` |
+| `Housing & Zoning` | `housing-and-zoning` |
+| `Arts Culture & Events` | `arts-culture-and-events` |
+
+#### `tags/index.json` shape
+
+```json
+{
+  "tags": [
+    { "tag": "Budget & Finance", "slug": "budget-and-finance", "motion_count": 42 }
+  ]
+}
+```
+
+#### `tags/{slug}.json` shape
+
+```json
+{
+  "tag": "Budget & Finance",
+  "slug": "budget-and-finance",
+  "motions": [
+    {
+      "motion_id": "...",
+      "summary": "Plain-English summary of what council decided.",
+      "motion_text": "Full motion text...",
+      "motion_result": "Carried",
+      "for_count": 18,
+      "against_count": 5,
+      "item_title": "2026 Operating Budget",
+      "agenda_item_number": "3.1",
+      "date": "2026-03-12",
+      "meeting_name": "City Council",
+      "source_url": "https://...",
+      "tags": ["Budget & Finance"]
+    }
+  ]
+}
+```
+
 ### Dev server
 
 ```bash

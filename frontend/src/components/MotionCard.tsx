@@ -36,7 +36,10 @@ export default function MotionCard({ motion, attachments, highlightCouncillor }:
       )}
 
       {motion.summary && (
-        <p className={styles.summary}>{motion.summary}</p>
+        <div className={styles.summary}>
+          <span className={styles.summaryLabel}>Summary</span>
+          <p className={styles.summaryText}>{motion.summary}</p>
+        </div>
       )}
 
       <div className={`${styles.motionText} ${expanded ? styles.expanded : ''}`}>

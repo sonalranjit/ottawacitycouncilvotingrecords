@@ -22,6 +22,7 @@
     align-items: flex-start;
     gap: $spacing-sm;
     padding: $spacing-sm $spacing-md;
+    overflow: hidden;
   }
 }
 
@@ -49,6 +50,15 @@
 
   @media (max-width: 600px) {
     margin-left: 0;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: $spacing-xs;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }
 

@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import type { Motion, Attachment } from '../types';
-import { resultVariant } from '../utils/format';
+import { resultVariant, toSlug } from '../utils/format';
 import VoteChip from './VoteChip';
+import TagPill from './TagPill';
 import styles from './MotionCard.module.scss';
 
 interface Props {
@@ -34,6 +35,10 @@ export default function MotionCard({ motion, attachments, highlightCouncillor }:
         </div>
       )}
 
+      {motion.summary && (
+        <p className={styles.summary}>{motion.summary}</p>
+      )}
+
       <div className={`${styles.motionText} ${expanded ? styles.expanded : ''}`}>
         {motion.motion_text || <em>No motion text recorded.</em>}
       </div>
@@ -42,6 +47,14 @@ export default function MotionCard({ motion, attachments, highlightCouncillor }:
         <button className={styles.toggleText} onClick={() => setExpanded(!expanded)}>
           {expanded ? 'Show less' : 'Show more'}
         </button>
+      )}
+
+      {motion.tags && motion.tags.length > 0 && (
+        <div className={styles.tags}>
+          {motion.tags.map((tag) => (
+            <TagPill key={tag} tag={tag} slug={toSlug(tag)} asLink />
+          ))}
+        </div>
       )}
 
       {attachments && attachments.length > 0 && (

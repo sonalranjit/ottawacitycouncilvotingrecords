@@ -1,4 +1,4 @@
-import type { IndexData, DateData, CouncillorData } from '../types';
+import type { IndexData, DateData, CouncillorData, TagIndexData, TagData } from '../types';
 
 const cache = new Map<string, unknown>();
 
@@ -22,3 +22,9 @@ export const fetchDateData = (date: string): Promise<DateData> =>
 
 export const fetchCouncillorData = (slug: string): Promise<CouncillorData> =>
   fetchJSON<CouncillorData>(`/data/ottawa/councillors/${slug}.json`);
+
+export const fetchTagIndex = (): Promise<TagIndexData> =>
+  fetchJSON<TagIndexData>('/data/ottawa/tags/index.json');
+
+export const fetchTagData = (slug: string): Promise<TagData> =>
+  fetchJSON<TagData>(`/data/ottawa/tags/${slug}.json`);

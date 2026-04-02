@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import type { CouncillorVoteRow } from '../types';
-import { formatDate, resultLabel, resultVariant } from '../utils/format';
+import { formatDate, resultLabel, resultVariant, toSlug } from '../utils/format';
+import TagPill from './TagPill';
 import styles from './VoteTable.module.scss';
 
 interface Props {
   votes: CouncillorVoteRow[];
+  onTagFilter?: (slug: string) => void;
 }
 
 type SortDir = 'asc' | 'desc';
 
 const TRUNCATE_AT = 120;
 
-export default function VoteTable({ votes }: Props) {
+export default function VoteTable({ votes, onTagFilter }: Props) {
   const [sortDir, setSortDir] = useState<SortDir>('desc');
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
@@ -64,18 +66,49 @@ export default function VoteTable({ votes }: Props) {
                 {row.item_title && (
                   <span className={styles.itemTitle}>{row.item_title}</span>
                 )}
-                <span className={styles.motionText}>
-                  {isLong && !isExpanded
-                    ? row.motion_text.slice(0, TRUNCATE_AT) + '…'
-                    : row.motion_text}
-                </span>
-                {isLong && (
-                  <button
-                    className={styles.expandBtn}
-                    onClick={() => toggleExpand(row.motion_id)}
-                  >
-                    {isExpanded ? 'Show less' : 'Show more'}
-                  </button>
+                {row.summary ? (
+                  <>
+                    <span className={styles.summary}>{row.summary}</span>
+                    {isLong && (
+                      <button
+                        className={styles.expandBtn}
+                        onClick={() => toggleExpand(row.motion_id)}
+                      >
+                        {isExpanded ? 'Hide full text' : 'Show full text'}
+                      </button>
+                    )}
+                    {isExpanded && (
+                      <span className={styles.motionText}>{row.motion_text}</span>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <span className={styles.motionText}>
+                      {isLong && !isExpanded
+                        ? row.motion_text.slice(0, TRUNCATE_AT) + '…'
+                        : row.motion_text}
+                    </span>
+                    {isLong && (
+                      <button
+                        className={styles.expandBtn}
+                        onClick={() => toggleExpand(row.motion_id)}
+                      >
+                        {isExpanded ? 'Show less' : 'Show more'}
+                      </button>
+                    )}
+                  </>
+                )}
+                {row.tags && row.tags.length > 0 && (
+                  <div className={styles.tagRow}>
+                    {row.tags.map((tag) => (
+                      <TagPill
+                        key={tag}
+                        tag={tag}
+                        slug={toSlug(tag)}
+                        onClick={onTagFilter}
+                      />
+                    ))}
+                  </div>
                 )}
               </td>
               <td>

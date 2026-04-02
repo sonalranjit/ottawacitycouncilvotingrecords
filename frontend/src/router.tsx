@@ -3,6 +3,7 @@ import App from './App';
 import MotionsByDate from './pages/MotionsByDate';
 import CouncillorHistory from './pages/CouncillorHistory';
 import About from './pages/About';
+import Tags from './pages/Tags';
 
 const router = createHashRouter([
   {
@@ -16,6 +17,8 @@ const router = createHashRouter([
       { index: true, element: <MotionsByDate /> },
       { path: 'councillors', element: <CouncillorHistory /> },
       { path: 'councillors/:slug', element: <CouncillorHistory /> },
+      { path: 'tags', element: <Tags /> },
+      { path: 'tags/:slug', element: <Tags /> },
       { path: 'about', element: <About /> },
     ],
   },

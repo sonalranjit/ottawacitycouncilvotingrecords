@@ -66,6 +66,43 @@
   }
 }
 
+.tagFilter {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  padding: $spacing-md;
+}
+
+.tagFilterLabel {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $color-text-muted;
+}
+
+.tagFilterPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+.clearFilter {
+  background: none;
+  border: none;
+  padding: 0;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  cursor: pointer;
+  text-decoration: underline;
+  align-self: flex-start;
+
+  &:hover {
+    color: $color-text-primary;
+  }
+}
+
 .tableHeader {
   display: flex;
   align-items: center;

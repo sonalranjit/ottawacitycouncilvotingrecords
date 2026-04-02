@@ -1,3 +1,12 @@
+/** Convert a tag name to a URL-safe slug (matches Python export logic). */
+export function toSlug(name: string): string {
+  return name
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/\s+/g, '-');
+}
+
 /** Convert ISO date string YYYY-MM-DD to M/D/YYYY with no leading zeros. */
 export function formatDate(iso: string): string {
   const [year, month, day] = iso.split('-');

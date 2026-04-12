@@ -35,6 +35,8 @@ jobs:
           echo "START_DATE=$(date -u -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_ENV
 
       - name: Run scraper
+        env:
+            ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python -m ottawa_city_scraper.cli \
             --start-date ${{ env.START_DATE }} \

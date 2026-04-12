@@ -40,6 +40,7 @@ jobs:
             --start-date ${{ env.START_DATE }} \
             --end-date ${{ env.END_DATE }} \
             --meeting-name "City Council" "*Committee*" "*Commission*" \
+            --enrich \
             --db-path datasets/ottawa_city_scraper.duckdb
 
       - name: Check for changes

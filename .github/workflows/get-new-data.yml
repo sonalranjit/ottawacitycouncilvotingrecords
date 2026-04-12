@@ -32,7 +32,7 @@ jobs:
       - name: Set date range
         run: |
           echo "END_DATE=$(date -u +%Y-%m-%d)" >> $GITHUB_ENV
-          echo "START_DATE=$(date -u -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_ENV
+          echo "START_DATE=$(date -u -d 'now - 14 days' +%Y-%m-%d)" >> $GITHUB_ENV
 
       - name: Run scraper
         run: |

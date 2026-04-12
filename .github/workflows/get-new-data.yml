@@ -35,11 +35,14 @@ jobs:
           echo "START_DATE=$(date -u -d 'now - 14 days' +%Y-%m-%d)" >> $GITHUB_ENV
 
       - name: Run scraper
+        env:
+            ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python -m ottawa_city_scraper.cli \
             --start-date ${{ env.START_DATE }} \
             --end-date ${{ env.END_DATE }} \
             --meeting-name "City Council" "*Committee*" "*Commission*" \
+            --enrich \
             --db-path datasets/ottawa_city_scraper.duckdb
 
       - name: Check for changes

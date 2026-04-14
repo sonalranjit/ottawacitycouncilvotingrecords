@@ -41,7 +41,7 @@ jobs:
           python -m ottawa_city_scraper.cli \
             --start-date ${{ env.START_DATE }} \
             --end-date ${{ env.END_DATE }} \
-            --meeting-name "City Council" "*Committee*" "*Commission*" \
+            --meeting-name "City Council" "*Committee*" "*Commission*" "*Board*" \
             --enrich \
             --db-path datasets/ottawa_city_scraper.duckdb
 

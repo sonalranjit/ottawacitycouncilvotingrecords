@@ -319,6 +319,14 @@ def main(args: argparse.Namespace) -> int:
     logger.info(f"End date: {args.end_date}")
     scraped_meeting_ids: list[str] = []
     for meeting in postminutes_html_english:
+        meeting_id = meeting["id"]
+        already_scraped = con.execute(
+            "SELECT 1 FROM meetings WHERE meeting_id = ?", [meeting_id]
+        ).fetchone()
+        if already_scraped:
+            logger.info("Skipping meeting %s (%s) — already in database", meeting_id, meeting.get("name"))
+            continue
+
         output_filename = build_meeting_minutes_filename(meeting)
         for document in meeting.get("documents", []):
             meeting_minutes_to_scrape = f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}/{document['url']}"
@@ -335,8 +343,8 @@ def main(args: argparse.Namespace) -> int:
                 scraped,
                 log_label="scraped meeting minutes",
             )
-            upsert.insert_meeting(con, meeting["id"], meeting, scraped, args.municipality)
-            scraped_meeting_ids.append(meeting["id"])
+            upsert.insert_meeting(con, meeting_id, meeting, scraped, args.municipality)
+            scraped_meeting_ids.append(meeting_id)
             delay = random.uniform(args.min_delay, args.max_delay)
             if delay > 0:
                 logger.info("Waiting %.1fs before next request...", delay)

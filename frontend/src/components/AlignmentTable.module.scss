@@ -1,0 +1,53 @@
+@use '../styles/variables' as *;
+
+.wrapper {
+  overflow-x: auto;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  background: $color-surface;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $font-size-sm;
+
+  th,
+  td {
+    padding: $spacing-sm $spacing-md;
+    text-align: left;
+    border-bottom: 1px solid $color-border;
+  }
+
+  thead th {
+    background-color: $color-bg;
+    font-weight: 600;
+    color: $color-text-muted;
+    white-space: nowrap;
+    border-bottom: 2px solid $color-border;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  tbody tr:hover {
+    background-color: color-mix(in srgb, $color-accent 4%, transparent);
+  }
+}
+
+.numCol {
+  text-align: right;
+}
+
+.summary {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  margin: 0 0 $spacing-sm 0;
+}
+
+.empty {
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  padding: $spacing-md 0;
+}

@@ -1,4 +1,4 @@
-import type { IndexData, DateData, CouncillorData, TagIndexData, TagData } from '../types';
+import type { IndexData, DateData, CouncillorData, TagIndexData, TagData, AlignmentRow } from '../types';
 
 const cache = new Map<string, unknown>();
 
@@ -28,3 +28,6 @@ export const fetchTagIndex = (): Promise<TagIndexData> =>
 
 export const fetchTagData = (slug: string): Promise<TagData> =>
   fetchJSON<TagData>(`/data/ottawa/tags/${slug}.json`);
+
+export const fetchAlignmentData = (): Promise<AlignmentRow[]> =>
+  fetchJSON<AlignmentRow[]>('/data/ottawa/alignment.json');

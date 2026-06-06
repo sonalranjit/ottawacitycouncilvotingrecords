@@ -123,3 +123,12 @@ export interface TagData {
   slug: string;
   motions: TagMotion[];
 }
+
+export interface AlignmentRow {
+  mover: string;
+  voter: string;
+  total_motions_moved: number;
+  voted_for: number;
+  total_votes: number;
+  alignment_pct: number;
+}

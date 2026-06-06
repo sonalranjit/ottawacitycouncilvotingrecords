@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { fetchIndex, fetchCouncillorData } from '../api/data';
-import type { IndexData, CouncillorData } from '../types';
+import { fetchIndex, fetchCouncillorData, fetchAlignmentData } from '../api/data';
+import type { IndexData, CouncillorData, AlignmentRow } from '../types';
 import CouncillorSelector from '../components/CouncillorSelector';
 import TagPill from '../components/TagPill';
 import VoteTable from '../components/VoteTable';
+import AlignmentTable from '../components/AlignmentTable';
 import { toSlug } from '../utils/format';
 import styles from './CouncillorHistory.module.scss';
 
@@ -16,14 +17,16 @@ export default function CouncillorHistory() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [activeTagSlugs, setActiveTagSlugs] = useState<Set<string>>(new Set());
+  const [alignmentData, setAlignmentData] = useState<AlignmentRow[]>([]);
+  const [activeTab, setActiveTab] = useState<'history' | 'alignment'>('history');
 
   useEffect(() => {
-    fetchIndex()
-      .then((data) => {
-        setIndex(data);
-        // If no slug in URL, redirect to first councillor
-        if (!slug && data.councillors.length > 0) {
-          navigate(`/ottawa/councillors/${data.councillors[0].slug}`, { replace: true });
+    Promise.all([fetchIndex(), fetchAlignmentData()])
+      .then(([indexData, alignment]) => {
+        setIndex(indexData);
+        setAlignmentData(alignment);
+        if (!slug && indexData.councillors.length > 0) {
+          navigate(`/ottawa/councillors/${indexData.councillors[0].slug}`, { replace: true });
         }
       })
       .catch((e: Error) => setError(e.message));
@@ -46,6 +49,7 @@ export default function CouncillorHistory() {
 
   function handleCouncillorChange(newSlug: string) {
     setActiveTagSlugs(new Set());
+    setActiveTab('history');
     navigate(`/ottawa/councillors/${newSlug}`);
   }
 
@@ -119,37 +123,60 @@ export default function CouncillorHistory() {
             </div>
           </div>
 
-          {availableTags.length > 0 && (
-            <div className={styles.tagFilter}>
-              <span className={styles.tagFilterLabel}>Filter by topic:</span>
-              <div className={styles.tagFilterPills}>
-                {availableTags.map(({ slug: tagSlug, tag }) => (
-                  <TagPill
-                    key={tagSlug}
-                    tag={tag}
-                    slug={tagSlug}
-                    active={activeTagSlugs.has(tagSlug)}
-                    onClick={handleTagFilter}
-                  />
-                ))}
-              </div>
-              {activeTagSlugs.size > 0 && (
-                <button className={styles.clearFilter} onClick={() => setActiveTagSlugs(new Set())}>
-                  Clear filter
-                </button>
-              )}
-            </div>
-          )}
-
-          <div className={styles.tableHeader}>
-            <span className={styles.voteCount}>
-              {filteredVotes.length === councillorData.votes.length
-                ? `${councillorData.votes.length} vote${councillorData.votes.length !== 1 ? 's' : ''} recorded`
-                : `${filteredVotes.length} of ${councillorData.votes.length} votes`}
-            </span>
+          <div className={styles.tabs}>
+            <button
+              className={`${styles.tab} ${activeTab === 'history' ? styles.tabActive : ''}`}
+              onClick={() => setActiveTab('history')}
+            >
+              Vote History
+            </button>
+            <button
+              className={`${styles.tab} ${activeTab === 'alignment' ? styles.tabActive : ''}`}
+              onClick={() => setActiveTab('alignment')}
+            >
+              Voting Alignment
+            </button>
           </div>
 
-          <VoteTable votes={filteredVotes} onTagFilter={handleTagFilter} />
+          {activeTab === 'history' && (
+            <>
+              {availableTags.length > 0 && (
+                <div className={styles.tagFilter}>
+                  <span className={styles.tagFilterLabel}>Filter by topic:</span>
+                  <div className={styles.tagFilterPills}>
+                    {availableTags.map(({ slug: tagSlug, tag }) => (
+                      <TagPill
+                        key={tagSlug}
+                        tag={tag}
+                        slug={tagSlug}
+                        active={activeTagSlugs.has(tagSlug)}
+                        onClick={handleTagFilter}
+                      />
+                    ))}
+                  </div>
+                  {activeTagSlugs.size > 0 && (
+                    <button className={styles.clearFilter} onClick={() => setActiveTagSlugs(new Set())}>
+                      Clear filter
+                    </button>
+                  )}
+                </div>
+              )}
+
+              <div className={styles.tableHeader}>
+                <span className={styles.voteCount}>
+                  {filteredVotes.length === councillorData.votes.length
+                    ? `${councillorData.votes.length} vote${councillorData.votes.length !== 1 ? 's' : ''} recorded`
+                    : `${filteredVotes.length} of ${councillorData.votes.length} votes`}
+                </span>
+              </div>
+
+              <VoteTable votes={filteredVotes} onTagFilter={handleTagFilter} />
+            </>
+          )}
+
+          {activeTab === 'alignment' && (
+            <AlignmentTable moverFullName={councillor.full_name} rows={alignmentData} />
+          )}
         </>
       )}
     </div>

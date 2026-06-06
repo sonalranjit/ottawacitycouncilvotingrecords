@@ -113,3 +113,30 @@
   color: $color-text-muted;
   font-weight: 500;
 }
+
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid $color-border;
+}
+
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  padding: $spacing-sm $spacing-md;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $color-text-muted;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-text-primary;
+  }
+}
+
+.tabActive {
+  color: $color-accent;
+  border-bottom-color: $color-accent;
+}

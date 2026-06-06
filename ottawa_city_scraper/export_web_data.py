@@ -603,6 +603,48 @@ def export_tags(
 
 
 # ---------------------------------------------------------------------------
+# alignment.json
+# ---------------------------------------------------------------------------
+
+def export_alignment(con: duckdb.DuckDBPyConnection, output_dir: Path) -> None:
+    """Write alignment.json with voting alignment percentages between all councillor pairs."""
+    df = con.execute("""
+        WITH valid_motions AS (
+            SELECT m.motion_id, c.full_name AS mover
+            FROM motions m
+            JOIN councillors c ON m.motion_moved_by = c.first_name_initial
+            WHERE m.motion_moved_by IS NOT NULL
+        ),
+        mover_totals AS (
+            SELECT mover, COUNT(*) AS total_motions_moved
+            FROM valid_motions
+            GROUP BY mover
+        ),
+        motion_votes AS (
+            SELECT vm.mover, vc.full_name AS voter, v.vote
+            FROM valid_motions vm
+            LEFT JOIN votes v ON vm.motion_id = v.motion_id
+            LEFT JOIN councillors vc ON v.councillor_name LIKE vc.first_name_initial
+        )
+        SELECT
+            mv.mover,
+            mv.voter,
+            mt.total_motions_moved,
+            COUNT(*) FILTER (WHERE mv.vote = 'for') AS voted_for,
+            COUNT(*) AS total_votes,
+            ROUND(100.0 * COUNT(*) FILTER (WHERE mv.vote = 'for') / COUNT(*), 1) AS alignment_pct
+        FROM motion_votes mv
+        JOIN mover_totals mt ON mv.mover = mt.mover
+        WHERE mv.voter IS NOT NULL AND mv.mover != mv.voter
+        GROUP BY mv.mover, mv.voter, mt.total_motions_moved
+        ORDER BY mv.mover, alignment_pct DESC
+    """).df()
+    records = df.to_dict(orient="records")
+    _write_json(output_dir / "alignment.json", records)
+    print(f"  alignment.json  ({len(records)} councillor pairs)", file=sys.stderr)
+
+
+# ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
 
@@ -648,6 +690,7 @@ def main() -> None:
     export_all_councillors(con, councillors, output_dir, enrichments=enrichments)
     export_rss_feed(con, output_dir, args.municipality)
     export_tags(con, enrichments, output_dir, args.municipality)
+    export_alignment(con, output_dir)
 
     con.close()
     print("Done.", file=sys.stderr)

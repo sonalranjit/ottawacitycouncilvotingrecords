@@ -23,7 +23,7 @@ export default function About() {
         <p>
           A Python scraper fetches all the meetings in a given date range. Then for each meeting,
           parses the HTML documents with BeautifulSoup, and stores the results in a DuckDB database.
-          The scraper runs daily as a github action and is idempotent — re-running it never duplicates data.
+          The scraper runs daily as a github action, and updates the database if there are any new meetings.
         </p>
         <p>
           For each meeting, the scraper extracts:
@@ -39,11 +39,23 @@ export default function About() {
           in the source HTML. All data is exported as static JSON files at build time.
         </p>
         <p>
-          Motions are also enriched with plain-English summaries and thematic tags using Claude AI.
-          These summaries are written for everyday residents with no background in politics or law —
-          concrete, jargon-free, and focused on what the vote actually means. Tags group motions
+          Motions are also summarized in plain English and thematic tags using Claude AI.
+          These summaries are written for everyday residents with no background in politics or law, 
+          jargon-free, and focused on what the vote actually means. Tags group motions
           by topic (e.g. Budget &amp; Finance, Housing &amp; Zoning) and power the{' '}
           <a href="/ottawa/tags">Topics</a> page.
+        </p>
+        <p>
+          Each meeting is recorded against the council body that held it, City Council itself,
+          or one of its standing committees, sub-committees, boards, and commissions. You can
+          also browse motions by the body that considered them at <a href="/ottawa/committees">Committees</a>
+        </p>
+        <p>
+          For each councillor, the site also calculates a <strong>voting alignment</strong>:
+          for every motion they moved, how often each of their colleagues voted the same way.
+          This surfaces voting blocs and patterns of agreement between councillors, and is
+          available on the "Voting Alignment" tab of each{' '}
+          <a href="/ottawa/councillors">councillor's page</a>.
         </p>
         <p>
           The source code for the scraper is available on{' '}
@@ -115,6 +127,40 @@ export default function About() {
           </p>
           <p className={styles.endpointExample}>
             Example: <code>/data/ottawa/tags/budget-and-finance.json</code>
+          </p>
+        </div>
+
+        <div className={styles.endpoint}>
+          <h3 className={styles.endpointTitle}>Committee Index</h3>
+          <code className={styles.url}>/data/ottawa/committees/index.json</code>
+          <p className={styles.endpointDesc}>
+            Returns every council body that has considered motions — City Council,
+            standing committees, sub-committees, boards, and commissions — with its
+            URL-safe slug and motion count, sorted by number of motions descending.
+          </p>
+        </div>
+
+        <div className={styles.endpoint}>
+          <h3 className={styles.endpointTitle}>Motions by Committee</h3>
+          <code className={styles.url}>/data/ottawa/committees/[slug].json</code>
+          <p className={styles.endpointDesc}>
+            Returns all motions considered by a given council body, including AI-generated
+            summaries (where available), vote tallies, and meeting metadata. Committee
+            slugs are lowercased, with spaces replaced by hyphens and{' '}
+            <code>&amp;</code> replaced by <code>and</code>.
+          </p>
+          <p className={styles.endpointExample}>
+            Example: <code>/data/ottawa/committees/transit-committee.json</code>
+          </p>
+        </div>
+
+        <div className={styles.endpoint}>
+          <h3 className={styles.endpointTitle}>Voting Alignment</h3>
+          <code className={styles.url}>/data/ottawa/alignment.json</code>
+          <p className={styles.endpointDesc}>
+            Returns, for every councillor who has moved a motion, how often each other
+            councillor voted the same way — total motions moved, votes in agreement,
+            total votes cast, and an alignment percentage for each pair.
           </p>
         </div>
       </section>

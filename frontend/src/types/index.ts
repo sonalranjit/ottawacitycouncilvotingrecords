@@ -124,6 +124,22 @@ export interface TagData {
   motions: TagMotion[];
 }
 
+export interface CommitteeMeta {
+  committee: string;
+  slug: string;
+  motion_count: number;
+}
+
+export interface CommitteeIndexData {
+  committees: CommitteeMeta[];
+}
+
+export interface CommitteeData {
+  committee: string;
+  slug: string;
+  motions: TagMotion[];
+}
+
 export interface AlignmentRow {
   mover: string;
   voter: string;

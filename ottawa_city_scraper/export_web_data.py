@@ -603,6 +603,105 @@ def export_tags(
 
 
 # ---------------------------------------------------------------------------
+# committees/
+# ---------------------------------------------------------------------------
+
+def export_committees(
+    con: duckdb.DuckDBPyConnection,
+    enrichments: dict[str, dict],
+    output_dir: Path,
+    municipality: str,
+) -> None:
+    """Write committees/index.json and committees/{slug}.json for each meeting body."""
+    committee_rows = con.execute(
+        """
+        SELECT mt.meeting_name, COUNT(DISTINCT m.motion_id) AS motion_count
+        FROM motions m
+        JOIN meetings mt ON m.meeting_id = mt.meeting_id
+        WHERE mt.municipality = ? AND mt.meeting_name IS NOT NULL AND mt.meeting_name != ''
+        GROUP BY mt.meeting_name
+        ORDER BY motion_count DESC
+        """,
+        [municipality],
+    ).fetchall()
+
+    committees_meta = [
+        {"committee": name, "slug": _to_slug(name), "motion_count": count}
+        for name, count in committee_rows
+    ]
+
+    _write_json(output_dir / "committees" / "index.json", {"committees": committees_meta})
+
+    committee_files_written = 0
+    for committee_info in committees_meta:
+        committee = committee_info["committee"]
+        slug = committee_info["slug"]
+
+        rows = con.execute(
+            """
+            SELECT
+                m.motion_id,
+                m.motion_text,
+                m.motion_result,
+                m.for_count,
+                m.against_count,
+                ai.title AS item_title,
+                ai.agenda_item_number,
+                strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE)) AS meeting_date,
+                mt.meeting_name,
+                mt.source_url
+            FROM motions m
+            JOIN agenda_items ai ON m.item_id = ai.item_id
+            JOIN meetings mt ON m.meeting_id = mt.meeting_id
+            WHERE mt.meeting_name = ? AND mt.municipality = ?
+            ORDER BY mt.meeting_date DESC, ai.agenda_item_number, m.motion_id
+            """,
+            [committee, municipality],
+        ).fetchall()
+
+        fetched_motion_ids = [r[0] for r in rows]
+        votes_by_motion: dict[str, list[dict]] = {mid: [] for mid in fetched_motion_ids}
+        if fetched_motion_ids:
+            vote_placeholders = ", ".join("?" * len(fetched_motion_ids))
+            vote_rows = con.execute(
+                f"""
+                SELECT motion_id, councillor_name, vote
+                FROM votes
+                WHERE motion_id IN ({vote_placeholders})
+                ORDER BY motion_id, councillor_name
+                """,
+                fetched_motion_ids,
+            ).fetchall()
+            for v_motion_id, councillor_name, vote in vote_rows:
+                votes_by_motion[v_motion_id].append({"councillor_name": councillor_name, "vote": vote})
+
+        motions = []
+        for (motion_id, motion_text, motion_result, for_count, against_count,
+             item_title, agenda_item_number, meeting_date, meeting_name, source_url) in rows:
+            enrichment = enrichments.get(motion_id, {})
+            motions.append({
+                "motion_id": motion_id,
+                "summary": enrichment.get("summary", ""),
+                "motion_text": (motion_text or "").strip(),
+                "motion_result": motion_result or "",
+                "for_count": for_count or 0,
+                "against_count": against_count or 0,
+                "item_title": (item_title or "").strip(),
+                "agenda_item_number": agenda_item_number or "",
+                "date": meeting_date,
+                "meeting_name": meeting_name or "",
+                "source_url": source_url or "",
+                "tags": enrichment.get("tags", []),
+                "votes": votes_by_motion.get(motion_id, []),
+            })
+
+        _write_json(output_dir / "committees" / f"{slug}.json", {"committee": committee, "slug": slug, "motions": motions})
+        committee_files_written += 1
+
+    print(f"  committees/  ({committee_files_written} committee files)", file=sys.stderr)
+
+
+# ---------------------------------------------------------------------------
 # alignment.json
 # ---------------------------------------------------------------------------
 
@@ -690,6 +789,7 @@ def main() -> None:
     export_all_councillors(con, councillors, output_dir, enrichments=enrichments)
     export_rss_feed(con, output_dir, args.municipality)
     export_tags(con, enrichments, output_dir, args.municipality)
+    export_committees(con, enrichments, output_dir, args.municipality)
     export_alignment(con, output_dir)
 
     con.close()

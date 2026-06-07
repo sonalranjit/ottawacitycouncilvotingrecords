@@ -4,6 +4,7 @@ import MotionsByDate from './pages/MotionsByDate';
 import CouncillorHistory from './pages/CouncillorHistory';
 import About from './pages/About';
 import Tags from './pages/Tags';
+import Committees from './pages/Committees';
 
 const router = createHashRouter([
   {
@@ -19,6 +20,8 @@ const router = createHashRouter([
       { path: 'councillors/:slug', element: <CouncillorHistory /> },
       { path: 'tags', element: <Tags /> },
       { path: 'tags/:slug', element: <Tags /> },
+      { path: 'committees', element: <Committees /> },
+      { path: 'committees/:slug', element: <Committees /> },
       { path: 'about', element: <About /> },
     ],
   },

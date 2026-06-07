@@ -43,6 +43,11 @@
   color: $color-against;
 }
 
+.tied {
+  background-color: color-mix(in srgb, $color-accent 15%, transparent);
+  color: $color-accent;
+}
+
 .neutral {
   background-color: color-mix(in srgb, $color-neutral 15%, transparent);
   color: $color-neutral;

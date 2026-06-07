@@ -16,14 +16,16 @@ export function formatDate(iso: string): string {
 /** Map a raw motion_result string to a display label. */
 export function resultLabel(result: string): string {
   const r = result.toLowerCase();
+  if (r.includes('tie')) return 'Tied';
   if (r.startsWith('carried') || r.startsWith('received')) return 'Carried';
   if (r.startsWith('lost')) return 'Lost';
   return result;
 }
 
-/** Return a CSS class key based on motion result: 'carried' | 'lost' | 'neutral'. */
-export function resultVariant(result: string): 'carried' | 'lost' | 'neutral' {
+/** Return a CSS class key based on motion result: 'carried' | 'lost' | 'tied' | 'neutral'. */
+export function resultVariant(result: string): 'carried' | 'lost' | 'tied' | 'neutral' {
   const r = result.toLowerCase();
+  if (r.includes('tie')) return 'tied';
   if (r.startsWith('carried') || r.startsWith('received')) return 'carried';
   if (r.startsWith('lost')) return 'lost';
   return 'neutral';

@@ -283,3 +283,5 @@ tests/html_report
 frontend/public/data/
 frontend/dist/
 frontend/node_modules/
+frontend/coverage/
+plans/

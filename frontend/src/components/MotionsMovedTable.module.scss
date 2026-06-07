@@ -1,5 +1,11 @@
 @use '../styles/variables' as *;
 
+.summary {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  margin: 0 0 $spacing-sm 0;
+}
+
 .wrapper {
   overflow-x: auto;
   border: 1px solid $color-border;
@@ -51,41 +57,23 @@
   white-space: nowrap;
 }
 
-.summaryBlock {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  margin-bottom: $spacing-xs;
-}
-
-.summaryLabel {
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: $color-text-muted;
-  font-style: italic;
-}
-
-.summary {
+.itemTitle {
   display: block;
-  font-style: italic;
-  color: $color-text-primary;
-  word-break: break-word;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $color-accent;
+  margin-bottom: $spacing-xs;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .motionText {
   display: block;
   word-break: break-word;
   white-space: pre-wrap;
-  margin-top: $spacing-xs;
-}
-
-.tagRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $spacing-xs;
-  margin-top: $spacing-xs;
 }
 
 .expandBtn {
@@ -103,20 +91,6 @@
   }
 }
 
-.itemTitle {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: $color-accent;
-  margin-bottom: $spacing-xs;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.voteBadge,
 .resultBadge {
   display: inline-block;
   padding: 2px $spacing-sm;
@@ -124,16 +98,6 @@
   font-size: 0.78rem;
   font-weight: 600;
   white-space: nowrap;
-}
-
-.voteFor {
-  background-color: color-mix(in srgb, $color-for 15%, transparent);
-  color: $color-for;
-}
-
-.voteAgainst {
-  background-color: color-mix(in srgb, $color-against 15%, transparent);
-  color: $color-against;
 }
 
 .carried {
@@ -172,7 +136,7 @@
 }
 
 .empty {
-  padding: $spacing-lg;
-  text-align: center;
   color: $color-text-muted;
+  font-size: $font-size-sm;
+  padding: $spacing-md 0;
 }

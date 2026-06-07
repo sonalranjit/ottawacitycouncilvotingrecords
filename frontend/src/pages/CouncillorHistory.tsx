@@ -6,6 +6,7 @@ import CouncillorSelector from '../components/CouncillorSelector';
 import TagPill from '../components/TagPill';
 import VoteTable from '../components/VoteTable';
 import AlignmentTable from '../components/AlignmentTable';
+import MotionsMovedTable from '../components/MotionsMovedTable';
 import { toSlug } from '../utils/format';
 import styles from './CouncillorHistory.module.scss';
 
@@ -18,7 +19,7 @@ export default function CouncillorHistory() {
   const [error, setError] = useState<string | null>(null);
   const [activeTagSlugs, setActiveTagSlugs] = useState<Set<string>>(new Set());
   const [alignmentData, setAlignmentData] = useState<AlignmentRow[]>([]);
-  const [activeTab, setActiveTab] = useState<'history' | 'alignment'>('history');
+  const [activeTab, setActiveTab] = useState<'history' | 'alignment' | 'moved'>('history');
 
   useEffect(() => {
     Promise.all([fetchIndex(), fetchAlignmentData()])
@@ -136,6 +137,12 @@ export default function CouncillorHistory() {
             >
               Voting Alignment
             </button>
+            <button
+              className={`${styles.tab} ${activeTab === 'moved' ? styles.tabActive : ''}`}
+              onClick={() => setActiveTab('moved')}
+            >
+              Motions Moved
+            </button>
           </div>
 
           {activeTab === 'history' && (
@@ -176,6 +183,10 @@ export default function CouncillorHistory() {
 
           {activeTab === 'alignment' && (
             <AlignmentTable moverFullName={councillor.full_name} rows={alignmentData} />
+          )}
+
+          {activeTab === 'moved' && (
+            <MotionsMovedTable moverFullName={councillor.full_name} motions={councillorData.motions_moved} />
           )}
         </>
       )}

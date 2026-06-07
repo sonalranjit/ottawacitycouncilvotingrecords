@@ -4,7 +4,7 @@ Export DuckDB voting data as static JSON files for the frontend web UI.
 Generates:
   {output_dir}/index.json                         — all dates + councillor list
   {output_dir}/dates/{YYYY-MM-DD}.json            — per-date meetings/motions/votes
-  {output_dir}/councillors/{slug}.json            — per-councillor vote history
+  {output_dir}/councillors/{slug}.json            — per-councillor vote history and motions moved
   {output_dir}/feed.xml                           — RSS feed of recent motions
   {output_dir}/tags/index.json                    — all tags with motion counts
   {output_dir}/tags/{slug}.json                   — motions per tag
@@ -375,6 +375,50 @@ def export_councillor_file(
             "tags": enrichment.get("tags", []),
         })
 
+    mover_rows = con.execute(
+        r"""
+        SELECT
+            strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE)) AS date,
+            mt.meeting_name,
+            mt.source_url,
+            ai.agenda_item_number,
+            ai.title AS item_title,
+            m.motion_id,
+            m.motion_number,
+            m.motion_text,
+            m.motion_result,
+            m.for_count,
+            m.against_count
+        FROM motions m
+        JOIN agenda_items ai ON m.item_id = ai.item_id
+        JOIN meetings mt    ON m.meeting_id = mt.meeting_id
+        WHERE TRIM(REGEXP_REPLACE(m.motion_moved_by, '^(member|councillor|vice-chair|chair)\s+', '', 'i'))
+              IN (?, ?)
+        ORDER BY mt.meeting_date DESC, m.motion_number
+        """,
+        [initial, councillor["full_name"]],
+    ).fetchall()
+
+    motions_moved = []
+    for (date, meeting_name, source_url, agenda_item_number, item_title,
+         motion_id, motion_number, motion_text, motion_result, for_count, against_count) in mover_rows:
+        enrichment = enrichments.get(motion_id, {})
+        motions_moved.append({
+            "date": date,
+            "meeting_name": meeting_name or "",
+            "source_url": source_url or "",
+            "agenda_item_number": agenda_item_number or "",
+            "item_title": (item_title or "").strip(),
+            "motion_id": motion_id,
+            "motion_number": motion_number,
+            "motion_text": (motion_text or "").strip(),
+            "motion_result": motion_result or "",
+            "for_count": for_count or 0,
+            "against_count": against_count or 0,
+            "summary": enrichment.get("summary", ""),
+            "tags": enrichment.get("tags", []),
+        })
+
     data = {
         "councillor": {
             "slug": slug,
@@ -388,6 +432,7 @@ def export_councillor_file(
             "active": councillor.get("active", True),
         },
         "votes": votes,
+        "motions_moved": motions_moved,
     }
 
     _write_json(output_dir / "councillors" / f"{slug}.json", data)

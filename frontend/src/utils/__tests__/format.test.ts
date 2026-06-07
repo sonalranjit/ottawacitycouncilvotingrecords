@@ -32,6 +32,10 @@ describe('resultLabel', () => {
     expect(resultLabel('Lost')).toBe('Lost');
   });
 
+  it('maps "Lost on a tie (6 to 6)" to "Tied"', () => {
+    expect(resultLabel('Lost on a tie (6 to 6)')).toBe('Tied');
+  });
+
   it('is case-insensitive', () => {
     expect(resultLabel('carried')).toBe('Carried');
     expect(resultLabel('LOST')).toBe('Lost');
@@ -52,6 +56,10 @@ describe('resultVariant', () => {
 
   it('returns "lost" for Lost results', () => {
     expect(resultVariant('Lost')).toBe('lost');
+  });
+
+  it('returns "tied" for tied results', () => {
+    expect(resultVariant('Lost on a tie (6 to 6)')).toBe('tied');
   });
 
   it('returns "neutral" for anything else', () => {

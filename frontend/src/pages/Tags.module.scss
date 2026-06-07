@@ -211,6 +211,11 @@
   color: #c0392b;
 }
 
+.tied {
+  background-color: color-mix(in srgb, #005a9e 15%, transparent);
+  color: #005a9e;
+}
+
 .neutral {
   background-color: color-mix(in srgb, #555 15%, transparent);
   color: #555;

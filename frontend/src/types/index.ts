@@ -87,9 +87,26 @@ export interface CouncillorVoteRow {
   tags?: string[];
 }
 
+export interface MovedMotion {
+  date: string;
+  meeting_name: string;
+  source_url: string;
+  agenda_item_number: string;
+  item_title: string;
+  motion_id: string;
+  motion_number: string;
+  motion_text: string;
+  motion_result: string;
+  for_count: number;
+  against_count: number;
+  summary?: string;
+  tags?: string[];
+}
+
 export interface CouncillorData {
   councillor: CouncillorMeta;
   votes: CouncillorVoteRow[];
+  motions_moved: MovedMotion[];
 }
 
 export interface TagMeta {

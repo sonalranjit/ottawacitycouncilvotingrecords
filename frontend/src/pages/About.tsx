@@ -59,7 +59,7 @@ export default function About() {
         </p>
         <p>
           The source code for the scraper is available on{' '}
-          <a href="https://github.com/sranjit/ottawacitycouncilvotingrecords" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/sonalranjit/ottawacitycouncilvotingrecords" target="_blank" rel="noopener noreferrer">
           GitHub.
           </a>
           <br></br>

@@ -1,0 +1,518 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1cd35210-2777-464b-bd68-a8d746beb32f&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1cd35210-2777-464b-bd68-a8d746beb32f&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Public Works and Infrastructure Committee - June 25, 2026",
+  "meeting_number": 27,
+  "meeting_date": "2026-06-25",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Tim Tierney",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Jessica Bradley",
+    "Steve Desroches",
+    "Sean Devine",
+    "Laura Dudas",
+    "Glen Gower",
+    "Laine Johnson",
+    "Wilson Lo",
+    "Matt Luloff",
+    "Isabelle Skalski",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 15,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323042",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323043",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, July 15, 2026 in Public Works and Infrastructure Committee Report 27.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on June 24, 2026, and the deadline to register to speak by email is 8:30 am on June 25, 2026.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Announcements / Ceremonial",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "2.1",
+            "title": "Bruce Timmermans Awards",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PWIC Minutes 26 \u2013 April 23, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323044",
+                "attachment_title": "PWIC 26 Summary Minutes - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323045",
+                "attachment_title": "PWIC 26 Summary Minutes - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "EPPSC-PWIC Minutes 2 \u2013 April 17, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323046",
+                "attachment_title": "EPPSC-PWIC Summary Minutes 2 - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323047",
+                "attachment_title": "EPPSC-PWIC Summary Minutes 2 - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "Within the will of Committee, the items 5.1 (PWIC-2025-06 - E-scooter safety), 5.4 (PWIC-2026-02 - Roadway Signage - Posts) and 5.5 (PWIC-2026-03 - Overhead Street Name Signs) were lifted for discussion.",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "PWIC-2025-06 - E-scooter Safety",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323039",
+                "attachment_title": "PWIC-2025-06 - Gower - E-scooter Safety.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Scott Caldwell, Manager, Parking Services, Public Works Department and Alain Gonthier, General Manager, Public Works, Public Works Department\u00a0answered questions from the Committee.\nFollowing the Committee discussion, Councillor G. Gower presented a direction to staff\nDirection to Staff (Councillor G. Gower):",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "PWIC-2026-01 - Sidewalk Cost Estimates (Integrated vs. Standalone Construction)",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323040",
+                "attachment_title": "PWIC-2026-01 - Luloff (King) - Sidewalk Cost Estimates.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "OCC-2025-11 - Impacts to cycling and/or pedestrian movement during construction work",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323048",
+                "attachment_title": "OCC-2025-11 - Plante - Impacts to cycling and ped movement during construction.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "PWIC-2026-02 - Roadway Signage \u2013 Posts",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323053",
+                "attachment_title": "PWIC-2026-02 - Lo - Roadway Signage - Posts.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Alain Gonthier, General Manager, Public Works, Public Works Department and Marcia Wallace, General Manager, Planning, Development Building Services, Planning, Development & Building Department answered questions from the Committee.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "5.5",
+            "title": "PWIC-2026-03 - Overhead Street Name Signs",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323054",
+                "attachment_title": "PWIC 2026-03 - Lo - Overhead Street Name Signs.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Stuart Edison, Manager, Traffic Operations, Public Works Department answered questions from the Committee.\nFollowing the discussion, Councillor W. Lo introduced a motion (read by Councillor G. Gower) that was 'CARRIED' by the Committee.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-27-01",
+                "motion_moved_by": "W. Lo",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS City staff have indicated they intend to propose to Council a review of the Signs on City Streets By-law and associated Tourism and Public Services Signs Policy as part of next term of council\u2019s by-law review workplan, andWHEREAS the Tourism and Public Services Signs Policy outlines the City\u2019s family of signs, including municipal street sign blades, and how they should represent the City\u2019s visual identity standards in the right-of-way,THEREFORE BE IT RESOLVED THAT should the review proceed, City staff be directed to review City branding on municipal street sign blades.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "School Street Pilot Agreement",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323060",
+                "attachment_title": "Report - School Streets Agreement.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-TP-0015 - Rideau-Vanier (12), Capital (17)",
+            "minutes": "Emmet Proulx, Program Manager, Neighbourhood Traffic Calming, Planning, Development & Building Department, and Heidi Cousineau, Manager, Traffic, Safety & Mobility, Public Works Department answered questions from the Committee regarding the report.\nSubsequently, the following residents spoke before the Committee and provided comments on the item:\nAdditionally, written correspondence from Lara Romeskiw, dated June 24, 2026 was received by and filed with the Office of the City Clerk and distributed to Committee Members.\nLastly, Councillor J. Bradley introduced an amending motion on behalf of Councillor S. Plante. The motion was 'CARRIED' and the item was 'CARRIED AS AMENDED'.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Public Works and Infrastructure Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-27-02",
+                "motion_moved_by": "J. Bradley",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the report ACS2026-PDB-TP-0015 \u2013 School Street Pilot Agreement recommendations that Public Works and Infrastructure Committee recommend that council:\nWHEREAS recommendation 1 notes the inclusion of two schools, however, staff are recommending the inclusion of an additional school in Ward 12;\nTHEREFORE, BE IT RESOLVED THAT recommendation 1 be replaced with the following:\n\"That Public Works and Infrastructure Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Public Works Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "2025 Parking Services Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323049",
+                "attachment_title": "2025 Parking Services Annual Report - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323050",
+                "attachment_title": "2025 Parking Services Annual Report - French.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323051",
+                "attachment_title": "Document 1 - 2025 Parking Service Annual Report - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323052",
+                "attachment_title": "Doc 1 - 2025 Parking Service Annual Report - French.pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS-2026PWD-RPS-0001 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Public Works and Infrastructure Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Status Update \u2013 Public Works and Infrastructure Committee Inquiries and Motions for the period ending June 16, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323057",
+                "attachment_title": "Status Update - Inquiries and Motions - BIL.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0078 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Public Works and Infrastructure Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Use of Delegated Authority in 2025 by the Public Works Department",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323055",
+                "attachment_title": "IPD - Use of Delegated Authority in 2025 by PWD - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323056",
+                "attachment_title": "IPD - Use of Delegated Authority in 2025 by PWD - French.pdf"
+              }
+            ],
+            "description": "File No. ACS 2026-PWD-TRF-0003",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "2026 Transportation Impact Assessment Guidelines Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323058",
+                "attachment_title": "2026 Transportation Impact Assessment Guidelines Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323059",
+                "attachment_title": "10.2 - Document 1 - City of Ottawa TIA Guidelines.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-TP-0012",
+            "minutes": "Within the will of Committee, the item was lifted for discussion.\nEmmett Proulx, Program Manager, Neighbourhood Traffic Calming, Planning, Development & Building Department responded to questions from Committee.\nFollowing questions to staff, a Direction to Staff was provided by Councillor G. Gower.\nDirection to Staff (Councillor G. Gower):\nThat staff enhance the collection and analysis of school-related trip generation and mod-al share data to improve the evaluation of Transportation Impact Assessments for new elementary and secondary school projects, and to inform the next update to the City\u2019s trip generation guidelines.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Motion \u2013 Councillor S. Desroches \u2013 All-way stop control at intersections",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323061",
+                "attachment_title": "Motion - Desroches - All-way stop control at intersections - REV.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0060 -\u00a0Riverside South-Findlay Creek (22)",
+            "minutes": "Note: The Councillor S. Desroches Motion of which Notice was previously given at the 23 April 2026 Public Works and Infrastructure Committee meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law 2025-100.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nThat the Public Works and Infrastructure Committee approve:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "11.2",
+            "title": "Motion \u2013 Councillor G. Gower \u2013 Speed reductions",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323041",
+                "attachment_title": "Motion - Gower - Speed reductions (BIL).pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0061 - Stittsville (6)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nThat the Public Works and Infrastructure Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "PWIC-2026-05 - Vehicle Characteristics and Collision Severity Data",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor S. Devine\nBackground:\nTraffic Services receives data on collisions that occur within the City of Ottawa from the Ministry of Transportation (MTO) on a continual basis. Collision data is provided to the MTO by policing agencies, including the Ottawa Police Service, the Ontario Provincial Police and The Royal Canadian Mounted Police at varying intervals.\nEmerging research indicates a correlation between vehicle characteristics such as size, weight, and geometry, and the severity of collisions involving vulnerable road users, particularly in fatal and major injuries (FMI). To support evidence-based policy development, through the next iteration of Ottawa\u2019s Road Safety Action Plan, it is important to assess how the data presently available to the City can support a more detailed review of collisions by vehicle characteristics and if there are opportunities to enhance that data over time.\nInquiry:\nStaff are asked to: \u00a0",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "13.2",
+            "title": "PWIC-2026-06 -Road Maintenance Practices \u2013 Localized Repairs & Intervention Approaches",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor S. Devine\nInquiry:\nAs part of ongoing discussions on road maintenance and lifecycle management, staff are asked to provide information on the City\u2019s current approach to road maintenance and repair, including the development of programs intended to address roadway deficiencies that fall between routine maintenance and lifecycle renewal, with particular consideration to how localized pavement deterioration is identified and addressed, including:",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: Thursday, August 27, 2026.",
+        "minutes": "The meeting adjourned at 11:02am.",
+        "motions": []
+      }
+    ]
+  }
+}

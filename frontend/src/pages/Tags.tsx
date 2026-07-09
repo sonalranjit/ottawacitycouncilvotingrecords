@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { fetchTagIndex, fetchTagData } from '../api/data';
 import type { TagIndexData, TagData } from '../types';
-import { resultVariant, formatDate } from '../utils/format';
+import { motionOutcome, formatDate } from '../utils/format';
 import VoteChip from '../components/VoteChip';
 import styles from './Tags.module.scss';
 
@@ -82,7 +82,9 @@ export default function Tags() {
           {tagData.motions.length} motion{tagData.motions.length !== 1 ? 's' : ''} voted on
         </p>
         <div className={styles.motionList}>
-          {tagData.motions.map((m) => (
+          {tagData.motions.map((m) => {
+            const outcome = motionOutcome(m.motion_result, m.vote_kind, m.votes?.length ?? 0);
+            return (
             <div key={m.motion_id} className={styles.motionCard}>
               <div className={styles.motionMeta}>
                 <a href={m.source_url} target="_blank" rel="noopener noreferrer" className={styles.motionDate}>
@@ -102,15 +104,20 @@ export default function Tags() {
                 </div>
               )}
               <div className={styles.motionFooter}>
-                <span className={`${styles.result} ${styles[resultVariant(m.motion_result)] ?? ''}`}>
-                  {m.motion_result || 'Unknown'}
+                <span className={`${styles.result} ${styles[outcome.variant] ?? ''}`}>
+                  {outcome.label}
                 </span>
-                <span className={styles.tally}>
-                  <span className={styles.forCount}>{m.for_count} For</span>
-                  {' / '}
-                  <span className={styles.againstCount}>{m.against_count} Against</span>
-                </span>
+                {outcome.showTally ? (
+                  <span className={styles.tally}>
+                    <span className={styles.forCount}>{m.for_count} For</span>
+                    {' / '}
+                    <span className={styles.againstCount}>{m.against_count} Against</span>
+                  </span>
+                ) : (
+                  <span className={styles.noVote}>No recorded vote</span>
+                )}
               </div>
+              {outcome.note && <div className={styles.voteNote}>{outcome.note}</div>}
               {m.votes && m.votes.length > 0 && (
                 <div className={styles.voteGroups}>
                   {m.votes.filter((v) => v.vote === 'for').length > 0 && (
@@ -136,7 +143,8 @@ export default function Tags() {
                 </div>
               )}
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     );

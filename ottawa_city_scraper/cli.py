@@ -86,6 +86,13 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Skip Parquet export after scraping (default: export enabled)",
     )
     parser.add_argument(
+        "--rescrape", action="store_true",
+        help=(
+            "Re-scrape meetings already in the database, replacing their stored "
+            "records (default: already-scraped meetings are skipped)"
+        ),
+    )
+    parser.add_argument(
         "--enrich",
         action="store_true",
         help=(
@@ -323,9 +330,12 @@ def main(args: argparse.Namespace) -> int:
         already_scraped = con.execute(
             "SELECT 1 FROM meetings WHERE meeting_id = ?", [meeting_id]
         ).fetchone()
-        if already_scraped:
+        if already_scraped and not args.rescrape:
             logger.info("Skipping meeting %s (%s) — already in database", meeting_id, meeting.get("name"))
             continue
+        if already_scraped:
+            logger.info("Re-scraping meeting %s (%s) — replacing stored records", meeting_id, meeting.get("name"))
+            upsert.delete_meeting_children(con, meeting_id)
 
         output_filename = build_meeting_minutes_filename(meeting)
         for document in meeting.get("documents", []):

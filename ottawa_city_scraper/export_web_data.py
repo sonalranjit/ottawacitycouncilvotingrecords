@@ -219,7 +219,8 @@ def export_date_file(
             mo.motion_seconded_by,
             mo.motion_result,
             mo.for_count,
-            mo.against_count
+            mo.against_count,
+            mo.vote_kind
         FROM motions mo
         WHERE mo.meeting_id IN ({placeholders})
         ORDER BY mo.item_id, mo.motion_number
@@ -249,8 +250,10 @@ def export_date_file(
     # Build motions grouped by item_id
     motions_by_item: dict[str, list[dict]] = {}
     for (motion_id, item_id, meeting_id, motion_number, motion_text,
-         motion_moved_by, motion_seconded_by, motion_result, for_count, against_count) in motions_rows:
+         motion_moved_by, motion_seconded_by, motion_result, for_count, against_count,
+         vote_kind) in motions_rows:
         enrichment = enrichments.get(motion_id, {})
+        votes = votes_by_motion.get(motion_id, [])
         motions_by_item.setdefault(item_id, []).append({
             "motion_id": motion_id,
             "motion_number": motion_number,
@@ -260,7 +263,8 @@ def export_date_file(
             "motion_result": motion_result or "",
             "for_count": for_count or 0,
             "against_count": against_count or 0,
-            "votes": votes_by_motion.get(motion_id, []),
+            "vote_kind": vote_kind or ("recorded" if votes else "none"),
+            "votes": votes,
             "summary": enrichment.get("summary", ""),
             "tags": enrichment.get("tags", []),
         })
@@ -388,7 +392,8 @@ def export_councillor_file(
             m.motion_text,
             m.motion_result,
             m.for_count,
-            m.against_count
+            m.against_count,
+            m.vote_kind
         FROM motions m
         JOIN agenda_items ai ON m.item_id = ai.item_id
         JOIN meetings mt    ON m.meeting_id = mt.meeting_id
@@ -401,7 +406,8 @@ def export_councillor_file(
 
     motions_moved = []
     for (date, meeting_name, source_url, agenda_item_number, item_title,
-         motion_id, motion_number, motion_text, motion_result, for_count, against_count) in mover_rows:
+         motion_id, motion_number, motion_text, motion_result, for_count, against_count,
+         vote_kind) in mover_rows:
         enrichment = enrichments.get(motion_id, {})
         motions_moved.append({
             "date": date,
@@ -415,6 +421,7 @@ def export_councillor_file(
             "motion_result": motion_result or "",
             "for_count": for_count or 0,
             "against_count": against_count or 0,
+            "vote_kind": vote_kind or ("recorded" if (for_count or against_count) else "none"),
             "summary": enrichment.get("summary", ""),
             "tags": enrichment.get("tags", []),
         })
@@ -468,6 +475,7 @@ def export_rss_feed(con: duckdb.DuckDBPyConnection, output_dir: Path, municipali
     rows = con.execute(
         """
         SELECT m.motion_id, m.motion_text, m.motion_result, m.for_count, m.against_count,
+               m.vote_kind,
                a.title AS item_title, a.agenda_item_number,
                strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE)) AS meeting_date,
                mt.meeting_name, mt.source_url
@@ -496,14 +504,22 @@ def export_rss_feed(con: duckdb.DuckDBPyConnection, output_dir: Path, municipali
     atom_link.set("rel", "self")
     atom_link.set("type", "application/rss+xml")
 
-    for (motion_id, motion_text, motion_result, for_count, against_count,
+    for (motion_id, motion_text, motion_result, for_count, against_count, vote_kind,
          item_title, agenda_item_number, meeting_date, meeting_name, source_url) in rows:
 
-        result_str = motion_result or "Unknown"
+        no_recorded_vote = vote_kind == "none" or (vote_kind is None and not (for_count or against_count))
+        result_str = motion_result or "No result recorded"
+        if (no_recorded_vote and motion_result
+                and motion_result.lower().startswith("carried")
+                and not re.search(r"\(\d+\s+to\s+\d+\)", motion_result)):
+            result_str = f"{motion_result} Unanimously"
         item_label = f"{agenda_item_number} \u2013 {(item_title or '').strip()}".strip(" \u2013") if item_title else (agenda_item_number or "")
         title_text = f"{result_str}: {item_label}" if item_label else result_str
 
-        desc_lines = [f"Result: {result_str} (For: {for_count or 0}, Against: {against_count or 0})"]
+        if no_recorded_vote:
+            desc_lines = [f"Result: {result_str}"]
+        else:
+            desc_lines = [f"Result: {result_str} (For: {for_count or 0}, Against: {against_count or 0})"]
         if motion_text:
             desc_lines.append((motion_text or "").strip())
         if source_url:
@@ -590,6 +606,7 @@ def export_tags(
                 m.motion_result,
                 m.for_count,
                 m.against_count,
+                m.vote_kind,
                 ai.title AS item_title,
                 ai.agenda_item_number,
                 strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE)) AS meeting_date,
@@ -622,9 +639,10 @@ def export_tags(
                 votes_by_motion[v_motion_id].append({"councillor_name": councillor_name, "vote": vote})
 
         motions = []
-        for (motion_id, motion_text, motion_result, for_count, against_count,
+        for (motion_id, motion_text, motion_result, for_count, against_count, vote_kind,
              item_title, agenda_item_number, meeting_date, meeting_name, source_url) in rows:
             enrichment = enrichments.get(motion_id, {})
+            votes = votes_by_motion.get(motion_id, [])
             motions.append({
                 "motion_id": motion_id,
                 "summary": enrichment.get("summary", ""),
@@ -632,13 +650,14 @@ def export_tags(
                 "motion_result": motion_result or "",
                 "for_count": for_count or 0,
                 "against_count": against_count or 0,
+                "vote_kind": vote_kind or ("recorded" if votes else "none"),
                 "item_title": (item_title or "").strip(),
                 "agenda_item_number": agenda_item_number or "",
                 "date": meeting_date,
                 "meeting_name": meeting_name or "",
                 "source_url": source_url or "",
                 "tags": enrichment.get("tags", []),
-                "votes": votes_by_motion.get(motion_id, []),
+                "votes": votes,
             })
 
         _write_json(output_dir / "tags" / f"{slug}.json", {"tag": tag, "slug": slug, "motions": motions})
@@ -690,6 +709,7 @@ def export_committees(
                 m.motion_result,
                 m.for_count,
                 m.against_count,
+                m.vote_kind,
                 ai.title AS item_title,
                 ai.agenda_item_number,
                 strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE)) AS meeting_date,
@@ -721,9 +741,10 @@ def export_committees(
                 votes_by_motion[v_motion_id].append({"councillor_name": councillor_name, "vote": vote})
 
         motions = []
-        for (motion_id, motion_text, motion_result, for_count, against_count,
+        for (motion_id, motion_text, motion_result, for_count, against_count, vote_kind,
              item_title, agenda_item_number, meeting_date, meeting_name, source_url) in rows:
             enrichment = enrichments.get(motion_id, {})
+            votes = votes_by_motion.get(motion_id, [])
             motions.append({
                 "motion_id": motion_id,
                 "summary": enrichment.get("summary", ""),
@@ -731,13 +752,14 @@ def export_committees(
                 "motion_result": motion_result or "",
                 "for_count": for_count or 0,
                 "against_count": against_count or 0,
+                "vote_kind": vote_kind or ("recorded" if votes else "none"),
                 "item_title": (item_title or "").strip(),
                 "agenda_item_number": agenda_item_number or "",
                 "date": meeting_date,
                 "meeting_name": meeting_name or "",
                 "source_url": source_url or "",
                 "tags": enrichment.get("tags", []),
-                "votes": votes_by_motion.get(motion_id, []),
+                "votes": votes,
             })
 
         _write_json(output_dir / "committees" / f"{slug}.json", {"committee": committee, "slug": slug, "motions": motions})

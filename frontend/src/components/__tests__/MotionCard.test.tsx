@@ -25,7 +25,7 @@ describe('MotionCard', () => {
   });
 
   it('renders the motion result', () => {
-    render(<MotionCard motion={baseMotion} />);
+    render(<MotionCard motion={{ ...baseMotion, vote_kind: 'recorded' }} />);
     expect(screen.getByText('Carried')).toBeInTheDocument();
   });
 
@@ -35,10 +35,46 @@ describe('MotionCard', () => {
     expect(screen.getByText('Seconded: A. Troster')).toBeInTheDocument();
   });
 
-  it('renders the for/against tally', () => {
-    render(<MotionCard motion={baseMotion} />);
+  it('renders the for/against tally for recorded votes', () => {
+    render(<MotionCard motion={{ ...baseMotion, vote_kind: 'recorded' }} />);
     expect(screen.getByText('18 For')).toBeInTheDocument();
     expect(screen.getByText('5 Against')).toBeInTheDocument();
+  });
+
+  it('labels a carried voice vote as Carried Unanimously without a tally', () => {
+    render(
+      <MotionCard
+        motion={{ ...baseMotion, vote_kind: 'none', for_count: 0, against_count: 0 }}
+      />
+    );
+    expect(screen.getByText('Carried Unanimously')).toBeInTheDocument();
+    expect(screen.getByText('No recorded vote')).toBeInTheDocument();
+    expect(screen.queryByText('0 For')).not.toBeInTheDocument();
+  });
+
+  it('labels an empty result as No result recorded', () => {
+    render(<MotionCard motion={{ ...baseMotion, motion_result: '', vote_kind: 'none' }} />);
+    expect(screen.getByText('No result recorded')).toBeInTheDocument();
+  });
+
+  it('labels dissent-reconstructed motions as Carried with Dissent with a note', () => {
+    render(
+      <MotionCard
+        motion={{
+          ...baseMotion,
+          vote_kind: 'dissent',
+          for_count: 22,
+          against_count: 1,
+          votes: [
+            { councillor_name: 'A. Troster', vote: 'for' },
+            { councillor_name: 'G. Gower', vote: 'against' },
+          ],
+        }}
+      />
+    );
+    expect(screen.getByText('Carried with Dissent')).toBeInTheDocument();
+    expect(screen.getByText(/reconstructed from dissent/i)).toBeInTheDocument();
+    expect(screen.getByText('22 For')).toBeInTheDocument();
   });
 
   it('shows placeholder when motion_text is empty', () => {

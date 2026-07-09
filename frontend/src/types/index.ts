@@ -20,6 +20,13 @@ export interface VoteRecord {
   vote: 'for' | 'against';
 }
 
+/**
+ * How a motion was decided: 'recorded' (roll-call vote), 'dissent' (votes
+ * reconstructed from "Carried with dissent" prose in the minutes), or 'none'
+ * (voice vote with no individual votes). Optional for older exported JSON.
+ */
+export type VoteKind = 'recorded' | 'dissent' | 'none';
+
 export interface Motion {
   motion_id: string;
   motion_number: string;
@@ -29,6 +36,7 @@ export interface Motion {
   motion_result: string;
   for_count: number;
   against_count: number;
+  vote_kind?: VoteKind;
   votes: VoteRecord[];
   summary?: string;
   tags?: string[];
@@ -99,6 +107,7 @@ export interface MovedMotion {
   motion_result: string;
   for_count: number;
   against_count: number;
+  vote_kind?: VoteKind;
   summary?: string;
   tags?: string[];
 }
@@ -126,6 +135,7 @@ export interface TagMotion {
   motion_result: string;
   for_count: number;
   against_count: number;
+  vote_kind?: VoteKind;
   item_title: string;
   agenda_item_number: string;
   date: string;

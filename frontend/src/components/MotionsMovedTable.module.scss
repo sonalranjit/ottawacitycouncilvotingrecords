@@ -115,6 +115,11 @@
   color: $color-accent;
 }
 
+.neutral {
+  background-color: color-mix(in srgb, $color-neutral 10%, transparent);
+  color: $color-neutral;
+}
+
 .tally {
   white-space: nowrap;
 }
@@ -127,6 +132,10 @@
 .againstCount {
   color: $color-against;
   font-weight: 600;
+}
+
+.noTally {
+  color: $color-text-muted;
 }
 
 .hideMobile {

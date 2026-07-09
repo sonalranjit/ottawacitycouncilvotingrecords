@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { Motion, Attachment } from '../types';
-import { resultVariant, toSlug } from '../utils/format';
+import { motionOutcome, toSlug } from '../utils/format';
 import VoteChip from './VoteChip';
 import TagPill from './TagPill';
 import styles from './MotionCard.module.scss';
@@ -18,13 +18,14 @@ export default function MotionCard({ motion, attachments, highlightCouncillor }:
   const forVotes = motion.votes.filter((v) => v.vote === 'for');
   const againstVotes = motion.votes.filter((v) => v.vote === 'against');
   const hasVotes = motion.votes.length > 0;
+  const outcome = motionOutcome(motion.motion_result, motion.vote_kind, motion.votes.length);
 
   return (
     <div className={styles.card}>
       <div className={styles.header}>
         <span className={styles.motionNum}>Motion {motion.motion_number}</span>
-        <span className={`${styles.result} ${styles[resultVariant(motion.motion_result)] ?? ''}`}>
-          {motion.motion_result || 'Unknown'}
+        <span className={`${styles.result} ${styles[outcome.variant] ?? ''}`}>
+          {outcome.label}
         </span>
       </div>
 
@@ -80,11 +81,17 @@ export default function MotionCard({ motion, attachments, highlightCouncillor }:
         </div>
       )}
 
-      <div className={styles.tally}>
-        <span className={styles.forCount}>{motion.for_count} For</span>
-        <span className={styles.tallyDivider}>/</span>
-        <span className={styles.againstCount}>{motion.against_count} Against</span>
-      </div>
+      {outcome.note && <div className={styles.voteNote}>{outcome.note}</div>}
+
+      {outcome.showTally ? (
+        <div className={styles.tally}>
+          <span className={styles.forCount}>{motion.for_count} For</span>
+          <span className={styles.tallyDivider}>/</span>
+          <span className={styles.againstCount}>{motion.against_count} Against</span>
+        </div>
+      ) : (
+        <div className={styles.noVote}>No recorded vote</div>
+      )}
 
       {hasVotes && (
         <button className={styles.toggleVotes} onClick={() => setShowVotes(!showVotes)}>

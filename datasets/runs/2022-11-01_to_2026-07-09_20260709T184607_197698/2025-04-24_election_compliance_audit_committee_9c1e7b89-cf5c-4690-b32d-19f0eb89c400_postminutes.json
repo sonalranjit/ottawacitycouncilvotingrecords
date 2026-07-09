@@ -1,0 +1,162 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=9c1e7b89-cf5c-4690-b32d-19f0eb89c400&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=9c1e7b89-cf5c-4690-b32d-19f0eb89c400&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Election Compliance Audit Committee - April 24, 2025",
+  "meeting_number": 7,
+  "meeting_date": "2025-04-24",
+  "meeting_start_time": "11:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Timothy Cullen (Chair)",
+    "Nahie Bassett",
+    "Imad Eldahr",
+    "Michael McGoldrick"
+  ],
+  "absent_attendees": [
+    "Catherine Bergeron (Vice-Chair)"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 7,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=259083",
+            "attachment_title": "1 - Public Notices English - Virtual ECAC.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=259084",
+            "attachment_title": "1 - Public Notices French - Virtual ECAC.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers (only \u201cdesignated persons\u201d shall be permitted to make submissions to the Committee); notice regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nUnredacted versions of applications for compliance audits, and any written submissions to Committee, are available for public inspection at the City of Ottawa Elections Office during regular business hours in accordance with the Municipal Elections Act, 1996.",
+        "minutes": "At the outset of the meeting, the Chair read an opening statement outlining the procedures for and format of the Committee Meeting.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "ECAC Minutes 6 \u2013 September 16, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=259081",
+                "attachment_title": "English ECAC Draft Minutes 6_2024.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=259082",
+                "attachment_title": "French ECAC Draft Minutes 6_2024.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Appointment of an external licensed auditor to conduct an election compliance audit of the campaign finances of Candidate Shawn Menard, Ward 17 Capital, from the 2022 Municipal Elections",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=259079",
+                "attachment_title": "ACS2025-OCC-GEN-0007 - Report - Appointing Auditor re S. Menard.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=259080",
+                "attachment_title": "Document 1 - Call-Up on Standing Offer re S. Menard.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-GEN-0007 \u2013 City-wide",
+            "minutes": "Paul Maniscalco, representing OXARO Inc., answered questions from the Committee.\nNo submissions were received from the parties on this item.\nThe Committee recessed the meeting and deliberated in private on this matter pursuant to subsection 88.33(5.1) of the Municipal Elections Act, 1996. Upon reconvening, the Committee received a Direction to Staff from Member N. Bassett and considered the following motion:\nDirection to Staff (Member Nahie Bassett)\nKeeping in mind the desire of the Committee to obtain a comprehensive review of the applicable finances, the Committee is concerned with the proposed resources allocated and the corresponding financial burden on the City. Therefore, I ask that these aspects of the proposal be further refined with the City in consultation with the City\u2019s counsel.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Election Compliance Audit Committee:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-01",
+                "motion_moved_by": "M. McGoldrick",
+                "motion_seconded_by": "",
+                "motion_text": "That the report recommendations be amended as follows:\nThat the Election Compliance Audit Committee:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: To be scheduled as required within the timelines prescribed by the Municipal Elections Act, 1996, should compliance audit application(s), auditor report(s) or report(s) from the City Clerk on the apparent contravention(s) of contribution limits be received.",
+        "minutes": "The meeting adjourned at 11:40 am.",
+        "motions": []
+      }
+    ]
+  }
+}

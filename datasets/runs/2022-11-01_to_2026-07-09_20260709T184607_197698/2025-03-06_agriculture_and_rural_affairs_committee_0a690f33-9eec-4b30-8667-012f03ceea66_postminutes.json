@@ -1,0 +1,356 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0a690f33-9eec-4b30-8667-012f03ceea66&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0a690f33-9eec-4b30-8667-012f03ceea66&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Agriculture and Rural Affairs Committee - March 06, 2025",
+  "meeting_number": 22,
+  "meeting_date": "2025-03-06",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+  "present_attendees": [
+    "Chair David Brown",
+    "Vice-Chair Clarke Kelly",
+    "Catherine Kitts",
+    "Matt Luloff"
+  ],
+  "absent_attendees": [
+    "George Darouze"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267794",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267795",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, March 12, 2025, in Agriculture and Rural Affairs Committee Report 22.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, March 5, 2025, and the deadline to register by email to speak is 9:00 am on Thursday, March 6, 2025.",
+        "minutes": "The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1 on today\u2019s Agenda.\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on 26 March 2025, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "ARAC Minutes 21 - February 6, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267804",
+                "attachment_title": "ARAC Final Minutes 21 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267805",
+                "attachment_title": "ARAC Final Minutes 21 (EN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Infrastructure and Water Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Lilley Municipal Drain \u2013 Recommendation of Engineer",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267801",
+                "attachment_title": "04.1 - ACS2025-IWS-WL-0006 - Lilley MD - Findings of Engineer.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-WL-0006\u00a0 \u2013 West Carleton-March (5)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend Council consider the recommendation brought forward by Robinson Consultants Inc. attached as document 2 in accordance with Section 5(1) of the Drainage Act of Ontario and not proceed with the drainage works.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "East Savage Municipal Drain \u2013 Appointment of Engineer",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267802",
+                "attachment_title": "ACS2025-IWS-WL-0005 - E Savage MD - Appt of Engineer.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-WL-0005 \u2013 Orl\u00e9ans South-Navan (19)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend Council appoint Mr. Andy Robinson, P. Eng. of Robinson Consultants Inc., as the Engineer of record to prepare a report under Section 78(5) of the Drainage Act to prepare a new report to accommodate the relocation of the existing East Savage Municipal Drain within Lot 11, Concession 11, Orleans South-Navan Ward.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Zoning By-law Amendment \u2013 1811 Richardson Side Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267803",
+                "attachment_title": "05.1 - ACS2025-PDB-PSX-0017- 1811 Richardson Side Road.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PSX-0017 \u2013 West Carleton-March (5)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Rural Community-Building Grant Program \u2013 Grant Application Review",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267800",
+                "attachment_title": "ACS2025-PDB-PS-0017 - RCBGP-Staff Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0017 \u2013 West Carleton-March (5) Osgoode (20) Rideau-Jock (21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee approve the recommendations on the Rural Community-Building Grants Program applications as detailed in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Status Update \u2013 Agriculture and Rural Affairs Committee Inquiries and Motions \u2013 for the Period Ending 25 February 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267796",
+                "attachment_title": "ACS2025-OCC-CCS-0031 - ARAC Status Updates.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267797",
+                "attachment_title": "ACS2025-OCC-CCS-0031 - Docs 1 and 2.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0031\u00a0\u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Open Mic Session",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Motion - C. Kitts - Bear River Municipal Drain",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2025-22-xx",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion due to flooding of private property within the Bear River Watershed.\nWHEREAS: the Bear River Municipal Drain was originally surveyed in 1902 and has undergone several modifications and maintenance efforts over the years, including major improvements in 1930, 1948, 1972, 1989, and 1990; and\nWHEREAS: Flooding and inadequate drainage capacity have persisted, affecting approximately 186 hectares of agricultural land, leading to periodic crop losses of up to 25%; and\nWHEREAS: The last major engineering review was conducted in 1990 by McNeely Engineering Limited, which identified compensation for insufficient outlet, buffer strips, and various other improvements; and\nWHEREAS: Section 78 of the Drainage Act, R.S.O. 1990, c. D.17, allows for improvements to an existing drainage works for better use, maintenance, or repair without requiring a petition; and\nWHEREAS: Section 124 of the Drainage Act authorizes emergency work where an urgent need exists to mitigate damage to lands or infrastructure; and\nWHEREAS Council recognizes the need for an updated engineering assessment and plan for the Bear River Municipal Drain to ensure its long-term effectiveness and sustainability.\nTHEREFORE BE IT RESOLVED THAT Council direct staff to appoint Andrew J. Robinson Consulting as the engineer under Section 78 of the Drainage Act to prepare a report on the necessary improvements to the Bear River Municipal Drain, including consideration of updated capacity, flood mitigation, and compliance with provincial drainage regulations; and\nBE IT FURTHER RESOLVED THAT City staff be directed to monitor the flood conditions throughout the season including the spring melt and during rain events during the summer growing months; and\nBE IT FURTHER RESOLVED THAT should flooding occur within the Bear River Municipal Drain due to the insufficient outlet provided by the drain, staff shall provide such details to the City Clerk, who shall write to the Province of Ontario to request that the Minister authorize emergency works under Section 124 of the Drainage Act as necessary to prevent immediate flooding risks, ensuring minimal impact on affected agricultural lands and infrastructure; and\nBE IT FURTHER RESOLVED THAT the appointed engineer report back to Council with recommendations, cost estimates, and proposed implementation timelines for necessary improvements to the Bear River Municipal Drain.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nThursday, April 3, 2025.",
+        "minutes": "The meeting adjourned at 10:10 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Court of Revision",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "Engineer\u2019s Report Amendments to the Thomas Gamble Municipal Drain \u2013 Court of Revision",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267798",
+                "attachment_title": "ACS2025-IWS-WL-0003 - Thomas Gamble Municipal Drain.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267799",
+                "attachment_title": "Doc 2 - By-law -Thomas Gamble MD.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-WL-0003 \u2013 Riverside South-Findlay Creek (22) Osgoode (20)",
+            "minutes": "The Court of Revision was convened at 10:12 am.\nThe Chair read the following statement at the beginning of the hearing for the Thomas Gamble Municipal Drain:\nFor the purpose of hearing appeals under Section 52 of the Drainage Act by owners of land assessed for drainage works under the engineer\u2019s report for the Thomas Gamble Municipal Drain entitled - Engineer\u2019s report amendments to the Thomas Gamble Municipal Drain dated October 2024, this court will now convene for the 1st sitting of the Court of Revision under Section 46 of the Drainage Act.\nNo appeals have been received by the Clerk.\nAny owner of lands assessed under the Engineer\u2019s Report who has not provided written notice of appeal to the Clerk in advance of this hearing, should identify themselves to the Clerk\u2019s Assistant at this time with a request to be heard.\u00a0\nAt the conclusion of the hearing, the Chair stated the following:\nThis court adopts the assessments in Engineer\u2019s Report dated October 2024 dated October 2024.\nThe decision rendered by this court may be appealed to the Agriculture, Food and Rural Affairs Appeal Tribunal within 21 days of today, March 6, 2025.\nReport Recommendation(s)\nThat the members of the Court of Revision:\nCarried\nThe Court of Revision was adjourned at 10:15 am.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the members of the Court of Revision:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

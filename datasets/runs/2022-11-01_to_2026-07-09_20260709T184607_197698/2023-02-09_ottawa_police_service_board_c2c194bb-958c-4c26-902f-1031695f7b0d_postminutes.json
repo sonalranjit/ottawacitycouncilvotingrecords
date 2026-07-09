@@ -1,0 +1,162 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c2c194bb-958c-4c26-902f-1031695f7b0d&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c2c194bb-958c-4c26-902f-1031695f7b0d&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - February 09, 2023",
+  "meeting_number": 74,
+  "meeting_date": "2023-02-09",
+  "meeting_start_time": "14:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Suzanne Valiquet",
+    "Mark Sutcliffe",
+    "Cathy Curry",
+    "Marty Carr",
+    "Salim Fakirani",
+    "Peter Henschel"
+  ],
+  "absent_attendees": [
+    "Michael Doucet"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 6,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Board. The final draft Minutes will be published with the agenda for the next regular Board meeting and, once confirmed, will replace this document.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Services Board confirm the agenda of the 09 February 2023 meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Items of Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Audit of the Ottawa Police Service\u2019s Response to the Convoy Protest \u2013 Role of the Ottawa Police Services Board",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109091",
+                "attachment_title": "Final Report - Audit of OPS"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109092",
+                "attachment_title": "V\u00e9rification de l\u2019intervention du Service de police d\u2019Ottawa dans la manifestation\u2013 Le r\u00f4le de la CSPO.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109093",
+                "attachment_title": "Convoy Audit - OPSB_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109094",
+                "attachment_title": "V\u00e9rification de l\u2019intervention du Service de police d\u2019Ottawa dans la manifestation-r\u00f4le de la CSPO.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Services Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Audit of Ottawa Police Service\u2019s Response to the Convoy Protest \u2013 Collaboration with the City of Ottawa",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109095",
+                "attachment_title": "Final Audit Report - Audit of the Ottawa Police Service\u2019s Response to the Convoy\u2013 Collaboration with the City of Ottawa.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109096",
+                "attachment_title": "V\u00e9rification de l\u2019intervention du Service de police d\u2019Ottawa dans la manifestation \u2013 Collaboration avec la Ville d\u2019Ottawa .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109097",
+                "attachment_title": "Convoy Audit - OPS_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=109098",
+                "attachment_title": "V\u00e9rification de l\u2019intervention du Service de police d\u2019Ottawa dans la manifestation \u2013 Le r\u00f4le du Service de police d\u2019Ottawa.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Services Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 03:17 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

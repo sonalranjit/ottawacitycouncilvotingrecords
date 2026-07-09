@@ -1,0 +1,70 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=909f0f59-ac66-42aa-ab0b-e958533c9382&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=909f0f59-ac66-42aa-ab0b-e958533c9382&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - June 24, 2024",
+  "meeting_number": 103,
+  "meeting_date": "2024-06-24",
+  "meeting_start_time": "14:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Mark Sutcliffe",
+    "Vice Chair: Marty Carr"
+  ],
+  "absent_attendees": [
+    "Cathy Curry",
+    "Michael Doucet",
+    "Peter Henschel",
+    "Dave Donaldson"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "This meeting may be viewed online on the Ottawa City Council YouTube Channel or viaZoom https://us02web.zoom.us/j/82232455052\nAccessible formats and communication supports are available, upon request.\n\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board adjourn the public portion of its meeting to move In Camera to discuss the following subject matter in accordance with Section 44(2) of theCommunity Safety and Policing Act, 2019:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 14:01 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

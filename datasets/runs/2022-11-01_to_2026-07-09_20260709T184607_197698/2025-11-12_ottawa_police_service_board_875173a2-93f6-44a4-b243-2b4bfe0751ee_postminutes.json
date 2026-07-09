@@ -1,0 +1,121 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=875173a2-93f6-44a4-b243-2b4bfe0751ee&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=875173a2-93f6-44a4-b243-2b4bfe0751ee&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - November 12, 2025",
+  "meeting_number": 122,
+  "meeting_date": "2025-11-12",
+  "meeting_start_time": "08:30",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Peter Henschel",
+    "Dave Donaldson",
+    "Michael Polowin",
+    "Steve Desroches"
+  ],
+  "absent_attendees": [
+    "Vice Chair: Marty Carr"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 6,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "This meeting may be viewed online on the Ottawa City Council YouTube Channel or via Zoom\nhttps://us02web.zoom.us/j/81840024084\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board confirm the agenda of the 12 November 2025 special meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Items of Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Draft Operating and Capital Budgets 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=275060",
+                "attachment_title": "OPSB 2026 Budget EN - v0.3 FINAL.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=275061",
+                "attachment_title": "OPSB 2026 Budget FR - v0.3 FINAL.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=275062",
+                "attachment_title": "2026-Ottawa-Police-Budget-FINAL.pdf"
+              }
+            ],
+            "description": "Presentation",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive and table the Ottawa Police Service 2026 Draft Operating and Capital Budgets, to be considered at the Board meeting on 5 December 2025.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 9:12 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "\u2022 Finance and Audit Committee Meeting \u2013 Friday, November 21, 2025 - 10:00 AM\u2022 Regular Meeting \u2013 Monday, November 24, 2025 - 4:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

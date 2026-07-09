@@ -1,0 +1,78 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=12ec91d9-3fcb-484f-a046-b73faa0b4056&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=12ec91d9-3fcb-484f-a046-b73faa0b4056&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - January 29, 2026",
+  "meeting_number": 125,
+  "meeting_date": "2026-01-29",
+  "meeting_start_time": "11:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Vice Chair: Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson",
+    "Michael Polowin"
+  ],
+  "absent_attendees": [
+    "Steve Desroches"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 5,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "This meeting may be viewed online on the Ottawa City Council YouTube Channel or via Zoom.\nhttps://us02web.zoom.us/j/85755170143",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "In accordance with Section 44 of the Community Safety and Policing Act, 2019, the Ottawa Police Service Board met in a closed session prior to the public meeting to discuss items pertaining to the following subject matter:",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board adjourn the public portion of its meeting to move In Camera to discuss the following subject matter in accordance with Section 44(2) of the Community Safety and Policing Act, 2019:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 11:11 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, February 23rd 2026, 1:00PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

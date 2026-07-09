@@ -1,0 +1,183 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ff4ab722-52d0-404c-a25a-c90770d8a202&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ff4ab722-52d0-404c-a25a-c90770d8a202&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Investment Board - February 27, 2026",
+  "meeting_number": 7,
+  "meeting_date": "2026-02-27",
+  "meeting_start_time": "13:30",
+  "meeting_location": "Colonel By Room, 110 Laurier Avenue West",
+  "present_attendees": [
+    "Cyril Rogers (Chair)",
+    "Ken Kember",
+    "Habib Saikali",
+    "Adam E. Harvey"
+  ],
+  "absent_attendees": [
+    "Debra Alves"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=316533",
+            "attachment_title": "Public Notice English AODA.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=316534",
+            "attachment_title": "Public Notice French AODA.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and in person participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak, or submit written comments or visual presentations is 1:30 pm on February 25, 2026 (48 hours before the start of the meeting).",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Adoption of agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "OIB Minutes 6 \u2013 Tuesday, October 14, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=316535",
+                "attachment_title": "OIB Minutes - October 14, 2025 English AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=316536",
+                "attachment_title": "OIB MInutes - October 14, 2025 French AODA.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Investment Performance Review: Q4 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=316537",
+                "attachment_title": "Presentation - Quarterly Review Q4 2025 English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=316538",
+                "attachment_title": "Presentation - Quarterly Review Q4 2025 French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Todd Saulnier (Principal, Senior Investment Consultant, Mercer) provided a presentation and answered questions from the Board. Raghav Wadhwa (Principal, Mercer) and Daniel Bonder (Principal, Client Service, Mercer) were also present and answered questions from the Board.\nBoard members asked general questions regarding the details presented on the slide deck, as well as for clarity on ratings for sub managers, active versus passive management and for Mercer\u2019s observations on recent global trends.\nThere were no public submissions on this item.\u00a0\nAt the conclusion of the discussion, the Board received the presentation for information.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no reports.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motions",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Motions.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: Friday, May 22, 2026",
+        "minutes": "The meeting adjourned at 2:01 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

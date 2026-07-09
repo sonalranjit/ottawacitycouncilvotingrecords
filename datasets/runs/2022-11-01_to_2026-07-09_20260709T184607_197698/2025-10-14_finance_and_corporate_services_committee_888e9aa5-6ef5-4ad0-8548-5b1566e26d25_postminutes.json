@@ -1,0 +1,599 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=888e9aa5-6ef5-4ad0-8548-5b1566e26d25&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=888e9aa5-6ef5-4ad0-8548-5b1566e26d25&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Finance and Corporate Services Committee - October 14, 2025",
+  "meeting_number": 28,
+  "meeting_date": "2025-10-14",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Mayor Mark Sutcliffe",
+    "Matt Luloff",
+    "Laura Dudas",
+    "Cathy Curry",
+    "Glen Gower",
+    "Tim Tierney",
+    "Rawlson King",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "David Brown"
+  ],
+  "absent_attendees": [
+    "Vice-Chair: Councillor Catherine Kitts"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 14,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291637",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291638",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on October 22, 2025 in Finance and Corporate Services Committee Report 28.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on October 13, 2025, and the deadline to register to speak by email is 8:30 am on October 14, 2025.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "FCSC Minutes 27 \u2013 02 September 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291623",
+                "attachment_title": "3.1 FCSC Draft Final Minutes 27 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291624",
+                "attachment_title": "3.1 FCSC Draft Final Minutes 27 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "FCSC Confidential Minutes 27 - 02 September 2025",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Cybersecurity Program at the City of Ottawa",
+            "attachments": [],
+            "description": "",
+            "minutes": "Items 4.1, 4.2 and 4.3 were considered concurrently and questions were dealt after all three presentations.\nCouncillor G. Gower moved a procedural motion, which was Carried by Committee.\u00a0\nMr. Cyril Rogers, General Manager, Finance and Corporate Services Department (FCSD) and Viktors Engelbrehts (title) provided a presentation. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nInspector Cameron Graham, Ottawa Police Services, provided a presentation. A copy of the slide presentation is filed with the Office of the City Clerk.\nDr. Guy-Vincent Jourdan, Professor and co-Director uOttawa-IBM Cyber Range University of Ottawa and Dr. Vio Onut, Associate Partner, Strategy & Risk Master Inventor & Co-Director, uOttawa-IBM Cyber Range IBM Canada provided a presentation. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following also responded to questions:\u00a0\nFollowing discussion and questions of staff, the Committee received the presentations.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2025-28-01",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Finance and Corporate Services Committee approve that the Rules of Procedure be waived subject to Subsection 83(4)(a) of the Proce-dure By-Law (being By-Law NO 2025-100) to receive a staff presentation entitled Cybersecurity Program at the City of Ottawa.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Cyber Fraud (Ottawa Police Service and the Canadian Centre for Cybersecurity)",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "The Future of Cyber Safety in Our Community (University of Ottawa/IBM)",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Uncollectible Taxes Under Section 354 of the Municipal Act, 2001",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291639",
+                "attachment_title": "Report - Uncollectible Taxes Under Section 354 of the Municipal Act.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-FCS-REV-0006 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Legal Services",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Comprehensive Legal Services Report for the Period January 1 to June 30, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291625",
+                "attachment_title": "Report - ACS2025-LEG-GEN-0003 - Comprehensive Legal Services Report Q1 Q2 2025.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-LEG-GEN-0003 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Finance and Corporate Services Committee recommend that Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Brownfield Grant Application \u2013 100 Argyle Avenue",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291636",
+                "attachment_title": "Report - ACS2025-PDB-PS-0058 Brownfield Grants -100 Argle Ave.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0058 \u2013 Somerset (Ward 14)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Finance and Corporate Services Committee recommend Council:\nCarried with Councillor S. Menard dissenting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Strategic Initiatives Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Delegation of Authority \u2013 Acquisition and Sale of Land and Property \u2013 1 January 2025 to 30 June 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291626",
+                "attachment_title": "Report - ACS2025-SI-HSI-0020 - Delegation of Authority_Acquisition and Sale of Land and Property.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-HSI-0020 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Finance and Corporate Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Centretown Business Improvement Area \u2013 Boundary Adjustment",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291627",
+                "attachment_title": "Report - ACS2025-SI-ED-0011 - Centretown Business Improvement Area.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291628",
+                "attachment_title": "Document 1 - Proposed Boundary Expansion Map - Centretown BIA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291629",
+                "attachment_title": "Document 2 - Letter from Centretown BIA Board of Management to City of Ottawa.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-ED-0011 \u2013 Somerset (Ward 14)",
+            "minutes": "The following members of the public spoke before the Committee and provided comments:\n[ * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions and presentations are held on file with the Office of the City Clerk. ]\nThe following staff also responded to questions:\u00a0\nFollowing discussion and questions of staff, the Committee carried the report as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Finance and Corporate Services Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "Integrated Orl\u00e9ans Community Improvement Plan Application by Amir Mourad Sadek for 4405-4409 Innes Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291630",
+                "attachment_title": "Report - ACS2025-SI-ED-0010 - Integrated Orl\u00e9ans Community Improvement Plan Application.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-ED-0010 \u2013 Orl\u00e9ans East-Cumberland (Ward 1)",
+            "minutes": "During the consent portion of the agenda there were some questions. Following discussion and questions of staff, the Committee carried the report as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Finance and Corporate Services Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.4",
+            "title": "Nepean Sailing Club Lease Renewal \u2013 3259 Carling Avenue",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291640",
+                "attachment_title": "Report (revised) - Nepean Sailing Club - Lease Renewal.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291641",
+                "attachment_title": "Report (original) - Nepean Sailing Club - Lease Renewal sept24.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291642",
+                "attachment_title": "Document 2 - Offer to Lease - Final - Nepean Sailing Club.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-HSI-0021 \u2013 Bay (Ward 7)",
+            "minutes": "During the consent portion of the agenda, Councillor G. Gower introduced a technical amendment Motion. The Committee Carried the report recommendations as amended by Motion No. FCSC 2025-28-02.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Finance and Corporate Services Committee recommends that City Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-28-02",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the total consideration noted in the report at time of release of the agenda was calculated based on 20 years when the base terms are for a 15-year lease;\nTHEREFORE BE IT RESOLVED that Recommendation 1 be replaced with the following and that all references in the report be amended to state a total consideration of $4,784, 929.21 plus HST on pages 2, 5, 6 and 8:\nApprove the base terms of a 15-year revenue lease agreement with the Nepean Sailing Club for their continued use of certain lands located at 3259 Carling Avenue as shown on the attached Document 1, for a total consideration of$4,784,929.21plus HST, commencing on November 1, 2025, and ending October 31, 2040.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.5",
+            "title": "Primary Care Provider Recruitment and Retention Strategy",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291643",
+                "attachment_title": "Report (revised) - Primary Care Provider Recruitment and Retention Strategy.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-SPO-0003 \u2013 City-wide",
+            "minutes": "Mr. Will McDonald, Director, Strategic Projects Office, Strategic Initiatives Department (SI) and Ms. Robin Doner, Program Manager, Strategic Initiatives Project (T), SI provided a presentation. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following members of the public spoke before the Committee and provided comments:\n[ * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions and presentations are held on file with the Office of the City Clerk. ]\nThe following staff also responded to questions:\u00a0\nFollowing discussion and questions of staff, the Committee carried the report as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Finance and Corporate Services Committee recommend that Council approve the Primary Care Strategy described in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "French Language Services Advisory Committee \u2013 Reserve Appointment",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291631",
+                "attachment_title": "IPD - ACS2025-OCC-CCS-0102 (EN) - Reserve member appointment - FLSAC.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291632",
+                "attachment_title": "IPD - ACS2025-OCC-CCS-0102 (FR) - Reserve member appointment - FLSAC.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0102",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Kanata-Stittsville Family Health Team / Health Hub",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291633",
+                "attachment_title": "IPD - Kanata-Stittsville Family Health Team Health Hub.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-HSI-0017",
+            "minutes": "Councillor G. Gower introduced a Motion to lift the IPD onto the Agenda, which was Carried. Councillor Gower then introduced a Motion with respect to the Request for Offers (RFO) for the development of a health hub at 1655 Maple Grove Road, the Committee then Carried the Motion No. FCSC 2025-28-04.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2025-28-03",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "That, pursuant to Subsection 89(3) of the Procedure By-law (being By-law NO 2025-100), the Finance and Corporate Services Committee approve that the Rules of Procedure be suspended to allow for the consideration of the item(s) listed as:\nInformation Previously Distributed",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-28-04",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the City recognizes the urgent community need for medical facilities and services;\nAND WHEREAS Council previously directed staff to engage in discussions with the Kanata-Stittsville Family Health Team proponents regarding a potential Family Health Hub to be located at 1655 Maple Grove Road (Ward 6);\nAND WHEREAS the Municipal Act prohibits the City from disposing of land to private businesses at nominal or below-market value;\nAND WHEREAS the City of Ottawa\u2019s Disposal of Real Property Policy requires that City-owned land be sold at fair market value and that notice be made to the public to solicit offers;\nAND WHEREAS sole sourcing is not permitted for Viable Real Property; however, City Council has the discretion to waive the Disposal of Real Property Policy or sections of said policy;\nAND WHEREAS the proposed family health hub represents a high social value use that aligns with Council\u2019s strategic priorities related to health, wellbeing, and community development;\nAND WHEREAS the site, approximately 18 hectares in size, is currently not zoned to permit non-residential uses such as medical facilities or residential care facilities;\nTHEREFORE BE IT RESOLVED that Finance and Corporate Services Committee recommend Council direct staff to initiate a Request for Offers (RFO) for the development of a health hub on the northern portion of the City-owned site located at 1655 Maple Grove Road;\nBE IT FURTHER RESOLVED that prior to the RFO, staff be directed to sever a portion of the site that is adequately sized and appropriately situated to support the development of a health hub, approximately 7 to 8 acres, with the severed area clearly identified and included in the RFO documentation;\nBE IT FURTHER RESOLVED that staff commit to working with the successful proponent of the RFO to amend the Zoning By-law to rezone the identified parcel to permit the intended health hub use, ensuring the land is suitably zoned;\nBE IT FURTHER RESOLVED that all costs incurred by the City related to the severance and rezoning of the subject lands be offset using funds from the eventual sale of the property;\nBE IT FURTHER RESOLVED that staff report back to Council with the results of the RFO process and any recommendations regarding next steps for the development of the health hub by Q2 2026.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.3",
+            "title": "Reconciliation Action Plan Final Progress Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291634",
+                "attachment_title": "IPD - Reconciliation Action Plan Final Progress Update - EN.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-CSS-GEN-0013",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.4",
+            "title": "Equity, Diversity, Inclusion and Belonging Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=291635",
+                "attachment_title": "IPD - Equity, Diversity, Inclusion and Belonging Update - EN.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-CSS-GEN-0015",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "40 Beechcliffe Street",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS property, municipally known as 40 Beechcliffe Street, was acquired by the former Regional Municipality of Ottawa-Carleton by expropriation in 1986, from Trendsetter Developments Limited (now amalgamated into Thomas C. Assaly Corporation Ltd). for the purpose of the southwest transitway extension; and\nWhereas Council has identified a housing crisis in the City of Ottawa\nWhereas City staff has identified a portion of 40 Beechcliffe Street, being approximately 0.75 ha in area, for a potential attainable and affordable housing development, with the remainder of the lands continuing to be retained for the purpose of infrastructure and future extension of the Light Rail Transit System;\nWHEREAS on April 1, 2025, Finance and Corporate Services Committee in report ACS2025-SI-HSI-0010 declared part of 40 Beechcliffe Street surplus to municipal needs and Council on April 16, 2025 approved the transfer of it to a not-for-profit housing provider for the purpose of attainable and affordable housing; and\nWHEREAS of the expropriated lands, the City intends to transfer parts 1, 2, 3, and 4 on a Reference Plan, 4R-37067, to a non-profit housing provider; and\nWHEREAS Section 42 of theOntario Expropriations Actprovides that an expropriating authority is to provide the expropriated Owner first-right-of-refusal in the event the expropriating authority no longer needs the lands; and\nWHEREAS theExpropriations Act further provides the expropriating authority with the ability to waive the right of first refusal, with the approval of the approval authority; and\nWHEREAS in the instance of the City of Ottawa, it is both the successor to the expropriating authority and to the approval authority; and\nWHEREAS the report to Finance and Corporate Services Committee did not address the expropriation of the property;\nTHEREFORE BE IT RESOLVED that the Finance and Corporate Services Committee recommend to Council that the right of first refusal pursuant to theExpropriations Act,section 42 in respect that portion of 40 Beechcliffe Street, being parts 1, 2, 3, and 4 Reference Plan 4R-37067 be waived on the basis that the subject lands are being transferred for nominal value to a not-for-profit housing provider in order to meet the City's housing priorities,",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "11.2",
+            "title": "Proposed Lease of City land at 3478 Moodie Drive to Evolugen for Switching Station (to support Battery Energy Storage System (BESS)",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS in 2023 the Independent Electricity Systems Operator (IESO) launched the Long-Term 1 Request for Proposals (LT1 RFP), intending to secure year-round capacity to support Ontario\u2019s electricity system between 2026 and 2028 with contributions from energy storage resources; and\nWHEREAS on December 6, 2023, Council approved a Municipal Support Resolution for a proposed Battery Energy Storage System (BESS) project at 4186 William McEwen Drive (Rideau-Jack \u2013 Ward 21) (the \u201cTrail BESS\u201d) in Report ACS2023-PRE-EDP-0051; and\nWHEREAS on May 9, 2024, the IESO announced that the \u201cTrail BESS\u201d project was successful in the evaluation of LT1 RFP proposals, to be led by Evolugen, under the ownership of Brookfield Renewable; and\nWHEREAS the Trail BESS project includes a switching station requirement by Hydro One to connect to the transmission line along Trail Road, and a portion of the City land at 3478 Moodie Drive (Ward 21) has been identified as a suitable location; and\nWHEREAS Evolugen has requested to lease approximately 0.91 acres of city land at the property for a term of 25 years with a 24-year renewal option; and\nWHEREAS Parks Maintenance and Forestry Services has confirmed the subject property can be made available for the full lease term and renewal period; and,\nWHEREAS the subject property has not yet been declared surplus, nor has it been marketed to the general public as required by the City\u2019s Leasing Policy; and\nWHEREAS the switching station is a strategic energy infrastructure component supporting the broader BESS facility at 4186 William McEwen Drive;\nTHEREFORE, BE IT RESOLVED THAT Finance and Corporate Services Committee recommend City Council declare the subject property surplus to municipal needs for the duration of the proposed lease to be approved and concluded by the General Manager of Strategic Initiatives;\nAND BE IT FURTHER RESOLVED THAT Finance and Corporate Services Committee recommend that City Council waive the section of the City of Ottawa Leasing Policy requiring that notice of the available property for lease be provided to the public as surplus prior to leasing.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "Inquiry - FCSC-2025-03\nThe timely acquisition of real estate property is critical to advancing public housing, transportation, and transit projects that support growth and renewal across the city. Delays in securing required property can stall construction, increase costs, and impact the delivery of essential infrastructure that residents rely on. This work must be approached with urgency and strong coordination across departments to ensure projects proceed without unnecessary delay. The same urgency is also needed from our federal and provincial partners, who own significant parcels of property required for local priorities. Ultimately, this property\u2014whether held by any order of government\u2014is owned by the same person: the taxpayer, who rightly expects results when it comes to the delivery of housing and key infrastructure.Inquiry:\n\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nMonday, November 3, 2025",
+        "minutes": "The meeting adjourned at 12:20 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

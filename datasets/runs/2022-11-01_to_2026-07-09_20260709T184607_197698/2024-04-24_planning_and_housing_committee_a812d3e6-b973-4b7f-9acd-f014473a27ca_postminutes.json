@@ -1,0 +1,521 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a812d3e6-b973-4b7f-9acd-f014473a27ca&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a812d3e6-b973-4b7f-9acd-f014473a27ca&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - April 24, 2024",
+  "meeting_number": 26,
+  "meeting_date": "2024-04-24",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Vice-chair: Councillor Glen Gower",
+    "Riley Brockington",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Clarke Kelly",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184105",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184106",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, May 1, 2024 in Planning and Housing Committee Report 26.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, April 23, 2024, and the deadline to register by email to speak is 8:30 am on Wednesday, April 24, 2024.",
+        "minutes": "This is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1-5.3 and 5.5 on today\u2019s Agenda.\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on Wednesday, May 1, 2024, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 25 \u2013 Wednesday, April 10, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184109",
+                "attachment_title": "PHC Minutes 25 - English.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184104",
+            "attachment_title": "Response PHC-2023-04 Council Inquiry - Development and stormwater systems (Bilingual).pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PHC-2023-03 - Updates made to the Ontario Wetland Evaluation System",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184108",
+                "attachment_title": "Council Inquiry - G. Gower - Updates made to the Ontario Wetland Evaluation System.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "PHC-2023-04 - Development and stormwater systems",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184107",
+                "attachment_title": "Response PHC-2023-04 Council Inquiry - Development and stormwater systems (Bilingual)(1).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The Committee heard from the following delegations:\nDerrick Moodie, Planning Services, Planning, Development and Building Services was present and responded to questions.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2024-26-01",
+                "motion_moved_by": "L. Johnson",
+                "motion_seconded_by": "",
+                "motion_text": "That, pursuant to Subsection 89(3) of the Procedure By-law (being By-law NO 2022-410), the Planning and Housing Committee approve that the Rules of Procedure be suspended to allow for the consideration of the item(s) listed as:\nRESPONSES TO INQUIRIES",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Zoning By-law Amendment Part of 3288, 3300 Borrisokane Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184129",
+                "attachment_title": "5.1 - ACS2024-PRE-PS-0036 - 3288 3300 Borrisokane Road.pdf"
+              }
+            ],
+            "description": "The Committee considered items 5.1 and 5.2 concurrently.\nACS2024-PRE-PS-0036 - Barrhaven West (3)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Zoning By-law Amendment 4305, 4345, 4375 McKenna Casey Drive and 3288, 3300 Borrisokane Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184128",
+                "attachment_title": "5.2 - ACS2024-PRE-PS-0035 - 4305 4345 4375 McKenna Casey Drive.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PS-0035 - Barrhaven West (3)",
+            "minutes": "The Committee considered items 5.1 and 5.2 concurrently.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Zoning By-law Amendment \u2013 315 and part of 321 Chapel Street, 8 Blackburn Avenue",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184130",
+                "attachment_title": "5.3 - ACS2024-PRE-PSX-0013 (EN)  - ZBLA 315 and part of 321 Chapel Street, 8 Blackburn Avenue.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184131",
+                "attachment_title": "5.3 - ACS2024-PRE-PSX-0013 (FR)  - ZBLA 315 and part of 321 Chapel Street, 8 Blackburn Avenue.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PSX-0013 \u2013 Rideau Vanier (12)\n\u00a0",
+            "minutes": "The Committee considered items 5.3 and 5.4 concurrently.\nPoint of Personal Privilege - Councillor Laine Johnson\nI rise on a point of personal privilege to disclose that I previously worked with the property owner in the application for 315 and part of 321 Chapel Street, 8 Blackburn Avenue, which is before the Planning and Housing Committee today. I have consulted with the Integrity Commissioner who advised that I have no pecuniary or financial interest under the Municipal Conflict of Interest Act and therefore may participate in the discussion and vote on the matter. I wish to declare this relationship to provide transparency in the spirit of Section 4 of the Code of Conduct for the Planning and Housing Committee.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "Application to alter 315-321 Chapel Street, properties designated under Parts IV and V of the Ontario Heritage Act",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184110",
+                "attachment_title": "5.4 - Report - ACS2024-PRE-RHU-0041 - Application to alter 315-321 Chapel Street.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184111",
+                "attachment_title": "5.4 - Document 4 Project Description and Heritage Details.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184112",
+                "attachment_title": "5.4 - Document 5 Site Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184113",
+                "attachment_title": "5.4 - Document 6 Elevations.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184114",
+                "attachment_title": "5.4 - Document 7 Renderings.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184115",
+                "attachment_title": "5.4 - Document 8 Heritage Impact Assessment.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-RHU-0041 \u2013 Rideau Vanier (12)\nThis report was submitted to the Built Heritage Housing Committee on April 9, 2024. The statutory 90-day timeline for consideration of this application under the Ontario Heritage Act will expire on May 27, 2024.\nThe Committee considered items 5.3 and 5.4 concurrently.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.5",
+            "title": "Zoning By-law Amendment \u2013 1166 Bank Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184127",
+                "attachment_title": "5.5 - ACS2024-PRE-PS-0057 - 1166 Bank Street.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PS-0057 \u2013 Capital (17)",
+            "minutes": "Jean Charles Renaud, Planner I, Planning, Development and Building Services (PDBS) provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Applicant/Owner as represented by Simran Soor, Novatech and Toon Dreeson, Architects DCA provided an overview of the Application and responded to questions from Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegation:\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nS. Menard, Ward Councillor for the area, was present and participated in the discussion and questions of the delegations and Staff.Following discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.6",
+            "title": "Riverside South Secondary Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184117",
+                "attachment_title": "5.6 - ACS2024-PRE-EDP-0038 - Riverside South Secondary Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184118",
+                "attachment_title": "5.6 - Document 1 - Riverside South Secondary Plan Policy Text - April 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184119",
+                "attachment_title": "5.6 - Document 2- Riverside South Secondary Plan Schedule A - Designation Plan - April 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184120",
+                "attachment_title": "5.6 - Document 3 - Riverside South Secondary Plan Schedule B - Maximum Building Heights - April 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184121",
+                "attachment_title": "5.6 - Document 4 - Zoning By-law Amendment (text) - March 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184122",
+                "attachment_title": "5.6 - Document 5 - Location Map 1 - Town Centre - February 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184123",
+                "attachment_title": "5.6 - Document 6 - Location Map 2 - District Park - February 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184124",
+                "attachment_title": "5.6 - Document 7 - Location Map 3 - Min Parking - February 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184125",
+                "attachment_title": "5.6 - Document 8 - Update Zoning Height Schedule 269 - April 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184126",
+                "attachment_title": "5.6 - Document 9 - Consultation and Circulation Details.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-EDP-0038 \u2013 Riverside South-Findlay Creek (22)",
+            "minutes": "Jocelyn Cadieux, Planner II, Planning, Development and Building Services (PDBS) provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nAlso Present and responded to questions:\nPDBS:\nParks, Recreation and Facility Services\nThe following delegations were present and expressed support for the report recommendations:\nS. Desroches, Ward Councillor for the area, was present and participated in the discussion and questions of the delegations and Staff.Following discussion and questions of staff, the Committee carried as amended by the following motions:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-26-02",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-26-03",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-26-04",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-26-05",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-26-06",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Motion - Councillor A. Troster - Renovictions",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=184116",
+                "attachment_title": "6.1 - ACS2024-OCC-CCS-0045 - Motion - A. Troster - Renovictions.pdf"
+              }
+            ],
+            "description": "ACS2024-OCC-CCS-0045 - Citywide",
+            "minutes": "The Committee heard from the following delegations:\nThe following staff were present and responded to questions:\nFollowing discussions and questions to staff, the Committee Carried the motion unanimously.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "",
+                "motion_text": "Note: The Councillor A. Troster Motion of which Notice was previously given at the April 10, 2024, Planning and Housing Committee meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law.\nWHEREAS on January 24, 2024, the Council of the City of Hamilton unanimously adopted Ontario\u2019s first \u201canti-renovictions\u201d by-law together with significant related investments to increase staffing enforcement capacity, in order to deter landlords from using renovations for bad faith evictions and to assist in preserving existing housing stock; and\nWHEREAS Hamilton\u2019s Renovation License and Relocation By-law will require a landlord to obtain a renovation license prior to commencing any renovation that requires that an N-13 eviction notice be issued to a tenant under the Residential Tenancies Act, and to provide proof of a building permit and an engineering report confirming that vacant possession of the unit is required to carry out the renovation work; and\nWHEREAS the Council of the City of Ottawa has implemented new regulations to address the availability and quality of rental housing such as the Short-Term Rental By-law, the Rental Housing Property Management By-law, and complementary amendments to the Property Standards By-law, as well as the 10-Year Housing and Homelessness Plan and various housing loss prevention programs which are currently being reviewed and updated; and\nWHEREAS Ottawa City Council also considered a landlord licensing regime through the staff report Rental Accommodations Study and Regulatory Regime (ACS2019-EPS-GEN-0015) which was not recommended based on efficiency, enforceability, and sustainability considerations as well as legal uncertainties, and approved the staff report Review of Tools to Prohibit or Prevent \u201cRenovictions\u201d (ACS2022-PIE-GEN-0008); and\nWHEREAS tenants in the City of Ottawa continue to experience hardship through the process of \u201crenovictions\u201d by landlords and the loss of existing housing stock continues to be a concern and\nWHEREAS a recent report from the rate of affordable housing loss is 31 units lost in the private market for every 1 affordable unit constructed and bad-faith renoviction is a major driver of that loss; and\nWHEREAS per recent LTB data, the number N12 notices filed in Ottawa between 2017 and 2021 represented an increase of 160%; and\nWHEREAS per recent LTB data, the number of N13 notices filed in Ottawa between 2017 and 2022 represented an increase of 545%, with N13 issuance tripling between 2022 and 2023;\nTHEREFORE BE IT RESOLVED that the Planning and Housing Committee recommend CouncilDirect the General Manager of the Emergency and Protective Services Department, in consultation with the Community and Social Services Department, the Planning, Development and Building Services Department, and Legal Services, to review the City of Hamilton\u2019s Renovation Licence and Relocation By-law and the Federal Tenant Protection Fund and the new Canadian Renters\u2019 Bill of Rights and report back to the appropriate Standing Committee of Council by Q4 2024, with a preliminary assessment of the feasibility of developing a similar \u201canti-renovictions\u201d by-law in the City of Ottawa, which should include an outline of the anticipated timelines, costs, FTE Requirements and operating resource implications to do this work as well as the planned or approved projects on existing departmental work plans that would have to be deferred or postponed as a result.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "C. Curry",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "A. Troster",
+                      "W. Lo"
+                    ],
+                    "count": 12
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (12 to 0)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Councillor T. Kavanagh",
+            "attachments": [],
+            "description": "",
+            "minutes": "On March 27, 2024, the Planning and Housing Committee received a report entitled \u201cLoss of Affordable Rental Housing\u201d (The Report). Along with The Report came a document written and researched by Steve Pomeroy, specifically focusing on the loss of affordable rental housing stock in Ottawa. This report maintains that the City of Ottawa is currently losing 31 affordable units for every 1 unit built.The Report recommends \u201cthe implementation of a rental replacement bylaw to protect and/or replace existing older stock, which is vulnerable as the city seeks to manage growth through intensification and redevelopment (especially along LRT corridors)\u201d.\nGiven the City\u2019s 10 Year Housing and Homelessness Plan, the declared state of a housing and homelessness emergency, and the efforts from all levels of government to promote new infill development, the city has an increased responsibility to introduce policy regarding rental replacement and demovictions. This is to ensure that the supply side of the housing market is not at odds with the intention of our 10-year Housing and Homelessness Plan goal to ensure everyone has a home.\nIt is more important than ever that we revisit the directions to staff regarding a rental replacement bylaw. A strong rental replacement bylaw could allow a future acquisition strategy in the city to be more strategic with its investments, as well as dovetail with any anti-renoviction and licensing bylaws the city may implement.\nPrior to The Report of March 2024, city council passed the following items on June 22, 2022:\nAfter the passing of The Report, but prior to the report back date of Q2 2023, the province weakened the potential development of a rental replacement bylaw by removing Section 4.2.3 of the new Official Plan. Section 4.2.3 provided the city with language to enable proceeding with a rental replacement bylaw. The removal of such language halted progress on the joint-departmental workplan item. However, in Q4 of 2023, the province implemented Bill 150, which then re-instated Section 4.2.3 to the City\u2019s Official Plan. As a result, the language has returned to the Official Plan.\u00a0\nAny uncertainty regarding a rental replacement bylaw pertains to Schedule 4 of Bill 23, which grants the Minister of Housing and Municipal Affairs the authority to impose restrictions and conditions on municipal powers outlined in Section 99.1 of the Municipal Act.While the Minister could use this authority to hinder the work of a municipality in establishing its own rental replacement bylaw, it does not seem to be the intention or anticipated outcome of the new regulation-making authority.\nThe province announced its intention to conduct consultations to guide potential future regulations aimed at standardizing rental replacement policies. Nevertheless, the province's indications imply that existing municipal rental replacement bylaws would serve as valuable references for this standardization effort. It has been nearly two years since this provincial announcement, yet many municipalities have persisted in developing, or are currently in the process of drafting, rental replacement bylaws.\nCould staff please answer the following questions:\nAccording to The Report, \u201cbetween 2011 and 2021, Ottawa lost a total of 30,215 private rental units with rents below $1,000 - a number greater than the entire community housing stock in Ottawa.\u201dConsidering the rapid depletion of affordable housing stock and recognizing that certain policies the City has in place may unintentionally contribute to the trend by promoting infill development, do staff intend to recommence the joint-departmental workplan item regarding rental replacement that was previously put on hold?\nWhat changes, if any, to the Bylaw Review Workplan might be needed to resume work on this file?\u00a0Could staff resume work on the rental replacement bylaw in conjunction with the potential review of renoviction permissions?",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meetings\n\u00a0",
+        "minutes": "The meeting adjourned at 2:05 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

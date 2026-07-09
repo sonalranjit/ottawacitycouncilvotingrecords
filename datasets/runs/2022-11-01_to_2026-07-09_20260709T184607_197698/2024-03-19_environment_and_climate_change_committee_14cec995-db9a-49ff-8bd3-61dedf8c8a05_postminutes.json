@@ -1,0 +1,414 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=14cec995-db9a-49ff-8bd3-61dedf8c8a05&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=14cec995-db9a-49ff-8bd3-61dedf8c8a05&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Environment and Climate Change Committee - March 19, 2024",
+  "meeting_number": 9,
+  "meeting_date": "2024-03-19",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Shawn Menard",
+    "Vice-chair: Councillor Marty Carr",
+    "Riley Brockington",
+    "David Brown",
+    "Cathy Curry",
+    "Sean Devine",
+    "David Hill",
+    "Theresa Kavanagh",
+    "Rawlson King",
+    "Matt Luloff"
+  ],
+  "absent_attendees": [
+    "Tim Tierney"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 14,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173627",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173628",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, April 3, 2024, in Environment and Climate Change Committee Report 9.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Monday, March 18, 2024, and the deadline to register to speak by email is 8:30 am on Tuesday, March 19, 2024.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "ECCC Minutes 8 - Tuesday, November 21, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173649",
+                "attachment_title": "DRAFT ECCC Minutes 8 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173650",
+                "attachment_title": "DRAFT ECCC Minutes 8 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "ECCC 2023-01 \u2013 Climate Change Master Plan and Budget",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173630",
+                "attachment_title": "Response to Inquiry ECCC 2023-01 - Climate Change Master Plan and Budget (DH).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "ECCC 2023-03 \u2013 Pollinators on Bus Shelters",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173629",
+                "attachment_title": "Response to Inquiry ECCC 2023-03 - Pollinators on Bus Shelters (DH).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "ECCC 2023-04 \u2013 Landfill Capacity",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173631",
+                "attachment_title": "Response to Inquiry ECCC 2023-04 - Landfill Capacity (DH).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Environmental Excellence Awards \u2013 2023",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Infrastructure and Water Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Urban Flood Information Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173656",
+                "attachment_title": "ACS2024-IWS-WL-0003 - Urban Flood Report_2.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-IWS-WL-0003 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Environment and Climate Change Committee recommend that Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Public Works Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Financial Statements for In-House Solid Waste Collection \u2013 External Audit Results",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173651",
+                "attachment_title": "ACS2024-PWD-SWS-0001 - Fin Statements - IHSWC - 2024 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173652",
+                "attachment_title": "ACS2024-PWD-SWS-0001 - Fin Statements - IHSWC - 2024 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173653",
+                "attachment_title": "Doc 1 - IHSWC - A3 - Zone 3 - Financial Statement.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173654",
+                "attachment_title": "Doc 2 - IHSWC - A5 - Zone 5 - Financial Statement.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173655",
+                "attachment_title": "Doc 3 - Service Requests for SWC - 01 Jun 20 - 31 May 23 (BIL).pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PWD-SWS-0001 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Environment and Climate Change Committee recommend that Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Status Update \u2013 Environment and Climate Change Committee \u2013 Inquiries and Motions for the Period Ending 8 March 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173632",
+                "attachment_title": "ACS2024-OCC-CCS-0015 - ECCC Mots and Inqs to 8 Mar 24.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173633",
+                "attachment_title": "ACS2024-OCC-CCS-0015 - Doc 1 - Mots and DTS.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-CCS-0015 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Environment and Climate Change Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Urban Forest Management Plan Resource Requirements",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173634",
+                "attachment_title": "ACS2023-PWD-PMF-0001 - UFMP Resource Requirements (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173635",
+                "attachment_title": "ACS2023-PWD-PMF-0001 - UFMP Resource Requirements (FR).pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PWD-PMF-0001 \u2013 City-wide",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Annual Drinking Water Source Protection Status Update - 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173636",
+                "attachment_title": "ACS2024-IWS-AM-0001 - 2023 Source Protection Annual Update (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173637",
+                "attachment_title": "ACS2024-IWS-AM-0001 - 2023 Source Protection Annual Update (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173638",
+                "attachment_title": "Doc 1 - City Wide Vulnerable Areas - Jan 2023 (BIL).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173639",
+                "attachment_title": "Doc 2 - Mississippi Rideau Source Protection 2023 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173640",
+                "attachment_title": "Doc 2 - Mississippi Rideau Source Protection 2023 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173641",
+                "attachment_title": "Doc 3 - Mississippi Rideau SP 2023 - Source Protection (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173642",
+                "attachment_title": "Doc 3 - Mississippi Rideau SP 2023 - Source Protection (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173643",
+                "attachment_title": "Doc 4 - Ottawa SWP RMO Annual Report Mississippi SPA (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173644",
+                "attachment_title": "Doc 4 - Ottawa SWP RMO Annual Report Mississippi SPA (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173645",
+                "attachment_title": "Doc 5 - Ottawa SWP RMO Annual Report Rideau SPA (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173646",
+                "attachment_title": "Doc 5 - Ottawa SWP RMO Annual Report Rideau SPA (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173647",
+                "attachment_title": "Doc 6 - Ottawa SWP RMO Municipal Annual Report - South Nation (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=173648",
+                "attachment_title": "Doc 6 - Ottawa SWP RMO Municipal Annual Report - South Nation (FR).pdf"
+              }
+            ],
+            "description": "File No. ACS2024-ISW-AM-0001 \u2013 City-wide",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting - Tuesday, April 16, 2024.",
+        "minutes": "The meeting adjourned at 11:49 am.",
+        "motions": []
+      }
+    ]
+  }
+}

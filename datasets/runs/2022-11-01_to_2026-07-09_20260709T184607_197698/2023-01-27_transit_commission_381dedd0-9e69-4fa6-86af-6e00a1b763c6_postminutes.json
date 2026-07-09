@@ -1,0 +1,115 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=381dedd0-9e69-4fa6-86af-6e00a1b763c6&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=381dedd0-9e69-4fa6-86af-6e00a1b763c6&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transit Commission - January 27, 2023",
+  "meeting_number": 1,
+  "meeting_date": "2023-01-27",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Glen Gower",
+    "Vice-Chair Cathy Curry",
+    "Marty Carr",
+    "David Hill",
+    "Jeff Leiper",
+    "Wilson Lo",
+    "Shawn Menard",
+    "Tim Tierney"
+  ],
+  "absent_attendees": [
+    "Riley Brockington"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161328",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161329",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on February 1, 2023 in Transit Commission Report 1.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on January 26, 2023, and the deadline to register to speak by email is 8:30 am on January 27, 2023.",
+        "minutes": "This meeting was called as a special meeting pursuant to Section 87 of the Procedure By-law (No. 2022-410).",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Council Referral",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Financial Update for Zero-Emission Bus Program Funding",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161327",
+                "attachment_title": "ACS2023-FSD-FIN-0001 Financial Update for Zero-Emission Bus Program Funding-AODA.pdf"
+              }
+            ],
+            "description": "ACS2023-FSD-FIN-0001 - Citywide\nReferred from the City Council meeting of January 25, 2023.",
+            "minutes": "Ren\u00e9e Amilcar, General Manager, Transit Services Department, Isabelle Jasmin, Deputy City Treasurer, Corporate Finance, and Richard Holder, Director, Engineering Services, presented an overview of the report recommendations and answered questions from the Commission. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following Transit Services Department staff also answered questions: Dan Villeneuve, Program Manager, Capital Projects and Engineering, James Greer, Director, Transit Bus Operations and Maintenance, Paul Treboutat, Chief Safety Officer, Pat Scrimgeour, Director, Transit Customer Systems and Planning.\nThe following members of the public spoke before the Commission and provided comments on the report recommendations:\nFollowing discussions, the Commission considered the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Transit Commission recommend that Council approve:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "S. Menard",
+                      "C. Curry",
+                      "D. Hill",
+                      "M. Carr"
+                    ],
+                    "count": 7
+                  },
+                  "against": {
+                    "councillors": [
+                      "W. Lo"
+                    ],
+                    "count": 1
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (7 to 1)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nThursday, February 9, 2023.",
+        "minutes": "The meeting adjourned at 12:10 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a0303d33-6a97-4a39-b1df-b775b0569c49&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a0303d33-6a97-4a39-b1df-b775b0569c49&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - November 07, 2025",
+  "meeting_number": 68,
+  "meeting_date": "2025-11-07",
+  "meeting_start_time": "10:30",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Mark Sutcliffe",
+    "Matt Luloff",
+    "Laura Dudas",
+    "David Hill",
+    "Cathy Curry",
+    "Clarke Kelly",
+    "Glen Gower",
+    "Theresa Kavanagh",
+    "Laine Johnson",
+    "Sean Devine",
+    "Jessica Bradley",
+    "Tim Tierney",
+    "St\u00e9phanie Plante",
+    "Rawlson King",
+    "Ariel Troster",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "Marty Carr",
+    "Catherine Kitts",
+    "Isabelle Skalski",
+    "David Brown",
+    "Steve Desroches",
+    "Allan Hubley",
+    "Wilson Lo"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Friday, November 7, 2025, beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323787",
+            "attachment_title": "Public Notices English - Council.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323788",
+            "attachment_title": "Public Notices French - Council.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "No regrets were filed.\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-01",
+            "motion_moved_by": "S. Devine",
+            "motion_seconded_by": "S. Desroches",
+            "motion_text": "That the Audit Committee Report 14 and Finance and Corporate Services Committee Report 29 be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Audit Committee Report 14",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Follow-up: Audit of Lansdowne Sprint 1",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323815",
+                "attachment_title": "Cover - OAG Follow-up Audit Lansdowne 2.0 Sprint 1.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323816",
+                "attachment_title": "Report - OAG Follow-up Audit Lansdowne 2.0 Sprint 1.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323817",
+                "attachment_title": "Document 1 English - OAG Follow-up Audit Lansdowne 2.0 Sprint 1 EN-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323818",
+                "attachment_title": "Document 1 French - OAG Follow-up Audit Lansdowne 2.0 Sprint 1 FR-AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OAG-BVG-0014 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Finance and Corporate Services Committee Report 29",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-02",
+            "motion_moved_by": "G. Gower",
+            "motion_seconded_by": "M. Sutcliffe",
+            "motion_text": "BE IT RESOLVED that City Council resolve to move into Committee of the Whole pursuant to Section 52 of Procedure By-law to receive and consider all matters contained in Finance and Corporate Services Committee Report 29.\nBE IT FURTHER RESOLVED that any dissents and declarations of interest recorded during the Committee of the Whole session be deemed to be recorded in the Council session.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-03",
+            "motion_moved_by": "S. Menard",
+            "motion_seconded_by": "M. Sutcliffe",
+            "motion_text": "WHEREAS the city is the midst of a housing and affordability crisis; and\nWHEREAS the Lansdowne 2.0 proposal passed by council in 2023 committed $9.75 million towards affordable housing, based on the estimation that air rights would be sold for $39 million; and\nWHEREAS City Council passed a motion that directed \u201cany additional revenues through the formal Request for Offer process for the disposal of the subterranean and property air rights that are above and beyond the original estimated value of $39 million be split as per the Affordable Housing Land & Funding Policy (50 per cent to the Affordable Housing Reserve Fund and 50 per cent towards the project)\u201d; and\nWHEREAS the air rights are being proposed to be sold for $65 million less $6.7 million for the cost of integration of the developer\u2019s design, for net proceeds of $58.3 million; and\nWHEREAS the difference between $58.3 million and $39 million is $19.3 million; and\nWHEREAS 50% of $19.3 million is $9.65 million; and\nWHEREAS currently staff have only committed $14.4 million to affordable housing in the current Lansdowne 2.0 proposal, meaning only $4.65 million of the proceeds from the disposal of the subterranean and property air rights that are above and beyond the original estimated value of $39 million\u2014which equates to 24% of the additional $19.3 million\u2014rather than $9.65 million, as directed by Council;\nTHEREFORE BE IT RESOLVED THAT \u00a0Council approve that the additional revenues less the cost of integration from the formal Request for Offer process for the disposal of the subterranean and property air rights that are above and beyond the original estimated value of $39 million be split 50 per cent to the Affordable Housing Reserve Fund and 50 per cent towards the project, resulting in the original Council-directed approach with $9.65 million above the initial $9.75 million being dedicated to affordable housing, bringing the total contribution to $19.4 million;\nTHEREFORE BE IT FURTHER RESOLVED THAT Council approve that the resulting $5 million in additional funding now required for the parking project be funded out of the Parking Reserve.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-04",
+            "motion_moved_by": "C. Curry",
+            "motion_seconded_by": "A. Hubley",
+            "motion_text": "WHEREAS repayment of the Lansdowne 2.0-related debt is proposed to be offset by $2 million per year for a 40-year term from 2030 to 2070, achieved through a 20% increase to the Municipal Accommodation Tax (MAT); and\nWHEREAS a 20% increase, from a rate of 5% to 6%, would achieve approximately $5 million in new revenue in 2026 and the surplus revenue would be applied by the City to other tourism-related uses; and\nWHEREAS the MAT revenues are a predictable source of revenue intended to reduce the cost to property taxpayers of servicing the Lansdowne 2.0 debt;\nTHEREFORE BE IT RESOLVED THAT 40% of 1% of the MAT rate be allocated to the Lansdowne Reserve, and a minimum of $2 million be allocated to the budget annually to offset the debt servicing cost of Lansdowne 2.0; and\nBE IT FURTHER RESOLVED THAT any amount of the 40% above $2 million be retained in the Lansdowne Reserve to offset any fluctuations in projected revenues from other sources, as required, or to fund other infrastructure needs at Lansdowne Park, to be approved as part of the annual budget approval process as an additional risk mitigation strategy; and\nBE IT FURTHER RESOLVED THAT this allocation be maintained as a fixed proportion of the MAT rate, such that any future changes to the overall MAT rate do not alter the relative share dedicated to Lansdowne 2.0 repayment; and\nBE IT FURTHER RESOLVED THAT the remaining 60% of 1% of the MAT rate be allocated to a Tourism Reserve to fund the City\u2019s tourism-related priorities, initiatives and infrastructure projects, as part of the annual budget process.",
+            "motion_votes": {
+              "for": {
+                "councillors": [
+                  "M. Luloff",
+                  "L. Dudas",
+                  "G. Gower",
+                  "T. Tierney",
+                  "R. Brockington",
+                  "C. Kitts",
+                  "A. Hubley",
+                  "C. Curry",
+                  "D. Hill",
+                  "C. Kelly",
+                  "D. Brown",
+                  "S. Desroches",
+                  "W. Lo",
+                  "M. Sutcliffe",
+                  "I. Skalski"
+                ],
+                "count": 15
+              },
+              "against": {
+                "councillors": [
+                  "T. Kavanagh",
+                  "R. King",
+                  "J. Leiper",
+                  "S. Menard",
+                  "L. Johnson",
+                  "S. Devine",
+                  "J. Bradley",
+                  "S. Plante",
+                  "A. Troster",
+                  "M. Carr"
+                ],
+                "count": 10
+              }
+            },
+            "dissent_voters": [],
+            "motion_result": "Carried (15 to 10)",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "Direction to Staff(Councillor G. Gower)\nThat staff review and present options to City Council to strengthen governance and oversight of the Lansdowne project and partnership, and consult with Members and report back as part of the 2026-2030 Term of Council governance review process.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-05",
+            "motion_moved_by": "L. Dudas",
+            "motion_seconded_by": "M. Carr",
+            "motion_text": "WHEREAS Lansdowne Park is a City-owned facility and a major destination for sports, entertainment, and community events, drawing thousands of residents and visitors year-round; and\nWHEREAS for many residents, traveling to Lansdowne requires driving and finding parking, limiting their ability to easily access the site for games, events, and community activities; and\nWHEREAS the Lansdowne 2.0 redevelopment includes a new Event Centre and modernized North Side Stands, which will position Lansdowne to host more frequent and higher-profile events, thereby increasing demand for reliable and accessible transportation options, especially for residents in Ottawa South and surrounding areas; and\nWHEREAS while peak demand during individual events is anticipated to remain stable, the addition of the modern Event Centre will result in more frequent events and increased activity at Lansdowne, leading to a higher overall volume of trips to the area over time; and\nWHEREAS the Lansdowne 2.0 Transportation Demand Management (TDM) strategy is designed to encourage multi-modal travel and reduce congestion during major events, with a focus on improving congestion issues for local residents ; and\nWHEREAS the TDM program includes free transit for all ticketholders before and after events, including on routes 6, 7, and the 450-series special event shuttles, with OSEG covering the costs\u2014a successful approach that is the first of its kind in North America for a large mixed-use entertainment district; and\nWHEREAS OC Transpo currently provides enhanced transit service to Lansdowne for major events and collaborates with OSEG on park-and-ride shuttle services, but additional measures are needed to ensure reliable access for residents; and\nWHEREAS the Bank Street Active Transportation and Transit Priority Feasibility Study is an important step toward identifying infrastructure improvements and transit priority measures along the Bank Street corridor, but there remains a significant need to commit to service delivery standards, including dedicated routes and reliable scheduling, to alleviate congestion and improve access for local residents;\nTHEREFORE BE IT RESOLVED that in conjunction with the work being done through the Lansdowne Transportation Demand Management Strategy, Council direct staff to work in collaboration with OSEG to undertake a review of public transportation options to Lansdowne, including the feasibility of implementing shuttle or regular bus services between Lansdowne Park and nearby LRT stations (such as Hurdman, Lees, and Carleton) for major events, with a focus on ensuring convenient access for event goers and impacted local residents; and\nBE IT FURTHER RESOLVED that City staff collaborate with OSEG and other partners to identify funding sources, including potential sponsorships or community partnerships, to support additional transit services, particularly during weekday evenings and weekends, when residents across the city are most likely to seek opportunities to enjoy Lansdowne and its amenities; and\nBE IT FURTHER RESOLVED that staff explore cost-effective transit solutions to enhance access to Lansdowne and reduce congestion on Bank Street, including but not limited to:\nBE IT FURTHER RESOLVED that staff report back to Council annually on the effectiveness of the Lansdowne TDM strategy, as a companion report \u00a0to the Lansdowne Partnership Annual Report, including transit ridership, mode share, congestion impacts, and any recommendations for further improvements.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-06",
+            "motion_moved_by": "S. Menard",
+            "motion_seconded_by": "R. Brockington",
+            "motion_text": "WHEREAS the Aberdeen Pavilion will be closed for all community and public use for up to 18 months beginning in early 2026, and\nWHEREAS this Pavilion has been an important community amenity that supports and facilitates programming and special events in the Lansdowne Urban Park, and\nWHEREAS there are mitigation plans to allow many events and activities, including the Ottawa Farmers Market and 613 Flea to continue at Lansdowne Park during the closure of the Pavilion, and\nWHEREAS many of these mitigation plans include the use of the Horticultural Building to provide indoor space for activities, and to maintain washroom access to Urban Park visitors,\nWHEREAS City staff will continue to work with organizations and event organizers using the park to ensure disruptions to them are minimized,\nTHEREFORE BE IT RESOLVED THAT the Horticultural Building continue to be operated by the City and available to host programs and activities throughout the 18-month construction period; and",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT FURTHER RESOLVED THAT the Horticultural Building continue to be operated by the City and available to host programs and activities throughout Lansdowne 2.0 construction.",
+            "motion_votes": {
+              "for": {
+                "councillors": [
+                  "T. Kavanagh",
+                  "R. King",
+                  "J. Leiper",
+                  "R. Brockington",
+                  "S. Menard",
+                  "L. Johnson",
+                  "S. Devine",
+                  "J. Bradley",
+                  "A. Troster",
+                  "M. Carr"
+                ],
+                "count": 10
+              },
+              "against": {
+                "councillors": [
+                  "M. Luloff",
+                  "L. Dudas",
+                  "G. Gower",
+                  "T. Tierney",
+                  "C. Kitts",
+                  "A. Hubley",
+                  "C. Curry",
+                  "D. Hill",
+                  "C. Kelly",
+                  "S. Plante",
+                  "D. Brown",
+                  "S. Desroches",
+                  "W. Lo",
+                  "M. Sutcliffe",
+                  "I. Skalski"
+                ],
+                "count": 15
+              }
+            },
+            "dissent_voters": [],
+            "motion_result": "Lost (10 to 15)",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-07",
+            "motion_moved_by": "I. Skalski",
+            "motion_seconded_by": "C. Curry",
+            "motion_text": "WHEREAS Ottawa City Council voted in 2023 and in 2024 to direct staff to proceed with the plan for Lansdowne 2.0 including an Event Centre with a capacity smaller than the current TD Place arena; and\nWHEREAS the PWHL introduced an Ottawa franchise in 2024 and the team has been playing at TD Place for two seasons; and\nWHEREAS members of city council support girls and women\u2019s sports and the Ottawa Charge and want to see them succeed in Ottawa; and\nWHEREAS the new Event Centre being built as part of Lansdowne 2.0 will be gender-inclusive and responds to a need for purpose-built athlete facilities and gender-specific change rooms for the Charge; and\nWHEREAS the new facility is a multi-purpose event centre designed to serve the needs of a wide range of sports, cultural, musical, and artistic events and is not a single-use hockey arena; and\nWHEREAS several different women\u2019s sports teams and events are hosted at Lansdowne and will be hosted in a future Event Centre and a revitalized outdoor stadium, including basketball, volleyball, soccer, rugby, figure skating, and more; and\nWHEREAS in 2024, representatives of the Ottawa Charge and the PWHL spoke in favour of Lansdowne 2.0, including the proposed new Event Centre; and\nWHEREAS based in part on feedback from the Ottawa Charge, the capacity of the new Event Centre has been increased from the original plan of 5,500 to 6,600 in the current plan; and\nWHEREAS for several months the Ottawa Charge has been in ongoing negotiations on a new lease with OSEG; and\nWHEREAS at a City of Ottawa committee meeting on October 29, representatives of the Professional Women\u2019s Hockey League confirmed that there is a financial gap in the lease negotiations with the Ottawa Sports and Entertainment Group; and\nWHEREAS representatives of the PWHL confirm that their objective is to grow attendance beyond the capacity of the current arena at Lansdowne Park and that in three other PWHL cities, they play games in current or former NHL arenas with a capacity of approximately 18,000; and\nWHEREAS the Ottawa Charge have previously played in the Canadian Tire Centre and PWHL representatives confirmed that the Charge could play some future games there, and in a proposed new arena on LeBreton Flats; and\nWHEREAS representatives of the PWHL confirmed that they are unable to commit to a lease that extends beyond the 2031 season; and\nWHEREAS City staff confirm that additional seating at the Event Centre would reverse several years of work done by staff, add roughly $100 million to the cost of construction, and delay the project by two to three years;\nTHEREFORE BE IT RESOLVED THAT Council direct the City Manager to engage with OSEG and the PWHL to advance the lease negotiations for the Ottawa Charge, subject to the requirements of the City\u2019s partnership agreement with OSEG, and in alignment with similar leases for existing tenants and the Municipal Act; and\nBE IT FURTHER RESOLVED THAT the City Manager be directed to explore solutions for supporting the viability of the Ottawa Charge to ensure their continued success in Ottawa, including discussions with other facilities in the city; and\nBE IT FURTHER RESOLVED THAT the City Manager and OSEG report back to Council as soon as practicable on the state of negotiations with the PWHL.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-08",
+            "motion_moved_by": "S. Plante",
+            "motion_seconded_by": "M. Carr",
+            "motion_text": "WHEREAS Ottawa is in a housing affordability crisis; and\nWHEREAS one of the core objectives of the Housing Acceleration Plan is to deliver more capacity for affordable and supportive housing development, including through the strategic use of publicly owned lands; and\nWHERAS another objective is to unlock urban intensification and transit-oriented development; and\nWHEREAS during the consideration of the Housing Acceleration Plan at a joint meeting of the Finance and Corporate Services Committee and Planning and Housing Committee, held on October 1, 2025, a motion was adopted directing staff to expedite the work related to the next phase of the Municipal Land Strategy to identify additional municipally-owned parcels of land suitable for the development of affordable and supportive housing; and\nWHEREAS the new Event Centre at Lansdowne Park will lead to a loss of park space of approximately one acre; and\nTHEREFORE BE IT RESOLVED THAT Council direct staff to work with the Ward Councillor and the community on a plan that creates approximately 1.14 acres of park space; and\nBE IT FURTHER RESOLVED THAT Council authorize the transfer of $100,000 from the Citywide CIL account to the Ward 17 CIL account, to improve local park features at the discretion of the Ward Councillor, including in the Urban Park at Lansdowne.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-09",
+            "motion_moved_by": "A. Troster",
+            "motion_seconded_by": "T. Kavanagh",
+            "motion_text": "WHEREAS the Ottawa Charge are one of Ottawa\u2019s fastest growing sports teams; and\nWHEREAS the Ottawa Charge play an important role in showing what is possible for young girls in Ottawa and across Canada; and\nWHEREAS the Ottawa Charge is in the final year of the current lease; and\nWHEREAS the PWHL has yet to be shown the technical plans for the new arena, eroding their ability to propose building capacity alterations and/or plan for future use; and\nWHEREAS the current projected decrease in capacity within the arena will make it unviable for the Ottawa Charge and the PWHL;\nTHEREFORE BE IT RESOLVED that the City and OSEG share the architectural drawings for the Lansdowne 2.0 arena plans with the PWHL by November 14, 2025; and\nBE IT FURTHER RESOLVED that, subject to the City\u2019s role as a limited partner in the Lansdowne Master Limited Partnership and its obligations at law, the City and the Lansdowne Master Limited Partnership work with the PWHL to create a long-term agreement to handle the increased growth of the Ottawa Charge fanbase, including the potential of increasing the arena capacity, and report back to Council in December 2025; and\nBE IT FURTHER RESOLVED that the final seating capacity for the arena remains flexible until the December report back to Council with PWHL concurrence.",
+            "motion_votes": {
+              "for": {
+                "councillors": [
+                  "T. Kavanagh",
+                  "R. King",
+                  "J. Leiper",
+                  "R. Brockington",
+                  "S. Menard",
+                  "L. Johnson",
+                  "S. Devine",
+                  "J. Bradley",
+                  "S. Plante",
+                  "A. Troster",
+                  "M. Carr"
+                ],
+                "count": 11
+              },
+              "against": {
+                "councillors": [
+                  "M. Luloff",
+                  "L. Dudas",
+                  "G. Gower",
+                  "T. Tierney",
+                  "C. Kitts",
+                  "A. Hubley",
+                  "C. Curry",
+                  "D. Hill",
+                  "C. Kelly",
+                  "D. Brown",
+                  "S. Desroches",
+                  "W. Lo",
+                  "M. Sutcliffe",
+                  "I. Skalski"
+                ],
+                "count": 14
+              }
+            },
+            "dissent_voters": [],
+            "motion_result": "Lost (11 to 14)",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "S. Menard",
+            "motion_seconded_by": "J. Leiper",
+            "motion_text": "WHEREAS the City of Ottawa is considering an updated Partnership Agreement with the Ottawa Sports and Entertainment Group (OSEG) to redevelop Lansdowne\u202fPark under the Project known as \u201cLansdowne\u202f2.0,\u201d and\nWHEREAS the Partnership Agreement allocates significant new financial risk to the City, including $340.2\u202fmillion in new public debt and a long-term taxpayer obligation of approximately $17.4\u202fmillion annually from 2036 to 2070, regardless of the Project\u2019s financial performance; and\nWHEREAS the City\u2019s Auditor General has identified material risks which would increase costs in the Project, including understated construction costs, limited contingency for overruns, city-related delays, tariff and supply chain risks, reliance on uncertain revenues from OSEG and the Redblacks franchise, the deal lasting 50 years into the future, and dependencies on private residential and retail development timelines; and\nWHEREAS Lansdowne\u202f2.0 would reduce public green space by 58,000\u202fsq\u202fft, remove sledding hills and berms used by families and spectators, eliminate 113 healthy trees, and potentially remove public artwork, resulting in a diminished experience for park goers, sports fans, and families with children; and\nWHEREAS the redevelopment would remove the roof over the north side stands, reduce arena seating to 5,850 and stand seating by 3,000, and increase ticket prices, prioritizing high-end options over affordable access; and\nWHEREAS existing retail and small business space (newly built in 2014, including GoodLife, Beandigen Caf\u00e9, CigarMan, Cinnaholic, etc.) would be demolished and replaced with nearly identical square footage of retail as exists today at a cost of $45.9 million and throwaway costs of existing valuable retail; and\nWHEREAS the Project would entail 9\u201310 years of heavy truck construction through 2035, including two years of Great Lawn closure, creating disruption in a highly pedestrianized area; and\nWHEREAS public investments made in 2014, including the Civic Centre Arena, North Side Stands, and $23\u202fmillion spent on the steel roof, would be stranded, with approximately $15\u202fmillion remaining on loans that the City would still need to repay;\nWHEREAS the redevelopment includes no improvements to transportation or transit access for urban, suburban, or rural visitors; and\nWHEREAS tradespeople and their unions have raised serious concerns about the Lansdowne\u202f2.0 redevelopment, criticizing the City\u2019s decision to award major construction contracts to a non-local company, undermining local job creation and community economic benefits, and\nWHEREAS CityFolk, the organization behind Ottawa\u2019s popular annual music festival, has expressed concerns that the Lansdowne\u202f2.0 redevelopment could disrupt the festival\u2019s traditional footprint on the Great Lawn and hill, forcing the festival to leave Lansdowne\u202fPark, potentially permanently; and\nWHEREAS the Ottawa Charge of the Professional Women\u2019s Hockey League (PWHL) has raised concerns that the proposed Lansdowne\u202f2.0 arena, with a planned capacity of 5,850 seats (6,600 with standing room), is too small to accommodate their growing fan base, and that inadequate consultation with the team has left its future in Ottawa uncertain; and\nWHEREAS the Project lacks adequate transparency, alternatives, and no cost-benefit analysis, which should have been explored independently; and\nWHEREAS a \u201cno\u201d vote on the Lansdowne\u202f2.0 proposal would reject the redevelopment plan as presented but would not terminate the existing partnership, and OSEG would remain bound to its ongoing obligations under the Partnership Agreements; and\nWHEREAS OSEG, as one of the limited partners of the Lansdowne Master Limited Partnership is obligated by the LPP Agreements to continue to participate in the partnership until the expiry of the waterfall on Dec. 31, 2054 and the General Partners of the four component limited partnerships, which are all owned by OSEG, have the obligation to manage and administer the businesses of the component partnerships regardless of whether Lansdowne 2.0 is approved and;\nWHEREAS, should OSEG default the City would likely retain the right-of-first refusal for the sports teams, subject to the actions of the mortgagee, possibly receive fair market rent for the retail component and possibly not have to pay OSEG all of its accrued equity back;\nTHEREFORE BE IT RESOLVED THAT:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-10",
+            "motion_moved_by": "D. Brown",
+            "motion_seconded_by": "C. Kitts",
+            "motion_text": "BE IT RESOLVED that City Council sitting as Committee of the Whole, rise and report.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "2025 Lansdowne Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323789",
+                "attachment_title": "Coverpage - 2025 Lansdowne Annual Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323790",
+                "attachment_title": "Report - 2025 Lansdowne Annual Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323791",
+                "attachment_title": "Document 1 - LMLP Annual Unitholder Meeting.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323792",
+                "attachment_title": "Document 2 - Meetings Amongst Parties to Unanimous Shareholder Agreement.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323793",
+                "attachment_title": "Document 3 - Meetings Amongst Parties to Unanimous Shareholder Agreements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323794",
+                "attachment_title": "Document 4 - LMLP Annual Unitholder Meeting.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-CRM-OCM-0004 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council receive the following status update related to the Lansdowne Partnership Plan:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Economic Impact of Lansdowne 2.0 Redevelopment",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323797",
+                "attachment_title": "Coverpage - Economic Impact of Lansdowne 2.0 Redevelopment.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323798",
+                "attachment_title": "Report - Economic Impact of Lansdowne 2.0 Redevelopment.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323799",
+                "attachment_title": "Document 1 - Deloltte LLP City of Ottawa Lansdowne 2.0 AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-SI-ED-0012 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council receive this report related to the economic impact of the Lansdowne 2.0 redevelopment for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "Lansdowne Partnership Plan Agreements - Amendments Related to the Lansdowne 2.0 Project",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323800",
+                "attachment_title": "Coverpage - Lansdowne Partnership Plan Agreements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323801",
+                "attachment_title": "Report - Lansdowne Partnership Agreements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323802",
+                "attachment_title": "Document 1 - Summary of Amendments to the LPP Agreements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323803",
+                "attachment_title": "Document 2 - Listing of Amended and Restated LPP Agreements.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-LEG-GEN-0002 \u2013 City-wide",
+            "minutes": "Items 8.3 and 8.4 were considered and voted on together.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s) as amended\nThat Council:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "A. Hubley",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "S. Plante",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "M. Sutcliffe",
+                      "I. Skalski"
+                    ],
+                    "count": 15
+                  },
+                  "against": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "S. Menard",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "W. Lo"
+                    ],
+                    "count": 10
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried as amended (15 to 10)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.4",
+            "title": "Lansdowne 2.0 Redevelopment and Authorization to Proceed with Legal Close and Implementation Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323804",
+                "attachment_title": "Coverpage - Lansdowne 2.0 Redevelopment and Authorization.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323805",
+                "attachment_title": "Report - Lansdowne 2.0 2025 Report_oct22 AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323806",
+                "attachment_title": "Document 1 - Motions and Directions EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323807",
+                "attachment_title": "Document 1 - Motions and Directions FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323808",
+                "attachment_title": "Document 2 - Strata Property Parcel (Subterranean and Property Air Rights).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323809",
+                "attachment_title": "Document 3 - Fairness Report RFO EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323810",
+                "attachment_title": "Document 3 - Fairness Report RFO FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323811",
+                "attachment_title": "Document 4 - Partnership Waterfall Distributions EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323812",
+                "attachment_title": "Document 4 - Partnership Waterfall Distributions FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323813",
+                "attachment_title": "Document 5 - Social Procurement EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323814",
+                "attachment_title": "Document 5 - Social Procurement FR.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-IS-0003 \u2013 City-wide",
+            "minutes": "Items 8.3 and 8.4 were considered and voted on together.\u00a0\nThe report was carried as amended by motions considered and approved in Committee of the Whole.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s) as amended\nThat City Council:\nConsider Motion No. FCSC 2025-29-04 on affordable housing.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "A. Hubley",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "S. Plante",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "M. Sutcliffe",
+                      "I. Skalski"
+                    ],
+                    "count": 15
+                  },
+                  "against": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "S. Menard",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "W. Lo"
+                    ],
+                    "count": 10
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried as amended (15 to 10)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.5",
+            "title": "Motion \u2013 Councillor S. Menard \u2013 Accessibility Review at the Lansdowne Site",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323795",
+                "attachment_title": "Coverpage - Motion - Menard - Accessibility Review at the Lansdowne Site.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=323796",
+                "attachment_title": "Motion - Menard - Accessibility Review - Lansdowne.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council consider the matter.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-68-11",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS under the City of Ottawa\u2019s Accessibility Policy, the City is committed to providing equal treatment to people with disabilities with respect to the use and benefit of City services, programs, goods and facilities in a manner that respects their dignity and that is equitable in relation to the broader public. This commitment extends to residents, visitors and employees with visible or non-visible, permanent or temporary disabilities;\nWHEREAS this commitment to accessibility applies when the City renews or renovates its aging public infrastructure; and\nWHEREAS City Council has given final approval to the Event Centre and North Side Stands proposed under Lansdowne 2.0; and\nWHEREAS the Council-approved City multi-year accessibility plan includes a commitment that the Lansdowne North side stands and event centre will be accessible; and\nWHEREAS people with disabilities deserve the City of Ottawa\u2019s commitment to accessibility at Lansdowne, whether or not proposals for a new Event Centre and North Side Stands were approved; \u00a0and\nWHEREAS the City\u2019s multi-year accessibility plan also commits to the \u201cNothing Without Us\u201d principle, which emphasizes the importance of including people with lived experience in the design and implementation of policies, programs, and services that impact their lives; and\nWHEREAS feedback has already been received from City\u2019s Accessibility Advisory Committee and people with disabilities on the barriers of the existing site and facilities.\nWHEREAS Council has directed staff to develop a public realm improvement plan for Lansdowne in association with the Site Plan Control application for the Event Centre and North Side Stands redevelopment; and,\nWHEREAS Council further directed staff for public realm enhancements identified in Document 2 of the May 2022 Lansdowne Partnership Sustainability Plan and Implementation Report to be prioritized and undertaken as part of the initial work for Lansdowne 2.0; and,\nTHEREFORE BE IT RESOLVED THAT staff be directed to undertake an accessibility review of the Lansdowne site beyond existing or proposed facilities including, but not limited to, accessible transportation and points of access to the site, accessibility of the grounds of the site, and dedicated accessible on-site parking capacity.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-12",
+            "motion_moved_by": "S. Devine",
+            "motion_seconded_by": "S. Desroches",
+            "motion_text": "That the Audit Committee Report 14 and Finance and Corporate Services Committee Report 29 be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-13",
+            "motion_moved_by": "S. Devine",
+            "motion_seconded_by": "S. Desroches",
+            "motion_text": "That the following by-law be read and passed:\nTo confirm the proceedings of the Council meeting of November 7, 2025.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 4:29 pm.",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2025-68-14",
+            "motion_moved_by": "S. Devine",
+            "motion_seconded_by": "S. Desroches",
+            "motion_text": "That the proceedings of the City Council meeting of 7 November 2025, be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=aefe3112-bddf-4ec3-a115-568237096e87&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=aefe3112-bddf-4ec3-a115-568237096e87&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Agriculture and Rural Affairs Committee - May 01, 2025",
+  "meeting_number": 24,
+  "meeting_date": "2025-05-01",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+  "present_attendees": [
+    "Chair David Brown",
+    "Chair Clarke Kelly",
+    "Catherine Kitts",
+    "Matt Luloff"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 14,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267734",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267735",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, May 14, 2025, in Agriculture and Rural Affairs Committee Report 24.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, April 30, 2025, and the deadline to register by email to speak is 9:00 am on Thursday, May 1, 2025.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "ARAC Minutes 23 -\u00a0April 3, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267745",
+                "attachment_title": "ARAC Final Minutes 23 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267746",
+                "attachment_title": "ARAC Final Minutes 23 FR.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Infrastructure and Water Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Source Water Protection Septic System Inspection Program:\u00a0Municipal Wellhead Protection Area Risk Management",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267741",
+                "attachment_title": "Report - SWP Septic System Inspection Pgm.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267742",
+                "attachment_title": "Document 1 - City-Wide Vulnerable Areas Large Revised.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-AM-0003 \u2013 CityWide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Agriculture and Rural Affairs Committee and the Environment and Climate Change Committee recommend Council approve the Source Water Protection Septic Inspection Program as described in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Rural Community-Building Grant Program \u2013 Grant Application Review",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267738",
+                "attachment_title": "Report - Rural Community-Building Grants Pgm.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267739",
+                "attachment_title": "Document 1 - RCBGP Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0038 \u2013 Orl\u00e9ans South-Navan (19) Osgoode (20)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Agriculture and Rural Affairs Committee approve the recommendations on the Rural Community-Building Grants Program applications as detailed in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Status Update \u2013 Agriculture and Rural Affairs Committee Inquiries and Motions \u2013 for the Period Ending 22 April 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267743",
+                "attachment_title": "Report - ARAC Status Updates.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267744",
+                "attachment_title": "Document - 1 and 2.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0058 \u2013 CityWide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Agriculture and Rural Affairs Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Planning, Development and Building Services Department Report on the Use of Delegated Authority, 2024 - Planning, Right of Way, Heritage and Urban Design, and Building Code Service Areas",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267736",
+                "attachment_title": "IPD - PDBS 2024 Delegated Authority Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0019 - CityWide",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Manure Drag Lines in Rural Ottawa",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267737",
+                "attachment_title": "IPD - Manure Drag Lines in Rural Ottawa.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-RHU-0020 - CityWide",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Open Mic Session",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Committee heard from Ms Theresa Whalen on the subject of the closure of a forced road abutting her family\u2019s property.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Councillor C. Kitts - Removal of All-Way Stop Control at McKeown Drive and Barfield Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267740",
+                "attachment_title": "C Kitts Motion - Removal of AWSC McKeown-Barfield.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0057 - Osgoode (20)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nBE IT RESOLVED that the Agriculture and Rural Affairs Committee recommend Council approve that Traffic Services staff be directed to remove AWSC at the intersection of McKeown Drive and Barfield Road, maintaining the current stop sign southbound on Barfield Road and removing the stop signs located on McKeown Drive.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nJune 5, 2025 (Regular meeting)\nJune 18, 2025 (Special Joint Meeting with Planning and Housing Committee)",
+        "minutes": "The meeting adjourned at 10:12 am.",
+        "motions": []
+      }
+    ]
+  }
+}

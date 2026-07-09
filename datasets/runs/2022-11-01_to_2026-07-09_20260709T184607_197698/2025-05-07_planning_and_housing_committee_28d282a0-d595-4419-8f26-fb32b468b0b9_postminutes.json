@@ -1,0 +1,298 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=28d282a0-d595-4419-8f26-fb32b468b0b9&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=28d282a0-d595-4419-8f26-fb32b468b0b9&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - May 07, 2025",
+  "meeting_number": 46,
+  "meeting_date": "2025-05-07",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Riley Brockington",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Clarke Kelly",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [
+    "Vice-chair: Councillor Glen Gower",
+    "Tim Tierney"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 12,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267215",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267216",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, May 14, 2025 in Planning and Housing Committee Report 46.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, May 6, 2025, and the deadline to register by email to speak is 8:30 am on Wednesday, May 7, 2025.",
+        "minutes": "This is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1 on today\u2019s Agenda.\nFor the items just mentioned, only those specifically identified in the Planning Act who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on May 14, 2025, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 45 \u2013 April 23, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267226",
+                "attachment_title": "PHC Final Minutes 45 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267227",
+                "attachment_title": "PHC Final Minutes 45 FR.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PHC 2024-03 - Public Notification System",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267217",
+                "attachment_title": "Inquiry - PHC-2024-03 - Public Notification System .pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "PHC 2025-01 - Departmental Comment \u2013 Tewin Community Lands",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267218",
+                "attachment_title": "Inquiry - PHC 2025-01 - Tewin Community Lands.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "OCC 2024-12 - Road Renewal Projects - 265 Catherine Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267219",
+                "attachment_title": "4.3 - OCC 2024 - 12 - Road Renewal Projects - final.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Zoning By-law Amendment - 300 Eagleson Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267225",
+                "attachment_title": "Report - 300 Eagleson Road - Zoning By-law Amendment Committee Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PSX-0040 \u2013 Kanata South (23)",
+            "minutes": "The Applicant/Owner as represented by Stefanie Kaminski, Regional Group was present in support, and available to answer questions.\u00a0 The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee Carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Strategic Initiatives Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Authority and Fees for Affordable Rental Unit Agreements entered into pursuant to the Development Charges Act, section 4.1",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267224",
+                "attachment_title": "Report - Affordable Unit Agreements.pdf"
+              }
+            ],
+            "description": "File No.\u00a0ACS2025-SI-HSI-0013 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Planning, Development and Building Services Department Report on the Use of Delegated Authority, 2024 - Planning, Right of Way, Heritage and Urban Design, and Building Code Service Areas",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267220",
+                "attachment_title": "IPD - ACS2025-PDB-PS-0019 - PDBS Department 2024 Delegated Authority Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0019",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Residential Dwelling Approval Pipeline, Q4 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267221",
+                "attachment_title": "IPD - Residential Dwelling Approval Pipeline IPD (Revised) .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267222",
+                "attachment_title": "Document 1.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267223",
+                "attachment_title": "Document 2.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0026",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nWednesday, May 21, 2025.",
+        "minutes": "The meeting adjourned at 9:33 am.",
+        "motions": []
+      }
+    ]
+  }
+}

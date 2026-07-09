@@ -1,0 +1,856 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=97890283-23be-41e9-976a-b0c03954bcd1&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=97890283-23be-41e9-976a-b0c03954bcd1&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Joint Planning and Housing and Agriculture and Rural Affairs Committee - December 17, 2025",
+  "meeting_number": 7,
+  "meeting_date": "2025-12-17",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Planning and Housing Committee Chair: Councillor Jeff Leiper",
+    "Planning and Housing Committee Vice-chair: Councillor Glen Gower",
+    "Agriculture and Rural Affairs Committee Chair: David Brown",
+    "Agriculture and Rural Affairs Committee Vice-Chair: Councillor Clarke Kelly",
+    "Matt Luloff",
+    "Laura Dudas",
+    "Cathy Curry",
+    "Theresa Kavanagh",
+    "Laine Johnson",
+    "Tim Tierney",
+    "Ariel Troster",
+    "Riley Brockington",
+    "Catherine Kitts",
+    "Isabelle Skalski",
+    "Wilson Lo"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305982",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305983",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, January 28, 2026, in Joint Planning and Housing and Agriculture and Rural Affairs Committee Report 7.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, December 16, 2025, and the deadline to register to speak by email is 8:30 am on Wednesday, December 17, 2025.",
+        "minutes": "The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Zoning By-law listed as Item(s) 5.2 on today\u2019s Agenda.\u00a0\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on January 28, 2025, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC-ARAC Minutes 6 \u2013 Wednesday June 18, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306080",
+                "attachment_title": "Jt PHC_ARAC Final Minutes 6 EN.pdf.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PHC 2025-02 - Deemed Incompletes",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306079",
+                "attachment_title": "4.1 - PHC 2025-02 - Deemed Incompletes Inquiry.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "PHC 2025-04 - New Zoning By-law Inquiry",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306076",
+                "attachment_title": "PHC 2025-04 - New Zoning By-law Inquiry.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Development Application Study Policy and OPA 47: Housing Acceleration Plan Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306078",
+                "attachment_title": "5.1 - ACS2025-PDB-PS-0075 - Development Application Study Policy and OPA 47.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0074 \u2013 City-wide",
+            "minutes": "Alexandre LeBlanc, Acting Program Manager, Planning, Development and Building Services provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following PDBS staff were also present and responded to questions\nThe Committee heard from the following delegations:\n[\u00a0\u00a0\u00a0 * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions and presentations are held on file with the Office of the City Clerk. ]\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and question of staff, the Committee carried the report recommendations as amended by Motion NOs Joint PHC-ARAC 2025-07-01 and 2025-07-02.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Joint Planning and Housing, and Agriculture and Rural Affairs Committees recommend that Council:\nCarried as amended with Councillor Kavanagh dissenting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-01",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Development Application Study Policy and OPA 47: Housing Acceleration Plan Update report includes the list of studies and plans that the municipality can require as part of a complete application; and\nWHEREAS Schedule A of Document 1, and Part B of Document 2 each make reference to the \u201cMaster Servicing Study for Future Neighbourhoods\u201d as a study that the City can request for a complete application; and\nWHEREAS a Master Servicing Study could be required as part of an Official Plan Amendment application without an existing master servicing study, and where the size of the development warrants the consideration of options to best align with the Infrastructure Master Plan and existing water, waste water and storm water infrastructure outside of Future Neighbourhoods;\nTHEREFORE BE IT RESOLVED that \u201cfor Future Neighbourhoods\u201d be removed from \u201cMaster Servicing Study\u201d in Documents 1 and 2.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-02",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS local roads in suburban transect neighbourhoods, particularly adjacent new schools are increasingly impacted by the introduction of bus lay-bys and curbside design changes that unintentionally reduce roadway width and eliminate on-street parking; and\nWHEREAS the City\u2019s Building Better and Smarter Suburbs: Strategic Directions and Action Plan supports context-sensitive street design, including balancing transit operations, school access, pedestrian safety, and on-street parking in suburban communities; and\nWHEREAS City staff have begun exploring changes to development review and subdivision zoning practices to prioritize wider local street rights-of-way and pre-built curb-to-curb widths, including on-street parking bays, particularly in front of schools, but these changes have not yet been publicly affirmed or embedded into formal zoning or development review processes.\nTHEREFORE BE IT RESOLVED that Council publicly affirm the City\u2019s evolving policy direction to prioritize wider local street rights-of-way and the pre-construction of on-street parking bays in front of schools in the suburban tran-sect, to avoid the unintended loss of on-street parking and roadway capacity resulting from incremental site and transit-related decisions; and\nBE IT FURTHER RESOLVED that Planning, Development and Building Services staff, in collaboration with Transportation Planning, be directed to embed this policy direction into terms of references for planning studies and subdivision review practices, following completion of consultations with the development industry, school boards and internal stakeholders.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "New Zoning By-law \u2013 Final Draft",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305984",
+                "attachment_title": "3.2 - ACS2025-PDB-PS-0020 (EN) - New Zoning By-law Final Draft.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305985",
+                "attachment_title": "3.2 - ACS2025-PDB-PS-0020 - (FR) New Zoning By-law Final Draft.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305986",
+                "attachment_title": "3.2 - Document 1A (EN) - New Zoning By-law Text.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305987",
+                "attachment_title": "3.2 - Document 1A (FR) - New Zoning By-law Text.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305988",
+                "attachment_title": "3.2 - Document 1B (EN) - Exceptions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305989",
+                "attachment_title": "3.2 - Document 1B (FR) - Exceptions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305990",
+                "attachment_title": "3.2 - Document 1C - Schedules (Pages 1 - 90).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305991",
+                "attachment_title": "3.2 - Document 1C - Schedules (Pages 91 - 182).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305992",
+                "attachment_title": "3.2 - Document 1C - Schedules (Pages 183 - 273).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305993",
+                "attachment_title": "3.2 - Document 1C - Schedules (Pages 274 - 363).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305994",
+                "attachment_title": "3.2 - Document 2 (EN) - Staff-Recommended Changes to Correct Errors.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305995",
+                "attachment_title": "3.2 - Document 2 (FR) - Staff-Recommended Changes to Correct Errors.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305996",
+                "attachment_title": "3.2 - Document 3 (EN) - Staff-Recommended Changes to Zoning Map.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305997",
+                "attachment_title": "3.2 - Document 3 (FR) - Staff-Recommended Changes to Zoning Map.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305998",
+                "attachment_title": "3.2 - Document 4 (EN) \u2013 Staff-Recommended Changes \u2013 Changes of Intent.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=305999",
+                "attachment_title": "3.2 - Document 4 (FR) \u2013 Staff-Recommended Changes \u2013 Changes of Intent.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306000",
+                "attachment_title": "3.2 - Document 5 (EN) - Administrative Matters.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306001",
+                "attachment_title": "3.2 - Document 5 (FR) - Administrative Matters.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306002",
+                "attachment_title": "3.2 - Document 6 (EN) - Transition and Continuation provisions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306003",
+                "attachment_title": "3.2 - Document 6 (FR) - Transition and Continuation provisions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306004",
+                "attachment_title": "3.2 - Document 7 (EN) - Motions and Directions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306005",
+                "attachment_title": "3.2 - Document 7 (FR) - Motions and Directions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306006",
+                "attachment_title": "3.2 - Document 8 (EN) - Work Plan for aligning exceptions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306007",
+                "attachment_title": "3.2 - Document 8 (FR) - Work Plan for aligning exceptions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306008",
+                "attachment_title": "3.2 - Document 9 (EN) - Evolving Neighbourhood Overlay.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306009",
+                "attachment_title": "3.2 - Document 9 (FR) - Evolving Neighbourhood Overlay.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306010",
+                "attachment_title": "3.2 - Document 10 (EN) - Minimum Parking Rates.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306011",
+                "attachment_title": "3.2 - Document 10 (FR) - Minimum Parking Rates.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306012",
+                "attachment_title": "3.2 - Document 11 (EN) - Implementation of On-Site Stormwater Management Provisions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306013",
+                "attachment_title": "3.2 - Document 11 (FR) - Implementation of On-Site Stormwater Management Provisions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306014",
+                "attachment_title": "3.2 - Document 12 (EN) - OPH Statement.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306015",
+                "attachment_title": "3.2 - Document 12 (FR) - OPH Statement.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306016",
+                "attachment_title": "3.2 - Document 13 (EN) - Digital Twin Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306017",
+                "attachment_title": "3.2 - Document 13 (FR) - Digital Twin Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306018",
+                "attachment_title": "3.2 - Document 14 (EN) - Zone code conversion table for changes in Draft 3 of the Zoning Map.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306019",
+                "attachment_title": "3.2 - Document 14 (FR) - Zone code conversion table for changes in Draft 3 of the Zoning Map.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306020",
+                "attachment_title": "3.2 - Document 15 (EN) - AWHI.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306021",
+                "attachment_title": "3.2 - Document 15 (FR) - AWHI.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306022",
+                "attachment_title": "3.2 - Document 16 (EN) - new Zoning By-law Text (Track Changes).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306023",
+                "attachment_title": "3.2 - Document 16 (FR) - new Zoning By-law Text (Track Changes).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306067",
+                "attachment_title": "Motion 2025-07-23 - Tierney - Rothwell Heights.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306068",
+                "attachment_title": "Motion 2025-07-20 - Brockington - McCarthy Woods.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306069",
+                "attachment_title": "Motion 2025-07-03 - Gower - Tech Amend - Docs 2_3_and_4 (comb).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306070",
+                "attachment_title": "2025-07-03 - Appendix Document 4.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306071",
+                "attachment_title": "2025-07-03 - Appendix Document 2.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306072",
+                "attachment_title": "2025-07-03 - Appendix Document 3.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306073",
+                "attachment_title": "Motion 2025-07-18 - Kavanagh - Woodroffe N3B to N3C.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306074",
+                "attachment_title": "Motion 2025-07-19 - Devine - Birchwood from N2E to N3D.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306075",
+                "attachment_title": "Motion 2025-07-21 - Kavanagh - Compton and Flower Addresses N4B to N3B.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0020 \u2013 City-wide",
+            "minutes": "Alexandre LeBlanc, Acting Program Manager, Planning, Development and Building Services provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following PDBS staff were also present and responded to questions\nThe Committee heard from the following delegations:\n[\u00a0\u00a0\u00a0 * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions and presentations are held on file with the Office of the City Clerk. ]\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and question of staff, the Committee carried the report recommendations as amended by Motion NOs Joint PHC-ARAC 2025-07-01 and 2025-07-02.\nDirection to Staff (Councillor C. Kitts)\nThat Building Code Services staff be directed to implement a ward Councillor notification system that makes monthly residential building permit activity available to Councillors, including permits issued for as-of-right residential in-fill development using existing technology systems, such as Open Ottawa (open data), where possible, and in a manner that respects privacy and data protection requirements.\nDirection to Staff (Councillor J. Leiper)\nThat Staff be directed to undertake a study with respect to the minimum soil volume required, including but not limited to the effective implementation and enforceability of such a provision, and report back to Council with recommendations including future amendments to the new Zoning By-law.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Joint Planning and Housing, and Agriculture and Rural Affairs Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-03",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the final draft new Zoning By-law and Zoning Map were released on September 28, 2025, and this version of the proposed By-law and Zoning Map are included in report ACS2025-PDB-PS-0020 released December 1, 2025; and\nAND WHEREAS since the release of final Draft in September, staff received comments from the public, and have prepared proposed amendments to the draft By-law and Zoning Map through Document 2, 3 and 4; and\nAND WHEREAS, additional supportable changes to the draft provisions and Zoning Map have been identified since the release of the report ACS2025-PDB-PS-0020 on December 1, 2025; and\nWHEREAS staff have prepared appendices to Documents 2, 3 and 4, attached to this motion and on file with the City Clerk, with further suggested amendments.\nTHEREFORE BE IT RESOLVED that Joint Committee approve appendices to Supporting Documents 2, 3, and 4, respectively as modifications to those documents .\nAND BE IT FURTHER RESOLVED that Supporting Documents 2, 3, and 4 to report ACS2025-PDB-PS-0020 be revised to incorporate the respective appendices;\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-04",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Council approved an Official Plan Amendment (OPA 46) on June 25, 2025 through Report ACS2025-PDB-PS-0043: Provincial Planning Statement 2024 \u2013 Consistency Amendments; and\nWHEREAS OPA 46 reflects the required changes to policies for settlement area expansions, strategic growth areas, major transit station areas, employment areas, and other minor amendments, to align the Official Plan with the updated Provincial Planning Statement 2024; and\nWHEREAS these changes, such as increased height permissions and increases to minimum density targets within major transit station areas and secondary plans, have been included in the Final Draft of the New Zoning By-Law; and\nWHEREAS OPA 46 has been submitted to the Province and is still currently under review but has not yet been approved by the Minister of Municipal Affairs and Housing; and\nWHEREAS a municipal council may not approve a Zoning By-Law that does not conform with its own Official Plan, in accordance with Section 24 of the Planning Act.\nTHEREFORE BE IT RESOLVED that Council approve the changes to the Zoning By-law necessary to enact the amendments made to the Official Plan and Secondary Plans only if the Minister of Municipal Affairs and Housing approves OPA 46 prior to Council passing of the final reading of the new zoning by-law.\nAND BE IT FURTHER RESOLVED that if the Minister\u2019s decision is not provided in time for staff to prepare the new Zoning By-law for final reading, staff be directed to replace provisions that implement OPA 46, such as but not limited to\nwith provisions that conform to the in-effect Official Plan and that Council ap-prove these changes in the new Zoning By-law during final reading and that the full extent of the changes made being provided to Council prior to the enactment of the new zoning by-law;\nAND BE IT FURTHER RESOLVED that if provisions that implement OPA 46 are re-placed and passed after final reading, staff be directed to inform the Ministry of Municipal Affairs and Housing, including an estimated timeline of when Zoning that implements OPA 46 can be brought forward for Council consideration;\nAND BE IT FURTHER RESOLVED that pursuant to thePlanning Act, subsection 34(17) no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-05",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Section 613 of the New Zoning By-law respecting bicycle parking spaces proposes to set minimum bicycle parking rates of 0.75 spaces per unit for buildings containing between five and twelve residential units, and 1 space per unit for buildings containing thirteen or more residential units;\nWHEREAS previous drafts of the New Zoning By-law required one bicycle parking space per unit for all buildings containing five or more dwelling units;\nTHEREFORE BE IT RESOLVED THAT Section 613 of the new Zoning By-law be amended to increase the minimum rate for bicycle parking spaces from 0.75 per unit to 1 per unit for 5 to 12 residential units.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.\nWith Councillors Luloff and Lo dissenting",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-06",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Section 612 of the New Zoning By-law regulates parking regulations for heavy vehicles on residential properties, including the parking of recreational vehicles;\nWHEREAS concerns have been raised about providing adequate flexibility for the parking of recreational vehicles on residential driveways, where there is sufficient space to do so;\nTHEREFORE BE IT RESOLVED that Table 612A, column (c), row (i) be amended by substituting the following text:\nPermitted in Area A \u2013 Downtown Transect and Area B \u2013 Inner Urban Transect provided the following:\nPermitted in Area C \u2013 Outer Urban Transect and Area D \u2013 Suburban Transect provided the following:\nAND BE IT FURTHER RESOLVED THAT pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-07",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS in response to consultation, EV-ready infrastructure in midrise and highrise residential buildings assists in reducing costly retrofits and supports future access to home charging for electric vehicles; and\nWHEREAS Draft 3 of the new Zoning By-law establishes EV-ready parking requirements at 25% of provided spaces in new mid- and highrise developments; and\nWHEREAS Recommendation 5 of the report for the new Zoning By-law directs staff to monitor electric vehicle car ownership and report back to Council in 2031 to determine if the rates in Section 611 \u2013 Electric Vehicle Parking Space Provisions should be modified to accommodate rates of electric vehicle ownership in Ottawa; and\nWHEREAS completing a review prior to 2031 enables the City to respond to emerging EV ownership trends and keep Ottawa\u2019s Zoning Bylaw EV ready parking requirements reflective of actual EV ownership and future trends; and\nWHEREAS electric vehicles fall under the terms of reference for the Environment and Climate Change Committee.\nTHEREFORE BE IT RESOLVED that Recommendation 5 to report ACS2025-PDB-PS-0020 be amended by deleting the year \u201c2031\u201d and substituting with the year \u201c2029\u201d; and\nBE IT FURTHER RESOLVED that staff report back to the Environment and Climate Change Committee with the update on electric vehicle ownership within the City of Ottawa; and\nBE IT FURTHER RESOLVED that, should amendments be required, staff bring recommendations to the Planning and Housing Committee to amend Section 611 of the Zoning By-Law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-08",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Menard\nWHEREAS the amenity area regulations of Section 137 of Zoning By-law 2008-250 typically set out a requirement that 50 per cent of the minimum required amenity area be provided as communal amenity area;\nAND WHEREAS Section 208 of the draft Zoning By-law does not propose to carry forward a minimum requirement for communal amenity area;\nAND WHEREAS eliminating minimum communal amenity space for developments containing more than eight units will reduce opportunities for communal gather-ings in residential buildings;\nTHEREFORE BE IT RESOLVED that Section 208 of the draft Zoning By-law be amended to require that at least 50 per cent of the minimum required amenity area be provided as communal amenity area.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act,no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-09",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Report ACS2025-PDB-PS-0020 regarding the New Zoning By-law \u2013 Final Draft implies increased height and density permissions in areas city-wide based in part on proximity to rapid transit stations identified as \u201cexisting or planned\u201d; and\nWHEREAS residents in the suburban transect rely on transportation infrastructure that is delivered and fully funded, and premature increases in height and density permissions can place significant, increased pressure on road networks, transit service, and community amenities before they are available; and\nWHEREAS Bus Rapid Transit corridors, including the Cumberland BRT, differ in permanence, capacity, and implementation timelines from Light Rail Transit, or other planned/built BRT city-wide, and are often still in planning or design stag-es; and\nWHEREAS Schedule A4 identifies the specific transit stations intended to inform the application of height and density permissions in the new Zoning By-law.\nTHEREFORE BE IT RESOLVED that Joint Committee recommend that Council amend Report ACS2025-PDB-PS-0020 on page 17 to update the last bullet with replacement wording as underlined below:\nBE IT FURTHER RESOLVED that staff undertake a review of the corridors identified for higher density giving consideration to updated growth projections slated to be tabled in Q1 2026, the development charge rate structure review identified in the Housing Acceleration Plan as well as any potential funding from upper lev-els of government to assist in funding Transportation Master Plan priority projects; and\nBE IT FURTHER RESOLVED that staff consider the review alongside fully funded TMP projects and report back to the Planning and Housing Committee with an update to Schedule A4 to inform permitted building heights in the Zoning By-Law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-10",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Plante\nWHEREAS Section 3 of the Official Plan sets out minimum targets for \u201clarge-household dwellings\u201d within intensification, including a target of 25 per cent for low-rise buildings on existing lots 15 m or greater in frontage; and\nWHEREAS the draft Zoning By-law proposes minimum requirements for \u201clarge dwelling units\u201d within low-rise residential buildings in the Neighbourhood zones, in accordance with Section 708 of the By-law; and\nWHEREAS these requirements only apply on lots 450 square metres in area or greater; and\nWHEREAS the existing lot pattern in many neighbourhoods within the Inner Urban transect, particularly Vanier, are generally comprised of lots that are smaller than 450 square metres, with lots as small as 300 square metres being commonly encountered.\nTHEREFORE BE IT RESOLVED that subsection 708(2) be amended so that it ap-plies \u201cin the case of a low-rise residential use building on a lot of 360 square me-tres or greater\u201d within the N1, N2, N3, N4, N5, N6, and CM1 zones located in the Downtown and Inner Urban Transect; and\nBE IT FURTHER RESOLVED that staff monitor the impact of these changes and report back to Planning and Housing Committee within the next term of Council; and\nBE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-11",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Plante\nWHEREAS zoning restrictions on the locations of nightclubs in the ByWard Market in Section 193 of Zoning By-law 2008-250 have not been carried forward in the draft Zoning By-law; and\nWHEREAS the restrictions on the locations of nightclubs in the current Zoning By-law 2008-250 limit the size of nightclubs and apply separation distances be-tween nightclubs; and\nWHEREAS the current Zoning By-law 2008-250 applies additional regulations to the area shown on Schedule 7 in relation to maximum floor area, distance be-tween nightclubs and bars, institutional, and residential zones.\nWHEREAS the Public Policy Development Services Branch in the Emergency and Protective Services Department is currently undertaking a review and update of licensing regulations for Food Premises (Schedule 7 of the Licensing By-law No. 2002-189) including food premises offering late-night expanded activities such as live music and dancing, as well as a review of regulations for Amusement Places which include nightclubs and other businesses offering entertainment (Schedule 5 of Licensing By-law No. 2002-189) that will consider a new definition for \u201cnight-club\u201d with a view to aligning with definitions proposed in the draft new Zoning By-law; and\nWHEREAS the staff reports for the review of Schedule 7 (Food Premises) and Schedule 5 (Amusement Places) of the Licensing By-law 2002-189 are scheduled before Committee and Council in March and May 2026, respectively; and\nWHEREAS the Emergency and Protective Services Department will share findings from these reviews as well as data concerning the location of licensed businesses offering late night entertainment such as nightclubs with the Planning, Development and Building Services department so that enforceable zoning restrictions for nightclubs may be considered in the future;\nTHEREFORE BE IT RESOLVED that, with respect to ACS2025-PDB-PS-0020, the Planning, Development and Building Services Department are directed to recommend to Council amendments for the zoning of nightclubs in the ByWard Market, within six months of the adoption of the definitions for a food premises with expanded activities and for a nightclub in Schedules 5 and 7 of the Licensing By-law 2002-189 by Council.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-12",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Menard\nWHEREAS new zoning is encouraging more housing units and should be a positive development for student housing in close proximity to post-secondary schools, while also requiring a review of property maintenance and standards.\nWHEREAS the Sandy Hill Property Standards and Property Maintenance Pilot Project led to permanent updates in the Property Standards and the Property Maintenance By-laws and proved successful in creating a better environment for residents when it comes to waste,\nTHEREFORE BE IT RESOLVED that staff review the program for potential application in Heron Park and other student friendly communities in proximity to post-secondary schools for consideration as part of next Term of Council's By-law Re-view Work Plan, subject to Council approval.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-13",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the adoption of the new Zoning By-law introduces increased density and redevelopment permissions that may accelerate intensification of small business plazas, particularly in urban and outer urban transects; and\nWHEREAS small business plazas provide essential local services and contribute to complete, walkable communities, but may be vulnerable to displacement or loss of tenancy as a result of redevelopment pressures brought on by intensification; and\nWHEREAS a small business needs assessment was undertaken by Economic Development Services, with support from Bloomberg Associates, and an action plan was developed to better meet the needs of small businesses in Ottawa; and\nWHEREAS other municipalities, including the City of Toronto through its PlazaPOV initiative, have undertaken studies to identify tools and programs to support small businesses during periods of intensification and transition to ad-dress the housing crisis.\nTHEREFORE BE IT RESOLVED that Planning staff, in consultation with staff from Economic Development, be directed to study the impacts of intensification on small business plazas city-wide and to report back with potential supports and tools, including but not limited to fa\u00e7ade improvement programs, relocation assistance, tax or financial incentives, and business retention strategies, drawing on best practices from other municipalities; and\nBE IT FURTHER RESOLVED that the report include how plazas, in particular, could benefit from a different approach that may build on the Small Business action plan and provide recommended next steps for Council\u2019s consideration.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-14",
+                "motion_moved_by": "C. Kelly",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the City of Ottawa is in the process of adopting a new Comprehensive Zoning By-law intended to implement the 2022 Official Plan; and\nWHEREAS mineral aggregate resources are a critical component of the Province\u2019s and the City\u2019s long-term infrastructure and housing supply and are protected under the Provincial Planning Statement, 2024 (PPS 2024); and\nWHEREAS the PPS 2024 also requires that mineral aggregate extraction be undertaken in a manner that minimizes social, economic, and environmental impacts on surrounding communities; and\nWHEREAS Draft 3 of the New Comprehensive Zoning By-law (the \u201cFinal Draft\u201d) introduces a Mineral Aggregate Separation Overlay that prohibits new sensitive land uses within 300 metres of existing or proposed mineral aggregate operations; and\nWHEREAS the final Draft does not include a corresponding restriction that would prohibit new or expanded mineral aggregate extraction activities from being established within 300 metres of existing dwellings, sensitive land uses, or lands zoned for future residential development; and\nWHEREAS this one-directional separation distance framework places the burden of land-use compatibility entirely on nearby residents and landowners while granting preferential protection to private aggregate extraction operations; and\nWHEREAS municipalities, including the Township of McNab/Braeside, have successfully implemented reciprocal separation distances between mineral aggregate operations and sensitive land uses.\nTHEREFORE BE IT RESOLVED that City Council direct staff to amend the New Comprehensive Zoning By-law to introduce a reciprocal separation distance for mineral aggregate extraction activities such that no new or expanded mineral aggregate operation may be permitted as of right within the prescribed separation distance of an existing dwelling, sensitive land use, or lands zoned for future residential development;\nBE IT FURTHER RESOLVED THAT the reciprocal separation distance apply equally in both directions so as to provide balanced protection for both mineral aggregate resources and surrounding residents and landowners;\nBE IT FURTHER RESOLVED THAT staff be directed to report back to Council, prior to the enactment of the New Comprehensive Zoning By-law or as part of the earliest available amending report, on appropriate reciprocal separation distances consistent with the Provincial Planning Statement, 2024, relevant Ontario case law, and rural land-use planning considerations;\nBE IT FURTHER RESOLVED THAT pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-15",
+                "motion_moved_by": "L. Johnson",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Queensway Carleton Hospital is zoned RI[307r] H(20) \u2013 Rural Insti-tutional Zone, Rural Exception 307r, Height Suffix 20 metres in the current Zoning By-law 2008-250; and\nWHEREAS the zoning in the final draft of the new Zoning By-law is GBF[307r] H(20) \u2013 Greenbelt Facility Zone, Rural Exception 307r, Height Suffix 20 metres; and\nWHEREAS other lands zoned RI \u2013 Rural Institutional Zone in the current Zoning By-law 2008-250 could also be zoned GBF \u2013 Greenbelt Facility in the final draft of the new Zoning By-law to reflect the Official Plan designation of Greenbelt Facili-ty in the Official Plan; and\nWHEREAS residential care facility is listed as a permitted use for the RI \u2013 Rural Institutional Zone in the current Zoning By-law 2008-250; and\nWHEREAS the GBF \u2013 Greenbelt Facility Zone in the final draft of the new Zoning By-law does not list residential care facility as a permitted use.\nTHEREFORE BE IT RESOLVED that residential care facility be included as a per-mitted use in the GBF \u2013 Greenbelt Facility Zone in the new Zoning By-law; and\nBE IT FURTHER RESOLVED staff review other zones in the current Zoning By-law 2008-250 that permit a residential care facility as a permitted use and permit them in the new Zoning By-law if such is in conformity with the Official Plan; and\nBE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-16",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the proposed zoning of the lands known municipally as 45 Ruskin Street in the final draft of the new Zoning By-law is REC1[326] \u2013 Recreation Sub-zone 1, Urban Exception 326; and\nWHEREAS the current zoning for the lands in Zoning By-law 2008-250 is L1[326] \u2013 Community Leisure Facility Zone, Urban Exception 326; and\nWHEREAS Urban Exception 326 permits \u201csurface parking lot for Ottawa Civic Hospital\u201d as an additional land use; and\nWHEREAS the current use on the lands of a surface parking lot for the Ottawa Civic Hospital is permitted through the exception, not the zone code;\nTHEREFORE BE IT RESOLVED that the principal zone code for these lands be amended from REC1 \u2013 Recreation Subzone 1 to GRN \u2013 Greenspace Zone.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-17",
+                "motion_moved_by": "L. Johnson",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Centrepointe Park was established at the same time as the Centrepointe neighbourhood was developed; and\nWHEREAS Centrepointe Park is a well-used park serving a large population; and\nWHEREAS Centrepointe Park is located adjacent to other recreation facilities such as a skateboard park and recreation complex that serve this population.\nTHEREFORE BE IT RESOLVED THAT the Centrepointe Park zone code in the new Zoning By-law be amended from REC1 \u2013 Recreation Subzone 1 to GRN \u2013 Green-space Zone.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act,no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-18",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS neighbourhoods zoned R2 in the current Zoning By-law within the Inner Urban Transect and subject to the Evolving Neighbourhood Overlay of the Official Plan are generally proposed to be zoned N3 in the new Zoning By-law;\nWHEREAS the intent of the N3 \u2013 Neighbourhood Zone is to accommodate low- and medium-density residential development in a form that is compatible with and sensitive to the existing neighbourhood context; and\nWHEREAS Subzone B and Subzone C establish different development standards for matters such as minimum lot width, front yard setback, and total interior side yard set-backs, which directly influence the scale, massing, and spacing of new residential build-ings; and\nWHEREAS applying the N3C subzone would better reflect and reinforce the established physical character of the area by requiring wider lots, increased setbacks, more generous yard provisions and reduce confusion for property owners and developers; and\nTHEREFORE BE IT RESOLVED that the proposed zoning for the N3B zoned areas located near Woodroffe Avenue, north of Richmond Road, be changed to N3C as detailed in the map, attached to this motion and on file with the City Clerk;\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of the Planning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-19",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Devine\nWHEREAS Birchwood Drive is proposed to be zoned N2E within the draft New Zoning By-law;\nWHEREAS this street is in close proximity to Merivale Road, which is designated Mainstreet in the Official Plan, and is adjacent to higher density zoning including a N4 zone directly to the west and a MS2 zone directly to the south;\nTHEREFORE BE IT RESOLVED that properties on the west side of Birchwood Drive and the south side of Capilano Drive, as shown on the map, attached to this motion and on file with the City Clerk, be changed from N2E to N3D.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of the Plan-ning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-20",
+                "motion_moved_by": "R. Brockington",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the National Capital Commission (NCC) owns properties in Ward 16 along the Walkley rail corridor between the Rideau River and Airport Parkway, commonly referred to as the Southern Corridor and McCarthy Woods, and in Ward 8 along the Beachburg rail corridor between Woodroffe Avenue and Merivale Road, commonly referred to as the Southern corridor; and\nWHEREAS the Official Plan designation for the NCC-owned McCarthy Woods is a mix of Neighbourhood and Greenspace; and, the designation for the NCC-owned Southern corridor is Neighbourhood; and\nWHEREAS the current zoning in Zoning By-law 2008-250 for the Southern Corridor and McCarthy Woods is Parks and Open Space, Community Leisure Facili-ty, and Light Industrial; and, the current zoning for the Southern corridor is Minor Institutional; and\nWHEREAS the first draft of the new zoning by-law proposed for McCarthy Woods Open Space Facility, Recreation, and Greenspace; and, for the Southern corridor Institutional; and\nWHEREAS the NCC expressed a desire for the lands within both corridors to be designated in the new Zoning By-law as Development Reserve; and\nWHEREAS a zoning designation of Development Reserve in the final draft of the new Zoning By-law in both areas are consistent with the Official Plan designation of Neighbourhood; and\nWHEREAS the proposed zoning in the first draft of the new Zoning By-law in both areas are consistent with the Neighbourhood designation of the Official Plan; and\nWHEREAS a significant number of public submissions have been re-ceived from both communities requesting that the zoning for their respec-tive areas revert to zoning designations aligned with what was proposed in Draft 1; and\nWHEREAS the Baseline-Merivale Secondary Plan is currently underway and includes the Southern corridor; and\nWHEREAS following the conclusion of the Baseline-Merivale Secondary Plan process, the City will initiate a Zoning By-Law amendment to implement the intent of the Secondary Plan.\nTHEREFORE BE IT RESOLVED that the zoning for the lands designated Neighbourhood in the Official Plan along the Walkley rail corridor for the Southern Corridor and McCarthy Woods in the new Zoning By-law revert to the zoning in line with what was shown that was proposed in the first draft of the new Zoning By-law, except for the following changes:\nas shown on the map in Document 1, attached to this motion and on file with the City Clerk; and\nBE IT FURTHER RESOLVED that the zoning for the lands designated \u00a0Neighbour-hood in the Official Plan for the Southern corridor revert to the INZ[416]-h zone, as was shown in the first draft of the new Zoning By-law, as shown in Document 2, until such time that the Baseline-Merivale Secondary Plan has been completed and the zoning is amended to implement the secondary plan; and\nBE IT FURTHER RESOLVED that pursuant to subsection 34(17) of the Planning Act, no further notice be given.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "C. Curry",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "A. Troster",
+                      "D. Brown",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 11
+                  },
+                  "against": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "J. Leiper",
+                      "W. Lo"
+                    ],
+                    "count": 4
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (11 to 4)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-21",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Woodpark community in Bay Ward is a small residential neighbourhood surrounded by higher-density main corridors, with Byron Avenue/Richmond Road to the north, Woodroffe Ave to the east, Carling Ave to the south, and the Kichi Z\u012bb\u012b M\u012bkan to the west; and\nWHEREAS the community is expected to see increased intensification in the coming years due to its proximity to both the Lincoln Fields and New Orchard LRT stations; and\nWHEREAS the community is supportive of the new zoning\u2019s intent to accommodate growth, promote intensification within Ottawa\u2019s urban boundary and close to public transit, and advance environmental sustainability; and\nWHEREAS there is an opportunity to address what the community regards as an over-sight in the previous zoning by-laws, to ensure greater consistency across streets in Woodpark; and\nWHEREAS this small section of properties located between 171-185 Compton Avenue and 2196-2198 Flower Avenue are in the interior of Woodpark, and uniformity in zoning would benefit the community and the N3B subzone better reflects the provisions in the R4D subzone that currently applies to these properties\nTHEREFORE, BE IT RESOLVED that the Zoning for the following properties, as detailed in the map attached to this motion and on file with the City Clerk, be amended from N4B and N4C to N3B.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act,no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-22",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the new Zoning By-law consolidates and replaces Zoning By-law 2008-250 and carries forward numerous site-specific provisions, including height suffixes and caps that were approved through past Council decisions; and\nWHEREAS height suffixes and site-specific caps play a critical role in managing overall density, built form, and infrastructure impacts along suburban corridors, and unintended changes to these provisions could result in density increases that outpace available transportation, transit, servicing, and community infra-structure; and\nWHEREAS residents and property owners require certainty that existing height limits, particularly along established suburban corridors such as on Innes Road from Pag\u00e9 Road to Trim Road, will not be unintentionally altered through inter-pretation following adoption of the new Zoning By-law.\nTHEREFORE BE IT RESOLVED that all existing height suffixes and site-specific height caps applying to lands with frontage on, direct primary vehicular access to, or a corner or through-lot relationship with Innes Road, between Pag\u00e9 Road and Trim Road, remain in force following Council adoption of the new Zoning By-law unless explicitly amended through a future planning application and Council approval.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act,no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-23",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS neighbourhoods zoned R1 in the current Zoning By-law within the Outer Urban Transect of the Official Plan are generally proposed to be zoned N2 in the new Zoning By-law;\nWHEREAS the Rothwell Heights neighbourhood consists of multiple properties with potential heritage interest, including properties listed on the Heritage Register\nWHEREAS the proposed density permissions in the N2F zone for the Rothwell Heights neighbourhood, as shown in Document 1, attached to this motion and on file with the City Clerk, could have implications on existing character within the neighbourhood; and\nWHEREAS potential density lost as a result of a change to an N1 Zone in Roth-well Heights could be accommodated through more permissive zoning elsewhere within Ward 11.\nTHEREFORE BE IT RESOLVED THAT the N2F zone proposed in Rothwell Heights be amended to an N1F zone in the final draft of the new Zoning By-law;\nBE IT FURTHER RESOLVED THAT that areas identified in the accompanying Document 2, attached to this motion and on file with the City Clerk, receive an upzoning of one increment to the primary zone (e.g. N2 to N3; N3 to N4) to offset the housing potential lost in Rothwell Heights; and\nBE IT FURTHER RESOLVED THAT Heritage staff be directed to undertake a pre-liminary review to determine the heritage potential of Rothwell Heights and report back to the Built Heritage Committee by memo in Q1 2027; and\nBE IT FURTHER RESOLVED THAT Zoning staff be directed to consider amendments to the zoning by-law pending the outcome of the heritage review; and\nBE IT FURTHER RESOLVED THAT pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-24",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor M. Carr\nWHEREAS the 2022 Official Plan changed the sub-designation for a number of woodlands fully enclosed within parks, such as the Coronation Park woodland, from Urban Natural Feature to Park; and\nWHEREAS Coronation Park is designated Greenspace on Schedule B3 of the Of-ficial Plan, sub-designated Park on Schedule C12 of the Official Plan, and designated Park in the Alta Vista / Faircrest / Riverview Park Secondary Plan; and\nWHEREAS the zoning in the final draft of the new Zoning By-law applies one zone of REC1 \u2013 Recreation Subzone 1 for Coronation Park to replace the current two zones in Zoning By-law 2008-250 of L1 \u2013 Community Leisure Facility Zone and EP \u2013 Environmental Protection Zone for Coronation Park; and\nWHEREAS the EP\u2013 Environmental Protection Zone reflects the natural character and ecological functions of these woodlands.\nTHEREFORE BE IT RESOLVED that the zoning for the woodlot portion of Coro-nation Park in the final draft of the new Zoning By-law be changed from REC1 \u2013 Recreation Subzone 1 to EP\u2013 Environmental Protection Zone; and\nBE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-25",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the property known municipally as 341 Berkley Avenue is City-owned and proposed to be zoned N4B H(11) in accordance with the Neighbourhoods designation of the Official Plan;\nAND WHEREAS 341 Berkley is presently a vacant parcel used as open space and includes significant tree cover that contributes to the urban tree canopy;\nTHEREFORE BE IT RESOLVED that the zoning designation of 341 Berkley Avenue be amended from N4B H(11) to GRN.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "A. Troster"
+                    ],
+                    "count": 8
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "C. Kitts",
+                      "C. Curry",
+                      "D. Brown",
+                      "W. Lo",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 7
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (8 to 7)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-26",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Menard\nWHEREAS the Official Plan permits mid-rise development on designated Mainstreet Corridors city-wide, and permits high-rise development on designated Mainstreet Corridors subject to meeting certain context criteria relating to right-of-way width and lot size; and\nWHEREAS the final draft Zoning By-law implements Official Plan direction for built-form transition with a framework of provisions shared across the various mixed-use zones, inclusive of the MS1 and MS2 Mainstreet Zones and the H2 Hub Zone; and\nWHEREAS the built-form transition provisions in the final draft Zoning By-law include a 45-degree angular plane originating from a height of 15 metres above any rear or interior side lot line shared with abutting lands in a low-rise (N1, N2, N3 or N4) residential zone, rising toward the interior of the subject site for a distance of up to 25 metres, such that the maximum height at any point in that area may be described as [(distance from lot line) + 15m]; and\nWHEREAS the current Zoning By-law includes provisions for an angular plane in the TM (Traditional Mainstreet) zone originating from a height of 15 metres at a distance of 7.5 metres from a rear lot line shared with abutting lands in a low-rise (R1, R2, R3 and R4) residential zone, rising toward the interior of the subject site such that the maximum height at any point in that area may be described as [(distance from lot line) + 7.5m]; and\nWHEREAS the proposed built-form transition framework represents a significant increase in as-of-right buildable volume for Mainstreet sites adjacent to low-rise residential areas; and\nWHEREAS the resulting built form may result in adverse effects on the day-light access of residential lands adjacent to Mainstreet Corridors.\nTHEREFORE BE IT RESOLVED that Section 904(10)(b)(iii), being the built form transition provision in the MS1 Mainstreet zone, be amended such that the angular plane originates at a distance of 7.5m from the rear lot line at a height of 15m, consistent with the approach used in the current TM zone; and\nBE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. Brockington",
+                      "C. Kelly"
+                    ],
+                    "count": 5
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "J. Leiper",
+                      "C. Kitts",
+                      "C. Curry",
+                      "L. Johnson",
+                      "A. Troster",
+                      "D. Brown",
+                      "W. Lo",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 10
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (5 to 10)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-27",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "on behalf of Councillor Menard\nWHEREAS the Rideau River functions as a continuous natural, recreational, and cultural corridor that provides environmental, social, and recreational benefits to residents across the City of Ottawa; and\nAND WHEREAS lands along the edge of the Rideau River are currently subject to multiple zone designations under the new Zoning By-law, including GRN, N4B, IM, FAC, LGZ, N1, N3, and REC;\nAND WHEREAS consolidating these lands into a single, clearly defined zone des-ignation would improve clarity, and consistency, while formalizing the Rideau River\u2019s role as an important public resource providing benefit to all residents of the City;\nTHEREFORE BE IT RESOLVED that staff be directed to provide options to con-solidate the multiple zone designations along the eastern edge of the Rideau River, from Strathcona Park to Linda Thom Park, into a single zone code designation within the new Zoning By-law, that is consistent with the river\u2019s function as a natural and recreational corridor by January 28, 2026.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "T. Tierney"
+                    ],
+                    "count": 2
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "C. Curry",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "A. Troster",
+                      "D. Brown",
+                      "W. Lo",
+                      "Isabelle Skalski"
+                    ],
+                    "count": 13
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (2 to 13)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-07-28",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "THEREFORE BE IT RESOLVED that Councillor Leiper\u2019s motion re:\u00a0 Building Height in Neighourhood Zones (10) be referred to the January 28, 2026, meeting of Council.\nMoved by Councillor Leiper\nWHEREAS the final draft of the New Zoning By-law proposes to increase maximum building heights in the N1 and N2 zones to 11 metres, to generally allow for a building height of three full storeys in most Neighbourhood zones, in accordance with the Official Plan; and\nWHEREAS this added flexibility in built form is intended to support \u201ca range of residential and non-residential built forms\u201d within the Neighbourhood designation, as per Section 6.3 of the Official Plan;\nAND WHEREAS new buildings that provide a full three storey height should also provide for an increase in density, in order to meet the objectives of the Official Plan with respect to its housing and density targets.\nTHEREFORE BE IT RESOLVED that Section 801 of the new Zoning By-law be amended to add the following new clause 7(e):\nDespite Table 801A, where a principal building contains only one dwelling unit, the maximum building height is 8.5 metres.\nAND BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of the Planning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Update on Legal Agreements",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=306077",
+                "attachment_title": "7.1 - IPD - Housing Acceleration Plan Implementation update on Development Agreements.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PS-0074",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nTo be determined.",
+        "minutes": "The meeting adjourned at 6:17 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

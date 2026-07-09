@@ -1,0 +1,61 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=89570dc3-aa88-4154-b218-5e7e5b68f581&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=89570dc3-aa88-4154-b218-5e7e5b68f581&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - May 25, 2026",
+  "meeting_number": 130,
+  "meeting_date": "2026-05-25",
+  "meeting_start_time": "15:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Vice Chair: Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson",
+    "Michael Polowin",
+    "Steve Desroches"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 3,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board adjourn the public portion of its meeting to move In Camera to discuss the following subject matters in accordance with Section 44(2) of the Community Safety and Policing Act, 2019:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 3:03 am.",
+        "motions": []
+      }
+    ]
+  }
+}

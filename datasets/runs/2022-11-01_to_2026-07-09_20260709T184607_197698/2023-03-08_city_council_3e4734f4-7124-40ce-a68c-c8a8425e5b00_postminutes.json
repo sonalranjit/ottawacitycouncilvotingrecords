@@ -1,0 +1,1114 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=3e4734f4-7124-40ce-a68c-c8a8425e5b00&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=3e4734f4-7124-40ce-a68c-c8a8425e5b00&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - March 08, 2023",
+  "meeting_number": 10,
+  "meeting_date": "2023-03-08",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 24,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, 8 March 2023 beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present except T. Tierney (City Business).",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Minutes of the Council meeting of 22 February 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155997",
+                "attachment_title": "OCC Draft Final Minutes 8 (EN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Carried",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "Councillor T. Tierney (City Business) advised that he would be absent from the City Council meeting of 8 March 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 10/01",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the deferred report from the Planning and Housing Committee entitled \u201cPlanning and Housing Committee Terms of Reference\u201d, Agriculture and Rural Affairs Committee Report 1A, Community Services Committee Report 1A, Environment and Climate Change Committee Report 1A, and the Planning and Housing Committee Report 4 be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Postponements and Deferrals",
+        "attachments": [],
+        "description": "Deferred from the City Council meeting of 25 January, 2023",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Planning and Housing Committee Terms of Reference",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155994",
+                "attachment_title": "1 - ACS2023-OCC-CCS-0001 Cover - Planning and Housing Committee Terms of Reference.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155995",
+                "attachment_title": "1 - ACS2023-OCC-CCS-0001 Report - Planning and Housing Committee Terms of Reference.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155996",
+                "attachment_title": "1 - Document 1 (as amended) - Planning and Housing Commitee - Terms of Reference_EN.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0001 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation, as amended\nThat Council approve the Planning and Housing Committee Terms of Reference, as outlined in this report and attached as Document 1 (as amended).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Agriculture and Rural Affairs Committee Report 1A",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Agriculture and Rural Affairs Committee Terms of Reference",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155998",
+                "attachment_title": "Cover - ACS2023-OCC-CCS-0020 - Agriculture and Rural Affairs Committee Terms of Reference.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155999",
+                "attachment_title": "ACS2023-OCC-CCS-0020 - Agriculture and Rural Affairs Committee Terms of Reference.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156000",
+                "attachment_title": "Document 1_ARAC - Terms of Reference_EN.pdf"
+              }
+            ],
+            "description": "ACS2023-OCC-CCS-0020 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation\nThat Council approve its Terms of Reference, as outlined in this report and attached as Document 1(as amended).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "New Zoning By-law \u2013 Revised Work Plan Timelines",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156007",
+                "attachment_title": "Cover - ACS2023-PRE-EDP-0003 - New Zoning By-law \u2013 Revised Work Plan Timelines.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156008",
+                "attachment_title": "ACS2023-PRE-EDP-0003 - New Zoning By-law \u2013 Revised Work Plan Timelines.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-EDP-0003 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation\nThat Council approve the proposed revisions to the Work Plan timelines for the new Zoning By-law, as shown in Document 1 \u2013 Project Work Plan Timelines and Document 2 \u2013 Public Engagement Timelines, to add an additional six months to the project timelines.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Community Services Committee Report 1A",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Motions \u2013 Physical Distancing Centres",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156012",
+                "attachment_title": "Cover - Physical Distancing Centres.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "7.\u00a0 \u00a0BE IT FURTHER RESOLVED that staff be directed to:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Darouze",
+                      "J. Bradley",
+                      "S. Plante"
+                    ],
+                    "count": 3
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "A. Hubley",
+                      "S. Menard",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "S. Devine",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 21
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (3 to 21)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "8.\u00a0 \u00a0BE IT FURTHER RESOLVED that the funding not spent on recreational programming in those recreation and community centres due to their use as a Physical Distancing Centre, Respite Centre in 2023 or any use that meets the zoning definition of a shelter, be reallocated for new and/or additional programming in those centres by the end of 2023; and",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "J. Leiper",
+                      "R. Brockington",
+                      "G. Darouze",
+                      "S. Menard",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante"
+                    ],
+                    "count": 8
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "R. King",
+                      "C. Kitts",
+                      "A. Hubley",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 16
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (8 to 16)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "9. BE IT FURTHER RESOLVED that staff develop a comprehensive and robust security plan to ensure the safety of both users of the Physical Distancing Centres and the neighbouring communities and schools, and that plan be presented to councilor(s) for collaboration and consultation.\nThe following Direction to Staff replaced Recommendation 9.\nDIRECTION TO STAFF - Councillor Marty Carr\nThat staff develop a security plan to mitigate the impacts of the Physical Distancing Centres and the neighbouring communities in consultation with impacted Councillor(s) to align with the City\u2019s authority within the approved budget envelop.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Environment and Climate Change Committee Report #1A",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Environment and Climate Change Committee Terms of Reference",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155981",
+                "attachment_title": "01 - Coverpage - ACS2023-OCC-CCS-0018 - ECCC ToR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155982",
+                "attachment_title": "01 - ACS2023-OCC-CCS-0018 - ECCC Terms of Reference.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155983",
+                "attachment_title": "01 - Document 1 - ECCC Terms of Reference (EN).pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0018 - City-Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation\nThat Council approve the Environment and Climate Change Committee Terms of Reference, as outlined in this report and attached as Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Planning and Housing Committee Report 4",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "Zoning By-law Amendment - 6173 Renaud Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156013",
+                "attachment_title": "(Cover) ACS2023-PRE-PS-0025 - ZBLA - 6173 Renaud Road .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156014",
+                "attachment_title": "ACS2023-PRE-PS-0025 - ZBLA - 6173 Renaud Road (as amended).pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0025 - Orl\u00e9ans South-Navan (19)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for 6173 Renaud Road, as shown in Document 1, from Development Reserve to Residential Fourth Density, Subzone M, Exception XXXX (R4M-XXXX) to permit 24 dwelling units (back-to-back stacked dwellings and back-to-back townhouse dwellings) in a planned unit development,as detailed in Document 2.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": "Carried with Councillor L. Dudas dissenting."
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "13.2",
+            "title": "Official Plan 2023 Implementation",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155992",
+                "attachment_title": "(cover) ACS2023-PRE-EDP-0005 - Official Plan 2023 Implementation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155993",
+                "attachment_title": "ACS2023-PRE-EDP-0005 - Official Plan 2023 Implementation.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-EDP-0005- City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation\nThat Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Bulk Consent Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "14.1",
+            "title": "Agriculture and Rural Affairs Committee Report 1A",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "14.1.1",
+                "title": "Zoning By-law Amendment \u2013 2170 and 2180 Ottawa Road 29",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156001",
+                    "attachment_title": "Cover - ACS2023-PRE-PS-0008 - Zoning By-law Amendment \u2013 2170 and 2180 Ottawa Road 29 .pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156002",
+                    "attachment_title": "ACS2023-PRE-PS-0008 - Zoning By-law Amendment \u2013 2170 and 2180 Ottawa Road 29 .pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0008 - West Carleton-March (5)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for part of 2170 Ottawa Road 29, as shown in Document 1, to prohibit residential development on the retained farmland, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "14.1.2",
+                "title": "Zoning By-law Amendment \u2013 Part of 3016 Upper Dwyer Hill Road",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156003",
+                    "attachment_title": "Cover -  ACS2023-PRE-PS-0023 - Rezoning \u2013 Part of 3016 Upper Dwyer Hill Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156004",
+                    "attachment_title": "ACS2023-PRE-PS-0023 - Rezoning \u2013 Part of 3016 Upper Dwyer Hill Road.pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0023 - West Carleton-March (5)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for part of 3016 Upper Dwyer Hill Road, as shown in Document 1, to rezone these lands from AG2 to AG6 in order to prohibit residential development, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "14.1.3",
+                "title": "Zoning By-law Amendment \u2013 1185 Beaverwood Road",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156005",
+                    "attachment_title": "Cover -  ACS2023-PRE-PS-0022 - Zoning By-law Amendment \u2013 1185 Beaverwood Road .pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156006",
+                    "attachment_title": "ACS2023-PRE-PS-0022 - Zoning By-law Amendment \u2013 1185 Beaverwood Road .pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0022 - Rideau-Jock (21)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for 1185 Beaverwood Road, as shown in Document 1, to rezone the property from Village First Density Residential Subzone P (V1P) to Village Third Density Residential, Subzone I with a rural exception (V3I [xxxr]) to permit a three-storey apartment building and modify the performance standards, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "14.2",
+            "title": "Community Services Committee Report 1A",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "14.2.1",
+                "title": "Community Services Terms of Reference",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156009",
+                    "attachment_title": "Cover - CSC Terms of Reference.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156010",
+                    "attachment_title": "ACS2023-OCC-CCS-0019 Report - CSC Terms of Reference.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156011",
+                    "attachment_title": "Document 1 - CSC Terms of Reference.pdf"
+                  }
+                ],
+                "description": "File No. ACS2023-OCC-CCS-0019 - City-Wide",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve the Community Services Committee Terms of Reference, as outlined in this report and attached as Document 1.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "14.3",
+            "title": "Planning and Housing Committee Report 4",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "14.3.1",
+                "title": "Zoning By-law Amendment \u2013 1835 Stittsville Main Street",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155984",
+                    "attachment_title": "(Cover ) ACS2023-PRE-PS-0020 - ZBLA \u2013 1835 Stittsville Main Street.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155985",
+                    "attachment_title": "ACS2023-PRE-PS-0020 - ZBLA \u2013 1835 Stittsville Main Street.pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0020 - Stittsville (6)",
+                "minutes": "Item 14.3.1 on the Bulk Consent Agenda was lifted from the Bulk Consent Agenda for consideration as part of the regular Agenda.",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for 1835 Stittsville Main Street, as shown in Document 1, to rezone the lands from RU (Rural Countryside) to R3Z[XXX1]-h (Residential Third Density, Subzone Z, Urban Exception XXX1, with a holding symbol), to permit low rise development as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried as amended",
+                    "post_motion_text": ""
+                  },
+                  {
+                    "premotion_text": "",
+                    "motion_number": "2023 - 10/02",
+                    "motion_moved_by": "G. Gower",
+                    "motion_seconded_by": "J. Leiper",
+                    "motion_text": "WHEREAS Report ACS2023-PRE-PS-0020 (the \u201cReport\u201d) recommends amending the City of Ottawa\u2019s Zoning By-law to permit low rise development on the lands municipally known as 1835 Stittsville Main Street; and\nWHEREAS the current version of the Report contains reference to only one of two new urban exceptions in the Report\u2019s recommendations; and\nWHEREAS a technical amendment is required to add reference to the second new urban exception to the Report\u2019s recommendations;\nTHEREFORE BE IT RESOLVED that Council amend Planning and Housing Committee Report 4, Item 1 by:\n1. \u00a0 \u00a0Replacing the text of the Committee recommendation with the following text:\n\u201cThat Council approve an amendment to the Zoning By-law (By-law No. 2008-250) for 1835 Stittsville Main Street, as shown in Document 1, to rezone the lands shown in Area A from RU to R3Z[XXX1]-h and to rezone the lands shown in Area B from RU to R3Z[XXX2]-h, both to permit low rise development, as detailed in Document 2.\u201d; and\nTHEREFORE BE IT FURTHER RESOLVED that there be no further notice pursuant to Section 34(17) of thePlanning Act, R.S.O. 1990, c. P.13, as amended.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  },
+                  {
+                    "premotion_text": "",
+                    "motion_number": "2023 - 10/03",
+                    "motion_moved_by": "G. Gower",
+                    "motion_seconded_by": "J. Leiper",
+                    "motion_text": "WHEREAS Report ACS2023-PRE-PS-0020 proposes a zoning by-law amendment to permit development of a property located at 1835 Stittsville Main Street; and\nWHEREAS the owners of nearby lands, referred to as the \u201cArea 6 lands\u201d, were required to provide for the extension or oversizing of urban services to 1835 Stittsville Main Street and are asserting that they have rights to seek contribution to the cost of construction of such services from 1835 Stittsville Main Street;\nTHEREFORE BE IT RESOLVED THAT by-law \u201cl\u201d, \u00a0\u201c A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 1835 Stittsville Main Street\u201d be removed from item 21.1 on the agenda, \u201cMotion to introduce by-laws\u201d; and\nTHEREFORE BE IT FURTHER RESOLVED THAT City staff be directed to list the by-law on a future Council agenda for enactment only after being advised that the aforementioned issues have been resolved as between the owners of 1835 Stittsville Main Street and the Area 6 lands.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "14.3.2",
+                "title": "Zoning By-law Amendment \u2013 453 and 455 Coventry Road",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155986",
+                    "attachment_title": "(Cover) ACS2023-PRE-PS-0018 - ZBLA \u2013 453 and 455 Coventry Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155987",
+                    "attachment_title": "ACS2023-PRE-PS-0018 - ZBLA \u2013 453 and 455 Coventry Road.pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0018 - Rideau-Rockcliffe (13)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for 453 and 455 Coventry Road, as shown in Document 1, to change the zoning from Light Industrial Zone to Transit Oriented Development Zone \u2013 Subzone 2, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "14.3.3",
+                "title": "Zoning By-law Amendment \u2013 Part of 570 March Road",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155988",
+                    "attachment_title": "(Cover) ACS2023-PRE-EDP-0007 -ZBLA - Part of 570 March Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155989",
+                    "attachment_title": "ACS2023-PRE-EDP-0007 -ZBLA - Part of 570 March Road.pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-EDP-0007 - Kanata North (4)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation\nThat Council approve an amendment to Zoning By-law 2008-250 for part of 570 March Road from Mixed-Use Centre Zone, Urban Exception 2816, Holding Provision (MC[2816]-h) to Mixed-Use Centre Zone, Urban Exception XXX1 (MC[XXX1]), as shown in Document 1, with an exception to prohibit \u2018Drive-through Facility\u2019, \u2018Principal Use Parking Lots\u2019, \u2018Service and Repair Shop\u2019, and Residential Uses as detailed in Document 2 as site-specific prohibited uses.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "14.3.4",
+                "title": "Zoning By-law Amendment \u2013 8605 Campeau Drive",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155990",
+                    "attachment_title": "(Cover) ACS2023-PRE-PS-0024 - ZBLA - 8605 Campeau Drive.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155991",
+                    "attachment_title": "ACS2023-PRE-PS-0024 - ZBLA - 8605 Campeau Drive (as amended).pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0024 - Kanata North (4)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee recommendation, as amended\nThat Council approve an amendment to Zoning By-law 2008-250 for 8605 Campeau Drive, as shown in Document 1, by adding a new exception to permit a car wash as an ancillary use to a gas bar, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 10/04",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the deferred report from the Planning and Housing Committee entitled \u201cPlanning and Housing Committee Terms of Reference\u201d, Agriculture and Rural Affairs Committee Report 1A, Community Services Committee Report 1A, Environment and Climate Change Committee Report 1A, and Planning and Housing Committee Report 4 be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Motions of Which Notice Has Been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "17.1",
+            "title": "Councillor A. Troster",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/05",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "T. Kavanagh",
+                "motion_text": "WHEREAS Renfrew County delivered 86 recommendations in a unanimous verdict on the deaths of three local women, who were killed by their former partner on a single morning in 2015; andWHEREAS these 86 recommendations speak to oversight and accountability, system approaches, collaboration and communication, funding, education and training, measures addressing perpetrators of intimate partner violence (IPV), intervention, and safety; andWHEREAS the number one recommendation put forward is to have the provincial government formally declare intimate partner violence as an epidemic; andWHEREAS Statistics Canada reported that 2021 was the 7th consecutive year of increasing police-reported IPV; andWHEREAS specific legislation on family and domestic violence has been passed by six provinces and three territories, not including Ontario; andWHEREAS many of the inquiry\u2019s recommendations are either applicable to or could be adapted to the municipal level of government; andWHEREAS the issues of gender-based violence and violence against women are inseparable from but not synonymous with IPV; andWHEREAS Ottawa has formally acknowledged gender-based violence and violence against women as key areas of priority in its Community Safety and Well-Being Plan and its Women and Gender Equity Strategies;THEREFORE BE IT RESOLVED that the following recommendation from the Renfrew County Inquiry be referred to staff for consideration and integration with the City\u2019s Community Safety and Well-Being Plan:10. Encourage that IPV be integrated into every municipality\u2019s community safety and well-being plan; andBE IT FURTHER RESOLVED the City of Ottawa declare intimate partner violence an epidemic; andBE IT FURTHER RESOLVED that the Mayor, on behalf of City Council, write to the Premier and the Minister of Health in support of Lanark County Council\u2019s motion declaring intimate partner violence an epidemic and in support of the creation of provincial legislation to address family violence, and requesting that intimate partner violence be formally declared an epidemic in Ontario.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": "Carried with Councillor D. Hill dissenting on the following:BE IT FURTHER RESOLVED the City of Ottawa declare intimate partner violence an epidemic;"
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "DIRECTION TO STAFF (Councillor D. Hill)\nThat Crime Prevention Ottawa and the Community and Social Services Department collaborate with community partners to identify immediate strategic opportunities for the City to reduce Intimate Partner Violence in Ottawa and to report back to the Community Services Committee by no later than Q4 2023 with an implementation plan.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.2",
+            "title": "Councillor R. King",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/06",
+                "motion_moved_by": "R. King",
+                "motion_seconded_by": "M. Carr",
+                "motion_text": "WHEREAS the homeless crisis is taking a devastating toll on families and communities, undermining a healthy and prosperous Ontario; and\nWHEREAS the homelessness crisis is the result of the underinvestment and poor policy choices of successive provincial governments; and\nWHEREAS homelessness requires a range of housing, social service and health solutions from government; and\nWHEREAS homelessness is felt most at the level of local government and the residents that they serve; and\nWHEREAS municipalities and District Social Administration Boards are doing their part, but do not have the resources, capacity or tools to address this complex challenge; and\nWHEREAS leadership and urgent action is needed from the provincial government on an emergency basis to develop, resource, and implement a comprehensive plan to prevent, reduce and ultimately end homelessness in Ontario;\nTHEREFORE BE IT RESOLVED THAT City Council call on the Provincial Government to urgently:\nTHEREFORE BE IT FURTHER RESOLVED THAT a copy of this motion be sent to the Minister of Municipal Affairs and Housing; the Minister of Children, Community and Social Services; the Minister of Health; and to the Association of Municipalities of Ontario.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.3",
+            "title": "Councillor S. Plante",
+            "attachments": [],
+            "description": "Note: The Plante/Sutcliffe Motion of which Notice was previously given at the 1 March, 2023, City Council meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/07",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS primary health care is funded by the provincial government and is a responsibility of the provincial government; and\nWHEREAS a recent report from Ottawa Public Health suggests that at least 100,000-150,000 Ottawa residents do not have access to primary care; and\nWHEREAS the Canadian Federation of Independent Business (CFIB) recently reported that physicians in Canada are spending approximately 18.5 million hours, or the equivalent of 55.6 million patient visits annually, on unnecessary paperwork and administrative tasks each year; and\nWHEREAS it is essential that all levels of government work co-operatively to find solutions to improve primary care access; and\nWHEREAS City of Ottawa human resources policies may require medical notes or forms from employees, for example \u201cfitness to return to work\u201d after a viral illness; and\nWHEREAS various other City of Ottawa departments require medical forms for access to various programs and services such as ParaTranspo, ODSP and other social services; and\nWHEREAS completing unnecessary or cumbersome work-related medical notes and forms has been identified as an area of inefficiency for primary care professionals;\nTHEREFORE BE IT RESOLVED that the City Manager be directed to work with Human Resources to review processes and collective agreement language in all departments that require a medical note or form, and identify where requirements for medical notes or forms can be eliminated or simplified, and report back to Council as soon as practicable.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.4",
+            "title": "Councillor T. Kavanagh",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/08",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "C. Kitts",
+                "motion_text": "WHEREAS on March 11, 2020 the World Health Organization declared the COVID-19 viral disease a pandemic; and\nWHEREAS the Covid-19 pandemic has been unprecedented in its far-reaching impacts, including collective trauma, on individuals, families, children and vulnerable communities; and\nWHEREAS the impacts of Covid-19 continue to be felt in overtaxed and under-resourced health care systems and a range of other public services that have still not fully recovered from the pandemic; and\nWHEREAS the leadership and front line workers at Ottawa Pubic Health, as well as health and social service agencies across the City of Ottawa, have worked tirelessly and effectively to guide the City of Ottawa through the Covid-19 pandemic, and continue to monitor and respond to a vast range of pandemic-related impacts; and\nWHEREAS in March 2021, Government of Canada has designated March 11, 2021, as a National Day of Observance to commemorate the people who lost their lives and the significant impacts we have all felt because of COVID-19; and\nWHEREAS as of February 27, 2023 over 51,000 Canadian families have lost a loved one; and\nWHEREAS as of February 27, 2023, 1,019 Ottawa residents have died as a result of Covid-19. This does not take into account the number who are impacted where family died elsewhere nationally or internationally; and\nWHEREAS every death from Covid-19 will leave several individuals and families bereaved;\nTHEREFORE BE IT RESOLVED that Ottawa City Council join the federal government in designating March 11, 2023, as a Day of Observance to commemorate the people who lost their lives and the significant impacts we have all felt because of COVID-19.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.5",
+            "title": "Councillor C. Kitts",
+            "attachments": [],
+            "description": "Note: The Kitts/Brown Motion of which Notice was previously given at the 1 March, 2023, City Council meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/09",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "D. Brown",
+                "motion_text": "WHEREAS wineries in Ontario that are not part of the Vintner Quality Alliance (VQA) and sell 100% Ontario wine directly to a licensee (e.g., restaurant) are subject to a mark-up and wine levy imposed by the Liquor Control Board of Ontario (LCBO), which is not applied to sales by VQA wineries to licensees; and\nWHEREAS the direct delivery of 100% Ontario non-VQA wine to a licensee is an important part of the local agri-tourism wine industry, providing a cost-effective and efficient way for Ontario wineries to sell their products; and\nWHEREAS the LCBO mark-up and wine levy imposed on the direct delivery of 100% Ontario non-VQA wine to a licensee creates unnecessary barriers and costs for non-VQA Ontario wineries; and\nWHEREAS the LCBO mark-up and wine levy have created unintended consequences such as limiting development of local agri-tourism and rural diversification, adversely impacting the sustainability of local artisan wineries, and the development of rural/village economies; and\nWHEREAS the LCBO mark-up and levy is having a negative impact on over 30 local non-VQA wineries in Ontario, including those in rural Ottawa areas such as Navan and Richmond; and\nWHEREAS the elimination of the LCBO mark-up and wine levy on direct delivery of 100% Ontario non-VQA wine to a licensee would provide a level playing field for wineries producing 100% Ontario wine and support the growth of the rural artisan wine industry; and\nTHEREFORE BE IT RESOLVED THAT the Mayor, on behalf of Council, write to Ontario\u2019s Minister of Finance, Minister of Red Tape Reduction, Minister of Agriculture, Food, and Rural Affairs, and Minister of Tourism, Culture and Sport, and Minister of Economic Development, Job Creation and Trade, supporting the elimination of the LCBO mark-up and wine levy on direct delivery of 100% Ontario non-VQA wine to a licensee; and\nBE IT FURTHER RESOLVED THAT the Mayor provide any updates to City Council on any progress or responses received regarding this matter.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": "Carried with Councillors L. Dudas and S. Devine dissenting."
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.6",
+            "title": "Councillor T. Kavanagh",
+            "attachments": [],
+            "description": "Note: The Kavanagh/Johnson Motion of which Notice was previously given at the 1 March, 2023, City Council meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/10",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "WHEREAS Ottawa has a significant and growing older adult population, who are living with a range of social and health needs; andWHEREAS women are disproportionately represented among older adults living in the community and needing support services to maintain their health, quality of life and independence; andWHEREAS the research demonstrates that the large majority of older adults (80%+) overwhelmingly express a preference for aging at home; andWHEREAS community agencies have further demonstrated that the costs of providing home-based services for older adults, such as transportation services, home-based personal and health supports as well as programs to combat isolation and food insecurity, are cost effective and lead to significant reduction in use of emergency services and delays in admission to long term care settings; andWHEREAS senior-serving agencies across Ottawa, including the Olde Forge, are providing effective and preventative services for older adults aging at home, and are only limited in their capacity to provide these services by financial restrictions; andWHEREAS community-based services for seniors save significant taxpayer money by leveraging existing community supports, empowering seniors to create, drive and deliver supports in a way that meets their own unique needs; and\nWHEREAS the Naturally Occurring Retirement Communities (NORC) model for supporting older adults to age at home, particularly the Oasis model which has been operating in Kingston for over ten years, have proven successful in decreasing emergency room visits by 26% and hospital admission by 40%, and have led to a 45% reduction in need for home care services for older adults living in Oasis-supported facilities; andWHEREAS Ottawa is currently hosting a two-year Oasis pilot project to demonstrate the efficacy and cost effectiveness of the Oasis model, in partnership with Queen\u2019s University, the Olde Forge, the Ottawa Council on Aging and the residents in three Ambleside condos in Bay Ward; andWHEREAS Oasis pilot projects are also operating in Belleville, Hamilton, and London, and are in the process of being launched by community groups in a host of other Ontario cities; andWHEREAS several community groups and organizations in Ottawa are seeking funding to initiate much needed community-based services for seniors in their neighbourhoods;\nTHEREFORE BE IT RESOLVED that the Mayor of Ottawa write to the Premier of Ontario and the Minister of Health and the Minister of Long Term Care to request a significant allocation of sustainable funding for a variety of community-based and evidence-driven aging in place supports, including the NORC/Oasis model, which are proven to increase quality of life and self-determination, prevent unnecessary use of emergency services, delay the need for admission to long term care facilities, and save significant taxpayer dollars.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.7",
+            "title": "Councillor A. Troster",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/11",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "J. Leiper",
+                "motion_text": "WHEREAS the Bank Street Business Improvement Area (BIA) will host the annual Fire & Ice Winter Festival; and\nWHEREAS many of the Fire & Ice activities will be happening outdoors on Bank Street between Slater Street and Somerset Street West. Activities consist of interactive installations and visual installations to be seen on a walkthrough of the event site; and\nWHEREAS the BIA has requested the closure of Bank Street from Slater Street to Somerset Street West. The road closure will begin at 1:00 p.m. on Friday, 17 March 2023 and end at 5:00 a.m. on Monday, 20 March 2023; and\nWHEREAS the City of Ottawa\u2019s Special Events on City Streets By-law (2001-260) prohibits road closures before 6:00 p.m. Monday to Friday;\nTHEREFORE BE IT RESOLVED that Council approve the road closure for Bank Street from Slater Street to Somerset Street West. The road closure will begin at 1:00 p.m. on Friday, 17 March 2023 and end at 5:00 a.m. on Monday, 20 March 2023 for the Fire & Ice Winter Festival; providing it meets the requirements, conditions, and approval of Special Events Advisory Team (SEAT).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "There were no motions requiring suspension of the Rules of Procedure.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "19.1",
+            "title": "Councillor L. Dudas",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "WHEREAS the Ottawa Branch of the Polish Combatants' Association (Branch No. 8) has celebrated 75th anniversary; and\nWHEREAS the original members of Branch No. 8 were former soldiers of the Polish Armed Forces, who fought alongside the Western Allies, including Canadians, during World War II; and\nWHEREAS in the last 75 years, Branch No. 8 and its members have made immeasurable contributions to the community and our city; and\nWHEREAS Branch No. 8 has worked with City staff to find a location for a tree to be planted at Centrepointe Park to commemorate this milestone anniversary in the spring of 2023; and\nWHEREAS the financial cost of the Commemorative Tree and the accompanying plaque will be borne by the Polish Combatants' Association Branch No. 8; and\nWHEREAS Public Works, Parks Maintenance and Forestry Services, will install the city standard flat black polished granite marker flush to the ground;\nTHEREFORE BE IT RESOLVED that City Council approve the installation of a plaque in Centrepointe Park to mark the 75th Anniversary of the founding of the Polish Combatants\u2019 Association Branch No. 8; and\nTHEREFORE BE IT FURTHER RESOLVED that the plaque read \u201cTHIS TREE WAS PLANTED TO COMMEMORATE THE 75TH ANNIVERSARY OF THE FOUNDING OF THE POLISH COMBATANTS\u2019 ASSOCIATION BRANCH NO. 8\u201d in Polish, English, and French.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "19.2",
+            "title": "Councillor L. Dudas",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "J. Bradley",
+                "motion_text": "WHEREAS On February 6, 2023, an incredibly destructive earthquakes 7.8 magnitude earthquake, followed by a series of strong tremors and aftershocks, devastated South-Eastern T\u00fcrkiye; and\nWHEREAS the earthquake has already killed more than 41,000 people and injured more than 87,000; and\nWHEREAS more than a million people have been displaced, with at least 47,000 buildings destroyed or damaged; and\nWHEREAS the Canadian and Turkish Women\u2019s Association in Ottawa (CATWAO) are organizing a fundraising event to benefit the victims of the earthquake on April 23rd, recognized as Children\u2019s Day in Turkey, to sell donated used goods, Turkish foods and to host children\u2019s activities; and\nWHEREAS CATWAO is seeking the use of Jean Pigott Hall at City Hall to host this fundraising event in support of residents of T\u00fcrkiye;\nTHEREFORE BE IT RESOLVED that Council approve the use of Jean Pigott Hall for this fundraising event on April 23rd and waive the rental fee and associated costs for furniture, equipment and staffing, to support the people of T\u00fcrkiye following this devastating event.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "Notice of Intent",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "21.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 10/12",
+                "motion_moved_by": "G. Darouze",
+                "motion_seconded_by": "S. Menard",
+                "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "2023-51 \u00a0 \u00a0A by-law of the City of Ottawa to establish fees and charges for services, activities and information provided by Revenue Services of the Finance and Corporate Services Department and to repeal By-law No. 2021-391 and 2022-139.2023-52 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2012-370, as amended, respecting fees and charges for solid waste services.2023-53 \u00a0 \u00a0A by-law of the City of Ottawa to establish stormwater service fees and to repeal By-law No. 2022-5.2023-54 \u00a0 \u00a0A by-law of the City of Ottawa to amend the fees in By-law No. 2019-74, as amended, regulating the municipal water supply.2023-55 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2017-180 respecting the appointment of Municipal Law Enforcement Officers in accordance with private property parking enforcement.2023-56 \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands at Brasseur Crescent and Winsome Terrace on Plan 4M-1217 and terrasse Winsome Terrace on Plan 4M-1699 as being exempt from Part Lot Control.2023-57 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2018-212, a by-law of the City of Ottawa to appoint certain Municipal Law Enforcement Officers to enforce the provisions of the Sewer Use By-law and to repeal By-law No. 2012-5.2023-58 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2021-331 to correct minor typographical errors.2023-59 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of part of the lands known municipally as 2170 Ottawa Road 29.2023-60 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of part of the lands known municipally as 3016 Upper Dwyer Hill Road.2023-61 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 1185 Beaverwood Road.\n2023-62 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 8605 Campeau Drive.2023-63 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of part of the lands known municipally as 570 March Road.2023-64 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of the lands known municipally as 6173 Renaud Road.2023-65 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of the lands known municipally as 453 and 455 Coventry Road.2023-66 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to remove the holding symbol from the lands known municipally as 4200 Innes Road.2023-67 \u00a0 \u00a0A by-law of the City of Ottawa respecting the delegation of authority to various officers of the City and to repeal By-law No. 2023-2.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "22.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 10/13",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the following by-law be read and passed:To confirm the proceedings of the Council meeting of March 8, 2023.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "23.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "24.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 10/14",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the proceedings of the City Council meeting of March 8, 2023, be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": "The meeting adjourned at 11:15 am."
+          }
+        ]
+      }
+    ]
+  }
+}

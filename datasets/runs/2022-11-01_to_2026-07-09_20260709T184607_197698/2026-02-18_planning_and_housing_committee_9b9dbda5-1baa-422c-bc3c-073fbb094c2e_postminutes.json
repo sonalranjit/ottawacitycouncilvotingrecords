@@ -1,0 +1,384 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=9b9dbda5-1baa-422c-bc3c-073fbb094c2e&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=9b9dbda5-1baa-422c-bc3c-073fbb094c2e&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - February 18, 2026",
+  "meeting_number": 60,
+  "meeting_date": "2026-02-18",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Vice-chair: Councillor Glen Gower",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Clarke Kelly",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [
+    "Riley Brockington",
+    "Theresa Kavanagh"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 10,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314308",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314309",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on February 25, 2026, in Planning and Housing Committee Report 60.\nThe deadline to register by phone to speak or submit written comments or visual presentations is 4 pm on Tuesday, February 17, 2026, and the deadline to register by email to speak is 8:30 am on Wednesday, February 18, 2026.",
+        "minutes": "This is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1 - 5.4 and 5.6 and 5.7 on today\u2019s Agenda.\nFor the item just mentioned, only those specifically identified in the Planning Act who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on February 25, 2026, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 59 \u2013 February 4, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314317",
+                "attachment_title": "PHC Final Minutes 59 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314318",
+                "attachment_title": "PHC Final Minutes 59 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Postponements and Deferrals",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PHC 2024-04 - Issuance of N5, N12, N13, and AGIs at the Landlord Tenant Board in Ottawa",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314305",
+                "attachment_title": "PHC 2024-04 - REVISED Issuance of N5, N12, N13, and AGIs at the Landlord Tenant Board in Ottawa.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314306",
+                "attachment_title": "PHC 2024-04 - Original Issuance of N5, N12, N13, and AGIs at the Landlord Tenant Board in Ottawa.pdf"
+              }
+            ],
+            "description": "This response was originally listed on the agenda for the meeting of February 4, 2026. It has been added to this agenda as a discussion item.",
+            "minutes": "The Committee heard from the following delegations:\nKale Brown, Director, Housing, Community and Social Services Department was present and responded to questions.\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Official Plan Amendment \u2013 Leitrim East Urban Expansion Area",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314311",
+                "attachment_title": "5.1 - ASC2026-PDB-PSX-0009 - Official Plan Amendment  Leitrim East Urban Expansion Area.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-PSX-0009 - Riverside South-Findlay Creek (22)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Zoning By-law Amendment - 2510 and 2502 Saint-Laurent Boulevard, 1900 and 1920 Walkley Road, 2990 and 3000 Conroy Road, and 2425 Don Reid Drive",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314310",
+                "attachment_title": "5.2 - ACS2026-PDB-PS-0033 - ZBLA - 2510 St. Laurent CR.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-PS-0033 - Gloucester-Southgate (10)",
+            "minutes": "The Applicant/Owner as represented by Robert Tran and Greg Winters, Novatech were present in support, and available to answer questions.\u00a0 The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee Carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Official Plan and Zoning By-law Amendments \u2013 550 Wanaki Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314312",
+                "attachment_title": "5.3 - ACS2026-PDB-PSX-0026 - 550 Wanaki.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-PSX-0026 - Rideau-Rockcliffe (13)",
+            "minutes": "The Applicant/Owner as represented by Pamela Whyte, Parsons was present in support, and available to answer questions.\u00a0 The Applicant advised that they did not need to address the Committee if the item carried.\nLuc Poulin, Director of Facilities Services and Iqbal Mohammed Kettani, Assistant Director, Conseil des \u00e9coles catholiques du Centre-Est (CECCE) registered to speak in support of the application.\nThe Committee Carried the report recommendations as amended by Motion No. PHC 2025-60-01.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-60-01",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "(on behalf of Councillor King)\nWHEREAS\u00a0Wateridge Village is one of Ottawa\u2019s fastest-growing neighbourhoods and, at full build-out, is expected to be home to more than 10,000 residents, underscoring the importance of timely and well-planned community infrastructure, including schools; and\nWHEREAS\u00a0there is broad community support for the establishment of a new elementary school in Wateridge Village as a critical investment in children, families, and the long-term vitality of the community; and\nWHEREAS\u00a0the rapid growth of the neighbourhood requires careful and coordinated planning, particularly for a school site where vehicular traffic, transit operations, pedestrians, and cyclists will converge daily; and\nWHEREAS\u00a0the Conseil des \u00e9coles catholiques du Centre-Est has brought forward a proposal for a new French Catholic elementary school in Wateridge Village at 550 Wanaki Road, as part of its long-term planning to address enrolment pressures and service needs in the east end of Ottawa; and\nWHEREAS\u00a0Wanaki Road functions as a primary corridor and one of only two access routes serving Wateridge Village, and the introduction of a school at this location will increase traffic volumes, particularly during peak drop-off and pick-up periods; and\nWHEREAS\u00a0concerns raised by the Councillor\u2019s Office and the Wateridge Village Community Association regarding traffic capacity, access, queuing, and pedestrian safety are substantive and must be addressed; and\nWHEREAS\u00a0the proposed pick-up, drop-off, and bus lay-by arrangements require further refinement to avoid conflicts with active transportation users, transit operations, and through-traffic, and to ensure sidewalks, cycle tracks, and travel lanes remain unobstructed; and\nWHEREAS\u00a0the current site plan is not yet fully developed and does not, in its current form, sufficiently address the provision of on-site parent and school bus lay-by facilities; and\nWHEREAS\u00a0there is a shared commitment among the City, the School Board, Canada Lands Company, and the Councillor\u2019s Office to work collaboratively through the RMA and site plan process to ensure that pick-up and drop-off functions are accommodated on-site and not within the public road network; and\nWHEREAS given Wanaki Road\u2019s critical role in the community, these matters require careful consideration and resolution through the proposed amendments and the site plan approval process.\nTHEREFORE BE IT RESOLVED\u00a0that Council affirm the importance of continued collaboration between the City and the Conseil des \u00e9coles catholiques du Centre-Est, including engagement with the community, transit services, Canada Lands Company, and the Councillor\u2019s Office, through the RMA and site plan approval process;\nBE IT FURTHER RESOLVED\u00a0that this collaboration be undertaken with a view to appropriately addressing traffic operations, access, and safety considerations associated with the proposed school site, including bus lay-by\u00a0and pick-up and drop-off operations, with particular attention to minimizing\u00a0impacts on Wanaki Road.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "Official Plan Amendment and Zoning By-law Amendment \u2013 110 and 116 York Street and Part of 137 George Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314313",
+                "attachment_title": "5.4 - ACS2026-PDB-PSX-0014 - OPA ZBLA PHC -110 116 York and 137 George.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-PSX-0014 - Rideau-Vanier (12)",
+            "minutes": "The Applicant/Owner as represented by Genessa Bates and Jaime Posen, Fotenn were present in support, and available to answer questions.\u00a0 The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee Carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.5",
+            "title": "Heritage Permit for Alterations at 110-116 York Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314307",
+                "attachment_title": "5.5 - ACS2026-PDB-RHU-0009 - 110-116 York Street.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-RHU-0009 - Rideau-Vanier (12)\u00a0\nThis Item will be considered by Built Heritage Committee on February 10, 2026.",
+            "minutes": "The Committee received a slide presentation overview of the report from Ms Lesley Collins, Program Manager, Heritage Planning, Planning, Development and Building Services Department.\u00a0 A copy of this presentation is held on file with the Office of the City Clerk.\nThe following delegations, as noted, were registered in the event that Committee had questions of the proponents.\u00a0 They did not address the Committee:\nCorrespondence was also received from Ms Linda Hoad, Heritage Advocacy Committee, Heritage Ottawa, and is also held on file with the Office of the City Clerk.\nFollowing questions to staff, and at the conclusion of discussions, the report recommendations were put before Committee and were \u2018Carried\u2019, with Member B. Bourns dissenting.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.6",
+            "title": "Zoning By-law Amendment - 1146 Snow Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314314",
+                "attachment_title": "5.6 - ACS2026-PDB-PSX-0012 ZBLA - 1146 Snow.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-PSX-0012 - Beacon Hill-Cyrville (11)",
+            "minutes": "The Applicant/Owner as represented by Evan Saunders and Jon Blakely, Fotenn were present in support, and available to answer questions.\u00a0 The Applicant advised that they did not need to address the Committee if the item carried.\nDerrick Moodie, Director, Planning Services, was present and responded to questions from members.\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nThe Committee Carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.7",
+            "title": "Zoning By-law Amendment \u2013 1670 Tenth Line Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314315",
+                "attachment_title": "5.7 - ACS2026-PDB-PSX-0020 (EN) - 1670 Tenth Line Rd.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314316",
+                "attachment_title": "5.7 - ACS2026-PDB-PSX-0020 (FR) - 1670 Tenth Line Rd.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-PSX-0020 - Orl\u00e9ans East-Cumberland (1)",
+            "minutes": "Lucy Ramirez, Planner II, Planning, Development and Building Services (PDBS), provided an overview of the report and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegations:\n[\u00a0\u00a0\u00a0 * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions and presentations are held on file with the Office of the City Clerk. ]\nThe Applicant/Owner as represented by Jamie Rathwell, Arcadis was present to respond to questions if necessary.\nMatthew Luloff, Ward Councillor for the area, was present and participated in the discussion and questions of the delegations and Staff.\nThe Committee Carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Minor Corrections to the New Zoning Bylaw",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2025-60-02",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the third reading of the draft Zoning By-law will be considered by Council on March 11, 2026; and\nWHEREAS minor corrections are required prior to the third reading.\nTHEREFORE BE IT RESOLVED that the rules of procedure be waived to consid-er the following motion at this Committee meeting, rising to Council on February 25, 2026.\nWHEREAS a small number of consolidation errors have been identified where zoning by-law amendments to Zoning By-law 2008-250 were not carried forward into the draft Zoning By-Law; and\nWHEREAS staff are seeking authority to make these corrections prior to third reading of the Zoning By-law to alleviate the need to correct these errors in a separate report after enactment of the new Zoning By-law.\nTHEREFORE BE IT RESOLVED that Council direct staff to include in the new Zoning By-law 2026-50, prior to third reading, all zoning by-law amendments to Zoning By-law 2008-250 approved by Council after July 6, 2022 (the date of the commencement of the new Zoning By-law project) which were inadvertent-ly omitted through consolidation errors in the new Zoning By-law 2026-50.\nBE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nMarch 4, 2026.",
+        "minutes": "The meeting adjourned at 11:02 am.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=82230929-15b1-4deb-80d0-835124857aff&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=82230929-15b1-4deb-80d0-835124857aff&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transit Committee - November 24, 2025",
+  "meeting_number": 22,
+  "meeting_date": "2025-11-24",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Glen Gower",
+    "Vice-Chair Steve Desroches",
+    "Riley Brockington",
+    "Marty Carr",
+    "David Hill",
+    "Jeff Leiper",
+    "Wilson Lo",
+    "Shawn Menard",
+    "Tim Tierney"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293955",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293956",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on December 10, 2025 in Transit Committee Report 22.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Friday, November 21, 2025, and the deadline to register to speak by email is 8:30 am on Monday, November 24, 2025.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "TC Minutes 21 \u2013 September 11, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293953",
+                "attachment_title": "TC Minutes 21 - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293954",
+                "attachment_title": "TC Minutes 21 - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "LRSC Minutes 11 - November 29, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293951",
+                "attachment_title": "LRSC Minutes 11 - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293952",
+                "attachment_title": "LRSC Minutes 11 - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "TC-2025-01 - Line 1 and Line 2 Regulatory Oversight",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293957",
+                "attachment_title": "TC-2025-01 - D. Hill - Line 1 and Line 2 Regulatory Oversight.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "TC-2025-08 - Central Park High School Routes",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293975",
+                "attachment_title": "TC 2025-08 - R. Brockington - Central Park high school routes.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "OC Transpo Update \u2013 Rail, Bus, and Para Transpo",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293977",
+                "attachment_title": "OC Transpo update - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293978",
+                "attachment_title": "OC Transpo update - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The following Transit Services Department staff provided a presentation on the item and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following staff also responded to questions from Committee:\nCouncillor W. Lo presented a Direction to Staff:\nThat future bus and LRT service performance metrics (trip delivery, service punctuality/reliability, etc.) reported at Transit Committee include separate datasets for peak and off-peak, in addition to overall service performance metrics currently reported by Q2 2026.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Draft 2026 Operating and Capital Budgets \u2013 Transit Committee",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293958",
+                "attachment_title": "2026 Draft Operating and Capital Budgets EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293959",
+                "attachment_title": "Budgets pr\u00e9lim fonctionnement et immobilisations 2026 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293960",
+                "attachment_title": "Document 1 - 2026 Draft Budget Operating Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293961",
+                "attachment_title": "Document 1 - Sommaires du budget fonctionnement provisoire 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293962",
+                "attachment_title": "Document 2 - 2026 Draft Capital Budget Summaries EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293963",
+                "attachment_title": "Document 2 - R\u00e9sum\u00e9s du budget d"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293964",
+                "attachment_title": "Document 3 - Multi-Year Budget EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293965",
+                "attachment_title": "Document 3 - Budget pluriannuel FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293966",
+                "attachment_title": "Document 4 - Budget Document Guide.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293967",
+                "attachment_title": "Document 4 - Lignes directrices concernant le budget FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293968",
+                "attachment_title": "Document 5- Continuous Service improvements Initiatives.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293969",
+                "attachment_title": "Document 5 - Initatives de am\u00e9lioration continue des services FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293970",
+                "attachment_title": "Document 6 - Draft Budget 2026 Magazine.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293971",
+                "attachment_title": "Document 6 - Budget provisoire 2026 magazine.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293972",
+                "attachment_title": "Document 7 - Transit Committee Full Book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293973",
+                "attachment_title": "Document 7 - Transit Committee Condensed Book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293974",
+                "attachment_title": "Document 7 - Comit\u00e9 du transport en commun condens\u00e9 FR.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-FCS-FSP-0013 - City-wide",
+            "minutes": "The draft budget was tabled at the Council meeting of November 12, 2025. The Transit Committee\u2019s report on the draft budget will be considered by Council at its meeting of December 10, 2025.\nCyril Rogers, General Manager, Finance and Corporate Services, and Chief Financial Officer, Troy Charter, General Manager, Transit Services and Pat Scrimgeour, Director, Transit Customer Systems and Planning, presented an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nCommittee received the following submissions, and a copy of each is filed with the Office of the City Clerk:\nThe following members of the public spoke before the Committee and provided comments on the item:\nFollowing discussions, the Committee considered the following directions and motions:\nDirection to staff (Councillor M. Carr):\nThat staff be directed to continue their work to improve Para Transpo service, which may include measures such as expanding Para Transpo service hours, adding more flexibility for same-day bookings, and improving communications to customers.\nDirection to staff (Councillor S. Menard):\nThat staff be directed to continue discussions with the Ottawa Student Transportation Authority (OSTA) and Consortium de transport scolaire d'Ottawa (CTSO) regarding discounted youth passes, with an aim to achieve a discounted youth pass while sufficiently funding OC Transpo\u2019s capital and operational costs for delivering school transportation.\nDirection to staff (Councillor S. Menard):\nThat staff be directed to return to Budget Committee of the Whole with potential identified funding sources for 18 and under youth passes for weekends, after 5pm and in summers (July and August), how they interrelate for economy of scale and new ridership growth.\nAt the conclusion of questions to staff and Committee deliberations, Motions TC-2025-22-02 and TC-2025-22-03 were put before Committee and Motion TC-2025-22-03 was \u2018CARRIED\u2019, as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Transit Committee consider the relevant portions of the 2026 Operating and Capital Budgets and make recommendations to Council, sitting as Committee of the Whole, to be held December 10, 2025.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025 -22-01",
+                "motion_moved_by": "S. Desroches",
+                "motion_seconded_by": "",
+                "motion_text": "The 'Roadmap' Motion TC-2025-22-01 was subjected to a recorded vote, being 'CARRIED' with Councillor's M. Carr DISSENT on clause 1a).\nBE IT RESOLVEDTHAT the Transit Committee recommend that Council, sitting as Committee of the Whole, approve the Transit Committee 2026 Draft Operating and Capital Budgets, as follows:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "S. Menard",
+                      "D. Hill",
+                      "M. Carr",
+                      "S. Desroches",
+                      "W. Lo"
+                    ],
+                    "count": 8
+                  },
+                  "against": {
+                    "councillors": [
+                      "R. Brockington"
+                    ],
+                    "count": 1
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (8 to 1)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025 -22-02",
+                "motion_moved_by": "S. Desroches",
+                "motion_seconded_by": "",
+                "motion_text": "THEREFORE BE IT RESOLVED THAT:\nTHEREFORE BE IT FURTHER RESOLVED THAT staff introduce these changes as early as practical in 2026, with the understanding that some require significant technical and staffing changes that would not make a January 1 launch feasible.\nTHEREFORE BE IT FURTHER RESOLVED THAT the offsetting cost of these measures, estimated at up to $712,000 if fully implemented on an annualized basis, be funded from within the OC Transpo departmental budget.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025 -22-03",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Desroches motion \u2013 OC Transpo customer improvements be referred to Council.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Status Update \u2013 Transit Committee Inquiries and Motions for the period ending November 13, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293976",
+                "attachment_title": "Status Update - Inquiries and Motions.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0122 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Transit Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Motion \u2013 Councillor W. Lo \u2013 2026 bus procurement",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=293979",
+                "attachment_title": "Motion report - W. Lo - 2026 bus procurement (REV).pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0106 - City-wide",
+            "minutes": "Pursuant to subsection 59(5) of the Procedure By-law 2025-100, a revised motion was submitted on the same subject by the mover and substituted the original one contained in the Notice of Motion.\nTroy Charter, General Manager, Transit Services Department answered questions from the Committee.\nThe residents Angela Keller-Herzog, Ajay Ramachandran, Michael Barnard and Raymond Leury spoke before the Committee and provided comments on the item.\nFollowing discussions and questions of staff, the Committee CARRIED the motion report as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nThat Transit Committee recommend Council approve the following:\nFor all future bus procurements consideration be given to diesel and diesel-electric hybrid propulsion vehicles, depending on market availability, cost, and other operational considerations, and\nFor all future bus procurements consideration is given to the purchase of high-capacity vehicles, and\nFor all future bus procurements staff explore joint procurement opportunities with other transit agencies and maximize purchasing options for future years.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: February 12, 2026.",
+        "minutes": "The meeting adjourned at 05:19 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

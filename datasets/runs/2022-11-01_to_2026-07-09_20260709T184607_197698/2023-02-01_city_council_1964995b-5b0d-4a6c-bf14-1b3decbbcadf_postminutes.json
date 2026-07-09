@@ -1,0 +1,893 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1964995b-5b0d-4a6c-bf14-1b3decbbcadf&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1964995b-5b0d-4a6c-bf14-1b3decbbcadf&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - February 01, 2023",
+  "meeting_number": 6,
+  "meeting_date": "2023-02-01",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 22,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, February 1, 2023, beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155291",
+            "attachment_title": "Public Notices English - Council.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155292",
+            "attachment_title": "Public Notices French - Council.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "No regrets were filed.\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Mayor's Budget Address",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Mayor provided the Annual Budget Address to Council prior to the tabling of the 2023 Draft Budget.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 06/01",
+            "motion_moved_by": "L. Dudas",
+            "motion_seconded_by": "G. Darouze",
+            "motion_text": "That Transit Commission Report 1 be received and considered.\nThat the following reports related to the 2023 Draft Budget be received and tabled:\nThat the Rules of Procedure be suspended to receive and consider the following reports from the Finance and Corporate Services Department, as they provide information supplemental to the 2023 Budget Reports being tabled at this meeting:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "2023 Draft Operating and Capital Budgets",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155296",
+                "attachment_title": "ACS2023-FCS-FSP-0001 - 2023 Draft Operating and Capital Budgets EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155297",
+                "attachment_title": "ACS2023-FCS-FSP-0001 - 2023 Draft Operating and Capital Budgets FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155298",
+                "attachment_title": "Document 1 - 2023 Draft Operating Budget Summaries EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155299",
+                "attachment_title": "Document 1 - Sommaires du budget fonctionnement provisoire 2023 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155300",
+                "attachment_title": "Document 2 - 2023 Draft Capital Budget Summaries EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155301",
+                "attachment_title": "Document 2 - R\u00e9sum\u00e9s du budget d"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155302",
+                "attachment_title": "Document 3 - Policy Statements and Principles of the Service Review Framework EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155303",
+                "attachment_title": "Document 3 - \u00c9nonc\u00e9s de politique et principes sous-tendant le cadre d\u2019examen des services  FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155304",
+                "attachment_title": "Document 4 - Service Efficiency and Competitiveness Framework and Methodology EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155305",
+                "attachment_title": "Document 4 \u2013 Cadre et m\u00e9thodologie pour l\u2019efficacit\u00e9 et la comp\u00e9titivit\u00e9 des services FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155306",
+                "attachment_title": "Document 5 - Budget Document Guide.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155307",
+                "attachment_title": "Document 5- Lignes directrices concernant le budget FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155308",
+                "attachment_title": "Agriculture and  Rural Affairs Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155309",
+                "attachment_title": "Comit\u00e9 de l\u2019agriculture et des affaires rurales condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155310",
+                "attachment_title": "Agriculture and Rural Affairs Committee Full EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155311",
+                "attachment_title": "Audit Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155312",
+                "attachment_title": "Comit\u00e9 de v\u00e9rification condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155313",
+                "attachment_title": "Audit Committee Full EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155314",
+                "attachment_title": "Community Services Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155315",
+                "attachment_title": "Comit\u00e9 des services communautaires condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155316",
+                "attachment_title": "Community Services Committee Full book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155317",
+                "attachment_title": "Finance and Corporate Services Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155318",
+                "attachment_title": "Comit\u00e9 des finances et des services organisationnels condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155319",
+                "attachment_title": "Finance and Corporate Services Committee Full Book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155320",
+                "attachment_title": "Emergency Preparedness and Protective Services Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155321",
+                "attachment_title": "Comit\u00e9 des services de protection et d\u2019urgence condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155322",
+                "attachment_title": "Emergency Preparedness and Protective Services Committee Full book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155323",
+                "attachment_title": "Environment and Climate Change Committee - Rate Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155324",
+                "attachment_title": "Comit\u00e9 de l\u2019environnement et de la protection climatique - services financ\u00e9s par les redevances condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155325",
+                "attachment_title": "Environment and Climate Change Committee - Rate Full book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155326",
+                "attachment_title": "Environment and Climate Change Committee - Tax Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155327",
+                "attachment_title": "Comit\u00e9 de l\u2019environnement et de la protection climatique - services financ\u00e9s par les taxes condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155328",
+                "attachment_title": "Environment and Climate Change Committee - Tax Full book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155329",
+                "attachment_title": "Planning and Housing Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155330",
+                "attachment_title": "Comit\u00e9 de l\u2019urbanisme et du logement condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155331",
+                "attachment_title": "Planning and Housing Full book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155332",
+                "attachment_title": "Transit Commission Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155333",
+                "attachment_title": "Commission du transport en commun condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155334",
+                "attachment_title": "Transit Commission Full book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155335",
+                "attachment_title": "Comit\u00e9 des transports condens\u00e9 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155336",
+                "attachment_title": "Transportation Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155337",
+                "attachment_title": "Transportation Committee Full book EN.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat City Council:\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Committee of Adjustment",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Committee of Adjustment - 2023 Draft Operating Budget",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155338",
+                "attachment_title": "Report - Committee of Adjustment 2023 Draft Operating Budget - BIL.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155339",
+                "attachment_title": "Document 1 - 2023 Draft Operating Budget (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155340",
+                "attachment_title": "Document 1 - Pr\u00e9visions pr\u00e9liminaires du budget de fonctionnement de 2023 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat City Council receive and table the Committee of Adjustment 2023 Draft Operating Budget at its meeting on February 1, 2023, for subsequent consideration by Council in Committee of the whole to be held March 1, 2023.\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Crime Prevention Ottawa",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "2023 Draft Operating Budget - Crime Prevention Ottawa",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155341",
+                "attachment_title": "CPO 2023 draft Budget Transmittal Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155342",
+                "attachment_title": "Document 1 \u2013 CPO 2023 Draft Operating Budget (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155343",
+                "attachment_title": "Document 1 - CPO 2023 Draft Operating Budget (FR).pdf"
+              }
+            ],
+            "description": "Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat City Council receive and table the Crime Prevention Ottawa Draft 2023 Operating Budget at its meeting of February 1, 2023 for subsequent consideration by Council in Committee of the Whole to be held March 1, 2023.\u200b\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Ottawa Police Services Board",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Ottawa Police Service Board - 2023 Draft Operating and Capital Budgets",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155344",
+                "attachment_title": "2023 Budget Book online version X2.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat City Council receive and table the Ottawa Police Service 2023 Draft Operating and Capital Budgets at its meeting on February 1, 2023 for subsequent consideration by Council in Committee of the Whole to be held on March 1, 2023.\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Ottawa Public Library",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Ottawa Public Library : 2023 Draft Budget Estimates",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155345",
+                "attachment_title": "Transmittal Report - OPL 2023 Draft Budget Estimates, Transmittal Report (2).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155346",
+                "attachment_title": "Document 1 - Report to Board - Draft 2023 Operating and Capital Budget Estimates Four -Year Capital Forecast.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155347",
+                "attachment_title": "Document 2 - OPL Draft 2023 Operating and Capital Budget Book.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat City Council receive and table the Draft 2023 Ottawa Public Library Board Operating and Capital Budget on February 1, 2023 and for further consideration by Council in Committee of the Whole on March 1, 2023.\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Ottawa Board of Health",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "2023 Draft Operating Budget for the Ottawa Board of Health",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155358",
+                "attachment_title": "BOH Report 1 - Transmittal.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155359",
+                "attachment_title": "Draft Minutes Extract 2_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155360",
+                "attachment_title": "2023 Draft OPH Operating Budget Report - final - en.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155361",
+                "attachment_title": "2023 Draft OPH Operating Budget Report - final - fr.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155362",
+                "attachment_title": "Doc 1 - OPH 2023 Draft budget to Council.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155363",
+                "attachment_title": "Doc 1 - OPH 2023 Draft budget to Council fr.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Board of Health Recommendations\nThat City Council receive and table the 2023 Draft Operating Budget for the Ottawa Board of Health at its meeting on February 1, 2023, for subsequent consideration by Council in Committee of the Whole on March 1, 2023.\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "14.1",
+            "title": "2023 Fleet Vehicle and Equipment Plans - Information Supplemental to the Budget Estimates",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155348",
+                "attachment_title": "Fleet - 2023 Vehicle and Equipment Replacement and Growth Plan (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155349",
+                "attachment_title": "Fleet - 2023 Vehicle and Equipment Replacement and Growth Plan (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155350",
+                "attachment_title": "Document 1 \u2013 2023 Municipal Fleet Vehicle and Equipment Replacement Plan_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155351",
+                "attachment_title": "Document 1 \u2013 2023 Municipal Fleet Vehicle and Equipment Replacement Plan_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155352",
+                "attachment_title": "Document 2 \u2013 2023 Municipal Fleet Vehicle and Equipment Growth Plan___EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155353",
+                "attachment_title": "Document 2 \u2013 2023 Municipal Fleet Vehicle and Equipment Growth Plan___FR.pdf"
+              }
+            ],
+            "description": "ACS2023-FCS-FLT-0001 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat Council receive the 2023 Municipal Fleet Vehicle and Equipment Replacement\u202fPlan and the 2023 Municipal Vehicle and Equipment Growth Plan as described in this report as supplemental information to the Draft Budget 2023",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "14.2",
+            "title": "2022 FTE Analysis Report - Information Supplemental to the budget estimates",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155354",
+                "attachment_title": "FTE Analysis Report 2022_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155355",
+                "attachment_title": "FTE Analysis Report 2022_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155356",
+                "attachment_title": "FTE 2022 Analysis Cover Report_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155357",
+                "attachment_title": "FTE 2022 Analysis Cover Report_FR.pdf"
+              }
+            ],
+            "description": "ACS2023-FCS-HRS-0001 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat Council receive the FTE Analysis Report as supplemental information to the 2023 draft budget.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Transit Commission Report #1",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "15.1",
+            "title": "Financial Update for Zero-Emission Bus Program Funding",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155293",
+                "attachment_title": "Cover page - Financial Update for Zero-Emission Bus Program Funding.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155294",
+                "attachment_title": "Report - Financial Update for Zero-Emission Bus Program Funding.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=155295",
+                "attachment_title": "15.1_Motion_Gower_ ZEB Bus Report Accessibility.pdf"
+              }
+            ],
+            "description": "ACS2023-FSD-FIN-0001 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Commission Recommendations\nThat Council approve:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended (19 to 6)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 06/02",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "S. Menard",
+                "motion_text": "WHEREAS at its meeting on February 1, 2023, Council will consider a report titled, \u201cFinancial Update for Zero-Emission Bus Program Funding\u201d; and\nWHEREAS information pertaining to accessibility was inadvertently omitted from the report\u2019s Accessibility Impacts section;\nTHEREFORE BE IT RESOLVED THAT the report\u2019s Accessibility Impacts section be amended to include the following:\nAccessibility has been integral to the procurement process for zero-emission vehicles. Staff have considered the concerns expressed by the Accessibility Advisory Committee and other accessibility stakeholders about the low levels of noise produced by electric vehicles and the increased risk this poses to pedestrians, particularly those who are blind or partially sighted.Staff mitigated this risk by outfitting the City\u2019s first four pilot battery-electric buses with sound-emission technology. This technology emits a sound from an exterior speaker at the front of the bus, which is intended to mimic that of an internal combustion engine. The sound is generated when the bus is idling, and when it is moving at 32 km/hour or less, for example, when it is leaving or approaching a bus stop or intersection. In addition, the battery-electric buses included the same accessibility features as the fleet's newer bus models, including allocated spaces for customers using mobility devices equipped with \u201ctheatre-style\u201d flip-down seats; an additional visual next-stop-announcement sign mounted at the rear entrance; and interior and exterior speakers with improved sound quality.Once the pilot buses entered service in early 2022, two orientation sessions were coordinated by OC Transpo staff to familiarize accessibility stakeholders with the buses\u2019 sound-emission technology and other accessibility features. Representatives of the Accessibility Advisory Committee, CNIB, Alliance for the Equality of Blind Canadians, Canadian Council of the Blind, Vision Loss Rehabilitation Canada, CNIB Guide Dogs and the City's Accessibility Office participated in the 1.5-hour sessions, which included testing the sound-emission technology on-street in different locations and under different scenarios. The feedback from participants was positive: indicating that the sound generated by the bus's sound emission system was clearly audible, distinct and identifiable, and was useful to customers in identifying that a bus was passing or approaching a stop or intersection. In addition, stakeholders were supportive of the existing on-board accessibility features.Based on the feedback received, OC Transpo will: equip all future zero-emission buses with the equivalent sound-emission technology; ensure consistent sound, where possible, and volume of sound emission across all zero-emission buses; continue to equip all new battery-electric buses with the same on-board accessibility features; and, monitor new developments in legislation, regulations and emerging technology in sound-emission. OC Transpo will also continue to monitor and respond to feedback from accessibility stakeholders and customers with disabilities as the buses enter service.\nThe item was CARRIED as amended on a division 19 Yeas to 6 Nays:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "S. Menard",
+                      "C. Curry",
+                      "D. Hill",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "S. Desroches",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 19
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "C. Kelly",
+                      "D. Brown",
+                      "W. Lo"
+                    ],
+                    "count": 6
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (19 to 6)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Direction to Staff (Councillor Hill)\nThat staff be directed as follows:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 06/03",
+            "motion_moved_by": "L. Dudas",
+            "motion_seconded_by": "G. Darouze",
+            "motion_text": "That Transit Commission Report 1, the report from the Director of Fleet Services, entitled \u201c2023 Fleet Vehicle and Equipment Plans \u2013 Information Supplemental to the Budget Estimates\u201d; the report from the Director of Human Resources entitled \u201c2022 FTE Analysis Report \u2013 Information Supplemental to the Budget Estimates\u201d; be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "18.1",
+            "title": "Councillor S. Devine",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "S. Devine",
+                "motion_seconded_by": "R. Brockington",
+                "motion_text": "WHEREAS Ottawa has been hit with destructive weather events, including the tornados in 2018 and the derecho in 2022, causing extensive and lengthy power outages; and\nWHEREAS weather experts, as confirmed in the Official Plan, project that Ottawa will continue to experience severe, destructive weather events on a more frequent and basis; and\nWHEREAS in the 36 hours following the derecho of May 2022, approximately 150,000 Hydro Ottawa customers were without power, and many Ottawa residents went without power for over 10 days; and\nWHEREAS many Ottawa residents living in apartment buildings and condominium buildings were without power for over 10 days, without access to basic necessities such as elevators, emergency hallway lighting, and running water; nor access to emergency resources the city had set up for residents; and\nWHEREAS access to an elevator is essential to the personal autonomy, dignity, and safety of persons with disabilities and persons with mobility challenges living in apartment buildings and condominium buildings; and\nWHEREAS the Supreme Court of Canada has said that \u201cone must be wary of putting too low a value on accommodating the disabled. It is all too easy to cite increased cost as a reason for refusing to afford the disabled equal treatment.\u201d; and\nWHEREAS the Accessible Housing Network urges that the Government of Ontario require that every apartment building have a generator capable of powering elevators and emergency lighting; and\nWHEREAS Ottawa Fire Services has stated a need to shift priorities in their post-storm response to attend to residents living in apartment buildings; and\nWHEREAS Toronto City Council has recommended that such residential apartment and condominium buildings have backup generators; and\nWHEREAS the Protecting Human Rights in an Emergency Act, 2022, as brought forward by Ottawa West-Nepean MPP Chandra Pasma, seeks to amend theResidential Tenancies Act,2006, and theCondominium Act, 1998, to ensure that all apartment and condominium buildings have a back-up emergency generator capable of running an elevator, emergency hallway lighting, and water pumps for a period of two weeks;\nTHEREFORE BE IT RESOLVED THAT Ottawa City Council request that the Mayor write a letter addressed to the Premier of Ontario and all Ottawa MPPs expressing City Council\u2019s support of Bill 47,Protecting Human Rights in an Emergency Act(Emergency Power Generators), 2022, and asking the Government of Ontario to approve this legislation, and that this letter of support be sent to local MPPs, the Premier, and Minister of Municipal Affairs and Housing, and the Association of Municipalities of Ontario (AMO).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "18.2",
+            "title": "Councillor D. Brown",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "C. Kelly",
+                "motion_text": "WHEREAS the Independent Electricity System Operator has released an Expedited Procurement Process to procure 1.5 gigawatts of electrical capacity by mid-decade and has been engaging with municipalities with respect to Requests for Proposals for a significant number of new projects for energy generation, storage, and infrastructure; and\nWHEREAS the Expedited Procurement Process (the E-LT1 RFP) closing February 16, 2023 includes three (3) of thirteen (13) Rated Criteria Points for municipal council support resolutions; and\nWHEREAS after February 16, 2023 the Independent Electricity System Operator is planning two more procurement phases totalling 2.8 gigawatts of capacity to be available mid-decade; and\nWHEREAS the Independent Electricity System Operator requires a Municipal Support Resolution from the municipal council no later than sixty (60) days after the eighteen (18) month anniversary of the Contract Date; and\nWHEREAS some Independent Electricity System Operator resources participate in the Ontario electricity market without contracts; and\nWHEREAS it is not clear that the inability for a project to receive a \u201cMunicipal Support Resolution\u201d will necessarily lead to the revocation of a proponent\u2019s contract; and\nWHEREAS Ottawa must decrease its reliance on greenhouse gas-emitting sources of energy, including by increasing local renewable energy generation and battery storage, to achieve its greenhouse gas emission reduction targets; and\nWHEREAS the City has received a request for a Municipal Support Resolution for a 5-megawatt/20-megawatt hour battery energy storage system using lithium-ion battery technology at 650 Upper Dwyer Hill Road, Ottawa that is expected to occupy approximately 0.3 acres (0.12 ha) of land, including all required setbacks and spacing; and\nWHEREAS municipalities, namely through land use policies in the Official Plan and provisions in the Zoning By-law, set their own priorities with respect to where energy generation, storage, and infrastructure may be permitted; and\nWHEREAS increased energy generation, storage, and infrastructure can have significant impacts on local residents that are worth due consideration by Council under a framework in the Zoning By-law that reflects the City\u2019s Official Plan; andWHEREAS staff will bring forward an amendment to the City of Ottawa\u2019s Zoning By-law that implements the intent of the policies in the Official Plan with respect to renewable energy generation facilities and storage by Q4 2023 that is in advance of the municipal Comprehensive Zoning By-law update;\nTHEREFORE BE IT RESOLVED that the Mayor, on behalf of Council, write a letter to the President and Chief Executive Officer of the Independent Electricity System Operator to formally request confirmation that projects approved through the E-LT1 RFP and future procurements shall not proceed without a Municipal Support Resolution from municipal council in the form of an approved motion; and\nBE IT FURTHER RESOLVED that staff be directed to come forward with a complete set of regulations in advance of the new Zoning By-law to regulate energy generation, storage and infrastructure as a deliverable project in the 2023 Planning, Real Estate and Economic Development Department Workplan; and\nBE IT FURTHER RESOLVED that the appropriate Standing Committees evaluate current and future requests for Municipal Support Resolutions, including for the proposed battery energy storage system at 650 Upper Dwyer Hill Road, using current Official Plan renewable energy generation and storage policies until amendments have been made to Zoning By-law 2008-250 in Q4 2023; and\nBE IT FURTHER RESOLVED that until such time as amendments have been made to Zoning By-law 2008-250 in Q4 2023, staff be directed to advise any proponents seeking a Municipal Support Resolution through the E-LT1 RFP and future procurements that staff will not bring such requests to Council unless such requests were made prior to February 8th, 2023, or are considered through the relevant Standing Committee as described in this Motion.\nBE IT FURTHER RESOLVED that a copy of this motion be sent to the Premier of Ontario, the Ontario Minister of Energy, and the Association of Municipalities of Ontario.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "18.3",
+            "title": "Councillor C. Kelly",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "C. Kelly",
+                "motion_seconded_by": "D. Brown",
+                "motion_text": "WHEREAS Ontario\u2019s Independent Electricity System Operator (IESO) is undertaking a competitive procurement process for Long-term Reliability Projects to ensure reliability in Ontario\u2019s electricity grid; and\nWHEREAS Solar Flow-Through Funds (SFF) is proposing to add a 5-megawatt/20-megawatt hour Battery Energy Storage System (BESS) using lithium-ion battery technology at 650 Upper Dwyer Hill Road in Ward 5 \u2013 West Carleton-March; and\nWHEREAS the BESS supports the intent of the policies in the Official Plan with respect to renewable energy generation facilities and storage; and\nWHEREAS the BESS is expected to occupy approximately 0.3 acres (0.12 ha) of land, including all required setbacks and spacing; and\nWHEREAS the BESS will be charged by the local grid overnight when there is low electricity demand and will supply power to the grid at times of high demand, providing benefits to grid reliability; and\nWHEREAS a rated criteria of the IESO procurement process is formal support from the municipality in which the Long-Term Reliability Project is proposed to be located; and\nWHEREAS the deadline to submit proposals to the IESOP is February 16, 2023;\nTHEREFORE BE IT RESOLVED that City Council provide a Municipal Support Resolution for the Solar Flow-Through Funds\u2019 proposal to the Independent Electricity System Operator to develop a Battery Energy Storage System at 650 Upper Dwyer Hill Road.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 06/04",
+            "motion_moved_by": "L. Dudas",
+            "motion_seconded_by": "G. Darouze",
+            "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "19.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "A by-law of the City of Ottawa to designate certain lands at croissant Wabikon Crescent on Plan 4M-1618 as being exempt from Part Lot Control.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 06/05",
+            "motion_moved_by": "L. Dudas",
+            "motion_seconded_by": "G. Darouze",
+            "motion_text": "That the following by-law be read and passed:To confirm the proceedings of the Council meeting of February 1, 2023.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "22.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 06/06",
+            "motion_moved_by": "L. Dudas",
+            "motion_seconded_by": "G. Darouze",
+            "motion_text": "That the proceedings of the City Council meeting of February 1, 2023, be adjourned.\nThe meeting adjourned at 12:54 p.m.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      }
+    ]
+  }
+}

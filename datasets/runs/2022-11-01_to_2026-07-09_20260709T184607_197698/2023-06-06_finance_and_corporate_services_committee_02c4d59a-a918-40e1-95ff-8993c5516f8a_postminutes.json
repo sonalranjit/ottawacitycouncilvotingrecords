@@ -1,0 +1,618 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=02c4d59a-a918-40e1-95ff-8993c5516f8a&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=02c4d59a-a918-40e1-95ff-8993c5516f8a&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Finance and Corporate Services Committee - June 06, 2023",
+  "meeting_number": 5,
+  "meeting_date": "2023-06-06",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Mayor Mark Sutcliffe",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Matt Luloff",
+    "Laura Dudas",
+    "Cathy Curry",
+    "Glen Gower",
+    "Tim Tierney",
+    "Rawlson King",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "George Darouze"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 14,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136100",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136101",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on June 14, 2023 in Finance and Corporate Services Committee Report 5.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on June 5, 2023, and the deadline to register to speak by email is 8:30 am on June 6, 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "FCSC Minutes 4 \u2013 May 2, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136102",
+                "attachment_title": "FCSC Draft Final Minutes 4 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136103",
+                "attachment_title": "FCSC Draft Final Minutes 4 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "FCSC-2023-01 - Staff position vacancies",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136086",
+                "attachment_title": "Response to Inquiry - Staff position vacancies.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "City Manager\u2019s Office",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Delegation of Authority By-law Summary Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136087",
+                "attachment_title": "English Report - Delegation of Authority Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136088",
+                "attachment_title": "French Report - Delegation of Authority Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136089",
+                "attachment_title": "Document 1 - Schedule A - CMO.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136090",
+                "attachment_title": "Document 2 - Schedule B - FCSD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136091",
+                "attachment_title": "Document 3 - Schedule C - OCC.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136092",
+                "attachment_title": "Document 4 - Schedule D - CSSD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136093",
+                "attachment_title": "Document 5 - Schedule E - RCFSD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136094",
+                "attachment_title": "Document 6 - Schedule F - EPSD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136095",
+                "attachment_title": "Document 7 - Schedule G - TSD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136096",
+                "attachment_title": "Document 8 - Schedule H - IWSD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136097",
+                "attachment_title": "Document 9 - Schedule I - PRED.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136098",
+                "attachment_title": "Document 10 - Schedule J - PWD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136099",
+                "attachment_title": "Document 11 - Schedule K - CS.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-CMR-OCM-0007 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee and Council receive this report and Documents 1 through 11 with detailed summaries of each Schedule under the Delegation of Authority By-law for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "2022 Investments, Endowment Fund, and other Treasury Activities",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136132",
+                "attachment_title": "Report - 2022 Investments Endowment Fund and other Treasury Activities-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136133",
+                "attachment_title": "Document 1 \u2013 City of Ottawa Holdings-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136134",
+                "attachment_title": "Document 2 - BY-LAW NO. 2023 - xx-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136135",
+                "attachment_title": "Document 3 - Plan Governance-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136136",
+                "attachment_title": "Document 4 - Terms of Reference-AODA.pdf"
+              }
+            ],
+            "description": "File No.: ACS2022-FSD-FIN-0005 - City-wide",
+            "minutes": "Ms. Isabelle Jasmin, Deputy City Treasurer Corporate Finance, along with Mr. Cyril Rogers, Interim General Manager and Chief Financial Officer, Finance and Corporate Services Department, responded to questions.A question arose with respect to the reporting out mechanism regarding borrowing, Mr. Rogers agreed to report on this on a quarterly basis.\nAfter discussion, the Committee CARRIED this item as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.2",
+            "title": "2023 Tax and Rate Operating and Capital Budget Q1 Status",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136121",
+                "attachment_title": "Report - 2023 Tax and Rate Operating and Capital Budget Q1 Status-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136122",
+                "attachment_title": "Document 1 - Operating Results Summary March 31, 2023-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136123",
+                "attachment_title": "Document 2 - 2023 Q1 Compensation Summary-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136124",
+                "attachment_title": "Document 3 - 2023 Q1 Capital Works-In-Progress-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136125",
+                "attachment_title": "Document 4 - 2023 Q1 Operating Budget Adjustments and Transfers-AODA.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-FCS-FSP-0007 \u2013 City-wide",
+            "minutes": "Items 6.2 \u201c2023 Tax and Rate Operating and Capital Budget Q1 Status\u201d and 6.3 \u201cCapital Adjustments and Closing of Projects - City Tax and Rate Supported\u201d were considered simultaneously.\nMr. Cyril Rogers, Interim General Manager and Chief Financial Officer, Finance and Corporate Services Department and Ms. Svetlana Valkova, Manager, Finance and Corporate Services Department, spoke to a PowerPoint presentation, a copy of which is held on file with the City Clerk. Mr. Rogers and Ms. Valkova responded to questions.\nAfter discussion, the Committee CARRIED this item as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.3",
+            "title": "Capital Adjustments and Closing of Projects - City Tax and Rate Supported",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136126",
+                "attachment_title": "Report - Capital Adjustments and Closing of Projects - City Tax and Rate Supported-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136127",
+                "attachment_title": "Document 1 - Capital Projects Recommended for Closure-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136128",
+                "attachment_title": "Document 2 - Budget Adjustment Requiring Council Approval-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136129",
+                "attachment_title": "Document 3 - Projects Requiring Council Approval to Remain Open-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136130",
+                "attachment_title": "Document 4 - Budget Adjustments Processed Under Delegated Authority-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136131",
+                "attachment_title": "Document 5 - Reserve Fund Status-AODA.pdf"
+              }
+            ],
+            "description": "File No: ACS2023-FCS-FSP-0008 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.4",
+            "title": "Lease Financing Agreements 2022",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136104",
+                "attachment_title": "Report - Lease Financing Agreements 2022.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-FCS-FIN-0004 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat Finance and Corporate Services Committee and Council receive this report on outstanding Lease Financing Agreements as of 31 December 2022 as required by Ontario Regulation 653/05 and the City\u2019s Administration of Capital Financing and Debt Policy.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.5",
+            "title": "Enterprise Risk Management Program-Approval of Audit Recommended Actions",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136105",
+                "attachment_title": "English Report - Enterprise Risk Management Program.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136106",
+                "attachment_title": "French Report - Enterprise Risk Management Program.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136107",
+                "attachment_title": "English Document 1 - City of Ottawa Risk Appetite and Tolerance Statements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136108",
+                "attachment_title": "French Document 1 - City of Ottawa Risk Appetite and Tolerance Statements.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-FCS-BSS-0001 - City-wide",
+            "minutes": "Mr. Cyril Rogers, Interim General Manager and Chief Financial Officer, Finance and Corporate Services Department and Mr. Chris Hughes, Program Manager, Project Management Office, Finance and Corporate Services Department, spoke to a PowerPoint presentation, a copy of which is held on file with the City Clerk. Mr. Rogers, Mr. Hughes, along with Mr. David White, City Solicitor responded to questions.\nAfter discussion, the Committee CARRIED this item as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.6",
+            "title": "2022 Procurement Year in Review",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136115",
+                "attachment_title": "Report - ACS2023-FCS-PRO-0002 - 2022 Procurement Year in Review Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136116",
+                "attachment_title": "Document 1 - 2022 Consolidated DOA Report Summary-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136117",
+                "attachment_title": "Document 2 \u2013 2022 Payments Without Reference Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136118",
+                "attachment_title": "Document 3 - 2022 Annual Commodity Price Hedging Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136119",
+                "attachment_title": "Document 4 - 2022 Public \u2013 Private Partnership (P3) Report Update-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136120",
+                "attachment_title": "Document 5 - Contracts awarded under DOA Q3-Q4 2022-AODA.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-FCS-PRO-0002 - City Wide",
+            "minutes": "Mr. Will McDonald, Chief Procurement Officer, Procurement, Finance and Corporate Services Department and Ms. Joanne Graham, Manager, Procurement, Finance and Corporate Services Department, responded to questions.\u00a0\nAfter discussion, the Committee RECEIVED this item as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee and Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Application for Approval to Expropriate Lands \u2013 Earl Grey Drive Extension Project",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136109",
+                "attachment_title": "Report - Earl Grey Drive.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136110",
+                "attachment_title": "Initiating By-law - Expropriations - Earl Grey Extension Terry Fox Underpass Project.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-PRE-CRO-0006 - Kanata North (4)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee recommend that Council enact a by-law, in the form attached in Document 1, approving the making of an application pursuant to Section 4 of theExpropriations Actfor approval to expropriate lands that are required for purposes of the Earl Grey Drive Extension Project.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "ByWard Market Strategic Alignment Initiative and Public Realm Plan Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136111",
+                "attachment_title": "Report - ByWard Market.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136112",
+                "attachment_title": "Document 1 \u2013 ByWard Market District Operational Boundary and Parkdale Market Operational Boundary-AODA.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-PRE-RHU-0023 - Rideau Vanier (12)",
+            "minutes": "Mr. Court Curry, Manager, Right of Way, Heritage and Urban Design Services, Planning, Real Estate and Economic Development Department (PRED), Ms. Cindy VanBuskirk, Program Manager, High Economic Impact Programs, PRED and Ms. Amanda Mullins Program Manager, Event Central, Emergency and Protective Services Department spoke to a PowerPoint presentation, a copy of which is held on file with the City Clerk. Mr. Curry, Ms. VanBuskirk along with Mr. Chris Tuck, Director, Employment and Social Services, Community and Social Services Department responded to questions.Committee heard from the following public delegation:\u2022 \u00a0 \u00a0Brian Lahey and Sarah Jennings, ByWard Market Landowners Group\u2022 \u00a0 \u00a0Michelle Groulx, Ottawa Coalition of Business Improvement Areas\u2022 \u00a0 \u00a0Steve Ball, Ottawa Gatineau Hotel Association (OGHA)\u2022 \u00a0 \u00a0Stephen Beckta\u2022 \u00a0 \u00a0Catherine Callary, Ottawa Tourism*\u2022 \u00a0 \u00a0Sueling Ching, Ottawa Board of Trade\u2022 \u00a0 \u00a0Cheryl Parrott, Hintonburg Community Association[ * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions are held on file with the City Clerk. ]The following correspondence is held on file with the City Clerk.\u00b7 \u00a0 \u00a0Sylvie Grenier, Lowertown Community Association - submission received June 2, 2023\nAt the conclusion of questions to the delegations and to staff, and following Committee discussion, the report recommendations were then put before Committee and were Carried with the following direction to staff:\nDIRECTION TO STAFF (Councillor J. Leiper)That staff be directed to guarantee space for community-based organizations, and the Hintonburg Community Association in particular, in the course of crafting a use agreement for the Parkdale Park field house between the City and the Municipal Services Corporation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Use of Delegated Authority during 2022 by Revenue Services under Schedule \u201cB\u201d of By-law 2023-67",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136113",
+                "attachment_title": "IPD - Use of DOA during 2022 by Revenue Services-AODA.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-FCS-REV-0004",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "9.2",
+            "title": "PRED -\u00a0 2022 Delegated Authority Report - Agreements with the Federal or Provincial government, and Economic Development Funding",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=136114",
+                "attachment_title": "IPD - 2022 Delegted Authority Report.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-PRE-GEN-0006",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 05-01",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS report ACS2023-PRE-GEN-0006 is to provide information on activities on Planning, Real Estate and Economic Development Department use of delegated authority as per the current Delegation of Authority By-law (2022-29), within the mandate of Finance and Corporate Services Committee; and\nWHEREAS a technical amendment is required to correct three errors in Document 1 of the report.\nTHEREFORE BE IT RESOLVED that, with respect to report ACS2023-PRE-GEN-0006 Finance and Corporate Services Committee, amend Document 1 by:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Motions of Which Notice has been Previously Given",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "FCSC 2023-02 - LRT Stage 2 Construction",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor M. Luloff:\nAs a necessary component for the construction of the LRT Stage 2 Confederation Line Extension, there are required lane and ramp closures along the OR174, and surrounding roadways. The contract with East West Connectors allows for a certain degree of flexibility with regards to the closures, in order to facilitate works and/or to ensure the safety of the construction activity. While, there is no specific Ward Councillor approval required for these closures, and approvals are governed by the Project Agreement.\u00a0",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nJuly 4, 2023.",
+        "minutes": "The meeting adjourned at 12:17 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

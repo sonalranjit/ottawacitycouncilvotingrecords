@@ -1,0 +1,120 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a621d8e3-7ec9-4444-9161-697288e55f65&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a621d8e3-7ec9-4444-9161-697288e55f65&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - November 13, 2024",
+  "meeting_number": 110,
+  "meeting_date": "2024-11-13",
+  "meeting_start_time": "08:30",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Vice Chair: Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson"
+  ],
+  "absent_attendees": [
+    "Mark Sutcliffe"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 6,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "This meeting may be viewed online on the Ottawa City Council YouTube Channel or viazoom\u00a0https://us02web.zoom.us/j/84895604469\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board confirm the agenda of the 13 November 2024 special meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Items of Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Draft Operating and Capital Budgets 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=214682",
+                "attachment_title": "PSB 2025 Budget EN - v0.3.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=214683",
+                "attachment_title": "PSB 2025 Budget_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=214684",
+                "attachment_title": "Budget book online-2025.pdf"
+              }
+            ],
+            "description": "Presentation\nDocuments to be tabled at the meeting",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive and table the Ottawa Police Service 2025 Draft Operating and Capital Budgets, to be considered at the Board meeting on 25 November 2024.\nReceived and Tabled",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 9:09 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

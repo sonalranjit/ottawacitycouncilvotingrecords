@@ -1,0 +1,149 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=bca7fb3a-be5f-45af-97ed-dd5f6e24b93a&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=bca7fb3a-be5f-45af-97ed-dd5f6e24b93a&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Accessibility Advisory Committee - May 19, 2026",
+  "meeting_number": 33,
+  "meeting_date": "2026-05-19",
+  "meeting_start_time": "18:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair Vania Karam",
+    "Vice-Chair Holl Ellingwood",
+    "Wayne Antle",
+    "Ana Maria Cruz-Valderrama",
+    "Matthew Eliot",
+    "Jodi Fisher",
+    "David Humphries",
+    "Paula MacDonald",
+    "Anne Matio",
+    "William Van Veen",
+    "Hannah Walhad"
+  ],
+  "absent_attendees": [
+    "Ian Bourrie",
+    "Murray MacDonald"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 8,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [],
+        "description": "Members of Committee and Council, City staff, media and the general public may join the meeting with this link:\nZoom meeting no. 811 5034 9203\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak, or submit written comments is 4 pm on the day of the meeting.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "AAC Minutes 32 \u2013 April 21, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=321365",
+                "attachment_title": "3.1 AAC Minutes 32 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=321366",
+                "attachment_title": "3.1 Proc\u00e8s-verbal 32 du CCA (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Infrastructure and Water Services",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Accessibility for Ontarians with Disabilities Act, 2005 (AODA) Duty to Consult",
+            "attachments": [],
+            "description": "",
+            "minutes": "Agi Motz, Manager, Facilities Asset Management, Asset Management, Infrastructure and Water Services Department (IWSD), David Batky, Senior Engineer, Infrastructure Renewal, Building and Parks Assets, Asset Management, IWSD, Kevin Wherry, Manager, Parks and Facilities Planning, Recreation, Cultural and Facilities Services Department, and Elizabeth Murphy, Program Manager, Transportation Engineering Services, Transportation Planning, Planning, Development and Building Services Department provided a presentation and were available to answer questions from Members of the Advisory Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Advisory Committee then heard from the following delegation:\nThe Advisory Committee discussed, asked questions and provided feedback regarding the planned capital projects for the year where there is a duty to consult with the Advisory Committee.\nFollowing discussion, the Advisory Committee received the presentation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Accessibility Advisory Committee receive the presentation and provide feedback as appropriate.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: June 16, 2026.",
+        "minutes": "The meeting adjourned at 7:58 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

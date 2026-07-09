@@ -1,0 +1,1409 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f11bd3da-a057-4006-a8bb-73805b71bdff&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f11bd3da-a057-4006-a8bb-73805b71bdff&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - April 26, 2023",
+  "meeting_number": 13,
+  "meeting_date": "2023-04-26",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 28,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, 26 April 2023 beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156231",
+            "attachment_title": "Public Notices English - Council.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156232",
+            "attachment_title": "Public Notices French - Council.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Minutes of the Council meeting of 12 April 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156297",
+                "attachment_title": "OCC Draft Final Minutes 12 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156298",
+                "attachment_title": "OCC Draft Final Minutes 12 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [],
+        "description": "",
+        "minutes": "The communications were received.",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Responses to Inquiries",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "7.1.1",
+                "title": "OCC 2023-03 - Tree damage from 2022 Derecho",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156230",
+                    "attachment_title": "Response to Inquiry OCC 2023-03 Tree damage from 2022 Derecho EN FR.pdf"
+                  }
+                ],
+                "description": "",
+                "minutes": "",
+                "motions": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "No regrets were filed.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 13/01",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the report from the Ottawa Board of Health entitled \u201cOttawa Public Health 2022 Annual Report\u201d, the report from the Selection Panel, Police Services Board entitled \u201cAppointments to the Police Services Board\u201d, Built Heritage Committee Report 4, Emergency Preparedness and Protective Services Committee Report 3, Environment and Climate Change Committee Report 3, Planning and Housing Committee Report 7, Transit Commission Report 4, Transportation Committee Report 4, and the reports from the City Clerk entitled \u201cStatus Update - Council Inquiries and Motions for the period ending April 21, 2023\u201d and \u201cSummary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of April 12, 2023\u201d be received and considered.\nThat the Rules of Procedure be suspended to receive and consider an information report from the interim General Manager of Community and Social Services entitled \u201c2023-26 Allocation of Provincial Homelessness Prevention Program Funding\u201d in order that Council have the opportunity to receive a briefing and ask questions of staff in a timely manner.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Ottawa Board of Health",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Ottawa Public Health 2022 Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156255",
+                "attachment_title": "BOH Report 3 - Transmittal.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156256",
+                "attachment_title": "OPH 2022 Annual Report - BOH rpt.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156257",
+                "attachment_title": "2022 OPH Annual Report v2023.4 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156258",
+                "attachment_title": "2022 OPH Annual Report v2023.3 FR.pdf"
+              }
+            ],
+            "description": "ACS2023-OPH-MOH-0004 - City wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Board Of Health Recommendation\nThat City Council receive Ottawa Public Health\u2019s 2022 Annual Report, for information, in accordance with theCity of Ottawa Act, 1999.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Status Update - Council Inquiries and Motions for the period ending April 21, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156262",
+                "attachment_title": "Report_Status Update_Council Inquiries and Motions April 21, 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156263",
+                "attachment_title": "Document 2 - Motions and Directions Log - 2022-2026 Term of Council.pdf"
+              }
+            ],
+            "description": "ACS2023-OCC-CCS-0057 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "11.2",
+            "title": "Appointment to the Police Services Board",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156296",
+                "attachment_title": "Report - Appointment to Police Services Board.pdf"
+              }
+            ],
+            "description": "File No: ACS2023-OCC-CCS-0059 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat, further to the deliberations of the Selection Panel, Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Built Heritage Committee Report 4",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Designation of Iona Mansions, 1123-1131 Wellington Street West under Part IV of the Ontario Heritage Act",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156251",
+                "attachment_title": "Cover - Iona Mansions Designation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156252",
+                "attachment_title": "Report - Iona Mansions Heritage Analysis and Evaluation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156253",
+                "attachment_title": "Document 4 - Heritage Analysis and Evaluation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156254",
+                "attachment_title": "Document 5 - Statement of Cultural Heritage Value.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-RHU-0014 \u2013 Kitchissippi (Ward 15)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation\nThat Council issue a Notice of Intention to Designate the Iona Mansions, 1123-1131 Wellington Street West under Part IV of theOntario Heritage Actaccording to the Statement of Cultural Heritage Value attached as Document 5.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.2",
+            "title": "Cultural Heritage Evaluation of the former Canadian Pacific Railway Bridge",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156242",
+                "attachment_title": "Cover - CPR Cultural Heritage Evaluation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156243",
+                "attachment_title": "Report - CPR Rail Bridge.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156244",
+                "attachment_title": "Document 3 - Detailed Condition Assessment and Renewal Option Analysis Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156245",
+                "attachment_title": "Document 5 - Heritage Analysis and Evaluation Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-RHU-0015 - Capital (Ward 17)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations, as amended\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/02",
+                "motion_moved_by": "R. King",
+                "motion_seconded_by": "J. Leiper",
+                "motion_text": "BE IT RESOLVED that the Committee Recommendations be amended to replace Recommendation 3 with the original staff recommendation as follows:\n3. Direct Staff to report back to Built Heritage Committee on the findings of the Municipal Class Environmental Assessment and provide a recommendation regarding designation under Part IV of theOntario Heritage Act.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "C. Curry",
+                      "D. Hill",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 22
+                  },
+                  "against": {
+                    "councillors": [
+                      "S. Menard",
+                      "C. Kelly",
+                      "S. Plante"
+                    ],
+                    "count": 3
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (22 to 3)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.3",
+            "title": "Update and Conservation Options for the Hintonburg Pumping Station, a property designated under Part IV of the Ontario Heritage Act",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156246",
+                "attachment_title": "Cover - Hintonburg Pumping Station Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156247",
+                "attachment_title": "Report - Hintonburg Pumping Station.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156248",
+                "attachment_title": "Document 1 - Hintonburg Pumphouse Heritage Conservation Approach.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156249",
+                "attachment_title": "Document 2 - Structural Condition Assessment.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156250",
+                "attachment_title": "Document 3 - Stage 1 Archaeological Assessment.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-RHU-0011 - Kitchissippi (Ward 15)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation\nThat Council receive the following report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Emergency Preparedness and Protective Services Committee Report 3",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "By-law and Regulatory Services 2021 and 2022 Annual Reports",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156259",
+                "attachment_title": "ACS2023-EPS-BYL-0001 - Cover - Byl and Reg Serv Ann Repts.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156260",
+                "attachment_title": "ACS2023-EPS-BYL-0001 - BLRS 2021-2022 Annual Report FINAL (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156261",
+                "attachment_title": "ACS2023-EPS-BYL-0001 - BLRS 2021-2022 Annual Report FINAL (FR).pdf"
+              }
+            ],
+            "description": "File no: ACS2023-EPS-BYL-0001 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation\nThat Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Environment and Climate Change Committee Report 3",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "14.1",
+            "title": "Climate Change Master Plan \u2013 Annual Status Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156294",
+                "attachment_title": "ACS2023-PRE-EDP-0017 - CCMP Annual Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156295",
+                "attachment_title": "Doc 1 - CCMP Progress Report 2023.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-EDP-0017 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": "Carried with Councillor D. Brown dissenting on recommendation 5."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Planning and Housing Committee Report 7",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "15.1",
+            "title": "Minister\u2019s Zoning Order \u2013 4085 Strandherd Drive",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156238",
+                "attachment_title": "1 - (Cover) - ACS2023-PRE-PS-0053 - Minister\u2019s Zoning Order \u2013 4085 Strandherd Drive.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156239",
+                "attachment_title": "1 - Report (Revised) - Minister\u2019s Zoning Order \u2013 4085 Strandherd Drive - Copy.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-PS-0053 - Barrhaven West (Ward3)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Transit Commission Report 4",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "16.1",
+            "title": "Light Rail Regulatory Monitor and Compliance Officer Annual Report for 2022",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156264",
+                "attachment_title": "Cover page - LR RMCO Report 2022.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156265",
+                "attachment_title": "Report English - LR RMCO Report 2022.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156266",
+                "attachment_title": "Report French - LR RMCO Report 2022.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156267",
+                "attachment_title": "Document 1 English - LR RMCO Report 2022.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156268",
+                "attachment_title": "Document 1 French - LR RMCO Report 2022.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-OCC-GEN-0001 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Commission Recommendation\nThat Council receive the Light Rail Regulatory Monitor and Compliance Officer Annual Report, attached as Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "16.2",
+            "title": "Light Rail Regulatory Monitor Compliance Officer Contract",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156269",
+                "attachment_title": "Cover page - RMCO Contract.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156270",
+                "attachment_title": "Report English - RMCO Contract Renewal.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156271",
+                "attachment_title": "Report French - RMCO Contract Renewal.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-CMR-OCM-0004 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Commission Recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Transportation Committee Report 4",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "17.1",
+            "title": "Transportation Master Plan \u2013 Part 1",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156272",
+                "attachment_title": "ACS2023-PRE-TP-0001 - Coverpage - TMP Part 1 (v.2).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156273",
+                "attachment_title": "ACS2023-PRE-TP-0001 - TMP Part 1 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156274",
+                "attachment_title": "Doc 1 - Transportation Master Plan Policies (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156275",
+                "attachment_title": "Doc 2 - TMP Policies - Highlights (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156276",
+                "attachment_title": "Doc 3 - (Revised) Active Transportation Projects.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156277",
+                "attachment_title": "Doc 4 - (Revised) - Project Prioritization Frameworks (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156278",
+                "attachment_title": "Doc 5 - (Revised) Active Transportation Network Maps.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156279",
+                "attachment_title": "Doc 6 - Asset Management Implications of TMP Part 1 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156280",
+                "attachment_title": "Doc 7 - Changes to TMP Policies and Projects - Mar 2023 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156281",
+                "attachment_title": "Doc 8 - Consultation Summary Report - Mar 2023 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156282",
+                "attachment_title": "Doc 9 - As We Heard It - TMP Policies - Jul 2022 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156283",
+                "attachment_title": "Doc 10 - AWHI Report - Supplement - Jul 2022 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156284",
+                "attachment_title": "ACS2023-PRE-TP-0001 - TMP Part 1 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156285",
+                "attachment_title": "Doc 1 - Transportation Master Plan Policies (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156286",
+                "attachment_title": "Doc 2 - TMP Policies - Highlights (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156287",
+                "attachment_title": "Doc 3 - (Revised) Active Transportation Projects FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156288",
+                "attachment_title": "Doc 4 - (Revised) - Project Prioritization Frameworks (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156289",
+                "attachment_title": "Doc 6 - Asset Management Implications of TMP Part 1 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156290",
+                "attachment_title": "Doc 7 - Changes to TMP Policies and Projects - Mar 2023 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156291",
+                "attachment_title": "Doc 8 - Consultation Summary Report - Mar 2023 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156292",
+                "attachment_title": "Doc 9 - As We Heard It - TMP Policies - Jul 2022 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156293",
+                "attachment_title": "Doc 10 - AWHI Report - Supplement - Jul 2022 (FR).pdf"
+              }
+            ],
+            "description": "File No.\u00a0ACS2023-PRE-TP-0001 \u2013 City-Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations as amended\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/03",
+                "motion_moved_by": "W. Lo",
+                "motion_seconded_by": "M. Luloff",
+                "motion_text": "WHEREAS the Transportation Master Plan (TMP) is the document that guides the City of Ottawa\u2019s future decisions for its transportation network, including road, transit, and active transportation infrastructure; and\nWHEREAS the TMP was originally to be presented as one document to the previous Council, but due to delays from the pandemic, the decision was made to split the document into two \u2014 TMP parts one and two; and\nWHEREAS TMP part one is the policy document, which includes road design principles, active transportation considerations, and mode prioritization; and\nWHEREAS TMP part two has the bulk of our investments into the transportation network up to 2046, including new and improved roads and bridges, transit priority measures, and other related infrastructure that has yet to be presented; and\nWHEREAS the Origin-Destination Survey, which is used to guide the capital investments of the TMP, was delayed by the pandemic; and\nWHEREAS the Origin-Destination Survey is jointly conducted by the cities of Ottawa and Gatineau, their departments and agencies, the governments of the provinces of Ontario and Qu\u00e9bec, and the National Capital Commission; and\nWHEREAS the Origin-Destination Survey is complete, and staff are in the process of analyzing the data; andWHEREAS TMP part one is the policy document and does not provide Council with a complete understanding of how those policies will affect investments; and\nWHEREAS TMP part two, which features the bulk of our investments into the transportation network up to 2046, is needed to address deficiencies in the transportation network; and\nWHEREAS without the Origin-Destination Survey data and details from TMP part two, the policies of TMP part one may negatively affect Council\u2019s ability to deliver on investments for the transportation network, especially in growing communities across the city like Barrhaven and Orl\u00e9ans, among others; and\nWHEREAS decisions on policy and investments for the City of Ottawa\u2019s transportation network, arguably our most important infrastructure, must be made with the full and complete understanding of the impacts of policy on investments and the impacts of investments on policy; and\nTHEREFORE BE IT RESOLVED THAT the Transportation Master Plan (TMP) part one be referred back to the Transportation Committee to be considered in full with the Transportation Master Plan (TMP) part two, when part two is ready.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "C. Kelly",
+                      "S. Plante",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo"
+                    ],
+                    "count": 6
+                  },
+                  "against": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "S. Menard",
+                      "C. Curry",
+                      "D. Hill",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "M. Carr",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 19
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (6 to 19)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/04",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "J. Leiper",
+                "motion_text": "WHEREAS the City of Ottawa has declared a Climate Emergency; and\nWHEREAS the proposed Transportation Master Plan (TMP) commits Ottawa to \u201cBuild a Sustainable and Resilient Transportation System\u201d through a series of policies, including, but not limited to:\n\u2022 Design the transportation system to achieve GHG emission reduction targets;\u2022 Apply a \u201cclimate change lens\u201d to transportation project planning, design, and construction;\u2022 Continue to transition to clean vehicle technologies;\u2022 Minimize effects on land, water, air, wildlife and vegetation; and\u2022 Advocate for Federal and Provincial government support to address climate change;\nWHEREAS the development of the TMP Capital Infrastructure Plan will involve a multi-step process, of which application of the proposed Road Project Scoring Rubrics (New Roads and Road Widenings) is only one part; and\nWHEREAS the National Capital Commission, in its capacity as federal planning approval authority and agency responsible for the Capital\u2019s interprovincial mobility planning, have expressed both their desire to ensure environmental concerns are captured in the development of the TMP Capital Infrastructure Plan, and their pleasure to work with the City to improve sustainable transportation in the National Capital Region;\nTHEREFORE BE IT RESOLVED THAT staff include due consideration of induced demand and GHG emissions in the development and evaluation of the transit and road networks in the next phase of the Transportation Master Plan.\nBE IT FURTHER RESOLVED THAT staff consideration for induced demand extend only to Areas A, B, and C under Zoning Schedule 1 of theCity of Ottawa ZoningBy-law,where alternatives to private vehicles are more widely available.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "S. Menard",
+                      "C. Kelly",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 14
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "C. Curry",
+                      "D. Hill",
+                      "L. Johnson",
+                      "S. Desroches",
+                      "W. Lo"
+                    ],
+                    "count": 10
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (14 to 10)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/05",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "D. Hill",
+                "motion_text": "WHEREAS the proposed Transportation Master Plan (TMP) Policy Document states: \u201cThe City will review the removal of Rideau Street and King Edward Avenue from the City\u2019s identified truck route network once a suitable, safe, and efficient alternative is implemented. This will occur as part of a comprehensive review of the City\u2019s truck route network (further discussed in Policy 10-1).\u201d (p37 of Document 1); and\nWHEREAS the quality of life of the residents of Ottawa has been severely negatively impacted since 1967 by the level of downtown truck traffic on King Edward and Rideau streets; and\nWHEREAS one of the key goals of \u201ca suitable, safe, and efficient alternative\u201d is to remove truck traffic from the downtown core; and\nWHEREAS the National Capital Commission has written the mayor and council that they would like to see changes to the language in the TMP policy document regarding the implementation of solutions to the downtown interprovincial truck problem; and\nWHEREAS the Transportation Committee also received delegation from Action Sandy Hill requesting that plans for interprovincial truck movements be clarified prior to the finalization of any decisions regarding future infrastructure projects;\nTHERFORE BE IT RESOLVED THAT the wording of the proposed TMP Policy document be amended to add the following: \u201cAs part of any future interprovincial crossing studies, the City will work with the NCC to ensure the analysis of crossing demand considers different options for routing trucks through the downtown, including analysis of the impacts on surrounding communities, and a plan for how interprovincial trucks will be routed between Ontario Highway 417 and Quebec Highways 5 and 50. This information will be shared with Council prior to the finalization of a decision on a suitable, safe and efficient alternative.\u201d",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "J. Leiper",
+                      "S. Menard",
+                      "C. Curry",
+                      "C. Kelly",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 15
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "T. Tierney",
+                      "R. King",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "D. Hill",
+                      "L. Johnson"
+                    ],
+                    "count": 9
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (15 to 9)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/06",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "L. Dudas",
+                "motion_text": "WHEREAS the City of Ottawa is committed to promoting active transportation, including cycling, as a sustainable and healthy mode of transportation;\nWHEREAS the Transportation Master Plan Part 1 includes a proposed Crosstown Bikeway Network to enhance cycling infrastructure across the city and improve connectivity for cyclists;\nWHEREAS the Navan Road section from Brian Coburn Boulevard to the Blackburn Hamlet Bypass is a key transportation corridor that connects the communities of Bradley Estates, Trailsedge, and Chapel Hill South, and has high demand for active transportation options due to its proximity to the Chapel Hill South Park and Ride;\nWHEREAS City Council carried a motion on April 14, 2021, for \u201cNavan Road Urbanization - Review of Priority in the Transportation Master Plan Update,\u201d which included provisions for cycle tracks and sidewalks in support of the City's active transportation and complete streets policies;\nTHEREFORE BE IT RESOLVED that the section of Navan Road from Brian Coburn Boulevard to the Blackburn Hamlet Bypass be added to the proposed Crosstown Bikeway Network, as outlined in Document 5 of the Transportation Master Plan Part 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/07",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "M. Luloff",
+                "motion_text": "WHEREAS the City of Ottawa is experiencing significant growth and rapid new development in suburban-rural transects, with a substantial increase in new housing starts and sub-division projects planned;\nWHEREAS many residents of suburban-rural transects are concerned about an absence of transportation infrastructure and mobility options to meet their daily and weekly travel needs;\nWHEREAS the TMP Capital Infrastructure Plan is focused on identifying, analyzing, and addressing mobility needs, including quantifying travel demand relative to transportation infrastructure capacity;\nWHEREAS the Transit and Road Project Prioritization Frameworks aim to prioritize projects that meet the City\u2019s mobility needs and address travel demand, including scoring projects and identifying implementation phases for each project;\nTHEREFORE BE IT RESOLVED that Document 4 be revised to clarify that projects may be considered for an earlier phase of implementation in areas of the city where unmet travel demand is highest (as quantified through the technical analysis), where there is an existing lack of mobility options, and where other transportation infrastructure projects are unlikely to be constructed in the near-term; and,\nBE IT FURTHER RESOLVED that the Transportation Master Plan Part 2 develop maps and/or metrics to illustrate differences in mobility options and performance across different areas of the City, to inform implementation phasing as described above.\nCarried with Councillor's L. Johnson, S. Devine, and J. Bradley dissenting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/08",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the City of Ottawa is experiencing significant growth and rapid new development in suburban-rural transects, with a substantial increase in new housing starts and sub-division projects planned;\nWHEREAS it is crucial to prioritize and invest in major transportation infrastructure projects to support growth and intensification, including developing these areas into 15-minute communities and promoting healthy, connected streets as outlined in the New Official Plan;\nWHEREAS Policy 5-7 of the Transportation Master Plan (TMP) expects an increase in the percentage of funding allocated to sustainable transportation projects in the TMP Capital Infrastructure Plan compared to previous plans, and this same shift is expected to apply to the collection of Development Charge (DC) funding for transportation infrastructure to support growth and intensification;\nWHEREAS Policy 8-1 and 9-4 of the TMP Part 1 emphasizes the need to establish mechanisms for reviewing and reprioritizing projects as land use and transportation patterns evolve, and to review the use and structure of front-ending agreements to support the delivery of transportation infrastructure where appropriate;\nTHEREFORE BE IT RESOLVED that through the development of the Long Range Financial Plan, staff investigate opportunities to sufficiently and affordably fund major transportation infrastructure projects in areas experiencing significant rapid growth;\nBE IT FURTHER RESOLVED that the next DC Background Study and DC Bylaw Update reflect the projects and programs that support the TMP policies to ensure that there is sufficient affordable funding for major transportation infrastructure projects in areas experiencing significant rapid growth.\nBE IT FURTHER RESOLVED that the City of Ottawa explore policy changes to ensure future front-ending payments are aligned with and restricted to the amount of revenue collected within the benefitting area defined by staff.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 17
+                  },
+                  "against": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "R. King",
+                      "R. Brockington",
+                      "S. Menard",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley"
+                    ],
+                    "count": 7
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (17 to 7)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Community and Social Services",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "18.1",
+            "title": "2023-26 Allocation of Provincial Homelessness Prevention Program Funding",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156303",
+                "attachment_title": "ACS2023-CSS-GEN-0005_HPP 2023-26 Allocation Report_Council April 26 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156304",
+                "attachment_title": "Document 1_HPP Allocation Letter - 2023-24 - Ottawa_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156305",
+                "attachment_title": "Document 1_HPP Allocation Letter - 2023-24 - Ottawa_FR.pdf"
+              }
+            ],
+            "description": "ACS2023-CSS-GEN-0005 - Citywide",
+            "minutes": "Clara Freire, Interim General Manager, Community and Social Services and Paul Lavigne, Director, Housing, Community and Social Services provided a slide presentation, a copy of which is held on file with the City Clerk.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation:\nThat City Council receive this report for information on the City of Ottawa\u2019s 2023-2026 provincial Homelessness Prevention Program funding allocation.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "Bulk Consent Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "19.1",
+            "title": "Environment and Climate Change Committee Report 3",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "19.1.1",
+                "title": "City of Ottawa becoming signatory to the Montreal Pledge on Biodiversity",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156299",
+                    "attachment_title": "02 - ACS2023-OCC-CCS-0048 - Coverpage - Motion Report.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156300",
+                    "attachment_title": "ACS2023-OCC-CCS-0048 - Motion Report - Montreal Pledge - M Carr(1).pdf"
+                  }
+                ],
+                "description": "File No. ACS2023-OCC-CCS-0048 - City-wide",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee recommendations\nThat Council:\nCarried with Councillor's M. Luloff, G. Darouze, and S. Desroches dissenting.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "19.2",
+            "title": "Planning and Housing Committee Report 7",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "19.2.1",
+                "title": "Zoning By-law Amendment - 1420 Richmond Road, 365 Forest Street and 2583 and 2589 Bond Street",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156240",
+                    "attachment_title": "2 - (Cover) - ACS2023-PRE-PS-0034 - ZBLA - 1420 Richmond Road, 365 Forest Street and 2583 and 2589 Bond Street.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156241",
+                    "attachment_title": "2 - Report (Revised) - ACS2023-PRE-PS-0034 - ZBLA - 1420 Richmond Road, 365 Forest Street and 2583 and 2589 Bond Str.pdf"
+                  }
+                ],
+                "description": "ACS2023-PRE-PS-0034 - Bay (7)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee recommendation, as amended\nThat Council approve an amendment to Zoning By-law 2008-250 for 1420 Richmond Road, 365 Forest Street and 2583 and 2589 Bond Street, as shown in Document 1, to permit a maximum height of 41 metres and amended performance standards for the development of two 12-storey buildings, as detailed in Document 2,as revised.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "19.3",
+            "title": "City Clerk \u2013 Summary of Oral and Written Public Submissions",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "19.3.1",
+                "title": "Summary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of April 12, 2023",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156233",
+                    "attachment_title": "Summary of Submissions - Planning Matters approved April 12, 2023.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156234",
+                    "attachment_title": "Doc 1_Summary_ACS2023-PRE-PS-0027 - ZBLA - 262 Armstrong Street.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156235",
+                    "attachment_title": "Doc 2_Summary_ACS2023-PRE-PS-0031 -ZBLA - 326 and 330 Wilbrod Street.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156236",
+                    "attachment_title": "Doc 3_Summary_ACS2023-PRE-PS-0039  - ZBLA - 949 North River Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156237",
+                    "attachment_title": "Doc 4_Summary_ACS2023-PRE-PS-0040  -ZBLA \u2013 375 Famille-Laporte .pdf"
+                  }
+                ],
+                "description": "ACS2023-OCC-CCS-0058 - Citywide",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Report Recommendation\nThat Council approve the Summaries of Oral and Written Public Submissions for items considered at the City Council Meeting of April 12, 2023, that are subject to the \u2018Explanation Requirements\u2019 being thePlanning Act, subsections 17(23.1), 22(6.7), 34(10.10) and 34(18.1), as applicable, as described in this report and attached as Documents 1-4.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Disposition of Items Approved by Committees under Delegated Authority",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156301",
+            "attachment_title": "OCC Document 1 (EN) - Delegated Authority List.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=156302",
+            "attachment_title": "OCC Document 1 (FR) - Delegated Authority List.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That Council receive the list of items approved by its Committees under Delegated Authority, attached as Document 1.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Received",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "22.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 13/09",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the report from the Community and Social Services Department report entitled \u201c2023-26 Allocation of Provincial Homelessness Prevention Program Funding\u201d, the report from the Ottawa Board of Health entitled \u201cOttawa Public Health 2022 Annual Report\u201d, the report from the Selection Panel, Police Services Board entitled \u201cAppointments to the Police Services Board\u201d, Built Heritage Committee Report 4, Emergency Preparedness and Protective Services Committee Report 3, Environment and Climate Change Committee Report 3, Planning and Housing Committee Report 7, Transit Commission Report 4, Transportation Committee Report 4, and the reports from the City Clerk entitled \u201cStatus Update - Council Inquiries and Motions for the period ending April 21, 2023\u201d and \u201cSummary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of April 12, 2023\u201d be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "23.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "23.1",
+            "title": "Councillor A. Troster",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/10",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following Motion so that a resolution of endorsement may be provided prior to the FCM deadline in advance of the Annual General Meeting\nWHEREAS the Federation of Canadian Municipalities (FCM) represents the interests of member municipalities on policy and program matters that fall within federal jurisdiction;\nWHEREAS FCM\u2019s Board of Directors is comprised of elected municipal officials from all regions and sizes of communities to form a broad base of support and provide FCM with the united voice required to carry the municipal message to the federal government; and\nWHEREAS FCM\u2019s Annual General Meeting (AGM) will be held in conjunction with the Annual Conference and Trade Show, May 25 to 28, 2023, followed by the election of FCM\u2019s Board of Directors;\nWHEREAS Ottawa City council supports Councillor Tim Tierney on his bid to run for the Third Vice-President (3VP) Table Officers position on FCM;\nBE IT RESOLVED that the Council of the City of Ottawa endorses Councillor Tim Tierney to stand for election on FCM\u2019s Board of Directors for the period starting in May 2023 and ending June 2024 and\nBE IT FURTHER RESOLVED that Council assumes all costs associated with Councillor Tim Tierney attending FCM\u2019s Board of Directors meetings.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "24.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "24.1",
+            "title": "Councillor T. Tierney",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS Ottawa Race Weekend is scheduled for May 26 to May 28, 2023 with the Health and Fitness Expo included as a two-day event being held at Aberdeen Pavilion in Lansdowne Park for the first time; and\nWHEREAS the Expo is also the site of Race Kit Pick-Up and free shuttle buses will operate throughout the day on Friday, May 26 and Saturday, May 27 between Ottawa City Hall, and Lansdowne Park; and\nWHEREAS Ottawa Race Weekend is covering the cost of the shuttle buses and has requested the City of Ottawa waive the cost to park in the City Hall garage as part of promoting their shuttle buses for participants to easily obtain their race kits and visit Lansdowne Park; and\nWHEREAS implementing free evening and weekend parking at City Hall during Ottawa Race Weekend would result in an estimated $3,000 in foregone parking revenues and thus a reduced contribution to the Parking Reserve Fund;\nTHEREFORE BE IT RESOLVED that City Council approve that free parking at the City Hall parking garage located at 110 Laurier Avenue will be provided from Friday, May 26 at 6:00pm until Sunday, May 28 at 9:00pm.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "24.2",
+            "title": "Councillor M. Luloff",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "M. Luloff",
+                "motion_seconded_by": "L. Dudas",
+                "motion_text": "WHEREAS the Petrie Island Canoe Club (PICC) is an incorporated not-for-profit organization that offers canoe and kayak instruction and training programs on Petrie Island Beach, 795 Tweddle Road, accessible to all Ottawa residents; and,\nWHEREAS on April 27, 2022, Council declared 280 square metres of Petrie Island Beach as surplus to the City\u2019s needs in order for the PICC to lease the area from the City and \u00a0develop a marine storage facility through funding received from the federal grant known as the Canada Community Revitalization Fund that will allow the PICC to continue to serve diverse groups and demographics and offer programs to paddlers of all ages and abilities; and,\nWHEREAS on April 27, 2022, Council delegated authority to the Director, Corporate Real Estate Office to negotiate, conclude, execute, and amend on behalf of the City, a lease or licence agreement with the PICC for a term of up to 25 years for 280 square metres of Petrie Island Beach for a marine storage facility, regardless of the underlying value of the land area; and,\nWHEREAS in completing its due diligence through detailed design as submitted through the City\u2019s site plan control application process, the PICC has refined its leased area to include an increase of 280 square metres of Petrie Island Beach, to accommodate proper access to and maintenance of the marine storage facility; and,\nWHEREAS the Ward Councillor and City staff support the proposed increase of the leased area by 280 square metres for a total leased area of 560 square metres for the marine storage facility;\nTHEREFORE BE IT RESOLVED that Council declare a further 280 square metres of Petrie Island Beach as surplus to the City\u2019s needs;\nBE IT FURTHER RESOLVED that Council waive the Revenue Lease Agreements At Market Rent section of the City\u2019s Leasing Policy requiring the City to lease City owned real property at market value for the additional 280 square metres of Petrie Island Beach;\nBE IT FURTHER RESOLVED that Council waive the Notice of Surplus Real Property Available for Lease at Market Rent section of the Leasing Policy requiring the City to notify the public of City owned real property available for lease for the additional 280 square metres of Petrie Island Beach required by the PICC;\nBE IT FURTHER RESOLVED that Council delegate authority to the Director, Corporate Real Estate Office to negotiate, conclude, execute, and amend on behalf of the City, a nominal value agreement with a term of up to 25 years for 560 square metres of land for PICC use, as identified above, at Petrie Island Beach, 795 Tweddle Road;\nBE IT FURTHER RESOLVED that Council delegate authority to the General Manager, Recreation Cultural and Facility Services to negotiate, conclude, execute, and amend on behalf of the City, a seasonal operating agreement with PICC to allow for temporary mobility access to the waterfront to the mutual benefit of both parties at Petrie Island Beach, 795 Tweddle Road.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "25.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "25.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023 - 13/11",
+                "motion_moved_by": "G. Darouze",
+                "motion_seconded_by": "S. Menard",
+                "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed, with the exception of the following By-law listed as \u201ce\u201d on the Agenda.\ne) \u00a0 \u00a0A by-law to authorize the imposition of special charges on 3 Lyall St (the \"benefitting property\").",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "2023-174\u00a0 \u00a0 A by-law of the City of Ottawa to amend By-law No. 2020-340 being a by-law of the City of Ottawa respecting the protection of municipal trees and municipal natural areas in the City of Ottawa and trees on private property in the urban area of the City of Ottawa, and to repeal By-laws 2009-200 and 2006-279.\n2023-175\u00a0 \u00a0 A by-law of the City of Ottawa to regulate Right of Way patios on City highways and to repeal By-law No. 2017-92.\n2023-176\u00a0 \u00a0 A by-law of the City of Ottawa to amend By-law No. 2017-180 respecting the appointment of Municipal Law Enforcement Officers in accordance with private property parking enforcement.\n2023-177\u00a0 \u00a0 A by-law of the City of Ottawa to designate certain lands at rue Antonio Farley Street and cours du L\u00e9vrier Walk on Plan 4M-1710 as being exempt from Part Lot Control.\n2023-178\u00a0 \u00a0 A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 1420 Richmond Road, 365 Forest Street, and 2583 and 2589 Bond Street.\n2023-179\u00a0 \u00a0 A by-law of the City of Ottawa to amend By-law No. 2008-250 to remove the holding symbol from lands known municipally as 388 and 400 Albert Street, 156 and 160 Lyon Street.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "26.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 13/12",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the following by-law be read and passed:\nTo confirm the proceedings of the Council meeting of 26 April 2023.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "27.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "27.1",
+            "title": "Councillor R. Brockington",
+            "attachments": [],
+            "description": "",
+            "minutes": "Councillor R. Brockington (OCC 2023-06)\nRiver Ward\u2019s rat population, particularly on the west side of the Rideau River, is significant.Approximately 6 years ago, watermain renewal and road redesign work on Dynes Road and Prince of Wales Drive, coincided with a never seen before rat infestation at the nearby Carleton Square Condos near Meadowlands and Fisher. The Condo Corp has spent $58,000 since the infrastructure renewal on private contractor assistance.\u00a0The Central Park community, bounded by Merivale, Baseline and Clyde, saw an infestation in 2022 that overwhelmed many residents.\u00a0\u00a0North of Central Park, in Carlington, residents are reporting large volumes of rats in the neighbourhood.\u00a0Residents are demanding that the City of Ottawa assume a greater role in preventing rats from multiplying, mitigate their ability to travel from one neighbourhood to another, augment public outreach and communications on ways the public can assist in combating this problem, and proactively addressing property standard issues in neighbourhoods with higher than average public complaints of rat sightings.\u00a0Would City staff identify what best practices exist in any Canadian or American city where the municipal government has taken on a much more hands on approach to rat mitigation and to comment on ways the City of Ottawa could possibly increase its efforts in this regard.Would staff also comment if abutting the Experimental Farm in any way would increase a neighbourhood\u2019s rat population. \u00a0Would City staff inquire if Agriculture Canada is engaged in any rat mitigation measures on the periphery of its property, near residential neighbourhoods.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "28.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2023 - 13/13",
+            "motion_moved_by": "G. Darouze",
+            "motion_seconded_by": "S. Menard",
+            "motion_text": "That the proceedings of the City Council meeting of 26 April be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "",
+            "post_motion_text": "The meeting adjourned at 2:23 pm."
+          }
+        ]
+      }
+    ]
+  }
+}

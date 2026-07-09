@@ -1,0 +1,428 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=81aa6a48-55a4-42d6-8579-54cf0ad8143c&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=81aa6a48-55a4-42d6-8579-54cf0ad8143c&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - August 28, 2024",
+  "meeting_number": 32,
+  "meeting_date": "2024-08-28",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Riley Brockington",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Clarke Kelly",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Vice-chair: Councillor Glen Gower"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273547",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273548",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, September 4, 2024, in Planning and Housing Committee Report 32.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, August 27, 2024, and the deadline to register by email to speak is 8:30 am on Wednesday, August 28, 2024.",
+        "minutes": "This is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1-5.3 and 5.5 and 5.6 on today\u2019s Agenda.\nFor the items just mentioned, only those specifically identified in the Planning Act who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on Wednesday, September 4, 2024, please email or call the Committee or Council Coordinator.",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2024-32-01",
+            "motion_moved_by": "R. Brockington",
+            "motion_seconded_by": "",
+            "motion_text": "WHEREAS Chair Leiper and Vice Chair Gower have advised they will be absent for the 28 August 2024 Planning and Housing Committee meeting; and\nWHEREAS in accordance with Section 17 of the Procedure By-law and Robert\u2019s Rules of Order, in the absence of the Chair and Vice Chair, the Committee could elect an Acting Chair;\nTHEREFORE BE IT RESOLVED that Committee waive the requirement under Section 17 of the Procedure By-law to wait 15 minutes before appointing a presiding officer; and\nBE IT FURTHER RESOLVED that Councillor Kitts be elected as Acting Chair for the 28 August 2024 Planning and Housing Committee meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 30 \u2013 Wednesday, July 3, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273562",
+                "attachment_title": "PHC Final Minutes 30 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273563",
+                "attachment_title": "PHC Final Minutes 30 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "PHC Minutes 31 \u2013 Wednesday, July 9, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273560",
+                "attachment_title": "PHC Final Minutes 31 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273561",
+                "attachment_title": "PHC Final Minutes 31 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "OCC-2024-11 - Long-term future of the Central Experimental Farm \u2013 Working Group",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273543",
+                "attachment_title": "Inquiry Response - Tierney - Central Experimental Farm.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "OCC 2024-02 - Building Permit Processes and Costs",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273549",
+                "attachment_title": "Inquiry Response - Desroches - Permit processes and costs.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Zoning By-law Amendment \u2013 2973, 2983, 3053 and 3079 Navan Road and 2690 Pag\u00e9 Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273555",
+                "attachment_title": "ACS2024-PDB-PS-0063 - 2983, 3053 and 3079 Navan Road final.pdf"
+              }
+            ],
+            "description": "File No.\u00a0ACS2024-PDB-PS-0063 - Orl\u00e9ans South-Navan (19)",
+            "minutes": "Steve Belan, Planner II, Planning, Development and Building Services (PDBS) provided an overview of the report and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Applicant/Owner as represented by Tim Chadder, J.L. Richards was present and provided an overview of the Application and responded to questions from Committee.\u00a0\u00a0\u00a0\nThe Committee heard from the following delegation:\nThe following written submission were received by, and is filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Zoning By-law Amendment \u2013 6001 and 6005 Renaud Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273556",
+                "attachment_title": "ACS2024-PDB-PS-0060 - Zoning By-law Amendment - 6001 and 6005 Renaud Road.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PS-0060 \u2013 Orl\u00e9ans South-Navan (19)",
+            "minutes": "Steve Belan, Planner II, Planning, Development and Building Services (PDBS) provided an overview of the report and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Applicant/Owner as represented by Paul Robinson, P.H. Robinson Consulting was present and provided an overview of the Application and responded to questions from Committee.\u00a0 \u00a0\u00a0\nThe Committee heard from the following delegation:\n[ Individuals / groups, as marked above, either provided comments (*) in writing or by e-mail; all submissions and presentations (+) are held on file with the Office of the City Clerk. ]\nThe following written submission were received by, and is filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Zoning By-law Amendment \u2013 381 Kent Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273557",
+                "attachment_title": "ACS2024-PDB-PS-0074 - Zoning By-law Amendment \u2013 381 Kent Street AC MF.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PS-0074 \u2013 Somerset (14)",
+            "minutes": "The Applicant, as represented by Scott Alain, Fotenn, was present in support, and available to answer questions. The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "Application for Demolition and New Construction at 381 Kent Street, a Property Designated under Part V of the Ontario Heritage Act as part of the Centretown Heritage Conservation District",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273550",
+                "attachment_title": "ACS2024-PDB-RHU-0054 - Application for 381 Kent Street.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273551",
+                "attachment_title": "Document 5 - Site Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273552",
+                "attachment_title": "Document 6 - Elevations.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273553",
+                "attachment_title": "Document 7 - Renderings.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273554",
+                "attachment_title": "Document 8 - Heritage Impact Assessment.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-RHU-0054 \u2013 Somerset (14)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Planning and Housing Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.5",
+            "title": "Zoning By-law Amendment \u2013 9 Gurdwara Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273558",
+                "attachment_title": "ACS2024-PDB-PSX-0021 - Zoning By-law Amendment - 9 Gurdwara Road SW August 13.pdf"
+              }
+            ],
+            "description": "File Number. ACS2024-PDB-PSX-0021 \u2013 Knoxdale-Merivale (9)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.6",
+            "title": "Official Plan Amendment and Zoning By-law Amendment \u2013 30 Cleary Avenue",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273559",
+                "attachment_title": "ACS2024-PRE-PSX-0011 - Official Plan Amendment and Zoning By-law Amendment \u2013 30 Cleary Avenue - SW Aug 2.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PRE-PSX-0011 \u2013 Bay (7)",
+            "minutes": "Stream Shen, Planner III, Planning, Development and Building Services (PDBS) provided an overview of the report and answered questions from the Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk. \u00a0\nAlso present and responded to questions were the following:\nPDBS:\n\u2022 \u00a0 \u00a0Elizabeth Murphy, Program Manager, Transportation Engineering Services\nLegal Services\n\u2022 \u00a0 \u00a0Tim Marc, Senior Legal Counsel-Planning, Development & Real Es-tate\nThe Applicant/Owner as represented by the following were present and provided an overview of the Application and responded to questions from Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk. \u00a0\n\u2022 \u00a0 \u00a0Tyler Yakuchuk, Fotenn\u2022 \u00a0 \u00a0Rodney Wilts, Theia Partners Inc.\u2022 \u00a0 \u00a0Roberto Campos, Figurr Architects Collective\u2022 \u00a0 \u00a0Andrew Harte, CGH Transportation\nThe Committee heard from the following delegations:\nThe following written submission was received by, and is filed with, the Of-fice of the City Clerk, and distributed to Committee Members:\n\u2022 \u00a0 \u00a0Letter dated July 24, 2025 from Jacquelin Holzman\u2022 \u00a0 \u00a0Letter dated July 25, 2024 from Allan Ramsay\u2022 \u00a0 \u00a0Email dated August 27, 2024 from David Chernushenko\nFollowing discussion and questions of staff, the Committee carried the re-port recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Committee of Adjustment \u2013 Reserve Appointment",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273544",
+                "attachment_title": "IPD - ACS2024-OCC-CCS-0068 - Committee of Adjustment (AODA).pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-CCS-0068 \u2013 City-wide",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Cash-in-Lieu of Parkland",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273545",
+                "attachment_title": "IPD - ACS2024-FCS-FSP-0012 - Cash in Lieu of Parkland.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273546",
+                "attachment_title": "Document 2 - Cash-in-Lieu of Parkland Reserve Balances as of June 30, 2024 - AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FSP-0012 \u2013 City-wide",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nWednesday, September 11, 2024.",
+        "minutes": "The meeting adjourned at 1:28 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

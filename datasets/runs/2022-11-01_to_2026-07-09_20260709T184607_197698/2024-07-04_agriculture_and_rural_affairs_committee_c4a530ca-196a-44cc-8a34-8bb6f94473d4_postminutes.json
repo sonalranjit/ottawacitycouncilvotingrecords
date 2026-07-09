@@ -1,0 +1,366 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c4a530ca-196a-44cc-8a34-8bb6f94473d4&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c4a530ca-196a-44cc-8a34-8bb6f94473d4&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Agriculture and Rural Affairs Committee - July 04, 2024",
+  "meeting_number": 15,
+  "meeting_date": "2024-07-04",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+  "present_attendees": [
+    "Chair George Darouze",
+    "Vice-Chair Clarke Kelly",
+    "David Brown",
+    "Catherine Kitts",
+    "Matt Luloff"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268378",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268379",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, July 10, 2024 in Agriculture and Rural Affairs Committee Report 15.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, July 3, 2024, and the deadline to register by email to speak is 9:00 am on Thursday, July 4, 2024.",
+        "minutes": "The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 4.3 on today\u2019s Agenda.\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on Wednesday, July 10, 2024, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "ARAC Minutes 14 - Thursday, June 6, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268389",
+                "attachment_title": "ARAC Final Minutes 14 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268390",
+                "attachment_title": "ARAC Final Minutes 14 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "July 1, 2020 to June 30, 2022 Rural Residential Land Survey",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268385",
+                "attachment_title": "4.1 - ACS2024-PDB-PS-0062 (Revised) - Rural Residential Land Survey.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268386",
+                "attachment_title": "4.1 - Document 1 (Revised) - July 1, 2020 to June 30, 2022.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268387",
+                "attachment_title": "4.1 - Document 2.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268388",
+                "attachment_title": "Amendment Motion.pdf"
+              }
+            ],
+            "description": "ACS2024-PDB-PS-0062 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat Agriculture and Rural Affairs Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-15-01",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS there are numerical errors in report 4.1 July 1, 2020 to June 30, 2022 Rural Residential Land Survey (\u201cthe Report\u201d) and Document 1 \u2013 July 1, 2020 to June 30, 2022 Rural Residential Land Survey report (\u201cDocument 1\u201d); and\nWHEREAS these errors relate to the number of housing starts from mid-2020 to mid-2022 and the projected years supply in rural villages.\nTHEREFORE BE IT RESOLVED that the third paragraph on p. 5 of the Report be amended as follows:\nThe four villages of Manotick, Greely, Richmond and Carp, have existing or planned municipal services, which is where the new Official Plan directs for most of the village growth to occur (OP policy 3.4 1). A total of1,219housing starts occurred in these four villages over the past 48 months, averaging305per year. These four villages have a development potential of 6,953 dwellings. Based on the consumptions over the past 4-years, there is a23-year supply in these four villages. Within the remaining villages there is a38-year supply based on a residential unit potential total of 1,918 dwellings at an average of51housing starts per year. This is consistent with OP policy 3.4 1) which calls for village growth to be directed towards where municipal services exist or are planned in the villages of Richmond, Manotick, Greely and Carp.\nBE IT FURTHER RESOLVED that the last paragraph on p. 19 and the second last paragraph on p. 20 of Document 1 be amended as follows:\nThe four villages of Manotick, Greely, Richmond and Carp have existing or planned municipal services, which is where the new Official Plan directs for most of the village growth to occur (OP policy 3.4 1). These four villages have a unit potential of 6,953 units. These four villages also had a total of564housing starts from Mid-2018 to Mid 2020 and655housing starts from Mid-2020 to Mid-2022, averaging305per year. Based on the current 4-year trajectory, there is a23-year supply in these 4 villages. Within the remaining villages there is a38-year supply based on a unit potential of 1,918 units and an average of51housing starts per year.; and\nOverall, there is an estimated potential for approximately 10,823 units in rural Ottawa on June 30, 2022, not including future severances, infill, secondary dwelling units or coach houses. At average rates of development of 134 units per year outside of villages and 356 units per year within villages observed over the most recent 48-month period, this supply is sufficient for approximately15years outside and 25 years within villages.\nBE IT FURTHER RESOLVED that Table \u201cSupply in Villages Based on Unit Potential, June 30, 2022\u201d on p. 5 of the Report and Table 4 in Document 1 be replaced with the table attached to this motion and on file with the City Clerk.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Rural Community Building Grant Program - Grant Review Application (Osgoode Legion)",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268383",
+                "attachment_title": "4.2 - ACS2024-PDB-PS-0083 - RCBGP (Osgoode Legion).pdf"
+              }
+            ],
+            "description": "ACS2024-PDB-PS-0083 - Osgoode (20)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Agriculture and Rural Affairs Committee approve the recommendation on the Rural Community-Building Grants Program application as detailed in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Zoning By-law Amendment \u2013 Part of 2824 Goodstown Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268382",
+                "attachment_title": "4.3 - ACS2024-PDB-PSX-0018 2824 - Zoning By-law - Goodstown Road.pdf"
+              }
+            ],
+            "description": "ACS2024-PDB-PSX-0018 - Rideau-Jock (21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Strategic Initiatives Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Wetland Omnibus Official Plan Amendment and Zoning By-law Amendment",
+            "attachments": [],
+            "description": "ACS2024-SI-CCRX-0001 - West Carleton-March (5), Osgoode (20), and Rideau-Jock (21)\u00a0\nWIthdrawn",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Infrastructure and Water Services",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Cassidy Municipal Drain \u2013 Appointment of Engineer",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268380",
+                "attachment_title": "6.1 - ACS2024-IWS-WL-0006 - Cassidy MD.pdf"
+              }
+            ],
+            "description": "ACS2024-IWS-WL-0006 - Osgoode (20) \u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend Council appoint Mr. Andy Robinson, P. Eng of Robinson Consultants Inc. as the Engineer of record to prepare a report under:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.2",
+            "title": "Quaile Municipal Drain \u2013 Report Findings and Recommendations and Appointment of Engineer for Supplemental Study and Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268381",
+                "attachment_title": "6.2 - ACS2024-IWS-WL-0007 - Quaile MD.pdf"
+              }
+            ],
+            "description": "ACS2024-IWS-WL-0007 - Osgoode (20) \u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "ROMA 2024 Conference Delegate Report (Clarke Kelly)",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=268384",
+                "attachment_title": "8.1 -  IPC - ROMA 2024 IPD_Kelly_.pdf"
+              }
+            ],
+            "description": "ACS2024-OCC-CCS-0066",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Open Mic Session",
+        "attachments": [],
+        "description": "",
+        "minutes": "John Hendrikx and Jane Patterson (Small Flock Ontario)",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Motion \u2013 Councillor Brown - Speed Limit Coherence (Ashton Station Road)",
+            "attachments": [],
+            "description": "ACS2024-OCC-CCS-0067 - Rideau-Jock (21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2024-15-01",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "That the Rules of Procedure be Suspended to consider this motion such that it may rise to Council in a timely manner.\nWHEREAS Ashton Station Road serves as the boundary between the City of Ottawa and the Township of Beckwith within the Village of Ashton; and\nWHEREAS the Township of Beckwith has indicated their interest (via a letter to the Ward Councillor) in establishing a 40 km/h speed limit on Ashton Station Road approximately between Ashton Creek Crescent and Beckwith 9th Line Road; and\nWHEREAS a portion of Ashton Station Road, which is within the boundary of the City of Ottawa, has a speed limit of 50km/h; and\nWHEREAS Ontario\u2019s Highway Traffic Act, Regulation 615, Section 2(1) and Ontario Traffic Manual Book 5 Standards state that differing speed limits in opposing travel directions upon any roadway are not permitted; and\nWHEREAS speed limit reductions are intended for implementation by their respective municipalities in response to residents\u2019 concerns regarding operating speeds on those portions of the roads in question; and\nWHEREAS the Councillor\u2019s office in Ottawa has received concerns from residents regarding the posted speed limit on those portions of the road in question; and\nWHEREAS staff have delegated authority to implement speed limit changes only if they meet the criteria of the current Council approved City of Ottawa Speed Zoning Policy; and\nWHEREAS staff have concluded that the operating speed within the section of Ashton Station Road is 62 km/h and that the speed reduction to 40 km/h does not align with the City of Ottawa Speed Zoning Policy; and\nWHEREAS Ashton Station Road is considered a boundary line for the purpose of theMunicipal Act, 2001, and Municipalities abutting a boundary line have joint jurisdiction over the highways forming the boundary line; and\nWHEREAS theMunicipal Act, 2001, requires all municipalities with joint jurisdiction to enact by-laws in respect of the highway; and\nWHEREAS to reduce the speed limit on Ashton Station Road, both the City of Ottawa and the Township of Beckwith are required to enact by-laws pursuant to theMunicipal Act, 2001; and\nTHEREFORE BE IT RESOLVED THAT the Agriculture and Rural Affairs Committee recommend Council approve that staff be directed to draft a by-law identical to that drafted by the Township of Beckwith that would enable the implementation of a 40 km/hr posted speed limit on Ashton Station Road from Ormrod Road to Beckwith 9th Line Road.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nThursday, September 5, 2024",
+        "minutes": "The meeting adjourned at 10:45 am.",
+        "motions": []
+      }
+    ]
+  }
+}

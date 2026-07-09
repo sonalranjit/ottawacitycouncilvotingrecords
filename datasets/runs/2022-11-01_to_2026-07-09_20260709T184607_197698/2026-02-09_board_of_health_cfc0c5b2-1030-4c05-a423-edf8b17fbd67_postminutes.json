@@ -1,0 +1,406 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=cfc0c5b2-1030-4c05-a423-edf8b17fbd67&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=cfc0c5b2-1030-4c05-a423-edf8b17fbd67&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Board of Health - February 09, 2026",
+  "meeting_number": 1,
+  "meeting_date": "2026-02-09",
+  "meeting_start_time": "17:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Catherine Kitts",
+    "Vice-Chair Tammy DeGiovanni",
+    "Member Brent Bauer",
+    "Member Marty Carr",
+    "Member Sabrina Chung",
+    "Member Laura Dudas",
+    "Member Glen Gower",
+    "Member Rawlson King",
+    "Member Jessica Bradley",
+    "Member Nwanneka Ejiofor",
+    "Member Emily Gruenwoldt"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 17,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314184",
+            "attachment_title": "Public Notices_en.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314185",
+            "attachment_title": "Avis publics_fr.pdf"
+          }
+        ],
+        "description": "Please see the attached document for public notices and meeting information, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; processes and timelines for written and oral submissions; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting was called to order at 5:00 p.m by the Board Secretary. At the time of roll call, all members were present except Member Ejiofor, who joined the meeting at 5:04 p.m., and Member Gower, who joined at 5:19 p.m.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Confirmation of Minutes",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314180",
+            "attachment_title": "Meeting Minutes - BOH_Dec01_2025 - English.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314181",
+            "attachment_title": "Meeting Minutes - BOH_Dec01_2025 - French.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Rawlson King",
+            "motion_seconded_by": "",
+            "motion_text": "Confirmation of minutes of the meeting of December 1, 2026.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Communications",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314182",
+            "attachment_title": "Communications List EN.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314183",
+            "attachment_title": "Communications List FR.pdf"
+          }
+        ],
+        "description": "One communication item has been received (held on file with the Board of Health Secretary).",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Rawlson King",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: Update on the Revised Ontario Public Health Standards, Emergency Management at Ottawa Public Health \u2013 Annual Update and 2026 Governance Review Report for the Ottawa Board of Health, be received and considered;AND BE IT FURTHER RESOLVED THAT the rules of procedure be suspended to permit the agenda to be amended to introduce the report titled \u201cElection/Confirmation of the Chair and Vice-Chair for 2026\u201d for consideration at today\u2019s meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Confirmation of the Chair and Vice-Chair for 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314194",
+                "attachment_title": "Report - Confirmation of the Chair and Vice-Chair - 30Jan2026.pdf"
+              }
+            ],
+            "description": "File ACS2026-OPH-BOH-0003- City-wide",
+            "minutes": "Pursuant to procedure, the Board Secretary chaired the meeting until the Board's adoption of the report titled \u201cConfirmation of the Chair and Vice\u2011Chair for 2026.\u201d\nFollowing its approval on consent, Chair Catherine Kitts assumed the chair.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Rawlson King",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Chair of the Board of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2026-OPH-BOH-0001\u2013 City-wide",
+            "minutes": "The Chair provided a verbal update, highlighting the final year of the current Board\u2019s term, recent participation in the Rural Ontario Municipal Association conference, and discussions with the Province regarding public health funding pressures. The Chair also noted upcoming strategic planning work, Board engagement opportunities, Council\u2019s approval of the new Zoning By\u2011law and OPH\u2019s role in promoting healthy built environments, and the observance of Black History Month.\nDiscussion on this item lasted approximately six minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Rawlson King",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.3",
+            "title": "Medical Officer of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2026-OPH-MOH-0001 \u2013 City-wide",
+            "minutes": "The Medical Officer of Health provided a verbal update, noting seasonal respiratory illness trends and prevention messaging, Ottawa Public Health\u2019s commitment to advancing Black health and addressing anti\u2011Black racism, new federal funding to support dementia prevention initiatives in partnership with the Ottawa Hospital Research Institute, and the upcoming retirement of a senior OPH leader, Cameron Keyes.\nDiscussion on this item lasted approximately seven minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Rawlson King",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.4",
+            "title": "Update on the Revised Ontario Public Health Standards",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314179",
+                "attachment_title": "BOH Report_Update on the Revised OPHS_Feb 2026.pdf"
+              }
+            ],
+            "description": "File ACS2026-OPH-KPQ-0001\u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Rawlson King",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this report for information purposes.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.5",
+            "title": "Emergency Management at Ottawa Public Health \u2013 Annual Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314193",
+                "attachment_title": "7.4 OPH_Emergency Management _Annual_Update 2026.pdf"
+              }
+            ],
+            "description": "File ACS2026-OPH-EHI-0001\u2013 City-wide",
+            "minutes": "The report was held to allow for one public delegation. The Board received a presentation from Mr. James Scott MacKillop, which is held on file by the Board Secretary.\nThere was no discussion by the Board.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Rawlson King",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive the Emergency Management at Ottawa Public Health \u2013 Annual Update report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.6",
+            "title": "2026 Governance Review Report for the Ottawa Board of Health",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314186",
+                "attachment_title": "BOH 2026 Governance Review Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314187",
+                "attachment_title": "BOH Procedure-By-Law-2011-1.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314188",
+                "attachment_title": "Ottawa Board of Health - Code of Conduct.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314189",
+                "attachment_title": "Delegation_of_Authority By-Law 2011-2.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314190",
+                "attachment_title": "Ottawa Board of Health Travel Policy.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314191",
+                "attachment_title": "Docutment 5- Governane SelfEvaluation Survey.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=314192",
+                "attachment_title": "Document 6 - Election Related Resources Policy.pdf"
+              }
+            ],
+            "description": "File ACS2026-OPH-BOH-0002\u2013 City-wide",
+            "minutes": "The Board held the report to allow for Chair Kitts to provide an overview of the 2026 Governance Review, acknowledging the collaborative work undertaken to review Board by\u2011laws and policies in light of legislative updates, City policies, and governance best practices.\nThe Chair highlighted key proposed updates, including revisions to the Procedure By\u2011law, Delegation of Authority By\u2011law, Code of Conduct, Travel Policy, and Medical Officer of Health Performance Appraisal Policy, as well as the proposed adoption of the City\u2019s Election\u2011Related Resources Policy. The Chair also noted the results of the Board\u2019s governance self\u2011evaluation survey and upcoming follow\u2011up discussions.\nDiscussion on this item lasted approximately three minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Rawlson King",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items*",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Rawlson King",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: Update on the Revised Ontario Public Health Standards, Emergency Management at Ottawa Public Health \u2013 Annual Update and 2026 Governance Review Report for the Ottawa Board of Health, be received and adopted.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "None.\u00a0",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Rawlson King",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT Confirmation By-law no. 2026-1, a by-law of the Board of Health for the City of Ottawa Health Unit to confirm the proceedings of the Ottawa Board of Health at its meeting of February 9, 2026, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting was adjourned at 5:30pm.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, April 20, 2026- 5:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5d05b9d9-5306-4cb6-ae76-6ce7a9b83f39&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5d05b9d9-5306-4cb6-ae76-6ce7a9b83f39&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Police Service Board Human Resources Committee - January 29, 2026",
+  "meeting_number": 26,
+  "meeting_date": "2026-01-29",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Peter Henschel",
+    "Marty Carr",
+    "Michael Polowin"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 8,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "With the consent of Committee members, the agenda was amended to add a new item, \"Leadership Development Program\".",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee confirm the agenda of the 29 January 2026 meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried as amended",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "2.1",
+            "title": "Minutes #25 of 07 October 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=288645",
+                "attachment_title": "Draft public Minutes - Police Service Board Human Resources Committee_Oct07_2025 - English.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee confirm Minutes #25 of the 07 October 2025 meeting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Items of Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Leadership Development Program",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=288646",
+                "attachment_title": "Ottawa Police Service Leadership Development Program.pdf"
+              }
+            ],
+            "description": "Presentation",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee receive this presentation for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee adjourn the publicportion of its meeting to move In Camera to discuss one Labour Relations Matter.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 11:03 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Tuesday, April 14, 2026 - 1:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

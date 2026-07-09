@@ -1,0 +1,308 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=b7d58039-7981-4a4b-ac30-9eed3d81b751&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=b7d58039-7981-4a4b-ac30-9eed3d81b751&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Board of Health - December 20, 2022",
+  "meeting_number": 1,
+  "meeting_date": "2022-12-20",
+  "meeting_start_time": "17:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Vice-Chair: Tammy DeGiovanni",
+    "Member Elyse Banham",
+    "Member Marty Carr",
+    "Member Laura Dudas",
+    "Member Glen Gower",
+    "Member Theresa Kavanagh",
+    "Member Rawlson King",
+    "Member Catherine Kitts",
+    "Member Lewis Leikin",
+    "Member Suzanne Pinel",
+    "Member Peter Tilley"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 15,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=106950",
+            "attachment_title": "Public Notices_en.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=106951",
+            "attachment_title": "Avis publics_fr.pdf"
+          }
+        ],
+        "description": "Please see the attached document for public notices and meeting information, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; processes and timelines for written and oral submissions; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Board of Health. The final draft Minutes will be published with the agenda for the next regular Board meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "Declarations of Office - Council Members",
+        "minutes": "Councillors Carr, Dudas, Gower, King and Kitts read their Declarations of Office and were sworn in as new Board members.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "Member Kavanagh was absent during the roll call.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "",
+        "minutes": "No regrets were received.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No declarations of pecuniary interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Communications",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=106952",
+            "attachment_title": "Communications List EN.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=106953",
+            "attachment_title": "Communications List FR.pdf"
+          }
+        ],
+        "description": "Five communication items have been received (held on file with the Board of Health Secretary).",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "1/1",
+            "motion_moved_by": "Member S. Pinel",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the reports titled: Election of an Interim Chair; Medical Officer of Health Verbal Report; and 2023 Ottawa Board of Health Meeting Schedule, be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Election of an Interim Chair",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=106954",
+                "attachment_title": "Report - Election of Interim Chair - final.pdf"
+              }
+            ],
+            "description": "File ACS2022-OPH-BOH-0011 \u2013 City-wide",
+            "minutes": "Vice-Chair DeGiovanni presided over the election of the Interim Chair.\nPrior to calling for nominations, she explained that, in accordance with section 57 subsection 2 of the Health Protection and Promotion Act, she would request nominations for the position of Interim Chair, to be confirmed at the Board\u2019s first meeting in 2023.\u00a0\nFollowing her nomination, Member Kitts accepted the nomination for the position of Interim Chair.\u00a0\nVice-Chair DeGiovanni called for any additional nominations three times before calling for a motion to close the nominations.\u00a0\nFollowing her election as Interim Chair, Chair Kitts took over as presiding officer and chaired the balance of the meeting.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit elect an Interim Chair, to be confirmed at the first meeting of 2023, as required by theHealth Protection and Promotion Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "1/2",
+                "motion_moved_by": "Member S. Pinel",
+                "motion_seconded_by": "",
+                "motion_text": "That Member Kitts be nominated for the position of Interim Chair for the Board of Health for the City of Ottawa Health Unit, to be confirmed at the first meeting of the Board of Health in 2023 pursuant to Section 57, subsection 2 of the Health Protection and Promotion Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "1/3",
+                "motion_moved_by": "Member S. Pinel",
+                "motion_seconded_by": "",
+                "motion_text": "That nominations for the position of Interim Chair be closed.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "1/4",
+                "motion_moved_by": "Member S. Pinel",
+                "motion_seconded_by": "",
+                "motion_text": "That Member Kitts be appointed as Interim Chair for the Board of Health for the City of Ottawa Health Unit, to be confirmed at the first meeting of the Board of Health in 2023 pursuant to Section 57, subsection 2 of the Health Protection and Promotion Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Medical Officer of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2022-OPH-MOH-0011 \u2013 City-wide",
+            "minutes": "Dr. Etches began her verbal report by welcoming the newly appointed Council Members to the Board of Health. She then provided updates on the local situation as relates to COVID-19 and other respiratory illnesses, work on childhood immunization, and the budget development process. She also talked about plans for the new year as relates to Board Members\u2019 orientation and the strategic planning process. In closing, she talked about the holidays and things everyone can do to protect themselves and their loved ones from the most serious effects of respiratory illnesses and she wished everyone a happy, healthy holiday season.\u00a0\nIn the context of the Medical Officer of Health Verbal Report, the Board heard from one (1) public delegation - Mr. Greg Macdougall. Mr. Macdougall also provided a written submission, which was circulated to Board of Health Members in advance of the meeting and is held on file with the Board of Health Secretary.\u00a0\nAfter hearing from the public delegation, Dr. Etches and staff responded to questions from Members of the Board of Health.\u00a0\nThe Board then voted to receive the Medical Officer of Health's Verbal Report. Discussions on this item lasted approximately 30 minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.3",
+            "title": "2023 Ottawa Board of Health Meeting Schedule",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=106955",
+                "attachment_title": "2023 OBOH Meeting Schedule.pdf"
+              }
+            ],
+            "description": "File ACS2022-OPH-BOH-0012 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit approve the 2023 meeting schedule, as outlined in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "In Camera Items*",
+        "attachments": [],
+        "description": "NOTICE* \nIn Camera Items are not subject to public discussion or audience. Any person has a right to request an independent investigation of the propriety of dealing with matters in a closed session. A form requesting such a review may be obtained, without charge, from the City\u2019s website or in person from the Chair of this meeting. Requests are kept confidential pending any report by the Meetings Investigator and are conducted without charge to the Requestor.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "1/5",
+            "motion_moved_by": "Member S. Pinel",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the reports titled: Election of an Interim Chair; Medical Officer of Health Verbal Report; and 2023 Ottawa Board of Health Meeting Schedule, be received and adopted.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Motions requiring suspension of the rules.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion (for consideration at a subsequent meeting).",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "1/6",
+            "motion_moved_by": "Member S. Pinel",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT Confirmation By-law no. 2022-7, a by-law of the Board of Health for the City of Ottawa Health Unit to confirm the proceedings of the Ottawa Board of Health at its meeting of December 20, 2022, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no inquiries filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Board adjourned the meeting at 5:58 p.m.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, January 30, 2023 - 5:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

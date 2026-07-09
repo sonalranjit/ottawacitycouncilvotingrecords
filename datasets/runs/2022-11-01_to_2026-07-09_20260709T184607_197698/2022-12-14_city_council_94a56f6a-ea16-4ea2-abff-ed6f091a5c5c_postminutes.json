@@ -1,0 +1,1376 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=94a56f6a-ea16-4ea2-abff-ed6f091a5c5c&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=94a56f6a-ea16-4ea2-abff-ed6f091a5c5c&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - December 14, 2022",
+  "meeting_number": 4,
+  "meeting_date": "2022-12-14",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 21,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, December 14, 2022, beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137796",
+            "attachment_title": "Public Notices English - Council.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137797",
+            "attachment_title": "Public Notices French - Council.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Confirmation of the Minutes and in camera Minutes (distributed separately) of the Council meeting of 28 November 2022",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137801",
+                "attachment_title": "OCC Draft Minutes 1 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137802",
+                "attachment_title": "OCC Draft Minutes 1 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Confirmed",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Confirmation of the Minutes of the Council meeting of 30 November 2022",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137799",
+                "attachment_title": "OCC Draft Minutes 2 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137800",
+                "attachment_title": "OCC Draft Minutes 2 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Confirmed",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "See specific Agenda Item - Appointments to Boards \u2013 2022-2026 Term of Council (Agenda Item 10.2)",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Communications",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Association of Municipalities of Ontario (AMO) Communications",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137809",
+                "attachment_title": "AMO - Bill 39 Passes.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The communications from AMO were received.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "6.2",
+            "title": "Other communications received",
+            "attachments": [],
+            "description": "",
+            "minutes": "The communications were received.",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "6.2.1",
+                "title": "Submissions",
+                "attachments": [],
+                "description": "A submission received and on file with the City Clerk containing the names of 111 individuals requesting that the municipal flood lights time be extended for soccer games at Brewer Park.\u00a0",
+                "minutes": "",
+                "motions": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "No regrets were filed.\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2022 - 04/01",
+            "motion_moved_by": "G. Gower",
+            "motion_seconded_by": "C. Kitts",
+            "motion_text": "That the report from the Finance Services Department entitled \u201cProposed 2023 Budget Directions, Timeline and Consultation Process\u201d; Nominating Committee Report 1, Finance and Economic Development Committee Report 41A, be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Finance Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Proposed 2023 Budget Directions, Timeline and Consultation Process",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137798",
+                "attachment_title": "ACS2022-FSD-FSP-0015 Budget Directions Timeline and Consultations Process_revisedDA.pdf"
+              }
+            ],
+            "description": "ACS2022-FSD-FSP-0015 - City wide",
+            "minutes": "Wendy Stephanson, Acting City Manager, and Joseph Muhuni, Deputy City Treasurer, provided a slide presentation with an overview of the Proposed 2023 Budget Directions, Timeline and Consultation Process, a copy of which is held on file with the City Clerk.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat Council approve the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended (9 to 16)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/02",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the 2022-2026 Council Governance Review report outlines the requirement of the budget process for the Chief Financial Officer/Treasurer to annually present a directions report that details the budget timetable and provides budget directions in advance of each budget; and\nWHEREAS the Proposed 2023 Budget Directions, Timeline and Consultation Process report outlines that City user fees and charges increase in accordance with the direction outlined in the Fiscal Framework or the Long Range Financial Plans; and\nWHEREAS the Fiscal Framework sets the principles and recovery targets for municipal user fees. In general, the rate of increase in user fees is to be in relation to the cost increases associated with providing the service within the cost recovery; and\nWHEREAS the Proposed 2023 Budget Directions, Timeline and Consultation Process report recommends the 2023 transit fare increase of 2.5 per cent will be included in the budget as it is consistent with Council direction provided through the 2019 Transit LRFP; and\nWHEREAS many residents struggle with an ongoing affordability crisis amid an uncertain economic climate and require safe and affordable city services;\nTHEREFORE BE IT RESOLVED that the 2023 budget will include a transit fare freeze for one year, including seniors\u2019 pass, EquiPass, and youth fares.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "J. Leiper",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "S. Menard",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 22
+                  },
+                  "against": {
+                    "councillors": [
+                      "R. Brockington",
+                      "A. Hubley",
+                      "D. Brown"
+                    ],
+                    "count": 3
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (22 to 3)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/03",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the 2022-2026 Council Governance Review report outlines the requirement of the budget process for the Chief Financial Officer/Treasurer to annually present a directions report that details the budget timetable and provides budget directions in advance of each budget; and\nWHEREAS the Proposed 2023 Budget Directions, Timeline and Consultation Process report outlines that City user fees and charges increase in accordance with the direction outlined in the Fiscal Framework or the Long Range Financial Plans; and\nWHEREAS the Fiscal Framework sets the principles and recovery targets for municipal user fees. In general, the rate of increase in user fees is to be in relation to the cost increases associated with providing the service within the cost recovery; and\nWHEREAS the COVID \u2013 19 pandemic has had a significant impact on young people and has amplified issues of children and youth mental health, anxiety and food related disorders; and,\nWHEREAS the pandemic has resulted in limited access to recreational programs and services for many children and young people in certain areas of the city; and\nWHEREAS inflation has had a significant financial impacts on families across Ottawa;\nTHEREFORE BE IT RESOLVED that the 2023 youth recreational programing costs be decreased by 10% in recreation programs targeted to children and youth and that staff be directed to bring forward options to achieve the decreased costs through initiatives to offer free or low cost sessions for children and families in participatory activities such as public swimming, public skating, or to increase existing participant subsidization entitlements for low income families.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/04",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "S. Menard",
+                "motion_text": "WHEREAS the Office of the City Clerk provided inaccurate procedural advice to the mover and seconder that this motion could be introduced as part of the Budget Directions discussion on December 14, when it should have been introduced as part of the Governance Review discussion on December 7th;\nBE IT RESOLVED that the Rules of Procedure be suspended to consider the following motion related to the Standing Committee Budget Process.\nWHEREAS Standing Committees of Council are mandated to deliberate on the parts of the draft budget for which they have responsibility, including by hearing from public delegates; andWHEREAS it is critical that Standing Committees have the opportunity to recommend changes to the draft budget taking into account their own deliberation and the public input they receive; andWHEREAS the past practice of Council has not allowed Standing Committees to recommend increases to their respective draft budgets unless corresponding offsets were identified; andWHEREAS members of Standing Committees are not necessarily best placed to determine how best to finance recommended budget pressures, whether through offsets elsewhere in the draft budget, use of reserves or revenue generation; andWHEREAS the Committee of the Whole is the appropriate body to consider recommendations from Standing Committees on any identified budget pressures;THEREFORE BE IT RESOLVED that Standing Committees be permitted to recommend increased investments to their respective budgets as financial pressures for consideration by Committee of the Whole even in the absence of recommended offsetting reductions elsewhere in the budget, and recommendations to increase the citywide rate or similar revenue sources to offset those pressures may be considered at Standing Committees.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "S. Menard",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr"
+                    ],
+                    "count": 9
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 16
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Lost (9 to 16)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/05",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the proposed 2023 Budget Directions recommend that the Draft 2023 Budget be developed with a municipal tax increase between 2%-2.5% overall and inclusive of the following:\nWHEREAS Council direction is required to guide staff in the development of the 2023 draft budget that will be tabled with Council; and\nWHEREAS the budget process is delayed in an election year resulting in a compressed timeline; and\nWHEREAS these directions are similar to those approved by the previous Council and with the current time constraints to approve the budget, the current Council has not yet had time to develop an alternative approach; and\nWHEREAS Council has also not yet had the opportunity to conduct the 2022-2026 Term of Council priority setting process or establish the 2022-2026 Term of Council Strategic Priorities, which would be used to inform budget allocations.\nTHEREFORE BE IT RESOLVED that the 2024 Budget Directions be updated to reflect the 2022-2026 Council Term of Priorities, including consideration of an alternative and more strategic approach to budget directions such as, but not limited to:\nBE IT FURTHER RESOLVED that the Chief Financial Officer/City Treasurer outline how resources are allocated according to council direction, including the annual budgetary increase, efficiencies, \u00a0growth, tax and capital budget allocations by department based on operational service delivery requirements, statutory requirements, collective and contractual agreements, Long Range Financial Plans, Fiscal Framework, Asset Management Plans and council strategic direction on an annual basis and outline how this process could be made more transparent in the budget tabling report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/06",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS Council approved the City\u2019s Community Safety and Well-Being Plan (ACS2021-EPS-PPD-0003) on October 27, 2021, which includes goals, strategies, and actions to address key local priorities: discrimination, marginalization, and racism; financial security and poverty reduction; gender-based violence and violence against women; housing; integrated and simpler systems; and mental well-being; and,\nWHEREAS in 2022 the Ottawa Police Services Board approved and referred to Council a draft 2022 Budget estimate based on a two per cent police tax levy increase, resulting in an additional $2.1 M in unallocated funds; and\nWHEREAS Council approved that $2.1 M in unallocated funds from the 2022 Budget be allocated through the Community and Social Services Department to community agencies in support of the Community Safety and Well-Being Plan as follows:\nWHEREAS Council further directed that the $2.1M in unallocated funds from the 2022 Budget be allocated as soon as practicable in 2022 for initiatives that can be implemented in 2022 in accordance with the Council-approved Community Funding Framework mandate and process (ACS2019-CSS-GEN-0012) and that Community and Social Services staff report back to Council via a memo on funding allocations by the end of Q1 2022 and that the performance indicators be established for these investments and that performance outcomes be reported as part of the Council-approved Community Funding Framework reporting process; andWHEREAS Council received a memo entitled \u201cAllocation of the Community Safety and Well-Being Fund\u201d on June 7, 2022 which outlined the allocation process for the $2.1 M to 19 projects from 18 agencies;THEREFORE BE IT RESOLVED that Community and Social Services staff report back to Council annually the outputs and outcomes of each of the projects funded through the $2.1M in sustained base budget funding allocation \u00a0through the Community Safety and Well-Being Fund starting by the end of Q3 2023 annually for a period of 3 years; and\nBE IT FURTHER RESOLVED that Council request that the Community and Social Services Department, in collaboration with the Guiding Council, report back to inform the advancement of a culturally-appropriate, trauma-informed mental health, homelessness and addiction crisis response system and that staff report back through the 2023 and the 2024 budgets on the specific funding requirement and implementation strategy.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/07",
+                "motion_moved_by": "M. Luloff",
+                "motion_seconded_by": "L. Dudas",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation 2a was divided for voting purposes.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "J. Bradley",
+                      "S. Plante",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 16
+                  },
+                  "against": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "S. Menard",
+                      "L. Johnson",
+                      "S. Devine",
+                      "A. Troster",
+                      "M. Carr"
+                    ],
+                    "count": 9
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (16 to 9)",
+                "post_motion_text": "Councillor J. Bradley dissented on Recommendation 2. a. ii. only"
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "The remainder of the Recommendations were put to Council and Carried as amended on 25 Yeas to 0 Nays",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "S. Menard",
+                      "C. Curry",
+                      "D. Hill",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 25
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (25 to 0)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Nominating Committee Report 1",
+        "attachments": [],
+        "description": "(Rising from the Nominating Committee Meeting of December 13, 2022)",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Appointments to Standing Committees, Sub-Committee and Transit Commission \u2013 2022-2026 Term of Council",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137810",
+                "attachment_title": "01 - Cover page - SC, Sub and Commission Appt Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137811",
+                "attachment_title": "01 - ACS2022-OCC-GEN-0032 - SC, Sub and Commission Appt Report - Revised.pdf"
+              }
+            ],
+            "description": "File No. ACS2022-OCC-GEN-0032 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations, as amended\nThat Council appoint the following Members of Council to the various Standing Committees, Sub-Committees and Transit Commission including the recommended Chairs and Vice-Chairs, as follows:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/08",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "BE IT RESOLVED that Councillor St\u00e9phanie Plante be appointed to the Community Services Committee in place of Councillor Allan Hubley",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/09",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "BE IT RESOLVED that the following additional Members of Council be appointed to the Community Services Committee:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/10",
+                "motion_moved_by": "M. Carr",
+                "motion_seconded_by": "T. Kavanagh",
+                "motion_text": "BE IT RESOLVED that Councillor Shawn Menard be appointed to the Transit Commission.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/11",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "T. Kavanagh",
+                "motion_text": "BE IT RESOLVED that the membership of the Light Rail Sub-Committee be increased to 6 Members; and\nBE IT FURTHER RESOLVED that Councillor Theresa Kavanagh be appointed as the sixth member of the Light Rail Sub-Committee",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Appointments to Boards \u2013 2022-2026 Term of Council",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137812",
+                "attachment_title": "02 - Cover page - Boards Appt Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137813",
+                "attachment_title": "02 - ACS2022-OCC-GEN-0033 - Boards Appt Report - Revised.pdf"
+              }
+            ],
+            "description": "File No. ACS2022-OCC-GEN-0033 - City-wide\nDeclaration of Interest\nCouncillor Steve Desroches declared a potential, deemed indirect pecuniary interest on Agenda Item 10.2 on Recommendation 4, being Appointments to the Hydro Ottawa Holding Inc, Board of Directors, as my spouse is an employee with the company.\n\u00a0\nCouncillor Desroches did not participate in the discussion or vote on this item.\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations, as amended\nThat Council appoint the following Members of Council to the various Boards:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/12",
+                "motion_moved_by": "G. Darouze",
+                "motion_seconded_by": "D. Brown",
+                "motion_text": "BE IT RESOLVED that Councillor Wilson Lo be appointed to the Rideau Valley Conservation Authority in place of Councillor George Darouze.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/13",
+                "motion_moved_by": "J. Bradley",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "BE IT RESOLVED that Recommendation 10 be amended to remove Councillor Bradley from the Shaw Centre Board of Directors, which leaves an additional seat available for a Council-appointed Public Member",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.3",
+            "title": "Appointments to External Agencies / Municipal Organizations \u2013 2022-2026 Term of Council",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137814",
+                "attachment_title": "03 - Cover page - External Agencies Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137815",
+                "attachment_title": "03 - ACS2022-OCC-GEN-0034 - External Agencies Report - Revised.pdf"
+              }
+            ],
+            "description": "File No. ACS2022-OCC-GEN-0034 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations, as amended\nThat Council appoint the following Members of Council as the Ottawa City Council representatives to the various external agencies / municipal organizations:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.4",
+            "title": "Appointments of Council Liaisons \u2013 2022-2026 Term of Council",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137816",
+                "attachment_title": "04 - Cover page - Council Liaisons.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137817",
+                "attachment_title": "04 - ACS2022-OCC-GEN-0035 - Council Liaisons - Revised.pdf"
+              }
+            ],
+            "description": "File No. ACS2022-OCC-GEN-0035 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations, as amended\nThat Council appoint:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.5",
+            "title": "Appointment of selection panels for Advisory Committees, Boards Requiring Public Appointment and Committee of Adjustment \u2013 2022-2026 Term of Council",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137818",
+                "attachment_title": "05 - Cover page - Selection Panel Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137819",
+                "attachment_title": "05 - ACS2022-OCC-GEN-0036 - Selection Panel Report - Revised.pdf"
+              }
+            ],
+            "description": "File No. ACS2022-OCC-GEN-0036 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendations, as amended\nThat Council appoint the following Members of Council to the various Selection Panels for Advisory Committees, Boards requiring public appointment and the Committee of Adjustment, in addition to the Mayor as an ex officio Member of all Selection Panels:\nBE IT FURTHER RESOLVED that the Members of Council who are Chairs of the respective Committees and Boards sit ex officio on the Selection Panels, where applicable; and\nBE IT FURTHER RESOLVED that the following Councillors be appointed to the Council Working Group to work with the City Clerk to develop the report on Advisory Committees, Council Sponsors Groups, Community Advisory Tables, and the proposed new transit advisory body, as approved in the 2022-2026 Council Governance Review:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Finance and Economic Development Committee Report 41A",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Land Exchange of 529 Tremblay Road and 530 Tremblay Road with His Majesty the King in Right of Canada",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137803",
+                "attachment_title": "1-1a Coverpage - Land Exchange Tremblay Rd.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137804",
+                "attachment_title": "1-1b - ACS2022-PIE-CRO-0002 - Land Exchange Tremblay Rd.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137805",
+                "attachment_title": "1-1c - Document 1 - MOU - PSPC and City of Ottawa.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137806",
+                "attachment_title": "1-1d - Document 2 - Memorandum of Agreement-City of Ottawa PWGSC CLC-January 19th 2022 (002).pdf"
+              }
+            ],
+            "description": "ACS2022-PIE-CRO-0002 - Alta Vista (18)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendations as amended\nThat Council approve the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "11.2",
+            "title": "Motion \u2013 Waive the Disposal of Real Property Policy to transfer lands to Davidson Shea Properties Inc.",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137807",
+                "attachment_title": "2-1a Coverpage - Waiver Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137808",
+                "attachment_title": "2-1b - NoM - ACS2022 OCC FED 0007 waiver report (Gower).pdf"
+              }
+            ],
+            "description": "ACS2022 OCC FED 0007 - Stittsville (6)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendations as amended\nThat Council approve waiving the Disposal of Real Property Policy to enable the City to transfer a portion of the hydro corridor to accommodate either a public or private road, back toDavidson Shea Properties Inc. for a nominal charge.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Postponements and Deferrals",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Councillor D. Brown",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 03/11",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "M. Luloff",
+                "motion_text": "WHEREAS the Office of the Auditor General is empowered under theMunicipal Act, 2001, and the Auditor General By-law, being By-law No. 2021-5 to be an independent, statutory officer who reports directly to City Council and is responsible for assisting Council in holding itself and its administrators accountable for the quality of stewardship over public funds and for the achievement of value for money in municipal operations; and\nWHEREAS the Office of the Auditor General has previously undertaken audit functions focused on reviewing the efficiency of programs and service delivery targets; and\nWHEREAS the Office of the Auditor General has the ability to retain external support to assist in program and services reviews; and\nWHEREAS the 2023 Budget process is an expedited process due to the recent municipal election and a focused and comprehensive review of the City\u2019s services and programs could inform the development of the 2024 budget and future budgets;\nTHEREFORE BE IT RESOLVED that Council request that the Office of the Auditor General consider undertaking an audit, constituting a comprehensive program and service review, in advance of the development of the 2024 Budget; and\nTHEREFORE BE IT RESOLVED that Council request that the Office of the Auditor General consider undertaking an audit, constituting a comprehensive program and service review, in advance of the development of the 2024 Budget; and\nBE IT FURTHER RESOLVED that an upper limit of $300,000 be allocated from the Tax Stabilization Reserve to the Office of the Auditor General to cover the costs incurred by this review; and\nBE IT FURTHER RESOLVED that Council request at the first meeting of the Finance & Economic Development Committee, that the Committee consider undertaking an immediate financial review to identify savings and efficiencies that could be recognized in the 2023 budget and future budgets in parallel with a longer-term structural review being undertaken by the Office of the Auditor General.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/14",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "C. Curry",
+                "motion_text": "BE IT RESOLVED that the Brown/ Luloff Motion No. 2022-03/11 be referred to the Audit Committee for consideration no later than the first quarter of 2023",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.2",
+            "title": "Councillor C. Curry",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 03/12",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "G. Gower",
+                "motion_text": "WHEREAS the City is facing significant budget pressures caused by inflation, the covid pandemic and other government decisions; and\nWHEREAS for the City to maintain a tax rate that residents consider to be manageable the City needs to continue to seek efficiencies in its operations; and\nWHEREAS finding efficiencies requires knowledge of City operations and services as well as a process that involves both internal and external subject matter expertise; and\nWHEREAS other cities and public institutions have undergone resource optimization initiatives within a reasonably short time frames; and\nWHEREAS the majority of the citizens of Ottawa supported maintaining tax increases between 2 per cent and 2.5 per cent for 2023-2024 without cutting City services to residents; andWHEREAS a budget review process that could include a line item or branch review needs to be established; and\nWHEREAS the governance report references greater transparency and tools to review the budget for both Council and citizens; and\nWHEREAS the Auditor General routinely reviews various City branches and activities for value for money and program effectiveness;\nTHEREFORE, BE IT RESOLVED that the Finance and Economic Development Committee at its first meeting consider and propose a process to expedite a comprehensive program and service review including consideration of the extent to which the services of the Auditor General could be employed, other expertise engaged, or a working group established involving Councillors, external subject matter experts and staff to complete the reviews.\nWithdrawn",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "Councillors G. Gower and C. Kitts",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2022 - 04/15",
+            "motion_moved_by": "G. Gower",
+            "motion_seconded_by": "C. Kitts",
+            "motion_text": "That the report from the Finance Services Department entitled \u201cProposed 2023 Budget Directions, Timeline and Consultation Process\u201d, Nominating Committee Report 1, Finance and Economic Development Committee Report 41A be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Motions of Which Notice Has Been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "15.1",
+            "title": "Councillor C. Curry",
+            "attachments": [],
+            "description": "",
+            "minutes": "*Please note this motion was dealt with as part of the Budget Directions report (Motion 2022-04/xx)",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the 2022-2026 Council Governance Review report outlines the requirement of the budget process for the Chief Financial Officer/Treasurer to annually present a directions report that details the budget timetable and provides budget directions in advance of each budget; and\nWHEREAS the Proposed 2023 Budget Directions, Timeline and Consultation Process report outlines that City user fees and charges increase in accordance with the direction outlined in the Fiscal Framework or the Long Range Financial Plans; and\nWHEREAS the Fiscal Framework sets the principles and recovery targets for municipal user fees. In general, the rate of increase in user fees is to be in relation to the cost increases associated with providing the service within the cost recovery; and\nWHEREAS the Proposed 2023 Budget Directions, Timeline and Consultation Process report recommends the 2023 transit fare increase of 2.5 per cent will be included in the budget as it is consistent with Council direction provided through the 2019 Transit LRFP; and\nWHEREAS many residents struggle with an ongoing affordability crisis amid an uncertain economic climate and require safe and affordable city services;\nTHEREFORE BE IT RESOLVED that the 2023 budget will include a transit fare freeze for one year, including seniors\u2019 pass, EquiPass, and youth fares.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.2",
+            "title": "Councillor L. Dudas",
+            "attachments": [],
+            "description": "",
+            "minutes": "*Please note this motion was dealt with as part of the Budget Directions report (Motion 2022-04/xx)",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the 2022-2026 Council Governance Review report outlines the requirement of the budget process for the Chief Financial Officer/Treasurer to annually present a directions report that details the budget timetable and provides budget directions in advance of each budget; and\nWHEREAS the Proposed 2023 Budget Directions, Timeline and Consultation Process report outlines that City user fees and charges increase in accordance with the direction outlined in the Fiscal Framework or the Long Range Financial Plans; and\nWHEREAS the Fiscal Framework sets the principles and recovery targets for municipal user fees. In general, the rate of increase in user fees is to be in relation to the cost increases associated with providing the service within the cost recovery; and\nWHEREAS the COVID \u2013 19 pandemic has had a significant impact on young people and has amplified issues of children and youth mental health, anxiety and food related disorders; and,\nWHEREAS the pandemic has resulted in limited access to recreational programs and services for many children and young people in certain areas of the city; and\nWHEREAS inflation has had a significant financial impacts on families across Ottawa;\nTHEREFORE BE IT RESOLVED that the 2023 youth recreational programing costs be decreased by 10% in recreation programs targeted to children and youth and that staff be directed to bring forward options to achieve the decreased costs through initiatives to offer free or low cost sessions for children and families in participatory activities such as public swimming, public skating, or to increase existing participant subsidization entitlements for low income families.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.3",
+            "title": "Councillor C. Kelly",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/16",
+                "motion_moved_by": "C. Kelly",
+                "motion_seconded_by": "M. Luloff",
+                "motion_text": "WHEREAS the City of Ottawa hosted a Rural Summit in November 2005 to address the results of the City\u2019s 2004 Citizen Satisfaction Survey, which identified that Ottawa\u2019s rural residents were significantly less satisfied with municipal services than urban residents; and\nWHEREAS the first Rural Summit resulted in many improvements and new initiatives for rural Ottawa, including the creation of the Rural Affairs Office, an enhanced role of the Agriculture and Rural Affairs Committee to provide Council with advice on Ottawa\u2019s rural economy and issues affecting rural residents, and the establishment of the Rural Association Partnership Program; and\nWHEREAS the City hosted a second Rural Summit in April 2008 which served as an opportunity for rural residents and representatives of rural organizations from across Ottawa to reconvene to discuss ways of further improving networking and continue to build on the strengths of rural communities; and\nWHEREAS the City of Ottawa has not hosted a Rural Summit for the past three terms of Council; and\nWHEREAS issues impacting rural residents have continued to evolve since the last Rural Summit, including recent modifications to the City of Ottawa\u2019s Urban Boundary and potential changes to the protection of rural lands proposed in Bill 23 (More Homes Built Faster Act);\nTHEREFORE BE IT RESOLVED that Council direct staff to report back to the Agriculture and Rural Affairs Committee by Q2 2023 with options to host a Rural Summit during the 2022-2026 Term of Council.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.4",
+            "title": "Councillor J. Leiper",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/17",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "G. Gower",
+                "motion_text": "WHEREAS Council approved on March 26, 2014, that as a condition of the rezoning of lands at municipal address 1040 Somerset Street West the owner was required to enter into an agreement pursuant to Section 37 of thePlanning Act, as it then read, to provide community benefits consisting of a $500,000 payment to be allocated towards improvements to the Tom Brown Arena, included but not limited to, a stairway connection to the Albert Street bridge; and\nWHEREAS a site plan application for this development was dormant for some time but the owner is now proposing to move forward with the development; and\nWHEREAS the needs of the community have changed since the agreement was entered into;\nTHEREFORE BE IT RESOLVED THAT Council approve an amendment to the existing agreement replacing the original community benefits with a payment of Five Hundred Thousand Dollars ($500,000) plus indexing to be allocated as follows:\nBE IT FURTHER RESOLVED THAT staff be directed to take necessary steps to finalize an agreement incorporating this amended term, and any other required amendments, and register the said agreement on title.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.5",
+            "title": "Councillor T. Kavanagh",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/18",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the development of a single use plastics reduction strategy for city facilities and operations has been prioritized as an initiative in the solid waste master plan; and,\nWHEREAS the final Master Plan will be tabled for Council consideration in 2023; and,\nWHEREAS municipalities in Ontario and Canada in particular are limited in their regulatory abilities to completely eliminate plastic waste as it is a complex issue, requiring collaboration between all levels of government as well as industry; and,\nWHEREAS Members of Council and staff continue to advocate our Federal and Provincial Government partners and industry to support reducing these materials;\nTHEREFOR BE IT RESOLVED that staff be directed to review all avenues within municipal jurisdiction to eliminate plastic waste in city facilities withinthisterm of council or as soon as is practicable; and\nBE IT FURTHER RESOLVED that the goals and directions of the Solid Waste Master Plan supports the direction of reducing waste and increasing diversion of waste, including plastic waste, with the aim to promote the broader elimination of single use plastics within the community; and,\nBE IT FURTHER RESOLVED that the city Immediately cease the purchase of single-use plastics such as straws and stir sticks whenever possible; and,\nBE IT FURTHER RESOLVED that staff strive to reduce the impact of plastic waste on the natural environment by encouraging ways, (through recycling for example and highly engineered landfill waste management) to prevent it\u2019s use and mitigate the secondary effects from polluting the natural environment and that staff report back on their efforts by Q1 2025 to the appropriate standing committee.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.6",
+            "title": "Councillor M. Carr",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/19",
+                "motion_moved_by": "M. Carr",
+                "motion_seconded_by": "G. Gower",
+                "motion_text": "WHEREAS the City of Ottawa currently manages a significant number of projects, including several over $100 million, including the Ottawa Public Library and Library and Archives Canada Joint Facility, \u0100dis\u014dke, the Lansdowne Park Revitalization, the Stage 2 Light Rail Transit project; and\nWHEREAS the recently released Final Report of the OLRT Public Inquiry Commissioner outlined numerous issues with project management, including those related to costing, scope, procurement, stakeholder, issue and risk management; and\nWHEREAS the City\u2019s report presented to the Finance and Economic Development Committee (FEDCO) on November 9, 2022, titled, \u201cUpdate on the Ottawa Light Rail Transit Public Inquiry and Recommended Next Steps\u201d, included the following recommendation:\nRecommendation 3: Direct the Chief Financial Officer, in consultation with other City departments, to consider the lessons learned and any final recommendations from the OLRT Public Inquiry related to internal project governance and communications for major projects as part of the ongoing review of the City\u2019s Business Case and Project Management Policy and Project Management Framework, as described in this report; and\nWHEREAS the City of Ottawa currently has no Enterprise Project Management Office that provides oversight of all project initiatives\nTHEREFORE BE IT RESOLVED that Staff consider the implementation of tiering and gating as part of its review of the City\u2019s Business Case and Project Management Policy and Project Management Framework\nBE IT FURTHER RESOLVED that as part of its review of the City\u2019s Business Case and Project Management Policy and Project Management Framework, staff consider examine an option to have an independent enterprise project management office established within the City to ensure oversight and respect for project management practices; and\nBE IT FURTHER RESOLVED that Staff consider criteria for when to undertake an independent review during the project; and\nBE IT FURTHER RESOLVED that Council direct the Acting Chief Financial Officer to bring the proposed amendments to the Business Case and Project Management Policy and Project Management Framework to the Finance and Economic Development Committee and Council for consideration and approval.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.7",
+            "title": "Councillor S. Menard",
+            "attachments": [],
+            "description": "",
+            "minutes": "Note: The Menard/Sutcliffe Motion of which Notice was previously given at the December 7, 2022, City Council meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law.\nCarried with Councillor D. Hill dissenting",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/20",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "WHEREAS the City of Ottawa has historically taken advantage of provincial development incentive grant programs including Brownfield Grant Program and the Community Improvement Plan; and\nWHEREAS staff is currently preparing a program review and update for the Brownfield and Community Improvement Plan and a report is anticipated in Q2 2023; and\nWHEREAS the city remains committed to bring forward a revitalized and refreshed economic development strategy, Official Plan and Climate Change Master Plan; and\nWHEREAS current programs need to be reviewed in the context of these plans and specifically the new Official Plan (transit supportive, affordable housing, climate change and energy evolution); and\nWHEREAS Brownfield and Community Improvement Plan (CIP) has been in place for a number of years with the goal to stimulate business investment in specific identified areas and to encourage rehabilitation, redevelopment, and revitalization of the existing built environment with limited impact; and\nWHEREAS a Community Improvement Plan (CIP) specific for affordable housing is currently in development and is intended to be an implementation tool to establish the most effective incentives for the delivery of affordable rental and ownership units throughout our community; and\nWHEREAS up to $2,000,000 was approved as a private sector development incentive pilot project through the Affordable Housing 2022 Capital Plan to be awarded through a Request for Proposals (RFP) process that has not been released; and\nWHEREAS the Province of Ontario has introduced Bill 23, the More Homes Built Faster Act, 2022 and, Bill 109 More Homes for Everyone Act, 2022, which proposes extensive changes to several Acts and regulations including the Development Charges Act, Planning Act, and Municipal Act; and\nWHEREAS Development Charges are critical to build the infrastructure needed to support development; and\nWHEREAS there are concerns that the recent provincial legislative changes would have significant impacts on municipal planning, financing, processes, and operational matters; and\nWHEREAS the affordable housing CIP work that is currently underway is modelling the impact of incentives on not-for-profit and private sector development proformas for rental and ownership projects in the context of the new legislation;\nTHEREFORE BE IT RESOLVED that the City\u2019s Brownfield program be suspended for any new applications or applications that have yet to be considered by City Council pending a full evaluation of this program, and that the affordable housing private sector RFP be cancelled, effective immediately pending a full evaluation in light of the significant legislative changes occurring in Ontario related to provincial development charges, and that work on the affordable housing CIP continue for the purpose of considering options for the delivery of incentives for affordable housing, including not-for-profit rental and ownership units throughout the City, and that staff report back by Q2 of 2023 on the return on investment of implementing an affordable housing CIP and on continuing other CIP programs in the current legislative and financial climate.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/21",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "G. Gower",
+                "motion_text": "",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "J. Leiper",
+                      "G. Darouze",
+                      "D. Hill",
+                      "S. Plante",
+                      "M. Carr",
+                      "D. Brown",
+                      "W. Lo"
+                    ],
+                    "count": 13
+                  },
+                  "against": {
+                    "councillors": [
+                      "R. Brockington",
+                      "C. Kitts",
+                      "A. Hubley",
+                      "S. Menard",
+                      "C. Curry",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "S. Desroches",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 11
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (13 to 11)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.8",
+            "title": "Councillor S. Menard",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/22",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "R. Brockington",
+                "motion_text": "WHEREAS on December 19, 2012, Council approved the report entitled, \u201cDesign, Build, Finance and Maintenance of Ottawa\u2019s Light Rail Transit (OLRT) Project\u201d; and\nWHEREAS Council delegated to the City Manager the authority to negotiate, approve, execute, deliver, amend and extend the Project Agreement and associated ancillary agreements for the OLRT Project, subject to the terms and conditions described in that report; and\nWHEREAS on March 9, 2022, Council approved Motion 29/2 directing staff to issue a Notice of Default to Rideau Transit Group (RTG) in accordance with the Project Agreement and ask for a remedial plan and schedule for remediation of its defaults, and delegated the authority to the City Manager to take any other actions required under the Project Agreement to give effect to Council\u2019s decision; and\nWHEREAS on October 13, 2021, Council directed staff to deliver a Notice of Dispute under the Project Agreement with respect to RTG Defaults, have the Defaults confirmed through the contractual dispute resolution process in the Agreement including, as necessary, asking the Court to confirm the validity of the RTG defaults and report back to Council on the outcomes of these actions; and\nWHEREAS the 2022-2026 Council has now been provided with an in camera update on the various legal disputes arising from the Stage 1 LRT Project Agreement; and\nWHEREAS the Ottawa LRT Commission Public Inquiry recently released its final report and included information that the City lessened the project agreement requirements for accepting the system at Revenue Service Availability, changed the project agreement requirement for total number of trains on the line to open the system and that The Commission found that memorandum from the city manager sought to deliberately \u201cdisseminate misinformation and hide critical facts from Council\u201d so that Councillors could not properly exercise their oversight function; and\nWHEREAS the Delegation of Powers Policy provides that all delegation of powers and duties may be changed by Council at any time;\nTHEREFORE BE IT RESOLVED that Council revoke the Delegated Authority to the Interim City Manager with respect to Stage 1 LRT Project Agreement amendments and direct the Interim City Manager to bring forward to Council for approval any required amendments related to the Stage 1 LRT Project Agreement; and\nBE IT FURTHER RESOLVED that the Interim City Manager be directed to bring forward to Council a revised proposal for Delegated Authority with respect to the Project Agreement that would permit Council to retain substantive decision-making while ensuring minor or technical matters could continue to be managed by the subject matter expert staff.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/23",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "R. Brockington",
+                "motion_text": "BE IT Resolved that the Item 15.8, the Menard/ Brockington Motion 2022 - 04/22) regarding LRT Delegated Authority, be referred to the new Light Rail Sub-Committee for consideration no later than the end of February 2023.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.9",
+            "title": "Councillor G. Gower",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/24",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "J. Leiper",
+                "motion_text": "WHEREAS as of January 01, 2023, provincally-mandated review timelines enacted through Bill 109 for site plan control applications will be in effect; and\nWHEREAS staff, pursuant to report ACS2022-PIE-GEN-0011 approved by Council on July 6, 2022, will return to Council with the Phase II report concerning Bill 109 in early 2023;\nWHEREAS By-law 2009-320 requires that only site plan control applications which require public consultation pursuant to Section 41 of thePlanning Actmust submit a pre-consultation application; and\nWHEREAS staff has identified\u00a0that Section 41 of thePlanning Actdoes not require any site plan control applications to undertake pre-consultation and this statement in By-law 2009-320 is in error.\nTHEREFORE BE IT RESOLVED THAT Council approve amending By-law 2009-320 by striking the words \u201cwhere public consultation is required pursuant to section 41 of thePlanning Act\u201d as contained in Section 2(c) of the By-law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.10",
+            "title": "Councillor L. Dudas",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/25",
+                "motion_moved_by": "L. Dudas",
+                "motion_seconded_by": "C. Kelly",
+                "motion_text": "WHEREAS Ottawa City Council passed the residential Vacant Unit Tax (VUT) on March 23, 2022;\nWHEREAS the VUT requires all 330,000+ residential property owners in Ottawa to proactively file a yearly declaration with the City of Ottawa;\nWHEREAS failure to file a declaration will result in property owners facing: first a $250 fine (waived for 2023); and their property being deemed vacant and subject to the VUT;\nWHEREAS the new VUT is the only tax or service administered by the City of Ottawa that follows this model: a yearly, reverse-onus-style approach required for all residential property owners;\nWHEREAS the annual declarations will primarily be made online, with only limited options made available for accessibility and those who cannot access the internet;\nWHEREAS this program ultimately disadvantages seniors, snowbirds, deployed military service personnel, those with disabilities, new Canadians, those with limited access to computers and/or the internet; etc.\nWHEREAS the number of vacant properties ultimately subject to the VUT, was preliminarily estimated to be less than 2,500 units, between 0.5% and 0.75% of all 330,000+ residential units required to now make the annual declaration;\nTHEREFORE BE IT RESOLVED that staff report back to Council via memo, no later than June 30, 2023, with data related to the Vacant Unit Tax regarding:\nBE IT FURTHER RESOLVED that staff report back to Council via memo, no later than October 30, 2023, with the preliminary data related to the Vacant Unit Tax regarding:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.11",
+            "title": "Councillor S. Plante",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/26",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "R. King",
+                "motion_text": "THEREFORE BE IT RESOLVED THAT By-law No. 2008-250 be amended to enact a holding symbol on the lands known municipally as 325, 327, 333 Montreal Road, 334 Montfort Street and 273 Ste. Anne Avenue.\nWithdrawn",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "16.1",
+            "title": "Councillor G. Gower",
+            "attachments": [],
+            "description": "",
+            "minutes": "Carried with Councillor D. Brown dissenting.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/27",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "C. Kitts",
+                "motion_text": "WHEREAS the deadline for the exchange of witness lists with respect to the Ontario Land Tribunal hearing for 7731 Fernbank Road is this week;\nTHEREFORE BE IT RESOLVED that the Rules of Procedure be suspended to permit the introduction of the following motion.\nWHEREAS the Provincial Policy Statement provides that need for the resource is not a relevant concern when considering a planning application in respect of mineral aggregate; and\nWHEREAS this policy provision has been consistently respected by the Ontario Land Tribunal and its predecessor tribunals;\nTHEREFORE BE IT RESOLVED that Legal Services be instructed not to oppose a rezoning in respect of 7731 Fernbank Road for a ME2[rural exception zone] provided that it is in accordance with Documents 1 and 2 in the report to Council on October 13, 2021 (Agricultural and Rural Affairs Committee Report 25, Item 2).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "16.2",
+            "title": "Councillor G. Gower",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/27",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "G. Darouze",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion in order to meet the Ministry of Natural Resources and Forestry\u2019s deadline of December 20, 2022, for the City to provide additional input on its application.\nWHEREAS the City of Ottawa appoints Members to the Rideau Valley Conservation Authority, Mississippi Valley Conservation Authority and the South Nation Conservation Authority Board of Directors in accordance with theConservation Authorities Act; and\nWHEREAS the City of Ottawa has traditionally appointed 2-3 Members of Council to each Conservation Authority, with the balance of the City of Ottawa representatives being public members appointed by Council through the Public Member recruitment and appointment process; and\nWHEREAS theConservation Authorities Actnow provides that a minimum of 70 percent of their Board of Directors must be elected officials representing municipalities within the watershed, and Section 14 (1.2.) of the Act allows municipalities to apply to the Minister to allow a municipality to have less than seventy percent representation, thereby allowing a Council to appoint additional citizen members; and\nWHEREAS on February 9, 2022, Ottawa City Council, on the recommendation of the Agriculture and Rural Affairs Committee, approved an application to the Province of Ontario to under Subsection 14(1.2) the Conservation Authorities Act to have less than 70 per cent representation on the three Conservation Authority Boards; and\nWHEREAS the Ministry of Natural Resources and Forestry has followed up with the City of Ottawa to provide any additional relevant details that further explain why the exception is requested to limit the ability of City of Ottawa members of Council to be appointed as members to conservation authorities; and\nWHEREAS due to the size of the City of Ottawa relative to other municipalities in the watersheds, the City of Ottawa has a large number of seats to fill on the Conservation Authority Boards (15 total); and\nWHEREAS City of Ottawa Councillors continue to have a significant number of competing Committee and Board commitments that may conflict with the ability for more Members to regularly attend Conservation Authorities; and\nWHEREAS the City of Ottawa has a significant proportion of new Members of Council for the 2022-2026 Term of Council; and\nWHEREAS the City of Ottawa and the Conservation Authorities have found that over the years the public members appointed by Council have added significant value and perspective to the Conservation Authority boards and have been strong representatives of the interests of the City of Ottawa on Conservation Authorities; and\nWHEREAS public members would be recruited and selected by Council in accordance with the City\u2019s Appointment Policy for Council-Appointed Public Members of Committees, Boards and other External Authorities; and\nWHEREAS Council has appointed through the Nominating Committee process three Members of Council to serve on each of the Rideau Valley and Mississippi Valley Conservation Authorities, and two Members of Council to serve on the South Nation Conservation Authority;\nTHEREFORE BE IT RESOLVED that Ottawa City Council supports the City of Ottawa\u2019s application under the Conservation Authorities Act to have less than seventy per cent representation on the three Conservation Authority Boards, so that the remaining City of Ottawa seats may be filled by public Members for the 2022-2026 Term of Council, for the reasons set out in this motion; and\nBE IT FURTHER RESOLVED that the Office of the City Clerk be directed to provide a copy of this Motion to the Ministry of Natural Resources and Forestry in support of the City\u2019s application.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "16.3",
+            "title": "Councillor C. Kitts",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137820",
+                "attachment_title": "16C_Motion_Kitts_Waiver_Deputy Mayors.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/28",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion so that the Deputy Mayor rotation schedule may begin on January 1, 2023\nWHEREAS on December 7, 2022, Council Approved as part of the 2022-2026 Council Governance Review Report that Deputy Mayors be appointed in accordance with a rotation list composed of all Members of Council; and\nWHEREAS the revised Procedure By-law provides that the Mayor would develop the rotation list for Council approval through enactment of the Deputy Mayor By-law, with the Deputy Mayor rotation begin January 1, 2023, and continue until the end of the term of Council; and\nWHEREAS in recognition that Members of Council may wish to \u201ctrade\u201d time slots on the rotation at some point during the Term of Council, the City Clerk has been delegated the authority, with the concurrence of the Mayor and the Councillors concerned, to amend the rotation schedule during the term and place a by-law directly on the Council agenda for enactment to amend the rotation schedule as required;\nTHEREFORE BE IT RESOLVED that Council approve the Deputy Mayor Rotation Schedule attached as Schedule A, to take effect beginning January 1, 2023, and direct the City Clerk to place a By-law on the next Council Agenda to enact the associated Deputy Mayor By-law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "16.4",
+            "title": "Councillor T. Kavanagh",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2022 - 04/29",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "D. Brown",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion so the Business Improvement Areas can receive confirmation without delay\nWHEREAS on December 7, 2022, City Council considered the 2022-2026 Council Governance Review report and approved Ward- and position-specific appointments set out in Document 2 to the report, including appointments to Business Improvement Areas (BIAs) that are always assigned to the local Ward Councillor; and\nWHEREAS staff have since identified that further toward boundary changes that took effect for the 2022-2026 Term of Council, the list of BIA appointments set out in Document 2 to the 2022-2026 Council Governance Review report inadvertently omitted or incorrectly included certain Ward Councillors, resulting in the need for Ward-specific assignments to be updated as follows:\nTHEREFORE BE IT RESOLVED that City Council approve the following changes to the Ward-specific Business Improvement Area (BIA) appointments approved on December 7, 2022, as described in this motion:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "17.1",
+            "title": "Councillor T. Kavanagh",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "A. Troster",
+                "motion_text": "WHEREAS on September 16th, a 22-year-old Kurdish-Iranian woman named Mahsa Amini was beaten, tortured and murdered by Iran\u2019s morality police while in custody for after wearing her hijab improperly and;\nWHEREAS the establishment of the Islamic Republic of Iran in 1979 has led to increasingly repressive restrictions on women\u2019s rights, including the enforcement of the mandatory wearing of the hijab and;\nWHEREAS Although the compulsory dress codes are the most visible signs of state-sanctioned repression of women in Iran under the current regime, it\u2019s not the only one. Examples of other forms of repression include systemic discrimination by denying equal rights for child custody, inheritance, divorce and the need for husband\u2019s permission to own a passport and leave the country and;\nWHEREAS Islamic regime\u2019s civil law allows forced marriage of children at 13 and 15 years old for girls and boys, respectively and;\nWHEREAS, married women and girls often face additional abuse, restrictions on their movements and a lack of national protections against domestic violence and;\nWHEREAS women, men, students and children across Iran have launched a public campaign known as \u201cZan, Zendegi, Azadi\u201d, translated as \u201cWoman, Life, Freedom\u201d to call for downfall of the regime, as they it as the only solution to earn freedom, justice and equality for all Iranians and;\nWHEREAS the Iranian regime is engaged in a massive and brutal crackdown on protesters, with international press reporting an average of one child murder a day, upwards of 184,000 arrests and detentions that allow for the death penalty as punishment. As of December 10th, one protester is executed, and several others are in death row and;\nWHEREAS the protests have powerful international support from Iranians and nationals living in the diaspora and around the world, including journalists, educators, lawyers and activists in Berlin, Toronto and Los Angeles, to name a few and;\nWHEREAS this movement, which has now approached its fourth month with no signs of abating, is calling for continued and increased demonstration of international solidarity and support and;\nWHEREAS an estimated 400,000 Iranian-Canadians have chosen to call Canada home because of its values of equal rights for women, freedom of expression, freedom of peaceful assembly, freedom of association and democratic rights and;\nWHEREAS the CSIS is actively investigating several death threats and intimidations from the Islamic republic state actors against individuals in Canada to silence those who speak out publicly against regime and;\nWHEREAS Canada has levelled economic sanctions on the regime and the Islamic Revolutionary Guard Corps (IRGC) by banning individuals and entities linked to it and;\nWHEREAS Canada is leading an international campaign to remove Iran from the \u201cUnited Nations Commission on the Status of Women\u201d and;\nWHEREAS Iranian Canadians living in Ottawa have called for Ottawa City Council to make an open statement of solidarity with the Iranian women, men and children who are fighting for their democratic and human rights in Iran and;\nTHEREFORE, BE IT RESOLVED THAT Ottawa City Council go on record as standing in solidarity with the people of Iran who are fighting for their freedom and fundamental human rights and;\nTHEREFORE BE IT FURTHER RESOLVED THAT the City of Ottawa to support the symbolic installation of \u201cMahsa Amini\u201d street plaques at the intersections in proximity to the section of Metcalfe Street between Somerset Street east and McLaren Street as the building served as the Embassy of the Islamic Republic of Iran is located in this block;\nTHEREFORE BE IT FURTHER RESOLVED THAT the Mayor and Ottawa City Council to demand the law enforcement agencies to ensure safety and security of Canadian citizens who are speaking out loudly against the Islamic Regime and;\nTHEREFORE BE IT FURTHER RESOLVED THAT the Mayor of Ottawa send a letter to the Prime Minister supporting continued and increased sanctions against Iran until the people of Iran have access to freedom, justice and the totality of human rights guaranteed under the United Nations Universal Declaration of Human Rights",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.2",
+            "title": "Councillor C. Kitts",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "C. Curry",
+                "motion_text": "WHEREAS Ottawa has seen encouraging growth in numerous retail categories this past year and continues to see a trend of online sales and exchanges; and\nWHEREAS an increasing number of police agencies in eastern Ontario and western Quebec including municipalities such as Pembroke and Gatineau are providing safer places for people to complete online exchanges or transactions with strangers; and\nWHEREAS these safe and neutral spaces are intended to prevent fraudulent transactions and increase resident safety that may occur in the context of purchases or exchanges from online sales; and\nWHEREAS while residents can carry out transactions in the public lobby of any Ottawa police station, there is not a dedicated space that is actively monitored or specific signage designating a safe space for this type of activity; and,\nWHEREAS it has been suggested that there are police stations within Ottawa that may have the capacity to have designated safe exchange spaces;\nTHEREFORE BE IT RESOLVED THAT Ottawa City Council requests that the Ottawa Police Services Board explore the feasibility of piloting safe exchange areas or community safety zones at Ottawa Police Stations that would include 24/7 surveillance and dedicated signage for the residents of Ottawa.\nBE IT FURTHER RESOLVED THAT the Ottawa Police Services Board report back with their findings to Ottawa City Council by Q3 of 2023.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.3",
+            "title": "Councillor D. Brown",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "G. Darouze",
+                "motion_text": "WHEREAS the City\u2019s Commemorative Naming Policy, approved by Council on July 24, 2002, outlines the criteria and process for commemoratively naming municipal streets, parks and facilities (or parts thereof); and\nWHEREAS in keeping with its powers set out in the Municipal Act, 2001, Council may assign a commemorative name by resolution, notwithstanding the provisions included in the Commemorative Naming Policy; and\nWHEREAS, Babe McRae is a long-time resident and volunteer in the Village of Richmond, Ward 21, Rideau-Jock; and\nWHEREAS, Mr. McRae and his immediate family have been owners and operators of several local businesses since the 1950s, including the McRae General Store and the McRae Bros Laundromat, making him a well-known and respected resident of the Village of Richmond; and\nWHEREAS, Mr. McRae has served as member of the Richmond District Lions Club and the Orange Lodge; and\nWHEREAS, Mr. McRae has also served as a member of the Richmond Agricultural Society;\nTHEREFORE BE IT RESOLVED that the park formally known as \u2018Meynell Park\u2019, located at 245 Meynell Rd, Richmond, ON K0A 2Z0, be renamed the \u201cBabe McRae Park\u201d; and\nBE IT FURTHER RESOLVED that an appropriate stand and plaque be installed displaying the name and including a brief history of Babe McRae\u2019s contributions; and\nBE IT FURTHER RESOLVED that all costs related to the production and installation of the stand, plaque and subsequent event will be funded through the Councillor\u2019s office.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=137821",
+            "attachment_title": "Mayoral Decision - By-laws - 14 December 2022.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2022 - 04/30",
+            "motion_moved_by": "G. Gower",
+            "motion_seconded_by": "C. Kitts",
+            "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "18.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "2022-408. \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2017-180 respecting the appointment of Municipal Law Enforcement Officers in accordance with private property parking enforcement.2022-409. \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands at chemin Miikana Road, croissant Wabikon Crescent, voie Gartersnake Way, and place Ninaatik Place on Plan 4M-1618 as being exempt from Part Lot Control.2022-410. \u00a0 \u00a0A by-law of the City of Ottawa to govern the proceedings of the Council and its Committees and to repeal By-law No. 2021-24.2022-411. \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2018-400 respecting a code of conduct for Members of Council.2022-412. \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2018-399 respecting a code of conduct for members of local boards.2022-413. \u00a0 \u00a0A by-law of the City of Ottawa to establish a code of conduct for the citizen members of the Built Heritage Standing Committee and to repeal By-law No. 2018-401.2022-414. \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2012-309 respecting a lobbyist registry and the position and duties of the Lobbyist Registrar.2022-415. \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law 2009-320 (Site Plan Pre-Consultation).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2022 - 04/31",
+            "motion_moved_by": "G. Gower",
+            "motion_seconded_by": "C. Kitts",
+            "motion_text": "That the following by-law be read and passed:To confirm the proceedings of the Council meeting of December 14, 2022.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "20.1",
+            "title": "Councillor R. King",
+            "attachments": [],
+            "description": "",
+            "minutes": "Councillor R. King (OCC 22-12)\nOn Thursday, Dec. 8, police responded to an assault against a passenger aboard the Confederation Line Train.\u00a0\nMy question is concerning the emergency intercom button. According to witnesses, the button was pressed but there was no response, just a dial tone.\u00a0\nMy understanding is that train operators are alerted when the intercom button is activated and are trained to respond when it is safe to do so.\u00a0Questions:",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2022 - 04/32",
+            "motion_moved_by": "G. Gower",
+            "motion_seconded_by": "C. Kitts",
+            "motion_text": "That the proceedings of the City Council meeting of December 14, 2022, be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "",
+            "post_motion_text": "The meeting adjourned at 3:27 pm."
+          }
+        ]
+      }
+    ]
+  }
+}

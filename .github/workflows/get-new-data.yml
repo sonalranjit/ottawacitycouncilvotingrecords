@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: data-branch-scrape
+  cancel-in-progress: false
+
 jobs:
   scrape-latest-meeting-minutes:
     runs-on: ubuntu-latest

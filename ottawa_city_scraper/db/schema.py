@@ -60,6 +60,8 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
     """)
 
     # One row per motion; motion_id is a deterministic hash of (item_id, motion_number, motion_text)
+    # vote_kind: 'recorded' (roll-call vote), 'dissent' (votes reconstructed from
+    # "Carried with dissent" prose), or 'none' (voice vote, no individual votes)
     con.execute("""
         CREATE TABLE IF NOT EXISTS motions (
             motion_id           VARCHAR PRIMARY KEY,
@@ -71,7 +73,8 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
             motion_text         VARCHAR,
             motion_result       VARCHAR,
             for_count           INTEGER,
-            against_count       INTEGER
+            against_count       INTEGER,
+            vote_kind           VARCHAR
         )
     """)
 
@@ -106,4 +109,22 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
             model       VARCHAR,
             enriched_at TIMESTAMP DEFAULT current_timestamp
         )
+    """)
+
+    migrate_schema(con)
+
+
+def migrate_schema(con: duckdb.DuckDBPyConnection) -> None:
+    """Bring pre-existing databases up to the current schema. Idempotent."""
+
+    con.execute("ALTER TABLE motions ADD COLUMN IF NOT EXISTS vote_kind VARCHAR")
+    # Motions with vote rows were recorded roll-call votes; the rest are voice
+    # votes. Dissent-reconstructed motions also land on 'recorded' here — a
+    # re-scrape (cli.py --rescrape) is required to reclassify them as 'dissent',
+    # since the source prose is not retained in the database.
+    con.execute("""
+        UPDATE motions SET vote_kind = CASE
+            WHEN EXISTS (SELECT 1 FROM votes v WHERE v.motion_id = motions.motion_id)
+            THEN 'recorded' ELSE 'none' END
+        WHERE vote_kind IS NULL
     """)

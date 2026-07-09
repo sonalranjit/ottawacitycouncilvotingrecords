@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { MovedMotion } from '../types';
-import { formatDate, resultLabel, resultVariant } from '../utils/format';
+import { formatDate, motionOutcome, resultVariant } from '../utils/format';
 import styles from './MotionsMovedTable.module.scss';
 
 interface Props {
@@ -64,6 +64,11 @@ export default function MotionsMovedTable({ moverFullName, motions }: Props) {
             {sorted.map((row) => {
               const isLong = row.motion_text.length > TRUNCATE_AT;
               const isExpanded = expanded.has(row.motion_id);
+              const outcome = motionOutcome(
+                row.motion_result,
+                row.vote_kind,
+                row.for_count + row.against_count
+              );
               return (
                 <tr key={row.motion_id}>
                   <td className={styles.dateCell}>
@@ -93,16 +98,20 @@ export default function MotionsMovedTable({ moverFullName, motions }: Props) {
                     )}
                   </td>
                   <td>
-                    <span className={`${styles.resultBadge} ${styles[resultVariant(row.motion_result)] ?? ''}`}>
-                      {resultLabel(row.motion_result)}
+                    <span className={`${styles.resultBadge} ${styles[outcome.variant] ?? ''}`}>
+                      {outcome.label}
                     </span>
                   </td>
                   <td className={styles.hideMobile}>
-                    <span className={styles.tally}>
-                      <span className={styles.forCount}>{row.for_count}</span>
-                      {' / '}
-                      <span className={styles.againstCount}>{row.against_count}</span>
-                    </span>
+                    {outcome.showTally ? (
+                      <span className={styles.tally}>
+                        <span className={styles.forCount}>{row.for_count}</span>
+                        {' / '}
+                        <span className={styles.againstCount}>{row.against_count}</span>
+                      </span>
+                    ) : (
+                      <span className={styles.noTally}>—</span>
+                    )}
                   </td>
                 </tr>
               );

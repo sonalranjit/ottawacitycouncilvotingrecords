@@ -95,6 +95,31 @@ def insert_meeting(
     logger.info("Upserted meeting %s (%s)", meeting_id, calendar_meeting.get("name"))
 
 
+def delete_meeting_children(con: duckdb.DuckDBPyConnection, meeting_id: str) -> None:
+    """
+    Delete all child records of a meeting ahead of a --rescrape re-insert, so
+    stale rows can't survive if a deterministic ID changed. motion_ai_enrichment
+    is deliberately kept (joined by motion_id, repopulated by stable hashes).
+    """
+    con.execute(
+        """
+        DELETE FROM votes
+        WHERE motion_id IN (SELECT motion_id FROM motions WHERE meeting_id = ?)
+        """,
+        [meeting_id],
+    )
+    con.execute("DELETE FROM motions WHERE meeting_id = ?", [meeting_id])
+    con.execute(
+        """
+        DELETE FROM agenda_item_attachments
+        WHERE item_id IN (SELECT item_id FROM agenda_items WHERE meeting_id = ?)
+        """,
+        [meeting_id],
+    )
+    con.execute("DELETE FROM agenda_items WHERE meeting_id = ?", [meeting_id])
+    con.execute("DELETE FROM meeting_attendance WHERE meeting_id = ?", [meeting_id])
+
+
 # ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------
@@ -240,6 +265,12 @@ def _insert_motion(
 
     motion_votes = motion.get("motion_votes", {})
     dissent_voters = motion.get("dissent_voters", [])
+    if motion_votes:
+        vote_kind = "recorded"
+    elif dissent_voters:
+        vote_kind = "dissent"
+    else:
+        vote_kind = "none"
     if not motion_votes and dissent_voters:
         motion_votes = _reconstruct_dissent_votes(con, meeting_id, dissent_voters)
     for_data = motion_votes.get("for", {})
@@ -249,8 +280,9 @@ def _insert_motion(
         """
         INSERT OR REPLACE INTO motions
             (motion_id, item_id, meeting_id, motion_number, motion_moved_by,
-             motion_seconded_by, motion_text, motion_result, for_count, against_count)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             motion_seconded_by, motion_text, motion_result, for_count, against_count,
+             vote_kind)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             motion_id,
@@ -263,6 +295,7 @@ def _insert_motion(
             motion.get("motion_result", ""),
             for_data.get("count", 0),
             against_data.get("count", 0),
+            vote_kind,
         ],
     )
 

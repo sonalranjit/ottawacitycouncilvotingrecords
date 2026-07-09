@@ -63,13 +63,35 @@ describe('MotionsMovedTable', () => {
 
   it('displays the result label, classifying ties separately from losses', () => {
     renderTable([makeMotion({ motion_result: 'Lost on a tie (6 to 6)' })]);
-    expect(screen.getByText('Tied')).toBeInTheDocument();
+    expect(screen.getByText('Lost on a tie (6 to 6)')).toBeInTheDocument();
   });
 
   it('displays for/against tally', () => {
-    renderTable([makeMotion({ for_count: 20, against_count: 3 })]);
+    renderTable([makeMotion({ for_count: 20, against_count: 3, vote_kind: 'recorded' })]);
     expect(screen.getByText('20')).toBeInTheDocument();
     expect(screen.getByText('3')).toBeInTheDocument();
+  });
+
+  it('labels a carried voice vote as unanimous with an em dash tally', () => {
+    renderTable([
+      makeMotion({ motion_result: 'Carried', vote_kind: 'none', for_count: 0, against_count: 0 }),
+    ]);
+    expect(screen.getByText('Carried Unanimously')).toBeInTheDocument();
+    expect(screen.getByText('—')).toBeInTheDocument();
+  });
+
+  it('keeps Received motions labelled Received', () => {
+    renderTable([
+      makeMotion({ motion_result: 'Received', vote_kind: 'none', for_count: 0, against_count: 0 }),
+    ]);
+    expect(screen.getByText('Received')).toBeInTheDocument();
+  });
+
+  it('labels an empty result as No result recorded', () => {
+    renderTable([
+      makeMotion({ motion_result: '', vote_kind: 'none', for_count: 0, against_count: 0 }),
+    ]);
+    expect(screen.getByText('No result recorded')).toBeInTheDocument();
   });
 
   it('truncates motion text longer than 120 characters and expands on click', async () => {

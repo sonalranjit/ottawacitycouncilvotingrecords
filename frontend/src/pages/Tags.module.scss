@@ -234,3 +234,15 @@
   color: #c0392b;
   font-weight: 600;
 }
+
+.noVote {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  font-style: italic;
+}
+
+.voteNote {
+  font-size: 0.75rem;
+  color: $color-text-muted;
+  font-style: italic;
+}

@@ -1,0 +1,930 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=0576ac9f-74e8-4986-b8f8-9c96b26f6e67&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=0576ac9f-74e8-4986-b8f8-9c96b26f6e67&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - September 09, 2026",
+  "meeting_number": 85,
+  "meeting_date": "2026-09-09",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Mark Sutcliffe",
+    "Matt Luloff",
+    "Laura Dudas",
+    "David Hill",
+    "Cathy Curry",
+    "Clarke Kelly",
+    "Glen Gower",
+    "Theresa Kavanagh",
+    "Laine Johnson",
+    "Sean Devine",
+    "Jessica Bradley",
+    "Tim Tierney",
+    "St\u00e9phanie Plante",
+    "Rawlson King",
+    "Ariel Troster",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "Marty Carr",
+    "Catherine Kitts",
+    "Isabelle Skalski",
+    "David Brown",
+    "Steve Desroches",
+    "Allan Hubley",
+    "Wilson Lo"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 24,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, September 9, 2026 beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333730",
+            "attachment_title": "Public Notices English - Council 2026.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333731",
+            "attachment_title": "Public Notices French - Council 2026.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. \u00a0This document does not include all of the text that will be included in the final Minutes, such as the record of written submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by Council. \u00a0The final draft Minutes will be published with the agenda for the next regular Council meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "National Anthem",
+        "attachments": [],
+        "description": "Councillor R. Brockington",
+        "minutes": "The National Anthem was performed by Patricia Currie.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Minutes 84 of the City Council meeting of August 26, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333747",
+                "attachment_title": "OCC Draft Minutes 84 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333748",
+                "attachment_title": "OCC Draft Minutes 84 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Association of Municipalities of Ontario (AMO) Communications",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333753",
+                "attachment_title": "AMO Policy Update - 28 Aug 2026.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The communications from AMO were received.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Responses to Inquiries",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "7.2.1",
+                "title": "OCC-2026-14 - Concerns about road markings and painted lines",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333732",
+                    "attachment_title": "OCC 2026 -14 Concerns about road markings and painted lines.pdf"
+                  }
+                ],
+                "description": "",
+                "minutes": "",
+                "motions": []
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.3",
+            "title": "Petitions",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "No regrets were filed.\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-85-01",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "S. Plante",
+            "motion_text": "That the Agriculture and Rural Affairs Committee Report 39, Finance and Corporate Services Committee Report 37, Planning and Housing Committee Report 70 and Public Works and Infrastructure Committee Report 28 be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Agriculture and Rural Affairs Committee Report 39",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Zoning By-law Amendment - Zoning By-law 2026-50 Appeal Resolutions",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333745",
+                "attachment_title": "Coverpage - ZBLA - Zoning By-law 2026-50 Appeal Resolutions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333746",
+                "attachment_title": "Report - Zoning By-law Amendment - Zoning By-law 2026-50 Appeal Resolutions.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-PS-0064 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Planning and Housing Committee and Agriculture and Rural Affairs Committee Recommendation(s) as amended\nThat Council approve amendments to Zoning By-law 2026-50 as shown in Documents 1A through 1F, and Documents 2 and 3, as amended by Motions Nos. PHC 2026 70-01 and ARAC 2026 39-01.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Motion \u2013 Councillor I. Skalski \u2013 Strengthening Accountability on Rural Seasonal Maintenance Operations",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333751",
+                "attachment_title": "Coverpage - Motion \u2013 Councillor I. Skalski - Strengthening Accountability.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333752",
+                "attachment_title": "Report - Motion - Councillor I. Skalksi.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0103 \u2013 Orl\u00e9ans East-Cumberland (Ward 1), West Carleton-March (Ward 5), Orl\u00e9ans South-Navan (Ward 19), Osgoode (Ward 20), Rideau-Jock (Ward 21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThatCouncil:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Finance and Corporate Services Committee Report 37",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "2026 Q2 Tax, Transit and Rate Operating and Capital Budget Status Update and Year-End Forecast",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333735",
+                "attachment_title": "Coverpage - 2026 Q2 Tax, Transit and Rate Operating and Capital Budget Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333736",
+                "attachment_title": "Report - 2026 Q2 Tax, Transit and Rate Operating and Capital Budget Status_AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333737",
+                "attachment_title": "Document 1 \u2013 Operating Results Summary as at June 30, 2026_AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333738",
+                "attachment_title": "Document 2 \u2013 Compensation Summary as at June 30, 2026_AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333739",
+                "attachment_title": "Document 3 - 2026 Q2 Capital Works-in-Progress_AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333740",
+                "attachment_title": "Document 4 \u2013 2026 Q2 Operating Budget Adjustments and Transfers_AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-FCS-FSP-0008 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council receive, for information, the 2026 Q2 Operating and Capital Status Report, including the 2026 year-end forecast, and the supporting information detailed in Documents 1 to 4.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "11.2",
+            "title": "Brownfield Grant Application \u2013 349 Danforth Avenue",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333733",
+                "attachment_title": "Coverpage - Brownfield Grant Application \u2013 349 Danforth Avenue.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333734",
+                "attachment_title": "Report -Brownfield Grant Application 349 Danforth Avenue Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-PS-0062 \u2013 Kitchissippi (Ward 15)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [
+                  "Menard"
+                ],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Planning and Housing Committee Report 70",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Official Plan and Zoning By-law Amendment\u20143 Hamilton Avenue North, and 223, 229 and 233 Armstrong Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333741",
+                "attachment_title": "Coverpage - OP and ZBLA - 3 Hamilton Avenue North, and 223, 229 and 233 Armstrong Street.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333742",
+                "attachment_title": "Report - OP and ZBLA - 3 Hamilton Avenue North and 223 229 and 233 Armstrong St.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-PSX-0036 \u2013 Kitchissippi (Ward 15)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s) as amended\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Public Works and Infrastructure Committee Report 28",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "Gladstone Avenue and Gilmour Street Cycling Improvements",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333754",
+                "attachment_title": "Cover - Gladstone Avenue and Gilmour Street Cycling Improvements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333755",
+                "attachment_title": "Gladstone Avenue and Gilmour Street Cycling Improvements - Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333756",
+                "attachment_title": "Document 1A - Proposed Functional Design Plan - Gladstone Avenue - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333757",
+                "attachment_title": "Document 1B - Proposed Functional Design Plan - Gilmour Street - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333758",
+                "attachment_title": "Document 1A- Proposed Functional Design Plan - Gladstone Avenue - French.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333759",
+                "attachment_title": "Document 1B - Proposed Functional Design Plan - Gilmour Street - French.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-TP-0009 - Somerset (Ward 14)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Bulk Consent Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "14.1",
+            "title": "Agriculture and Rural Affairs Committee Report 39",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "14.1.1",
+                "title": "Zoning By-law Amendment \u2013 4386 Rideau Valley Drive",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333749",
+                    "attachment_title": "Coverpage - Zoning By-law Amendment \u2013 4386 Rideau Valley Drivedocx.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333750",
+                    "attachment_title": "Report - ZBLA - 4386 Rideau Valley Drive - Corrected.pdf"
+                  }
+                ],
+                "description": "File No. ACS2026-PDB-PS-0069 \u2013 Rideau-Jock (Ward 21)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation(s)\nThat Council approve an amendment to Zoning By-law 2026-50 for 4386 Rideau Valley Drive, as shown in Document 1, to permit a residential subdivision and associated parks and open space areas, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "14.2",
+            "title": "Planning and Housing Committee Report 70",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "14.2.1",
+                "title": "Zoning By-law Amendment - 2775 and 2785 Palladium Drive and 350 Culdaff Road",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333743",
+                    "attachment_title": "Coverpage - ZBLA- 2775 and 2785 Palladium Drive and 350 Culdaff Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333744",
+                    "attachment_title": "Report - 2775 and 2785 Palladium Drive.pdf"
+                  }
+                ],
+                "description": "File No. ACS2026-SI-ED-0011- Stittsville (Ward 6)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation(s)\nThat Council approve an amendment to Zoning By-law 2026-050 for 2775 and 2785 Palladium Drive and 350 Culdaff Road, as shown in Document 1, to permit the development of a destination oriented recreational facility consisting of an indoor water park, family entertainment centre, 236-room hotel, accessory restaurant and associated parking, as detailed in Documents 2 and 3.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Disposition of Items Approved by Committees under Delegated Authority",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333760",
+            "attachment_title": "OCC Document 1 (FR) - Delegated Authority List.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333761",
+            "attachment_title": "OCC Document 1 (EN) - Delegated Authority List.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That Council receive the list of items approved by its Committees under Delegated Authority, attached as Document 1.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Received",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-85-02",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "S. Plante",
+            "motion_text": "That the Agriculture and Rural Affairs Committee Report 39, Finance and Corporate Services Committee Report 37, Planning and Housing Committee Report 70 and Public Works and Infrastructure Committee Report 28 be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Motions of Which Notice Has Been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "18.1",
+            "title": "Bill S-246, the Wartime Service Recognition Act",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-85-03",
+                "motion_moved_by": "M. Luloff",
+                "motion_seconded_by": "D. Hill",
+                "motion_text": "WHEREAS members of the Canadian Armed Forces have served Canada with distinction in conflicts and military operations around the world, often facing hostile and life-threatening conditions, significant personal risk, and the possibility of physical and psychological injury;\nWHEREAS the nature of warfare and Canadian military operations has evolved considerably since the Korean War, and the formal terminology used to describe a military operation does not necessarily reflect the conditions experienced by the Canadian Armed Forces members who served in it;WHEREAS more than 4,000 Canadian Armed Forces members served in the Persian Gulf region during the 1990\u20131991 Gulf War as part of the international coalition formed in response to Iraq\u2019s invasion of Kuwait, including Canadian personnel who served in active combat roles;\nWHEREAS Gulf War veterans and their advocates have long sought recognition of their service as wartime service, rather than its classification as Special Duty service, reflecting the risks, operational conditions and sacrifices experienced by those who served;\nWHEREAS veterans of the Gulf War, Afghanistan and other modern Canadian military operations deserve recognition that reflects the actual nature and conditions of their service and the sacrifices they and their families made on behalf of Canada;\nWHEREAS Bill S-246, the Wartime Service Recognition Act, would require the Government of Canada to establish a national framework and objective criteria for recognizing military service as wartime service, including consideration of the level of risk, exposure to hostile or life-threatening conditions, the nature and intensity of military operations, and exposure to conditions capable of causing physical or psychological injury;\nWHEREAS Bill S-246 would require the Minister of National Defence to review all Canadian Armed Forces operations conducted since July 27, 1953, against these objective criteria and recommend the designation of qualifying service as wartime service;\nWHEREAS Bill S-246 specifically provides that the formal label or description applied to a military operation at the time it was conducted cannot be used as a criterion in determining whether that service constitutes wartime service;\nWHEREAS this recognition would be symbolic and commemorative and would not, in itself, create any new entitlement to financial benefits under federal legislation;\nWHEREAS Ottawa is home to thousands of serving Canadian Armed Forces members, veterans and military families, whose service and contributions form an important part of our city\u2019s identity;\nTHEREFORE BE IT RESOLVED THAT Ottawa City Council express its support for Bill S-246, the Wartime Service Recognition Act, and its objective of ensuring that Canadian Armed Forces members and veterans, including veterans of the 1990\u20131991 Gulf War, Afghanistan and other modern military operations, receive fair, consistent and meaningful recognition based upon the actual conditions in which they served;\nBE IT FURTHER RESOLVED THAT the Mayor, on behalf of Ottawa City Council, write to the Prime Minister of Canada, the Minister of National Defence, the Minister of Veterans Affairs, the Speaker of the House of Commons, and Ottawa-area Members of Parliament to communicate Council\u2019s support for Bill S-246 and encourage its timely consideration and passage by Parliament.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "18.2",
+            "title": "Demolition Control \u2013 344 McRae Avenue",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-85-04",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "A. Troster",
+                "motion_text": "WHEREAS the buildings on the parcel of land known as 344 McRae Avenue is owned by the City of Ottawa, and;\nWHEREAS the City will be demolishing the buildings as soon as approvals are in place to allow for the start of expansion of Livmore Park in 2026 and be completed in 2027; and\nWHEREAS the site is subject to a Demolition Control application and the normal approval process under demolition control could unduly delay the project and restrict meeting the timelines for tendering the project; and\nWHEREAS, by waiving demolition control approval, the City will not receive$6200.48 (includes $1274.64 Legal Fee + HST) which is the fee associated with a demolition control application; and\nWHEREAS the site would still be subject to a demolition permit;\nTHEREFORE BE IT RESOLVED that Council waive demolition control approval and associated demolition control fees, to allow the City to proceed directly to seeking a demolition permit for the buildings on 344 McRae Avenue.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "18.3",
+            "title": "Post-Flood Residential Resilience Support",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-85-05",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "WHEREAS the July 1, 2026 extreme rainfall event caused significant flooding impacts across the City of Ottawa, including in Ward 7 and the Crystal Beach community; and\nWHEREAS flooding may occur through a variety of pathways, including overland flow, sewer surcharge, groundwater infiltration, and private-side plumbing or drainage limitations; and\nWHEREAS the most appropriate flood-mitigation measures vary from property to property depending on how flooding occurred and the characteristics of the home; and\nWHEREAS residents may experience challenges identifying the appropriate expertise, services, and information required to assess flooding impacts and evaluate potential mitigation measures; and\nWHEREAS Council has previously provided direction regarding flood-event response, flood-resilience review activities, fee relief measures, and the City's Compassionate Grant Program and Residential Protective Plumbing Program; and\nWHEREAS Council would benefit from information regarding potential approaches to supporting residents in navigating property assessment and flood-mitigation decision-making;\nTHEREFORE BE IT RESOLVED THAT Council direct the General Manager, Infrastructure and Water Services, in consultation with relevant departments, to report back through the 2026 Rainfall Analysis on options to develop a private-property flood resilience toolkit that complements existing Council directions;\nBE IT FURTHER RESOLVED THAT staff engage relevant stakeholders and service providers to identify existing supports, and potential partnership opportunities; and\nBE IT FURTHER RESOLVED THAT staff examine how existing residential flood-resilience programs and initiatives, including Rain Ready Ottawa and related homeowner-support measures could contribute to improving resident access to information, guidance, and support following flooding events; and\nBE IT FURTHER RESOLVED THAT staff undertake a jurisdictional review of homeowner-support, technical-assistance and private-side flood-mitigation programs offered by comparable Canadian municipalities and assess their applicability to Ottawa.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "18.4",
+            "title": "Anti-Human Trafficking Task Force Framework",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-85-06",
+                "motion_moved_by": "M. Sutcliffe",
+                "motion_seconded_by": "C. Curry",
+                "motion_text": "WHEREAS\u00a0human trafficking is a serious crime and violation of human rights that disproportionately affects women, girls, youth, Indigenous peoples, newcomers, members of the 2SLGBTQ+ community, and other vulnerable populations; and\nWHEREAS\u00a0Statistics Canada data indicates that 416 police-reported human trafficking incidents were recorded in the Ottawa Census Metropolitan Area between 2014 and 2024, representing approximately 8.2 per cent of all police-reported incidents in Canada during that period, with Ottawa experiencing a rate significantly higher than the national average; and\nWHEREAS\u00a0the Ottawa Police Service Human Trafficking Unit reviewed 266 reports for possible human trafficking between January 1, 2023, and July 24, 2026, resulting in numerous criminal charges, demonstrating the continued prevalence of trafficking in Ottawa; and\nWHEREAS\u00a0Ontario's Anti-Human Trafficking Strategy 2025-2030 identifies prevention, early intervention, survivor supports, Indigenous-led approaches and enhanced coordination among partners as key priorities and includes a provincial investment of more than $345 million to combat human trafficking; and\nWHEREAS\u00a0numerous organizations in Ottawa currently provide critical services, supports, prevention programs, victim assistance, law enforcement, health, housing, education and community-based interventions related to human trafficking; and\nWHEREAS\u00a0there is an opportunity for the City of Ottawa to strengthen coordination, identify system gaps, improve information sharing, enhance prevention efforts and develop measurable community-wide objectives without duplicating the work of existing service providers and agencies;\nWHEREAS\u00a0in 2026, City Council approved Ottawa's refreshed2021 to 2031 Community Safety and Well-Being (CSWB) Plan, with a priority on gender based violence and violence against women. The plan sets out how the City works with community partners to improve the safety, health and well-being of Ottawa residents;\nWHEREAS\u00a0the as part of the CSWB Plan, the City has funded local community agencies to develop a\u00a0community-led three-year Gender-based and Intimate Partner Violence Reduction Action plan\u00a0(GBV-VAW Action Plan), informed by extensive sector engagement.\nWHEREAS \u00a0A New Day Youth and Adult Services, and other Ottawa-based organizations contribute outstanding efforts to supporting survivors of human trafficking and sexual exploitation through trauma-informed care, long-term housing, counselling, and individualized recovery programs.\nWHEREAS\u00a0through its survivor-centered approach, A New Day empowers young people to heal, rebuild their lives, and move toward independence with dignity, hope, and community support.\nTHEREFORE BE IT RESOLVED\u00a0that Community and Social Services (CSSD) work\u00a0with A New Day, and other organizations contributing to a GBV-VAW Action Plan,\u00a0under the CSWB Plan,\u00a0to create a\u00a0Human Trafficking Task Force\u00a0as a multi-sector, survivor-informed advisory body with the objective of improving community coordination, prevention, accountability and system-level responses to human trafficking in Ottawa to be announced in Q4 of 2026; and\nBE IT FURTHER RESOLVED\u00a0that the Task Force shall not duplicate the operational mandates of existing service providers, law enforcement agencies, community tables, or provincial programs, but shall instead focus on strategic coordination, policy advice, systems planning, advocacy to all levels of government and public education and awareness; and\nBE IT FURTHER RESOLVED\u00a0that the appointed Task Force will develop the final structure, terms of reference, membership composition and governance model for the Task Force.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "19.1",
+            "title": "Eastern Bridge Project",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-85-07",
+                "motion_moved_by": "R. King",
+                "motion_seconded_by": "M. Sutcliffe",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following Motion to engage the federal government in a timely manner prior to the anticipated end of the consultation period.\nWHEREAS Public Services and Procurement Canada\u2019s proposed Eastern Bridge Project includes not only a new interprovincial crossing but modifications to approximately nine kilometres of existing roads, intersections and multi-use pathways along the Mont\u00e9e-Paiement - Aviation Parkway corridor, extending from Autoroute 50 in Gatineau to Highway 417 in Ottawa; and\nWHEREAS the project could have significant implications for traffic, truck movements, public transit, commute times, neighbourhood safety and Ottawa\u2019s broader transportation network, including the intersections with Hemlock Road, Montreal Road, Ogilvie Road, Highway 174 and Highway 417; and\nWHEREAS decades of discussion about an additional interprovincial crossing have generated deeply held and often opposing views across Ottawa, contributing to consultation fatigue without achieving a broadly supported regional transportation solution; and\nWHEREAS the movement of people and goods is a regional issue that requires a coordinated approach and should not result in communities being pitted against one another based on where traffic impacts may be experienced; and\nWHEREAS the Eastern Bridge Project must be understood within the context of the National Capital Region\u2019s broader and long-term transportation needs, including traffic, truck movements, public transit, existing infrastructure and alternative regional routes and connections; and\nWHEREAS Council has previously supported comprehensive, data-driven consideration of alternative regional transportation routes and a coordinated regional transportation planning framework, and any further work should build upon existing studies and Council directions rather than duplicate them; and\nWHEREAS the National Capital Commission\u2019s Long-Term Integrated Interprovincial Crossings Plan provides a \u201cOne Region\u201d framework for the movement of people and goods across the National Capital Region; and\nWHEREAS the current consultation concerns the Initial Project Description and represents an early step in a multi-stage impact-assessment and approval process; and\nWHEREAS the current federal consultation period closes on October 9, 2026, during Ottawa\u2019s municipal election period, limiting the ability of Members of Council to communicate and engage fully through municipal channels and concluding before the newly elected City Council takes office; and\nWHEREAS a project requiring significant public investment warrants meaningful municipal and public participation before consequential decisions are made.\nTHEREFORE BE IT RESOLVED that City Council request that the Government of Canada extend the current consultation period and pause consequential decisions or approvals concerning the Eastern Bridge Project until the newly elected Ottawa City Council has taken office and had a reasonable opportunity to consider the matter and establish a formal City position; and\nBE IT FURTHER RESOLVED that City staff engage with Public Services and Procurement Canada, the Impact Assessment Agency of Canada, the National Capital Commission and municipal, provincial and transit partners across the National Capital Region to support a coordinated discussion about the movement of people and goods and ensure that the proposed bridge is considered within the region\u2019s broader and long-term transportation needs; and\nBE IT FURTHER RESOLVED that these discussions build upon existing studies, available transportation data and previous Council directions, including consideration of public transit and regional routes and connections, to avoid duplication and ensure that the work remains relevant to Ottawa\u2019s transportation planning regardless of whether the Eastern Bridge Project proceeds; and\nBE IT FURTHER RESOLVED that the extended consultation provide affected communities with a meaningful opportunity to understand and comment on the potential impacts and benefits; and\nBE IT FURTHER RESOLVED that the City Clerk formally submit this resolution through the federal impact-assessment process before the October 9, 2026 deadline, and that staff from Planning, Development and Building Services engage directly with the relevant federal agencies to advance Council\u2019s requests, and provide Council with an update on the federal response and recommended next steps; and\nBE IT FURTHER RESOLVED that this motion is not interpreted as Council\u2019s final support for or opposition to the Eastern Bridge Project, but as a request for sufficient time, information and regional coordination before consequential decisions are made.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Sutcliffe",
+                      "M. Luloff",
+                      "L. Dudas",
+                      "D. Hill",
+                      "C. Curry",
+                      "C. Kelly",
+                      "T. Kavanagh",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "T. Tierney",
+                      "R. King",
+                      "A. Troster",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "S. Menard",
+                      "M. Carr",
+                      "C. Kitts",
+                      "I. Skalski",
+                      "D. Brown",
+                      "S. Desroches",
+                      "A. Hubley",
+                      "W. Lo"
+                    ],
+                    "count": 23
+                  },
+                  "against": {
+                    "councillors": [
+                      "G. Gower",
+                      "S. Plante"
+                    ],
+                    "count": 2
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (23 to 2)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "20.1",
+            "title": "Trump Avenue Street Name Change",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "R. Brockington",
+                "motion_seconded_by": "T. Tierney",
+                "motion_text": "WHEREAS the Central Park neighbourhood in Ottawa\u2019s River Ward, was built in the late 1990s and early 2000s; and\nWHEREAS many of the streets in Central Park were named after New York City landmarks, locations and an individual; and\nWHEREAS one of the streets in the neighbourhood is named Trump Avenue, after Donald J. Trump, a New York City real estate mogul at the time of the naming and current President of the United States of America; and\nWHEREAS the Central Park street naming theme was not proposed as a commemorative naming initiative and simply thematically named; and\nWHEREAS Trump Avenue today would not meet any of the criteria had it gone through a formal commemorative naming process; and\nWHEREAS City of Ottawa prides itself on who it commemorates and honours; and\nWHEREAS the City of Ottawa's street naming policies require all new and replacement street names to be evaluated against established street naming criteria, including public safety and wayfinding considerations, to ensure that proposed names do not duplicate, sound the same as, or create confusion with existing or reserved street names and to support effective emergency response, navigation, and municipal addressing functions.\nTHEREFORE BE IT RESOLVED that City Council approve the renaming of Trump Avenue; and\nBE IT FURTHER RESOLVED that City Council direct the Councillor for Ward 16, River Ward, to lead a public consultation process with all households of Trump Avenue that will ultimately nominate a new street name that meets the City\u2019s street naming policies, which may retain a New York City theme or propose a name that deviates from that theme; and\nBE IT FURTHER RESOLVED that the proposed new street name be recommended to City Council for approval no later than Q2 of 2027.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "20.2",
+            "title": "Municipal Support for a National Plan to Reduce and End Homelessness",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "A. Troster",
+                "motion_text": "WHEREAS homelessness has reached crisis levels in communities across Canada, placing growing pressure on individuals and families, municipalities, emergency shelters, health care systems, first responders, police services, and other community services;\nWHEREAS municipalities are on the front lines of the homelessness crisis, but do not have the fiscal capacity or jurisdictional authority to address its root causes alone;\nWHEREAS the current National Housing Strategy is set to expire in 2027-2028, creating an important opportunity for the Government of Canada to establish a renewed national approach focused not only on increasing housing supply, but on achieving measurable reductions in homelessness;\nWHEREAS the Canadian Alliance to End Homelessness has proposed a five-point plan for the next National Housing Strategy aimed at preventing homelessness, rapidly reducing chronic and unsheltered homelessness, and ensuring that people experiencing homelessness have access to housing and appropriate supports;\nWHEREAS this approach recognizes that ending homelessness requires coordinated action among federal, provincial and territorial, Indigenous, and municipal governments, as well as community housing and homelessness organizations;\nWHEREAS the City of Ottawa has made commitments to address homelessness and housing stability through an updated 10-Year Housing and Homelessness Plan 2026-2035 which focuses on having the housing and supports that people need to thrive;\nWHEREAS the Canada-Ontario Housing Benefit (COHB) program does not provide sufficient funding to allow municipalities to effectively address system pressures through proactive responses to homelessness, housing loss prevention and shelter diversion;\nWHEREAS the City of Ottawa\u2019s auditor completed an audit of supportive housing and noted that supportive housing programs cannot meet the needs of individuals dealing with chronic homelessness without more coordination between capital, operating and health funding \u2013 which requires coordination at all three levels of government;\nWHEREAS the City of Ottawa has seen growing pressures in the homelessness system due to the toxic drug supply, increased prevalence and complexity in mental health challenges and addiction and a lack of deeply affordable housing;\nWHEREAS in 2025, the shelter system was accessed by 8,947 people and of those, 4,125 were experiencing chronic homelessness; and\nWHEREAS the City of Ottawa has seen a rising number of people experiencing unsheltered homelessness and an increase in the number of encampments year over year, with 545 encampments reported in 2025 and 1,176 unsheltered individuals receiving support.\nTHEREFORE BE IT RESOLVED THAT that Council endorse the following five priorities for inclusion in the next National Housing Strategy:\n1. \u00a0 \u00a0Create a housing safety net to prevent homelessness\nEnhance the Canada Ontario Housing Benefit (COHB) so that funding levels are sufficient to address community needs. Enhanced funding will allow Ottawa to expand program eligibility beyond supporting exits from shelter to a more proactive approach that addresses homelessness through housing loss prevention and shelter diversion. In doing so, ensure that portable housing benefits complement, rather than replace, project-based operating assistance for affordable and supportive housing providers, and include mechanisms to maintain stable funding for housing providers when benefit recipients relocate.\n2. \u00a0 \u00a0Invest in deeply affordable and supportive housing\nMake significant and sustained investments for capital and operating in deeply affordable, community and supportive housing, including the repair and preservation of existing affordable housing; expand housing options for Indigenous peoples in urban, rural and northern communities; and work toward substantially increasing Canada's non-market housing stock.\n3. \u00a0 \u00a0Establish Intensive Housing for people with severe cognitive impairment and complex needs\nCreate a dedicated program that supports municipalities with capital and operating funding to address housing needs for people experiencing homelessness because of severe and permanent cognitive impairment, acquired brain injury, serious mental illness and/or other complex health conditions. The program should have integrated health and housing funding to support those with highly complex needs.This should include a federal investment of $3.6 billion in capital funding to create a minimum of 6,000 Intensive Housing units across Canada, together with a sustainable operating funding framework developed with provinces and territories to provide the health and social supports required by residents.\n4. \u00a0 \u00a0Establish a National Homelessness Strategy\nEmbed a dedicated National Homelessness Strategy within the next National Housing Strategy, with clear and measurable targets for reducing homelessness; an initial focus on chronic, unsheltered and veteran homelessness; improved community-level data; and federal programs and housing investments aligned toward measurable homelessness reduction outcomes.\n5. \u00a0 \u00a0Negotiate a Canada Housing Accord\nEstablish a Canada Housing Accord among federal, provincial and territorial governments that sets shared national principles, measurable and time-bound outcomes, clearly defined responsibilities for each order of government, appropriate accountability mechanisms, and coordinated investments in housing and homelessness reduction. It should build on existing National Housing Strategy agreements by strengthening coordination, clarifying long-term roles and responsibilities, establishing measurable and time-bound outcomes, enhancing accountability mechanisms, and aligning investments in housing and homelessness reduction across all orders of government.\nBE IT FURTHER RESOLVED THAT Council endorse this call to action by the Canadian Alliance to End Homelessness (CAEH) to the Government of Canada to incorporate these five priorities into the renewed National Housing Strategy by encouraging them to further work with provinces, territories, Indigenous governments, municipalities and community partners to establish clear targetsand coordinated investments aimed at achieving significant, measurable reductions in homelessness within five years; and\nBE IT FURTHER RESOLVED THAT the City Clerk send a copy of this resolution to the Prime Minister of Canada, the federal Minister responsible for Housing and Homelessness, the Premier of Ontario, the provincial Minister responsible for Housing, local Members of Parliament and Members of the provincial legislature, the Association of Municipalities of Ontario (AMO), the Federation of Canadian Municipalities (FCM), and the Canadian Alliance to End Homelessness (CAEH).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "20.3",
+            "title": "Ottawa Community Housing Corporation Temporary Financing for Capital Repairs",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "C. Kitts",
+                "motion_text": "WHEREAS Ottawa Community Housing Corporation (OCHC) is the City of Ottawa's wholly-owned municipal housing corporation, which manages approximately two-thirds of the social housing stock under the administration of the City, and provides housing to approximately 32,000 residents; and WHEREAS on October 8, 2025 through report ACS2025-CSS-GEN-012, Council approved the refinancing of five Public Housing properties between 2026 and 2028, expected to generate approximately $133 million for urgent and critical capital repairs within the OCHC portfolio; and\nWHEREAS the timing of capital repair expenditures may not align with the receipt of mortgage refinancing proceeds, or other long-term financing sources, creating a need for interim financing to advance necessary repair work; and\nWHEREAS the City has access to short-term financing instruments at rates that could be lower than the borrowing rates OCHC would have access to; and\nWHEREAS short-term financing to OCHC is permitted and consistent with section 107 of the Municipal Act, 2001, provided that Council determines the financing to be in the interests of the City; and\nWHEREAS the provision of temporary financing to OCHC for capital repairs supports the Term of Council Priority for the preservation and maintenance of affordable and social housing assets owned by OCHC, and assists the City in fulfilling its obligations as Service Manager under the Housing Services Act, 2011 and is therefore considered to be in the interest of the City;\nTHEREFORE BE IT RESOLVED that Council approve the provision of temporary short-term financing by the City of Ottawa to Ottawa Community Housing Corporation, through the issuance of Promissory Notes or other short-term borrowing instruments, to finance capital repairs within the OCHC housing portfolio pending the receipt of mortgage refinancing proceeds, CMHC funding, or other long-term financing sources; and\nBE IT FURTHER RESOLVED that all principal and interest associated with such temporary financing shall be repaid to the City by OCHC from operating revenues, or other available OCHC funding sources, such that the temporary financing does not result in an additional financial burden to City taxpayers; and\nBE IT FURTHER RESOLVED that the Chief Financial Officer/Treasurer be delegated the authority to negotiate, execute, and administer all necessary agreements, Promissory Notes, repayment agreements, and related documents required to implement such temporary financing.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "20.4",
+            "title": "City of Ottawa contribution to Canadian Red Cross appeal for July 2026 flood-impacted residents",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "M. Sutcliffe",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "WHEREAS more than 6,500 Ottawa households continue to cope with the significant emotional, physical, and financial impacts of flooding to their homes arising from the July 1, 2026 extreme weather and flood event; and\nWHEREAS the Canadian Red Cross has been assisting hundreds of residents and families in need since July 1, helping them meet basic needs, access supports, navigate complex insurance claims and restore their homes; and\nWHEREAS the Canadian Red Cross has now gained a greater understanding of the extent of the financial hardship that hundreds of uninsured and underinsured residents are facing and will continue to face in the coming months and years; and\nWHEREAS the Government of Canada announced on September 4, 2026 that it was establishing a donation matching program in response to the Canadian Red Cross donation appeal campaign for flood-impacted residents in Ottawa, in order to maximize donations and help our residents in need get back on their feet;\nTHEREFORE BE IT RESOLVED that City Council institute a similar mechanism to match all donations from Canadian individuals and corporations made through the Canadian Red Cross appeal campaign, applied retroactively to the launch day of the appeal campaign on July 15, and up until the federal 90-day matching period ending on October 15; and\nBE IT FURTHER RESOLVED the City\u2019s total contribution to the donation campaign up to $250,000, to be funded from the Tax Stabilization Reserve; and\nBE IT FURTHER RESOLVED that the Canadian Red Cross report back to the City no later than Q2 2027 on how the funding helped flood-impacted residents in need.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "21.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-85-08",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "S. Plante",
+                "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed.\n2026-379 \u00a0 \u00a0A by-law of the City of Ottawa to repeal By-law No. 2026-264 and to close Part of Provender Avenue and Part of Burma Road, in the City of Ottawa.2026-380 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2017-180 respecting the appointment of Municipal Law Enforcement Officers in accordance with private property parking enforcement.2026-381 \u00a0 \u00a0A by-law of the City of Ottawa to designate 701 Montr\u00e9al Road to be of cultural heritage value or interest.2026-382 \u00a0 \u00a0A by-law of the City of Ottawa to designate 915 Merivale Road to be of cultural heritage value or interest.2026-383 \u00a0 \u00a0A by-law of the City of Ottawa to repeal the by-law designating 38-44 Clarence Street to be of cultural heritage value or interest.2026-384 \u00a0 \u00a0A by-law of the City of Ottawa to repeal the by-law designating Lemieux Island Bridge to be of cultural heritage value or interest.2026-385 \u00a0 \u00a0A by-law of the City of Ottawa to repeal the by-law designating 520 Queen Elizabeth Driveway to be of cultural heritage value or interest.2026-386 \u00a0 \u00a0A by-law of the City of Ottawa to repeal the by-law designating 1518 Stittsville Main Street to be of cultural heritage value or interest.2026-387 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2001-17 to appoint certain Inspectors, Property Standards Officers and Municipal Law Enforcement Officers in the Building Code Services of the Department of Planning, Development, and Building Services.2026-388 \u00a0 \u00a0A by-law of the City of Ottawa to amend the Wellington Street West Secondary Plan of Volume 2A of the Official Plan for the City of Ottawa to amend maximum building heights and site-specific provisions to lands known as 3 Hamilton Avenue North, and 223, 229, and 233 Armstrong Street.2026-389 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 3 Hamilton Avenue North and 223, 229, and 233 Armstrong Street.2026-390 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 3 Hamilton Avenue North and 223, 229, and 233 Armstrong Street.2026-391 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 4386 Rideau Valley Drive.2026-392 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 2775 and 2785 Palladium Drive and 350 Culdaff Road.2026-393 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 2775 and 2785 Palladium Drive and 350 Culdaff Road.2026-394 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 6250 Hazeldean Road.2026-395 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 6250 Hazeldean Road.2026-396 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 for the purpose of resolving appeals to Zoning By-law 2026-50.2026-397 \u00a0 \u00a0A by-law of the City of Ottawa to amend various by-laws of the City of Ottawa and to repeal By-laws No. 2026-309 and 2026-310.2026-398 \u00a0 \u00a0A by-law to repeal By-law No. 2026-182 of the City of Ottawa.2026-399 \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands at de la Crevasse Road, Alpenstock Avenue, Cornice Street, du Rappel Circle, Switchback Ridge, Tricam Row, du Bivouac Mews, Ascender Avenue and Crux Road on Plan 4M-1719 as being exempt from Part Lot Control.2026-400 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Great Pond Avenue and Portobello Boulevard).2026-401 \u00a0 \u00a0A by-law of the City of Ottawa to change the name of Adanae Way, a municipal highway in the City of Ottawa, to Adane Way.2026-402 \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands on Plan 4M-1787 as being exempt from Part Lot Control.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "22.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-85-09",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "S. Plante",
+            "motion_text": "That the following by-law be read and passed:\nTo confirm the proceedings of the Council meeting of September 9, 2026.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "23.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "24.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 10:45 am.",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-85-10",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "S. Plante",
+            "motion_text": "That the proceedings of the City Council meeting of September 9, 2026, be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      }
+    ]
+  }
+}

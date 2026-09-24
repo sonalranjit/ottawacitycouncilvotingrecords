@@ -1,0 +1,799 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=de879260-e75d-4f74-b0b7-4c8d8cbde996&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=de879260-e75d-4f74-b0b7-4c8d8cbde996&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - September 23, 2026",
+  "meeting_number": 86,
+  "meeting_date": "2026-09-23",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Mark Sutcliffe",
+    "Matt Luloff",
+    "Laura Dudas",
+    "David Hill",
+    "Cathy Curry",
+    "Clarke Kelly",
+    "Theresa Kavanagh",
+    "Laine Johnson",
+    "Sean Devine",
+    "Jessica Bradley",
+    "Tim Tierney",
+    "Rawlson King",
+    "Ariel Troster",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "Marty Carr",
+    "Catherine Kitts",
+    "Isabelle Skalski",
+    "David Brown",
+    "Steve Desroches",
+    "Allan Hubley",
+    "Wilson Lo"
+  ],
+  "absent_attendees": [
+    "Glen Gower",
+    "St\u00e9phanie Plante"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 21,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, September 23, 2026, beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335136",
+            "attachment_title": "Public Notices English - Council 2026.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335137",
+            "attachment_title": "Public Notices French - Council 2026.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. \u00a0This document does not include all of the text that will be included in the final Minutes, such as the record of written submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by Council. \u00a0The final draft Minutes will be published with the agenda for the next regular Council meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "National Anthem",
+        "attachments": [],
+        "description": "Councillor C. Kitts",
+        "minutes": "The National Anthem was performed by students from Heritage Public School in Navan.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present except Councillors G. Gower and S. Plante.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Minutes 85 of the City Council meeting of 9 September 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335138",
+                "attachment_title": "OCC Draft Minutes 85 (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335139",
+                "attachment_title": "OCC Draft Minutes 85 (EN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Association of Municipalities of Ontario (AMO) Communications",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335140",
+                "attachment_title": "AMO Policy Update - 15 Sept 2026.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The communications from AMO were received.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Petitions",
+            "attachments": [],
+            "description": "A petition submitted by residents of Carp, containing 43 signatures, requesting that the City of Ottawa prioritize Midvale Drive and Alissia Crescent for full asphalt removal and road resurfacing in the upcoming municipal capital works budget.",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "Councillor G. Gower advised that he would be absent from the City Council meeting of September 23, 2026.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-86-01",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "T. Tierney",
+            "motion_text": "That the Built Heritage Committee Report 34 and the report from the City Clerk entitled \u201cSummary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of September 9, 2026\u201d be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Built Heritage Committee Report 34",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Consideration of Objection to the Notice of Intention to Designate 575 Island Park Crescent, under Part IV of the Ontario Heritage Act",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335145",
+                "attachment_title": "1 - (Coverpage) - ACS2026-PDB-RHU-0047 - 575 Island Park Crescent.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335146",
+                "attachment_title": "1 - (Report) - ACS2026-PDB-RHU-0047 - 575 Island Park Crescent.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335147",
+                "attachment_title": "1 - Doc 1 - Objection Letter, 575 Island Park Cresc.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335148",
+                "attachment_title": "1 - Doc 5 - Designated Substance Survey.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335149",
+                "attachment_title": "1 - Doc 6 - Structural Report, Gadient Engineering.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335150",
+                "attachment_title": "1 - Doc 7 - Second Opinion Structural Review, JCAL.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-RHU-0047 - Kitchissippi (Ward 15)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council not withdraw the Notice of Intention to Designate 575 Island Park Crescent and proceed with the designation process under Part IV of theOntario Heritage Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Heritage Easement \u2013 Saint-Marc United Church, 325 Elgin Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335151",
+                "attachment_title": "3 - (Coverpage) - ACS2026-PDB-RHU-0048 - Saint-Marc United Church, 325 Elgin St - Updated.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335152",
+                "attachment_title": "3 - (Report) - ACS2026-PDB-RHU-0048 - Saint-Marc United Church, 325 Elgin St - Updated.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335153",
+                "attachment_title": "3 - Doc 3 - Heritage Easement Agreement (2023).pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-RHU-0048 - Somerset (Ward 14)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s) as amended\nThat Council direct the City Solicitor to place a by-law for enactment to delegate authority to staff to negotiate, finalize, and register a covenant agreement under theOntario Heritage Actto ensure the conservation of Saint-Marc United Church at 325 Elgin Street.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "10.3",
+            "title": "1485 and 1495 Heron Road - Heritage Permit Application",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335154",
+                "attachment_title": "4 - (Coverpage) - ACS2026-PDB-RHU-0050 - 1485 and 1495 Heron Rd.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335155",
+                "attachment_title": "4 - (Report) - ACS2026-PDB-RHU-0050 - 1485 and 1495 Heron Rd (REVISED pg 7).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335156",
+                "attachment_title": "4 - Doc 4 - Heron Concept Plan_UpdatedSep14.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335157",
+                "attachment_title": "4 - Doc 5 - Heritage Impact Assessment.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335158",
+                "attachment_title": "4 - Doc 6 - 1495 Heron Rd - Conservation Design Guidelines.pdf"
+              }
+            ],
+            "description": "File Number: ACS2026-PDB-RHU-0050 - Alta Vista (Ward 18)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s) as amended\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Bulk Consent Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Built Heritage Committee Report 34",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "11.1.1",
+                "title": "Designation of 1837 Maple Grove Road and 756 Kinstead Private",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335143",
+                    "attachment_title": "Coverpage - ACS2026-PDB-RHU-0051 - 1837 Maple Grove Rd and 756 Kinstead Pvt.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335144",
+                    "attachment_title": "Report - ACS2026-PDB-RHU-0051 - 1837 Maple Grove Rd and 756 Kinstead Pvt.pdf"
+                  }
+                ],
+                "description": "File Number: ACS2026-PDB-RHU-0051 - Stittsville (Ward 6)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee Recommendation(s)\nThat Council:",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "11.2",
+            "title": "City Clerk \u2013 Summary of Oral and Written Public Submissions",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "11.2.1",
+                "title": "Summary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of September 9, 2026",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335159",
+                    "attachment_title": "Doc 2_Summary_ACS2026-SI-ED-0011 - Zoning By-law Amendment - 2775 and 2785 Palladium Drive and 350 Culdaff Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335160",
+                    "attachment_title": "Doc 3 - Summary - ACS2026-PDB-PS-0064 -Zoning By-law Amendment - Zoning By-law 2026-50 Appeal Resolutions.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335161",
+                    "attachment_title": "Report - Summary of Submissions - Planning Matters approved September 9, 2026.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335162",
+                    "attachment_title": "Doc 1_Summary_ACS2026-PDB-PSX-0036 - Official Plan and Zoning By-law Amendment - 3 Hamilton Ave N_223, 229, 233 Armstrong.pdf"
+                  }
+                ],
+                "description": "File No. ACS2026-OCC-CCS-0107 - City-wide",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Report Recommendation(s)\nThat Council approve the Summaries of Oral and Written Public Submissions for items considered at the City Council Meeting of September 9, 2026, that are subject to the \u2018Explanation Requirements\u2019 being thePlanning Act, subsections 17(23.1), 22(6.7), 34(10.10) and 34(18.1), as applicable, as described in this report and attached as Documents 1 - 3.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Disposition of Items Approved by Committees under Delegated Authority",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335141",
+            "attachment_title": "OCC Document 1 (EN) - Delegated Authority List.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=335142",
+            "attachment_title": "OCC Document 1 (FR) - Delegated Authority List.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That Council receive the list of items approved by its Committees under Delegated Authority, attached as Document 1.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Received",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-86-02",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "T. Tierney",
+            "motion_text": "That the Built Heritage Committee Report 34 and the report from the City Clerk entitled \u201cSummary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of September 9, 2026\u201d be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Motions of Which Notice Has Been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "15.1",
+            "title": "Trump Avenue Street Name Change",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-03",
+                "motion_moved_by": "R. Brockington",
+                "motion_seconded_by": "T. Tierney",
+                "motion_text": "WHEREAS the Central Park neighbourhood in Ottawa\u2019s River Ward, was built in the late 1990s and early 2000s; and\nWHEREAS many of the streets in Central Park were named after New York City landmarks, locations and an individual; and\nWHEREAS one of the streets in the neighbourhood is named Trump Avenue, after Donald J. Trump, a New York City real estate mogul at the time of the naming and current President of the United States of America; and\nWHEREAS the Central Park street naming theme was not proposed as a commemorative naming initiative and simply thematically named; and\nWHEREAS Trump Avenue today would not meet any of the criteria had it gone through a formal commemorative naming process; and\nWHEREAS City of Ottawa prides itself on who it commemorates and honours; and\nWHEREAS the City of Ottawa's street naming policies require all new and replacement street names to be evaluated against established street naming criteria, including public safety and wayfinding considerations, to ensure that proposed names do not duplicate, sound the same as, or create confusion with existing or reserved street names and to support effective emergency response, navigation, and municipal addressing functions.\nTHEREFORE BE IT RESOLVED that City Council approve the renaming of Trump Avenue; and\nBE IT FURTHER RESOLVED that City Council direct the Councillor for Ward 16, River Ward, to lead a public consultation process with all households of Trump Avenue that will ultimately nominate a new street name that meets the City\u2019s street naming policies, which may retain a New York City theme or propose a name that deviates from that theme; and\nBE IT FURTHER RESOLVED that the proposed new street name be recommended to City Council for approval no later than Q2 of 2027.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.2",
+            "title": "Municipal Support for a National Plan to Reduce and End Homelessness",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-04",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "A. Troster",
+                "motion_text": "WHEREAS homelessness has reached crisis levels in communities across Canada, placing growing pressure on individuals and families, municipalities, emergency shelters, health care systems, first responders, police services, and other community services;\nWHEREAS municipalities are on the front lines of the homelessness crisis, but do not have the fiscal capacity or jurisdictional authority to address its root causes alone;\nWHEREAS the current National Housing Strategy is set to expire in 2027-2028, creating an important opportunity for the Government of Canada to establish a renewed national approach focused not only on increasing housing supply, but on achieving measurable reductions in homelessness;\nWHEREAS the Canadian Alliance to End Homelessness has proposed a five-point plan for the next National Housing Strategy aimed at preventing homelessness, rapidly reducing chronic and unsheltered homelessness, and ensuring that people experiencing homelessness have access to housing and appropriate supports;\nWHEREAS this approach recognizes that ending homelessness requires coordinated action among federal, provincial and territorial, Indigenous, and municipal governments, as well as community housing and homelessness organizations;\nWHEREAS the City of Ottawa has made commitments to address homelessness and housing stability through an updated 10-Year Housing and Homelessness Plan 2026-2035 which focuses on having the housing and supports that people need to thrive;\nWHEREAS the Canada-Ontario Housing Benefit (COHB) program does not provide sufficient funding to allow municipalities to effectively address system pressures through proactive responses to homelessness, housing loss prevention and shelter diversion;\nWHEREAS the City of Ottawa\u2019s auditor completed an audit of supportive housing and noted that supportive housing programs cannot meet the needs of individuals dealing with chronic homelessness without more coordination between capital, operating and health funding \u2013 which requires coordination at all three levels of government;\nWHEREAS the City of Ottawa has seen growing pressures in the homelessness system due to the toxic drug supply, increased prevalence and complexity in mental health challenges and addiction and a lack of deeply affordable housing;\nWHEREAS in 2025, the shelter system was accessed by 8,947 people and of those, 4,125 were experiencing chronic homelessness; and\nWHEREAS the City of Ottawa has seen a rising number of people experiencing unsheltered homelessness and an increase in the number of encampments year over year, with 545 encampments reported in 2025 and 1,176 unsheltered individuals receiving support.\nTHEREFORE BE IT RESOLVED THAT that Council endorse the following five priorities for inclusion in the next National Housing Strategy:\n1. \u00a0 \u00a0Create a housing safety net to prevent homelessness\nEnhance the Canada Ontario Housing Benefit (COHB) so that funding levels are sufficient to address community needs. Enhanced funding will allow Ottawa to expand program eligibility beyond supporting exits from shelter to a more proactive approach that addresses homelessness through housing loss prevention and shelter diversion. In doing so, ensure that portable housing benefits complement, rather than replace, project-based operating assistance for affordable and supportive housing providers, and include mechanisms to maintain stable funding for housing providers when benefit recipients relocate.\n2. \u00a0 \u00a0Invest in deeply affordable and supportive housing\nMake significant and sustained investments for capital and operating in deeply affordable, community and supportive housing, including the repair and preservation of existing affordable housing; expand housing options for Indigenous peoples in urban, rural and northern communities; and work toward substantially increasing Canada's non-market housing stock.\n3. \u00a0 \u00a0Establish Intensive Housing for people with severe cognitive impairment and complex needs\nCreate a dedicated program that supports municipalities with capital and operating funding to address housing needs for people experiencing homelessness because of severe and permanent cognitive impairment, acquired brain injury, serious mental illness and/or other complex health conditions. The program should have integrated health and housing funding to support those with highly complex needs.This should include a federal investment of $3.6 billion in capital funding to create a minimum of 6,000 Intensive Housing units across Canada, together with a sustainable operating funding framework developed with provinces and territories to provide the health and social supports required by residents.\n4. \u00a0 \u00a0Establish a National Homelessness Strategy\nEmbed a dedicated National Homelessness Strategy within the next National Housing Strategy, with clear and measurable targets for reducing homelessness; an initial focus on chronic, unsheltered and veteran homelessness; improved community-level data; and federal programs and housing investments aligned toward measurable homelessness reduction outcomes.\n5. \u00a0 \u00a0Negotiate a Canada Housing Accord\nEstablish a Canada Housing Accord among federal, provincial and territorial governments that sets shared national principles, measurable and time-bound outcomes, clearly defined responsibilities for each order of government, appropriate accountability mechanisms, and coordinated investments in housing and homelessness reduction. It should build on existing National Housing Strategy agreements by strengthening coordination, clarifying long-term roles and responsibilities, establishing measurable and time-bound outcomes, enhancing accountability mechanisms, and aligning investments in housing and homelessness reduction across all orders of government.\nBE IT FURTHER RESOLVED THAT Council endorse this call to action by the Canadian Alliance to End Homelessness (CAEH) to the Government of Canada to incorporate these five priorities into the renewed National Housing Strategy by encouraging them to further work with provinces, territories, Indigenous governments, municipalities and community partners to establish clear targetsand coordinated investments aimed at achieving significant, measurable reductions in homelessness within five years; and\nBE IT FURTHER RESOLVED THAT the City Clerk send a copy of this resolution to the Prime Minister of Canada, the federal Minister responsible for Housing and Homelessness, the Premier of Ontario, the provincial Minister responsible for Housing, local Members of Parliament and Members of the provincial legislature, the Association of Municipalities of Ontario (AMO), the Federation of Canadian Municipalities (FCM), and the Canadian Alliance to End Homelessness (CAEH).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.3",
+            "title": "Ottawa Community Housing Corporation Temporary Financing for Capital Repairs",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-05",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "C. Kitts",
+                "motion_text": "WHEREAS Ottawa Community Housing Corporation (OCHC) is the City of Ottawa's wholly-owned municipal housing corporation, which manages approximately two-thirds of the social housing stock under the administration of the City, and provides housing to approximately 32,000 residents; and WHEREAS on October 8, 2025 through report ACS2025-CSS-GEN-012, Council approved the refinancing of five Public Housing properties between 2026 and 2028, expected to generate approximately $133 million for urgent and critical capital repairs within the OCHC portfolio; and\nWHEREAS the timing of capital repair expenditures may not align with the receipt of mortgage refinancing proceeds, or other long-term financing sources, creating a need for interim financing to advance necessary repair work; and\nWHEREAS the City has access to short-term financing instruments at rates that could be lower than the borrowing rates OCHC would have access to; and\nWHEREAS short-term financing to OCHC is permitted and consistent with section 107 of the Municipal Act, 2001, provided that Council determines the financing to be in the interests of the City; and\nWHEREAS the provision of temporary financing to OCHC for capital repairs supports the Term of Council Priority for the preservation and maintenance of affordable and social housing assets owned by OCHC, and assists the City in fulfilling its obligations as Service Manager under the Housing Services Act, 2011 and is therefore considered to be in the interest of the City;\nTHEREFORE BE IT RESOLVED that Council approve the provision of temporary short-term financing by the City of Ottawa to Ottawa Community Housing Corporation, through the issuance of Promissory Notes or other short-term borrowing instruments, to finance capital repairs within the OCHC housing portfolio pending the receipt of mortgage refinancing proceeds, CMHC funding, or other long-term financing sources; and\nBE IT FURTHER RESOLVED that all principal and interest associated with such temporary financing shall be repaid to the City by OCHC from operating revenues, or other available OCHC funding sources, such that the temporary financing does not result in an additional financial burden to City taxpayers; and\nBE IT FURTHER RESOLVED that the Chief Financial Officer/Treasurer be delegated the authority to negotiate, execute, and administer all necessary agreements, Promissory Notes, repayment agreements, and related documents required to implement such temporary financing.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "15.4",
+            "title": "City of Ottawa contribution to Canadian Red Cross appeal for July 2026 flood-impacted residents",
+            "attachments": [],
+            "description": "Note: The Sutcliffe/Johnson Motion of which Notice was previously given at the September 9, 2026, City Council meeting was replaced with the following revised motion pursuant to Subsection 59(5) of the Procedure By-law.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-06",
+                "motion_moved_by": "M. Sutcliffe",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "WHEREAS more than 6,500 Ottawa households continue to cope with the significant emotional, physical, and financial impacts of flooding to their homes arising from the July 1, 2026 extreme weather and flood event; and\nWHEREAS the Canadian Red Cross has been assisting hundreds of residents and families in need since July 1, helping them meet basic needs, access supports, navigate complex insurance claims and restore their homes; and\nWHEREAS the Canadian Red Cross has now gained a greater understanding of the extent of the financial hardship that hundreds of uninsured and underinsured residents are facing and will continue to face in the coming months and years; and\nWHEREAS the Government of Canada announced on September 4, 2026 that it was establishing a donation matching program in response to the Canadian Red Cross donation appeal campaign for flood-impacted residents in Ottawa, in order to maximize donations and help our residents in need get back on their feet;\nTHEREFORE BE IT RESOLVED that City Council institute a similar mechanism to match all donations from Canadian individuals and corporations made through the Canadian Red Cross appeal campaign, applied retroactively to the launch day of the appeal campaign on July 15, and up until the Canadian Red Cross closes the appeal; and\nBE IT FURTHER RESOLVED the City\u2019s total contribution to the donation campaign up to $250,000, to be funded from the Tax Stabilization Reserve; and\nBE IT FURTHER RESOLVED that the Canadian Red Cross report back to the City no later than Q2 2027 on how the funding helped flood-impacted residents in need.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "16.1",
+            "title": "Advocating for the Expansion of the Disaster Recovery Assistance for Ontarians (DRAO) Program for Residents Impacted by Extreme Weather",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-07",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "R. Brockington",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion in order to provide timely assistance to residents affected by recent extreme weather events.\nWHEREAS the July 1, 2026 extreme rainfall event caused significant and wide-ranging flooding impacts across the City of Ottawa; and\nWHEREAS City data indicates that rainfall totals varied significantly across Ottawa during the event, with some areas receiving more than 150 mm of rainfall, including areas that experienced a storm event close to or exceeding a 1 in 200-year event, and with the highest rainfall totals and intensities concentrated in central and southwest Ottawa; and\nWHEREAS more than 7,500 Ottawa households continue to cope with the significant emotional, physical, and financial impacts of flooding to their homes arising from the July 1, 2026 extreme weather and flood event; and\nWHEREAS on July 17, 2026, the Province activated the Disaster Recovery Assistance for Ontarians (DRAO) Program for a small portion of Ottawa residents impacted by the flooding in the Graham Creek/Stillwater Creek areas; and\nWHEREAS the eligibility map for DRAO left out several neighbourhoods heavily impacted by the rains on July 1st, including Crystal Beach in Ottawa\u2019s west end; and\nWHEREAS since the DRAO program was activated for a small area in Ottawa in July, the City has continued to engage with provincial officials to provide information to support the expansion of the eligibility map to include more impacted areas; and\nWHEREAS extreme weather events, including heavy rainstorms are becoming increasingly frequent and severe, and\nWHEREAS municipalities across Ontario are seeing the impact of extreme weather and overland flooding, including the City of Toronto being hit with a \u201c100 year storm\u201d, consisting of 150 mm of torrential rain and severe flooding in some areas on September 2, 2026, and\nWHEREAS action is needed at the provincial and federal level to support municipalities in responding to these increasingly frequent severe weather events, and\nWHEREAS the current parameters for eligibility for the DRAO program do not reflect the lived reality of residents impacted by overland flooding from torrential rainstorms;\nTHEREFORE BE IT RESOLVED THAT Council direct staff to work with other municipalities in Ontario to request that the Province review the requirements for DRAO eligibility, to better reflect the experience and needs of impacted residents;\nBE IT FURTHER RESOLVED THAT the City Clerk send a copy of this resolution to the Premier of Ontario, the provincial Minister responsible for Emergency Preparedness and Response, the Association of Municipalities of Ontario (AMO), and the Federation of Canadian Municipalities (FCM).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "16.2",
+            "title": "Municipal Disaster Recovery Assistance (MDRA) Program Application",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-08",
+                "motion_moved_by": "M. Sutcliffe",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion so the City of Ottawa can apply for financial assistance through the Provincial Municipal Disaster Recovery Assistance (MDRA) program by the October 29, deadline.\nWHEREAS on July 1, 2026, the City of Ottawa experienced intense rainfall over a short period of time, along with strong winds that caused widespread flooding and fallen trees; and\nWHEREAS as a result of the July 1, 2026, weather event including extreme floods, the City experienced incremental capital and operating costs to repair public infrastructure and property and to protect public health, safety, and access to essential services; and\nWHEREAS the provincial Municipal Disaster Recovery Assistance (MDRA) program helps municipalities recover from extraordinary costs after a natural disaster, and if the City applies, the program will be activated if eligible municipal costs are at least equal three percent of the municipalities own purpose taxation levy; and\nWHEREAS the City is required to submit a resolution of Council and initial claim to the MDRA within 120 calendar days from the date of the onset of the disaster, which makes the deadline to apply October 29, 2026;\nWHEREAS the City is currently compiling costs associated with the July 1, 2026, flooding event, and once completed and assessed, if the 3% threshold is met, must proceed with submitting its application for the MDRA program to the local Municipal Services Office as soon as possible in order to meet the provincial application deadline;\nTHEREFORE BE IT RESOLVED that if the City\u2019s eligible costs meet the 3% threshold, Council endorse that the City of Ottawa apply to the Municipal Disaster Recovery Assistance (MDRA) program to recover eligible capital and operating costs incurred as a result of the July 1, 2026 flooding event; and\nBE IT FURTHER RESOLVED that the City Manager and General Manager and Chief Financial Officer, Finance and Corporate Services, be delegated the authority to verify and attest to the accuracy of the City\u2019s MDRA claim and to finalize and submit all required application materials to the Ministry of Municipal Affairs and Housing as soon as possible.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "17.1",
+            "title": "Special Event Road Closures and Community Notification",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "C. Kelly",
+                "motion_seconded_by": "C. Curry",
+                "motion_text": "WHEREAS large-scale special events can contribute to Ottawa\u2019s recreational, tourism and economic objectives, but events involving extensive road closures can also have significant impacts on residents, businesses, farms, places of worship and access to rural communities;\nWHEREAS a recent event required extensive road closures throughout West Carleton-March and Kanata North and resulted in significant concerns from residents regarding limited and late notification, access to and from their properties, lengthy detours, controlled crossing locations, reopening times and the availability of timely information before and during the event;\nWHEREAS residents and businesses affected by significant road closures should receive sufficient advance notice to make appropriate arrangements for work, appointments, family activities, agricultural operations, business operations, religious services and other commitments;\nWHEREAS the impact of road closures can be particularly significant in rural areas where alternative routes are limited and detours may involve substantial additional travel distances;\nWHEREAS the local Ward Councillor and Councillor\u2019s Office are often best positioned to identify local access issues, affected communities, businesses, institutions and other considerations that may not otherwise be apparent through a technical review of an event application;\nWHEREAS large special events involving significant road closures should include a clear resident-access plan, traffic-management plan and public-notification plan prior to receiving final approval;\nWHEREAS event organizers require timely and predictable permit processes, and enhanced consultation requirements should improve local awareness and community access planning without creating unnecessary uncertainty regarding event approval;\nBE IT RESOLVED THAT staff be directed to review the complaints raised by residents and impacted Councillors after the recent events, including the recent GFNY cycling event, and bring forward to the appropriate Committee recommendations to address the issues raised including through amendments to the Highway Events By-law and any related policies, procedures, permit requirements, delegated authorities or other by-laws, as necessary, and include specific requirements for notification for special events involving significant road closures or material restrictions on access to properties or communities in the rural area, including, at a minimum:\nBE IT FURTHER RESOLVED THAT staff, as part of this review, clarify public notification requirements and the respective responsibilities of event organizers and the City for highway events involving significant road closures or material restrictions on access to properties or communities in rural areas, including any appropriate procedures during the municipal election blackout period.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.2",
+            "title": "Private Approaches and Encroachments on Whitmore Avenue, Cline Crescent and Sherman Drive in Bel Air Heights",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "L. Johnson",
+                "motion_seconded_by": "T. Kavanagh",
+                "motion_text": "WHEREAS beginning in 2027/2028 the City will undertake an integrated road reconstruction project in the Bel-Air Community neighborhood of Ward 8, including the reconstruction of Whitmore Avenue, Cline Crescent and Sherman Drive; and\nWHEREAS the project limits for the Whitmore Avenue, Cline Crescent and Sherman Drive Integrated Road, Sewer and Watermain project includes reinstating some private approaches and private encroachments on Whitmore Avenue (Iris Street to the north intersection with Cline Crescent), Cline Crescent (south intersection of Whitmore Avenue to Albany Drive) and Sherman Drive (Navaho Drive to Cline Crescent); and\nWHEREAS some of the driveway widths/lengths within the project limits are not in full conformance with the City\u2019s front yard parking restrictions and Private Approach By-law; and\nWHEREAS, for existing properties, front yard parking restrictions and private approach by-law and private encroachments upon City Right-of-Way are normally enforced only on a complaint-driven basis; and\nWHEREAS there have been no complaints with respect to non-compliant driveways (private approaches) or front-yard parking in this area; and\nWHEREAS the area residents support providing relief for residents with existing driveways (private approaches) while acknowledging that any future driveways (private approaches) and front-yard parking must be in accordance with City by-laws;\nTHEREFORE BE IT RESOLVED that Council approve that, in respect of the reconstruction of Whitmore Avenue, Cline Crescent and Sherman Drive, private approaches and encroachments be reinstated as they were immediately prior to the reconstruction of this street, as practicable.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.3",
+            "title": "Demolition Control Waiver for 72, 74, and 85 Pamilla Street",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "J. Leiper",
+                "motion_text": "WHEREAS the City of Ottawa and the Developer (1197692 Ontario Inc.) have entered into a Memorandum of Understanding establishing the framework for a proposed land exchange whereby 72 and 74 Pamilla Street (total 750.89m\u00b2) would be conveyed to the City in exchange for 80 Norman Street (372.28 m\u00b2) allowing the City to create a larger neighbourhood park to replace the existing McCann Park; and\nWHEREAS the owner of 425 Preston Street would provide 72 Pamilla Street (375.89 m\u00b2) and 74 Pamilla Street (375.00 m\u00b2) to the City and that the additional 378.61 m\u00b2 land would contribute toward their parkland dedication if/when their assembled development lands are developed; and\nWHEREAS the land being provided as parkland must be conveyed to the City free of all encumbrances; and\nWHEREAS the demolition of existing residential use buildings at 72 and 74 Pamilla Street is required prior to transferring the properties to the City; and\nWHEREAS the current state of 85 Pamilla, part of the future development site separate from the MOU, is in poor condition and not habitable; and\nWHEREAS by waiving demolition control application, the City will not receive $6,200.48 (includes $1,274.64 Legal Fee + HST) which is the fee associated with a demolition control application; and\nWHEREAS the properties remain subject to a demolition permit.\nTHEREFORE BE IT RESOLVED that Council waive demolition control approval for the demolition of 72, 74 and 85 Pamilla Street and allow the applicant to proceed directly to demolition permits; and\nBE IT FURTHER RESOLVED that 72 and 74 Pamilla Street be sodded, mulch-covered or soft landscaped following demolition and prior to transfer to the City, and 85 Pamilla Street be sodded and fenced, respectfully, in accordance with the Property Standards By-law; and\nBE IT FURTHER REVOLVED that the waiver from Demolition Control be void if the corresponding demolition permits are not issued within two years of Council decision.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.4",
+            "title": "School Zone Speed Limit on Spratt Road",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "S. Desroches",
+                "motion_seconded_by": "T. Tierney",
+                "motion_text": "WHEREAS Riverside South Secondary School opened approximately one year ago and the City has received feedback from parents and residents regarding the existing 60 km/h speed limit on Spratt Road;\nWHEREAS many students cross Spratt Road while travelling to and from the school, and there is no speed camera program for schools;\nWHEREAS the City\u2019s speed limit policy review is more than one year away, while the need to address concerns regarding vehicle speeds exists today;\nWHEREAS staff have indicated that the future policy would likely consider a reduced speed limit at this location based on the proposed new criteria;\nTHEREFORE BE IT RESOLVED THAT a 40 km/h school-zone speed limit be implemented on Spratt Road during designated school hours, subject to staff refinement of the appropriate limits of the school zone;\nBE IT FURTHER RESOLVED THAT the cost of the required new signage and installation be funded from within the existing Traffic Services budget.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "18.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2026-86-09",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "T. Tierney",
+                "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed.\n2026-404 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Youville Drive).2026-405 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Gabriel Street, Metcalfe Street, Springhurst Avenue, Stone School Road, Rebecca Crescent, Colonial Road, Fairgreen Avenue, James Cummings Avenue, St. Pierre Street, Princeton Avenue, Innes Road, Carry\u2019s Side Road, and Lees Avenue.2026-406 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Bank Street and Riverdale Avenue).2026-407 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Bank Street and Riverside Drive).2026-408 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2017-180 respecting the appointment of Municipal Law Enforcement Officers in accordance with private property parking enforcement.2026-409 \u00a0 \u00a0A bylaw of the city of Ottawa to amend By-law No. 2003-499 respecting the designation of fire routes.2026-410 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (avenue Samantha Eastop Avenue).2026-411 \u00a0 \u00a0A by-law of the City of Ottawa to designate 575 Island Park Crescent to be of cultural heritage value or interest.2026-412 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 100 Bareille-Snow Street.2026-413 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 58 Capilano Drive.2026-414 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 58 Capilano Drive.2026-415 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 25 Pickering Place, 700, 720, 740 and 745 Bannermount Avenue and 1320 Avenue K.2026-416 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 25 Pickering Place, 700, 720, 740 and 745 Bannermount Avenue and 1320 Avenue K.2026-417 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of part of the lands known municipally as 7417 Russell Road.2026-418 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2026-50 to change the zoning of lands known municipally as 1750 and 1790 Heatherington Road.2026-419 \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands at voie Acai Way, rue Apricot Street, rue Ed Findlay Street, rue Honeydrew Street, rue Kiwi Street, rue Lavender Street, rue Mango Street, avenue Ralph Hennessy Avenue, and rue Rockmelon Street on Plan 4M-1728 as being exempt from Part Lot Control.2026-420 \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands at croissant Peachleaf Crescent, and voie Symphony Way on Plan 4M-1784 as being exempt from Part Lot Control.2026-421 \u00a0 \u00a0A by-law of the City of Ottawa to designate certain lands at bois Trumpeter Grove, croissant Showcase Crescent, cercle Petunia Circle, and rue Unison Street on Plans 4M-1688 and 4M-1730 as being exempt from Part Lot Control.2026-422 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Rideau Street).2026-423 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Khymer Court).2026-424 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2025-89 being a by-law of the City of Ottawa for the granting of rebates for the installation of protective plumbing devices to reduce the risk of basement or cellar flooding from City sewer backup for residential units and to repeal by-law 2016-376.2026-425 \u00a0 \u00a0A by-law of the City of Ottawa to provide for the partial abandonment of drainage works in the City of Ottawa \u2013 Morrison-Pettapiece Municipal Drain, Pratt Branch (4P) located in the Lot 3, Concession 6 former Township of Marlborough.2026-426 \u00a0 \u00a0A By-law of the City of Ottawa to provide for drainage works in the City of Ottawa to be known as the McKinnons Creek Municipal Drain in Lots 8 to 13, Concession 9, Lots 5 to 9 and 11 Concession 10 and Lots 4 and 5 Concession 11, Orleans South-Navan Ward, former Township of Cumberland in the City of Ottawa.2026-427 \u00a0 \u00a0A by-law of the City of Ottawa to authorize the imposition of special charges on 341 Bell St S(the \"benefitting property\").2026-428 \u00a0 \u00a0A by-law of the City of Ottawa to establish a Climate Change Reserve Fund for the City of Ottawa.2026-429 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Wellington Street, Meadowglen Drive, Hawthorne Road, Merivale Road, Moodie Drive, Stittsville Main Street, Century Road, Churchill Avenue, Winona Avenue, Bronson Avenue, Cambrian Road, Smyth Road, Carling Avenue, Edgewater Avenue and Viewmount Drive).2026-430 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Strandherd Drive, Tartan Drive and Borrisokane Road).2026-431 \u00a0 \u00a0A by-law of the City of Ottawa providing for entering into a heritage agreement for the conservation of 325 Elgin Street.2026-432 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (Terry Fox Drive, Roland Michener Drive and Earl Grey Drive).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-86-10",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "T. Tierney",
+            "motion_text": "That the following by-law be read and passed:\nTo confirm the proceedings of the Council meeting of September 23, 2026.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "20.1",
+            "title": "OCC-2026-21 - Potential Restrictions or Prohibition on E-Scooter and E-Motor Bike Use on Public Multi-Use Pathways and in City of Ottawa Public Parks/Trails",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by C. Kitts\nGiven significant concerns regarding the operation of electric scooters and electric motor bikes in areas shared with pedestrians and other vulnerable users, I am seeking clarification on the City\u2019s authority and options to further restrict or prohibit e-scooter and e-motor bike use on City-owned multi-use pathways and within municipal parks. Could the General Manager of Public Works please answer the following questions:",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "20.2",
+            "title": "OCC-2026-22 - GFNY Ottawa 2026 Special Event Permitting and Resident Notification",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor C. Kelly\nIn light of the extensive road closures associated with the 2026 GFNY Ottawa cycling event, the concerns raised by affected residents regarding late or insufficient notification, and the differing interpretations regarding the organizer\u2019s responsibilities for direct resident notification, would staff please provide a written response to the following:",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 10:48 am.",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2026-86-11",
+            "motion_moved_by": "C. Kitts",
+            "motion_seconded_by": "T. Tierney",
+            "motion_text": "That the proceedings of the City Council meeting of September 23, 2026, be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      }
+    ]
+  }
+}

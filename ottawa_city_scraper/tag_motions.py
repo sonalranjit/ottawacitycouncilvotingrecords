@@ -36,7 +36,7 @@ import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "datasets" / "ottawa_city_scraper.duckdb"
-DEFAULT_MODEL = "claude-haiku-4-5-20251001"
+DEFAULT_MODEL = "claude-haiku-5-5"
 DEFAULT_BATCH_SIZE = 20
 
 ALLOWED_TAGS = [
@@ -184,6 +184,12 @@ def _call_claude(
         raise ValueError("Claude did not return a tool_use block")
 
     enrichments: list[dict[str, Any]] = tool_block.input.get("enrichments", [])
+    if batch and not enrichments:
+        print(
+            f"  Warning: Claude returned no enrichments for a batch of {len(batch)} "
+            f"(stop_reason={response.stop_reason}); these motions stay untagged until the next run.",
+            file=sys.stderr,
+        )
 
     # Verify each returned motion_id was in the batch (defence against hallucination)
     batch_ids = {row["motion_id"] for row in batch}

@@ -1,4 +1,4 @@
-anthropic>=0.40.0
+anthropic==1.12.1
 airtable_scraper==0.0.3
 duckdb>=1.1.0
 annotated-types==0.7.0

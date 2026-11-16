@@ -54,6 +54,9 @@ python -m ottawa_city_scraper.cli \
 | `--max-delay` | `3.0` | Maximum seconds to wait between meeting scrapes |
 | `--verify-cert` | off | Enforce TLS certificate verification |
 | `--no-parquet` | off | Skip Parquet export after scraping |
+| `--rescrape` | off | Re-scrape meetings already in the database, replacing their stored records |
+| `--verify-attachments` | off | After scraping, re-scrape stored meetings whose attachment links changed on eScribe (see [Keeping attachment links valid](#keeping-attachment-links-valid)) |
+| `--verify-budget` | `60` | Maximum number of stored meetings to verify per run with `--verify-attachments` |
 | `--enrich` | off | After scraping, enrich new motions with AI-generated summaries and tags (requires `ANTHROPIC_API_KEY`) |
 | `--enrich-api-key` | env var | Anthropic API key for `--enrich` (overrides `ANTHROPIC_API_KEY`) |
 
@@ -109,6 +112,43 @@ python -m ottawa_city_scraper.tag_motions --db datasets/ottawa_city_scraper.duck
 ```
 
 Enrichment is idempotent by default — already-enriched motions are skipped unless `--re-enrich` is passed.
+
+---
+
+## Keeping attachment links valid
+
+eScribe sometimes republishes a meeting long after it was held. When it does, every attachment on that meeting gets a new `filestream.ashx?DocumentId=...` URL and the links stored at scrape time stop working.
+
+`--verify-attachments` makes the scraper catch this. After scraping new meetings it re-fetches the minutes page of some already-stored meetings and compares the attachment links on the page with the stored ones. If they differ, the whole meeting is re-scraped from the live page, so agenda items, motions, votes and attendance are refreshed along with the links.
+
+Each run verifies at most `--verify-budget` meetings (default 60), in this order:
+
+1. meetings whose document links in the eScribe calendar changed since they were last verified, which usually means a republish;
+2. meetings never verified;
+3. meetings verified longest ago.
+
+So a republished meeting is normally fixed on the next run, and every stored meeting is re-verified on a rolling cycle.
+
+The attachment files themselves are never requested. eScribe answers scripted requests for them with a browser challenge (HTTP 403) whether or not the document exists, so the minutes page is the only reliable source for the current links.
+
+A meeting is only replaced after its page has been fetched and parsed. If the fetch fails, or the page parses to nothing, the stored meeting is left as it was and tried again on a later run. A run stops verifying after five failed fetches in a row.
+
+Each run writes `attachment_link_report.json` to its run folder, listing the re-scraped meetings with their old and new links and the motion and vote counts before and after.
+
+To run the check on its own:
+
+```bash
+# See which meetings would be re-scraped, without changing the database
+python -m ottawa_city_scraper.attachment_links --db-path datasets/ottawa_city_scraper.duckdb --dry-run
+
+# Verify up to 2000 meetings in one pass (about 2–3 seconds per meeting)
+python -m ottawa_city_scraper.attachment_links --db-path datasets/ottawa_city_scraper.duckdb --budget 2000
+
+# Verify specific meetings
+python -m ottawa_city_scraper.attachment_links --db-path datasets/ottawa_city_scraper.duckdb --meeting-id <meeting-id>
+```
+
+The standalone command writes its report to `datasets/attachment_reports/` and exits `1` if any meeting could not be verified.
 
 ---
 
@@ -170,6 +210,7 @@ Votes are stored in a DuckDB file (`ottawa_council.duckdb` by default) with the 
 | `motions` | One row per motion with for/against counts |
 | `votes` | One row per councillor per motion |
 | `motion_ai_enrichment` | AI-generated summaries and thematic tags per motion (kept separate so re-scraping does not overwrite enrichments) |
+| `meeting_link_checks` | When each meeting's attachment links were last verified against eScribe, the outcome, and how often it has been re-scraped |
 
 All upserts use `INSERT OR REPLACE` with deterministic hash-based IDs — re-scraping the same meeting never creates duplicate records.
 
@@ -296,7 +337,9 @@ npm test
 
 The workflow in `.github/workflows/get-new-data.yml` runs daily at 09:00 UTC. It scrapes the previous day's meetings, commits any new data, and cherry-picks the commit onto the `data` branch.
 
-You can also trigger it manually from the Actions tab via `workflow_dispatch`.
+Each run also verifies the attachment links of up to 60 stored meetings and re-scrapes any that eScribe has republished (see [Keeping attachment links valid](#keeping-attachment-links-valid)).
+
+You can also trigger it manually from the Actions tab via `workflow_dispatch`. The `verify_budget` input raises the number of meetings verified in that run, for example to check the whole database in one pass.
 
 ---
 

@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "00 9 * * *"
   workflow_dispatch:
+    inputs:
+      verify_budget:
+        description: "Max stored meetings whose attachment links are re-verified against eScribe this run (raise for a one-off full pass)"
+        required: false
+        default: "60"
 
 permissions:
   contents: write
@@ -41,11 +46,14 @@ jobs:
       - name: Run scraper
         env:
             ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+            VERIFY_BUDGET: ${{ inputs.verify_budget || '60' }}
         run: |
           python -m ottawa_city_scraper.cli \
             --start-date ${{ env.START_DATE }} \
             --end-date ${{ env.END_DATE }} \
             --meeting-name "City Council" "*Committee*" "*Commission*" "*Board*" \
+            --verify-attachments \
+            --verify-budget "$VERIFY_BUDGET" \
             --enrich \
             --db-path datasets/ottawa_city_scraper.duckdb
 

@@ -21,7 +21,16 @@ pip install -r requirements.txt
 python -m ottawa_city_scraper.cli --start-date 2026-02-25 --end-date 2026-02-26 --meeting-name "City Council"
 ```
 
-Key CLI flags: `--meeting-name` (supports wildcards `*` and `?`, case-insensitive), `--output-root` (default: `datasets`), `--db-path` (default: `ottawa_city_scraper.duckdb`), `--verify-cert`.
+Key CLI flags: `--meeting-name` (supports wildcards `*` and `?`, case-insensitive), `--output-root` (default: `datasets`), `--db-path` (default: `ottawa_city_scraper.duckdb`), `--verify-cert`, `--rescrape`, `--verify-attachments` / `--verify-budget N` (re-scrape stored meetings whose attachment links changed; see below).
+
+### Verify attachment links
+```bash
+python -m ottawa_city_scraper.attachment_links --db-path datasets/ottawa_city_scraper.duckdb --dry-run
+python -m ottawa_city_scraper.attachment_links --db-path datasets/ottawa_city_scraper.duckdb --budget 2000   # full pass
+python -m ottawa_city_scraper.attachment_links --db-path datasets/ottawa_city_scraper.duckdb --meeting-id <id>
+```
+
+The daily scrape runs the same check through `cli.py --verify-attachments`.
 
 ### Export councillor votes
 ```bash
@@ -57,9 +66,11 @@ Data flow: **eScribe REST API → CLI → HTML scraper → DuckDB → CSV export
 
 6. **`export_web_data.py`**: writes static JSON for the frontend. Every date, vote, motion and alignment row carries a `term`, and the frontend filters by the `?term=` URL param (`frontend/src/hooks/useTerm.ts`).
 
+7. **`attachment_links.py`**: eScribe re-issues every attachment URL on a meeting when it republishes it, leaving stored links dead. This module re-fetches a stored meeting's minutes page, compares the attachment URLs on it with `agenda_item_attachments`, and re-scrapes the whole meeting when they differ. `meeting_link_checks` tracks when each meeting was last verified. Each run verifies up to a budget of meetings: those whose calendar document links changed first (`calendar_fingerprint`), then never-verified ones, then the longest-unverified.
+
 ## Test Infrastructure
 
-`tests/test_terms.py` covers term resolution and per-term vote attribution. `tests/test_vote_kind.py` covers vote classification. `tests/test_horizonottawa_vs_exported.py` cross-checks exported CSVs (`datasets/exported-votes/`) against reference CSVs in `datasets/horizonottawa/votes_by_councillor/csv/`; both directories are gitignored and must exist locally.
+`tests/test_terms.py` covers term resolution and per-term vote attribution. `tests/test_vote_kind.py` covers vote classification. `tests/test_attachment_links.py` covers link verification and whole-meeting repair (no network). `tests/test_horizonottawa_vs_exported.py` cross-checks exported CSVs (`datasets/exported-votes/`) against reference CSVs in `datasets/horizonottawa/votes_by_councillor/csv/`; both directories are gitignored and must exist locally.
 
 `conftest.py` provides `normalize_meeting_url()` and `CUTOFF_DATE`, and writes a Horizon Ottawa comparison report when the session ends.
 
@@ -69,4 +80,6 @@ Data flow: **eScribe REST API → CLI → HTML scraper → DuckDB → CSV export
 - **Deterministic IDs**: `agenda_items.item_id` and `motions.motion_id` are hashes of content, not auto-increments, enabling stable upserts across runs.
 - **Name normalization**: councillor names are sanitized at scrape time (`normalize_councillor_name()`) to handle inconsistencies in the source HTML.
 - **Pattern matching**: meeting name filtering uses `fnmatch` (shell-style wildcards), not regex.
+- **Attachment links are verified against the live minutes page, never by requesting the file**: `filestream.ashx` answers scripts with a Cloudflare challenge (403) whether or not the document exists, so it can't tell a dead link from a live one.
+- **Scrape before replacing**: a stored meeting is only replaced (`upsert.replace_meeting`, one transaction) after its page has been fetched and parsed, so a failed fetch or a page that parses to nothing can't lose data.
 - **Terms are derived, not stored on rows**: a meeting's term comes from its date and `terms.json`, so adding a term or councillor needs no re-scrape or migration.

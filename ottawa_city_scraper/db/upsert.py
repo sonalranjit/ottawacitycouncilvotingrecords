@@ -150,6 +150,29 @@ def delete_meeting_children(con: duckdb.DuckDBPyConnection, meeting_id: str) -> 
     con.execute("DELETE FROM meeting_attendance WHERE meeting_id = ?", [meeting_id])
 
 
+def replace_meeting(
+    con: duckdb.DuckDBPyConnection,
+    meeting_id: str,
+    calendar_meeting: dict[str, Any],
+    scraped_minutes: dict[str, Any],
+    municipality: str = "ottawa",
+) -> None:
+    """
+    Replace a stored meeting with freshly scraped data in one transaction:
+    delete its child records, then re-insert. If anything fails the stored
+    meeting is left exactly as it was, so callers must scrape *before* calling
+    this rather than deleting first and hoping the fetch succeeds.
+    """
+    con.begin()
+    try:
+        delete_meeting_children(con, meeting_id)
+        insert_meeting(con, meeting_id, calendar_meeting, scraped_minutes, municipality)
+        con.commit()
+    except Exception:
+        con.rollback()
+        raise
+
+
 # ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------

@@ -139,6 +139,25 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
         )
     """)
 
+    # Per-meeting record of when the stored attachment links were last compared
+    # with the live minutes page (see attachment_links.py). Kept separate from
+    # meetings so INSERT OR REPLACE INTO meetings doesn't wipe it.
+    # calendar_fingerprint is the hash of the meeting's calendar document links
+    # as of the last successful verification; status is 'ok', 'repaired' or 'failed'.
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS meeting_link_checks (
+            meeting_id            VARCHAR PRIMARY KEY,
+            calendar_fingerprint  VARCHAR,
+            checked_at            TIMESTAMP,
+            verified_at           TIMESTAMP,
+            status                VARCHAR,
+            detail                VARCHAR,
+            consecutive_failures  INTEGER DEFAULT 0,
+            last_repaired_at      TIMESTAMP,
+            repair_count          INTEGER DEFAULT 0
+        )
+    """)
+
     migrate_schema(con)
 
 

@@ -1,0 +1,282 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=7ea54068-c1d9-4972-8cee-1172d1031ad9&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=7ea54068-c1d9-4972-8cee-1172d1031ad9&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Public Library Board - November 10, 2026",
+  "meeting_number": 36,
+  "meeting_date": "2026-11-10",
+  "meeting_start_time": "17:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Matthew Luloff",
+    "Vice-Chair Kathy Fisher",
+    "Jessica Bradley",
+    "Mary-Rose Brown",
+    "Rawlson King",
+    "Catherine Kitts"
+  ],
+  "absent_attendees": [
+    "Alison Crawford",
+    "Harvey A. Slack",
+    "Adam Smith"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 16,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340206",
+            "attachment_title": "Notices - Meeting Information.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340207",
+            "attachment_title": "Avis - Renseignements concernant la r\u00e9union.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Board. The final draft Minutes will be published with the agenda for the next regular Board meeting and, once confirmed, will replace this document.\nNotes:\nMOTION OPL 20261110/1\nMOTION REQUIRING SUSPENSIONS OF THE RULES OF PROCEDURE\nMoved by Vice-Chair Kathy Fisher:\nThat the Ottawa Public Library Board waive the Rules of Procedure to approve the addition of Item 10.5 - Motion - 2027 User Fee Increase for Meeting Room Rentals for consideration at today's meeting pursuant to Section 19(2) of the Rules of Procedure By-law (By-law, October 13, 2026).\nResults: Carried",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Recognition of the Territory of the Anishin\u0101be Algonquin Nation",
+        "attachments": [],
+        "description": "",
+        "minutes": "Chair Luloff welcomed members and attendees to the Ottawa Public Library Board meeting and delivered the Indigenous land acknowledgment statement.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Chair proceeded with roll call by voice in random order.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "",
+        "minutes": "Member Alison Crawford and Harvey A. Slack sent their regrets. Member Adam Smith was absent.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Minutes 35 - Tuesday, 13 October 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340222",
+                "attachment_title": "Draft Minutes 35 - EN.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Results: Carried",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no communications.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Chair's Verbal Update",
+        "attachments": [],
+        "description": "",
+        "minutes": "MOTION OPL 20261110/2\nThat the Ottawa Public Library Board receive the Chair\u2019s verbal update for information.\nResults: Received",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Chief Executive Officer and Chief Librarian's Report",
+        "attachments": [],
+        "description": "",
+        "minutes": "MOTION OPL 20261110/3\nThat the Ottawa Public Library Board receive the CEO / Chief Librarian\u2019s report for information.\nResults: Received",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Mobile Framework Implementation: Neighbourhood Services Prioritization List",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340208",
+                "attachment_title": "Mobile Framework Implementation - Neighbourhood Prioritization List.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340209",
+                "attachment_title": "Document 1 - Neighbourhood Services Prioritization List - Previously Approved Weighting.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340210",
+                "attachment_title": "Document 2 Neighbourhood Services Prioritization List - Recommended Weighting.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340211",
+                "attachment_title": "Document 3 - Mobile Framework (revised).pdf"
+              }
+            ],
+            "description": "File Number: OPLB-2026-1110-10.1",
+            "minutes": "MOTION OPL 20261110/4\nThat the Ottawa Public Library Board:\nResults: Received and Carried",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Financial Framework",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340212",
+                "attachment_title": "Ottawa Public Library - Financial Framework.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340213",
+                "attachment_title": "Document 1 - Financial Framework.pdf"
+              }
+            ],
+            "description": "File Number: OPLB-2026-1110-10.2",
+            "minutes": "MOTION OPL 20261110/5\nThat the Ottawa Public Library Board:\nResults: Received and Carried",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.3",
+            "title": "Third Quarter 2026 Financial Status Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340214",
+                "attachment_title": "Third Quarter 2026 Financial Status Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340215",
+                "attachment_title": "Appendix A - 2026 Q3 Operating Financial Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340216",
+                "attachment_title": "Appendix B - 2026 Q3 External Funds Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340217",
+                "attachment_title": "Appendix C - 2026 Q3 Trust Funds Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340218",
+                "attachment_title": "Appendix D - 2026 Q3 Library Board Operating Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340219",
+                "attachment_title": "Appendix E - 2026 Q3 Capital Status Report Ottawa Public Library.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340220",
+                "attachment_title": "Appendix F - 2026 Q3 Year-End Forecast Report.pdf"
+              }
+            ],
+            "description": "File Number: OPLB-2026-1110-10.3",
+            "minutes": "MOTION OPL 20261110/6\nThat the Ottawa Public Library Board receive this report for information.\nResults:\nReceived",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.4",
+            "title": "Sunnyside Branch Lifecycle Renewal and Service Continuity",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340221",
+                "attachment_title": "Sunnyside Branch Lifecycle Renewal and Service Continuity.pdf"
+              }
+            ],
+            "description": "File Number: OPLB-2026-1110-10.4",
+            "minutes": "MOTION OPL 20261110/7\nThat the Ottawa Public Library Board receive this report for information.\nResults: Received",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.5",
+            "title": "Motion - 2027 User Fee Increase for Meeting Room Rentals",
+            "attachments": [],
+            "description": "",
+            "minutes": "MOTION OPL 20261110/8\nWHEREAS at the OPL Board meeting of September 8, 2026, the Board approved an increase to 2027 OPL User Fees pertaining to the rental of meeting rooms, applicable to rooms booked in 2026 for rentals in 2027, implemented by staff on September 15, 2026;\nWHEREAS ten (10) of OPL\u2019s meeting rooms are in branches that are co-located with City of Ottawa Recreation facilities, and as such, OPL has a long-standing practice of aligning with the City's meeting room rental rates for comparable spaces;\nWHEREAS the City\u2019s Recreation, Culture, and Facility Services recently advised OPL of their decision to remove the proposed 2027 fee increase, pending Council consideration in February 2027, and advised that they will process refunds for the rate difference for rental permits confirmed for 2027;\nWHEREAS since the date of implementation, there have been fewer than 50 advance booking requests made for OPL meeting rooms for 2027; \u00a0\nTHEREFORE BE IT RESOLVED that OPL staff remove the 2027 User Fee increase for meeting room rentals to ensure continued alignment with City facilities, and that staff process refunds for the cost difference of bookings already confirmed.\nResults: Carried",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Chair, Board Members and staff shared reading recommendations.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "Be It Resolved that the Ottawa Public Library Board meeting be adjourned at 6:21 pm.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Tuesday, December 8, 2026",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

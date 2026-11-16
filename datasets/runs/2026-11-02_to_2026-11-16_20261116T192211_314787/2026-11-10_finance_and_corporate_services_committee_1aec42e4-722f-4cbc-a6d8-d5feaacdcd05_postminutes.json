@@ -1,0 +1,531 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=1aec42e4-722f-4cbc-a6d8-d5feaacdcd05&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=1aec42e4-722f-4cbc-a6d8-d5feaacdcd05&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Finance and Corporate Services Committee - November 10, 2026",
+  "meeting_number": 38,
+  "meeting_date": "2026-11-10",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Mayor Mark Sutcliffe",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Matt Luloff",
+    "Laura Dudas",
+    "Cathy Curry",
+    "Glen Gower",
+    "Tim Tierney",
+    "Rawlson King",
+    "Riley Brockington",
+    "Shawn Menard",
+    "David Brown"
+  ],
+  "absent_attendees": [
+    "Jeff Leiper"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 14,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340232",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340233",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on 12 November 2026 in Finance and Corporate Services Committee Report 38.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Monday, 9 November 2026, and the deadline to register to speak by email is 8:30 am on Tuesday, 10 November 2026.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "FCSC Minutes 37 \u2013 1 September 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340248",
+                "attachment_title": "FCSC Draft Final Minutes 37 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340249",
+                "attachment_title": "FCSC Draft Final Minutes 37 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "FCSC Confidential Minutes 37 -1 September 2026 (Distributed separately)",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "OCC-2026-10 - LRFP \u2013 Facilities for full replacement",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340231",
+                "attachment_title": "OCC-2026-10 Inquiry - Menard - LRFP \u2013 Facilities for Full Replacement_Final.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "OCC-2026-17 - Cellular Service Coverage and Reliability in City Telecommunications Contracts",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340234",
+                "attachment_title": "OCC-2026-17 Inquiry - Reliability in City Telecommunications Contracts.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Uncollectible Taxes Under Section 354 of the Municipal Act, 2001",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340250",
+                "attachment_title": "Report - Uncollectible Taxes Under Section 354 of the Municipal Act.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-FCS-REV-0004 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee recommend that Council approvethe write-off of municipal and education taxes totalling $469,112 from the tax roll in accordance with the provisions of Section 354 of theMunicipal Act, 2001, plus any related interest and fees for the properties listed in Document 1 (held on file with the Deputy City Treasurer, Revenue). The City has budget allocated for these write-offs in the tax remissions account.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "2026 Procurement Mid-Year Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340235",
+                "attachment_title": "Report - 2026 Procurement Mid-Year Report - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340236",
+                "attachment_title": "Document 1 - Contracts Awarded Under DOA January 1, 2026 to June 30, 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340237",
+                "attachment_title": "Document 2 - Appendix A - Terminology-AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-FCS-PRO-0002 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee and Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Legal Services",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Comprehensive Legal Services Report for the Period January 1 to June 30, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340238",
+                "attachment_title": "Report - Comprehensive Legal Services Report Q1 Q2 2026.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-LEG-GEN-0003 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee recommend thatCouncil receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Accessibility Advisory Committee 2022-2026 End-of-Term Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340239",
+                "attachment_title": "Report - AAC End-of-Term Report 2022-2026 (BIL).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340240",
+                "attachment_title": "English Document 1 - AAC End-of-Term Report 2022-2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340241",
+                "attachment_title": "French Document 1 - Rapport de fin de mandat 2022-2026 du CCA.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0101 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee receives the Accessibility Advisory Committee End-of-Term Report 2022-2026 as detailed in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Status Update \u2013 Finance and Corporate Services Committee Inquiries and Motions for the period ending 30 October 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340244",
+                "attachment_title": "Report - Status Update - FSC Motions and Inquiries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340245",
+                "attachment_title": "Document 1 - FCSC - Outstanding Motions and Directions.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-CCS-0113 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Strategic Initiatives Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Maple Grove Health Hub Request for Proposals",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340242",
+                "attachment_title": "Report - Maple Grove Health Hub Request for Proposals.pdf"
+              }
+            ],
+            "description": "File No.\u00a0ACS2026-SI-HSI-0016 \u2013\u00a0Stittsville (6)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026-38-01",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS City Council approved a Primary Care Strategy in 2025 recognizing that access to primary health care is an important contributor to community health and well-being, economic competitiveness, workforce attraction and quality of life; and\nWHEREAS approximately 19,000 residents in Stittsville and Kanata do not have access to an attached primary care clinician; and\nWHEREAS, on October 22, 2025, Council directed staff to initiate a Request for Offers for the development of a health hub on the northern portion of the City-owned lands at 1655 Maple Grove Road, having identified the site as the preferred location for a primary care health hub serving Stittsville, Kanata and surrounding communities; and\nWHEREAS staff subsequently issued RFP No. 39126-97173-P01 on August 5, 2026, seeking proposals for the transfer of the property at market value, and the single submission received did not meet the established criteria; and\nWHEREAS the development of a primary care health hub would provide a significant public benefit and advance Council's strategic priorities relating to health, well-being and community development; and\nWHEREAS the City of Ottawa\u2019s Disposal of Real Property Policy provides that real property shall be disposed of at current market value (Section 1.2), and that City Council may, pursuant to Section 1.3, authorize the disposal of real property at less than market value, unless prohibited by theMunicipal Act, 2001, where Council is of the opinion that doing so is in the best interests of the City;\nWHEREAS subsection 110(3) of theMunicipal Act, 2001and Ontario Regulation 603/06 provide a framework for municipalities to enter into municipal capital facilities agreements in respect of facilities used for the provision of health services, including the potential provision of municipal assistance in accordance with applicable legislative requirements;\nTHEREFORE BE IT RESOLVED THAT the recommendations in the report be replaced with the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Surplus Declaration and Disposal of Viable Parcels Adjacent to 2100 Hunt Club Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340252",
+                "attachment_title": "Report -100 Hunt Club RoadOct30GL- DA.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-SI-HSI-0018 \u2013\u00a0Gloucester-Southgate (10)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee:\nDeclare the City-owned lands adjacent to 2100 Hunt Club Road, being portions of PINs 04159-0295, 04159-0296, 04157-0450 and 04157-0452, and all of PINs 04159-0297, 04157-0451 and 04159-0298, containing a total area of approximately 2,452 square metres, subject to final survey and shown on Document 1 attached, as surplus to City requirements.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "200 Iber Road \u2013 New Acquisition Lease on behalf of Wastewater, Infrastructure and Water Services Department",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340246",
+                "attachment_title": "Report - 200 Iber Road \u2013 New Acquisition Lease on behalf of IWSD-Oct30GL.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340247",
+                "attachment_title": "Document 2 - City of Ottawa Execution Memo - Offer to Lease - Fully Executed -AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-SI-HSI-0019 \u2013 Stittsville (6)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Economic Development Committee recommends that City Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.4",
+            "title": "Application for Approval to Expropriate Lands \u2013 Brian Coburn Widening",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340251",
+                "attachment_title": "Report - Application for Approval to Expropriate Lands \u2013 Brian Coburn Widening - DA.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-SI-HSI-0022 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Finance and Corporate Services Committee:\nRecommend that City Council enact a by-law, in the form attached in Document 1, approving the making of an application pursuant to Section 4 of the Expropriations Act for approval to expropriate 1,648 square meters shown on Schedule A and B being part of 2322 Tenth Line Road, PIN14563-0511.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "2026-2030 Election Compliance Audit Committee Appointment of Members and Update on Compliance Audit Process",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340229",
+                "attachment_title": "IPD - ACS2026-OCC-GEN-0008 - ECAC Appointments EN_final.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340230",
+                "attachment_title": "IPD  - ACS2026-OCC-GEN-0008 - ECAC Appointments FR_final.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-OCC-GEN-0008 \u2013 Citywide",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "10.2",
+            "title": "Use of Delegated Authority during 2025 by Revenue Services under the Delegation of Authority By-law",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=340243",
+                "attachment_title": "IPD - Use of DOA during 2025 by Revenue Services.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-FCS-REV-0003",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nTo be determined.",
+        "minutes": "The meeting adjourned at 10:27 am.",
+        "motions": []
+      }
+    ]
+  }
+}

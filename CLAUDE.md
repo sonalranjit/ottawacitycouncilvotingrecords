@@ -33,8 +33,8 @@ python -m ottawa_city_scraper.export_councillor_votes --list
 ### Run tests
 ```bash
 pytest                                              # all tests
-pytest tests/test_csv_vote_validation.py           # validation tests only
-pytest tests/test_csv_vote_validation.py::test_all_csv_meetings_scraped  # single test
+pytest tests/test_terms.py                          # council term tests only
+pytest tests/test_terms.py::test_term_for_date_boundaries  # single test
 pytest -v                                          # verbose
 ```
 
@@ -53,17 +53,15 @@ Data flow: **eScribe REST API → CLI → HTML scraper → DuckDB → CSV export
 
 4. **`export_councillor_votes.py`** — queries votes by councillor (accepts full name, slug `ariel-troster`, or initial format `A. Troster`), outputs CSV matching horizonottawa format.
 
-5. **`reference_data/current_councillors.json`** — static councillor metadata (names, wards, contact info).
+5. **`terms.py` + `reference_data/terms.json`, `reference_data/councillors.json`**: council terms (date ranges) and one record per councillor with a `terms` array (title/ward per term, optional mid-term `start`/`end`). `CouncillorResolver` maps a minutes name (`"A. Troster"`) plus meeting date to a person. Every export uses it, so the same initial in different terms isn't merged.
+
+6. **`export_web_data.py`**: writes static JSON for the frontend. Every date, vote, motion and alignment row carries a `term`, and the frontend filters by the `?term=` URL param (`frontend/src/hooks/useTerm.ts`).
 
 ## Test Infrastructure
 
-Tests in `tests/` validate scraped data against reference CSVs in `datasets/horizonottawa/votes_by_councillor/csv/`.
+`tests/test_terms.py` covers term resolution and per-term vote attribution. `tests/test_vote_kind.py` covers vote classification. `tests/test_horizonottawa_vs_exported.py` cross-checks exported CSVs (`datasets/exported-votes/`) against reference CSVs in `datasets/horizonottawa/votes_by_councillor/csv/`; both directories are gitignored and must exist locally.
 
-**`conftest.py`** fixtures (session-scoped):
-- `csv_votes` — loads all reference CSVs, filters to last 6 months (hardcoded cutoff), normalizes vote directions and councillor name formats
-- `db` — read-only connection to `ottawa_city_scraper.duckdb`
-
-The validation tests (`test_csv_vote_validation.py`) check that meeting URLs exist in the DB, vote tallies match, individual vote directions match, and there are no phantom votes. The `testing_scraped` branch is currently used for this validation work.
+`conftest.py` provides `normalize_meeting_url()` and `CUTOFF_DATE`, and writes a Horizon Ottawa comparison report when the session ends.
 
 ## Key Design Decisions
 
@@ -71,3 +69,4 @@ The validation tests (`test_csv_vote_validation.py`) check that meeting URLs exi
 - **Deterministic IDs**: `agenda_items.item_id` and `motions.motion_id` are hashes of content, not auto-increments, enabling stable upserts across runs.
 - **Name normalization**: councillor names are sanitized at scrape time (`normalize_councillor_name()`) to handle inconsistencies in the source HTML.
 - **Pattern matching**: meeting name filtering uses `fnmatch` (shell-style wildcards), not regex.
+- **Terms are derived, not stored on rows**: a meeting's term comes from its date and `terms.json`, so adding a term or councillor needs no re-scrape or migration.

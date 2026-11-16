@@ -5,7 +5,7 @@ Reads {run_dir}/parquet/*.parquet and upserts each table using INSERT OR REPLACE
 so it is safe to replay multiple times without creating duplicate rows.
 
 The councillors table is not included in Parquet exports — it is seeded from
-current_councillors.json as normal.
+councillors.json and terms.json as normal.
 
 Usage:
     python -m ottawa_city_scraper.load_parquet \\

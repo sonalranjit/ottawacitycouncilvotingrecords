@@ -1,30 +1,35 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { fetchIndex, fetchDateData } from '../api/data';
-import type { IndexData, DateData } from '../types';
+import { fetchDateData } from '../api/data';
+import type { DateData } from '../types';
 import MotionCard from '../components/MotionCard';
+import { useTerm } from '../hooks/useTerm';
+import { councillorsInTerm, dateInTerm } from '../utils/terms';
 import styles from './MotionsByDate.module.scss';
 
 export default function MotionsByDate() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [index, setIndex] = useState<IndexData | null>(null);
+  const { index, error: indexError, term } = useTerm();
   const [dateData, setDateData] = useState<DateData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // On mount, load the index
-  useEffect(() => {
-    fetchIndex()
-      .then(setIndex)
-      .catch((e: Error) => setError(e.message));
-  }, []);
+  // Only dates in the selected term are offered
+  const termDates = useMemo(
+    () => (index && term ? index.dates.filter((d) => dateInTerm(d, term)) : []),
+    [index, term],
+  );
 
-  // Derive selected date: from URL param, or default to most recent
-  const selectedDate = searchParams.get('date') ?? (index?.dates[0] ?? '');
+  // Derive selected date: from URL param, or default to the term's most recent
+  const selectedDate = searchParams.get('date') ?? (termDates[0] ?? '');
 
   // Load date data whenever selectedDate changes
   useEffect(() => {
-    if (!selectedDate) return;
+    if (!selectedDate) {
+      setDateData(null);
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setDateData(null);
     fetchDateData(selectedDate)
@@ -39,15 +44,19 @@ export default function MotionsByDate() {
   }, [selectedDate]);
 
   function handleDateChange(date: string) {
-    setSearchParams({ date }, { replace: true });
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      next.set('date', date);
+      return next;
+    }, { replace: true });
   }
 
-  if (error) {
-    return <div className={styles.error}>Error: {error}</div>;
+  if (error || indexError) {
+    return <div className={styles.error}>Error: {error ?? indexError}</div>;
   }
 
   const councillorTitles = new Map(
-    index?.councillors.map((c) => [c.full_name, c.title]) ?? []
+    index && term ? councillorsInTerm(index.councillors, term.slug).map((c) => [c.full_name, c.title]) : []
   );
 
   const totalMotions = dateData?.meetings.reduce(
@@ -67,9 +76,9 @@ export default function MotionsByDate() {
             className={styles.dateSelect}
             value={selectedDate}
             onChange={(e) => handleDateChange(e.target.value)}
-            disabled={!index}
+            disabled={!index || termDates.length === 0}
           >
-            {index?.dates.map((d) => (
+            {termDates.map((d) => (
               <option key={d} value={d}>{d}</option>
             ))}
           </select>
@@ -83,6 +92,10 @@ export default function MotionsByDate() {
       </div>
 
       {loading && <div className={styles.loading}>Loading...</div>}
+
+      {!loading && index && term && termDates.length === 0 && (
+        <p className={styles.empty}>No meetings have been recorded yet for the {term.label} term.</p>
+      )}
 
       {!loading && dateData && dateData.meetings.length === 0 && (
         <p className={styles.empty}>No motions recorded for this date.</p>

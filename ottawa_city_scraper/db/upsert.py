@@ -1,14 +1,13 @@
 import hashlib
 import json
 import logging
-from pathlib import Path
 from typing import Any
 
 import duckdb
 
-logger = logging.getLogger(__name__)
+from ..terms import COUNCILLORS_JSON, current_term, latest_term_entry, load_terms, membership_windows
 
-_COUNCILLORS_JSON = Path(__file__).parent.parent / "reference_data" / "current_councillors.json"
+logger = logging.getLogger(__name__)
 
 
 def _hash(*parts: str) -> str:
@@ -22,9 +21,26 @@ def _hash(*parts: str) -> str:
 # ---------------------------------------------------------------------------
 
 def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
-    """Load councillors from the reference JSON into the DB (idempotent)."""
-    councillors = json.loads(_COUNCILLORS_JSON.read_text(encoding="utf-8"))
+    """Load terms and councillors from the reference JSON into the DB (idempotent).
+
+    The councillors table holds one row per person, with title/ward from the most
+    recent term they served; per-term roles go in councillor_terms.
+    """
+    councillors = json.loads(COUNCILLORS_JSON.read_text(encoding="utf-8"))
+    municipalities = {c.get("municipality", "ottawa") for c in councillors}
+    terms_by_municipality = {m: load_terms(m) for m in municipalities}
+    all_terms = [t for terms in terms_by_municipality.values() for t in terms]
+    for t in all_terms:
+        con.execute(
+            "INSERT OR REPLACE INTO terms (slug, municipality, label, start_date, end_date) VALUES (?, ?, ?, ?, ?)",
+            [t["slug"], t.get("municipality", "ottawa"), t["label"], t["start"], t["end"]],
+        )
+
     for c in councillors:
+        municipality = c.get("municipality", "ottawa")
+        terms = terms_by_municipality[municipality]
+        current = current_term(terms) if terms else ""
+        latest = latest_term_entry(c, terms)
         con.execute(
             """
             INSERT OR REPLACE INTO councillors
@@ -34,20 +50,34 @@ def seed_councillors(con: duckdb.DuckDBPyConnection) -> None:
             """,
             [
                 c.get("full_name", ""),
-                c.get("municipality", "ottawa"),
+                municipality,
                 c.get("first_name", ""),
                 c.get("last_name", ""),
                 c.get("first_name_initial", ""),
-                c.get("title", ""),
-                c.get("ward_number", ""),
-                c.get("ward_name", ""),
+                latest.get("title", ""),
+                latest.get("ward_number", ""),
+                latest.get("ward_name", ""),
                 c.get("telephone", ""),
                 c.get("fax", ""),
                 c.get("email", ""),
-                c.get("active", True),
+                any(e["term"] == current for e in c.get("terms", [])),
             ],
         )
-    logger.info("Seeded %d councillors", len(councillors))
+        windows = {slug: (start, end) for slug, start, end in membership_windows(c, terms)}
+        for entry in c.get("terms", []):
+            if entry["term"] not in windows:
+                continue
+            start, end = windows[entry["term"]]
+            con.execute(
+                """
+                INSERT OR REPLACE INTO councillor_terms
+                    (full_name, municipality, term_slug, title, ward_number, ward_name, start_date, end_date)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                [c.get("full_name", ""), municipality, entry["term"], entry.get("title", ""),
+                 entry.get("ward_number", ""), entry.get("ward_name", ""), start, end],
+            )
+    logger.info("Seeded %d terms and %d councillors", len(all_terms), len(councillors))
 
 
 # ---------------------------------------------------------------------------
@@ -233,7 +263,9 @@ def _reconstruct_dissent_votes(
     # Join on full_name first; fall back to matching on last name alone to handle
     # councillors whose HTML attendance name differs from the reference full_name
     # (e.g. "Matt Luloff" in HTML vs "Matthew Luloff" in the reference data).
-    # All councillor last names are unique so last-name matching is unambiguous.
+    # Last names are unique within a term, so candidates are limited to councillors
+    # whose term membership covers the meeting date (the councillors table holds
+    # every term's roster). Councillors with no councillor_terms rows are not limited.
     rows = con.execute(
         """
         SELECT c.first_name_initial
@@ -242,6 +274,18 @@ def _reconstruct_dissent_votes(
           ON ma.councillor_name = c.full_name
           OR SPLIT_PART(ma.councillor_name, ' ', 2) = SPLIT_PART(c.full_name, ' ', 2)
         WHERE ma.meeting_id = ? AND ma.status = 'present'
+          AND (
+            NOT EXISTS (
+                SELECT 1 FROM councillor_terms ct
+                WHERE ct.full_name = c.full_name AND ct.municipality = c.municipality
+            )
+            OR EXISTS (
+                SELECT 1 FROM councillor_terms ct
+                JOIN meetings mt ON mt.meeting_id = ma.meeting_id
+                WHERE ct.full_name = c.full_name AND ct.municipality = c.municipality
+                  AND CAST(mt.meeting_date AS DATE) BETWEEN ct.start_date AND ct.end_date
+            )
+          )
         """,
         [meeting_id],
     ).fetchall()

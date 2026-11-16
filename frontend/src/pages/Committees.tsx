@@ -4,6 +4,8 @@ import { fetchCommitteeIndex, fetchCommitteeData } from '../api/data';
 import type { CommitteeIndexData, CommitteeData } from '../types';
 import { motionOutcome, formatDate } from '../utils/format';
 import VoteChip from '../components/VoteChip';
+import { useTerm } from '../hooks/useTerm';
+import { countInTerm, filterByTerm } from '../utils/terms';
 import styles from './Committees.module.scss';
 
 export default function Committees() {
@@ -12,6 +14,7 @@ export default function Committees() {
   const [committeeData, setCommitteeData] = useState<CommitteeData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const { term, termQuery } = useTerm();
 
   useEffect(() => {
     if (slug) {
@@ -56,9 +59,16 @@ export default function Committees() {
         <p className={styles.intro}>
           Browse motions by the council body that considered them — committees, boards, commissions, and City Council.
         </p>
+        {term && committeeIndex.committees.every((c) => countInTerm(c, term.slug) === 0) && (
+          <p className={styles.intro}>No committee motions recorded yet for the {term.label} term.</p>
+        )}
         <div className={styles.committeeGrid}>
-          {committeeIndex.committees.map((c) => (
-            <Link key={c.slug} to={`/ottawa/committees/${c.slug}`} className={styles.committeeCard}>
+          {committeeIndex.committees
+            .map((c) => ({ ...c, motion_count: countInTerm(c, term?.slug) }))
+            .filter((c) => c.motion_count > 0)
+            .sort((a, b) => b.motion_count - a.motion_count)
+            .map((c) => (
+            <Link key={c.slug} to={`/ottawa/committees/${c.slug}${termQuery}`} className={styles.committeeCard}>
               <span className={styles.committeeName}>{c.committee}</span>
               <span className={styles.committeeCount}>{c.motion_count} motion{c.motion_count !== 1 ? 's' : ''}</span>
             </Link>
@@ -68,21 +78,24 @@ export default function Committees() {
     );
   }
 
+  const termMotions = committeeData ? filterByTerm(committeeData.motions, term?.slug) : [];
+
   // Per-committee motions list
   if (committeeData) {
     return (
       <div className={styles.page}>
         <nav className={styles.breadcrumb}>
-          <Link to="/ottawa/committees" className={styles.breadcrumbLink}>Committees</Link>
+          <Link to={`/ottawa/committees${termQuery}`} className={styles.breadcrumbLink}>Committees</Link>
           <span className={styles.breadcrumbSep}>/</span>
           <span>{committeeData.committee}</span>
         </nav>
         <h2 className={styles.heading}>{committeeData.committee}</h2>
         <p className={styles.intro}>
-          {committeeData.motions.length} motion{committeeData.motions.length !== 1 ? 's' : ''} voted on
+          {termMotions.length} motion{termMotions.length !== 1 ? 's' : ''} voted on
+          {term ? ` in the ${term.label} term` : ''}
         </p>
         <div className={styles.motionList}>
-          {committeeData.motions.map((m) => {
+          {termMotions.map((m) => {
             const outcome = motionOutcome(m.motion_result, m.vote_kind, m.votes?.length ?? 0);
             return (
             <div key={m.motion_id} className={styles.motionCard}>

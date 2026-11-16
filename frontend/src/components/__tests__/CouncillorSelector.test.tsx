@@ -14,6 +14,7 @@ const mayor: CouncillorMeta = {
   email: 'mayor@ottawa.ca',
   telephone: '613-580-2400',
   active: true,
+  terms: [],
 };
 
 const councillors: CouncillorMeta[] = [
@@ -28,6 +29,7 @@ const councillors: CouncillorMeta[] = [
     email: 'ariel.troster@ottawa.ca',
     telephone: '613-580-2484',
     active: true,
+    terms: [],
   },
   {
     slug: 'glen-gower',
@@ -39,6 +41,7 @@ const councillors: CouncillorMeta[] = [
     email: 'glen.gower@ottawa.ca',
     telephone: '613-580-2476',
     active: true,
+    terms: [],
   },
 ];
 
@@ -105,5 +108,17 @@ describe('CouncillorSelector', () => {
     );
     await userEvent.selectOptions(screen.getByRole('combobox'), 'ariel-troster');
     expect(onChange).toHaveBeenCalledWith('ariel-troster');
+  });
+
+  it('shows a placeholder when the selected councillor is not in the list', () => {
+    render(
+      <CouncillorSelector
+        councillors={councillors}
+        selectedSlug="george-darouze"
+        onChange={() => {}}
+      />,
+    );
+    expect(screen.getByRole('combobox')).toHaveValue('');
+    expect(screen.getByRole('option', { name: 'Choose a councillor' })).toBeDisabled();
   });
 });

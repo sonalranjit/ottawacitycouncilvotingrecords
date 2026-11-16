@@ -4,6 +4,8 @@ import { fetchTagIndex, fetchTagData } from '../api/data';
 import type { TagIndexData, TagData } from '../types';
 import { motionOutcome, formatDate } from '../utils/format';
 import VoteChip from '../components/VoteChip';
+import { useTerm } from '../hooks/useTerm';
+import { countInTerm, filterByTerm } from '../utils/terms';
 import styles from './Tags.module.scss';
 
 export default function Tags() {
@@ -12,6 +14,7 @@ export default function Tags() {
   const [tagData, setTagData] = useState<TagData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const { term, termQuery } = useTerm();
 
   useEffect(() => {
     if (slug) {
@@ -56,9 +59,16 @@ export default function Tags() {
         <p className={styles.intro}>
           Browse motions by topic to see what Ottawa City Council has voted on across different areas.
         </p>
+        {term && tagIndex.tags.every((t) => countInTerm(t, term.slug) === 0) && (
+          <p className={styles.intro}>No topics recorded yet for the {term.label} term.</p>
+        )}
         <div className={styles.tagGrid}>
-          {tagIndex.tags.map((t) => (
-            <Link key={t.slug} to={`/ottawa/tags/${t.slug}`} className={styles.tagCard}>
+          {tagIndex.tags
+            .map((t) => ({ ...t, motion_count: countInTerm(t, term?.slug) }))
+            .filter((t) => t.motion_count > 0)
+            .sort((a, b) => b.motion_count - a.motion_count)
+            .map((t) => (
+            <Link key={t.slug} to={`/ottawa/tags/${t.slug}${termQuery}`} className={styles.tagCard}>
               <span className={styles.tagName}>{t.tag}</span>
               <span className={styles.tagCount}>{t.motion_count} motion{t.motion_count !== 1 ? 's' : ''}</span>
             </Link>
@@ -68,21 +78,24 @@ export default function Tags() {
     );
   }
 
+  const termMotions = tagData ? filterByTerm(tagData.motions, term?.slug) : [];
+
   // Per-tag motions list
   if (tagData) {
     return (
       <div className={styles.page}>
         <nav className={styles.breadcrumb}>
-          <Link to="/ottawa/tags" className={styles.breadcrumbLink}>Topics</Link>
+          <Link to={`/ottawa/tags${termQuery}`} className={styles.breadcrumbLink}>Topics</Link>
           <span className={styles.breadcrumbSep}>/</span>
           <span>{tagData.tag}</span>
         </nav>
         <h2 className={styles.heading}>{tagData.tag}</h2>
         <p className={styles.intro}>
-          {tagData.motions.length} motion{tagData.motions.length !== 1 ? 's' : ''} voted on
+          {termMotions.length} motion{termMotions.length !== 1 ? 's' : ''} voted on
+          {term ? ` in the ${term.label} term` : ''}
         </p>
         <div className={styles.motionList}>
-          {tagData.motions.map((m) => {
+          {termMotions.map((m) => {
             const outcome = motionOutcome(m.motion_result, m.vote_kind, m.votes?.length ?? 0);
             return (
             <div key={m.motion_id} className={styles.motionCard}>

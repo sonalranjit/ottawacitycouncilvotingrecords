@@ -22,6 +22,34 @@ def create_tables(con: duckdb.DuckDBPyConnection) -> None:
         )
     """)
 
+    # Council terms; a meeting belongs to the term whose date range contains meeting_date
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS terms (
+            slug            VARCHAR,
+            municipality    VARCHAR,
+            label           VARCHAR,
+            start_date      DATE,
+            end_date        DATE,
+            PRIMARY KEY (slug, municipality)
+        )
+    """)
+
+    # One row per councillor per term served; start/end_date are the membership
+    # window (the term's dates unless the councillor joined or left mid-term)
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS councillor_terms (
+            full_name       VARCHAR,
+            municipality    VARCHAR,
+            term_slug       VARCHAR,
+            title           VARCHAR,
+            ward_number     VARCHAR,
+            ward_name       VARCHAR,
+            start_date      DATE,
+            end_date        DATE,
+            PRIMARY KEY (full_name, municipality, term_slug)
+        )
+    """)
+
     con.execute("""
         CREATE TABLE IF NOT EXISTS meetings (
             meeting_id          VARCHAR PRIMARY KEY,

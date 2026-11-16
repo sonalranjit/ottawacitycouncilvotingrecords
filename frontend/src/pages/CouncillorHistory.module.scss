@@ -140,3 +140,28 @@
   color: $color-accent;
   border-bottom-color: $color-accent;
 }
+
+.termsServed {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.notInTerm {
+  padding: $spacing-md;
+  border: 1px solid $color-border;
+  border-radius: $border-radius;
+  background: $color-surface;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.termLink {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: $color-accent;
+  text-decoration: underline;
+  cursor: pointer;
+}

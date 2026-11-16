@@ -13,6 +13,8 @@ export default function CouncillorSelector({ councillors, selectedSlug, onChange
   const byWard = councillors
     .filter((c) => !!c.ward_number)
     .sort((a, b) => parseInt(a.ward_number) - parseInt(b.ward_number));
+  // The selected councillor may not be in this list (e.g. they didn't serve in the selected term)
+  const isListed = councillors.some((c) => c.slug === selectedSlug);
 
   return (
     <div className={styles.wrapper}>
@@ -22,9 +24,10 @@ export default function CouncillorSelector({ councillors, selectedSlug, onChange
       <select
         id="councillor-select"
         className={styles.select}
-        value={selectedSlug}
+        value={isListed ? selectedSlug : ''}
         onChange={(e) => onChange(e.target.value)}
       >
+        {!isListed && <option value="" disabled>Choose a councillor</option>}
         {mayor.map((c) => (
           <option key={c.slug} value={c.slug}>
             {c.full_name} ({c.title})

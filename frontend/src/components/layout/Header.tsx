@@ -1,7 +1,10 @@
 import { NavLink } from 'react-router-dom';
+import { useTerm } from '../../hooks/useTerm';
 import styles from './Header.module.scss';
 
 export default function Header() {
+  const { terms, term, setTerm, termQuery } = useTerm();
+
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
@@ -11,36 +14,51 @@ export default function Header() {
         </div>
         <nav className={styles.nav}>
           <NavLink
-            to="/ottawa"
+            to={{ pathname: '/ottawa', search: termQuery }}
             end
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             Motions by Date
           </NavLink>
           <NavLink
-            to="/ottawa/councillors"
+            to={{ pathname: '/ottawa/councillors', search: termQuery }}
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             Councillors
           </NavLink>
           <NavLink
-            to="/ottawa/committees"
+            to={{ pathname: '/ottawa/committees', search: termQuery }}
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             Committees
           </NavLink>
           <NavLink
-            to="/ottawa/tags"
+            to={{ pathname: '/ottawa/tags', search: termQuery }}
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             Topics
           </NavLink>
           <NavLink
-            to="/ottawa/about"
+            to={{ pathname: '/ottawa/about', search: termQuery }}
             className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
           >
             About
           </NavLink>
+          {terms.length > 1 && term && (
+            <label className={styles.termPicker}>
+              <span className={styles.termLabel}>Term</span>
+              <select
+                className={styles.termSelect}
+                value={term.slug}
+                onChange={(e) => setTerm(e.target.value)}
+                aria-label="Council term"
+              >
+                {[...terms].reverse().map((t) => (
+                  <option key={t.slug} value={t.slug}>{t.label}</option>
+                ))}
+              </select>
+            </label>
+          )}
           <a
             href="./data/ottawa/feed.xml"
             className={styles.rssLink}

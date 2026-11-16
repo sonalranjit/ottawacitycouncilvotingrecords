@@ -1,0 +1,516 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7aa6d620-6c15-48c5-9575-e5116ad5dd39&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7aa6d620-6c15-48c5-9575-e5116ad5dd39&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Board of Health - September 15, 2025",
+  "meeting_number": 0,
+  "meeting_date": "2025-09-15",
+  "meeting_start_time": "17:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Catherine Kitts",
+    "Vice-Chair Tammy DeGiovanni",
+    "Member Brent Bauer",
+    "Member Marty Carr",
+    "Member Sabrina Chung",
+    "Member Laura Dudas",
+    "Member Glen Gower",
+    "Member Rawlson King",
+    "Member Jessica Bradley",
+    "Member Nwanneka Ejiofor",
+    "Member Emily Gruenwoldt"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 18,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271048",
+            "attachment_title": "Public Notices_en.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271049",
+            "attachment_title": "Avis publics_fr.pdf"
+          }
+        ],
+        "description": "Please see the attached document for public notices and meeting information, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; processes and timelines for written and oral submissions; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members were present at the time of roll call.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Confirmation of Minutes",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271051",
+            "attachment_title": "DRAFT-Meeting Minutes - BOH_Jul14_2025 - English.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271052",
+            "attachment_title": "DRAFT Meeting Minutes - BOH_Jun16_2025 - English.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271053",
+            "attachment_title": "DRAFT Meeting Minutes - BOH_Jun16_2025 - French.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271054",
+            "attachment_title": "DRAFT-Meeting Minutes - BOH_Jul14_2025 - French.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Laura Dudas",
+            "motion_seconded_by": "",
+            "motion_text": "Confirmation of minutes of the meeting of Monday, June 16, 2025.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          },
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Laura Dudas",
+            "motion_seconded_by": "",
+            "motion_text": "Confirmation of minutes of the meeting of Monday, July 14, 2025.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271046",
+            "attachment_title": "Communications List EN.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271047",
+            "attachment_title": "Communications List FR.pdf"
+          }
+        ],
+        "description": "Two communication items have been received (held on file with the Board of Health Secretary).",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Laura Dudas",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: Ottawa Public Health Budget Considerations for 2026, Update on Ottawa Public Health\u2019s Healthy Growth and Development Program, Beach Water Quality Report, Q2 2025 Budget Status Report, the 2026 BOH Meeting Schedule, the Delegation of Authority Contract Awarded for the Period of January 1 to June 30, 2025 and Appointment of Associate Medical Officer of Health \u2013 in camera \u2013 personal matters about an identifiable individual - reporting out date: upon council approval, be received and considered, be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Chair of the Board of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2024-OPH-BOH-0011 \u2013 City-wide",
+            "minutes": "The Chair welcomed members back from the summer break and congratulated Dr. Trevor Arnason on his official appointment as Medical Officer of Health. The Chair acknowledged Ottawa Public Health staff for their work over the summer, including emergency response and public health initiatives, and noted that presentations from key programs would follow.\nThe Chair also provided an update on the Association of Municipalities of Ontario (AMO) conference, where meetings were held with provincial ministers and party caucuses to discuss Ottawa Public Health\u2019s funding challenges and the need for increased provincial support. Concerns were raised about the growing gap between City and provincial contributions, with current provincial funding covering only 58% of OPH\u2019s cost-shared budget, despite a 75% target.\nThe Chair discussed the Healthy@Home proposal; a $2 million pilot aimed at supporting vulnerable Ottawa Community Housing tenants with health and housing services. The proposal was revised following feedback from the Minister of Municipal Affairs and Housing and continues to be a priority for OPH and its partners.\nLooking ahead to the 2026 budget season, the Chair referenced the Mayor\u2019s proposed 3.75% property tax increase, with 2.9% allocated to most city services, including OPH. The Chair encouraged Board members to engage in upcoming budget discussions, noting the importance of planning for the future as the Board\u2019s term concludes. The report ended with appreciation for the ongoing support from community and government partners and an invitation for questions.\nDiscussion lasted approximately 9 minutes.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Medical Officer of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2025-OPH-MOH-0005 \u2013 City-wide",
+            "minutes": "Dr. Trevor Arnason provided a verbal update on Ottawa Public Health\u2019s summer activities and fall priorities. He noted the team\u2019s work during extreme heat and drought conditions, including community outreach and well-water safety messaging. He addressed recent drowning incidents and ongoing efforts to promote water safety, welcoming news that the province may add water safety to the school curriculum. Rabies exposure reports reached record levels in August, and OPH continued monitoring West Nile Virus and tick-borne diseases.\nDr. Arnason also raised concerns about rising public health misinformation, especially around vaccines, and emphasized OPH\u2019s commitment to evidence-based communication. As fall begins, OPH is focusing on back-to-school vaccination campaigns and preparing for respiratory illness season with enhanced surveillance and vaccine promotion.\nThe report concluded with a presentation by Dr. Laura Bourns on respiratory trends and OPH\u2019s preparedness.\nDiscussion lasted approximately 40 minutes.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "2026 Budget Planning and Considerations for Ottawa Public Health",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271050",
+                "attachment_title": "2026 Budget Planning and Considerations for Ottawa Public Health.pdf"
+              }
+            ],
+            "description": "File ACS2025-OPH-BDS-0003 \u2013 City-Wide",
+            "minutes": "Kibria Mohammad, Manager of Policy, Indigenous Health, and Business Administration Support at Ottawa Public Health, delivered a PowerPoint presentation to the Board of Health.\nThe Board received public delegations from five (5) individuals and/or groups.\nFollowing each presentation, Members engaged in discussion and posed questions to the delegates.\u00a0\nAt 6:45pm the Board passed a motion to extend the meeting beyond 7:00pm, per the procedural by-law for the Ottawa Board of Health.\u00a0\nThe Board discussed the agenda item for approximately 30 minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Board of Health approve that the meeting time be extended past 7:00 p.m. pursuant to Subsection 8(1)(c) of the Procedural By-law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Board of Health receive this report for information as planning for the 2026 budget cycle begins, which outlines the evolving political and economic context, and highlights OPH\u2019s past and ongoing efforts including comprehensive service review to address budget pressures driven by increasing cost of operation and insufficient growth in base funding offered by the province.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.4",
+            "title": "Update on Ottawa Public Health\u2019s Healthy Growth and Development Program",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271040",
+                "attachment_title": "Update on Ottawa Public Health"
+              }
+            ],
+            "description": "File: ACS2025-OPH-HPP-0004 - City-Wide",
+            "minutes": "The Board received a presentation from Ottawa Public Health staff members Louise Gilbert and Marie-Claude Turcotte, which included a video overview of the Healthy Growth and Development Program.\nBoard Members engaged in discussion on this item for approximately 11 minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa receive, for information, the update on Ottawa Public Health\u2019s Healthy Growth and Development Program, as outlined in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.5",
+            "title": "Beach Water Quality Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271041",
+                "attachment_title": "OPH Beach Water Quality Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271042",
+                "attachment_title": "Supporting Document - Beach water testing analysis plan.pdf"
+              }
+            ],
+            "description": "File ACS2025-OPH-EHI-0002 \u2013 City-Wide",
+            "minutes": "Matthew Ruf, Program Manager for Safe Food and Water at Ottawa Public Health, and Jacqueline Willmore, Epidemiologist, delivered a PowerPoint presentation to the Board of Health.\nPrior to engaging with staff, the Board welcomed two public delegations to speak on the item. Each delegation was allotted five (5) minutes to present, followed by an opportunity for Board Members to ask questions.\nFollowing the delegations, Ms. Willmore and Mr. Ruf responded to questions from the Board regarding the data and information presented.\nDiscussion on this item lasted approximately 30 minutes.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Public Health Unit:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.6",
+            "title": "Q2 2025 Budget Status Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271043",
+                "attachment_title": "2025 Q2 Budget Status Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271044",
+                "attachment_title": "Supporting Documents - 2025 OPH Q2 Operating Results.pdf"
+              }
+            ],
+            "description": "File ACS2025-OPH-BDS-0005 \u2013 City-Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive the 2025 Q2 operating and capital budget status report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.7",
+            "title": "2026 BOH Meeting Schedule",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271045",
+                "attachment_title": "2026 BOH Meeting Schedule.pdf"
+              }
+            ],
+            "description": "File ACS2025-OPH-BOH-0012 \u2013 City-Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit approve the 2026 meeting schedule, as outlined in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.8",
+            "title": "Delegation of Authority Contract Awarded for the Period of January 1 to June 30, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271055",
+                "attachment_title": "OPH Q1-Q2 2025 DOA Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=271056",
+                "attachment_title": "Supporting Document - DOA Q1-Q2 2025 Ottawa Public Health.pdf"
+              }
+            ],
+            "description": "File ACS2025-OPH-BDS-0006 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "In Camera Items*",
+        "attachments": [],
+        "description": "NOTICE* \nIn Camera Items are not subject to public discussion or audience. Any person has a right to request an independent investigation of the propriety of dealing with matters in a closed session. A form requesting such a review may be obtained, without charge, from the City\u2019s website or in person from the Chair of this meeting. Requests are kept confidential pending any report by the Meetings Investigator and are conducted without charge to the Requestor.",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Appointment of Associate Medical Officer of Health",
+            "attachments": [],
+            "description": "File ACS2025-OPH-MOH-0006 - City-Wide",
+            "minutes": "The Board of Health received the in-camera report through the consent agenda process. As the item was approved without amendment, the Board did not enter into closed session.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Laura Dudas",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit refer the following toCouncil, subject to the candidate providing written acceptance of offer and proof of Fellowship from the Royal College of Physicians of Canada prior to September 10, 2025;",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Laura Dudas",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: Ottawa Public Health Budget Considerations for 2026, Update on Ottawa Public Health\u2019s Healthy Growth and Development Program, Beach Water Quality Report, Q2 2025 Budget Status Report, the 2026 BOH Meeting Schedule, the Delegation of Authority Contract Awarded for the Period of January 1 to June 30, 2025 and Appointment of Associate Medical Officer of Health \u2013 in camera \u2013 personal matters about an identifiable individual - reporting out date: upon council approval, be received and adopted.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "Larvicide Treatment of Stormwater Ponds",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member G. Gower",
+            "motion_seconded_by": "",
+            "motion_text": "WHEREAS Ottawa Public Health (OPH) plays a vital role in preventing West Nile virus through health promotion and education, and measures such as the application of larvicides in stormwater management ponds; andWHEREAS OPH currently funds the treatment of City-owned stormwater ponds without reimbursement, and increased demand due to the City\u2019s growth is placing additional pressure on the OPH budget; andWHEREAS newly developed stormwater ponds, whether under City ownership or still under developer control, may involve a multi-year delay between residential occupancy and formal handover to the City; andWHEREAS addressing this gap in larviciding efforts may mitigate risks associated with West Nile virus;THEREFORE BE IT RESOLVED that OPH explore options to expand larvicide treatment to include stormwater management ponds that have not yet been handed over to the City, when requested by the developer or current owner, including the operational and financial implications of such an expansion; andBE IT FURTHER RESOLVED that OPH collaborate with relevant City departments to assess the feasibility of establishing a sustainable funding mechanism for the treatment of City and developer-owned stormwater ponds, including options through the land development and approvals process, and potential cost recovery strategies involving developers.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "none.\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Laura Dudas",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT Confirmation By-law no. 2025-6, a by-law of the Board of Health for the City of Ottawa Health Unit to confirm the proceedings of the Ottawa Board of Health at its meeting of September 15, 2025, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Chair adjourned the meeting at 8:20pm.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, November 3, 2025 - 5:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

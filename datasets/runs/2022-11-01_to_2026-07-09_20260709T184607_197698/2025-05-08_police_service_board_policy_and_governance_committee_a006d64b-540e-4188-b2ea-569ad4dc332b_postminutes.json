@@ -1,0 +1,129 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a006d64b-540e-4188-b2ea-569ad4dc332b&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a006d64b-540e-4188-b2ea-569ad4dc332b&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Police Service Board Policy and Governance Committee - May 08, 2025",
+  "meeting_number": 21,
+  "meeting_date": "2025-05-08",
+  "meeting_start_time": "11:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Cathy Curry",
+    "Dave Donaldson"
+  ],
+  "absent_attendees": [
+    "Michael Polowin"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 7,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Policy and Governance Committeeconfirm the agenda of the 8 May 2025 meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "2.1",
+            "title": "Minutes #20 of 4 April 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=235923",
+                "attachment_title": "Draft Public Minutes  20 Policy and Governance Committee_Apr04_2025.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board\u2019s Policy and Governance Committee confirm Minutes #20 of the 4 April 2025 meeting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Policy and Governance Committee adjourn the public portion of its meeting to move In Camera to\u00a0discuss a cybersecurity update, and\u00a0one matter involving information explicitly supplied in confidence to the Board by Canada, a province or territory or a Crown agency of any of them, a municipality or a First Nation, pursuant to section 44(2)(g) of the Community Safety and Policing Act.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 11:05 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, July 7, 2025 - 11:00 AM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

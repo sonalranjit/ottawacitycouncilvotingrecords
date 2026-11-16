@@ -1,0 +1,171 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=01961383-a1ac-4037-96bb-e5ee6e38e3db&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=01961383-a1ac-4037-96bb-e5ee6e38e3db&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Police Service Board Human Resources Committee - May 06, 2025",
+  "meeting_number": 24,
+  "meeting_date": "2025-05-06",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Peter Henschel",
+    "Marty Carr",
+    "Michael Polowin"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 8,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee confirm the agenda of the 6 May 2025 meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "2.1",
+            "title": "Minutes #23 of 3 April 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=235392",
+                "attachment_title": "Public HR Draft Minutes 23 - OPSB_Apr03_2025.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee confirm Minutes #23 of the 3 April 2025 meeting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Items of Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Staff Stabilization Update \u2013 Q4 2024 & Q1 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=235393",
+                "attachment_title": "UPDATE - STAFF STABILIZATION STRATEGY.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=235394",
+                "attachment_title": "Staff Stabilization Update \u2013 Q4 2024 and Q1 2025 ENG.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=235395",
+                "attachment_title": "Staff Stabilization Update \u2013 Q4 2024 and Q1 2025 FR.pdf"
+              }
+            ],
+            "description": "Chief's report and presentation",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee receive this report for information and discussion.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board\u2019s Human Resources Committee adjourn the publicportion of its meeting to move In Camera to discuss one labour relations matter.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 10:27am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Tuesday, August 26, 2025 - 10:00 AM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

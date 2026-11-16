@@ -1,0 +1,508 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=18c0cf83-4d0e-45b4-814c-67546430d691&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=18c0cf83-4d0e-45b4-814c-67546430d691&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - November 05, 2024",
+  "meeting_number": 37,
+  "meeting_date": "2024-11-05",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Vice-chair: Councillor Glen Gower",
+    "Riley Brockington",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Clarke Kelly",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 10,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273512",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273513",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, November 13, 2024, in Planning and Housing Committee Report 37.\nThe deadline to register by phone to speak or submit written comments or visual presentations is 4 pm on Monday, November 4, 2024, and the deadline to register by email to speak is 8:30 am on Tuesday, November 5, 2024.",
+        "minutes": "This is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1 to 5.4 and 5.6 to 5.8 on today\u2019s Agenda.\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on November 13, 2024, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 36 \u2013 Wednesday, October 23, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273535",
+                "attachment_title": "PHC Final Minutes 36 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273536",
+                "attachment_title": "PHC Final Minutes 36 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "JT PHC/ECCC 2024-01 - Tree Trenching",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273514",
+                "attachment_title": "JT PHC-ECCC Inq 2024-01 - Tree Trenching (LJ).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "OCC-2024-08 - Staffing MOU with Tewin Developer",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273530",
+                "attachment_title": "OCC-2024-07 - Staffing MOU with Tewin developer.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Zoning By-law Amendment - 10 Garrison Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273532",
+                "attachment_title": "ACS2024-PDB-PSX-0029 - Zoning By-law Amendment \u2013 10 Garrison Street.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PSX-0029 \u2013 Kitchissippi (15)",
+            "minutes": "Margot Linker, Planner II, Planning, Development and Building Services (PDBS), provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegations:\nThe Applicant/Owner as represented by Paul Robinson, P H Robinson Consulting, provided an overview of the Application and responded to questions from Committee.\u00a0\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Official Plan Amendment and Zoning By-law Amendment - 335 and 339 Roosevelt Avenue, 344 Winston Avenue, and 379 and 389 Wilmont Avenuee",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273534",
+                "attachment_title": "ACS2024-PDB-PSX-0034 - OPA and ZBLA - 335 and 339 Roosevelt Avenue.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PSX-0034\u2013 Kitchissippi (15)",
+            "minutes": "Jean Charles, Planner III, Planning, Development and Building Services (PDBS) provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegation:\nThe Applicant/Owner as represented by Jacob Buldoc, Fotenn, was present to respond to questions from committee if required.\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Official Plan and Zoning By-law Amendment - 424 Churchill Avenue N.",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273529",
+                "attachment_title": "ACS2024-PDB-PS-0098 OPA and ZBLA \u2013 424 Churchill Ave N.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PS-0098 \u2013 Kitchissippi (15)",
+            "minutes": "The Applicant/Owner as represented by Jillian Simpson and Lisa Dalla Rosa, Fotenn Planning + Design were present in support, and available to answer questions.\u00a0 The Applicants advised that they did not need to address the Committee if the item carried.\nTim Gray, Westboro Community Association was present in support of the application and advised he did not need to address the Committee if the item carried.\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nThe Committee Carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "Zoning By-law Amendment \u2013 1280 Trim Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273531",
+                "attachment_title": "ACS2024-PDB-PSX-0027 - Zoning By-law Amendment \u2013 1280 Trim Road.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PSX-0027 - Orl\u00e9ans East-Cumberland (1)",
+            "minutes": "Lucy Ramirez, Planner, Planning, Development and Building Services (PDBS), provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegation:\nThe Applicant/Owner as represented by Christine McQuaig, Q9 Planning + Design, was present to respond to questions if required.\nThe following written submission was received by, and is filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.5",
+            "title": "Amendments to Site Plan Control By-law to Comply with Legislative Changes to the Planning Act",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273515",
+                "attachment_title": "ACS2024-PDB-PS-0029 Amendments to Site Plan Control By-law.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PS-0029 \u2013 City-wide\nThis Report will be submitted to the Agriculture and Rural Affairs Committee on November 7, 2024.",
+            "minutes": "Jacob Saltiel, Zoning By-law Writer and Interpretations Officer II, Policy Planning, Development and Building Services (PDBS), provided an overview of the report and answered questions from the Committee. Carol Ruddy, Program Manager, Zoning & Intensification, PDBS was also present and responded to questions.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegation:\nThe following written submissions was received by, and is filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend Council approve the amendments to Site Plan Control By-law 2014-256 as shown in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.6",
+            "title": "Delegated Authority for Minor Re-Zoning",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273528",
+                "attachment_title": "ACS2024-PDB-PS-0107 - Delegated Authority for Minor Re-zoning.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PS-0107 \u2013 City-wide\nThis Report will be submitted to the Agriculture and Rural Affairs Committee on November 7, 2024.",
+            "minutes": "Jacob Saltiel, Zoning By-law Writer and Interpretations Officer II(T), Policy Planning, Development and Building Services (PDBS), provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nAlso present and responded to questions were the following:\nLegal Services\nPDBS\nThe Committee heard from the following delegation:\n[\u00a0\u00a0\u00a0 Individuals / groups, as marked above, either provided comments (*) in writing or by e-mail and are held on file with the Office of the City Clerk.\u00a0\u00a0 ]\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee and Agricultural and Rural Affairs recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.7",
+            "title": "Lincoln Fields Secondary Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273516",
+                "attachment_title": "ACS2024-PDB-PS-0088 - Lincoln Fields Secondary Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273517",
+                "attachment_title": "Document 1 - Lincoln Fields Secondary Plan Policy Text - October 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273518",
+                "attachment_title": "Document 2 - Schedule A Designation Plan - November 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273519",
+                "attachment_title": "Document 3 - Schedule B Maximum Building Heights - November 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273520",
+                "attachment_title": "Document 4 - Schedule C Mobility and Connectivity - November 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273521",
+                "attachment_title": "Document 5 - Details of Recommended Zoning - October 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273522",
+                "attachment_title": "Document 6 - Zoning Location Map 1 - 2525 Carling Avenue - October 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273523",
+                "attachment_title": "Document 7 - Zoning Location Map 2 - amendment to schedule 402 - October 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273524",
+                "attachment_title": "Document 8 - Zoning Schedule YYY1 - Heights for 2525 Carling Avenue - October 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273525",
+                "attachment_title": "Document 9 - Zoning Schedule YYY2 - Active Frontage Street Areas - October 2024-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273526",
+                "attachment_title": "Document 10 - Consultation and Circulation Details-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273527",
+                "attachment_title": "Appendix 1 - Traffic Analysis - Kichi Zibi Mikan and Carling Avenue Intersection - October 2024.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PS-0088 \u2013 Bay (7)",
+            "minutes": "Jocelyn Cadieux, Planner II, Planning, Development and Building Services (PDBS), provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nAlso present and responded to questions were the following:\nPDBS\nThe Committee heard from the following delegations:\n[\u00a0\u00a0\u00a0 Individuals / groups, as marked above, either provided comments (*) in writing or by e-mail and are held on file with the Office of the City Clerk.\u00a0\u00a0 ]\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion and questions of staff, the Committee carried the report recommendations as amended by Motion Nos. PHC 2024-17-01, 02 and 03 and the following direction to staff:\nDirection to Staff:\nCouncillor Kavanagh\nThat staff be directed to work with the National Capital Commission (NCC) to explore opportunities for active or passive recreation space on the NCC\u2019s greenspace that is accessible to the Woodpark community after the completion of the western expansion of the O-Train, located approximately north of the future development area east of Lincoln Fields Station and west of Edgeworth Avenue.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-17-01",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-17-02",
+                "motion_moved_by": "T. Kavanagh",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "L. Dudas",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. Brockington",
+                      "L. Johnson",
+                      "A. Troster"
+                    ],
+                    "count": 6
+                  },
+                  "against": {
+                    "councillors": [
+                      "G. Gower",
+                      "J. Leiper",
+                      "W. Lo"
+                    ],
+                    "count": 3
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (6 to 3)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-17-03",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "L. Johnson",
+                      "W. Lo"
+                    ],
+                    "count": 7
+                  },
+                  "against": {
+                    "councillors": [
+                      "T. Kavanagh",
+                      "A. Troster"
+                    ],
+                    "count": 2
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (7 to 2)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.8",
+            "title": "Zoning By-law Amendment - City-Owned Lands for Housing Developments",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=273533",
+                "attachment_title": "ACS2024-PDB-PSX-0038 - Zoning By-law Amendment-City-Owned Lands for Housing Developments.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PDB-PSX-0038 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-17-04",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "Councillor T. Tierney\nGroup home means a supervised residential use building in which three to ten persons, exclusive of their dependants and of any staff, live as a group in a single housekeeping establishment, and where residents require support or supervision on a daily basis, but excludes correctional facilities and shelters. (foyer de groupe) (By-law 2014-94) (By-law 2018-206)",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nWednesday, November 20, 2024.",
+        "minutes": "The meeting adjourned at 2:34 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

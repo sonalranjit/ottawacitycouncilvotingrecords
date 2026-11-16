@@ -1,0 +1,256 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=18cc1db3-cb4c-48ea-89d9-cad33eece2cc&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=18cc1db3-cb4c-48ea-89d9-cad33eece2cc&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Accessibility Advisory Committee - March 21, 2023",
+  "meeting_number": 2,
+  "meeting_date": "2023-03-21",
+  "meeting_start_time": "18:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Phillip Turcotte, Chair",
+    "Wayne Antle",
+    "Ana Maria Cruz-Valderrama",
+    "Adele Furrie",
+    "Murray Gallant",
+    "Vania Karam",
+    "Don Patterson"
+  ],
+  "absent_attendees": [
+    "Brian Wade, Vice-Chair",
+    "Holly Ellingwood",
+    "Tammy Kelly"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 10,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256243",
+            "attachment_title": "Public Notices French - Advisory Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256244",
+            "attachment_title": "Public Notices English - Advisory Committee.pdf"
+          }
+        ],
+        "description": "Zoom meeting: 857 9584 6193\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak or submit written comments is 4 pm on March 21, 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "AAC Minutes 27 \u2013 September 20, 2022",
+            "attachments": [],
+            "description": "",
+            "minutes": "Deferred",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "AAC Minutes 1 \u2013 February 15, 2023",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Site Plan Control application related to Phase 3 and 4 of The Ottawa Hospital Master Plan",
+            "attachments": [],
+            "description": "",
+            "minutes": "The Applicant for the Ottawa Hospital provided a slide presentation and answered questions from the Committee. A copy of their slide presentation is filed with the Office of the City Clerk. Jeff Fahs, Marnie Peters and Jason-Emery Groen answered questions at the committee.\nFollowing discussion, the Committee RECEIVED the presentation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Real Estate and Economic Development",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Update \u2013 Transportation Master Plan",
+            "attachments": [],
+            "description": "",
+            "minutes": "Jennifer Armstrong, Program Manager, Transportation Policy and Networks, Deb Lightman, Senior Project Manager, Sustainable Transportation and Zlatko Krstulic, Program Manager, Active Transportation Planning, provided an oral update and answered questions from the Committee.\nA copy of their slide presentation is filed with the Office of the City Clerk.\nFollowing discussions, the Committee RECEIVED the presentation for information.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Update \u2013 draft 2023 annual City of Ottawa Municipal Accessibility Plan report",
+            "attachments": [],
+            "description": "",
+            "minutes": "Lucille Berlinguette-Saumure, Program Manager, and Megan Richards, Corporate Accessibility Specialist, of the Accessibility Office, provided an oral update.\nFollowing discussions, the Committee RECEIVED the presentation for information.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "Chair Phillip Turcotte submitted two inquiries regarding information about the Study of Sidewalk Snow Clearing Standards, and on the Study of Cost to Taxi Drivers Providing Accessible Taxi Services.",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Study of Sidewalk Snow Clearing Standards",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Chair Phillip Turcotte",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Phillip Turcotte",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Study of Cost to Taxi Drivers Providing Accessible Taxi Services",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Chair Phillip Turcotte",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Phillip Turcotte",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "On behalf of Rick O\u2019Connor, City Clerk, Tyler Cox, Manager, Legislative Services, thanked members of the outgoing 2018-2022 Accessibility Advisory Committee for their service\nLucille Berlinguette- Saumure, Program Manager of the Accessibility Office thanked members for their dedication for many years.\nMembers of the Committee acknowledged and thanked one another and City staff for the years of commitment.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next meeting: to be determined.",
+        "minutes": "The meeting adjourned at 09:40 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

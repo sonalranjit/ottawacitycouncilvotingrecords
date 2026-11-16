@@ -1,0 +1,390 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1cd046cb-5581-4ce2-8f28-b449ed244c7f&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1cd046cb-5581-4ce2-8f28-b449ed244c7f&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Emergency Preparedness and Protective Services Committee - June 15, 2023",
+  "meeting_number": 5,
+  "meeting_date": "2023-06-15",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Riley Brockington",
+    "David Hill",
+    "Jessica Bradley",
+    "Steve Desroches",
+    "Laura Dudas",
+    "Sean Devine",
+    "Laine Johnson",
+    "Clarke Kelly",
+    "Matt Luloff",
+    "St\u00e9phanie Plante"
+  ],
+  "absent_attendees": [
+    "Allan Hubley"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264627",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264628",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, June 28 in Emergency Preparedness and Protective Services Committee Report 5.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, June 14, 2023, and the deadline to register to speak by email is 8:30 am on Thursday, June 15, 2023.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Committee. The final draft Minutes will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "EPPSC Minutes 4 \u2013 Thursday 18 May 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264629",
+                "attachment_title": "Draft EPPSC Minutes 4 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264630",
+                "attachment_title": "Draft EPPSC Minutes 4 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "File No. ACS2023-OCC-CCS-0078 - City-Wide",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Status Update \u2013 Emergency Preparedness and Protective Services Committee Inquiries and Motions for the period ending 6 June 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264636",
+                "attachment_title": "4.1 - ACS2023-OCC-CCS-0078 - EPPSC 15 Jun Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264637",
+                "attachment_title": "4.1 - Doc 1 - EPPSC Inquiries Log - 06-15.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264638",
+                "attachment_title": "4.1 - Doc 2 - EPPSC Motions Log - 06-15.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Emergency Preparedness and Protective Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Emergency and Protective Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "On-Demand Accessible Taxicab Service Study and Minor Amendments to Vehicle-for-Hire By-law related to Taxicabs",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264631",
+                "attachment_title": "5.1 - 1 - ACS2023-EPS-BYL-0002 - Accessible Taxicab Service Study (EN)-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264632",
+                "attachment_title": "5.1 - 2 - ACS2023-EPS-BYL-0002 - Accessible Taxicab Service Study (FR)-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264633",
+                "attachment_title": "5.1 - 3 - Accessible Cabs - Study - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264634",
+                "attachment_title": "5.1 - 4 - Annex A - Option Assessment Template - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264635",
+                "attachment_title": "5.1 - 5 - Annex B - AAC Memo - Accessible Taxis - AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-EPS-BYL-0002 - City-wide",
+            "minutes": "At the outset, Mr. Kim Ayotte, General Manager, Emergency and Protective Services (EPS) Department, introduced Mr. Roger Chapman, Director, By-Law and Regulatory Services (BLRS), EPS who, in turn, introduced Ms Christine Hartig, Program Manager, Operations Support and Regulatory Services, BLRS, EPS, Ms Kayla Woods, Specialist, By-Law Issues Management, EPS and Mr. Michael Lalonde, Supervisor, By-Law Enforcement, Property Standards Unit, BLRS, EPS. \nThe Committee then received a detailed slide presentation overview of the report, a copy of which is held on file with the Office of the City Clerk.\nMr. David Saint (consultant), Ms Valerie Bietlot, Manager, Public Policy Development, EPS, and Mr. Scott Laberge, Associate Director, Transit Services Department were also present to respond to questions.\nFollowing the presentation, Councillor Bradley introduced the following Motion for the Committee\u2019s consideration prior to the receipt of public delegations:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendations\nThat Emergency Preparedness and Protective Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "J. Bradley",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Vehicle-for-Hire By-law (2016-272, as amended) regulates taxicabs, limousines and Private Transportation Companies; and,\nWHEREAS accessible on-demand taxicab service has suffered due to the lack of accessible plates/vehicles on the road, resulting in inadequate service to the accessible community; and,\nWHEREAS a centralized dispatch service for on-demand wheelchair accessible vehicles has been identified to improve the availability and quality of service; and,\nWHEREAS there is currently only one taxicab dispatch firm operating in Ottawa and previous market scans have identified that this specific dispatch firm is the only viable provider of accessible taxi dispatch services in Ottawa; and,\nWHEREAS a centralized dispatch would function more efficiently as a publicly operated entity; and,\nWHEREAS staff have advised that the City is not currently in a position to develop its own centralized dispatch system;\nTHEREFORE BE IT RESOLVED that Council direct staff to look into the feasibility of implementing a City of Ottawa run centralized dispatch system respecting on-demand accessible taxicab service and report back to Council before the end of the proposed three-year pilot project, ensuring sufficient time to implement a public option should the report identify this option as feasible and should Council decide to pursue it.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "2023-2026 Corporate By-law Review Workplan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264639",
+                "attachment_title": "5.2 - 1 - ACS2023-EPS-PPD-0001 - Bylaw Review Work Plan (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264640",
+                "attachment_title": "5.2 - 2 - Doc 1 - BRWP_WorkPlan_Corporate_2023-2026_FINAL_EN_v2.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264641",
+                "attachment_title": "5.2 - 3 - Bylaw Review Work Plan - Councillor Discussion Guide (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264642",
+                "attachment_title": "5.2 - 4 - ACS2023-EPS-PPD-0001 - Bylaw Review Work Plan (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264643",
+                "attachment_title": "5.2 - 5 - Doc 1 - BRWP_WorkPlan_Corporate_2023-2026_FINAL_FR_v2.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264644",
+                "attachment_title": "5.2 - 6 - Bylaw Review Work Plan - Councillor Discussion Guide (FR).pdf"
+              }
+            ],
+            "description": "File No. ACS-2023-EPS-PPD-0001 - City-wide",
+            "minutes": "Mr. Kim Ayotte, General Manager, Emergency and Protective Services (EPS) Department, introduced Ms Valerie Bietlot, Manager, Public Policy Development, EPS who, in turn, introduced Ms Kate Todd, Specialist, By-Law Review and Mr. Jerrod Riley, Specialist, By-Law Review, both with Public Policy Development Services, EPS.\nMs Bietlot then spoke to a detailed slide presentation which served as an overview of the report.\u00a0 A copy of this presentation is held on file with the Office of the City Clerk.\nAt the conclusion of Committee\u2019s questions to staff and discussions, the report recommendation was put before Committee and was \u2018CARRIED\u2019, as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Emergency Preparedness and Protective Services Committee recommend that Council approve the 2023 to 2026 Corporate By-law Review Work Plan set out in Document 1 and described in this report",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Ottawa Paramedic Service 2021 and 2022 Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264645",
+                "attachment_title": "5.3 - ACS2023-EPS-OPS-0001 - OPS 2021 and 2022 Annual Report (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264646",
+                "attachment_title": "5.3 - ACS2023-EPS-OPS-0001 - OPS 2021 and 2022 Annual Report (FR).pdf"
+              }
+            ],
+            "description": "File No. ACS2023-EPS-OPS-0001 - City-wide",
+            "minutes": "Please note \u2013 this item was considered concurrently with the subsequent report, Ottawa Paramedic Service 2024 - 2026 Investment Plan (ACS2023-EPS-OPS-0002).\u00a0\nPlease see that item for a more detailed extract of Draft Committee Minute.\nAt the conclusion of Committee discussions for both items, the report recommendation for this item (ACS-2023-EPS-OPS-0001) was \u2018CARRIED\u2019 as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Emergency Preparedness and Protective Services Committee recommend Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "Ottawa Paramedic Service 2024 - 2026 Investment Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264647",
+                "attachment_title": "5.4 - ACS2023-EPS-OPS-0002 - OPS 2024-2026 Investment Plan (EN) - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264648",
+                "attachment_title": "5.4 - ACS2023-EPS-OPS-0002 - OPS 2024-2026 Investment Plan (FR) - AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-EPS-OPS-0002 - City Wide",
+            "minutes": "Please note \u2013 this item was considered concurrently with the previous report, 2023-2026 Corporate By-law Review Workplan (ACS2023-EPS-OPS-0001).\u00a0\nAt the conclusion of Committee discussions for both items, the report recommendation for the previous item (ACS2023-EPS-OPS-0001) was \u2018CARRIED\u2019, as presented.\nMr. Kim Ayotte, General Manager, Emergency and Protective Services (EPS) Department, introduced Mr. Pierre Poirier, Chief, Ottawa Paramedic Service, EPS, who spoke to a detailed slide presentation which served as an overview of both this item, and the previously-listed report, 2023-2026 Corporate By-Law Review Workplan (ACS2023-EPS-OPS-0001).\u00a0 As noted above, both reports were considered concurrently.\nA copy of Mr. Poirier\u2019s presentation is held on file with the Office of the City Clerk.\nAt the conclusion of the presentation, Councillor D. Hill introduced the following Motion to amend the report recommendations:\nChair Brockington suggested a minor correction to the last clause of the above Motion to read, \u201c\u2026including at the upcoming Association of Municipalities of Ontario Conference to\u2026\u201d.\u00a0 Councillor Hill accepted this amendment.\nFollowing questions to staff and with Committee discussions having concluded, Motion NO EPPSC 2023 05-03 was put before the Committee and was \u2018CARRIED\u2019.\u00a0 The report recommendations were then put before Committee and were \u2018CARRIED\u2019, as amended by Motion NO EPSC 2023 05-02.\n(The report recommendation for the previous item (ACS2023-EPS-OPS-0001) was \u2018CARRIED\u2019, as presented.)",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Emergency Preparedness and Protective Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "D. Hill",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the provision of quality paramedic services within established response times is a priority of Council and expected by the community; and\nWHEREAS there have been 184,113 emergency responses in 2022, an increase of 23.3% over 2021; and\nWHEREAS response times are impacted by increased response volumes due to population growth and aging patient demographics, increasing ambulance offload delays, staffing pressures and the city\u2019s geography, hospital locations and traffic patterns; and\nWHEREASParamedic offload delay continues to be the single largest issue impacting paramedic services in Ottawa and across Ontario; and\nWHEREAS in 2022, Ottawa paramedicswere in the hospital for approximately 500 hours per day in offload delay and the total hours lost in area hospitals is the equivalent to hiring 124 additional paramedics; and\nWHEREAS paramedics waiting in the hospital are not able to respond to calls for service in the community; and\nWHEREAS paramedics in 2022 were spending 157 minutes, or 2 hours and 37 minutes, per call, which is significantly higher than the goal of 90 minutes per call needed to meet service standards; and\nWHEREAS paramedics, are reporting a significant decrease in response time performance standards for the most urgent calls for service, including CTAS 1 (life threatening), CTAS 2 (urgent) and sudden cardiac arrest (meeting the standard for CTAS 3, CTAS 4 and CTAS 5); and\nWHEREAS the Ottawa Paramedic Service remains committed to continuous improvement and has implemented over 15 mitigation strategies to reduce offload delays and increase ambulance availability; and\nWHEREAS the Ottawa Paramedic Service is experiencing the cumulative effects of increased work demands and chronic overtime on their workforce; and\nWHEREAS\u00a0there is a requirement for an immediate need of 14 new paramedics to respond to the current situation as a result of offload delays and response volume growth; and\nWHEREAS there is a requirement for an additional emergency response vehicle to support the additional 14 paramedics; and\nWHEREAS staff has advised that there are sufficient funds in Tax Stabilization Reserve Fund and the City Wide Capital Reserve to meet this urgent need.\nTHEREFORE BE IT RESOLVED that, on the understanding that the future needs of the Ottawa Paramedic Service will be considered by Council as part of the Ottawa Paramedic Service 2024-2026 Investment Plan report, the Emergency Preparedness and Protective Services Committee recommend that City Council approve:\na)\u00a0\u00a0\u00a0the addition of 14 paramedics from the 23 paramedics recommended by staff for 2024, be hired as soon as feasible, in 2023, with the part-year budget requirement of $840,000 to be funded from Tax Stabilization Reserve Fund and the annualization be part of 2024 Draft Budget; and\nb)\u00a0\u00a0\u00a0the purchase of one emergency response vehicle at an estimated cost of $340,000 to be funded by the City-Wide Capital Reserve and an operating budget pressure of $125,000 to be funded by the Tax Stabilization Reserve Fund; and\nBE IT FURTHER RESOLVED that Mayor Sutcliffe, on behalf of Council formally continue his efforts at advocacy by writing the Premier of Ontario and the Minister of Health, outlining the ongoing impacts associated with offload delay and advocate to the Province to implement solutions immediately to reduce patient offload delay and the number of occurrences and duration of when no ambulance is available in the City of Ottawa (level zero), to ensure public safety and help the Ottawa ParamedicServicemeet response time performance standards; and\nBE IT FURTHER RESOLVED Mayor Sutcliffe and Chair Brockington meet with the leadership of the local hospitals to engage in solution-oriented discussions towards reducing or eliminating offload delays in Ottawa; and\nBE IT FURTHER RESOLVED that Ottawa request a meeting with the Minister of Health as soon as possible, including at the upcoming Association of Municipalities of Ontario Conference to present the most recent Annual Report and to make clear to the Minister that the situation is Ottawa is critical.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Response to Motion 2021 20/4 (CPSC) \u2013 Private Transportation Companies",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264649",
+                "attachment_title": "7.1 - ACS2023-EPS-PPD-0002 - Response to Mtn 2021-20-4 (CPSC - EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264650",
+                "attachment_title": "7.1 - ACS2023-EPS-PPD-0002 - Response to Mtn 2021-20-4 (CPSC - FR).pdf"
+              }
+            ],
+            "description": "File No. ACS2023-EPS-PPD-0002- City Wide",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "EPPSC-2023-02-Fireworks Ban",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor J. Bradley:\nUnlike the Open-Air Fire Bylaw where the City has authority to impose \u201cfire bans\u201d, there is no provision in the Fire Works Bylaw to ban the use of retail fireworks.With the incidents of forest fires and hot/dry weather, and given that the current Fireworks Bylaw does not include provisions that permit the temporary banning of retail fireworks during these hot/dry conditions, can staff assess the risk of the use of fireworks in dry weather/conditions as well as the feasibility of adding a firework ban in tandem with Open-Air Fire Bans?",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nThursday, 21 September 2023.",
+        "minutes": "The meeting adjourned at 1:53 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

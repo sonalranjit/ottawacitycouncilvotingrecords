@@ -1,0 +1,554 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=31225698-d538-4ea1-ad16-3c096140edb1&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=31225698-d538-4ea1-ad16-3c096140edb1&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transit Commission - November 25, 2024",
+  "meeting_number": 16,
+  "meeting_date": "2024-11-25",
+  "meeting_start_time": "09:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Glen Gower",
+    "Vice-Chair Cathy Curry",
+    "Riley Brockington",
+    "Marty Carr",
+    "David Hill",
+    "Jeff Leiper",
+    "Wilson Lo",
+    "Shawn Menard",
+    "Tim Tierney"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 12,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255443",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255444",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notice of change of start time \u2013 The Transit Commission meeting of Monday, November 25, 2024 will be called to order at 9:00 AM.\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, December 11, 2024 in Transit Commission Report 16.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Friday, November 22, 2024, and the deadline to register to speak by email is 8 am on Monday, November 25, 2024.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "TTC Minutes 15 \u2013 Thursday, October 10, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255445",
+                "attachment_title": "English TTC Minutes 15.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255446",
+                "attachment_title": "French TTC Minutes 15.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "TC-2024-06 - Fines to cross a transitway into Blair station",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255470",
+                "attachment_title": "Response to Inquiry TC-2024-06 - Tierney - Fines to cross a transitway into Blair Station.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "TC-2024-07 - Distribution of Special Constables at transit stations",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255471",
+                "attachment_title": "Response to Inquiry TC-2024-07 - Tierney - Distribution of Special Constables at transit stations.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "TC-2024-08 - Updates on 60 foot buses",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255472",
+                "attachment_title": "Response to Inquiry TC-2024-08 - Tierney - Update on 60 foot buses.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "OC Transpo Update \u2013 Rail, Bus, and Para Transpo",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255473",
+                "attachment_title": "Staff Slides English - OC Transpo update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255474",
+                "attachment_title": "Staff Slides French - OC Transpo update.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The following Transit Services Department staff presented an overview of the report and answered questions from the Commission.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nCommission received an email from Sally Thomas, dated November 21, and a copy is filed with the Office of the City Clerk.\nJohn Redins spoke before the Committee and provided comments on the item.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Draft 2025 Operating and Capital Budgets \u2013 Transit Commission",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255450",
+                "attachment_title": "Report English - 2025 Draft Operating and Capital Budgets.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255451",
+                "attachment_title": "Full Budget Book - Transit Commission.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255452",
+                "attachment_title": "Condensed Book English - Transit Commission.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255453",
+                "attachment_title": "Document 1 English - 2025 Draft Budget Operating Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255454",
+                "attachment_title": "Document 2 English - 2025 Draft Capital Budget Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255455",
+                "attachment_title": "Document 3 English - 2025 Draft Budget Capital Transit Adjustments.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255456",
+                "attachment_title": "Document 4 English - Multi Year Budget.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255457",
+                "attachment_title": "Document 5 English - Budget Document Guide.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255458",
+                "attachment_title": "Document 6 English - Continuous Improvements List.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255459",
+                "attachment_title": "Document 7 English - 2025 Draft Budget \u2013 Investing in what matters, fighting for affordability.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255460",
+                "attachment_title": "Report French - 2025 Draft Operating and Capital Budgets.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255461",
+                "attachment_title": "Condensed Book French - Commission du transport  .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255462",
+                "attachment_title": "Document 1 French - Sommaires du budget fonctionnement provisoire 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255463",
+                "attachment_title": "Document 2 French - R\u00e9sum\u00e9s du budget d"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255464",
+                "attachment_title": "Document 3 French - Rajustements du budget provisoire des immobilisations du transport en commun de 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255465",
+                "attachment_title": "Document 4 French - Budget pluriannuel.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255466",
+                "attachment_title": "Document 5 French - Lignes directrices concernant le budget.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255467",
+                "attachment_title": "Document 6 French - Liste des am\u00e9liorations continues.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255468",
+                "attachment_title": "Document 7 French - Livret du budget pr\u00e9liminaire de 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255469",
+                "attachment_title": "Motion - Councillor W. Lo - UTA boundaries.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FSP-0017 \u2013 City Wide\u00a0",
+            "minutes": "The draft budget was tabled at the Council meeting of November 13, 2024. The Transit Commission\u2019s report on the draft budget will be considered by Council at its meeting of December 11, 2024.\nChair G. Gower provided opening remarks regarding the work done by the Long Range Financial Plan Transit Working Group.\nCyril Rogers, General Manager, Finance and Corporate Services, and Chief Financial Officer, and Ren\u00e9e Amilcar, General Manager, Transit Services, presented an overview of the report and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nPat Scrimgeour, Director, Transit Customer Systems and Planning, and Bart Cormier, Director, Strategic Communications and External Relations, also answered questions from Commission.\nCommittee received the following submissions, and a copy of each is filed with the Office of the City Clerk:\nThe following members of the public spoke before the Committee and provided comments on the item:\nFollowing discussions, the Committee considered the following directions and motions:\nDirection to staff (Councillor M. Carr):\nThat Transit Services staff review alternate ways to deliver Para Transpo coupons to make them more accessible to residents in all areas of the city.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation\nThat the Transit Commission consider the relevant portions of the 2025 Operating and Capital Budgets and make recommendations to Council, sitting as Committee of the Whole, to be held December 11, 2024.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-01",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Transit Commission Budget Book (English full version) is amended at page 47 to replace the narrative text in account 911730 (Operations Support Vehicles \u2013 Growth 2025) with the following correct narrative text:\nThis project will fund the purchase of two growth vehicles for Stage 2 for operational requirements and two additional Supervisor vehicles for the expanded system. The project also includes vehicles for Public Works for maintenance and snow removal at Park and Ride lots on the expanded O-Train Line 2.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-02",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "",
+                "motion_text": "Moved on behalf of the Long Range Financial Plan Transit Working Group:\nWHEREAS the City of Ottawa is committed to fostering affordability, accessibility, and inclusivity for all residents, especially seniors who rely heavily on public transit;\nWHEREAS all seniors in Ottawa in 2024 received a discount of 62% off the price of a regular adult monthly pass, which is significantly above the average discount offered by comparable municipalities across Canada, and is a larger discount than the EquiPass offered to economically disadvantaged residents; and\nWHEREAS all seniors in Ottawa, regardless of their income, currently pay less than low-income residents on the EquiPass and ride for free on Wednesdays and Sundays; and\nWHEREAS the draft 2025 City budget included an increase in fares and the removal of free seniors days on Wednesdays and Sundays; and\nWHEREAS free transit on Wednesdays for seniors was a valued program that encouraged transit usage among this demographic, contributing to community participation, reducing isolation, and supporting seniors with limited incomes;\nWHEREAS maintaining free transit days on Wednesdays and adjusting the senior discount to 42% off the price of an adult monthly pass would align Ottawa more closely with similar cities and reflect the City\u2019s commitment to equitable transit access, with seniors paying $78.50 compared to the regular adult fare of $135.00;\nWHEREAS low-income seniors in Ottawa will continue to be eligible for the EquiPass, which offers a reduced monthly pass at $58.25 and a single-ride fare of $1.75, providing significant savings for those who qualify;\nWHEREAS the 2025 budget reflects significant investments in transit, and affordability for seniors can be accommodated within the City\u2019s broader efforts to address economic challenges while investing in critical services;\nWHEREAS the estimated annual cost of reinstating free transit for seniors on Wednesdays is approximately $290,000, and increasing the senior fare discount to 42% is projected to cost an additional $530,000 annually;\nTHEREFORE BE IT RESOLVED THAT the Transit Commission recommend that City Council:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Curry",
+                      "D. Hill",
+                      "M. Carr",
+                      "W. Lo"
+                    ],
+                    "count": 8
+                  },
+                  "against": {
+                    "councillors": [
+                      "S. Menard"
+                    ],
+                    "count": 1
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (8 to 1)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-03",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the U-Pass agreements between the city and four post-secondary institutions \u2014Algonquin College, Carleton University, St. Paul University and the University of Ottawa\u2014have proven successful for more than a decade, providing students with a means of navigating our city and OC Transpo with a steady and sizable revenue stream; and\nWHEREAS in recent years, revenue from the U-Pass has accounted for 19% to 27% of OC Transpo revenues, annually; and\nWHEREAS encouraging transit use provides financial and environmental benefits to the city; and\nWHEREAS Ottawa\u2019s U-Pass price is among the highest\u2014if not the absolute highest\u2014U-Pass price in Canada; and\nWHEREAS the city has an agreement with each of the four institutions to limit annual price increases to 2.5%; and\nWHEREAS any increase beyond 2.5% would require agreement between the city and each of the schools; and\nWHEREAS maintaining the integrity of the U-Pass program is vital for OC Transpo and the city\u2019s transportation system; and\nWHEREAS school tuition and budgets for the 2025 Winter Term are already set and consultation did not occur on the proposed changes to long-standing U-Pass agreements;\nTHEREFORE, BE IT RESOLVED THAT Transit Commission recommend that Council approve that:\nBE IT FURTHER RESOLVED THAT staff be authorized to include any other post-secondary institutions in these negotiations, should those institutions be interested in joining the U-Pass program.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-04",
+                "motion_moved_by": "R. Brockington",
+                "motion_seconded_by": "",
+                "motion_text": "Moved on behalf of Councillor J. Bradley:\nWHEREAS seniors represent a growing demographic in Ottawa who rely heavily on public transit for essential services, medical appointments, and social participation; and\nWHEREAS the 2025 Draft Budget recommends a proposed increase to the Senior monthly pass of 120% or an additional $59 per month bringing the Senior monthly pass from $49 to $108; and\nWHEREAS the proposed increase to senior transit fares in the 2025 Draft Budget represents a significant financial burden for seniors, many who live on a fixed income; and\nWHEREAS the City has already established a transit fare discount for eligible people on a low income; and\nWHEREAS the EquiPass program, and it\u2019s established rates, has demonstrated success in improving transit accessibility for eligible residents; and\nWHEREAS aligning senior fares with EquiPass rates would provide a more equitable and consistent approach to transit affordability; and\nWHEREAS the EquiPass is currently funded through the Community and Social Services budget; and\nWHEREAS allowing eligible seniors to apply for the EquiPass would transfer the financial pressure from the city\u2019s Transit Budget to the city\u2019s Community and Social Services Budget; and\nWHEREAS seniors have also identified that the current EquiPass application process creates potential accessibility barriers for seniors seeking fare relief and they would like to maintain a simplified process to purchasing fare products;\nTHEREFORE BE IT RESOLVED the Transit Commission recommend that City Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-05",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-06",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS for more than a decade, the city has had an agreement with post-secondary institutions in the city to implement a U-Pass program for college and university students in Ottawa; and\nWHEREAS until this year, children 12 and under could ride OC Transpo for free; and\nWHEREAS this year, OC Transpo will be implementing a new fare class for children 11 or 12 years of age, eliminating free transit for this age group; and\nWHEREAS establishing a u-pass for under 18 students would assist them attending school, extracurricular activities, personal engagements and work; and\nWHEREAS it is to the benefit of the city to establish new generations comfortable with transit ridership and the potential for life long transit users ; and\nWHEREAS some economies of scale exist and duplication of transportation that could bring new affordable benefits to residents of Ottawa and the Province; and\nWHEREAS it is the responsibility of the Ministry of Education and local school boards to provide and pay for transportation for students who require busing to attend school; and\nWHEREAS extending a U-Pass for under 18 students\u2014without receiving appropriate funding from the Ministry of Education and/or local school boards\u2014would create a budget pressure for OC Transpo;\nTHEREFORE BE IT RESOLVED THAT Transit Commission recommend that Council direct staff, in collaboration with city elected officials, to explore and work in collaboration with the Ministry of Education and local school boards on the feasibility of the development of the equivalent to a U-Pass for students under 18 years of age; and\nBE IT FURTHER RESOLVED THAT if such a pass is developed, staff, in collaboration with city elected officials, liaise with the Association of Municipalities of Ontario (AMO), the Ontario Public Transit Association (OPTA) and any interested Ontario municipalities to explore opportunities to expand this endeavour province-wide.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-07",
+                "motion_moved_by": "R. Brockington",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS during the 2018-2022 Transit Commission, the Commission directed the General Manager to increase advertising revenues, particularly via ad space on public transit vehicles and in public transit stations;\nWHEREAS all-types of advertising opportunities remain grossly underutilized in stations, in public transit vehicles, on the exterior of public transit vehicles and in bus shelters;\nWHEREAS direction has previously been given to OC Transpo management to increase the number of free transit days sponsored by corporate, community partner or other interested parties;\nWHEREAS opportunities remain to increase rental and lease opportunities as well;\nTHEREFORE BE IT RESOLVED THAT Transit Services staff be directed to bring a report to the Commission by Q2 2025, illustrating a plan to increase revenues associated with rentals, retail leases, advertising and sponsorships by 10% in 2025 and another 10% in 2026.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-08",
+                "motion_moved_by": "W. Lo",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Transit Commission approved report ACS2020-TSD-TS-0006 on 18 November 2020, later approved by Council on 9 December 2020; and\nWHEREAS the approved report recommended adjusting the boundary between the Urban Transit Area (UTA) and the Rural Transit Area (RTA) to match that of the urban boundary as defined in Schedule B of the Official Plan; and\nWHEREAS By-law No. 2021-057 and By-law No. 2021-058 define the RTA and UTA respectively; and\nWHEREAS the boundary change absorbed and reclassified large areas of the City from the RTA to the UTA; and\nWHEREAS per the 2024 budget, the RTA-A levy is 0.055612 per cent while the UTA levy is 0.205539 per cent, representing a difference of almost 370 per cent; and\nWHEREAS the only populated areas affected by the change were the communities of Hearts Desire, Rideau Glen, Winding Way, two streets near Prince of Wales/Rideau Valley, and adjacent rural properties in wards 3 and 24 (map attached as Document 1, and on file with the City Clerk); and\nTHEREFORE BE IT RESOLVED THAT all properties on the streets listed below that were added to the Urban Transit Area (UTA) in 2021 be reclassified from UTA to Rural Transit Area-A (RTA-A) effective the 2025 property tax cycle:\nBE IT FURTHER RESOLVED THAT the reclassification from UTA to RTA-A be effective until transit availability for those communities matches the standard of the UTA, defined as an 800-metre walking distance to a bus stop during off-peak hours and 400 metres during peak hours; and\nBE IT FURTHER RESOLVED THAT the tax levy reduction be offset by a corresponding reduction from item 911725 \u2013 Transit 5-year Roadmap Comms/Marketing 2025; and\nBE IT FURTHER RESOLVED THAT staff work towards service improvements to other neighbourhoods built as part of the UTA but still do not have transit availability at UTA standards.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-09",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-10",
+                "motion_moved_by": "R. Brockington",
+                "motion_seconded_by": "",
+                "motion_text": "Moved on behalf of Councillor S. Devine:\nWHEREAS the Transit budget contains a $120-million pressure; and\nWHEREAS the City has proposed to use a series of financial \u201clevers\u201d to generate additional revenues to fill that gap, including an increase to the transit levy as well as reductions to fare discounts; and\nWHEREAS the draft transit budget proposes an 8% increase to the transit levy, which will result in an increased levy of $68 to the average assessed home of $415,000; and\nWHEREAS the total in additional revenues generated by reductions to fare discounts to monthly passes for youth aged 13 \u2013 18 youth is $5.6 million; and\nWHEREAS these proposed increased fares would result in an increased cost of $432 per year to youth who purchase 12 monthly passes; and\nWHEREAS these increases to monthly pass fares for youth aged 13 \u2013 18 may be a barrier to this group to using transit, and therefore is not a guaranteed additional revenue, and therefore poses increased risk not only to the 2025 financial outlook, but to Council\u2019s goal of maintaining and increasing ridership; and\nWHEREAS the City\u2019s objective of seeking a more balanced approach between revenues from transit levy and revenues from ridership should seek to increase revenues from ridership by increasing the number of riders, not by increase the fare charged to each rider;\nWHEREAS the additional increase in the transit levy required to generate the same $5.6 million in revenues would be 1.41%, which would result in a further cost of $11.99 per transit levy payer; and\nTHEREFORE, be it resolved that the transit levy be increased from 8% to 9.41%; and\nTHEREFORE BE IT FURTHER RESOLVED that the discount fares for youth remain in place for 2025.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-11",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-16-12",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Transit Commission recommend that Council, sitting as Committee of the Whole, approve the Transit Commission 2025 Draft Operating and Capital Budgets, as follows:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "C. Curry",
+                      "D. Hill",
+                      "M. Carr"
+                    ],
+                    "count": 6
+                  },
+                  "against": {
+                    "councillors": [
+                      "R. Brockington",
+                      "S. Menard",
+                      "W. Lo"
+                    ],
+                    "count": 3
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried as amended (6 to 3)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.2",
+            "title": "Delegation of Authority - Contracts awarded for the period January 1, 2024 to June 30, 2024 for Transit Commission",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255447",
+                "attachment_title": "Report - Transit Contracts under DOA Q1-Q2 2024.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255448",
+                "attachment_title": "Document 1 - Transit Contracts under DOA Q1-Q2 2024.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-PRO-0004 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Transit Commission and Council receive this report for information",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Status Update \u2013 Transit Commission Inquiries and Motions for the period ending November 12, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255449",
+                "attachment_title": "Report - Status Update - Inquiries and Motions.pdf"
+              }
+            ],
+            "description": "File no. ACS2024-OCC-CCS-0101 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Transit Commission receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: February 13, 2025.",
+        "minutes": "The meeting adjourned at 5:11 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

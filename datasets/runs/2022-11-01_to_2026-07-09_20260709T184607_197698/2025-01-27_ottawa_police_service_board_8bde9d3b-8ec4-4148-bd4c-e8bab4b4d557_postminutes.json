@@ -1,0 +1,88 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=8bde9d3b-8ec4-4148-bd4c-e8bab4b4d557&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=8bde9d3b-8ec4-4148-bd4c-e8bab4b4d557&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - January 27, 2025",
+  "meeting_number": 113,
+  "meeting_date": "2025-01-27",
+  "meeting_start_time": "13:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Vice Chair: Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson",
+    "Michael Polowin"
+  ],
+  "absent_attendees": [
+    "Mark Sutcliffe"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 5,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Ceremonial Activities and Announcements",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Election of Chair and Vice Chair",
+            "attachments": [],
+            "description": "",
+            "minutes": "Mr. H. Sayah, Executive Director, explained that in accordance with Section 36 of the Community Safety and Policing Act and the Ottawa Police Service Board Procedure By-law, the Board is required to elect a Chair and Vice Chair at its first meeting each year. Accordingly, he requested nominations for the position of Chair.\nMember Carr moved that Member Fakirani be nominated to the position of Chair of the Ottawa Police Service Board. Member Henschel seconded the nomination.\nThe Executive Director called for any additional nominations. There being none, the following motions were considered:\nMoved by Member Donaldson\nThat nominations for the position of Chair of the Ottawa Police Service Board be closed and that the Ottawa Police Service Board appoint S. Fakirani as Chair of the Board for 2025.\nCarried\nChair Fakirani then called for nominations for the position of Vice Chair.\nMember Curry moved that Member Carr be nominated to the position of Vice Chair, and Member Henschel seconded the nomination. There being no other nominations, the following motion was considered:\nMoved by Member Polowin and Member Donaldson\nThat nominations for the position of Vice Chair of the Ottawa Police Service Board be closed and that the Ottawa Police Service Board appoint M. Carr as Vice Chair of the Board for 2025. \u00a0 \u00a0 \nCarried\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Consideration of Motion to Move In Camera",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board adjourn the public portion of its meeting to move In Camera to discuss the following subject matter in accordance with Section 44(2) of theCommunity Safety and Policing Act, 2019:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 1:05 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

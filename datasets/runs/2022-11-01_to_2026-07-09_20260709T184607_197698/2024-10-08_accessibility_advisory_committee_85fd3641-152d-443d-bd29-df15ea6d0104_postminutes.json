@@ -1,0 +1,94 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=85fd3641-152d-443d-bd29-df15ea6d0104&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=85fd3641-152d-443d-bd29-df15ea6d0104&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Accessibility Advisory Committee - October 08, 2024",
+  "meeting_number": 16,
+  "meeting_date": "2024-10-08",
+  "meeting_start_time": "18:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair Vania Karam",
+    "Vice-Chair Holl Ellingwood",
+    "Ian Bourrie",
+    "Ana Maria Cruz-Valderrama",
+    "Matthew Eliot",
+    "Jodi Fisher",
+    "Adele Furrie",
+    "David Humphries",
+    "Murray MacDonald",
+    "William Van Veen",
+    "Hannah Walhad"
+  ],
+  "absent_attendees": [
+    "Wayne Antle"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255860",
+            "attachment_title": "Public Notices English - Advisory Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255861",
+            "attachment_title": "Public Notices French - Advisory Committee.pdf"
+          }
+        ],
+        "description": "Members of Committee and Council, City staff, media and the general public may join the meeting with this link:\nZoom meeting no. 89517218225\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak, or submit written comments is 4 pm on the day of the meeting.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Accessibility Plan Update",
+            "attachments": [],
+            "description": "",
+            "minutes": "Tyler Cox, Manager of Legislative Services, Office of the City Clerk and Megan Richards, Program Manager of the Accessibility Office provided a presentation and answered questions from the Committee. As well, in attendance were Meghan Acouri Program Manager, Business Support Services, and Amanda Abou-Asaf Project & Policy Coordinator of Transit Services Department.\nA copy of the slide presentation is filed with the Office of the City Clerk.\u00a0\nThere were two delegates from the public:\nThe Advisory Committee discussed and asked questions regarding the following topics:\nAt the conclusion of discussions, the Committee received the update.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation(s):\nThat the Accessibility Advisory Committee receive the presentation and provide feedback as appropriate",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nOctober 15, 2024.",
+        "minutes": "The meeting adjourned at 8:10 am.",
+        "motions": []
+      }
+    ]
+  }
+}

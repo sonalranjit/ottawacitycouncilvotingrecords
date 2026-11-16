@@ -1,0 +1,238 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=11489eef-4e6e-4441-89f8-357c696748d0&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=11489eef-4e6e-4441-89f8-357c696748d0&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Emergency Preparedness and Protective Services Committee - March 30, 2023",
+  "meeting_number": 0,
+  "meeting_date": "2023-03-30",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Riley Brockington",
+    "David Hill",
+    "Jessica Bradley",
+    "Steve Desroches",
+    "Laura Dudas",
+    "Sean Devine",
+    "Allan Hubley",
+    "Laine Johnson",
+    "Clarke Kelly",
+    "Matt Luloff",
+    "St\u00e9phanie Plante"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264588",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264589",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, April 12, 2023 in Emergency Preparedness and Protective Services Committee Report 2.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, March 29, 2023, and the deadline to register to speak by email is 8:30 am on Thursday, March 30, 2023.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Committee. The final draft Minutes will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "EPPSC Minutes 1 \u2013 Monday 13 February 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264595",
+                "attachment_title": "3.1 - EPPSC Minutes 1 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264596",
+                "attachment_title": "3.1 - EPPSC Minutes 1 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Status Update \u2013 Emergency Preparedness and Protective Services Committee Inquiries and Motions for the period ending March 21, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264592",
+                "attachment_title": "4.1 - ACS2023-OCC-CCS-0038 - EPPSC 21 Mar Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264593",
+                "attachment_title": "4.1 - Doc 1 - EPPSC Inquiries Log - 30 Mar 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264594",
+                "attachment_title": "4.1 - Doc 2 - EPPSC Motions and Directions Log - 30 Mar 2023.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0038 - Citywide",
+            "minutes": "Ms Caitlin Salter MacDonald, Manager, Council and Committee Services, Office of the City Clerk, responded to general questions about the nature of the Outstanding Motions and Directions Status Update reports to the various Standing Committees of Council.\u00a0 The Committee then \u2018RECEIVED\u2019 the report for information, as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Emergency Preparedness and Protective Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Emergency and Protective Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "May 2022 Derecho/Severe Weather Event After Action Review",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264590",
+                "attachment_title": "5.1 - ACS2023-EPS-PSS-0001 - May 2022 Derecho (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264591",
+                "attachment_title": "5.1 - ACS2023-EPS-PSS-0001 - May 2022 Derecho (FR).pdf"
+              }
+            ],
+            "description": "File No. ACS2023-EPS-PSS-0001 \u2013 City-wide\u00a0",
+            "minutes": "Mr. Kim Ayotte, General Manager, Emergency and Protective Services Department (EPSD), introduced Ms. Beth Gooding, Director, Public Safety Service, EPSD, who spoke to a detailed slide presentation overview of the report.\u00a0 A copy of this presentation is held on file with the Office of the City Clerk.\u00a0 Also present to respond to questions were Mr.Paul Hutt, Fire Chief, EPSD, Mr. Pierre Poirier, Chief, Ottawa Paramedic Service, EPSD and Ms. Jennifer Therkelsen, Program Manager, Bylaw Enforcement Services, EPSD.\u00a0\nThe Committee then heard from Mr. Michael Wood, who offered suggestions as to how to improve emergency services communications.\u00a0 Following questions to the delegation and to staff, the following Directions to Staff were introduced:\nDirections to staff\nCouncillor L. Johnson\nThat staff be directed to make the comprehensive after-action report for the May 2022 Derecho/Severe Weather Event publicly available.\u00a0\nChair R. Brockington\nOn June 22, 2022, City Council passed a motion (King/Brockington Motion 79/11) directing the Mayor to write to the CEO of Hydro Ottawa outlining five major concerns Council had with the response to the derecho focused on communications, modernization of the grid, understanding the vulnerabilities of the existing infrastructure and planning for contingencies. \u00a0To date, the letter from Mayor Watson has not been formally replied to. \u00a0Would staff undertake the step of contacting Hydro Ottawa, reminding them of this important communication.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Emergency Preparedness and Protective Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Report on the use of Delegated Authority during 2022 by the Emergency and Protective Services Department",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=264597",
+                "attachment_title": "7.1 - ACS2023-EPS-GEN-0001 - IPD - Use of DA by EPSD.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-EPS-GEN-0001 - City-wide",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nThursday, 20 April 2023.",
+        "minutes": "The meeting adjourned at 11:23 am.",
+        "motions": []
+      }
+    ]
+  }
+}

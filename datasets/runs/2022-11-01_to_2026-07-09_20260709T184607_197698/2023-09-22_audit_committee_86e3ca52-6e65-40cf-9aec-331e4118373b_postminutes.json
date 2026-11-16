@@ -1,0 +1,385 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=86e3ca52-6e65-40cf-9aec-331e4118373b&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=86e3ca52-6e65-40cf-9aec-331e4118373b&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Audit Committee - September 22, 2023",
+  "meeting_number": 3,
+  "meeting_date": "2023-09-22",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Cathy Curry",
+    "Vice-Chair: Councillor David Brown",
+    "David Hill",
+    "Theresa Kavanagh",
+    "Marty Carr",
+    "Catherine Kitts",
+    "Allan Hubley",
+    "Wilson Lo"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 9,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252733",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252734",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on 27 September 2023 in Audit Committee Report 3.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Thursday, 21 September 2023, and the deadline to register to speak by email is 8:30 am on Friday, 22 September 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "AC Minutes 2 \u2013 9 June, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252743",
+                "attachment_title": "Audit Draft Minutes 2 (EN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "AC Confidential Minutes 2 - June 9, 2023",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.3",
+            "title": "AC-TTC Minutes 1 \u2013 June 9, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252740",
+                "attachment_title": "3.3 - AC-TTC Draft Minutes 1_2023 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252741",
+                "attachment_title": "3.3 - AC-TTC Draft Minutes 1_2023 FR.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.4",
+            "title": "AC-TTC Confidential Minutes 1 \u2013 June 9, 2023",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Auditor General",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Audit Charter",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252744",
+                "attachment_title": "4.1 ACS2023-OAG-BVG-0007 - Audit Charter.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252745",
+                "attachment_title": "4.1 Document 1 \u2013 OAG Audit Charter \u2013 clean version_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252746",
+                "attachment_title": "4.1 Document 1 \u2013 OAG Audit Charter \u2013 clean version_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252747",
+                "attachment_title": "4.1 Document 2 \u2013 OAG Audit Charter \u2013 with tracked changes_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252748",
+                "attachment_title": "4.1 Document 2 \u2013 OAG Audit Charter \u2013 with tracked changes_FR.pdf"
+              }
+            ],
+            "description": "ACS2023-OAG-BVG-0007 - Citywide",
+            "minutes": "Nathalie Gougeon, Auditor General provided a brief update.\u00a0\nThe Committee CARRIED the report recommendation as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Audit Committee recommend Council approve the Office of the Auditor General\u2019s Audit Charter.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Office of the Auditor General (OAG) \u2013 Audit of the Prevention of Workplace Violence and Harassment",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252735",
+                "attachment_title": "Report - Audit of the Prevention of WVH.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252736",
+                "attachment_title": "4.2 Document 1 \u2013 Audit of the Prevention of Workplace Violence and Harassment \u2013 Report_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252737",
+                "attachment_title": "4.2 Document 1 \u2013 Audit of the Prevention of Workplace Violence and Harassment \u2013 Report_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252738",
+                "attachment_title": "4.2 Document 2 \u2013 Audit of the Prevention of Workplace Violence and Harassment \u2013 Highlights_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252739",
+                "attachment_title": "4.2 Document 2 \u2013 Audit of the Prevention of Workplace Violence and Harassment \u2013 Highlights_FR .pdf"
+              }
+            ],
+            "description": "ACS2023-OAG-BVG-0008 - Citywide",
+            "minutes": "Nathalie Gougeon, Auditor General, Joanne Gorenstein, Deputy Auditor General and Rhea Khanna, Senior Auditor provided a PowerPoint presentation. A copy of the presentation is held on file with the Office of the City Clerk. \u00a0\nWendy Stephanson, Interim City Manager, Caitlin Salter-Macdonald, Deputy City Clerk, Cyril Rogers, Chief Financial Officer and Will McDonald, Chief Procurement Officer were also in attendance to respond to questions.\u00a0\nAfter discussion, the Committee CARRIED the report recommendation as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Audit Committee receive the audit report and recommend that Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Office of the Auditor General (OAG) \u2013 Investigation of Manotick Business Improvement Area Expenses",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252749",
+                "attachment_title": "ACS2023-OAG-BVG-0009 - MBIA Investigation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252750",
+                "attachment_title": "Document 1  Investigation of Manotick BIA Expenses  Report_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252751",
+                "attachment_title": "Document 1  Investigation of Manotick BIA Expenses  Report_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252752",
+                "attachment_title": "Document 2  Investigation of Manotick BIA Expenses Role of the City of Ottawa Report_ EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252753",
+                "attachment_title": "Document 2  Investigation of Manotick BIA Expenses Role of the City of Ottawa Report_ FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252754",
+                "attachment_title": "Document 3  Investigation of Manotick BIA Expenses  Highlights_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252755",
+                "attachment_title": "Document 3  Investigation of Manotick BIA Expenses  Highlights_FR.pdf"
+              }
+            ],
+            "description": "ACS2023-OAG-BVG-0009 - Citywide",
+            "minutes": "Motion No FCSC 2023-03-01 was introduced to add this item to the agenda.\nNathalie Gougeon, Auditor General provided a PowerPoint presentation. A copy of the presentation is held on file with the Office of the City Clerk.\nThe Committee CARRIED the motion and report recommendation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-03-01",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Report along with the Supporting Documentation titled:\u201cOffice of the Auditor General (OAG) \u2013 Investigation of Manotick Business Improvement Area Expenses\u201d was not listed on the Audit Committee agenda;\nTHEREFORE BE IT RESOLVED that the Audit Committee approve the addition of this report for consideration by the Committee at today\u2019s meeting, pursuant to Section 89(3) of the Procedure By-law (being By-law no. 2022-410).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "That, in accordance with Procedure By-Law 2022-410, the Audit Committee resolve In Camera pursuant to Subsection 13(1)(a), the security of the property of the city, and based upon the rationale set out in the legal implications section of the report, the report entitled \u201cOffice of the Auditor General (OAG) \u2013 Preliminary Report on Cybersecurity\u201d will not be reported out.",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Preliminary Report on Cybersecurity",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=252742",
+                "attachment_title": "5.1 ACS2023-OAG-BVG-0010 - Preliminary Report on Cybersecurity.pdf"
+              }
+            ],
+            "description": "ACS2023-OAG-BVG-0010 - Citywide",
+            "minutes": "Committee resolved In Camera at 10:33 am and resumed in open session at 12:02 pm.\nUpon resuming in open session, Chair Curry noted that the Audit Committee just met In Camera in order to discuss the Office of the Auditor General (OAG) \u2013 Preliminary Report on Cybersecurity\u201d.\nThese matters will not be reported out as they relate to Subsection 13(1)(a), the security of the property of the city.\u00a0\nDuring the In Camera session, no votes were taken other than procedural motions and/or directions to staff.\u00a0\nThe Committee CARRIED the report recommendation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Audit Committee receive the Preliminary Report on Cybersecurity and recommend that Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-03-02",
+                "motion_moved_by": "D. Brown",
+                "motion_seconded_by": "",
+                "motion_text": "THEREFORE BE IT RESOLVED THAT, in accordance with Procedure By-law 2022-410, the Audit Committee resolve In Camera pursuant to Subsection 13(1)(a), the security of the property of the city, based upon the rationale set out in the Legal Implications section of the report titled \u201cOffice of the Auditor General (OAG) \u2013 Preliminary Report on Cybersecurity\u201d in order to receive a presentation from the Auditor General.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\n27 November 2023",
+        "minutes": "The meeting adjourned at 12:04 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=9cd71eb8-401e-472a-89c3-b648176d2e21&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=9cd71eb8-401e-472a-89c3-b648176d2e21&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Accessibility Advisory Committee - April 08, 2025",
+  "meeting_number": 0,
+  "meeting_date": "2025-04-08",
+  "meeting_start_time": "18:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair Vania Karam",
+    "Vice-Chair Holl Ellingwood",
+    "Wayne Antle",
+    "Ian Bourrie",
+    "Ana Maria Cruz-Valderrama",
+    "Jodi Fisher",
+    "David Humphries",
+    "Murray MacDonald",
+    "Hannah Walhad"
+  ],
+  "absent_attendees": [
+    "Matthew Eliot",
+    "William Van Veen"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=247229",
+            "attachment_title": "Public Notices English - Advisory Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=247230",
+            "attachment_title": "Public Notices French - Advisory Committee.pdf"
+          }
+        ],
+        "description": "Members of Committee and Council, City staff, media and the general public may join the meeting with this link:\nZoom meeting no. 816 1070 9295\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak, or submit written comments is 4 pm on the day of the meeting.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Provincial and Federal Accessibility Plan Updates",
+            "attachments": [],
+            "description": "",
+            "minutes": "The Accessibility Office delivered an update on Provincial and Federal Accessibility Plans. The presentation was led by Megan Richards, Program Manager in the Accessibility Office, Sarah Beriault, Corporate Accessibility Specialist in the Accessibility Office, and Rob Prud\u2019homme, Corporate Accessibility Specialist in the Accessibility Office. A copy of the slide presentation is filed with the Clerk.\nThere was one delegation for this item:\nKevin Wherry, Manager, Parks and Facilities Planning from the Recreation, Cultural & Facility Services Department; Megan Richards, Program Manager in the Accessibility Office; Sarah Beriault, Corporate Accessibility Specialist in the Accessibility Office; and Rob Prud\u2019homme, Corporate Accessibility Specialist in the Accessibility Office, were available to answer questions from members.\nMembers discussed the following issues:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Accessibility Advisory Committee receive the presentation and provide feedback as appropriate.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "Adoption of Accessibility Advisory Committee Procedure By-law and Mandatory Policies for Advisory Committees",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=247231",
+                "attachment_title": "Report - AAC Procedure By-law FInal.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=247232",
+                "attachment_title": "Document 1 - Revised AAC Procedure By-law Final.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OCC-CCS-0034 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat, as set out in the2022-2026 Mid-term Governance Review report(ACS2025-OCC-GEN-0001), approved by City Council on January 29, 2025, the Accessibility Advisory Committee approve the replacement Accessibility Advisory Committee Procedure By-law (Document 1).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nApril 15, 2025.",
+        "minutes": "The meeting adjourned at 7:08 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=061d570c-9a53-4295-ba97-b9d489f7a7aa&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=061d570c-9a53-4295-ba97-b9d489f7a7aa&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Agriculture and Rural Affairs Committee - February 06, 2025",
+  "meeting_number": 21,
+  "meeting_date": "2025-02-06",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor David Brown",
+    "Vice-Chair Clarke Kelly",
+    "Catherine Kitts",
+    "Matt Luloff"
+  ],
+  "absent_attendees": [
+    "George Darouze"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on February 12, 2025, in Agriculture and Rural Affairs Committee Report 21.\nThe deadline to register by phone to speak or submit written comments or visual presentations is 4 pm on February 5, 2025, and the deadline to register by email to speak is 9:00 am on February 6, 2025.",
+        "minutes": "The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 4.1 and 4.2 on today\u2019s Agenda.\nFor the items just mentioned, only those specifically identified in the Planning Act who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on February 12, 2025, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "ARAC Minutes 20 -\u00a0January 23, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267820",
+                "attachment_title": "ARAC Final Minutes 20 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267821",
+                "attachment_title": "ARAC Final Minutes 20 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Zoning By-law Amendment - 1600 and 1618 Stagecoach Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267819",
+                "attachment_title": "ACS2025-PDB-PSX-0013 - Zoning 1600 Stagecoach Road .pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PSX-0013 - Osgoode (20)",
+            "minutes": "The Applicant/Owner as represented by Ryan Poulton, Novatech, provided an overview of the Application, in opposition of the staff recommendation to refuse. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nCheryl McWilliams, Planner, Planning, Development and Building Services (PDBS), Adam Brown, Manager, Development Review \u2013 Rural, PDBS and Christine Enta, Legal Counsel, Legal Services were present and responded to questions from Committee.\nFollowing discussions, the Committee carried the report recommendations as amended by Motion No. ARAC 2025-21-01.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-21-01",
+                "motion_moved_by": "C. Kelly",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Surplus Farm Severance Rezoning \u2013 1579 9th Line Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267818",
+                "attachment_title": "ACS2025-PDB-PSX-0020 - 1579 9th Line Committee Report - Surplus Farm.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-PSX-0020 - Osgoode (20)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Development Charges Complaint in Respect of 327 Bayview Drive",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267812",
+                "attachment_title": "ACS2025-PDB-BCS-0002 -Development Charge Complaint- 327 Bayview Drive.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267813",
+                "attachment_title": "Document 1 - 327 Bayview Dr Complaint.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-PDB-BCS-0002 - West-Carleton March (5)",
+            "minutes": "Zachary Jenner appeared before committee as the appellant on this Development Charge file.\u00a0\nJohn Buck, Chief Building Inspector, Planning, Development and Building Services (PDBS) and Matthew Brozincevic, Manager, Permit Approvals, PDBS were present and responded to questions from Committee.\nFollowing questions of staff, the Committee carried the recommendations as outlined below, noting the replacement of the word \u201cdismiss\u201d with the word \u201cconsider\u201d.\u00a0 In addition, staff agreed to take the following direction:\nDirection to staff\nCouncillor C. Kelly\nWHEREAS the property owner of 327 Bayview Drive filed a complaint under Section 20 of the Development Charges Act, citing the expiration of a five-year demolition credit entitlement and delays in building permit issuance that resulted in higher development charge fees;\nThat staff report back prior to consideration by Council on a potential reimbursement to the property owner of 327 Bayview Drive.\nCommittee then considered a replacement motion to the report recommendation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Agriculture and Rural Affairs Committee recommend that Councilconsiderthe development charges complaint in respect of 327 Bayview Drive.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Infrastructure and Water Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Osgoode Gardens-Cedar Acres Municipal Drain \u2013 Appointment of Engineer",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267814",
+                "attachment_title": "ACS2025-IWS-WL-0004 - Osgoode Gardens MD appointment of engineer.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-WL-0004 - Osgoode (20)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend Council appoint Mr. Andy Robinson, P. Eng. of Robinson Consultants Inc., as the Engineer of record to prepare a report that addresses the subsequent disconnection to the Osgoode Gardens Cedar Acres Municipal Drain, for Council\u2019s consideration prior to Council approving or disapproving the disconnection, under Subsection 65(4) of the Drainage Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Thomas Baxter Municipal Drain \u2013 Appointment of Engineer",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267815",
+                "attachment_title": "ACS2025-IWS-WL-0001 - Thomas Baxter MD s65 appointment of engineer.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-WL-0001 - Barrhaven (3); Rideau-Jock (21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend Council appoint Mr. Andy Robinson, P. Eng. of Robinson Consultants Inc., as the Engineer of record to prepare a report that addresses the subsequent disconnection of lands within the Thomas Baxter Municipal Drain for Council\u2019s consideration prior to Council making a decision under Subsection 65(4) of theDrainage Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Engineer\u2019s Report amendments to the Thomas Gamble Municipal Drain",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267816",
+                "attachment_title": "ACS2025-IWS-WL-0002 - Thomas Gamble Municipal Drain.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=267817",
+                "attachment_title": "Document 3 (Revised) - Provisional Bylaw.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-IWS-WL-0002 - Riverside South-Findlay Creek (22); Osgoode (20)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Agriculture and Rural Affairs Committee recommend that Council adopt the engineer\u2019s report prepared by Robinson Consultants Inc., entitled Engineer\u2019s report amendments to the Thomas Gamble Municipal Drain, and give first and second readings to the By-law attached as Document 3 in accordance with Sections 42 and 45 of theDrainage Act of Ontario.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Open Mic Session",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nMarch 6, 2025",
+        "minutes": "The meeting adjourned at 10:29 am.",
+        "motions": []
+      }
+    ]
+  }
+}

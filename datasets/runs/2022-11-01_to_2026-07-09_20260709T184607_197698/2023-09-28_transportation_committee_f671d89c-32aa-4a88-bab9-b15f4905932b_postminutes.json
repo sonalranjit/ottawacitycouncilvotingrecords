@@ -1,0 +1,415 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f671d89c-32aa-4a88-bab9-b15f4905932b&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f671d89c-32aa-4a88-bab9-b15f4905932b&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transportation Committee - September 28, 2023",
+  "meeting_number": 8,
+  "meeting_date": "2023-09-28",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Tim Tierney",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Jessica Bradley",
+    "George Darouze",
+    "Steve Desroches",
+    "Sean Devine",
+    "Laura Dudas",
+    "Glen Gower",
+    "Laine Johnson",
+    "Wilson Lo",
+    "Matt Luloff",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256307",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256308",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on October 11, 2023 in Transportation Committee Report 8.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on September 27, 2023, and the deadline to register by email to speak is 8:30 am on September 28, 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "TRC Minutes 7 - Thursday, 24 August 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256323",
+                "attachment_title": "TRC 7 Draft Minutes (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256324",
+                "attachment_title": "TRC 7 Draft Minutes (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "TRC-2023-02 Windrow Snow Removal",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256309",
+                "attachment_title": "Response to Inquiry TRC Inquiry 2023-02 - Windrow Snow Removal.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "TRC-2023-04A Network Modification Program",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256321",
+                "attachment_title": "4.2 Respose to Inquiry TRC 2023-04A -Network Modification Program.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "TRC-2023-05 Queen Elizabeth Driveway Closure \u2013 Traffic Volumes and Impacts",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256312",
+                "attachment_title": "Response to Inquiry TRC 2023-05 QED Closure \u2013 Traffic Volumes and Impacts.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256313",
+                "attachment_title": "Document 1 - Queen Elizabeth Driveway Closure (2022) \u2013 Data Collection Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256314",
+                "attachment_title": "Document 1 - Fermeture de la promenade Reine Elizabeth (2022) \u2013 Rapport de collecte de donn\u00e9es.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256315",
+                "attachment_title": "Document 2 - Active User Count - Cyclists.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256316",
+                "attachment_title": "Document 2 - Nombre d\u2019usagers actifs - Cyclistes.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256317",
+                "attachment_title": "Document 3 - Active User Count - Pedestrians.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256318",
+                "attachment_title": "Document 3 - Nombre d\u2019usagers actifs \u2013 Pi\u00e9tons.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Philippe Landry, Director, Traffic Services, Public Works Department presented an overview of the Inquiry Response and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following public delegations:\nThe following correspondence is held on file with the City Clerk.\nAt the conclusion of questions to the delegations and to staff, and following Committee discussion, the Inquiry Response was received.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023-08-01",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Transportation Committee approve that the following Inquiry Response be lifted for discussion by the committee at today\u2019s meeting, pursuant to subsection 89(4) of the Procedure By-law:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.4",
+            "title": "TRC-2023-06 Queen Elizabeth Driveway \u2013 Legal and Operational Impacts",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256311",
+                "attachment_title": "Response to Inquiry TRC 2023-06 QED - Legal and Operational Impacts.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.5",
+            "title": "TRC-2023-08 Truck Routes",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256319",
+                "attachment_title": "Response to Inquiry TRC 2023-08 Truck Routes.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256320",
+                "attachment_title": "Document 1 - South End Truck Route Study Area.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Status Update - Transportation Committee Inquiries and Motions for the period ending September 19, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256310",
+                "attachment_title": "ACS2023-OCC-CCS-0114- Status Update - Inquiries and Motions.pdf"
+              }
+            ],
+            "description": "File no.: ACS2023-OCC-CCS-0114 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Transportation Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Councillors\u2019 Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Eastbound Permissive-Protected Left Turn on Innes Road - Councillor Luloff",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256322",
+                "attachment_title": "6.1 ACS2023-OCC-CCS-0113 - Eastbound Protected Left Turn on Innes Road -Councillor Luloff.pdf"
+              }
+            ],
+            "description": "File no: ACS2023-OCC-CCS-0113 - Orl\u00e9ans (1)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Transportation Committee recommend that Council approve the installation of a permissive-protected left turn phase (advance left-turn arrow) at the entrance to the Mosque on Innes Road east of Tenth Line Road, and approve that the \u00a02023 Ward 1 Temporary Traffic Calming Budget be used to fund the associated costs.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Barrhaven Centre Park-and-Ride Lot Removal",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "W. Lo",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS for the Barrhaven Civic Complex implementation, the City of Ottawa is receiving $27.87 million from the Government of Canada and Province of Ontario through the Investing in Canada Infrastructure Program, Community, Culture and Recreation Stream (ICIP-CCR), which has a deadline for completion by March 31, 2027;\nWHEREAS City staff are preparing to enter negotiations to acquire property for the Civic Complex, and as part of the bundled land package, property is also being sought for the future Barrhaven LRT corridor in the vicinity of the Civic Complex, a 250-space Park-and-Ride Lot (Barrhaven Centre), and a bus turnaround junction with the future LRT near Chapman Mills Drive;\nWHEREAS the property negotiations for the Park-and-Ride Lot will pose challenges which can compromise the City\u2019s ability to meet the grant funding timelines of 2027 to build the Civic Complex;\nWHEREAS the existing park-and-ride lots at Strandherd, Fallowfield and Nepean Woods have a combined 2,400 spaces which should be adequate to serve Barrhaven residents until the future Southwest Transitway Extension is in service; and\nWHEREAS the Council-approved Southwest Transitway Extension (Cambrian Road to Barnsdale Road), includes a future park-and-ride lot at Kilbirnie Drive, with nearly 400 spaces, to serve residents in Barrhaven South and beyond;\nTHEREFORE BE IT RESOLVED that staff are directed to remove the Barrhaven Centre Park-and-Ride Lot from city plans and cease negotiations for its land requirements; and\nBE IT FURTHER RESOLVED that property negotiations continue for the remaining elements of the bundled land package.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "All Way Protected/Permitted Left-Turn Signals at Intersection of Bank and Mitch Owens",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=256325",
+                "attachment_title": "12.1 ACS2023-OCC-CCS-0084 All Way Protected Left Turn Signal Bank and Mitch Owens.pdf"
+              }
+            ],
+            "description": "File no: ACS2023-OCC-CCS-0084 - Osgoode (20)",
+            "minutes": "Councillor G. Darouze spoke to the safety concerns that necessitated this report.\u00a0 Philippe Landry, Director, Traffic Services, Public Works Department responded to questions from councillors.\nFollowing discussions on this item, the report was carried as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023-09-02",
+                "motion_moved_by": "G. Darouze",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Report titled:\n\u201cAll Way Protected/Permitted Left-Turn Signals at Intersection of Bank and Mitch Owens\u201d was not listed on the Transportation Committee agenda;\nTHEREFORE BE IT RESOLVED THAT the Transportation Committee approve the addition of this report for consideration by the Committee at today\u2019s meeting, pursuant to Section 89(3) of the Procedure By-law (being By-law no. 2022-410) for the safety of the community.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Transportation Committee recommend that Council approve the installation of protected/permitted left turn phasing (advance left-turn arrow) in all directions at the intersection of Bank St and Mitch Owens Rd.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.2",
+            "title": "Transportation Master Plan (TMP) Council Sponsors Group",
+            "attachments": [],
+            "description": "",
+            "minutes": "Vivi Chi, Director, Transportation Planning, Planning, Real Estate and Economic Development, was available to answer questions from Committee.\nFollowing brief discussions, the motion carried as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023-08-03",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "That the Rules of Procedure be suspended to consider the following motion at the September 28, 2023 meeting of Transportation Committee, in order that work may begin as soon as possible to establish the group.\nWHEREAS the previous Transportation Master Plan (TMP) Council Sponsors Group established during the last term of Council was not re-established pending the completion of the Advisory Body Review report (ACS2023-OCC-GEN-0008) which was considered and approved by Council on July 12, 2023; and\nWHEREAS following Council\u2019s approval of the TMP - Part 1 (ACS2023-PRE-TP-0001) at the Council meeting of April 26, 2023, staff are preparing to launch Part 2 of the TMP; and\nWHEREAS staff are seeking to re-establish the TMP Council Sponsors Group for this Term of Council to perform the roles and responsibilities in line with the functions of a Council Sponsor\u2019s group as outlined in the Advisory Body Review report, including: provide ongoing advice to City staff in the development of Part 2 of the TMP; meet at appropriate times to review progress; make recommendations; and act as a sounding board; and\nTHEREFORE BE IT RESOLVED that the Transportation Committee recommend Council re-establish the TMP Council Sponsors Group to be made up of five Members of Council, with representation from the geographic regions of East, South, West, Rural and Central areas of the City of Ottawa as well as the General Manager of Planning, Real Estate, and Economic Development, or a designate as well as other City staff as needed; and\nBE IT FURTHER RESOLVED that the Transportation Committee direct the Office of the City Clerk to issue an Expression of Interest to Members of Council interested in being on the Council Sponsors Group; and\nTHEREFORE BE IT FURTHER RESOLVED that the proposed membership be brought forward for Council approval by motion when this matter rises to Council on October 11, 2023.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nOctober 26, 2023",
+        "minutes": "The meeting adjourned at 11:33 am.",
+        "motions": []
+      }
+    ]
+  }
+}

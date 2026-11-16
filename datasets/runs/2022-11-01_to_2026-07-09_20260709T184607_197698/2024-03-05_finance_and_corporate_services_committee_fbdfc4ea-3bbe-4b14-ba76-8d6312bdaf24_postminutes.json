@@ -1,0 +1,716 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=fbdfc4ea-3bbe-4b14-ba76-8d6312bdaf24&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=fbdfc4ea-3bbe-4b14-ba76-8d6312bdaf24&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Finance and Corporate Services Committee - March 05, 2024",
+  "meeting_number": 12,
+  "meeting_date": "2024-03-05",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Mayor Mark Sutcliffe",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Matt Luloff",
+    "Laura Dudas",
+    "Cathy Curry",
+    "Glen Gower",
+    "Rawlson King",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "George Darouze"
+  ],
+  "absent_attendees": [
+    "Tim Tierney"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 16,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179515",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179516",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on April 3, 2024 in Finance and Corporate Services Committee Report 12.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on March 4, 2024, and the deadline to register to speak by email is 8:30 am on March 5, 2024.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "FCSC Minutes 11 \u2013 February 6, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179550",
+                "attachment_title": "3.1 - FCSC Draft Final Minutes 11 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179551",
+                "attachment_title": "3.1 - FCSC Draft Final Minutes 11 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "2023 Statement of Remuneration, Benefits and Expenses Paid to Members of Council and Council Appointees",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179541",
+                "attachment_title": "Report - 2023 Statement of Remuneration, Benefits and Expenses Paid to Members of Council and Council Appointees-AODAv2.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179542",
+                "attachment_title": "Document 1 - Remuneration, Benefits and Expenses Paid to Members of Council-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179543",
+                "attachment_title": "Document 2 - Statement of Remuneration and Expenses Paid to Council Appointees-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179544",
+                "attachment_title": "REVISED - Document 2 - Statement of Remuneration and Expenses Paid to Council Appointees-AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FSP-0004 \u2013 City-wide",
+            "minutes": "Vice-Chair Kitts introduced a technical amendment motion during the consent portion of the agenda:\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee and Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-12-01",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS on February 23, 2024, the report titled \u201c2023 Statement of Remuneration, Benefits and Expenses Paid to Members of Council and Council Appointees (ACS2024-FCS-FSP-0004)\u201d, listed as Item 4.1 on the Finance and Corporate Services Committee Agenda 12 for the meeting of March 5, 2024, was circulated to Members of Council and staff, and posted on Ottawa.ca; and\nWHEREAS a correction required to \u201cDocument 2 - Statement of Remuneration and Expenses Paid to Council Appointees\u201d was identified after the agenda and meeting documents were published on February 23, 2024; and\nWHEREAS at the top of page two in Document 2, the total honorarium listed for each member of the Elections Compliance Audit Committee was reported as $2,350 for each member, when in fact it was $2,175 for each member; and\nWHEREAS a revised Document 2 with the above noted correction was re-circulated to Members of Council and staff, and re-posted on Ottawa.ca on February 27, 2024;\nTHEREFORE, BE IT RESOLVED THAT, pursuant to Subsection 89(3) of the Procedure By-law, the updated Document 2 be added to the above-noted report for today\u2019s meeting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Legal Services",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Comprehensive Legal Services Report for the Period July 1 to December 31, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179512",
+                "attachment_title": "Report - FCSC-Comprehensive Legal Services Report Q3-Q4 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179513",
+                "attachment_title": "Document 1 - Aggregate Metrics for Q1 to Q4 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179514",
+                "attachment_title": "Document 2 - External Legal Costs for Q1 to Q4 2023.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-GEN-0001 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee recommend that Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "City representation and delegate attendance at municipal conferences and tradeshows in 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179517",
+                "attachment_title": "Report - 2024 Municipal Conferences Participation and Delegate Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-GEN-0004 \u2013 City-wide",
+            "minutes": "Vice-Chair Kitts introduced a motion during the consent portion of the agenda:\u00a0\nFollowing a short discussion, the Committee Carried this item as amended by Motion FCSC 2024-12-02.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee approve the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-12-02",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Federation of Canadian Municipalities (FCM) is hosting its Annual Conference and Trade Show from June 6 to June 9, 2024, in Calgary, Alberta; and\nWHEREAS the City of Ottawa currently has two representatives on the FCM Board \u2013 Councillor Tim Tierney, who serves as 3rd Vice President, and Councillor Laine Johnson as Ottawa\u2019s representative; and\nWHEREAS in accordance with its terms of reference, the Finance and Corporate Services Committee annually approves the attendance of a limited number of Councillors to join the Mayor and Council representatives in the City\u2019s delegation to the FCM conference, whose travel can be funded from the Council Administration Budget; and\nWHEREAS the Office of the City Clerk has recommended the Finance and Corporate Services Committee approve the attendance of four Members of Council in addition to the Mayor, the two Council representatives;\nWHREREAS following a circulation for expressions of interest from the Office of the City Clerk, 11 Members of Council expressed an interest in attending the conference; and\nWHEREAS it is beneficial to give Members representing different areas of the City the opportunity to participate in municipal conferences over the course of the Term of Council;\nTHEREFORE BE IT RESOLVED that the Finance and Corporate Services Committee approve the attendance of the following Members at the FCM conference, in addition to the Mayor and two Council representatives:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.2",
+            "title": "French Language Services Advisory Committee 2024-2026 Work Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179518",
+                "attachment_title": "Report - FLSAC 2024-2026 Work Plan (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179519",
+                "attachment_title": "Report - FLSAC 2024-2026 Work Plan (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179520",
+                "attachment_title": "Document 1 - FLSAC 2024-2026 Work Plan (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179521",
+                "attachment_title": "Document 1 - FLSAC 2024-2026 Work Plan (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179522",
+                "attachment_title": "Document 2 - FLSAC Extract of Draft Minutes (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179523",
+                "attachment_title": "Document 2 - FLSAC Extract of Draft Minutes (FR).pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-CCS-0020 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee recommend that City Council approve the French Language Services Advisory Committee\u2019s 2024-2026 work plan, as set out in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "6.3",
+            "title": "Status Update \u2013 Finance and Corporate Services Committee Inquiries and Motions for the period ending 23 February, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179524",
+                "attachment_title": "Report - Status Update - Motions and Inquiries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179525",
+                "attachment_title": "Document 1 - Motions and Directions Log - 2022-2026 Term of Council.pdf"
+              }
+            ],
+            "description": "File No.: ACS2024-OCC-CCS-0022 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Economic Development Strategy and Action Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179526",
+                "attachment_title": "Report - Economic Development Strategy and Action Plan (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179527",
+                "attachment_title": "Report - Economic Development Strategy and Action Plan (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179528",
+                "attachment_title": "Document 1 - Strategic Priorities and Actions (EN) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179529",
+                "attachment_title": "Document 1 - Strategic Priorities and Actions (FR) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179530",
+                "attachment_title": "Document 2 - Vision Statement and Guiding Principles (EN) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179531",
+                "attachment_title": "Document 2 - Vision Statement and Guiding Principles (FR) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179532",
+                "attachment_title": "Document 3 - Ottawa"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179533",
+                "attachment_title": "Document 3 - Ottawa"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179534",
+                "attachment_title": "Document 4 - Economic Development Partners (EN) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179535",
+                "attachment_title": "Document 4 - Economic Development Partners (FR) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179536",
+                "attachment_title": "Document 5 - Economic Development Programs and Initiatives (EN) AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179537",
+                "attachment_title": "Document 5 - Economic Development Programs and Initiatives (FR) AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PRE-EDP-0027 \u2013 City-wide",
+            "minutes": "Mr. David Wise, Director, Economic Development & Long Range Planning, Planning, Real Estate and Economic Development Department (PRED), Ms. Sheilagh Doherty, Program Manager, High Economic Impact Projects, PRED and Ms. Cindy VanBuskirk, Program Manager, High Economic Impact Programs, PRED spoke to a PowerPoint presentation, a copy of which is held on file with the City Clerk.\u00a0\nMr. Wise, Ms. Doherty, Ms. VanBuskirk and Wendy Stephanson, City Manager responded to questions.\u00a0\nFollowing discussion on this item, the Committee Carried the report recommendations as amended by Motions FCSC 2024-12-03 and FCSC 2024-12-04.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-12-03",
+                "motion_moved_by": "G. Darouze",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Ottawa\u2019s rural area encompasses a large geographical area within the City of Ottawa, and is home to many businesses including small businesses and agricultural operations; and\nWHEREAS the seven strategic priorities do not directly mention the rural area within the City of Ottawa, and it would be beneficial to ensure that they are represented within these priorities;\nTHEREFORE BE IT RESOLVED THAT strategic action #7 be amended to read: Key Sectors: Support new and existing small businesses and entrepreneurs and grow Ottawa\u2019s key economic sectors with focuses on the knowledge-based sector, the tourism and creative industries sector, and the rural and agricultural sector.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-12-04",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "THEREFORE BE IT RESOLVED THAT \u00a0staff be directed to consult with the Kanata North Business Association (KNBA), and any other relevant stakeholders on the implementation of the Economic Development Strategy; and,\nBE IT FURTHER RESOLVED that staff be directed to undertake similar consultations in support of the implementation of a specific and tangible Action Plan as it relates to the two Special Economic Districts\u2014the Kanata North Economic District and the Ottawa International Airport Economic District.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Designate leased spaces as Municipal Capital Facilities",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179556",
+                "attachment_title": "7.2 - ACS2024-PRE-CRO-0002 - Designate leased spaces as Municipal Capital Facilities-DA .pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PRE-CRO-0002 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.3",
+            "title": "Approval to Expropriate Lands \u2013 Earl Grey Drive Extension Project",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179538",
+                "attachment_title": "Report - Approval to Expropriate Lands  Earl Grey Drive Extension Project .pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PRE-CRO-0011 \u2013 Kanata North (Ward 4)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that City Council enact a by-law, in the form attached in Document 1 hereto authorizing the City to proceed with the expropriation of the property interests described in Schedule A to the draft by-law (the \u201cPropety Interests\u201d) including:\nAll in accordance with theExpropriations Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.4",
+            "title": "Approval to Expropriate Lands \u2013 Bank Street Rehabilitation Project",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179552",
+                "attachment_title": "7.4 - ACS2024-PRE-CRO-0010 - Approval to Expropriate Lands Bank Street Rehabilitation Project.pdf"
+              }
+            ],
+            "description": "File No.: ACS2024-PRE-CRO-0010 - Ward: River (16), Capital (17) Alta Vista (18)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendations\nThat the Finance and Corporate Services Committee recommend that City Council enact the By-law attached as Document 1 hereto authorizing the City to proceed with the expropriation of the lands described in Schedule A to the By-law (the \u201cLands\u201d) including:\nAll in accordance with theExpropriations Act.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.5",
+            "title": "Delegation of Authority \u2013 Acquisition and Sale of Land and Property \u2013 1 July 2023 to 31 December 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179539",
+                "attachment_title": "Report - Delegation of Authority - 1 July to 31 December 2023.pdf"
+              }
+            ],
+            "description": "File No.: ACS2024-PRE-CRO-0015 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Recreation, Cultural and Facility Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Corporate Sponsorship and Advertising Policies",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179545",
+                "attachment_title": "Report - Sponsorship and Advertising Policies_Report to Council (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179546",
+                "attachment_title": "Report - Sponsorship and Advertising Policies_Report to Council (FR) .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179547",
+                "attachment_title": "Document 1 - Sponsorship Policy_ EN_FINAL-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179548",
+                "attachment_title": "Document 2 - Advertising Policy_EN_FINAL-AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-RCF-GEN-0001 \u2013 City-wide",
+            "minutes": "Mr. Dan Chenier, General Manager, Recreation, Cultural and Facility Services spoke to a PowerPoint presentation, a copy of which is held on file with the City Clerk.\u00a0\nPrior to the delegations, Councillor S. Menard introduced a motion (FCSC 2024-12-05).\u00a0\nCommittee heard from the following public delegations:\u2022 \u00a0 \u00a0Angela Keller-Herzog, Executive Director, CAFES*\u2022 \u00a0 \u00a0William van Geest, Ecology Ottawa*\u2022 \u00a0 \u00a0Sam Hersh\u2022 \u00a0 \u00a0Julia Levin\u2022 \u00a0 \u00a0Elizabeth Houlding\u2022 \u00a0 \u00a0Letitia Charbonneau\u2022 \u00a0 \u00a0Mark Brooks\u2022 \u00a0 \u00a0Thomas Deadman\u2022 \u00a0 \u00a0Shellyza Sajwani, co-chair, Canadian Association of Pharmacy for the Environment (CAPhE)\u2022 \u00a0 \u00a0Eugenie Waters\u2022 \u00a0 \u00a0Dr. Husein Moloo\u2022 \u00a0 \u00a0Una Ferguson\u2022 \u00a0 \u00a0Dr. Sarah Charron\u2022 \u00a0 \u00a0Shana Quesnel\u2022 \u00a0 \u00a0Emma Bider\u2022 \u00a0 \u00a0Robert Lyman\u2022 \u00a0 \u00a0Cecile Wilson\u2022 \u00a0 \u00a0Gemma Patey\u00a0\n[ * Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions are held on file with the City Clerk. ]\nThe following correspondence is held on file with the City Clerk.\u2022 \u00a0 \u00a0Email dated 4 March 2024, Onita Basu\u2022 \u00a0 \u00a0Email dated 4 March 2024, Alex Legault\nFollowing delegations on this item, the Committee Carried the report recommendations as amended by Motion FCSC 2024-12-05.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that City Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-12-05",
+                "motion_moved_by": "S. Menard",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the City\u2019s updated Sponsorship Policy and Advertising Using City Assets and Programs Policy maintains the practice of accepting advocacy advertising with the condition that the ads clearly indicate that they are paid ads and who paid for them; and\nWHEREAS the updated policy specifies that advertising must not impact the quality and integrity of the City\u2019s properties, programs, buildings, streetscapes, or digital spaces, and for advocacy advertisements must indicate the source organization paying for the advertising to ensure transparency and avoid perception of City endorsement; and\nWHEREAS the City has accepted paid sponsorships for rink board advertising in select arenas that advances pro-oil and gas fossil fuel industry advertisements; and\nWHEREAS the current contracts for fossil fuel advertising on rink boards runs until November 2024, and the OC Transpo contract runs until June 8, 2024; and\nWHEREAS the advertising programs for OC Transpo\u2019s assets are formally exempt from the provisions set out in the City\u2019s Advertising Policy but are routinely reviewed by staff to align with the Recreation, Culture and Facility Services policy and best practices; and\nWHEREAS the city has excluded certain types of advertising in the past from its policy including tobacco and guns on the basis that they adversely \u201cimpact the quality and integrity of the City\u2019s properties, programs, buildings, streetscapes, or digital spaces.\u201d\nTHEREFORE BE IT RESOLVED that staff review a change to the updated Advertising Using City Assets and Programs Policy that would examine options around fuel advocacy advertising, considering the alignment of city policies, outcomes related to lowering GHG emissions, reputational risks, and legal implications; and\nBE IT FURTHER RESOLVED that staff present options for advancing the matter and report back to the Finance and Corporate Services Committee for consideration by Q3 of 2024; and\nTHEREFORE BE IT FURTHER RESOLVED that any future changes to fossil fuel advertising under the City\u2019s updated policy be considered by Transit Services staff, and that any resulting amendments proposed to OC Transpo policies be brought to the Transit Commission for timely consideration.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Councillors\u2019 Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Kanata North Nuisance Mosquito Control Program (Councillor Curry)",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179553",
+                "attachment_title": "Report - KN Mosquito report-revised.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179554",
+                "attachment_title": "Document 1 - Catchment Area Map.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179555",
+                "attachment_title": "Document 2 - costs.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-GEN-0002 \u2013 Kanata North (Ward 4)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Update - Acquisition Lease - Transitional Housing for Families",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179540",
+                "attachment_title": "IPD - Acquisition Lease - Transitional Housing for Families.pdf"
+              }
+            ],
+            "description": "File No.: ACS2024-PRE-CRO-0012",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Motion \u2013 Havenlea Gateway Feature",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=179549",
+                "attachment_title": "12.1 - ACS2024-OCC-GEN-0005 - Motion -  Havenlea Gateway Feature.pdf"
+              }
+            ],
+            "description": "ACS2024-OCC-GEN-0005 - Barrhaven East (Ward 24)",
+            "minutes": "Ms. Melissa C\u00f4t\u00e9, Taggart Investments & Tartan Homes was present in support, and available to answer questions. She advised that she did not need to address the Committee if the item carried.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS a gateway feature was constructed at the southwest corner Crestway Drive and Prince of Wales Drive as part of a subdivision agreement registered on 17 January 2002 as OC35390 (and amended by an agreement registered on 24 January 2003 as OC163052 and by an agreement registered on 22 March 2004 as OC311288); and\nWHEREAS the gateway feature and the associated parcel of land were not conveyed to the City as part of the subdivision process; and\nWHEREAS the City completed its report on the Design Guidelines for New Development Application Gateway Features in 2008; and\nWHEREAS through the Design Guidelines for New Development Application Gateway Features, the City has since developed a maintenance fund to cover all costs associated with the maintenance and upkeep of gateway features for 20 years, with the base amount being $25,500 in 2014 value; and\nWHEREAS as a result of retaining ownership of the land parcel, the applicant has accrued an outstanding tax balance of approximately $27,000, which would not have been incurred if the gateway feature and parcel was transferred to the City upon completion of construction; and\nWHEREAS the applicant has agreed to pay the outstanding tax balance and an additional $10,000 contribution to the gateway feature maintenance fund, for a total of approximately $37,000; and\nWHEREAS the applicant has agreed to address all deficiencies outlined by asset management prior to the transfer of the gateway feature and land; and\nWHEREAS the $10,000 is sufficient for the removal of the feature at the end its service life, which is in approximately 30 years; andWHEREAS the applicant has agreed to pay the Land Transfer Tax (LTT) and Harmonized Sales Tax (HST) associated with the land transfer.\nTHEREFORE BE IT RESOLVED THAT, as a modification of the subdivision approval, Council direct staff to assume the gateway feature and its associated parcel, being Parts 1 to 3 on Plan 4R-20761, for a nominal value of $1 from 1213225 Ontario Ltd. and Tamarack Developments Corporation, subject to the complete payment of all taxes owing, the contribution of $10,000 to the gateway feature maintenance fund, and addressing all deficiencies outlined by asset management. A new account shall be set up to deposit the $10,000 maintenance contribution.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nApril 2, 2024",
+        "minutes": "The meeting adjourned at 1:02 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

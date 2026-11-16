@@ -1,0 +1,150 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5fe0b702-b08b-4058-b9c0-76f874dc8e09&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5fe0b702-b08b-4058-b9c0-76f874dc8e09&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "French Language Services Advisory Committee - February 13, 2025",
+  "meeting_number": 6,
+  "meeting_date": "2025-02-13",
+  "meeting_start_time": "18:30",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Marc Beaudry",
+    "Diane Desaulniers",
+    "Dani\u00e8le Filion",
+    "Neiges S\u00e9n\u00e9chal"
+  ],
+  "absent_attendees": [
+    "Fatouma Ali-Ismail",
+    "Mireille Brownhill",
+    "Katherine Dupuis",
+    "Marc Maisonneuve",
+    "Lina Nada Maach"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 9,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254569",
+            "attachment_title": "Public Notices English - Advisory Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254570",
+            "attachment_title": "Public Notices French - Advisory Committee.pdf"
+          }
+        ],
+        "description": "Members of Committee and Council, City staff, media and the general public may join the meeting with this link:\nZoom no. 822 6777 2670\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak by phone or email, or submit written comments or visual presentations is 4 pm on the day of the meeting.",
+        "minutes": "NOTE: The meeting of the French Language Services Advisory Committee did not have quorum, therefore Members present agreed to defer items on this agenda to the next meeting. However, members received \"housekeeping\" updates from staff and the Committee Chair not related to agenda items. No new proposals were made.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "FLSAC Minutes 5 \u2013 Thursday, November 14, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254567",
+                "attachment_title": "Proc\u00e8s-verbal provisoire 5 du CCSF (FR).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254568",
+                "attachment_title": "Proc\u00e8s-verbal provisoire 5 du CCSF (AN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "These minutes will be submitted to the 8 May 2025 meeting of the Committee.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "French Language Services Advisory Committee Mid-Term Report 2023-2026",
+            "attachments": [],
+            "description": "",
+            "minutes": "This report will be submitted to the 8 May 2025 meeting of the Committee for approval.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation\nThat the French Language Services Advisory Committee approve its mid-term report and recommend that the Finance and Corporate Services Committee receive the report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nThursday, May 8, 2025.",
+        "minutes": "The meeting adjourned at 6:59 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=628aae94-b5d4-4299-9011-d1bf11fa89ae&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=628aae94-b5d4-4299-9011-d1bf11fa89ae&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Audit Committee - November 04, 2025",
+  "meeting_number": 14,
+  "meeting_date": "2025-11-04",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Cathy Curry",
+    "Vice-chair: Councillor Allan Hubley",
+    "David Brown",
+    "Marty Carr",
+    "David Hill",
+    "Theresa Kavanagh",
+    "Catherine Kitts"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=308952",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=308953",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on November 7, 2025 in Audit Committee Report 14.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on November 3, 2025, and the deadline to register to speak by email is 8:30 am on November 4, 2025.",
+        "minutes": "This meeting was called as a special meeting pursuant to Section 87 of the Procedure By-law (No. 2025-100).",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "There were no Declarations of Interest.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Auditor General",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Follow-up: Audit of Lansdowne Sprint 1",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=308954",
+                "attachment_title": "Report - OAG Follow-up Audit Lansdowne 2.0 Sprint 1.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=308955",
+                "attachment_title": "Document 1 English - OAG Follow-up Audit Lansdowne 2.0 Sprint 1 EN-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=308956",
+                "attachment_title": "Document 1 French - OAG Follow-up Audit Lansdowne 2.0 Sprint 1 FR-AODA.pdf"
+              }
+            ],
+            "description": "File No.:\u00a0ACS2025-OAG-BVG-0014 \u2013 City-wide",
+            "minutes": "At the outset of discussion on this item, the Committee carried Motion No. AC 2025-14-01, below.\nNathalie Gougeon, Auditor General, Joanne Gorenstein, Deputy Auditor General, and Atul Arora, Audit Principal, presented an overview of the report and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nSathish Kumar, Director, Construction Advisory and Disputes (BDO Canada LLP), and Melissa Fournier, Partner, Risk Advisory Services (BDO Canada LLP), also answered questions from Committee.\nThe following responded to questions to City staff from Committee:\nCommittee received an email from Denis Caro dated October 24, and a copy is filed with the Office of the City Clerk.\nThe following members of the public spoke before the Committee and provided comments on the item:\nFollowing discussions, the Committee considered the report recommendation(s) as follows:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2025-14-01",
+                "motion_moved_by": "A. Hubley",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Audit Committee approve the addition of the report entitled \u201cOffice of the Auditor General (OAG) \u2013 Follow-up: Audit of Lansdowne Sprint 1\u201d (ACS2025-OAG-BVG-014), distributed and published on November 3, 2025, pursuant to subsection 89(3) of the Procedure By-law (being by-law no. 2025-100) to allow for consideration of this matter.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee receive the Follow-Up report and recommend that Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: Friday, November 28, 2025",
+        "minutes": "The meeting adjourned at 1:30 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

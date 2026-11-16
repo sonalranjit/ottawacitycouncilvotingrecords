@@ -1,0 +1,175 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c963256a-43f4-4015-be91-cbd3b2f50bfb&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c963256a-43f4-4015-be91-cbd3b2f50bfb&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Accessibility Advisory Committee - September 17, 2024",
+  "meeting_number": 15,
+  "meeting_date": "2024-09-17",
+  "meeting_start_time": "18:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair Vania Karam",
+    "Ana Maria Cruz-Valderrama",
+    "Matthew Eliot",
+    "Adele Furrie"
+  ],
+  "absent_attendees": [
+    "Vice-Chair Holl Ellingwood",
+    "Wayne Antle",
+    "Ian Bourrie",
+    "Jodi Fisher",
+    "David Humphries",
+    "Murray MacDonald",
+    "William Van Veen",
+    "Hannah Walhad"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 9,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255849",
+            "attachment_title": "Public Notices English - Advisory Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255850",
+            "attachment_title": "Public Notices French - Advisory Committee.pdf"
+          }
+        ],
+        "description": "Members of Committee and Council, City staff, media and the general public may join the meeting with this link:\nZoom meeting no. 828 4601 2516\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak, or submit written comments is 4 pm on the day of the meeting.",
+        "minutes": "Note: The meeting of the Accessibility Advisory Committee did not have quorum, therefore Members present agreed to adjourn the meeting pursuant to Section 8(5) of the Advisory Committee Procedure By-law.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "AAC Minutes 14 \u2013 Tuesday, June 18, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255851",
+                "attachment_title": "AAC 14 Draft Minutes (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255852",
+                "attachment_title": "AAC 14 Draft Minutes (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Lansdowne 2.0 Phase 1 Event Centre",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation(s)\nThat the Accessibility Advisory Committee receive the presentation and provide feedback as appropriate.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "City of Ottawa Municipal Accessibility Plan Consultations",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation(s)\nThat the Accessibility Advisory Committee receive the presentation and provide feedback as appropriate.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nOctober 15, 2024.",
+        "minutes": "The meeting adjourned at 6:19 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=6dcdd841-4927-45ed-8b39-f4b13385326a&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=6dcdd841-4927-45ed-8b39-f4b13385326a&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transit Commission - April 13, 2023",
+  "meeting_number": 4,
+  "meeting_date": "2023-04-13",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Glen Gower",
+    "Vice-Chair Cathy Curry",
+    "Riley Brockington",
+    "Marty Carr",
+    "Jeff Leiper",
+    "Wilson Lo",
+    "Shawn Menard",
+    "Tim Tierney"
+  ],
+  "absent_attendees": [
+    "David Hill"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 14,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161725",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161726",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on April 26, 2023 in Transit Commission Report 4.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on April 12, 2023, and the deadline to register to speak by email is 8:30 am on April 13, 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "TTC Minutes 3 \u2013 March 3, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161727",
+                "attachment_title": "TTC Minutes 3 - March 3, 2023 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161728",
+                "attachment_title": "TTC Minutes 3 - March 3, 2023 FR.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "TC-2023-01 - Communicating Live Information to Riders",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161729",
+                "attachment_title": "Response to TC 2023-01 - Communicating Live Information to Riders.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "TC-2023-02 - LRT technical operations inquiry",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161730",
+                "attachment_title": "Response to TC 2023-02 - LRT Technical Operations.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "With the will of Commission, Ren\u00e9e Amilcar, General Manager, Transit Services Department (TSD) and Matt Pieters, Manager, Rail Systems (TSD), answered questions from Committee.\nFollowing discussions, Motion No. TTC 2023-04-01 was withdrawn.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023-04-01",
+                "motion_moved_by": "W. Lo",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT Transit Commission recommend that Council direct that OC Transpo prepare an official written response to Inquiry TC-2023-02 \u2013 LRT Technical Operations, pursuant to Section 33(3) of the Rules of Procedure.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Withdrawn",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "OC Transpo Update \u2013 Rail, Bus, and Para Transpo",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161741",
+                "attachment_title": "French slides - OC Transpo Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161742",
+                "attachment_title": "English slides - OC Transpo update.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The following Transit Services Department (TSD) staff provided an oral update and answered questions from the Commission. A copy of their slide presentation is filed with the Office of the City Clerk:\nNicholas Truchon, Chief Executive Officer (Rideau Transit Group), Mario Guerra, Mario Guerra, Chief Executive Officer (Rideau Transit Maintenance), and David Rheault, Senior Tunnel Engineer (Dr. Sauer & Partners) also presented on this item and responded to questions from Commission.\nWendy Stephanson, City Manager, and M. Rick O\u2019Connor, City Clerk, responded to questions from Commission.\nThe following TSD staff also responded to questions:\nJohn Redins spoke before the Commission and provided comments on the presentation.\nThe Chair undertook to review with the Office of the City Clerk the possibility of publishing slides related to the \u201cOC Transpo Update\u201d item prior to future Commission meetings.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Transit Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Responding to O-Train Line 1 disruptions",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161731",
+                "attachment_title": "Responding to O-Train Line 1 Service Disruptions EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161732",
+                "attachment_title": "Responding to O-Train Line 1 Service Disruptions FR.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-TSD-TS-0002 - City Wide",
+            "minutes": "Troy Charter, Director, Transit Service Delivery and Rail Operations, presented an overview of the report recommendations and answered questions from the Commission. A copy of the slide presentation is filed with the Office of the City Clerk.\nRen\u00e9e Amilcar, General Manager, Transit Services Department (TSD), also answered questions from Commission.\nTSD staff undertook to provide information on whether it is possible to enable controllers to make announcements on trains.\nCommissioners received a letter from Mr. Jan Lam dated April 13, enclosing a letter dated September 20, 2021. A copy of each is filed with the Office of the City Clerk.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Transit Commission receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "City Manager\u2019s Office",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Light Rail Regulatory Monitor and Compliance Officer Annual Report for 2022",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161733",
+                "attachment_title": "Report - LR RMCO Report 2022 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161734",
+                "attachment_title": "Report - LR RMCO Report 2022 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161735",
+                "attachment_title": "Document 1 - LR RMCO Report 2022 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161736",
+                "attachment_title": "Document 1 - LR RMCO Report 2022 FR.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-OCC-GEN-0001 - City Wide",
+            "minutes": "M. Rick O\u2019Connor, City Clerk, introduced Sam Berrada, Light Rail Regulatory Monitor and Compliance Officer and provided an overview of his role.\nMr. Berrada presented an overview of the report recommendations and answered questions from the Commission. A copy of the slide presentation is filed with the Office of the City Clerk.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Transit Commission recommend Council receive the Light Rail Regulatory Monitor and Compliance Officer Annual Report, attached as Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Light Rail Regulatory Monitor Compliance Officer Contract",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161737",
+                "attachment_title": "English Report - RMCO Contract Renewal.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161738",
+                "attachment_title": "French Report - RMCO Contract Renewal.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-CMR-OCM-0004 - City Wide",
+            "minutes": "David White, City Solicitor, was in attendance and answered questions from Commission on the report. Following brief discussions, the Commission voted on the report recommendations.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "S. Menard",
+                      "C. Curry",
+                      "M. Carr",
+                      "W. Lo"
+                    ],
+                    "count": 7
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (7 to 0)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Status Update \u2013 Transit Commission Inquiries and Motions for the period ending March 30",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161739",
+                "attachment_title": "Report - Status Update - Inquiries and Motions.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-OCC-CCS-0045 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Transit Commission receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Motion \u2013 Subscription Model for Hybrid Workers",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=161740",
+                "attachment_title": "Motion - Pass for Hybrid Workers.pdf"
+              }
+            ],
+            "description": "File Number: ACS2023-OCC-CCS-0046 - City Wide",
+            "minutes": "Councillor M. Carr introduced the motion on behalf of Councillor D. Hill.\nRen\u00e9e Amilcar, General Manager, Transit Services Department, answered questions from Commission. After brief discussions, Commission considered the motion.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nBE IT RESOLVED THAT the Transit Commission direct staff to develop, and report back to Transit Commission and Council on, a new monthly renewable fare model targeted to hybrid workers.\nBE IT FURTHER RESOLVED THAT the new subscription model be designed to provide hybrid workers with similar incentives as they received when using the Monthly Pass to commute to work five days a week.\nBE IT FURTHER RESOLVED THAT an appropriate marketing plan that addresses the cost of private vehicle parking, the significant increase in highway traffic year-over-year, and the benefits of the new hybrid pass by developed for launch in concert with the new subscription model.\nBE IT FURTHER RESOLVED THAT staff provide to the Transit Commission a report by Q3 2023 outlining their progress on the development of the new subscription model or models with a goal of implementation no later than Q4 2023.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "TC-2023-03 \u2013 Urban-rural Para Transpo Service",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor W. Lo:\nPara Transpo is a lifeline for vulnerable residents, many of whom receive financial assistance from the government, connecting those unable to drive or use conventional transit with care services, employment, and family and friends.\nCurrently, Para Transpo charges a flat rate of 10$ for one-way trips, 20$ for round trips crossing the urban-rural transit boundary. Trips wholly within the urban transit area (UTA) are 3.75$ per ride, monthly pass notwithstanding.\nGiven the sheer potential distance of some trips, required deadheading, and taxation differences between the UTA and rural area, it is understandable trips crossing the urban-rural boundary would be charged a higher fare.\nContinuous suburban growth since amalgamation has brought some rural communities closer geographically and socially. That newfound geographic and social proximity means more residents are seeking services, employment, and social appointments in each other\u2019s communities, including Para Transpo customers.\nHowever, it has created some inequities for shorter trips crossing the urban-rural boundary. For example, to get to a family doctor in Barrhaven, a Para Transpo customer in Manotick, about seven kilometres away, would pay 20$ for the round trip, while a customer from Greenboro, about 17 kilometres away, or\u2014for a more extreme example\u2014from Orleans, about 37 kilometres away, would pay 7.50$ for their round trip.\nThis inquiry is the reincarnation of a motion I withdrew at a previous meeting, because it was admittedly too targeted to the Barrhaven-Manotick boundary. I expanded its scope to include the whole city in response to feedback from colleagues following a brief discussion.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: May 11, 2023",
+        "minutes": "The meeting adjourned at 1:42 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

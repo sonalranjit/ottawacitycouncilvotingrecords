@@ -1,0 +1,1352 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=534308ac-8f54-4e99-a7ed-5e14200e10e5&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=534308ac-8f54-4e99-a7ed-5e14200e10e5&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "City Council - October 02, 2024",
+  "meeting_number": 43,
+  "meeting_date": "2024-10-02",
+  "meeting_start_time": "10:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Mark Sutcliffe",
+    "Matt Luloff",
+    "Laura Dudas",
+    "David Hill",
+    "Clarke Kelly",
+    "Glen Gower",
+    "Theresa Kavanagh",
+    "Laine Johnson",
+    "Sean Devine",
+    "Jessica Bradley",
+    "Tim Tierney",
+    "St\u00e9phanie Plante",
+    "Rawlson King",
+    "Ariel Troster",
+    "Jeff Leiper",
+    "Shawn Menard",
+    "Marty Carr",
+    "Catherine Kitts",
+    "George Darouze",
+    "David Brown",
+    "Steve Desroches",
+    "Allan Hubley",
+    "Wilson Lo"
+  ],
+  "absent_attendees": [
+    "Cathy Curry",
+    "Riley Brockington"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 29,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Call to order and moment of reflection",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Council of the City of Ottawa met at Andrew S. Haydon Hall, 110 Laurier Avenue West, Ottawa, on Wednesday, 2 October 2024 beginning at 10:00 a.m. The Mayor, Mark Sutcliffe, presided over the meeting from Council Chambers with some Members attending in person and the remaining Members participating remotely by Zoom.\nMayor Sutcliffe led Council in a moment of reflection.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Public notices and meeting information",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230121",
+            "attachment_title": "Public Notices English - Council.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230122",
+            "attachment_title": "Public Notices French - Council.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "National Anthem",
+        "attachments": [],
+        "description": "The National Anthem was from a recording that was performed by the Canterbury Highschool Choir.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "Announcement \u2013 City of Ottawa 2024 United Way Campaign Launch",
+        "minutes": "Mayor Sutcliffe announced the launch of the City of Ottawa 2024 United Way Employee Campaign. He was accompanied by Mark Taylor of United Way/Centraide Ottawa; Honourary City Campaign Co-Chair Councillor Laura Dudas, City Campaign Co-Chair Dan Chenier and City Campaign Manager, Lauren Bussieres, along with Stephanie Smith, Senior Manager, United Way East Ontario and Norm Robillard, Loaned Representative from City of Ottawa, United Way East Ontario.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All Members of Council were present, except Councillors R. Brockington and C. Curry.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Minutes of the Council meeting of 18 September 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230211",
+                "attachment_title": "OCC Draft Final Minutes 42 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230212",
+                "attachment_title": "OCC Draft Final Minutes 42 FR .pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Declarations of Interest Including Those Originally Arising from Prior Meetings",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Communications",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Association of Municipalities of Ontario (AMO) Communications",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230134",
+                "attachment_title": "AMO Policy Update - 25 September 2024.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "A communication from AMO was received.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Other communications received",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "8.2.1",
+                "title": "Petitions",
+                "attachments": [],
+                "description": "",
+                "minutes": "",
+                "motions": []
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "Responses to Inquiries",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "8.3.1",
+                "title": "OCC-2024-05 - Vicious Dogs",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230123",
+                    "attachment_title": "OCC-2014-05 Inquiry Response - Gower - Vicious Dogs.pdf"
+                  }
+                ],
+                "description": "",
+                "minutes": "",
+                "motions": []
+              },
+              {
+                "agenda_item_number": "8.3.2",
+                "title": "OCC-2024-09 - Waitlist for Swimming Lessons",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230124",
+                    "attachment_title": "OCC-2024-09 - Inquiry Response - Desroches - Waitlist for Swimming Lessons.pdf"
+                  }
+                ],
+                "description": "",
+                "minutes": "",
+                "motions": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "Councillor C. Curry advised that she would be absent from the City Council meeting of 2 October 2024.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2024 - 43-01",
+            "motion_moved_by": "R. King",
+            "motion_seconded_by": "L. Johnson",
+            "motion_text": "That the Audit Committee Report 8, Community Services Committee Report 11, Emergency Preparedness and Protective Services Committee Report 13, Joint Report 1 Environment and Climate Change Committee and Emergency Preparedness and Protective Services Committee; Finance and Corporate Services Report 17A, Planning and Housing Committee Report 34, Transportation Committee Report 14 and the reports from the City Clerk entitled \u201cPolicy Framework for Voluntary Donations for Community Benefits \u2013 Working Group Report\u201d and \u201cSummary of Oral and Written Public Submissions for Items Subject to thePlanning Act\u2018Explanation Requirements\u2019 at the City Council Meeting of September 18, 2024\u201d be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Postponement and Deferrals",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Policy Framework for Voluntary Donations for Community Benefits \u2013 Working Group Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230180",
+                "attachment_title": "Report - Updating the Policy Framework for Voluntary Donations for Community Benefits.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230181",
+                "attachment_title": "Document 1 - Draft Donation Procedures for Members of Council.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230182",
+                "attachment_title": "Document 2 - Proposed amendments to the Donations to the City for Community Benefit Policy.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230183",
+                "attachment_title": "Document 3 - Process Map.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230184",
+                "attachment_title": "Document 4 - Applicability Guidelines.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230185",
+                "attachment_title": "Document 5 - Finance and Corporate Services Committee Motion No. FCSC 2024 16-02.pdf"
+              }
+            ],
+            "description": "ACS2024-OCC-GEN-0014 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Voluntary Donations Working Group recommend City Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Audit Committee Report 8",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Road Renewal Program Value for Money Audit",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230137",
+                "attachment_title": "Cover Office of the Auditor General (OAG) \u2013 Road Renewal Program Value for Money Audit.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230138",
+                "attachment_title": "Report - Road Renewal Program Value for Money Audit.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230139",
+                "attachment_title": "Document 1 \u2013 OAG Road Renewal Value for Money Audit.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230140",
+                "attachment_title": "Document 1 \u2013 BVG V\u00e9rification du Programme de r\u00e9fection des routes.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230141",
+                "attachment_title": "Document 2 \u2013 OAG  Road Renewal Value for Money Audit - Audit Highlights.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230142",
+                "attachment_title": "Document 2 \u2013 BVG Faits saillants tir\u00e9s de la v\u00e9rification du Programme de r\u00e9fection des routes.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OAG-BVG-008 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation(s)\nThat Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.2",
+            "title": "Office of the Auditor General (OAG) \u2013 Investigation of OC Transpo Bus Maintenance",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230143",
+                "attachment_title": "Cover Office of the Auditor General (OAG) \u2013 Investigation of OC Transpo Bus Maintenance.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230144",
+                "attachment_title": "Report - Investigation of OC Transpo Bus Maintenance.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230145",
+                "attachment_title": "Document 1 \u2013 BVG Enqu\u00eate sur l\u2019entretien des autobus d\u2019OC Transpo.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230146",
+                "attachment_title": "Document 1 \u2013 OAG Investigation of OC Transpo Bus Maintenance.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230147",
+                "attachment_title": "Document 2 \u2013 BVG Faits saillants tir\u00e9s sur l\u2019Enqu\u00eate sur l\u2019entretien des autobus d\u2019OC Transpo.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230148",
+                "attachment_title": "Document 2 \u2013 OAG Investigation of OC Transpo Bus Maintenance \u2013 Investigation Highlights.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OAG-BVG-009 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation(s)\nThat Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.3",
+            "title": "Office of the Auditor General (OAG) - Semi-annual Report on Follow-Up Procedures",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230149",
+                "attachment_title": "Cover Office of the Auditor General (OAG) \u2013 Semi-Annual Report on Follow-Up Procedures.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230150",
+                "attachment_title": "Report - Semi-Annual Report on Follow-Up Procedures.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230151",
+                "attachment_title": "Document\u202f1 \u2013 BVG\u202fRapport semestriel sur les proc\u00e9dures\u202fde\u202fsuivi.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230152",
+                "attachment_title": "Document 1 -\u202fOAG Semi-Annual Report on Follow-up Procedures.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OAG-BVG-010 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation(s)\nThat Council receive the Semi-Annual Report on Follow-up Procedures.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "12.4",
+            "title": "Office of the Auditor General (OAG) \u2013 2024-2027 Audit Work Plan for the Ottawa Police Service",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230153",
+                "attachment_title": "Cover Office of the Auditor General (OAG) \u2013 2024-2027 Audit Work Plan for the Ottawa Police Service.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230154",
+                "attachment_title": "Report - 2024-2027 Audit Work Plan for the Ottawa Police Service.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230155",
+                "attachment_title": "Document 1 \u2013 OAG 2024-2027 Audit Work Plan for the Ottawa Police Service.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230156",
+                "attachment_title": "Document 1 \u2013 BVG Plan de travail de v\u00e9rification 2024-2027 pour le Service de police d"
+              }
+            ],
+            "description": "File No. ACS2024-OAG-BVG-011 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation(s)\nThat Council receive the 2024-2027 Audit Work Plan for the Ottawa Police Service.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Community Services Committee Report 11",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "Long-Term Care Person-Centred Care Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230157",
+                "attachment_title": "Coverpage - Long-Term Care Person-Centred Care Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230158",
+                "attachment_title": "English Report - Final LTC Person-Centred Care Update Reportt-AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230159",
+                "attachment_title": "French Report - Final LTC Person-Centred Care Update Report-AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230160",
+                "attachment_title": "English Document 1 - LTCS Person Centred Care Steering Committee Membership-AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230161",
+                "attachment_title": "French Document 1 - LTCS Person Centred Care Steering Committee Membership_AODA .pdf"
+              }
+            ],
+            "description": "File No. ACS ACS2024-CSS-GEN-009 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council receive the Long-Term Care Person-Centred Care approach update for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "13.2",
+            "title": "Update to the Community Safety and Well-Being Plan: Incorporation of the former Crime Prevention Ottawa",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230162",
+                "attachment_title": "Coverpage - Transitioning CPO to CSWB Office.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230163",
+                "attachment_title": "English Report - Transitioning CPO to CSWB Office AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230164",
+                "attachment_title": "French Report - Transitioning CPO to CSWB Office AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230165",
+                "attachment_title": "English Document 1 - CSWBO - Two-Year ITP -AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230166",
+                "attachment_title": "French Document 1 - CSWBO - Two-Year ITP -AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230167",
+                "attachment_title": "English Document 2 - Child and Youth Safety and Well-Being - Research Briefing AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230168",
+                "attachment_title": "French Document 2 - Child and Youth Safety and Well-Being - Research Briefing AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230169",
+                "attachment_title": "English Document 3 - AS AMENDED Priority Neighbourhoods AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230170",
+                "attachment_title": "French Document 3 - AS AMENDED Priority Neighbourhoods AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230171",
+                "attachment_title": "English Document 4 - Community Safety and Well-Being Fund AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230172",
+                "attachment_title": "French Document 4 - Community Safety and Well-Being Fund AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230173",
+                "attachment_title": "English Document 5 - CSWBAC - Terms of Reference AODA .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230174",
+                "attachment_title": "French Document 5 - CSWBAC - Terms of Reference AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-CSS-GEN-012 \u2013 Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s) as amended\nThat Council:\n1. Amend the Community Safety and Well-Being Plan to include the goals and mandate of the former Crime Prevention Ottawa as follows:\n1.1 Add a Youth Social Development priority1.2 Update the Integrated and Simpler Systems priority with two new goals, as follows:\nA) on priority neighbourhoodsas amendedandB) collaborative strategies for risk intervention initiatives.\n2. Approve the Community Safety and Well-Being Fund Policy that is document 4 to this report, as mandated by the corporate Grants and Contribution Policy, and amend the Community Funding Framework to include the Community Safety and Well-Being Funding Stream.\n3. Approve the Community Safety and Well-Being Advisory Committee Terms of Reference that is document 5 to this report.\n4. Approve the members and the recruitment process for two new resident members to the Community Safety and Well-Being Advisory Committee to increase diversity and representation of members who are independent of an organization and bring a resident perspective.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "13.3",
+            "title": "Community Partnership Capital Programs Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230175",
+                "attachment_title": "Coverpage - 2024 Community Partnership.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230176",
+                "attachment_title": "Report - 2024 Community Partnership Report AODA(1).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230177",
+                "attachment_title": "Document 1 - Community Partnership Projects and Funding Level-AODA(1).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230178",
+                "attachment_title": "Document 2 - Community Partnership Major Capital Program 2024 Projects and Funding-AODA(1).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230179",
+                "attachment_title": "Document 3 - Status of Projects Previously Approved in Principle(1).pdf"
+              }
+            ],
+            "description": "File No. ACS2024-RCF-GEN-0009 \u2013 Citywide",
+            "minutes": "The Carr/Dudas Motion (2024-43-02) Carried with Councillor C. Kitts dissenting. The item as amended, was put to Council and Carried.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024 - 43-02",
+                "motion_moved_by": "M. Carr",
+                "motion_seconded_by": "L. Dudas",
+                "motion_text": "WHEREAS the Minor and Major Capital Project programs have been in place since amalgamation without a comprehensive review\nWHEREAS the programs have allowed city investment not only in city facilities and on city property but also on other public lands including school boards and sports and cultural organizations,\nWHEREAS financing for park renewals for city facilities and on city properties is currently limited and the Province is requiring that municipalities provide an update by July 2025 on how they intend to manage their assets going forward including those related to parks and facilities,\nTHEREFORE BE IT RESOLVED that a review of the Minor and Major Capital Project programs be undertaken after this asset management update is completed to align with the goals of improving City assets and that this review be presented to Council no later than Q2 2026.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Emergency Preparedness and Protective Services Committee Report 13",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "14.1",
+            "title": "Snow Plow Contractor Licensing Review",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230186",
+                "attachment_title": "Cover - Snow Plow Contractor Licensing Review.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230187",
+                "attachment_title": "English Report - Snow Plow Contractor Licensing Review.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230188",
+                "attachment_title": "French Report - Snow Plow Contractor Licensing Review.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230189",
+                "attachment_title": "Document 1 English- Recommended Licensing By-law.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230190",
+                "attachment_title": "Document 1 French - Recommended Licensing By-law.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230191",
+                "attachment_title": "Document 2 English - What-We-Learned Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230192",
+                "attachment_title": "Document 2 French - What-We-Learned Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-EPS-PPD-0002 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council approve amendments to the City\u2019s Licensing By-law (By-law No. 2002-189, as amended) pertaining to snow plow contractors, including new definitions and the replacement of Schedule 4, as described in this report and in the general form set out in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Joint Environment and Climate Change Committee and Emergency Preparedness and Protective Services Committee Report 1",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "15.1",
+            "title": "Idling Control By-law Review",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230193",
+                "attachment_title": "(Cover) - ACS2024-EPS-PPD-0003  - Idling Control By-law Review  EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230194",
+                "attachment_title": "(English Report) ACS2025-EPS-PPD-0003 - Idling Control Bylaw Review.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230195",
+                "attachment_title": "(French Report) ACS2025-EPS-PPD-0003 - Idling Control Bylaw Review.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230196",
+                "attachment_title": "(EN) Doc 1 - Recommended Idling Control By-law.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230197",
+                "attachment_title": "(FR) Doc 1 - Recommended Idling Control By-law.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230198",
+                "attachment_title": "(EN) Doc 2 - Idling Control What-We-Learned Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230199",
+                "attachment_title": "(FR) Doc 2 - Idling Control What-We-Learned Report.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-EPS-PPD-0003 \u2013 City-wide",
+            "minutes": "The Desroches/Johnson Motion (2024-43-03) Carried on a vote of 22 Yeas to 1 Nay, with Councillors R. King, A. Troster, S. Menard, S. Devine, T. Kavanagh and M. Carr dissenting on the portion of the motion that reads \"amend Subsection 4(2) to replace (5 consecutive minutes) with (10 consecutive minutes)\". The item as amended, was put to Council and Carried on a vote of 15 Yeas to 8 Nays.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committees\u2019 Recommendation(s)\nThat Council:",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "R. King",
+                      "J. Leiper",
+                      "C. Kitts",
+                      "S. Menard",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 15
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "T. Tierney",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "D. Hill",
+                      "C. Kelly",
+                      "D. Brown"
+                    ],
+                    "count": 8
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (15 to 8)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024 - 43-03",
+                "motion_moved_by": "S. Desroches",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "WHEREAS idling negatively affects air quality which can lead to health issues; and\nWHEREAS reducing idling offers benefits to the local environment and leads to cleaner air; and\nWHEREAS the current idling by-law has led to some positive behavior changes since enacted; and\nWHEREAS the changes as proposed might put further pressures on By-law and Regulatory Services, diverting resources from other critical enforcement areas; and\nWHEREAS most Ottawa residents are conscientious citizens who make genuine efforts to be responsible stewards of the environment and do not require excessive enforcement; and\nWHEREAS the current Idling Control By-law already provides mechanisms to address aggressive and unnecessary idling;\nTHEREFORE BE IT RESOLVED that Council amend Subsection 4(1) of the proposed by-law by replacing (1 minute in a sixty minute period) with (3 minutes in a sixty minute period) and amend Subsection 4(2) to replace (5 consecutive minutes) with (10 consecutive minutes);\nBE IT FURTHER RESOLVED that staff be directed to focus on high-incidence idling zones, such as schools, construction sites, or other locations identified by staff and councillors where excessive idling is a known issue, when implementing the public education and awareness campaign and any related directions given at Committee.",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "M. Luloff",
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "R. King",
+                      "C. Kitts",
+                      "G. Darouze",
+                      "A. Hubley",
+                      "S. Menard",
+                      "D. Hill",
+                      "C. Kelly",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "S. Plante",
+                      "A. Troster",
+                      "M. Carr",
+                      "D. Brown",
+                      "S. Desroches",
+                      "W. Lo",
+                      "M. Sutcliffe"
+                    ],
+                    "count": 22
+                  },
+                  "against": {
+                    "councillors": [
+                      "J. Leiper"
+                    ],
+                    "count": 1
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (22 to 1)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Finance and Corporate Services Committee Report 17A",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "16.1",
+            "title": "2024 Tax and Rate Operating and Capital Budget Q2 Status",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230125",
+                "attachment_title": "Coverpage - 2024 Tax and Rate Operating and Capital Budget Q2 Status.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230126",
+                "attachment_title": "Report - 2024 Tax and Rate Q2 Status Report - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230127",
+                "attachment_title": "Document 1 - Operating Results Summary June 30, 2024 - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230128",
+                "attachment_title": "Document 2 - 2024 Q2 Compensation Summary - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230129",
+                "attachment_title": "Document 3 - 2024 Q2 Tax and Rate Capital WIP - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230130",
+                "attachment_title": "Document 4 - 2024 Q2 BAs and Transfers - AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FSP-0014 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council receive the 2024 Q2 Operating and Capital Status and 2024 Year-end Forecast for information as detailed in Documents 1 to 4.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "16.2",
+            "title": "Draft Statement of Investment Policies and Procedures for Prudent Investor Standard",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230131",
+                "attachment_title": "Coverpage - Draft Statement of Investment Policies and Procedures for Prudent Investor Standard.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230132",
+                "attachment_title": "Report - Draft Statement of Investment Policies and Procedures for Prudent Investor Standard-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230133",
+                "attachment_title": "Document 1 - Draft Statement of Investment Policies and Procedures - AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FIN-0009 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee Recommendation(s)\nThat Council receive, for information purposes, the Draft Statement of Investment Policies and Procedures (SIPP) for the City of Ottawa\u2019s prudent investor standard that will be used as a framework for a request for proposal for an Outsourced Chief Investment Officer service provider working with staff and input from the Ottawa Investment Board to develop a final SIPP for approval by Council in 2025.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "17.",
+        "title": "Transportation Committee Report 14",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "17.1",
+            "title": "Motions \u2013 Transportation Committee recommendations regarding Public Services and Procurement Canada Presentation \u2013 South Block Project",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230209",
+                "attachment_title": "Coverpage - Motions regarding PSCP Wellington St.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230210",
+                "attachment_title": "Report - Motions regarding PSCP Wellington St.docx.pdf"
+              }
+            ],
+            "description": "File No.\u00a0ACS2024-OCC-CCS-0088 \u2013 Somerset (14)",
+            "minutes": "Carried with Councillors J. Bradley, S. Menard and S. Planted dissenting on the item and Councillor S. Desroches dissenting on Recommendation 4 (a) and (b).",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation(s)\nThat Council approve the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "17.2",
+            "title": "Motion \u2013 Councillor M. Luloff \u2013 Trim Road Community Safety Zone",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230207",
+                "attachment_title": "Coverpage - Motion \u2013 M. Luloff \u2013 Trim Road Community Safety Zone.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230208",
+                "attachment_title": "Report - Motion \u2013 M. Luloff \u2013 Trim Road Community Safety Zone.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-CCS-0089 \u2013 Orl\u00e9ans East-Cumberland (1)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Committee recommendation(s)\nThat Council approve:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "18.",
+        "title": "Bulk Consent Agenda",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "18.1",
+            "title": "Planning and Housing Committee Report 34",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "18.1.1",
+                "title": "Zoning By-law Amendment \u2013 2050 Provence Ave",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230135",
+                    "attachment_title": "(Cover) - ACS2024-PDB-PSX-0022 - 2050 Provence Avenue.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230136",
+                    "attachment_title": "(Report) ACS2024-PDB-PSX-0022 - Zoning By-law Amendment \u2013 2050 Provence Avenue.pdf"
+                  }
+                ],
+                "description": "File No.\u00a0 ACS2024-PDB-PSX-0022 - Orl\u00e9ans South-Navan (19)",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Committee recommendation(s)\nThat Council approve an amendment to Zoning By-law 2008-250 for 2050 Provence Avenue, as shown in Document 1, to permit for low-rise residential development, as detailed in Document 2.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "18.2",
+            "title": "City Clerk \u2013 Summary of Oral and Written Public Submissions",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "18.2.1",
+                "title": "Summary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of September 18, 2024",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230200",
+                    "attachment_title": "Report_Summary of Submissions - Planning Matters approved October 2, 2024.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230201",
+                    "attachment_title": "1 - ACS2024-SI-CCRX-0001 - Wetland Omnibus OPA and ZBLA.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230202",
+                    "attachment_title": "2 - ACS2024-PDB-PS-0058 - ZBLA \u2013 6310 and 6320 Hazeldean Road.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230203",
+                    "attachment_title": "3 - ACS2024-PDB-PSX-0014 - ZBLA \u2013 246 Westhaven Crescent.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230204",
+                    "attachment_title": "4 - ACS2024-PRE-PS-0008 - ZBLA \u2013 3484 Innes Road, and 240 and 270 Lamarche Avenue.pdf"
+                  }
+                ],
+                "description": "File No. ACS2024-OCC-CCS-0087 - City-wide",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "Report recommendation(s)\nThat Council approve the Summaries of Oral and Written Public Submissions for items considered at the City Council Meeting of September 18, 2024, that are subject to the \u2018Explanation Requirements\u2019 being thePlanning Act, subsections 17(23.1), 22(6.7), 34(10.10) and 34(18.1), as applicable, as described in this report and attached as Documents 1-4.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "19.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "20.",
+        "title": "Disposition of Items Approved by Committees under Delegated Authority",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230205",
+            "attachment_title": "Document 1 (EN) - Delegated Authority List.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=230206",
+            "attachment_title": "Document 1 (FR) - Delegated Authority List.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That Council receive the list of items approved by its Committees under Delegated Authority, attached as Document 1.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Received",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "21.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2024 - 43-04",
+            "motion_moved_by": "R. King",
+            "motion_seconded_by": "L. Johnson",
+            "motion_text": "That the Audit Committee Report 8, Community Services Committee Report 11, Emergency Preparedness and Protective Services Committee Report 13, Joint Report 1 Environment and Climate Change Committee and Emergency Preparedness and Protective Services Committee; Finance and Corporate Services Report 17A, Planning and Housing Committee Report 34, Transportation Committee Report 14 and the reports from the City Clerk entitled \u201cPolicy Framework for Voluntary Donations for Community Benefits \u2013 Working Group Report\u201d and \u201cSummary of Oral and Written Public Submissions for Items Subject to thePlanning Act\u2018Explanation Requirements\u2019 at the City Council Meeting of September 18, 2024\u201d be received and adopted as amended.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "22.",
+        "title": "Motions of Which Notice Has Been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "22.1",
+            "title": "FloraFest Seven",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2024 - 43-05",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "J. Leiper",
+                "motion_text": "WHEREAS the Flora Hall Brewing Company hosts an annual street festival to provide expanded programming and seating for patrons titled FloraFest;AND WHEREAS FloraFest takes place on a section of Flora Street between Kent Street and Bank Street;\nAND WHEREAS the organizer has requested to close a section of Flora Street between Kent Street and Bank Street on Friday, 11 October 2024 to facilitate setup of the event while maintaining local access to residents via two-way traffic entering at Kent Street;\nAND WHEREAS the road closure would be in effect from 12 p.m. Friday, 11 October 2024 to 6 p.m. on Sunday 13 October 2024;\nAND WHEREAS the City of Ottawa\u2019s Special Events on City Streets (2001-260) By-Law prohibits road closures before 6:00 p.m. Monday to Friday;\nTHEREFORE BE IT RESOLVED that Council approve the closure of Flora Street between Kent Street and Bank Street from 12 p.m. on Friday, 11 October 2024 to 6 p.m. on Sunday, 11 October 2024 to facilitate FloraFest Seven; providing it meets the requirements, conditions, and approval of Traffic Services.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "22.2",
+            "title": "Ottawa Community Ice Partners (OCIP) Covid Recovery Action Plan extension",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2024 43-06",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "A. Hubley",
+                "motion_text": "WHEREAS, the City\u2019s Agreements with the OCIP for the Bell Sensplex and Richcraft Sensplex require an Operating Reserve that is funded through an $850,000 OCIP contribution and annual contributions of $250,000 from the City until the reserve reaches the value of a one-year debt servicing repayment; and\nWHEREAS on June 14, 2023 Council approved a temporary waiver to July 31, 2024, of the requirement for OCIP to fund the Operating Reserve from the current period of Net Operating Income and fund the annual debt service for the next succeeding year, and directed staff to revisit the waiver requests in conjunction with the 2024 budget presented by OCIP; and\nWHEREAS the OCIP has requested an extension of such waivers and upon Council approval, the CFO/ City Treasurer will implement such extension on the same terms, that OCIP continue to support daily operations and make all required contributions to the Lifecycle Fund to maintain the facilities in the state of good repair;\nTHEREFORE BE IT RESOLVED that Chief Financial Officer/City Treasurer be given delegated the authority to extend the temporary waiver previously granted to the OCIP to fund the succeeding year\u2019s debt servicing and contributions to the Operating Reserve, until December 31, 2025.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "23.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Motions requiring suspension of the Rules of Procedure.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "24.",
+        "title": "Notices of Motion (for Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "24.1",
+            "title": "Solve the Crisis Campaign",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "S. Plante",
+                "motion_seconded_by": "A. Troster",
+                "motion_text": "WHEREAS the Ontario Big City Mayor\u2019s Caucus has initiated the Solve the Crisis campaign to address the crisis unfolding on streets in our cities, large and small, urban and rural, across Ontario, and seeking action from the Provincial and Federal Governments to address the growing mental health, addictions and homelessness crisis; and\nWHEREAS the homelessness, mental health and addictions crisis continues to grow with 3432 drug related deaths in Ontario in 2023 \u00a0as well as with an estimated 234,000 Ontarians experiencing homelessness \u00a0and over 1400 homeless encampments across Ontario communities in 2023 ; and\nWHEREAS, while the Province of Ontario has provided additional funding for mental health, addictions and homelessness programs, it does not adequately address the growing crisis and the financial and social impact on municipalities and regions across the province; and\nWHEREAS municipalities and regions are stepping up and working with community partners to put in place community-specific solutions to address this crisis, but municipalities and regions lack the capacity, or resources to address these increasingly complex health care and housing issues alone; and\nWHEREAS this is primarily a health issue that falls under provincial jurisdiction and municipalities and regions should not be using the property tax base to fund these programs; and\nWHEREAS there is a strong need for more coordinated resources, including those focused on addressing the opioid crisis and an increasingly toxic drug supply yielding increased risk of overdoses; andWHEREAS there is ongoing need for increased access to low-barrier housing options with adequate funding and support; and\nWHEREAS there is no provincial lead focused on this crisis leading to unanswered questions that span over a dozen ministries, and a lack of support to manage the increasing needs of those who are unhoused;\nTHEREFORE, BE IT RESOLVED that the City of Ottawa supports the Ontario Big City Mayors Solve the Crisis Campaign; as follows:\nBE IT FURTHER RESOLVED that Council calls on residents to join the City of Ottawa in appealing to the provincial and federal governments for support by visiting SolveTheCrisis.ca and showing their support; and\nBE IT FURTHER RESOLVED that a copy of this motion be sent to:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "25.",
+        "title": "Notice of Intent",
+        "attachments": [],
+        "description": "Notice of Intent from the Build Ottawa Board to submit the 2023 Annual Report at the City Council meeting scheduled for October 16, 2024.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "26.",
+        "title": "Motion to Introduce By-laws",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "26.1",
+            "title": "Three Readings",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2024 - 43-07",
+                "motion_moved_by": "R. King",
+                "motion_seconded_by": "L. Johnson",
+                "motion_text": "That the by-laws listed on the Agenda under Motion to Introduce By-laws, Three Readings, be read and passed.\n2024-408 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2017-180 respecting the appointment of Municipal Law Enforcement Officers in accordance with private property parking enforcement.2024-409 \u00a0 \u00a0A by-law of the City of Ottawa to amend By-law No. 2008-250 to change the zoning of lands known municipally as 2050 Provence Avenue.2024-410 \u00a0 \u00a0A by-law of the City of Ottawa to designate 149 Rideau Street to be of cultural heritage value or interest.2024-411 \u00a0 \u00a0A by-law of the City of Ottawa to designate 156 Rideau Street (including street addresses 152, 156-158 Rideau Street) to be of cultural heritage value or interest.2024-412 \u00a0 \u00a0A by-law of the City of Ottawa to designate 198 Rideau Street to be of cultural heritage value or interest.2024-413 \u00a0 \u00a0A by-law of the City of Ottawa to designate 217 Rideau Street to be of cultural heritage value or interest.2024-414 \u00a0 \u00a0A by-law of the City of Ottawa regarding pre-consultation on development applications and to repeal By-law 2023-296.2024-415 \u00a0 \u00a0A by-law of the City of Ottawa to impose fees for planning applications and to repeal By-law No. 2024-33.2024-416 \u00a0 \u00a0A by-law of the City of Ottawa to establish certain lands as common and public highway and assume them for public use (promenade Jerome Jodoin Drive).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "27.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2024 - 43-08",
+            "motion_moved_by": "R. King",
+            "motion_seconded_by": "L. Johnson",
+            "motion_text": "That the following by-law be read and passed:\nTo confirm the proceedings of the Council meeting of 2 October 2024.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "28.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "28.1",
+            "title": "J. Bradley - 3-1-1 Call Center Protocols",
+            "attachments": [],
+            "description": "Councillor J. Bradley - Inquiry OCC 2024-17\nEnsuring that potential victims of domestic violence receive appropriate and effective support is crucial, if not a life-saving measure. \u00a0Given the sensitive nature of this topic, at the time of a call to 3-1-1, it may not always be obvious to the agent that the caller is a victim of domestic violence. \u00a0It has been reported that there is currently a systemic gap between a victim reaching out for assistance, and being able to connect with an service provider or shelter organization that can assist. \u00a0Accurate assessment, triaging, support and referrals are of upmost importance. \u00a0Could staff please provide information relating to the current procedures and protocols for the following areas:",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "28.2",
+            "title": "S. Menard - Flat-Sidewalk-and-Mountable-Curb Sidewalk Design Update",
+            "attachments": [],
+            "description": "Councillor S. Menard - Inquiry OCC 2024-18\nAt the April 2023 meeting of the Transportation Committee, we brought a motion directing staff to consider, as part of the review of the sidewalk design guidelines, a sidewalk design in which the full width of the sidewalk remains flat and level, with a mountable curb serving to provide driveway access. The motion was carried at committee and at council.With many street renewal projects underway and many more coming soon, residents are very interested in the development of an improved sidewalk design standard that prioritizes accessibility and the needs of pedestrians.Would city staff please provide an update on the progress of their review of the sidewalk design guidelines, including an estimated timeline for reporting back to council?In the interim, and considering that flat sidewalks with mountable curbs are already in use in multiple locations in the city, would staff consider providing tentative approval for a flat sidewalk design with mountable curb, based on existing successful implementations, with the understanding that such designs would not be implemented until the final review is complete?\u00a0",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "29.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "2024 - 43-09",
+            "motion_moved_by": "R. King",
+            "motion_seconded_by": "L. Johnson",
+            "motion_text": "That the proceedings of the City Council meeting of 2 October 2024 be adjourned.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": "The meeting adjourned at 10:51am."
+          }
+        ]
+      }
+    ]
+  }
+}

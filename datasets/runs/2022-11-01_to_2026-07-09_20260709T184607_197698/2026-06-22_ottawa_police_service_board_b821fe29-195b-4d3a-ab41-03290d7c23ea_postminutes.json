@@ -1,0 +1,1055 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=b821fe29-195b-4d3a-ab41-03290d7c23ea&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=b821fe29-195b-4d3a-ab41-03290d7c23ea&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - June 22, 2026",
+  "meeting_number": 131,
+  "meeting_date": "2026-06-22",
+  "meeting_start_time": "16:00",
+  "meeting_location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Vice Chair: Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson",
+    "Michael Polowin",
+    "Steve Desroches"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322912",
+            "attachment_title": "Notices and meeting information for meeting participants and the public_EN_FEB 2023.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322913",
+            "attachment_title": "Notices and meeting information for meeting participants and the public_FR_FEB 2023.pdf"
+          }
+        ],
+        "description": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Board. The final draft Minutes will be published with the agenda for the next regular Board meeting and, once confirmed, will replace this document.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Ceremonial Activities and Announcements",
+        "attachments": [],
+        "description": "Tribute to Abdirazak Karod, Constable Tarun Bali, and Constable Marc Pinizzotto",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Agenda",
+        "attachments": [],
+        "description": "The agenda was amended to add two new items to the consent agenda:\n9.17. 5 - Approval of Telus Mobility Services Agreement Renewal\n9.17. 5 - Approval of Telus Machine-to-Machine (M2M) Wireless Services Agreement Renewal for Police and Fire Services",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board confirm the agenda of the 22 June 2026 meeting.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried as amended",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Minutes #128 of 27 April 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322914",
+                "attachment_title": "Draft public Minutes 128 - OPSB_Apr27_2026.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board confirm Minutes #128 of the 27 April 2026 meeting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Committee Meetings: Reports from Committee Chairs & Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Finance and Audit Committee - Draft Minutes #38 of 12 May, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322915",
+                "attachment_title": "DRAFT Minutes - OPSB Finance and Audit Committee_May12_2026 - English.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this item for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Policy and Governance Committee - Draft Minutes #26 of May 21st 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322916",
+                "attachment_title": "DRAFT Minutes - OPSB Policy and Governance Committee_May21_2026 - English.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this item for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Public Delegations",
+        "attachments": [],
+        "description": "The final public delegate list will be recorded as part of the final draft minutes for the June 22nd, 2026 meeting.\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "One inquiry was raised by Vice-Chair Carr.",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "Detection of Misuse of Police Databases and Information Systems by Members\nThe Board directs the Chief to advise, in writing, what systems are currently in place to detect unauthorized or inappropriate access to police databases and information systems by Service members, specifically:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Items of Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Chair\u2019s verbal report",
+            "attachments": [],
+            "description": "Chair's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.2",
+            "title": "Chief\u2019s verbal report",
+            "attachments": [],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.3",
+            "title": "OC Transpo Special Constables Unit \u2013 Annual Report 2025 \u2013 File Number: ACS2025-TSD-SRTD-0003",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322917",
+                "attachment_title": "3- OC TRANSPO SPECIAL CONSTABLES UNIT \u2013 ANNUAL REPORT 2025 F.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322918",
+                "attachment_title": "3 a- SUPORTING DOCUMENTATION - Document 1 - OC Transpo Special Constable Unit Annual Report 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322919",
+                "attachment_title": "PRESENTATION - OC Transpo Special Constable Unit 2025 Annual Report ENG.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322920",
+                "attachment_title": "PRESENTATION - OC Transpo Special Constable Unit 2025 Annual Report FR.pdf"
+              }
+            ],
+            "description": "Chief's report & presentation",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.4",
+            "title": "Rebuilding Trust: Addressing Sexual Harassment, Culture and Accountability",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322952",
+                "attachment_title": "PRESENTATION - REBUILDING TRUST ENG.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322953",
+                "attachment_title": "PRESENTATION - REBUILDING TRUST FR.pdf"
+              }
+            ],
+            "description": "Presentation",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this item for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion moved by member Donaldson - Sexual Violence, Harassment and Gender-Based Misconduct Involving Members of OPS\nBE IT RESOLVED THATthe Ottawa Police Service Board:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.5",
+            "title": "Annual Use of Force Report \u2013 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322921",
+                "attachment_title": "5- ANNUAL USE OF FORCE REPORT \u2013 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322922",
+                "attachment_title": "5 a - SUPPORTING DOCUMENTATION - Document 1 - 2025 Annual Use of Force Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322923",
+                "attachment_title": "PRESENTATION - ANNUAL USE OF FORCE REPORT 2025 ENG.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322924",
+                "attachment_title": "UoF Presentation 2025 FINAL_FR (2).pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.6",
+            "title": "Body Worn Camera Deployment \u2013 Response to Board Motion",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322925",
+                "attachment_title": "6 - BODY WORN CAMERA DEPLOYMENT \u2013 RESPONSE TO BOARD MOTION.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322926",
+                "attachment_title": "6 a - SUPPORTING DOCUMENTATION - Document 1 - OPS Privacy Impact Assessment.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322927",
+                "attachment_title": "6 b- SUPPORTING DOCUMENTATION - Document 2 - Project Charter.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322928",
+                "attachment_title": "6 c- SUPPORTING DOCUMENTATION - Document 3 - Procedure 8.23 (Body Worn Camera).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322929",
+                "attachment_title": "6 e- SUPPORTING DOCUMENTATION - Document 4 - Procedure 8.24 (Draft One).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322930",
+                "attachment_title": "6 f- SUPPORTING DOCUMENTATION - Document 5 - AI Risk Assessment Questionnaire Axon Draft One.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322931",
+                "attachment_title": "6 g- SUPPORTING DOCUMENTATION - Document 6 - AI Risk Assessment Questionnaire Axon Real Time Translation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322932",
+                "attachment_title": "6 h- SUPPORTING DOCUMENTATION - Document 7 - Body Worn Camera Deployment Report to the Board on April 27, 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322933",
+                "attachment_title": "6 i- SUPPORTING DOCUMENTATION - Document 8 - Risk Register and Mitigation Strategies.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board:\n1. receive this report for information.2. approve that the Ottawa Police Service proceed with the purchase of body-worn cameras as it has fully responded to the Board Motion tabled at the April 27, 2026, Board Meeting.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.7",
+            "title": "Ottawa Police Service Facial Recognition Initiative",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322934",
+                "attachment_title": "7- OTTAWA POLICE SERVICE FACIAL RECOGNITION INITIATIVE.pdf"
+              }
+            ],
+            "description": "Chief's reportSupporting Document 1, Contract proposal on file with the Executive Director.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board approve the Ottawa Police Service (OPS) proceeding with onboarding into the York/Peel/Halton shared Facial Recognition Technology (FRT) network, including the initial authorization to initiate Phase 1 of the project.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.8",
+            "title": "Delegated Authority for Extension of Contract with Garda Canada Security Corp. to Provide Security Screening Personnel at Ottawa Courthouse",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322935",
+                "attachment_title": "8- DELEGATED AUTHORITY FOR EXTENSION OF CONTRACT WITH GARDA CANADA SECURITY CORP. TO PROVIDE SECURITY SCREENING P F.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board delegate authority to the Chief of Police to renew the contract with Garda Canada Security Corp. to provide security screening personnel at the single point of access at the Ottawa Courthouse, for the period of July 1, 2026 to June 30, 2027.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.9",
+            "title": "Ottawa Police Service Workplace Culture",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322936",
+                "attachment_title": "9- OTTAWA POLICE SERVICE WORKPLACE CULTURE.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.10",
+            "title": "Ottawa Police Service Annual Report \u2013 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322937",
+                "attachment_title": "10 - OTTAWA POLICE SERVICE ANNUAL REPORT \u2013 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322938",
+                "attachment_title": "10 a- SUPPORTING DOCUMENTATION - Document 1 - 2025 Annual Report PDF (English).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322939",
+                "attachment_title": "10 b- SUPPORTING DOCUMENTATION - Document 2 - 2025 Annual Report PDF (French).pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.11",
+            "title": "Ottawa Police Service Board 2024-2027 Strategic Plan: Key Performance Indicators Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322940",
+                "attachment_title": "11- OTTAWA POLICE SERVICE BOARD 2024-2027 STRATEGIC PLAN KEY PERFORMANCE INDICATORS REPORT.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.12",
+            "title": "Performance Report \u2013 First Quarter 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322941",
+                "attachment_title": "12- PERFORMANCE REPORT \u2013 FIRST QUARTER 2026.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.13",
+            "title": "Professional Standards Unit - 2025 Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322942",
+                "attachment_title": "13- PROFESSIONAL STANDARDS UNIT - 2025 ANNUAL REPORT.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information and in compliance with the requirements set out under section 215 of the Community Safety and Policing Act, 2019 (CSPA) and Ontario Regulation 90/24.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.14",
+            "title": "Report on the Special Investigations Unit - 26-OCI-010",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322943",
+                "attachment_title": "14- REPORT ON THE SPECIAL INVESTIGATIONS UNIT - 26-OCI-010.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.15",
+            "title": "Response to Inquiry I-26-03 \u2013 ABLE1 Fixed-Wing Aircraft Noise Investigation",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322944",
+                "attachment_title": "15- RESPONSE TO INQUIRY I-26-03 \u2013 ABLE1 FIXED-WING AIRCRAFT NOISE INVESTIGATION.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.16",
+            "title": "Self Contained Breathing Apparatus (SCBA) Equipment Upgrade",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322945",
+                "attachment_title": "16- SELF CONTAINED BREATHING APPARATUS (SCBA) EQUIPMENT UPGRADE.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.17",
+            "title": "Consent Agenda",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "1.",
+                "title": "Ratification: Appointment of Ottawa Police Service Officers",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322911",
+                    "attachment_title": "APPOINTMENT OF OTTAWA POLICE SERVICE OFFICERS.pdf"
+                  }
+                ],
+                "description": "This item is before the Board for ratification following pre-approval on May 12th, 2026, by electronic polling.",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "That the Ottawa Police Service Board:1. Appoint, on the date of swearing in, the Ottawa Police Service police officers listed within this report, pursuant to Section 37(1)(c) of the Community Safety and Policing Act (CSPA).2. Issue a certificate of appointment as required by Section 83(4) of the CSPA.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "2.",
+                "title": "Ratification: Appointment of Special Constables \u2013 Carleton University",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322910",
+                    "attachment_title": "APPOINTMENT OF SPECIAL CONSTABLES \u2013 CARLETON UNIVERSITY.pdf"
+                  }
+                ],
+                "description": "This item is before the Board for ratification following pre-approval on May 12th, 2026, by electronic polling.",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "That the Ottawa Police Service Board approve the appointment of three (3) Carleton University (Campus Safety Services) employees listed in Appendix 1 as Special Constables for Carleton University pursuant to Section 92 of the Community Safety and Policing Act (CSPA).",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "3.",
+                "title": "Office of the Auditor General (OAG): Ottawa Police Service - Audit of Project Management",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322903",
+                    "attachment_title": "Submission Report - OPS PM.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322904",
+                    "attachment_title": "Document 1 \u2013 OPS \u2013 Audit of Project Management.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322905",
+                    "attachment_title": "Document 1 \u2013 SPO - V\u00e9rification de la gestion de projets.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322906",
+                    "attachment_title": "Document 2 \u2013 OPS \u2013 Audit of Project Management \u2013 Highlights.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322907",
+                    "attachment_title": "Document 2 \u2013 SPO - Faits saillants tir\u00e9s de la v\u00e9rification de la gestion de projets.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322908",
+                    "attachment_title": "Audit of OPS Project Management_EN.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322909",
+                    "attachment_title": "Audit of OPS Project Management_FR.pdf"
+                  }
+                ],
+                "description": "Office of the Auditor General's report",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "That the Ottawa Police Service Board consider and approve the recommendations.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "4.",
+                "title": "CSPA Update: Law Enforcement (LE) Policies",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322892",
+                    "attachment_title": "Policy Update (CSPA) - LE - MAY 2026.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322893",
+                    "attachment_title": "Document 1 \u2013 Policy LE-002 Communications and Dispatch.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322894",
+                    "attachment_title": "Document 2 \u2013 Policy LE-004 Criminal Intelligence.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322895",
+                    "attachment_title": "Document 3 \u2013 Policy LE-005 Arrest .pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322896",
+                    "attachment_title": "Document 4 \u2013 Policy LE-006 Criminal Investigation Management and Procedures.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322897",
+                    "attachment_title": "Document 5 \u2013 Policy LE-009 Joint Forces Operations.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322898",
+                    "attachment_title": "Document 6 \u2013 Policy LE-010 Internal Task Forces.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322899",
+                    "attachment_title": "Document 7 \u2013 Policy LE-011 Search of Premises.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322900",
+                    "attachment_title": "Document 8 \u2013 Policy LE-012 Seach of Persons.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322901",
+                    "attachment_title": "Document 9 \u2013 Policy LE-015 Paid Informants and Agents.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322902",
+                    "attachment_title": "Document 10 \u2013 Policy LE-017 Traffic Management, Enforcement and Road Safety.pdf"
+                  }
+                ],
+                "description": "Executive Director's report",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "That the Ottawa Police Service Boardapprove the amended policies attached to this report.",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "5.",
+                "title": "Approval of Telus Mobility Services Agreement Renewal",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322954",
+                    "attachment_title": "1 APPROVAL OF TELUS MOBILITY SERVICES AGREEMENT RENEWAL.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322955",
+                    "attachment_title": "1.1 SUPPORTING DOCUMENTATION - Document 1 - Market Comparison (TELUS and Bell Mobility).pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322956",
+                    "attachment_title": "1.2SUPPORTING DOCUMENTATION - Document 2 - Projected Savings (36-Month Term).pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322957",
+                    "attachment_title": "1.3 SUPPORTING DOCUMENTATION - Document 3 - Corp. Cust. Agreement - Wireless Services to be signed.pdf"
+                  }
+                ],
+                "description": "Chief's report",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "That the Ottawa Police Service Board:\nRecorded vote:\nThe recommendation was carried with five in favour, one opposed, and one absent.\nCarried",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "",
+                    "post_motion_text": ""
+                  }
+                ]
+              },
+              {
+                "agenda_item_number": "6.",
+                "title": "Approval of Telus Machine-to-Machine (M2M) Wireless Services Agreement Renewal for Police and Fire Services",
+                "attachments": [
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322958",
+                    "attachment_title": "2APPROVAL OF TELUS M2M WIRELESS SERVICES AGREEMENT RENEWAL FOR POLICE AND FIRE SERVICES.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322959",
+                    "attachment_title": "2.1SUPPORTING DOCUMENTATION - Document 1 - Financial Impact Analysis 36-Month Projection.pdf"
+                  },
+                  {
+                    "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322960",
+                    "attachment_title": "2.2SUPPORTING DOCUMENTATION - Document 2 - Service Agreement \u2013 M2M Wireless Services.pdf"
+                  }
+                ],
+                "description": "Chief's report",
+                "minutes": "",
+                "motions": [
+                  {
+                    "premotion_text": "",
+                    "motion_number": "",
+                    "motion_moved_by": "",
+                    "motion_seconded_by": "",
+                    "motion_text": "That the Ottawa Police Service Board:",
+                    "motion_votes": {},
+                    "dissent_voters": [],
+                    "motion_result": "Carried",
+                    "post_motion_text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.18",
+            "title": "Financial Status Report \u2013 First Quarter 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322946",
+                "attachment_title": "18 - FINANCIAL STATUS REPORT \u2013 FIRST QUARTER 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322947",
+                "attachment_title": "18 a- SUPPORTING DOCUMENTATION - Document 1 - 2026 1st Quarter Financial Report - Summary  by Directorate.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322948",
+                "attachment_title": "18 b- SUPPORTING DOCUMENTATION - Document 3 -  Capital Budget Works in Progress.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322949",
+                "attachment_title": "18 c- SUPPORTING DOCUMENTATION - Document 4 - Quarterly Grant Update.pdf"
+              }
+            ],
+            "description": "Chief's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.19",
+            "title": "Outstanding Board Inquiries, Motions & Directions: June 2026 Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322950",
+                "attachment_title": "19- Outstanding Inquiries Motions and Directions Report JUNE.pdf"
+              }
+            ],
+            "description": "Executive Director 's report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.20",
+            "title": "Letters of Commendation:\u00a0June 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=322951",
+                "attachment_title": "20- LETTERS OF COMMENDATION JUNE 2026.pdf"
+              }
+            ],
+            "description": "Chief\u2019s report",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Ottawa Police Service Board receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "In accordance with Section 44 of theCommunity Safety and Policing Act, 2019, the Ottawa Police Service Board met in a closed session prior to the public meeting to discuss items pertaining to the following subject matter:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 8:45 pm.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, July 27th, 2026 - 4:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

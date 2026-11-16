@@ -1,0 +1,406 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=8b01f5ca-35ea-4b6a-9576-c60c28883005&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=8b01f5ca-35ea-4b6a-9576-c60c28883005&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Board of Health - June 19, 2023",
+  "meeting_number": 5,
+  "meeting_date": "2023-06-19",
+  "meeting_start_time": "17:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Catherine Kitts",
+    "Vice-Chair Tammy DeGiovanni",
+    "Member Brent Bauer",
+    "Member Danielle Brown-Shreves",
+    "Member Marty Carr",
+    "Member Sabrina Chung",
+    "Member Laura Dudas",
+    "Member Glen Gower",
+    "Member Theresa Kavanagh",
+    "Member Rawlson King"
+  ],
+  "absent_attendees": [
+    "Member Elyse Banham"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 15,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145451",
+            "attachment_title": "Public Notices_en.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145452",
+            "attachment_title": "Avis publics_fr.pdf"
+          }
+        ],
+        "description": "Please see the attached document for public notices and meeting information, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; processes and timelines for written and oral submissions; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "",
+        "minutes": "First Nations, Inuit, M\u00e9tis Elders offered opening prayers in recognition of National Aboriginal History Month (June) and National Indigenous Peoples Day (June 21).",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "Members Banham and Dudas were absent during the roll call.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "",
+        "minutes": "Member Banham sent regrets.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Confirmation of Minutes",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145453",
+            "attachment_title": "eMinutes 4 - English.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145454",
+            "attachment_title": "eMinutes 4 - French.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "Confirmation of minutes of the meeting of April 17, 2023.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145455",
+            "attachment_title": "Communications List EN.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145456",
+            "attachment_title": "Communications List FR.pdf"
+          }
+        ],
+        "description": "Eight communication items have been received (held on file with the Board of Health Secretary).",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "05/01",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: State of Ottawa\u2019s Health 2023: An Update, Ottawa Public Health\u2019s Strategic Plan for 2023-2027, Ottawa Public Health Submission to Health Canada on Potential Amendments to Cannabis Regulations, and 2023 Operating and Capital Budget Q1 \u2013 Board of Health for the City of Ottawa Health Unit Status Report, be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Chair of the Board of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2023-OPH-BOH-0008 \u2013 City-wide",
+            "minutes": "In her verbal report, Chair Kitts highlighted National Indigenous History Month (June) and National Indigenous Peoples Day (June 21) and their significance. She reported that just before the launch of National Indigenous History Month, Dr. Etches was recognized by the Ottawa Aboriginal Coalition and presented with a blanket. She talked about June being Seniors\u2019 month and a time to celebrate the older adults in our lives. She reported on the Association of Local Public Health Agencies\u2019 (alPHa) Annual General Meeting and Conference, held June 13th and 14th, and provided an update on budget pressures OPH will be facing heading into this fall and the process of developing the draft 2024 budget.\u00a0\nThe Board then voted to receive the Chair's Verbal Report. Discussions on this item lasted approximately 14 minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Medical Officer of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2023-OPH-MOH-0005 \u2013 City-wide",
+            "minutes": "As part of her verbal report, Dr. Etches noted that the U.S. Surgeon General recently released an advisory highlighting mounting research about the harmful effects of social media use on mental health, including negative impacts to body image and contribution to the development of eating disorders and she talked about some of the things OPH has been doing, with local partners, to build resiliency among youth and promote alternatives to screen time. She then provided updates on the GetaKit initiative, renovations at the Merivale dental clinic and recent implementation of a new digital dental x-ray system, OPH\u2019s role during extreme heat and outdoor air quality events, and ongoing efforts to help children and youth catch-up on their routine vaccinations. She then talked about planning underway for this fall\u2019s respiratory illnesses season, OPH\u2019s recent integrated planning process, and preparation for the 2024 budget. In closing, she introduced Mohammad Kibria, OPH\u201ds new Manager for the Medical Officer of Health Business and Development Support service area and thanked Jo-Anne Henderson-White who acted in the previous Manager role for a year.\nDr. Etches responded to questions arising from her verbal report. The Board then voted to receive the Medical Officer of Health's Verbal Report. Discussions on this item lasted approximately 28 minutes.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "State of Ottawa\u2019s Health 2023: An Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145457",
+                "attachment_title": "03 - BOH rpt - State of Ottawa Health 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145458",
+                "attachment_title": "03a - State of Ottawa Health 2023 rpt_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145459",
+                "attachment_title": "03a - State of Ottawa Health 2023 rpt_FR.pdf"
+              }
+            ],
+            "description": "File ACS2023-OPH-KPQ-0003 \u2013 City-wide",
+            "minutes": "Cameron McDermaid, Senior Epidemiologist, spoke to a PowerPoint presentation, which served to provide the Board with an overview of the report. He was accompanied by Dr. Dara Spatz Friedman, Epidemiologist. A copy of the presentation is held on file with the Board of Health Secretary.\nAfter the presentation, Dr. Etches, Mr. McDermaid and Dr. Spatz Friedman responded to questions from Board Members. This discussion lasted approximately 40 minutes. Following these exchanges, the Board voted to receive the report.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "05/02",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Board of Health approve that the meeting time be extended past 7:00 p.m. pursuant to Subsection 8(1)(c) of the Procedural By-law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.4",
+            "title": "Ottawa Public Health\u2019s Strategic Plan for 2023-2027",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145460",
+                "attachment_title": "04 - BOH Rpt - OPH Strategic Plan 2023-2027_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145461",
+                "attachment_title": "04 - BOH Rpt - OPH Strategic Plan 2023-2027_FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145462",
+                "attachment_title": "04a - OPH Strategic Plan 2023-2027 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145463",
+                "attachment_title": "04a - OPH Strategic Plan 2023-2027 FR.pdf"
+              }
+            ],
+            "description": "File ACS2023-OPH-KPQ-0004 \u2013 City-wide",
+            "minutes": "Cameron Keyes, Director of Quality, Epidemiology, Strategy and Technology, spoke to a PowerPoint presentation, which served to provide the Board with an overview of the proposed Strategic Plan for 2019-2022.\u00a0\nThe Board then heard from the following public delegation:\nFollowing the presentation and public delegation, the Board voted to adopt the report. This discussion lasted approximately 20 minutes.\u00a0\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit approve Ottawa Public Health\u2019s Strategic Plan for 2023-2027, as outlined in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.5",
+            "title": "Ottawa Public Health Submission to Health Canada on Potential Amendments to Cannabis Regulations",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145464",
+                "attachment_title": "05 - Rpt - OPH Submission on Cannabis regulations.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145465",
+                "attachment_title": "05a - OPH Submission - Cannabis Consult.pdf"
+              }
+            ],
+            "description": "File ACS2023-OPH-HPP-0002 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit approve Ottawa Public Health\u2019s submission to Health Canada\u2019s consultation on proposed amendments to Cannabis regulations, as outlined in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.6",
+            "title": "2023 Operating and Capital Budget Q1 \u2013 Board of Health for the City of Ottawa Health Unit Status Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145466",
+                "attachment_title": "06 - Q1 2023 Budget Status rpt.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=145467",
+                "attachment_title": "06a - Docs - Q1 2023 Budget Status.pdf"
+              }
+            ],
+            "description": "File ACS2023-OPH-PCS-0005 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive the 2023 Q1 operating and capital budget status report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "05/03",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: State of Ottawa\u2019s Health 2023: An Update, Ottawa Public Health\u2019s Strategic Plan for 2023-2027, Ottawa Public Health Submission to Health Canada on Potential Amendments to Cannabis Regulations, and 2023 Operating and Capital Budget Q1 \u2013 Board of Health for the City of Ottawa Health Unit Status Report, be received and adopted.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no motions requiring suspension of the rules.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "05/04",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT Confirmation By-law no. 2023-4, a by-law of the Board of Health for the City of Ottawa Health Unit to confirm the proceedings of the Ottawa Board of Health at its meeting of June 19, 2023, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "Aucune demande de renseignements n\u2019a \u00e9t\u00e9 d\u00e9pos\u00e9e.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Board adjourned the meeting at 7:01 p.m.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, September 18, 2023 - 5:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

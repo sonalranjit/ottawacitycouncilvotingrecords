@@ -1,0 +1,253 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=52bf58a6-97a9-4392-8afc-51c799c6bb02&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=52bf58a6-97a9-4392-8afc-51c799c6bb02&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Agriculture and Rural Affairs Committee - November 03, 2022",
+  "meeting_number": 36,
+  "meeting_date": "2022-11-03",
+  "meeting_start_time": null,
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Councillor Eli El-Chantiry",
+    "Vice-Chair: Catherine Kitts",
+    "George Darouze",
+    "Glen Gower",
+    "Carol Anne Meehan",
+    "Scott Moffatt"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 10,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100492",
+            "attachment_title": "Public Notices English - Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100493",
+            "attachment_title": "Public Notices French - Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on November 9 in Agriculture and Rural Affairs Committee Report 35.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, November 2, and the deadline to register to speak by email is 9:00 am on Thursday, November 3.",
+        "minutes": "This draft Minutes document contains a summary of the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the final Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in this draft Minutes document are draft until the Minutes of the meeting are confirmed by the Committee. The final draft Minutes will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.\nThe Chair read the following statement:\n\u201cThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Items 3.1 to 3.4 on today\u2019s Agenda.\n\"For the items just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for Zoning and 120 days for an Official Plan Amendment.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Zoning By-law Amendment - 1814 and 1858 Old Montreal Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100495",
+                "attachment_title": "3.1 - Report - ZBLA - 1814 and 1858 Old Montreal Road.pdf"
+              }
+            ],
+            "description": "ACS2022-PIE-PS-0128 - Cumberland (19)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "Zoning By-law Amendment - 7700 Copeland Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100494",
+                "attachment_title": "3.2 - Report - ZBLA - 7700 Copeland Road.pdf"
+              }
+            ],
+            "description": "ACS2022-PIE-PS-0142 - Rideau-Goulbourn (21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2022-36-01",
+                "motion_moved_by": "S. Moffatt",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS staff have recommended that the Zoning By-law Amendment for 7700 Copeland Road be refused such that a detached dwelling would not be permitted; and\nWHEREAS despite the staff recommendation the subject property was created through a consent to sever in 1991 with the intention of it being a residential lot; and\nWHEREAS there is a low likelihood of a new dwelling at this site negatively impacting future aggregate resource extraction in this area;\nTHEREFORE IT BE RESOLVED that the Agriculture and Rural Affairs Committee change the report recommendation #1 to as follows:\n\u201cThat Agriculture and Rural Affairs Committee recommend Councilapprovean amendment to Zoning By-law 2008-250 for 7700 Copeland Road, as shown in Document 1to rezone the property from RU to RU[xxxr]to allow for the construction of a single residence on a lot where it is within 150 metres of lands zoned Mineral Reserve (MR) and Mineral Reserve Subzone 1 (MR1), as detailed in Document 2.\u201d",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried (6 to 0)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.3",
+            "title": "Zoning By-law Amendment \u2013 8005 Jock Trail Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100496",
+                "attachment_title": "3.3 - Report - ZBLA - 8005 Jock Trail.pdf"
+              }
+            ],
+            "description": "ACS2022-PIE-PS-0141 - Rideau-Goulbourn (21)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.4",
+            "title": "Zoning By-law Amendment \u2013 3718 and 3722 John Shaw Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100497",
+                "attachment_title": "3.4 - Report - ZBLA \u2013 3718 and 3722 John Shaw Road.pdf"
+              }
+            ],
+            "description": "ACS2022-PIE-PS-0140 - West Carleton-March (5)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Open Mic Session",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nTo be determined.",
+        "minutes": "The meeting adjourned at 10:26 am.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Court of Revision",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Cranberry Creek Municipal Drain \u2013 Court of Revision",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100498",
+                "attachment_title": "10.1 - Report - Cranberry Creek MD.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100499",
+                "attachment_title": "10.1 - Document 2 - Provisional by-law Cranberry Creek.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100500",
+                "attachment_title": "10.1 - Document 3 - Cranberry Creek MD s76 Eng Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=100501",
+                "attachment_title": "10.1 - Document 4 - Cranberry Creek MD Court of Revision Decision.pdf"
+              }
+            ],
+            "description": "ACS2022-IWS-WS-0008 - Rideau-Goulbourn (21) \u00a0",
+            "minutes": "The Court of Revision adjourned at 10:31 AM",
+            "motions": []
+          }
+        ]
+      }
+    ]
+  }
+}

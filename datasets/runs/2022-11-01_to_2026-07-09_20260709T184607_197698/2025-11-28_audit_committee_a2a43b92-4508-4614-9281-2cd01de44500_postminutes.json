@@ -1,0 +1,490 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a2a43b92-4508-4614-9281-2cd01de44500&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a2a43b92-4508-4614-9281-2cd01de44500&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Audit Committee - November 28, 2025",
+  "meeting_number": 15,
+  "meeting_date": "2025-11-28",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Cathy Curry",
+    "Vice-chair: Councillor Allan Hubley",
+    "David Brown",
+    "David Hill",
+    "Theresa Kavanagh",
+    "Catherine Kitts"
+  ],
+  "absent_attendees": [
+    "Marty Carr"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 10,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318748",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318749",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on December 10, 2025 in Audit Committee Report 15.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on November 27, 2025, and the deadline to register to speak by email is 8:30 am on November 28, 2025.",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "1.1",
+            "title": "Motion to Add Reports",
+            "attachments": [],
+            "description": "",
+            "minutes": "At the outset of the meeting, the Committee considered the following motion:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2025-15-01",
+                "motion_moved_by": "A. Hubley",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Audit Committee approve the addition of the following reports, dated November 27, 2025, and published after the agenda, pursuant to subsection 89(3) of the Procedure By-law (being by-law no. 2025-100) to allow for consideration of these matters:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "AC Minutes 13 \u2013 September 12, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318750",
+                "attachment_title": "AC English Minutes 13_2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318751",
+                "attachment_title": "AC French Minutes 13_2025.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "AC Confidential Minutes 13 \u2013 September 12, 2025",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.3",
+            "title": "AC Minutes 14 \u2013 November 4, 2025",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318752",
+                "attachment_title": "AC English Minutes 14_2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318753",
+                "attachment_title": "AC French Minutes 14_2025.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "2025 KPMG Financial Statement Audit Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318754",
+                "attachment_title": "Report - 2025 KPMG Financial Statement Audit Plan_AODA Compliant.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318755",
+                "attachment_title": "Document 1 - KPMG LLP 2025 Financial Statement Audit Plan.pdf"
+              }
+            ],
+            "description": "File No. ACS-2025-FCS-FIN-0011 \u2013 City-wide",
+            "minutes": "Rebecca Macdonald, Audit Partner, and Andrew Newman, Audit Partner, of KPMG LLP, presented an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nKevin Travers, Audit Partner and Ines Grubesic, Audit Manager, of KPMG LLP, were also in attendance.\nThere were no public submissions on this item.\nFollowing discussions, the Committee considered the report recommendation(s) as follows:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee and Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Draft 2026 Operating and Capital Budgets\u00a0\u2013 Audit Committee",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318756",
+                "attachment_title": "Report English - 2026 Draft Operating and Capital Budgets.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318757",
+                "attachment_title": "Full Budget Book - Audit Committee Full.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318758",
+                "attachment_title": "Condensed Book English - Audit Committee.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318759",
+                "attachment_title": "Document 1 English - 2026 Draft Budget Operating Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318760",
+                "attachment_title": "Document 2 English - 2026 Draft Capital Budget Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318761",
+                "attachment_title": "Document 3 English - Multi-Year Budget.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318762",
+                "attachment_title": "Document 4 English - Budget Document Guide.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318763",
+                "attachment_title": "Document 5 English - Continuous Service improvements Initiatives.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318764",
+                "attachment_title": "Document 6 English - Draft Budget 2026 Magazine.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318765",
+                "attachment_title": "Report French - Budgets pr\u00e9lim fonctionnement et immobilisations 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318766",
+                "attachment_title": "Condensed Book French - Comit\u00e9 de la v\u00e9rification.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318767",
+                "attachment_title": "Document 1 French - Sommaires du budget fonctionnement provisoire 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318768",
+                "attachment_title": "Document 2 French - R\u00e9sum\u00e9s du budget d"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318769",
+                "attachment_title": "Document 3 French - Budget pluriannuel.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318770",
+                "attachment_title": "Document 4 French - Lignes directrices concernant le budget.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318771",
+                "attachment_title": "Document 5 French - Initatives de am\u00e9lioration continue des services.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318772",
+                "attachment_title": "Document 6 French - Budget provisoire 2026 magazine.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-FCS-FSP-0013 \u2013 City-wide\nThe draft budget was tabled at the Council meeting of November 12, 2025.",
+            "minutes": "Isabelle Jasmin, Deputy City Treasurer, Corporate Finance, and Nathalie Gougeon, Auditor General, presented an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nThere were no public submissions on this item.\nFollowing discussions, the Committee considered Motion No. AC 2025-15-02 as follows:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee consider the relevant portions of the 2026 Operating and Capital Budgets and make recommendations to Council, sitting as Committee of the Whole, to be held December 10, 2025.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2025-15-02",
+                "motion_moved_by": "A. Hubley",
+                "motion_seconded_by": "",
+                "motion_text": "That the Audit Committee recommend that Council, sitting as Committee of the Whole on December 10, 2025, approve the Audit Committee portion of the 2026 Draft Operating and Capital Budgets as follows:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Auditor General",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Office of the Auditor General (OAG) \u2013 Audit Charter Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318773",
+                "attachment_title": "Report - OAG Audit Charter Update.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OAG-BVG-015 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee recommend that Council receive the OAG update on the Audit Charter.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Office of the Auditor General (OAG) \u2013 Council Expenses Audit",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318774",
+                "attachment_title": "Report - Council Expenses Audit.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318775",
+                "attachment_title": "Document 1 English \u2013 OAG\u00a0Council Expenses Audit.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318776",
+                "attachment_title": "Document 1 French \u2013 OAG\u00a0Council Expenses Audit.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318777",
+                "attachment_title": "Document 2 English \u2013 OAG Council Expenses Audit - Highlights.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318778",
+                "attachment_title": "Document 2 French \u2013 OAG Council Expenses Audit - Highlights.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OAG-BVG-016 \u2013 City-wide",
+            "minutes": "Nathalie Gougeon, Auditor General, Joanne Gorenstein, Deputy Auditor General, Rhea Khanna, Audit Principal, and Emilie Wilcox (N\u012bewe Consulting) presented an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nCyril Rogers, General Manager, Finance and Corporate Services Department and Chief Financial Officer, and Caitlin Salter MacDonald, City Clerk, also answered questions on this item.\nThere were no public submissions on this item.Following discussions, the Committee considered the report recommendation(s) as follows:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee receive the audit report and recommend that Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.3",
+            "title": "Office of the Auditor General (OAG) \u2013 Audit of Ottawa Paramedic Service",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318779",
+                "attachment_title": "Report - Audit of Ottawa Paramedic Service.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318780",
+                "attachment_title": "Document 1 English \u2013 OAG Audit of Ottawa Paramedic Service.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318781",
+                "attachment_title": "Document 1 French \u2013 OAG Audit of Ottawa Paramedic Service.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318782",
+                "attachment_title": "Document 2 French \u2013 OAG Audit of Ottawa Paramedic Service \u2013 Highlights.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318783",
+                "attachment_title": "Document 2 English \u2013 OAG Audit of Ottawa Paramedic Service \u2013 Highlights.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OAG-BVG-017 \u2013 City-wide",
+            "minutes": "Joanne Gorenstein, Deputy Auditor General, Julia Weber, Audit Principal, presented an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nPierre Poirier, Chief, Ottawa Paramedic Service, also answered questions on this item.\nThere were no public submissions on this item.\nFollowing discussions, the Committee considered the report recommendation(s) as follows:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee receive the audit report and recommend that Council consider and approve the recommendations.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.4",
+            "title": "Office of the Auditor General (OAG) \u2013 2026-2027 Audit Work Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318784",
+                "attachment_title": "Report - 2026-2027 Audit Workplan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318785",
+                "attachment_title": "Document 1 English -\u202fOAG 2026-2027 Audit Work Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=318786",
+                "attachment_title": "Document 1 French -\u202fOAG 2026-2027 Audit Work Plan.pdf"
+              }
+            ],
+            "description": "File No. ACS2025-OAG-BVG-018 \u2013 City-wide",
+            "minutes": "Nathalie Gougeon, Auditor General, presented an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\nWendy Stephanson, City Manager, also answered questions on this item.\nThere were no public submissions on this item.\nFollowing discussions, the Committee considered the report recommendation(s) as follows:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Audit Committee recommend Council approve the Office of the Auditor General\u2019s 2026-2027 Audit Work Plan.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: March 31, 2026",
+        "minutes": "The meeting adjourned at 11:05 am.",
+        "motions": []
+      }
+    ]
+  }
+}

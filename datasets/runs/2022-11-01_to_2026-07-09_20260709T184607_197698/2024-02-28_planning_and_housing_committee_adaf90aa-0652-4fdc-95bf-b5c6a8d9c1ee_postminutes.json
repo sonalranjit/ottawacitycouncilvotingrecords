@@ -1,0 +1,373 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=adaf90aa-0652-4fdc-95bf-b5c6a8d9c1ee&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=adaf90aa-0652-4fdc-95bf-b5c6a8d9c1ee&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - February 28, 2024",
+  "meeting_number": 23,
+  "meeting_date": "2024-02-28",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Vice-chair: Councillor Glen Gower",
+    "Riley Brockington",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Clarke Kelly",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 11,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257655",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257656",
+            "attachment_title": "Public Notices English - Council.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, March 6, 2024 in Planning and Housing Committee Report 23.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, February 27, 2024, and the deadline to register by email to speak is 8:30 am on Wednesday, February 28, 2024.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 4.2-4.5 on today\u2019s Agenda.\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on Wednesday, March 6,2024, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 22 \u2013 Wednesday, February 14, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257664",
+                "attachment_title": "PHC Draft Minutes 22- English.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Zoning By-law Amendment \u2013 112 and 134 Nelson Street",
+            "attachments": [],
+            "description": "ACS2024-PRE-PS-0005 - Rideau-Vanier (12)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Withdrawn",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Zoning By-law Amendment \u2013 266 Park Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257657",
+                "attachment_title": "4.2 - ACS2024-PRE-PS-0011 - 266 Park Street.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PS-0011 - Rideau-Vanier (12)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Zoning By-law Amendment - 845 Champlain Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257665",
+                "attachment_title": "4.3 - ACS2024-PRE-PSX-0006 - 845 Champlain Street EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257666",
+                "attachment_title": "4.3 - ACS2024-PRE-PSX-0006 - 845 Champlain Street FR.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PSX-0006 - Orl\u00e9ans East-Cumberland (1)",
+            "minutes": "Lucy Ramirez, Planner II, Planning, Real Estate and Economic Development Department (PRED) provided an overview of the report and answered questions from the Committee. A copy of the slide presentation is filed with the Office of the City Clerk.\u00a0\nThe Applicant/Owner as represented by Christian Campanale, Evospace Developments provided an overview of the Application and responded to questions from Committee.\nThe Committee heard from the following delegations:\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion, the Committee considered the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.4",
+            "title": "Zoning By-law Amendment - 3317 Navan Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257658",
+                "attachment_title": "4.4 - ACS2024-PRE-PS-0017 - 3317 Navan Road.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PS-0017 - Orl\u00e9ans South-Navan (19)",
+            "minutes": "The Applicant/Owner as represented by Simran Soor and David Renfroe, Novatech were present in support, and available to answer questions. \u00a0\nThe following staff were also present to respond to questions:\nPlanning, Real Estate and Economic Development:\nLegal Services:\nThe following written submission was received by, and is filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussion, the Committee considered the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "L. Johnson",
+                      "W. Lo"
+                    ],
+                    "count": 8
+                  },
+                  "against": {
+                    "councillors": [
+                      "C. Kitts",
+                      "C. Kelly",
+                      "A. Troster"
+                    ],
+                    "count": 3
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (8 to 3)",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.5",
+            "title": "Zoning By-law Amendment \u2013 266 and 268 Carruthers Avenue and 177 Armstrong Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257659",
+                "attachment_title": "4.5 - ACS2024-PRE-PS-0040 - 266 and 268 Carruthers Avenue and 177 Armstrong Street.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257660",
+                "attachment_title": "4.5 - Document 5 - Landscape Plan.pdf"
+              }
+            ],
+            "description": "ACS2024-PRE-PS-0040 - Kitchissippi (15)",
+            "minutes": "Andrew McCreight, Manager, Development Review - Central, Planning, Real Estate and Economic Development Department (PRED) provided an overview of the report and answered questions from the Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\u00a0\nThe Applicant/Owner as represented by Patricia Warren and Scott Alain, Fotenn Planning + Design provided an overview of the Application and responded to questions from Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following staff were also present to respond to questions:\nPRED\nThe Committee heard from the following delegations:\n[ \u00a0 \u00a0Individuals / groups, as marked above, either provided comments (*) in writing or by e-mail; all submissions and presentations (+) are held on file with the Office of the City Clerk. \u00a0 ]Following discussion and questions of staff, the Committee carried the report recommendations as amended by Motion No. PHC 2024-23-01.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-23-01",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Cash-in-Lieu of Parkland",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257661",
+                "attachment_title": "6 - IPD - Cash in Lieu of Parkland - Q4 2023.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257662",
+                "attachment_title": "6 - Document 2 - Cash-in-Lieu of Parkland Reserve Balances as of December 31, 2023.pdf"
+              }
+            ],
+            "description": "ACS2024-FCS-FSP-0003",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Motion \u2013 Councillor T. Kavanagh - St Paul\u2019s Church Identification Signage with Message Centre",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=257663",
+                "attachment_title": "7.1 - ACS2024-OCC-CCS-0018 - Motion - T. Kavanagh.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "John Buck, Chief Building Official, Planning, Real Estate and Economic Development was present and responded to questions.\nThe Committee carried the report recommendation with the following direction to staff:\nDirection to Staff\nCouncillor L. Johnson\nThat staff review the current provisions and fees of the Permanent Signs on Private Property By-Law, that may restrict the installation of message centres on grounds. Staff to solely review for schools, places of worship, recreational and athletic facilities, and non-profit community organizations and report back to Planning and Housing Committee and the Built Heritage Committee in Q4 2024.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS St. Paul\u2019s Presbyterian Church is proposing the installation of a replacement ground sign, with electronic message centre at 971 Woodroffe Avenue; and\nWHEREAS St. Paul's Church has been an integral part of Canada\u2019s Capital Region for over 60 years, providing invaluable spiritual, charitable, and communal services available to all members of the community; and\nWHEREAS the ground sign previously installed at the location in 1981 was installed with a manual message centre and replaced in 2019 without the benefit of a permit; and\nWHEREAS the church wishes to upgrade the existing sign and install a replacement message centre; and\nWHEREAS the proposed signage does not comply with the Permanent Signs on Private Property By-law; and\nWHEREAS it is recommended to allow this request beyond the general application process for minor variances found in the delegation of authority provisions of By-law 2016-326, which would result in a loss of $2,183 to the City which is the corresponding minor variance fee; and\nWHEREAS Heritage staff do not object to the application.\nTHEREFORE BE IT RESOLVED that Planning and Housing Committee recommends that Council approve, in respect of 971 Woodroffe Avenue, an exemption to Sections 103 (b) and 112 (b) (ii) of the Permanent Signs on Private Property By-law (2016-326), as amended, to allow:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Councillor A. Troster",
+            "attachments": [],
+            "description": "",
+            "minutes": "In Ward 14 and across the city, we continue to see the same pattern play out, where many long-term tenants are served N13s, cosmetic changes to the unit are made, and the unit is relisted for a much higher rent \u2013 leaving low-income tenants, often seniors, with nowhere to go. Following the recent reports from organizations including the Canadian Housing Renewal Association, the Alliance to End Homelessness, and ACORN Ontario, as well as the decisive action taken by our colleagues in Hamilton to implement a comprehensive anti-renoviction bylaw, having more hard data about renovictions and AGIs in our city is desirable.\u00a0\nWhat\u2019s the year over year incidence of issuance of N5, N12, N13, and AGIs at the Landlord Tenant Board in Ottawa, from 2010-2023?\nWhat\u2019s the rate of increase, if any?",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nWednesday, March 27, 2024.",
+        "minutes": "The meeting adjourned at 11:02 am.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=15f97558-f319-4f4b-ac7d-65bbc5bdc98a&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=15f97558-f319-4f4b-ac7d-65bbc5bdc98a&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transit Commission - September 12, 2024",
+  "meeting_number": 14,
+  "meeting_date": "2024-09-12",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Glen Gower",
+    "Vice-Chair Cathy Curry",
+    "Riley Brockington",
+    "Marty Carr",
+    "David Hill",
+    "Jeff Leiper",
+    "Wilson Lo",
+    "Shawn Menard",
+    "Tim Tierney"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206572",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206573",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, September 18, 2024, in Transit Commission Report 14.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday, September 11, 2024, and the deadline to register to speak by email is 8:30 am on Thursday, September 12, 2024.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "TTC Minutes 13 \u2013 Thursday, June 13, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206574",
+                "attachment_title": "English Minutes 13.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206575",
+                "attachment_title": "French Minutes 13.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "3.2",
+            "title": "TTC-LRSC Confidential Minutes 2 \u2013 May 31, 2024",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "TC-2024-05 - Accommodation of passengers using a wheelchair by bus type",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206576",
+                "attachment_title": "Response to Inquiry TC-2024-05 - Accommodation by type of bus.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "TC-2024-04 - LRT Operating Speeds",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206577",
+                "attachment_title": "Response to Inquiry TC-2024-04 - LRT Operating Speeds.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Councillor Hill requested that this response to inquiry be listed on the next Transit Commission agenda for discussion.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "TC-2024-03 - Seniors Ride Free \u2013 Para Transpo",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206578",
+                "attachment_title": "Response to Inquiry TC-2024-03 - Seniors Ride Free Para Transpo.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "Councillor Carr requested that this response to inquiry be listed on the next Transit Commission agenda for discussion.",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "OC Transpo Update \u2013 Rail, Bus, and Para Transpo",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206586",
+                "attachment_title": "Staff slides French - OC Transpo Update Presentation.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206587",
+                "attachment_title": "Staff slides English - OC Transpo Update Presentation.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "The following Transit Services Department staff provided a presentation on the item, and answered questions from the Commission.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following staff also responded to questions from Commission:\nCommission received the following submissions, and a copy of each is filed with the Office of the City Clerk:\nThe following members of the public spoke before the Commission and provided comments on the item:\nCommission also considered the following motions:",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2024-14-01",
+                "motion_moved_by": "J. Leiper",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS Confederation Line 1 service has been reduced under delegated authority to 10 minute headways during weekday off-peak hours, specifically from 5 minutes from 9 am \u2013 3 pm and from 6:30 pm \u2013 9:30 pm; and,WHEREAS overall ridership on OC Transpo is substantially reduced from pre-pandemic levels that has had a severe impact on revenues; and,WHEREAS frequency of service is an important determinant of ridership, affecting overall trip time in a system characterized by transfers as well as the decision to use transit for non-commuting purposes; and,WHEREAS the combined potential wait times for the Trillium Line and Confederation Line are potentially over 20 minutes not including connecting bus wait and travel time, seriously diminishing transit as an attractive choice for commuting and non-commuting purposes, which is critical to restore ridership levels;THEREFORE be it resolved that the Transit Commission recommend that Council approve that Line 1 frequency be restored to 5-minute headways from 9 am \u2013 3 pm and from 6:30 pm \u2013 9:30 pm on weekdays, to be funded from the City\u2019s expected 2024 surplus in tax-supported programs when the Trillium Line resumes revenue service.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2024-14-02",
+                "motion_moved_by": "T. Tierney",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Leiper Motion be referred to the City Council meeting of September 18, 2024.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "2024 Transit Operating and Capital Budget Q2 Status Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206580",
+                "attachment_title": "Report - 2024 Transit Operating and Capital Budget Q2 Status - AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206581",
+                "attachment_title": "Document 1 - Q2 Operating Results Summary AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206582",
+                "attachment_title": "Document 2 - Q2 Compensation Report 2024 AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206583",
+                "attachment_title": "Document 3 - 2024 Q2 Transit Capital WIP AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FSP-0013 - City Wide",
+            "minutes": "Isabelle Jasmin, Deputy City Treasurer Corporate Finance, presented a brief overview of the report and answered questions from the Commission.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nRen\u00e9e Amilcar, General Manager, Transit Services, also answered questions.\nLaura Shantz, and Megan Cardinal (Community Associations for Environmental Sustainability, slides on file) spoke before the Commission and provided comments on the report recommendations.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Transit Commission receive the 2024 Q2 Transit Operating and Capital Status and 2024 Year-end Forecast for information as detailed in Documents 1 to 3.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Transit Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Presentations from OC Transpo Unions in Response to Council Motion No. 2022-03/09",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206584",
+                "attachment_title": "Report English - Presentations by OC Transpo Unions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206585",
+                "attachment_title": "Report French - Presentations by OC Transpo Unions.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-TSD-TS-0003 \u2013 City Wide",
+            "minutes": "The following union representatives addressed the Commission and answered questions:\nThere were no public submissions on this item.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat Transit Commission receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Status Update \u2013 Transit Commission Inquiries and Motions for the period ending September 3, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=206579",
+                "attachment_title": "Report - Status Update - Inquiries and Motions (AODA).pdf"
+              }
+            ],
+            "description": "File No. \u00a0ACS2024-OCC-CCS-0078 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation(s)\nThat the Transit Commission receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: Thursday, October 10, 2024.",
+        "minutes": "The meeting adjourned at 3:44 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

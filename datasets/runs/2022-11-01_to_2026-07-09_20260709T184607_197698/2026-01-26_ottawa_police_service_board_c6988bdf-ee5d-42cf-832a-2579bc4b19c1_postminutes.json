@@ -1,0 +1,87 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c6988bdf-ee5d-42cf-832a-2579bc4b19c1&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=c6988bdf-ee5d-42cf-832a-2579bc4b19c1&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Ottawa Police Service Board - January 26, 2026",
+  "meeting_number": 124,
+  "meeting_date": "2026-01-26",
+  "meeting_start_time": "13:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair: Salim Fakirani",
+    "Cathy Curry",
+    "Vice Chair: Marty Carr",
+    "Peter Henschel",
+    "Dave Donaldson",
+    "Michael Polowin",
+    "Steve Desroches"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 5,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for participants and members of the public",
+        "attachments": [],
+        "description": "This meeting may be viewed online on the Ottawa City Council YouTube Channel or via Zoom\nhttps://us02web.zoom.us/j/88026285323\n\u00a0",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Ceremonial Activities and Announcements",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Election of Chair and Vice Chair",
+            "attachments": [],
+            "description": "",
+            "minutes": "Mr. H. Sayah, Executive Director, explained that in accordance with Section 36 of the Community Safety and Policing Act and the Ottawa Police Service Board Procedure By-law, the Board is required to elect a Chair and Vice Chair at its first meeting each year. Accordingly, he requested nominations for the position of Chair.\nMember Polowin moved that Member Fakirani be nominated to the position of Chair of the Ottawa Police Service Board. Member Henschel seconded the nomination. The Executive Director called for any additional nominations. There being none, the following motion was considered:\nMoved by Member Curry\nThat nominations for the position of Chair of the Ottawa Police Service Board be closed and that the Ottawa Police Service Board appoint S. Fakirani as Chair of the Board for 2026.\nCarried\nChair Fakirani then called for nominations for the position of Vice Chair.\nMember Desroches moved that Member Carr be nominated to the position of Vice Chair, and Member Donaldson seconded the nomination. There being no other nominations, the following motion was considered:\u00a0\nMoved by Member Polowin\nThat nominations for the position of Vice Chair of the Ottawa Police Service Board be closed and that the Ottawa Police Service Board appoint M. Carr as Vice Chair of the Board for 2026.\nCarried",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "In accordance with Section 44 of the Community Safety and Policing Act, 2019, the Ottawa Police Service Board will be meeting in a closed session prior to the public meeting to discuss items pertaining to the following subject matter:",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "",
+            "motion_seconded_by": "",
+            "motion_text": "That the Ottawa Police Service Board adjourn the public portion of its meeting to move In Camera to discuss the following subject matter in accordance with Section 44(2) of the Community Safety and Policing Act, 2019:",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The meeting adjourned at 01:05 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=e6e635b8-c24d-4d84-a733-60022ddd9eb4&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=e6e635b8-c24d-4d84-a733-60022ddd9eb4&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Accessibility Advisory Committee - May 28, 2024",
+  "meeting_number": 13,
+  "meeting_date": "2024-05-28",
+  "meeting_start_time": "18:00",
+  "meeting_location": "Electronic Participation",
+  "present_attendees": [
+    "Chair Vania Karam",
+    "Vice-Chair Holl Ellingwood",
+    "Wayne Antle",
+    "Ian Bourrie",
+    "Ana Maria Cruz-Valderrama",
+    "Matthew Eliot",
+    "Jodi Fisher",
+    "William Van Veen"
+  ],
+  "absent_attendees": [
+    "Adele Furrie",
+    "David Humphries",
+    "Murray MacDonald",
+    "Hannah Walhad"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 4,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255825",
+            "attachment_title": "Public Notices English - Advisory Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=255826",
+            "attachment_title": "Public Notices French - Advisory Committee.pdf"
+          }
+        ],
+        "description": "Members of Committee and Council, City staff, media and the general public may join the meeting with this link:\nZoom meeting no. 89921802221\nNotices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nThe deadline to register to speak, or submit written comments is 4 pm on the day of the meeting.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Presentations",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "Duty to Consult - Accessibility for Ontarians with Disabilities Act, 2005",
+            "attachments": [],
+            "description": "",
+            "minutes": "The following staff provided a slide presentation and answered questions from the Committee:\nCommittee members asked staff about the criteria involved in upgrading parks with better accessible features. \u00a0Members provided staff with feedback on multi-use pathways (MUP) and the difficulties in sharing with bicycles and the lack of space for wider wheelchairs to safely maneuver on pathways.\nStaff discussed that as of September 2021, the City has completed protected design guidelines which are used for all new and renewal projects.\nThe use of delineators and \u2018twizzies\u2019 are used to try and separate pedestrians and cyclists. The implementation of these devices is not always possible but the City is trying to make paths wider. The City is introducing delineators in Environmental Assessments (EA) studies in places where there will be cyclists and pedestrians.\nStaff are to provide the Committee with literature that is available for educating cyclists to use a bell as they approach pedestrians.\nAfter discussion, the Committee RECEIVED this item for information.\nA copy of the slide presentation is filed with the Office of the City Clerk.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation(s)\nThat the Accessibility Advisory Committee receive the presentation and provide feedback as appropriate.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nJune 18, 2024.",
+        "minutes": "The meeting adjourned at 7:31 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

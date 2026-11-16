@@ -1,0 +1,776 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ab3e5c34-dcbf-4039-9fca-7d30211111d2&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ab3e5c34-dcbf-4039-9fca-7d30211111d2&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transportation Committee - June 22, 2023",
+  "meeting_number": 6,
+  "meeting_date": "2023-06-22",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Tim Tierney",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Jessica Bradley",
+    "George Darouze",
+    "Steve Desroches",
+    "Sean Devine",
+    "Laura Dudas",
+    "Glen Gower",
+    "Laine Johnson",
+    "Wilson Lo",
+    "Matt Luloff",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 15,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261622",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261623",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, June 28, 2023 in Transportation Committee Report\u00a0 6.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on June 21, 2023, and the deadline to register by email to speak is 8:30 am on June 22, 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Announcements/Ceremonial",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "2.1",
+            "title": "Bruce Timmermans Awards",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "TRC Minutes\u00a05 \u2013 Thursday, 27 April 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261624",
+                "attachment_title": "TRC Draft Minutes 5 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261625",
+                "attachment_title": "TRC Draft Minutes 5 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "TRC Minutes 4 - Monday, 17 April 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261646",
+                "attachment_title": "TRC DRAFT Min 4 (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261647",
+                "attachment_title": "TRC DRAFT Min 4 (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "TRC-2023-04-Processing Centre for Automated Speed Enforcement",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261626",
+                "attachment_title": "5.1 TRC-2023-04-Inquiry Desroches.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "OCC 2023-05 Traffic Services Future Storm Preparations",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261627",
+                "attachment_title": "5.2 Response to Inquiry OCC 2023-05 Traffic Storm Preparations.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Presentation",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Presentation from Ministry of Transportation: Highway 416 at Barnsdale Road Interchange \u2013 Preliminary Design and Environmental Assessment Study",
+            "attachments": [],
+            "description": "File No. ACS2023-PRE-TP-0006 - Rideau-Jock and Barrhaven-West",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Transportation Committee receive this presentation for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Coventry Road Widening (Belfast Road to St. Laurent Boulevard) Environmental Assessment Study \u2013 Statement of Work",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261628",
+                "attachment_title": "Report - Coventry Road Widening .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261629",
+                "attachment_title": "Document 1 - Coventry Road Widening (Belfast Road to St. Laurent Boulevard) Environmental AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-TP-0005- Rideau-Rockcliffe \u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Transportation Committee approve the Statement of Work (SoW) for the Coventry Road Widening (Belfast Road to St. Laurent Boulevard) Environmental Assessment Study, as outlined in this report and detailed in Document 1.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "7.2",
+            "title": "Amendments to the Use and Care of Roads By-law",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261630",
+                "attachment_title": "Report - Amendments to the Use and Care.pdf"
+              }
+            ],
+            "description": "File No: ACS2023-PRE-RHU-0026 - Citywide",
+            "minutes": "Following a presentation, the following staff were present and responded to questions:\n\u2022 Chris Warren, Specialist, By-law Review, Planning, Real Estate & Economic Development Department\u2022 Rob Maclachlan, Program Manager, Right of Way, Planning, Real Estate & Economic Development Department\u2022 Jennifer Therkelsen, Program Manager, Bylaw Enforcement Services, Emergency & Protective Services Department\u2022 Alain Gonthier, General Manager, Public Works, Public Works Department\nThe Committee then heard from the following delegations:\n\u2022 William Van Geest, Ecology Ottawa\u2022 Yasmine Hadid\u00a0\u2022 Angela Keller-Herzog, CAFES\u00a0\u2022 Raewyn Khosla, For Our Kid\u2019s Ottawa/Gatineau\u00a0\u2022 Judith Haney\u00a0\u2022 Kathy Vandergrift\u00a0\u2022 Kate Veinot, Community Gardening Network, Just Food\u00a0\u2022 Kristi Ross, Just Food\u00a0\u2022 Moe Garahan, Just Food\u00a0\u2022 Jeff Collins\n\u2022 Bill Brown\u2022 Kari-Anne Murphy, Ottawa South Eco Action Network\u2022 Phillipa MacDonald\u2022 Iola Price\u2022 Heather McLeod Kilmurray\u2022 Marianne Ariganello\nThe following written submissions was received by, and is filed with the Office of the City Clerk, and distributed to Committee Members:\n\u2022 K. Vandergrift, letter dated June 20, 2023\u2022 People\u2019s Official Plan Coalition, letter dated June 20, 2023\u2022 A. Keller-Herzog, letter dated June 21,2023\u2022 B. Brown, email dated June 21, 2023\u2022 G. Trejo, email dated June 21,2023\u2022 I. Price, letter dated June 21, 2023\u2022 K. Moore, letter dated June 22, 2023\u2022 C. Murray, email dated June 23, 2023\nThe Committee carried the report recommendations as amended.\u00a0\nDirection to staff (Councillor S. Devine)\nThat staff be directed to report back with respect to the matter of growing food on the right-of-way before the end of Q2 2024 based on information received from Public Health Ontario",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat Transportation Committee recommend Council approve:\n1. \u00a0 \u00a0Approve the amendments to the Use and Care of Roads By-law No. 2003-498 and the Road Activity By-law No. 2003-445 as described in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-06-1",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS with respect to report ACS2023-PRE-RHU-0026 titled Amendments to the Use and Care of Roads By-law the Asset Management Implications were provided after the public release of the report; andWHEREAS City staff submitted revised Asset Management Implications to insert into Page 29 of the report;\nTHEREFORE BE IT RESOLVED THAT with respect to report ACS2023-PRE-RHU-0026 Transportation Committee accept the report, as revised, with the revised Asset Management Implications section on Page 29 of the report, with the following wording:\nThe proposed updates to the City of Ottawa Use and Care of Roads By-law 2003-498 have several asset management implications. The following points highlight the specific implications:\u2022 \u00a0 \u00a0Integration of Best Practices: Staff considered best practices from other municipalities that permit landscaping projects, free library boxes, and pop-up retail displays within the right of way. This integration of successful approaches from other jurisdictions promotes knowledge sharing and allows for the adoption of effective strategies in asset management.\u2022 \u00a0 \u00a0Collaboration with Utility Companies: Consultations with utility companies ensure that the proposed amendments do not conflict with existing or future utility projects. This collaboration minimizes potential disruptions to utility infrastructure and promotes coordination between asset management efforts and utility operations.\u2022 \u00a0 \u00a0Maintaining Service Levels: The objective during the integration of new assets was to ensure there was no decrease in the service life, level of service, or disruption of service or maintainability for existing assets. This approach safeguards the performance and functionality of the city's infrastructure, avoiding any adverse effects on service delivery to residents and other stakeholders.\u2022 \u00a0 \u00a0Risk Assessment for Infrastructure: The report considers risks and potential damages to infrastructure within the right of way. This assessment helps identify potential vulnerabilities and develop strategies to mitigate risks, ensuring the resilience and longevity of the city's assets.\u2022 \u00a0 \u00a0Limitations on City's Responsibilities: The report clarifies that the City will not guarantee the success of, nor maintain any residential garden within the right of way. It also highlights that the City and utility companies will not be responsible for replacing or reinstating a residential garden if damaged by infrastructure installation, maintenance, repair, snow removal operations, or road maintenance activities. This clarifies the limitations on the City's obligations and reduces potential liabilities.\u2022 \u00a0 \u00a0Consideration of Stormwater Management: The report emphasizes that no gardening will be permitted within the front or back slope of a ditch due to its importance in stormwater management and drainage. This ensures that modifications or encroachments into the ditch area do not compromise its ability to effectively move stormwater, mitigating the risk of flooding and waterlogging in the neighborhood.\u2022 \u00a0 \u00a0Financial Sustainability Considerations: The proposed amendments, such as allowing residential gardening, free library boxes, and pop-up retail displays within the right of way, should include considerations for financial sustainability. Staff should assess the potential costs associated with implementing and maintaining these activities, ensuring that they are financially viable and align with the City's budgetary constraints. This evaluation will help ensure that the proposed amendments support long-term financial sustainability while providing additional options for residents and businesses within the right of way.Overall, these implications demonstrate a proactive approach to asset management, considering compliance, collaboration, service levels, financial considerations, risk assessment, and the protection of critical infrastructure elements such as stormwater management systems.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-06-02",
+                "motion_moved_by": "L. Johnson",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS many residential streets in the outer urban area have no sidewalks or raised curbs; AND\nWHEREAS the City of Ottawa has allowed any gravel shoulders to be taken over by grass; AND\nWHEREAS it is common for residents to currently garden to the edge of the roadway; AND\nWHEREAS these gardens have not caused any problems for residents, for snow clearing operations, parking, or other municipal services; AND\nWHEREAS allowing gardens to the edge of the Right of Way in urban areas and not allowing them in outer urban areas creates an unfair and unequal status, adding an additional burden for neighbourhoods where the City has failed to build storm sewers, raised curbs, or sidewalks;\nTHEREFORE BE IT RESOLVED THAT the report be amended to read, \u201cResidential gardening will be permitted to the edge of roadway where no curb exists.\u201d",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "C. Kitts",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "W. Lo"
+                    ],
+                    "count": 7
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "T. Tierney",
+                      "G. Darouze",
+                      "S. Desroches"
+                    ],
+                    "count": 4
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (7 to 4)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-06-03",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS proposed changes to the City\u2019s Use and Care of Roads By-law will allow for residential gardening opportunities within the right of way, and as part of this a prohibited plant species list will be required to effectively manage invasive species locally; and\nWHEREAS staff are proposing that the prohibited plant species list to be included within the proposed amendments to the Use and Care of Roads By-law No. 2003-498 will incorporate by reference the Invasive Species Act, 2015, S.O. 2015, c. 22 and Weed Control Act, R.S.O. 1990, c. W.5 to provide the requirements prohibiting certain plant species within the City right of way; and\nWHEREAS through the consultation process residents have requested that there be additional plant species added to the proposed prohibited list, citing the Ontario Auditor General\u2019s report on the management of invasive species which identified deficiencies in the species listed in the Invasive Species and Weed Control Acts; and\nWHEREAS the City has a recommended species list to avoid planting due to their invasive tendencies, and this list could serve as a source of additional species to prohibit, pending a review by staff; and\nTHEREFORE BE IT RESOLVED that staff be directed to include as part of the proposed amendments to the Use and Care of Roads By-law a list of terrestrial plants prohibited from planting in right-of-ways, compiled from the Invasive Species Act, 2015, S.O. 2015, the Weed Control Act, R.S.O. 1990, c. W.5, and the Auditor General\u2019s November 2022 report concerning the management of invasive species, in addition to the other proposed restrictions in the By-law; and\nBE IT FURTHER RESOLVED that staff be directed to update the list from time to time as required; and\nBE IT FURTHER RESOLVED that staff be directed to share this list with local nurseries and retail locations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-06-04",
+                "motion_moved_by": "L. Johnson",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS many residential streets in the outer urban area have no sidewalks or raised curbs; AND\nWHEREAS the City of Ottawa has allowed any gravel shoulders to be taken over by grass; AND\nWHEREAS residents have built and installed little free libraries close to the edge of the road throughout College Ward; AND\nWHEREAS these little free libraries have not caused any problems for residents, for snow clearing operations, parking, or other municipal services; AND\nWHEREAS putting a little free library more than half a metre from the edge of the road makes them inaccessible, particularly in winter, and defeats their purpose;\nTHEREFORE BE IT RESOLVED THAT the report be amended to read, \u201cNo free library box may be installed within half (0.5) metre of a roadway.\u201d",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "G. Gower",
+                      "L. Johnson",
+                      "S. Devine",
+                      "J. Bradley",
+                      "A. Troster",
+                      "S. Desroches",
+                      "W. Lo"
+                    ],
+                    "count": 7
+                  },
+                  "against": {
+                    "councillors": [
+                      "M. Luloff",
+                      "T. Tierney",
+                      "C. Kitts",
+                      "G. Darouze"
+                    ],
+                    "count": 4
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried (7 to 4)",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Public Works Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Temporary Traffic Calming Measures Program Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261635",
+                "attachment_title": "Report - Temporary Traffic Calming Measures Program Update June 2023 EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261636",
+                "attachment_title": "Report - Temporary Traffic Calming Measures Program Update June 2023 FR.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PWD-TRF-0005- Citywide ",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Transportation Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Delegated Authority for the Installation of All-Way Stop Controls Associated to In-Service Road Safety Reviews and Installation of an All-Way Stop Control at 8th Line Road and Parkway Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261644",
+                "attachment_title": "Report - Delegated Authority for Unwarranted All-Way Stop Control EN FINAL-ua.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261645",
+                "attachment_title": "Report - Delegated Authority for Unwarranted All-Way Stop Control FR FINAL-ua.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PWD-TRF-0006 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat Transportation Committee recommend that Council approve:\n1. \u00a0 \u00a0The General Manager, Public Works Department, and the Director, Traffic Services be delegated the authority to install unwarranted All-Way-Stop-Controls within the conditions outlined in this report;2. \u00a0 \u00a0The use of Delegation of Authority be reported annually to the Transportation Committee by the Public Works Department; and,3. \u00a0 \u00a0The installation of an All-Way Stop Control at the intersection of 8th Line Road and Parkway Road, as described in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "Parking Services 2022 Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261631",
+                "attachment_title": "Parking Services 2022 Annual Report - Leg Report EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261632",
+                "attachment_title": "Parking Services 2022 Annual Report_Document 1_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261633",
+                "attachment_title": "Parking Services 2022 Annual Report - Leg Report FR FINAL-ua.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261634",
+                "attachment_title": "Parking Services 2022 Annual Report_Document 1_FR FINAL-ua.pdf"
+              }
+            ],
+            "description": "File No.\u00a0 ACS2023-PWD-RPS-0001 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Transportation Committee recommend that Council:\n1. Receive the Parking Services 2022 Annual Report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Councillors\u2019 Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Councillor G. Darouze Permanent All-Way Stop Control at Intersection of Shauna Crescent, Evening Shadow Avenue, and Ashley Cardill Lane",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261643",
+                "attachment_title": "Report - Permanent AWSC at Intersection of Shauna Crescent.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0075- Osgoode",
+            "minutes": "Councillor S. Devine dissented on this recommendation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat Transportation Committee recommend that Council approve the installation of a permanent all-way stop control at the intersection of Shauna Crescent, Evening Shadow Avenue, and Ashley Cardill Lane.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.2",
+            "title": "Councillor G. Darouze Permanent All-Way Stop Control at Intersection of Parkway Road and Blackcreek Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261638",
+                "attachment_title": "Report - Permanent AWSC at Intersection of Parkway Road and Blackcreek Road.pdf"
+              }
+            ],
+            "description": "File no: ACS2023-0CC-CCS-0076- Osgoode",
+            "minutes": "Councillor S. Devine dissented on this recommendation.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat Transportation Committee recommend that Council approve the installation of a permanent all-way stop control at the intersection of Parkway Road and Blackcreek Road.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.3",
+            "title": "Councillor G. Darouze All Way Protected/Permitted Left-Turn Signals at Intersection of Bank and Mitch Owens",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261641",
+                "attachment_title": "Report - All Way Protected Left Turn Signal Bank and Mitch Owens.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0084 - Osgoode",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat Transportation Committee recommend that Council approve the installation of protected/permitted left turn phasing (advance left-turn arrow) in all directions at the intersection of Bank Street and Mitch Owens Road.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Withdrawn",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.4",
+            "title": "Councillor R. Brockington On-Street Parking Removal in Hunt Club",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261640",
+                "attachment_title": "Report - On-Street Parking Removal in Hunt Club.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0080- River",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendation\nThat the Transportation Committee recommend that Council approve the provision of on-street parking be removed due to safety issues on a small portion of three streets: \u00a0Paul Anka Drive, Pigeon Terrace and Uplands Drive",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.5",
+            "title": "Councillor R. Brockington Community Safety Zones in River Ward",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261639",
+                "attachment_title": "Report - Community Safety Zones in River Ward.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0088 - River",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Transportation Committee recommend that Council approve the designation of a Community Safety Zone on Merivale Road (Carling to Kirkwood) and Walkley Road (Airport Parkway to Otterson/Springland) as further described in this report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "9.6",
+            "title": "Councillor S. Menard\u00a0Bike Share Program Recommendation and Direction",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261642",
+                "attachment_title": "Report - Bike Share Recommendation and Direction.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0085 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendations\nThat Transportation Committee recommend that City Council endorses the development of a bike share program this term of council, and that City Council direct staff to:\na. \u00a0 \u00a0Update the information on bike sharing that was reported in 2021 as part of the Public Bike Parking Strategy; andb. \u00a0 \u00a0Incorporate the relevant findings of current studies being carried out by Envirocentre/Ottawa Climate Action Fund and by Transportation Association Canada on shared micromobility services; andc. \u00a0 \u00a0Report back to Transportation Committee in 2025, with recommendations on an appropriate bike share model that would serve the needs of the City",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-06-05",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS following publication of the Transportation Committee Agenda Councillor Menard has submitted a revised report for consideration that includes updated language in the report recommendation;\nTHEREFORE BE IT RESOLVED THAT the report recommendation in report ACS2023-OCC-CCS-0085 be amended to read as follows;\nThat Transportation Committee recommend that City Council direct staff to continue working towards the development of a bike share program this term of council, and, further that City Council direct staff to:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "11.1",
+            "title": "Highway 416 at Barnsdale Road Interchange, Preliminary Design and MTO Class Environmental Assessment Study",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=261637",
+                "attachment_title": "IPD - Highway 416 at Barnsdale Road Interchange.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-TP-0006 - City-Wide",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Decommissioning the Strandherd/Crestway bus-only left turning lane",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor W. Lo",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023-06-06",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Nepean Woods Park and Ride (the park and ride) near Strandherd/Woodroffe was opened in 2014 to accommodate expected increases in transit usage from the community, including overflow usage from Fallowfield Park and Ride; and,\nWHEREAS park and ride usage has remained far below expected usage levels since its opening, at an average of 16 per cent capacity before the COVID-19 pandemic and just two per cent capacity since the height of the pandemic; and,\nWHEREAS correspondingly, transit service\u2014and therefore transit vehicles accessing the park and ride\u2014has been low since the park and ride\u2019s opening; and,\nWHEREAS the project initially included a set of double left turning lanes from westbound Strandherd into the park and ride\u2019s access roadway; and,\nWHEREAS the outer left turning lane was converted to an exclusive bus-only left turning lane some time between 2015 and 2017 to address conflicting movements between transit vehicles and general traffic following the opening of the plaza at 3091 and 3101 Strandherd Drive, which has an access off the west side of the park and ride\u2019s access roadway; and,\nWHEREAS the traffic signalling pattern since the introduction of the bus-only left turning lane includes a transit priority signal to allow transit vehicles to turn left from Strandherd before general traffic; and,\nWHEREAS following the expiration of the transit priority cycle, all traffic from both the general traffic left turning lane and the bus-only left turning lane is permitted to turn left from Strandherd, thereby reintroducing the conflict the transit priority signal was intended to avoid, as vehicles from the general traffic left turning lane must move from the left lane to the right lane within 50 metres of completing the turn to access 3091 and 3101 Strandherd; and,\nWHEREAS transit vehicles do not always arrive at the signal in time to take advantage of the transit priority signal and are permitted to complete the left turn concurrently with general traffic after the transit priority signal has expired; and,\nWHEREAS the conflicting traffic movements have potential to be unsafe, as some impatient general traffic vehicles may turn right from the left lane in the path of a moving bus in the right lane; and,\nWHEREAS the very low usage and traffic flows at the park and ride do not justify an exclusive bus-only left turning lane into the park and ride, especially not the potentially dangerous traffic conflicts created by the transit priority measure meant to deconflict traffic.\nTHEREFORE, BE IT RESOLVED THAT the exclusive bus-only left turning lane into the Nepean Woods Park and Ride on the westbound Strandherd Drive onto Crestway Drive be decommissioned until transit and traffic use and flows warrant its reimplementation; and,\nBE IT FURTHER RESOLVED THAT the exclusive bus-only left turning lane into the Nepean Woods Park and Ride, on the westbound Strandherd Drive onto Crestway Drive, be hatched off by appropriate road markings, leaving only one left turning lane and thereby combining all west-to-south left turning traffic to a single left turn lane; and,\nBE IT FURTHER RESOLVED THAT the exclusive bus-only left turning lane overhead reserved bus lane sign and the priority signal heads be removed, including for redeployment to another location requiring their use.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "13.1",
+            "title": "TRC-2023-05- Queen Elizabeth Driveway Closure \u2013 Traffic Volumes and Impacts",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor T. Tierney\u00a0\nQueen Elizabeth Driveway is a critical link within the City\u2019s transportation network, spanning from Laurier Avenue to Preston Street. The Driveway connects Ottawa\u2019s downtown core with nearby residential neighborhood, and it is also host to morning and afternoon commuters, due to the connection to Prince of Wales Drive and communities to the south of the city. \u00a0Over the summer of 2022, from Canada Day to Labour Day, the National Capital Commission closed, 24 hours a day, 7 days a week, the Queen Elizabeth Driveway north of Fifth Avenue to regular traffic in favor of active-transportation.Historically, there are approximately 10,000 vehicles that travel on Queen Elizabeth Driveway in the area of Fifth Avenue. \u00a0With the closure in place, these motorists had to find alternate routes to complete their travels. \u00a0Once again in 2023, the National Capital Commission plans to close the Queen Elizabeth Driveway north of Fifth Avenue 7 days a week from 8 am to 8pm from Canada Day to Labour Day.As a result of the closure, the City of Ottawa collected traffic volumes pre and post closure in 2022. \u00a0\nCan staff prepare a response for the September\u2019s Transportation Committee meeting that provides information on the traffic, pedestrian and cycling volumes with the closure in place and also provides details on the impacts the closure had on adjacent residential communities south of Pretoria Bridge and to Emergency Services?",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "13.2",
+            "title": "TRC-2023-06- Queen Elizabeth Driveway \u2013 Legal and Operational Impacts",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor S. Desroches\u00a0\nDoes the National Capital Commission\u2019s unilateral decision to change the transportation status of Queen Elizabeth Drive impact the City of Ottawa\u2019s legal obligation to winter maintain the federal roadway in perpetuity as is the current pre-amalgamation legal agreement?Can city staff further advise what, if any, legal or operational impacts, the NCC\u2019s decision may have on the City of Ottawa. This examination would include how such a move may affect the City\u2019s existing legal obligation to maintain this Federal roadway and associated assets in perpetuity in accordance with the pre-amalgamation agreement to do so?\u201d",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "13.3",
+            "title": "TRC-2023-07- All-way stop controls and Pedestrian Crossovers - AODA requirements",
+            "attachments": [],
+            "description": "",
+            "minutes": "\u00a0Submitted by Councillor G. Gower\nCouncil has approved a warranting process for the installation of All-Way Stop Controls (AWSC) in addition to a screening and selection process for the implementation of Pedestrian Crossovers (PXO). Prior to proceeding with the installation of AWSC or PXOs, what are considerations related to pedestrian accessibility and to requirements of the Accessibility for Ontarians with Disabilities Act, 2005 (AODA)? \u00a0How does meeting AODA requirements impact the existing Council-approved policies?",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "13.4",
+            "title": "TRC-2023-08- Truck Routes",
+            "attachments": [],
+            "description": "",
+            "minutes": "Submitted by Councillor D. Brown\nMany of the fastest growing communities in Ottawa are in villages in the rural areas of the City. Moreover, many large warehouses and other businesses have begun operating in the south end of the City. This growth has led to increased commercial vehicle activity, particularly in the form of large transport trucks. Despite the significant degree of change in use patterns, these trucks navigate on designated routes which have not been comprehensively reviewed in many years.Indeed, the last time in which comprehensive work was done to assess the City\u2019s truck route network was in 2005. However, even this process was not a full truck route review; instead, it was a process of harmonization following amalgamation. This means that the amalgamated City of Ottawa has, in effect, never had a comprehensive truck route review.This has led to serious challenges for many communities. Truck traffic has been routinely identified by residents as a major impediment to community wellbeing in Ottawa\u2019s rural villages; this is perhaps especially true in Manotick. When excessive numbers of large vehicles transit local streets, there are major impacts related to business development, climate change, health, equity, and other concerns of high importance to the City that merit regular study. Moreover, truck traffic in rural villages was identified many times as part of \u2018As We Heard It\u2019 reports that staff produced in support of the updated Transportation Master Plan.The major and acute issue in the City\u2019s south end is a limited number of bridge crossings over the Rideau River. This has led to a significant and disproportionate increase in truck traffic pressures on very specific roads at and around bridges.Policy 10 of the TMP Master Plan discusses the City\u2019s approach to conducting a truck route network review. The direction which Council has approved is that the City's truck route network will be updated following \u201cthe implementation of solutions to address interprovincial truck traffic in the downtown.\u201d However, this does not account for the increase in truck traffic in the south end of the City, nor does it account for the increased traffic\u2019s impacts on residents in those communities.With that information in mind, can staff provide their advice as to the following questions:\n1. What measures would be necessary to remove Manotick Main Street between Bankfield and Century and Bridge Street between Manotick Main Street and River Road from the City\u2019s Truck Route Network?2. What would be the costs, staffing requirements, timelines, benefits, and drawbacks associated with conducting a comprehensive review of the City\u2019s Truck Route Network prior to the implementation of solutions to address interprovincial truck traffic?3. By way of comparison, what would be the costs, staffing requirements, timelines, benefits and drawbacks associated with conducting a limited review of truck routes in the City\u2019s south end with a focus on where the truck routes interact with bridges across the Rideau River?",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "14.1",
+            "title": "Motion - A. Troster - Cycling Safety Gladstone Avenue",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "A. Troster",
+                "motion_seconded_by": "",
+                "motion_text": "That the following item be added to the agenda for the June 22, 2023 meeting of Transportation Committee pursuant to Subsection 89(3) of the Procedure By-law so that staff may initiate their review as soon as possible\nWHEREAS a resident was seriously injured while cycling on Gladstone Avenue on Friday June 16, 2023; and,\nWHEREAS Gladstone Avenue is classified as a major collector road used by residents walking, cycling, driving and taking transit, as well being a designated truck route and Suggested Route in the City\u2019s cycling network with a high volume of existing cyclists; and,\nWHEREAS the Vision of the City of Ottawa's 2020-2024 Road Safety Action Plan is for a comprehensive and proactive strategy for making Ottawa roads safe for all users, and vulnerable road users (pedestrians, motorcyclists and cyclists) are identified as a key emphasis; and,\nWHEREAS significant intensification is expected in this area and the TMP emphasizes the need to accommodate future travel demand through sustainable and space-efficient modes of transportation; and,\nWHEREAS Council approved a feasibility study of adding cycling facilities on Gladstone Ave from Percy St to Corso Italia Station as part of the 2023 Transportation Master Plan (TMP) Update Part 1; and,\nWHEREAS a dedicated continuous cycling facility cannot be readily accommodated within the Gladstone Avenue right-of-way without roadway modifications and an understanding of the impacts to other users of the road corridor; and,\nWHEREAS TMP Policy 7-1 and 9-10 emphasizes the importance of improving safety and comfort for vulnerable users relative to existing conditions, including incremental improvements and lower-cost solutions that provide dedicated space for vulnerable users;\nTHEREFORE, BE IT RESOLVED that staff be directed to begin the feasibility study project from Percy St to Corso Italia Station and report back to Transportation Committee as soon as is practicable but no later than Q3/Q4 2024 with options to implement cycling facilities along Gladstone Avenue taking into consideration elements such as, but not limited to, safety considerations for all road users, accessibility considerations, traffic signal operations, transit operations, and motor vehicle parking;\nAND BE IT FURTHER RESOLVED that staff review the impacts of removing Gladstone Avenue between Preston Street and Bronson Avenue from the designated truck route network;\nAND BE IT FURTHER RESOLVED that staff review short term options to improve cycling safety at the Gladstone Avenue and Rochester Avenue intersection including but not limited to signal timing, signage and/or pavement marking changes, and implement enhancements as soon as practicable.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nAugust 24, 2023.",
+        "minutes": "The meeting adjourned at 1:24 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

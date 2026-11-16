@@ -1,0 +1,433 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=345f975d-2447-4740-8397-24fbc8d31968&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=345f975d-2447-4740-8397-24fbc8d31968&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Transportation Committee - November 28, 2024",
+  "meeting_number": 16,
+  "meeting_date": "2024-11-28",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Tim Tierney",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Jessica Bradley",
+    "George Darouze",
+    "Steve Desroches",
+    "Sean Devine",
+    "Laura Dudas",
+    "Glen Gower",
+    "Laine Johnson",
+    "Wilson Lo",
+    "Matt Luloff",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 12,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254509",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254510",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and hybrid participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday December 11, 2024 in Transportation Committee Report 16.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Wednesday November 27, 2024, and the deadline to register to speak by email is 8:30 am on Thursday November 28, 2024.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "TRC Minutes 15 \u2013 24 October, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254511",
+                "attachment_title": "TRC 15 Draft Minutes (EN).pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254512",
+                "attachment_title": "TRC 15 Draft Minutes (FR).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "Draft 2025 Operating and Capital Budgets\u00a0\u2013 Transportation Committee",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254514",
+                "attachment_title": "Report English - 2025 Draft Operating and Capital Budgets.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254515",
+                "attachment_title": "Full Budget Book - Transportation Committee.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254516",
+                "attachment_title": "Condensed Book English - Transportation Committee.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254517",
+                "attachment_title": "Document 1 English - 2025 Draft Budget Operating Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254518",
+                "attachment_title": "Document 2 English - 2025 Draft Capital Budget Summaries.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254519",
+                "attachment_title": "Document 3 English - 2025 Draft Budget Capital Transit Adjustments.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254520",
+                "attachment_title": "Document 4 English - Multi Year Budget.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254521",
+                "attachment_title": "Document 6 English \u2013 Continuous Improvements List.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254522",
+                "attachment_title": "Document 7 English \u2013 2025 Draft Budget \u2013 Investing in what matters, fighting for affordability.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254523",
+                "attachment_title": "Report French - Draft 2025 Operating and Capital Budgets.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254524",
+                "attachment_title": "Condensed Book French - Comit\u00e9 des transports.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254525",
+                "attachment_title": "Document 1 French - Sommaires du budget fonctionnement provisoire 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254526",
+                "attachment_title": "Document 2 French - R\u00e9sum\u00e9s du budget d"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254527",
+                "attachment_title": "Document 3 French - Rajustements du budget provisoire des immobilisations du transport en commun 2025.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254528",
+                "attachment_title": "Document 4 French \u2013 Budget pluriannuel.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254529",
+                "attachment_title": "Document 5 English - Budget Document Guide.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254530",
+                "attachment_title": "Document 5 French- Lignes directrices concernant le budget.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254531",
+                "attachment_title": "Document 6 French \u2013 Liste des am\u00e9liorations continues.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254532",
+                "attachment_title": "Document 7 French \u2013 Livret du budget pr\u00e9liminaire de 2025.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-FCS-FSP-0017 \u2013 City Wide\u00a0\nThe draft budget was tabled at the Council meeting of November 13, 2024. The Transportation Committee's report on the draft budget will be considered by Council at its meeting of December 11, 2024.",
+            "minutes": "The draft budget was tabled at the Council meeting of November 13, 2024.\nThe following staff presented an overview of the draft 2025 budget and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following staff also answered questions from the Committee:\nPublic Works Department: Krista Tanaka, Director, Traffic Services, and Quentin Levesque, Director, Roads and Parking Services\nInfrastructure and Water Services Department: Carina Duclos, Director, Infrastructure Services and Susan Johns, Director, Asset Management Services\nPlanning, Development and Building Department: Jennifer Armstrong, Director, Transportation Planning and Court Curry, Manager, Right of Way and Urban Design Services\nCouncillors T. Kavanagh, R. King, and S. Plante were also present and asked questions to the staff.\nCommittee received a submission from Ottawa Disability Coalition (letter dated November 26, 2024) and a copy is filed with the Office of the City Clerk.\nThe following members of the public spoke before the Committee and provided comments on the item:\nAfter discussion, the Committee carried the item as amended.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Recommendation\nThat the Transportation Committee consider the relevant portions of the 2025 Operating and Capital Budgets including the tax and rate supported programs, and make recommendations to Council sitting in Committee of the Whole to be held December 11, 2024.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "That the Transportation Committee recommend that Council, sitting as Committee of the Whole, approve the Transportation Committee 2025 Draft Operating and Capital Budget, as follows:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Public Works Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Strategic Road Safety Action Plan Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254533",
+                "attachment_title": "Report English - Strategic Road Safety Action Plan Annual Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254534",
+                "attachment_title": "English Document 1 - 2024 Implementation Plan Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254535",
+                "attachment_title": "English Document 2 - ASE Existing and Planned 2025 Locations.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254536",
+                "attachment_title": "English Document 3 - 2025 Implementation Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254537",
+                "attachment_title": "English Document 4 - Warranted Traffic Signal Locations Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254538",
+                "attachment_title": "English Document 5 - Road Safety-Related 2025 City of Ottawa Investments.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254539",
+                "attachment_title": "Report French - Strategic Road Safety Action Plan Annual Report .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254540",
+                "attachment_title": "French Document 1 - 2024 Implementation Plan Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254541",
+                "attachment_title": "French Document 2 - ASE Existing and Planned 2025 Locations.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254542",
+                "attachment_title": "French Document 3 - 2025 Implementation Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254543",
+                "attachment_title": "French Document 4 - Warranted Traffic Signal Locations Status Update.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254544",
+                "attachment_title": "French Document 5 - Road Safety-Related 2025 City of Ottawa Investments.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-PWD-TRF-0005 - City-wide",
+            "minutes": "The following staff presented an overview of the Strategic Road Safety Action Plan and answered questions from the Committee.\u00a0 A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following staff also answered questions from the Committee:\nAlain Gonthier, General Manager, Public Works Department and Jennifer Armstrong, Director, Transportation Planning, Planning, Development and Building Department.\nCouncillors R. King and S. Plante were also present and asked questions to the staff.\nCommittee received a submission from John Verbaas (letter dated November 29, 2024) and a copy is filed with the Office of the City Clerk.\nJohn Verbass spoke before the Committee and provided comments on the item.\nAfter discussion, the Committee carried the item.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Transportation Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Status Update \u2013 Transportation Committee Inquiries and Motions for the period ending November 22, 2024",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254545",
+                "attachment_title": "Report - Status Update - Inquiries and Motions.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254546",
+                "attachment_title": "Document 1 - Inquiries and Motions.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-CCS-0105 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Transportation Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Councillor M. Luloff - Community Safety Zone on Prestwick Drive",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=254513",
+                "attachment_title": "Motion Report - Luloff - Community Safety Zone.pdf"
+              }
+            ],
+            "description": "File No. ACS2024-OCC-CCS-0098 - Orl\u00e9ans-Est-Cumberland (Ward 1)",
+            "minutes": "Councillor M. Luloff introduced the motion.\nThe Committee carried the motion on consent.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Motion\nBE IT RESOLVED THAT Transportation Committee recommend that Council approve:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Councillor S. Devine - Road reviewal budget \u2013 2025 Asset Management Strategy",
+            "attachments": [],
+            "description": "",
+            "minutes": "WHEREAS the Comprehensive Asset Management Strategy approved in 2012 prioritizes investment in the arterial and collector road networks; and\nWHEREAS the State of the Asset Report (SOAR) in 2017 showed the overall condition of the 1,500 km arterial road network in Fair condition and the 1,500 km collector road network in Poor condition; and\nWHEREAS the 2022 Transportation Asset Management Plan (AMP) indicates the overall condition of the arterial road network is Fair to Good condition and the collector road network is Fair condition; and\nWHEREAS the overall condition of arterial and collector road networks has improved since 2017 and none of these roads are in Very Poor condition; and\nWHEREAS the 2022 Transportation AMP includes the renewal needs of the local road network for the first time; and\nWHEREAS the overall condition of the 2,500 km local road network is Good condition, but 1% of local roads, representing 25km in length are in Very Poor condition and 11% of local roads, representing 275 km are in Poor condition; and\nWHEREAS the 2017 Long Range Financial Plan does not currently include the renewal needs for local roads; and\nWHEREAS the Comprehensive Asset Management Program supports a risk-based approach to investment decisions;\nTHEREFORE BE IT RESOLVED that Infrastructure and Water Services Department report back as a part of the 2025 AMP update report on the feasibility of allocating the road renewal budget across the road classes to ensure a more responsive level of investment in local roads.",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "9.2",
+            "title": "Councillor L. Johnson - Community Safety Zone on Maitland Avenue",
+            "attachments": [],
+            "description": "",
+            "minutes": "WHEREAS Maitland Avenue between the Highway 417 overpass and Clyde Avenue carries high volume car and truck traffic; and\u00a0\nWHEREAS Maitland Avenue cuts through residential neighbourhoods on both sides; and\nWHEREAS collisions are frequent on this portion of Maitland Avenue; and\u00a0\nWHEREAS this portion of Maitland Avenue has a church, a childcare centre, a park, many homes and several bus stops; and\u00a0\nWHEREAS a worker from the childcare centre was struck from behind by a vehicle in November, 2024; and\nWHEREAS the City has identified the intersection of Maitland/Erindale/Glenmount as problematic due to the risk of collisions and the high volume of children and youth who cross there daily for school; and\nWHEREAS the speed limit is 50 km/h but a speed study in this stretch in January 2022 found the 85th percentile was 60 km/h and another speed study in this stretch in November 2022 found the 85th percentile was 65 km/h;\nWHEREAS Community Safety Zones are a tool to help reduce the speed travelled along the roadway and to improve the safety of vulnerable road users in this area; and\u00a0\nWHEREAS the community has repeatedly expressed concerns regarding the persistent and dangerous speeding issues on this stretch; and\u00a0\nWHEREAS Community Safety Zones in Ottawa are established via delegated authority of the General Manager of Public Works and the Director of Traffic Services within locations that meet the Council-approved criteria for the installation of Automated Speed Enforcement; and\u00a0\nWHEREAS the segment of Maitland Avenue between Hwy 417 and Clyde Ave does not meet the Council-approved criteria for Automated Speed Enforcement;\u00a0\nTHEREFORE BE IT RESOLVED THAT Transportation Committee recommend that Council approve:\u00a0",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "10.1",
+            "title": "Vimy Memorial Bridge Collisions",
+            "attachments": [],
+            "description": "Submitted by Councillor S. Desroches\nThe Ottawa Police Service report the following collision history on the Vimy Memorial Bridge and the adjacent intersections of Prince of Wales Drive at Strandherd Drive and River Road at Strandherd Drive/Earl Armstrong Road\nThe Vimy Memorial bridge and the adjoining intersections represent critical links for current OC Transpo Service and the new Trillium Line stations. Given its importance to the entire south Ottawa transportation network, what mechanisms or processes are in place to monitor and address day-to-day congestion and promote road safety,",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting: February 27, 2025.",
+        "minutes": "The meeting adjourned at 1:26 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

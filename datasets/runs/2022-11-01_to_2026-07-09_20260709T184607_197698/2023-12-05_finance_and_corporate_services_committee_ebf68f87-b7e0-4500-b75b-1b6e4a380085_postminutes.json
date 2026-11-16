@@ -1,0 +1,626 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ebf68f87-b7e0-4500-b75b-1b6e4a380085&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ebf68f87-b7e0-4500-b75b-1b6e4a380085&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Finance and Corporate Services Committee - December 05, 2023",
+  "meeting_number": 10,
+  "meeting_date": "2023-12-05",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Mayor Mark Sutcliffe",
+    "Vice-Chair: Councillor Catherine Kitts",
+    "Matt Luloff",
+    "Laura Dudas",
+    "Cathy Curry",
+    "Glen Gower",
+    "Tim Tierney",
+    "Rawlson King",
+    "Jeff Leiper",
+    "Riley Brockington",
+    "Shawn Menard",
+    "George Darouze"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 13,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166476",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166477",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on December 6, 2023 in Finance and Corporate Services Committee Report 10.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on December 4, 2023, and the deadline to register to speak by email is 8:30 am on December 5, 2023.",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "FCSC Minutes 9 \u2013 November 7, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166542",
+                "attachment_title": "FCSC Draft Minutes 9 (EN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Finance and Corporate Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "2024 Draft Operating and Capital Budgets -\u00a0Finance and Corporate Services Committee",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166482",
+                "attachment_title": "Report - 2024 Draft Operating and Capital Budgets EN-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166483",
+                "attachment_title": "Report - 2024 Draft Operating and Capital Budgets FR-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166484",
+                "attachment_title": "Document 1 - 2024 Draft Operating Budget Summaries EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166485",
+                "attachment_title": "Document 1 - Sommaires du budget fonctionnement provisoire 2024 FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166486",
+                "attachment_title": "Document 2 - 2024 Draft Capital Budget Summaries EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166487",
+                "attachment_title": "Document 2 - R\u00e9sum\u00e9s du budget d"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166488",
+                "attachment_title": "Document 3 - Multi Year Budget EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166489",
+                "attachment_title": "Document 3 - Multi Year Budget FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166490",
+                "attachment_title": "Document 4 - Budget Document Guide EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166491",
+                "attachment_title": "Document 4 - Lignes directrices concernant le budget FR.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166492",
+                "attachment_title": "Document 5 - Draft Budget 2024 Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166493",
+                "attachment_title": "Document 5 \u2013 Rapport Budget provisoire 2024.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166494",
+                "attachment_title": "Finance and Corporate Services Committee Full Book EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166495",
+                "attachment_title": "Finance and Corporate Services Committee Condensed EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166496",
+                "attachment_title": "Finances et des services organisationnels condens\u00e9 FR.pdf"
+              }
+            ],
+            "description": "File No. AACS2023-FCS-FSP-0016 - City-wide",
+            "minutes": "The draft budget was tabled at the Council meeting of November 8, 2023. The Finance and Corporate Services Committee report on the draft budget will be considered by Council at its meeting of December 6, 2023.Mr. Cyril Rogers, Interim General Manager and Chief Financial Officer, Finance and Corporate Services Department (FCSD) presented an overview of the Budget and answered questions from the Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe following staff were also present and responded to questions:\u00a0\nThe following members of the public spoke before the Committee and provided comments on the report recommendations:\n\u00a0[ \u00a0 \u00a0* Individuals / groups marked with an asterisk above either provided comments in writing or by e-mail; all submissions and presentations are held on file with the Office of the City Clerk. ]\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\u00a0\n\u2022 \u00a0 \u00a0Email dated December 4, 2023 from French Language Services Committee\nFollowing discussions and questions of staff and delegations, the Committee considered Motions No. FCSC 2023-10-01 to 02 and the following Direction to Staff:\nDIRECTION TO STAFF (Councillor J. Leiper)\nSparks St Public Realm Plan\u00a0\nThe Sparks St Public Realm Plan was originally approved by Council in 2019, while the last major renewal for Sparks St was in 1989. Sparks St was the first public pedestrian only street in the country and is home to a variety of public assets, including the Bank of Canada museum, a wealth of public art and hosts key events such as Winterlude every year.\nAll reports that have been released on downtown revitalization, including the recent report from the Canadian urban institute on the state of Canada\u2019s downtowns highlight public realm investment as one of the key pillars of successful downtown revitalization. Public realm enhancements have a proven positive impact on physical health, mental well being and public safety.\nSignificant public realm enhancement and investment have been shown to be one of the cheapest but most effective ways cities can increase private investment and development in an area. While other areas downtown have received significant investment in public realm with projects (Lansdowne, the Byward Market District Authority, the Byward Market Public Realm Plan) Sparks Street requires increased public realm investment to fulfill the vision of a revitalized downtown.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee consider the relevant portions of the 2024 Operating and Capital Budgets and make recommendations to Council sitting in Committee of the Whole to be held December 6, 2023.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 -10-01",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS updated versions of the Finance and Corporate Services Committee budget books were issued after publication of the Finance and Corporate Services Committee agenda and distributed to Members of Council on December 4, 2023; and\nWHEREAS corrections have been made to the Non-Departmental Operating Resource Requirement to reflect corrections to Payments-in-Lieu of Taxation and Contribution to Tax Stabilization revenues that do not impact the overall Non-Departmental net requirement;\nTHEREFORE BE IT RESOLVED that the Finance and Corporate Services Committee receive and consider the revised FCSC Budget books, including revised pages 54, 56, 57, 101 (Pages 62, 63 and 64 in the French condensed book).",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "That the Finance and Corporate Services Committee recommend that Council, sitting as Committee of the Whole, approve the Finance and Corporate Services Committee 2024 Draft Operating and Capital Budget, as follows:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Report on 2024 budget expenses pursuant to Ontario Regulation 284/09",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166478",
+                "attachment_title": "Report - 2024 Budget Expenses Pursuant to Ontario Reg 284-09.pdf"
+              }
+            ],
+            "description": "File No.:ACS2023-FCS-FIN-0011 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend that Council:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Restatement of the Ottawa-Carleton Regional Transit Commission Employees\u2019 Pension Plan Text and Governance Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166479",
+                "attachment_title": "Report - Restatement of the Ottawa-Carleton Regional Transit Commission Employees\u2019 Pension Plan.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166480",
+                "attachment_title": "Document 1 - Ottawa-Carleton Regional Transit Commission Restatement of the Employees\u2019 Pension Plan-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166481",
+                "attachment_title": "Document 2- Ottawa-Carleton Regional Transit Commission Employees Pension Plan - Governance Plan-AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-FCS-FIN-0009 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Finance and Corporate Services Committee recommend that Council approve the restatement of the Ottawa Carleton Regional Transit Commission Employees\u2019 Pension Plan Text and Governance Plan.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Infrastructure and Water Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "\u1fb9dis\u014dke Project Update",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166497",
+                "attachment_title": "Report - Adisoke Project update.pdf"
+              }
+            ],
+            "description": "File No.: ACS2023-IWS-IS-0001 - City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report RecommendationThat the Finance and Corporate Services Committee and Council receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "2022 Business Improvement Area and Sparks Street Mall Authority - Annual Reports and Audited Financial Statements",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166499",
+                "attachment_title": "ACS2023-PRE-EDP-0052 - 2022 BIA and Sparks Street Mall Authority - Annual Reports and Audited Financial Statements.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166500",
+                "attachment_title": "Document 1 - Bank Street BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166501",
+                "attachment_title": "Document 2 - Barrhaven BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166502",
+                "attachment_title": "Document 3 - Bells Corners BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166503",
+                "attachment_title": "Document 4 - ByWard Market BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166504",
+                "attachment_title": "Document 5 - Carp Road Corridor BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166505",
+                "attachment_title": "Document 6 - Carp Village BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166506",
+                "attachment_title": "Document 7 - Downtown Rideau BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166507",
+                "attachment_title": "Document 8 - Glebe BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166508",
+                "attachment_title": "Document 9 - Heart of Orl\u00e9ans BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166509",
+                "attachment_title": "Document 10 - Kanata Central BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166510",
+                "attachment_title": "Document 11 - Kanata North BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166511",
+                "attachment_title": "Document 12 - Manotick BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166512",
+                "attachment_title": "Document 13 - Preston Street BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166513",
+                "attachment_title": "Document 14 - Quartier Vanier BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166514",
+                "attachment_title": "Document 15 - Somerset Street Chinatown BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166515",
+                "attachment_title": "Document 16 - Somerset Village BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166516",
+                "attachment_title": "Document 17 - Sparks Street BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166517",
+                "attachment_title": "Document 18 - Sparks Street Mall Authority 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166518",
+                "attachment_title": "Document 19 - Wellington West BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166519",
+                "attachment_title": "Document 20 - Westboro Village BIA 2022 Annual Report-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166520",
+                "attachment_title": "Document 21 - Bank Street BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166521",
+                "attachment_title": "Document 22 - Barrhaven BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166522",
+                "attachment_title": "Document 23 - Bells Corners BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166523",
+                "attachment_title": "Document 24 - ByWard Market BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166524",
+                "attachment_title": "Document 25 - Carp Road Corridor BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166525",
+                "attachment_title": "Document 26 - Carp Village BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166526",
+                "attachment_title": "Document 27 - Downtown Rideau BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166527",
+                "attachment_title": "Document 28 - Glebe BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166528",
+                "attachment_title": "Document 29 - Heart of Orl\u00e9ans BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166529",
+                "attachment_title": "Document 30 - Kanata Central BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166530",
+                "attachment_title": "Document 31 - Kanata North BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166531",
+                "attachment_title": "Document 32 - Manotick BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166532",
+                "attachment_title": "Document 33 - Preston Street BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166533",
+                "attachment_title": "Document 34 - Quartier Vanier BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166534",
+                "attachment_title": "Document 35 - Somerset Street Chinatown BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166535",
+                "attachment_title": "Document 36 - Somerset Village BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166536",
+                "attachment_title": "Document 37 - Sparks Street BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166537",
+                "attachment_title": "Document 38 - Sparks Street Mall Authority 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166538",
+                "attachment_title": "Document 39 - Wellington West BIA 2022 Audited Financial Statements-AODA.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166539",
+                "attachment_title": "Document 40 - Westboro Village BIA 2022 Audited Financial Statements-AODA.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-PRE-EDP-0052 \u2013 City-wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendations\nThat the Finance and Corporate Services Committee recommend:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Councillors' Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Motion - Luloff - Right of Way Land Exchange \u2013 1015 Tweddle Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166540",
+                "attachment_title": "9.1 - Motion Report - ACS2023-OCC-CCS-0126A - ROW Exchange - 1015 Tweddle Road - M. Luloff - Revised .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166541",
+                "attachment_title": "9.1 - Document 2 - ACS2023-OCC-CCS-0126 - Original Motion - 1015 Tweddle Road - M. Luloff .pdf"
+              }
+            ],
+            "description": "ACS2023-OCC-CCS-0126-V2",
+            "minutes": "During consent agenda, Councillor M. Luloff noted that he would be withdrawing his motion. The motion was withdrawn the with will of committee.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "THEREFORE BE IT RESOLVED that Finance and Corporate Services Committee \u00a0recommend that Council direct the General Manager of Planning, Real Estate and Economic Development Department, contingent upon the conclusion of the process to have that area of the Jeanne d\u2019Arc ROW adjacent to 1015 Tweddle that has been identified as being redundant (as shown on the attached sketch, and held on file with the City Clerk) declared surplus and being closed, entering into an agreement with the owner of 1009 Trim to convey the redundant Jeanne d\u2019Arc ROW adjacent to 1015 Tweddle Road to become part of 1015 Tweddle Road to allow for it to be developed as part of the project once the LRT encumbrance is lifted in exchange for the Owner conveying to the City the area of the site along the east side of Tweddle Road to provide for the City to improve Tweddle Road for pedestrians and cyclists between Jeanne d\u2019Arc and Petrie Island.\nBE IT FURTHER RESOLVED that the owner of 1015 Tweddle assume all costs (survey, legal and registration costs) that would be incurred to implement the land transfer.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Withdrawn",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "AMO Annual General Meeting and Conference 2023 Member of Council Delegate Report (Councillor Kitts)",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=166498",
+                "attachment_title": "IPD - ACS2023-OCC-CCS-0159_IPD_AMO 2023 Delegate Report_Councillor Kitts.pdf"
+              }
+            ],
+            "description": "File No. ACS2023-OCC-CCS-0159",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "12.1",
+            "title": "Kanata North Nuisance Mosquito Control Program",
+            "attachments": [],
+            "description": "ACS2023-OCC-CCS-0163 - Ward 4 \u2013 Kanata-North",
+            "minutes": "Councillor C. Curry introduced a motion to add an item onto the Finance and Corporate Services Committee agenda.\nMr. Cyril Rogers, Interim General Manager and Chief Financial Officer, Finance and Corporate Services Department and Mr. David White, City Solicitor and Interim City Clerk responded to questions.\u00a0\nAt the conclusion of questions to staff, the report recommendations were then put before Committee and were Carried as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report recommendations",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023 10-03",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS the Kanata North Nuisance Mosquito Control Program has operated in Ward 4 \u2013 Kanata North since 2016;\nWHEREAS the program is funded through an area-specific levy applied to Ward 4 \u2013 Kanata North residents;\nWHEREAS Ward 4 \u2013 Kanata North residents approve or reject the area-specific levy;\nWHEREAS Council approval is required to conduct a community-wide vote in order to determine support for the program;\nWHEREAS Finance and Corporate Services Committee next convenes on 6 February 2024;\nWHEREAS Council next convenes on 7 February 2024, should the associated report not rise at Council on 6 December 2023;\nWHEREAS consultation must commence in Q1 2024 to allow for a timely roll-out of the program should community approvalbe granted;\nTHEREFORE BE IT RESOLVED that the report from Councillor Curry Kanata North Nuisance Mosquito Control Program (ACS2023-OCC-CCS-0163) be added onto the agenda for Finance and Corporate Services Committee meeting of December 5, 2023, pursuant to Subsection 89(3) of the Procedure By-law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nFebruary 6, 2024",
+        "minutes": "The meeting adjourned at 11:38 am.",
+        "motions": []
+      }
+    ]
+  }
+}

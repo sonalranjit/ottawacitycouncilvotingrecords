@@ -1,0 +1,485 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ee6d6fc3-62ec-4d7e-8a01-406f0a654467&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=ee6d6fc3-62ec-4d7e-8a01-406f0a654467&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Board of Health - June 17, 2024",
+  "meeting_number": 11,
+  "meeting_date": "2024-06-17",
+  "meeting_start_time": "17:00",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair Catherine Kitts",
+    "Vice-Chair Tammy DeGiovanni",
+    "Member Elyse Banham",
+    "Member Brent Bauer",
+    "Member Danielle Brown-Shreves",
+    "Member Marty Carr",
+    "Member Sabrina Chung",
+    "Member Laura Dudas",
+    "Member Glen Gower",
+    "Member Theresa Kavanagh",
+    "Member Rawlson King"
+  ],
+  "absent_attendees": [],
+  "agenda_items": {
+    "total_agenda_items": 16,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281641",
+            "attachment_title": "Public Notices_en.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281642",
+            "attachment_title": "Avis publics_fr.pdf"
+          }
+        ],
+        "description": "Please see the attached document for public notices and meeting information, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; processes and timelines for written and oral submissions; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.",
+        "minutes": "All members of the Board of Health were present at roll call.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Announcements / Ceremonial Activities",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "2.1",
+            "title": "National Indigenous History Month (June) and National Indigenous Peoples Day (June 21)",
+            "attachments": [],
+            "description": "First Nation Grandmother Irene Compton and Metis Senator Parm Burgie will offer opening prayers.",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Roll Call",
+        "attachments": [],
+        "description": "",
+        "minutes": "All members of the Board of Health were present at roll call.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Regrets",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "Member Chung declared a pecuniary interest with respect to item number 11.5 - Ottawa Public Health\u2019s Approach to Infectious Disease Case and Contact Management.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Confirmation of Minutes",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281650",
+            "attachment_title": "Post-Meeting Minutes - BOH_Apr15_2024 - English.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281651",
+            "attachment_title": "Post-Meeting Minutes - BOH_Apr15_2024 - French.pdf"
+          }
+        ],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "Confirmation of minutes of the meeting of April 15.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Communications",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281639",
+            "attachment_title": "June BOH Communications List EN.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281640",
+            "attachment_title": "June BOH Communications List FR.pdf"
+          }
+        ],
+        "description": "Four communication items have been received (held on file with the Board of Health Secretary).",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Motion to Introduce Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, Ottawa Public Health 2023 Annual Report, Ottawa Public Health\u2019s Strategic Plan for 2023-2027 - Update on the Strategic Action Plan, Ottawa Public Health Approach to Infectious Disease Case and Contact Management and 2024 Operating, Capital Budget Q1 \u2013 Board of Health for the City of Ottawa Health Unit Status Report and Cyber Security at Ottawa Public Health Presentation \u2013 In Camera Item to consider the security of the property of Ottawa Public Health, be received and considered.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Chair of the Board of Health Verbal Report",
+            "attachments": [],
+            "description": "File ACS2024-OPH-BOH-0011 \u2013 City-wide",
+            "minutes": "Chair Kitts welcomed members of the Board and began her verbal by welcoming and thanking Elder Compton and Senator Burgie for opening the meeting in such a special way in recognition of National Indigenous History Month, as well as National Indigenous Peoples Day.\nChair Kitts also recognized International Pride Month in the City and talked about summer safety, reminding residents of the many resources Ottawa Public Health has to offer to stay health and safe this summer.\u00a0\nChair Kitts advised Members of the Board of a new Business Support Toolkit for mental health, addiction and substance use and provided a recap of the alPHA annual general meeting which was held on June 6 - 8, 2024.\u00a0\nBefore closing her verbal with a farewell message to Member Banham, Chair Kitts spoke about basic income guarantee and food security within the City of Ottawa and invited Member Carr to introduce a walk on motion on her behalf.\u00a0\nThe discussion on this item lasted approximately 18 minutes. The report was then received by the Board. The attached memo includes the Chair\u2019s Verbal Update.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS, the Ottawa Board of Health recognizes that income is one of the most important social determinants of health, and relates to many other determinants including education and literacy, healthy behaviors, inadequate housing, and employment conditions;\nAND WHEREAS, a Basic Income Guarantee program for people over the age of 17 in Canada would meet basic human needs by ensuring the security of a minimum income level, regardless of employment status;\nAND WHEREAS, a Basic Income Guarantee program would help to reduce poverty and improve income security in Canada and address the related negative social and economic impacts on the health of our most vulnerable populations;\nAND WHEREAS, income-based policy measures are necessary to effectively reduce household food insecurity, which is associated with many negative physical and mental health outcomes, and is experienced by 1 in 7 households in Ottawa (as outlined in a report received at the November 2023 Ottawa Board of Health meeting);\nAND WHEREAS, a Basic Income Guarantee program can complement existing social support systems in Canada, in the form of longstanding programs like the Canada Child Benefit and the Guaranteed Income Supplement for seniors, which have demonstrated positive impacts on basic income recipients, economies, and our greater society;\nAND WHEREAS, the Ontario Basic Income Pilot project, that was tested in the Hamilton area, Thunder Bay area and Lindsay between 2017 and 2019, saw 4,000 eligible applicants receive basic income and report positive outcomes, including the alleviation of food and housing insecurity, improved physical and mental health, financial stability, social equity and increased access to employment opportunities;\nAND WHEREAS, Bill S-233, An Act to develop a national framework for a guaranteed livable basic income was referred to and currently being considered by the Standing Senate Committee on National Finance after passing second reading in April 2023;\nAND WHEREAS Bill C-223, An Act to develop a national framework for a guaranteed livable basic income was read a second time and remains in the Order of Precedence in the House of Commons after an initial debate in May 2024;\nAND WHEREAS, the call for a Basic Income Guarantee program in Canada is being made by many other Board\u2019s of Health and municipalities in Ontario and beyond;\nAND WHEREAS, a Basic Income Guarantee program would align with public health priorities, including to seek to address negative impacts of poverty and improve access to healthcare and potentially reduce healthcare costs, enabling people to afford preventive care and timely treatments while preventing more costly healthcare interventions, leading to better overall population health;\nNOW THEREFORE, BE IT RESOLVED:\nTHAT, the Ottawa Board of Health supports the concept of a Basic Income Guarantee for all people over the age of 17 in Canada to help combat low income and economic vulnerability within our community;\nAND THAT, the Ottawa Board of Health calls upon the federal and the provincial governments to collaborate on the introduction and implementation of a national Basic Income Guarantee program for all people over the age of 17 in Canada;\nAND THAT, the Chair of the Ottawa Board of Health write a letter to the Government Representative in the Senate, and the Chair of the Standing Senate Committee on National Finance sharing the Board\u2019s support for this legislation and calling on these leaders to prioritize the passage of Bill S-233.\nAND THAT, the Chair of the Ottawa Board of Health write a letter to the Prime Minister and copy to Deputy Prime Minister and Minister of Finance, and the Government House Leader sharing the Board\u2019s support for this legislation and calling on these leaders to prioritize the passage of Bill C-223.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Medical Officer of Health Verbal Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281653",
+                "attachment_title": "BOH OPHS Consultation Update 2024.06.17.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281654",
+                "attachment_title": "BOH OPHS Consultation Update 2024.06.17 _fr.pdf"
+              }
+            ],
+            "description": "File ACS2024-OPH-MOH-0003 \u2013 City-wide",
+            "minutes": "Dr Etches expressed heartfelt gratitude to Elder Compton and Senator Burgie for honoring the Board with opening prayers.\u00a0Dr. Etches provided the Board with an update on the Ontario Public Health Standards Review and invited Ottawa Public Health employees to present more information on the process, timelines and next steps. She also spoke to several initiatives and areas of focus of Ottawa Public Health including the Ministry\u2019s expansion of access to alcohol, OPH partnerships being made in the downtown core and 2025 budget planning.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "That the Board of Health for the City of Ottawa Health Unit receive this verbal report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ],
+            "sub_agendas_items": [
+              {
+                "agenda_item_number": "8.2.a",
+                "title": "Ontario Public Health Standards Review - Staff Presentation",
+                "attachments": [],
+                "description": "",
+                "minutes": "",
+                "motions": []
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.3",
+            "title": "Ottawa Public Health 2023 Annual Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281643",
+                "attachment_title": "02 - Ottawa Public Health Annual Report.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281644",
+                "attachment_title": "02 - Supporting Document - Ottawa Public Health Annual Report_EN.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281645",
+                "attachment_title": "02 - Supporting Document - Ottawa Public Health Annual Report_FR.pdf"
+              }
+            ],
+            "description": "File ACS2024-OPH-MOH-004 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "THAT, the Board of Health for the City of Ottawa Health Unit:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.4",
+            "title": "Ottawa Public Health\u2019s Strategic Plan for 2023-2027 \u2013 Update on the Strategic Action Plan",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281646",
+                "attachment_title": "03 - Strategic Plan Update Q4 2023-Q1 2024.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281647",
+                "attachment_title": "03 - Document 1 - Strategic Plan Update Q4 2023-Q1 2024.pdf"
+              }
+            ],
+            "description": "File ACS2024-OPH-KPQ-0001 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "THAT the Board of Health for the City of Ottawa Health Unit receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.5",
+            "title": "Ottawa Public Health Approach to Infectious Disease Case and Contact Management",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281652",
+                "attachment_title": "04- OPH Approach to Infectious Disease and Contact Mngmt.pdf"
+              }
+            ],
+            "description": "File ACS2024-OPH-EHI-002 -City Wide",
+            "minutes": "The Board received a presentation from Ottawa Public Health staff.\u00a0\nThe Board received presentations from representatives from Children's Hospital of Eastern Ontario and Dr. Robert Delatolla.\u00a0\nDiscussions of the report and presentations lasted approximately 45 minutes.\nAt 6:57 p.m., during discussions on this item, the Board approved a motion to extend the time of the meeting beyond 7:00 p.m.\nMember Kavanagh presented a walk-on motion related to wastewater.\u00a0",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member T. Kavanagh",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS, the Ottawa Board of Health has a requirement under Ontario Public Health Standards to conduct population health assessment and surveillance regarding infectious and communicable disease;\nAND WHEREAS, ongoing, local wastewater testing for infectious diseases has proven to be a valid, near real-time, and reliable method of unbiased public health surveillance and a leading indicator of community transmission;\nAND WHEREAS, wastewater surveillance has been central to Ottawa Public Health (OPH)\u2019s respiratory dashboard, providing insights into the prevalence of COVID-19, influenza A and B, and respiratory syncytial virus (RSV) in Ottawa and could be expanded to monitor future new health threats;\nAND WHEREAS, information from wastewater surveillance has been critical in keeping Ottawa residents informed to guide their risk-based decisions, and has allowed OPH and healthcare partners to implement early public health interventions, such as additional infection, prevention and control measures, hospital capacity planning, RSV prophylaxis for at-risk infants at CHEO, promoting vaccination to higher-risk populations and encouraging residents to take appropriate preventative precautions;\nAND WHEREAS, wastewater surveillance is cost-effective and efficient, particularly for detecting infection in the population, regardless of whether infection is laboratory-confirmed (e.g. the data captures information from infections in people not eligible for testing, with mild illness who don\u2019t seek care, and for people who lack access to primary care and testing);\nAND WHEREAS, Ottawa\u2019s wastewater collection and treatment system covers more than 90% of Ottawa\u2019s population, making it ideal for wastewater surveillance;\nAND WHEREAS, the Ministry of Environment, Conservation and Parks is terminating Ontario\u2019s Wastewater Surveillance Initiative by July 31, 2024;\nAND WHEREAS, Ottawa Public Health and City of Ottawa staff have had long working relationships with the University of Ottawa, the Ontario Ministry of Environment, Conservation and Parks and the Ontario Ministry of Health that have optimized wastewater testing and surveillance in Ottawa, enabling Ottawa to be a leader in demonstrating the added value of wastewater surveillance for public health;\nNOW THEREFORE, BE IT RESOLVED:\nTHAT, the Ottawa Board of Health direct the Medical Officer of Health to work with local partners involved in wastewater surveillance to write to the Ontario Chief Medical Officer of Health offering support and encouraging collaboration with the Public Health Agency of Canada\u2019s Chief Public Health Officer and Chief Science Officer regarding the continuation of wastewater testing at the University of Ottawa;\nAND THAT, the Ottawa Board of Health direct the Medical Officer of Health to work with local partners involved in wastewater surveillance to write to the Public Health Agency of Canada\u2019s Chief Public Health Officer and Chief Science Officer offering support and collaboration to maintain wastewater testing at the University of Ottawa.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "THAT, the Ottawa Board of Health receive information about Ottawa Public Health\u2019s case and contact management work as outlined in this report and Document 1;\nAND THAT, the Chair of the Board of Health send a letter to the Minister of Health to convey:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Board of Health approve that the meeting time be extended past 7:00 p.m. pursuant to Subsection 8(1)(c) of the Procedural By-law.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "8.6",
+            "title": "2024 Operating and Capital Budget Q1 \u2013 Board of Health for the City of Ottawa Health Unit Status Report",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281648",
+                "attachment_title": "05 - 2024 Q1 Budget Status Report_2024-05-27.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=281649",
+                "attachment_title": "05 - 2024 Q1 Budget Status Report - Supporting Documents_2024-06-04.pdf"
+              }
+            ],
+            "description": "File ACS2024-OPH-BDS-0002 -City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "THAT the Board of Health for the City of Ottawa Health Unit receive the 2024 Q1 \u00a0 operating and capital budget status report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "In Camera Items*",
+        "attachments": [],
+        "description": "NOTICE* \nIn Camera Items are not subject to public discussion or audience. Any person has a right to request an independent investigation of the propriety of dealing with matters in a closed session. A form requesting such a review may be obtained, without charge, from the City\u2019s website or in person from the Chair of this meeting. Requests are kept confidential pending any report by the Meetings Investigator and are conducted without charge to the Requestor.",
+        "minutes": "The Board went into closed session at 7:08pm to consider the security of the property of Ottawa Public Health with respect to cyber security.\u00a0\nAt 7:45pm the Chair welcomed everyone back to regular session and advised that during the in-camera session, the Board received a presentation from City Staff regarding Cyber Security.\u00a0\nNo motions were adopted during the closed session, with the exception of procedural motions and/or direction to staff.\u00a0",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "9.1",
+            "title": "Cyber Security at Ottawa Public Health",
+            "attachments": [],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT the Board of Health for the City of Ottawa Health Unit resolve In Camera pursuant to Section 13(1)(b) of the Procedure By-law 2011-1 to consider the security of the property of Ottawa Public Health with respect to cyber security.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "Member Marty Carr",
+                "motion_seconded_by": "",
+                "motion_text": "BE IT RESOLVED THAT, The Board of Health Return to open session at 7:45pm",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Motion to Adopt Reports",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT the Chair of the Board of Health Verbal Report, the Medical Officer of Health Verbal Report, and the reports titled: Ottawa Public Health 2023 Annual Report, Ottawa Public Health\u2019s Strategic Plan for 2023-2027 - Update on the Strategic Action Plan, Ottawa Public Health Approach to Infectious Disease Case and Contact Management and 2024 Operating, Capital Budget Q1 \u2013 Board of Health for the City of Ottawa Health Unit Status Report and Cyber Security at Ottawa Public Health Presentation \u2013 In Camera Item to consider the security of the property of Ottawa Public Health, be received and adopted.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Motions Requiring Suspension of the Rules of Procedure",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "13.",
+        "title": "Confirmation By-law",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [
+          {
+            "premotion_text": "",
+            "motion_number": "",
+            "motion_moved_by": "Member Marty Carr",
+            "motion_seconded_by": "",
+            "motion_text": "BE IT RESOLVED THAT Confirmation By-law no. 2024-3, a by-law of the Board of Health for the City of Ottawa Health Unit to confirm the proceedings of the Ottawa Board of Health at its meeting of June 17, 2024, be read and passed.",
+            "motion_votes": {},
+            "dissent_voters": [],
+            "motion_result": "Carried",
+            "post_motion_text": ""
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "14.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "None.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "15.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "",
+        "minutes": "The Board adjourned the meeting at 7:49pm.\u00a0",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "16.",
+        "title": "Next Meeting",
+        "attachments": [],
+        "description": "Monday, September 16, 2024 - 5:00 PM",
+        "minutes": "",
+        "motions": []
+      }
+    ]
+  }
+}

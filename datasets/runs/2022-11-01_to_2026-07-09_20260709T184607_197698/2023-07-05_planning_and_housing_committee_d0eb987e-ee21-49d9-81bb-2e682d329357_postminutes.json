@@ -1,0 +1,510 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=d0eb987e-ee21-49d9-81bb-2e682d329357&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=d0eb987e-ee21-49d9-81bb-2e682d329357&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - July 05, 2023",
+  "meeting_number": 0,
+  "meeting_date": "2023-07-05",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney"
+  ],
+  "absent_attendees": [
+    "Vice-chair: Councillor Glen Gower",
+    "Riley Brockington",
+    "Clarke Kelly",
+    "Ariel Troster"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 12,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287973",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee.pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287974",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee.pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, July 12, 2023 in Planning and Housing Committee Report 12.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, July 4, 2023, and the deadline to register by email to speak is 8:30 am on Wednesday, July 5, 2023.",
+        "minutes": "The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 4.5 - 4.9 on today\u2019s Agenda.\nFor the item just mentioned, only those who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on July 12, 2023, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 11 \u2013 Wednesday, June 21, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287993",
+                "attachment_title": "PHC Final Minutes 11 - English.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287994",
+                "attachment_title": "PHC Final Minutes 11 - French.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Planning, Real Estate and Economic Development Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "City of Ottawa\u2019s Housing Accelerator Fund Application",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287975",
+                "attachment_title": "4.1 - ACS2023-PRE-GEN-0007 - Housing Accelerator Fund.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287976",
+                "attachment_title": "4.1 - Document 1 - HAF.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-GEN-0007 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat the Planning and Housing Committee recommend that Council approve the Action Plan as contained in Document 1 of the Report.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.2",
+            "title": "Front-Ending Report \u2013 Design and Construction of the Longfields Drive and Kilspindie Ridge Roundabout",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287977",
+                "attachment_title": "4.2 - ACS2023-PRE-PS-0081 - Front Ending - Longfields Drive and Kilspindie Ridge Roundabout.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0081 - Barrhaven West (3)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.3",
+            "title": "Front-Ending Report \u2013 Design and Construction of the Innes Road and Lamarche Avenue Traffic Control Signals",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287978",
+                "attachment_title": "4.3 - ACS2023-PRE-PS-0080 - Front Ending - Innes Road and Lamarche Avenue Traffic Control Signals.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0080 - Orl\u00e9ans South-Navan (19)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.4",
+            "title": "Zoning - Renewable Energy Generation Facility and Battery Energy Storage Systems Interim Regulations and Increasing Opportunity for Access to Retail Food Storescess to Retail Food Stores",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287988",
+                "attachment_title": "4.4 - ACS2023-PRE-EDP-0010 - Zoning - Renewable Energy Generation Facility.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-EDP-0010 - City Wide",
+            "minutes": "Mitchell LeSage, Planner, Planning, Real Estate and Economic Development (PRED), presented an overview of the report recommendations and answered questions from the Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegations:\nMembers:\nFollowing discussions and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend Council approve the following amendments to Zoning By-law 2008-250, as detailed in Document 1:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.5",
+            "title": "Zoning By-law Amendment \u2013 1209 St Laurent Boulevard",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287987",
+                "attachment_title": "4.5 - ACS2023-PRE-PS-0085 - ZBLA - 1209 St. Laurent.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0085 - Beacon Hill-Cyrville (11)",
+            "minutes": "The Applicants, as represented Paul Black, Fotenn was present in support, and available to answer questions. The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.6",
+            "title": "Zoning By-Law Amendment - 1400 and 1410 Youville Drive",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287982",
+                "attachment_title": "4.6 - ACS2023-PRE-PS-0089 - ZBLA - 1400 and 1410 Youville Drive.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0089 - Orl\u00e9ans West-Innes (2)",
+            "minutes": "The Applicants, as represented Barrett Wagar, Stantec was present in support, and available to answer questions. The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)\nThat Planning and Housing Committee recommend Council approve an amendment to Zoning By-law 2008-250 for 1400 and 1410 Youville Drive as shown in Document 1, to permit an automobile body shop and automobile service station, as detailed in Document 2.\nThat Planning and Housing Committee approve the Consultation Details Section of this report be included as part of the \u2018brief explanation\u2019 in the Summary of Written and Oral Public Submissions, to be prepared by the Office of the City Clerk and submitted to Council in the report titled, \u201cSummary of Oral and Written Public Submissions for Items Subject to the Planning Act \u2018Explanation Requirements\u2019 at the City Council Meeting of July 12, 2023\u201d subject to submissions received between the publication of this report and the time of Council\u2019s decision.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.7",
+            "title": "Zoning By-Law Amendment -\u00a02616 and 2628 Edinburgh Place",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287979",
+                "attachment_title": "4.7 - ACS2023-PRE-PS-0037 - ZBLA - 2616 and 2628 Edinburgh Place.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287980",
+                "attachment_title": "4.7 - Document 4.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287981",
+                "attachment_title": "4.7 - Document 5.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0037 - Alta Vista (18)",
+            "minutes": "The Applicants, as represented Bridgette Alchawa, McIntosh Perry was present in support, and available to answer questions. The Applicant advised that they did not need to address the Committee if the item carried.\nThe Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.8",
+            "title": "Zoning By-law Amendment \u2013 200 and 201 Friel Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287984",
+                "attachment_title": "4.8 - ACS2023-PRE-PS-0061 (EN) - ZBLA - 200 and 201 Friel Street.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287985",
+                "attachment_title": "4.8 - ACS2023-PRE-PS-0061 (FR) - ZBLA - 200 and 201 Friel Street.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0061 - Rideau-Vanier (12)",
+            "minutes": "Erin O\u2019Connell, Planner II, Planning, Real Estate and Economic Development (PRED), presented an overview of the report recommendations and answered questions from the Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Applicant/Owner as represented by Arne Suraga, Diamond Schmitt Architects and Nadia De Santi, WSP, provided an overview of the Application and responded to questions from Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegations:\nFollowing discussions and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "4.9",
+            "title": "Zoning By-law Amendment \u2013 1184, 1188 and 1196 Cummings Avenue",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287983",
+                "attachment_title": "4.9 - ACS2023-PRE-PS-0083 - ZBLA - 1184, 1188 and 1196 Cummings Ave.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-PS-0083 - Beacon Hill-Cyrville (11)",
+            "minutes": "The Applicant/Owner as represented by Tim Beed, Fotenn provided an overview of the Application and responded to questions from Committee. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nThe Committee heard from the following delegations:\nThe following written submissions were received by, and are filed with, the Office of the City Clerk, and distributed to Committee Members:\nFollowing discussions and questions of staff, the Committee carried the report recommendations as presented.",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Office of the City Clerk",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Status Update \u2013 Planning and Housing Committee Inquiries and Motions for the period ending June 23, 2023",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287986",
+                "attachment_title": "5.1 - ACS2022-OCC-CCS-0094 - Status Update - Inquiries and Motions.pdf"
+              }
+            ],
+            "description": "ACS2023-OCC-CCS-0094 - Citywide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation\nThat the Planning and Housing Committee receive this report for information.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Received",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "Motions of Which Notice has been Previously Given",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "7.1",
+            "title": "Motion \u2013Miracle League and Jays Care Field Ground Sign",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287989",
+                "attachment_title": "7.1 - ACS2023-OCC-CCS-0095 - Motion \u2013Miracle League and Jays Care Field Ground Sign.pdf"
+              }
+            ],
+            "description": "ACS2023-OCC-CCS-0095 - Orl\u00e9ans South Navan (19)\u00a0",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS The Miracle League of Ottawa is proposing the installation of an additional ground sign, at Notre-Dame-des-Champs Park, 3659 Navan Road; and\nWHEREAS The Miracle League of Ottawa is a registered non-profit charity helping very special dreams come true by providing a facility in partnership with the City of Ottawa that meets the unique needs of players either on the baseball field or playground; and\nWHEREAS on July 8, 2015, City Council approved that the baseball field at Notre-Dame-des-Champs Park be named the Jays Care Field in recognition of a funding contribution from the Jays Care Foundation towards the development of the project; and\nWHEREAS The Miracle League of Ottawa, the Jays Care Foundation and the City of Ottawa have signed a Naming Rights Agreement dated June 18, 2015, and have agreed that the baseball field shall be exclusively named the Jays Care Field for the term of the agreement ending on December 31, 2030; and\nWHEREAS the proposed sign will provide much needed identification of the Jays Care Field and wayfinding for the facility; and\nWHEREAS The Miracle League has received a donation for fabrication and installation of the proposed signage; and\nWHERAS the proposed signage does not comply with the Permanent Signs on Private Property By-law; and\nWHERAS it is recommended to allow this request beyond the general application process for minor variances found in the delegation of authority provisions By-law 2016-326\nWHEREAS Recreation, Cultural and Facility Services Department and Planning, Real Estate and Economic Development staff do not object to the application; and\nTHEREFORE BE IT RESOLVED THAT committee recommends that council approve an exemption to Sections 114 and 121 Table 1A, of the Permanent Signs on Private Property By-law (2016-326), as amended, to allow:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Status Update on the New Zoning By-law",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287990",
+                "attachment_title": "8.1 - ACS2023-PRE-EDP-0033 - Status Updated on the New Zoning By-law .pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287991",
+                "attachment_title": "8.1 - Document 1 - Pre and Post Bill 23.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=287992",
+                "attachment_title": "8.1 - Document 2 - Bill Typology Impact.pdf"
+              }
+            ],
+            "description": "ACS2023-PRE-EDP-0033 - City Wide",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "2023-12-01",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "Motion No. PHC 2023-12-01Moved by C. Curry\nThat, pursuant to Subsection 89(4) of the Procedure By-law (being By-law NO 2022-410), the Planning and Housing Committee approve that the Rules of Procedure be suspended to allow for the consideration of the item listed as:\n8.1. \u00a0 \u00a0Status Update on the New Zoning By-law\nCarol Ruddy, Program Manager, Zoning & Intensification, Planning, Real Estate and Economic Development (PRED), presented an overview of the Memo and answered questions from the Committee. \u00a0Don Herweyer, General Manager, PRED was also present to respond to questions. \u00a0A copy of the slide presentation is filed with the Office of the City Clerk.\nFollowing discussions and questions to staff, the Committee carried the following motion:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2023-12-02",
+                "motion_moved_by": "C. Kitts",
+                "motion_seconded_by": "",
+                "motion_text": "Motion No. PHC 2023-12-02Moved by C. Kitts\nWHEREAS the intent of IPD ACS2023-PRE-EDP-0033 is to update Members of the Planning and Housing Committee on the status of the new Zoning By-law review; and\nWHEREAS on November 28, 2022 the Province of Ontario enacted Bill 23, More Homes Built Faster Act, which encourages gentle densification through increasing the minimum number of additional dwelling units; and\nWHEREAS the current Zoning By-law 2005-280 does not contemplate two additional dwelling units as permitted under Bill 23 and as a result there are amendments needed to the current Zoning By-law to align it with Bill 23 and to ensure orderly development in accordance with the Official Plan; and\nWHEREAS a package of amendments was circulated in March 2023 that included removing zoning provisions for secondary dwelling units and coach houses that are not aligned with Bill 23, harmonization of certain subzone provisions for detached, duplex and triplex dwellings, and a minimum rear yard landscaping requirement to support the liveability of neighbourhoods, tree retention, tree planting in rear yards and the long-term renewal of the urban forest tree canopy;\nTHEREFORE BE IT RESOLVED THAT, with respect to IPD ACS2023-PRE-EDP-0033, Council approve the following:",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nWednesday, August 16, 2023.",
+        "minutes": "The meeting adjourned at 11:30 am.",
+        "motions": []
+      }
+    ]
+  }
+}

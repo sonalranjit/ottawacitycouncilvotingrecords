@@ -1,0 +1,328 @@
+{
+  "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee&Agenda=PostMinutes&lang=English",
+  "source": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee&Agenda=PostMinutes&lang=English",
+  "base_url": "https://pub-ottawa.escribemeetings.com",
+  "title": "Planning and Housing Committee - September 02, 2026",
+  "meeting_number": 70,
+  "meeting_date": "2026-09-02",
+  "meeting_start_time": "09:30",
+  "meeting_location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+  "present_attendees": [
+    "Chair: Councillor Jeff Leiper",
+    "Vice-chair: Councillor Glen Gower",
+    "Riley Brockington",
+    "Cathy Curry",
+    "Laura Dudas",
+    "Laine Johnson",
+    "Theresa Kavanagh",
+    "Catherine Kitts",
+    "Wilson Lo",
+    "Tim Tierney",
+    "Ariel Troster"
+  ],
+  "absent_attendees": [
+    "Clarke Kelly"
+  ],
+  "agenda_items": {
+    "total_agenda_items": 12,
+    "agenda_items": [
+      {
+        "agenda_item_number": "1.",
+        "title": "Notices and meeting information for meeting participants and the public",
+        "attachments": [
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333052",
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf"
+          },
+          {
+            "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333053",
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf"
+          }
+        ],
+        "description": "Notices and meeting information are attached to the agenda and minutes, including: availability of simultaneous interpretation and accessibility accommodations; in camera meeting procedures; information items not subject to discussion; personal information disclaimer for correspondents and public speakers; notices regarding minutes; and remote participation details.\nAccessible formats and communication supports are available, upon request.\nExcept where otherwise indicated, reports requiring Council consideration will be presented to Council on Wednesday, September 9, 2026, in Planning and Housing Committee Report 70.\nThe deadline to register by phone to speak, or submit written comments or visual presentations is 4 pm on Tuesday, September 1, 2026, and the deadline to register by email to speak is 8:30 am on Wednesday, September 2, 2026.",
+        "minutes": "These \u201cSummary Minutes\u201d indicate the disposition of items and actions taken at the meeting. This document does not include all of the text that will be included in the full Minutes, such as the record of written and oral submissions. Recorded votes and dissents contained in the Summary Minutes are draft until the full Minutes of the meeting are confirmed by the Committee. The draft of the full Minutes (for confirmation) will be published with the agenda for the next regular Committee meeting and, once confirmed, will replace this document.The Chair read the following statement at the outset of the meeting pursuant to the Planning Act:\nThis is a public meeting to consider the proposed Comprehensive Official Plan and Zoning By-law Amendments listed as Item(s) 5.1, 5.2 and 6.1 on today\u2019s Agenda.\nFor the item just mentioned, only those specifically identified in the Planning Act\u00a0who make oral submissions today or written submissions before the amendments are adopted may appeal the matter to the Ontario Land Tribunal. In addition, the applicant may appeal the matter to the Ontario Land Tribunal if Council does not adopt an amendment within 90 days of receipt of the application for a Zoning By-law Amendment and 120 days for an Official Plan Amendment.\nTo submit written comments on these amendments, prior to their consideration by City Council on September 9, 2026, please email or call the Committee or Council Coordinator.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "2.",
+        "title": "Declarations of Interest",
+        "attachments": [],
+        "description": "",
+        "minutes": "No Declarations of Interest were filed.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "3.",
+        "title": "Confirmation of Minutes",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "3.1",
+            "title": "PHC Minutes 69 \u2013 August 19, 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333060",
+                "attachment_title": "3.1 - PHC Draft Minutes 69 (EN).pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "4.",
+        "title": "Responses to Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "4.1",
+            "title": "PHC-2025-06 - City of Ottawa levers for increasing completion rates for stalled infill and other residential developments",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333057",
+                "attachment_title": "4.1 - Inquiry - Kavangh - City of Ottawa levers for increasing completion rates for stalled infill.pdf"
+              }
+            ],
+            "description": "",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "5.",
+        "title": "Planning, Development and Building Services Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "5.1",
+            "title": "Official Plan and Zoning By-law Amendment\u20143 Hamilton Avenue North, and 223, 229 and 233 Armstrong Street",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333061",
+                "attachment_title": "5.1- ACS2026-PDB-PSX-0036 - OP and ZBLA - 3 Hamilton Avenue North and 223 229 and 233 Armstrong St.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-PSX-0036 \u2013 Kitchissippi (15)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {
+                  "for": {
+                    "councillors": [
+                      "L. Dudas",
+                      "G. Gower",
+                      "T. Kavanagh",
+                      "T. Tierney",
+                      "J. Leiper",
+                      "R. Brockington",
+                      "C. Kitts",
+                      "C. Curry",
+                      "L. Johnson",
+                      "A. Troster",
+                      "W. Lo"
+                    ],
+                    "count": 11
+                  }
+                },
+                "dissent_voters": [],
+                "motion_result": "Carried as amended (11 to 0)",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026 70-02",
+                "motion_moved_by": "G. Gower",
+                "motion_seconded_by": "",
+                "motion_text": "Whereas the zoning bylaw 2026-050 provides a maximum parking ratio of 1.25 spaces per dwelling unit at \u00a03 Hamilton Avenue North and 223, 229 and 233 Armstrong\nAnd whereas this site is within walking distance \u00a0of the Tunney's Pasture Rapid Transit Station.\nTherefore be it resolved, that Planning and Housing Committee recommend Council direct Staff to reconsider the parking maximums in proximity to rapid transit stations in the next term of Council.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          },
+          {
+            "agenda_item_number": "5.2",
+            "title": "Zoning By-law Amendment - Zoning By-law 2026-50 Appeal Resolutions",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333059",
+                "attachment_title": "5.2 - ACS2026-PDB-PS-0064 -ZBLA-  2026-50 Appeal Resolutions.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-PS-0064 \u2013 City-wide\nThis item will be considered by the Agriculture and Rural Affairs Committee on September 3, 2026.",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried as amended",
+                "post_motion_text": ""
+              },
+              {
+                "premotion_text": "",
+                "motion_number": "2026 70-01",
+                "motion_moved_by": "C. Curry",
+                "motion_seconded_by": "",
+                "motion_text": "WHEREAS report ACS2026-PDB-PS-0064 recommends several amendments to Zoning By-law 2026-50 to address matters currently under appeal, including site-specific matters and revisions to Section 110 \u2013 Continuation of Approved Applications, Exceptions and Schedules to add clarity;\nAND WHEREAS report ACS2026-PDB-PS-0064 does not contain all language necessary to add the clarity sought to section 110, and the map contained in Document 1D contains a technical error;\nTHEREFORE BE IT RESOLVED that Document 2 be amended by replacing Item 2 with the following:\nAmend Subsection 110(4) of Zoning By-law 2026-50 by replacing it with the following:\n(4) In areas inside Area B shown on Schedule A13, where exceptions, schedules and other zone code suffixes apply and the primary zone is H2 \u2013 Hub Zone 2, H3 \u2013 Hub Zone 3, MS1 \u2013 Mainstreet Zone 1, MS2 \u2013 Mainstreet Zone 2, CM1 \u2013 Minor Corridor Zone 1 and CM2 -\u2013 Minor Corridor Zone 2, then:\nTHEREFORE BE IT FURTHER RESOLVED that Map 1D be replaced with the Map attached as Attachment 1 hereto;\nTHEREFORE BE IT FURTHER RESOLVED that pursuant to subsection 34(17) of thePlanning Act, no further notice be given.",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "6.",
+        "title": "Strategic Initiatives Department",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "6.1",
+            "title": "Zoning By-law Amendment - 2775 and 2785 Palladium Drive and 350 Culdaff Road",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333056",
+                "attachment_title": "5.1 - ACS2026-SI-ED-0011 - 2775 and 2785 Palladium Drive.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-SI-ED-0011- Stittsville (6)",
+            "minutes": "",
+            "motions": [
+              {
+                "premotion_text": "",
+                "motion_number": "",
+                "motion_moved_by": "",
+                "motion_seconded_by": "",
+                "motion_text": "Report Recommendation(s)",
+                "motion_votes": {},
+                "dissent_voters": [],
+                "motion_result": "Carried",
+                "post_motion_text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "7.",
+        "title": "In Camera Items",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no in camera items.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "8.",
+        "title": "Information Previously Distributed",
+        "attachments": [],
+        "description": "",
+        "minutes": "",
+        "motions": [],
+        "sub_agendas_items": [
+          {
+            "agenda_item_number": "8.1",
+            "title": "Housing Approvals Dashboard \u2013 Q1 and Q2 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333058",
+                "attachment_title": "8.1 - ACS2026-PDB-PS-0067 - Housing Approvals Dashboard \u2013 Q1 and Q2 2026 .pdf"
+              }
+            ],
+            "description": "File No. ACS2026-PDB-PS-0067",
+            "minutes": "",
+            "motions": []
+          },
+          {
+            "agenda_item_number": "8.2",
+            "title": "Cash-in-Lieu of Parkland - Q2 2026",
+            "attachments": [
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333054",
+                "attachment_title": "7.2 - IPD - Cash in Lieu of Parkland - Q2 2026.pdf"
+              },
+              {
+                "link": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=333055",
+                "attachment_title": "7.2 - Document 2 - Q2 2026 CILP Balances.pdf"
+              }
+            ],
+            "description": "File No. ACS2026-FCS-FSP-0009",
+            "minutes": "",
+            "motions": []
+          }
+        ]
+      },
+      {
+        "agenda_item_number": "9.",
+        "title": "Notices of Motions (For Consideration at Subsequent Meeting)",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Notices of Motion.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "10.",
+        "title": "Inquiries",
+        "attachments": [],
+        "description": "",
+        "minutes": "There were no Inquiries.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "11.",
+        "title": "Other Business",
+        "attachments": [],
+        "description": "",
+        "minutes": "There was no other business.",
+        "motions": []
+      },
+      {
+        "agenda_item_number": "12.",
+        "title": "Adjournment",
+        "attachments": [],
+        "description": "Next Meeting\nOctober 7, 2026.",
+        "minutes": "The meeting adjourned at 12:12 pm.",
+        "motions": []
+      }
+    ]
+  }
+}

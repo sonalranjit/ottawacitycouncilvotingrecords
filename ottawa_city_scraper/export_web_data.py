@@ -2,12 +2,15 @@
 Export DuckDB voting data as static JSON files for the frontend web UI.
 
 Generates:
-  {output_dir}/index.json                         — all dates + councillor list
+  {output_dir}/index.json                         — all dates, council terms + councillor list
   {output_dir}/dates/{YYYY-MM-DD}.json            — per-date meetings/motions/votes
   {output_dir}/councillors/{slug}.json            — per-councillor vote history and motions moved
   {output_dir}/feed.xml                           — RSS feed of recent motions
   {output_dir}/tags/index.json                    — all tags with motion counts
   {output_dir}/tags/{slug}.json                   — motions per tag
+
+Every date, vote, motion and alignment row carries the council `term` it falls in
+(see terms.py); the frontend filters by term rather than reading per-term files.
 
 Motion summaries and tags are sourced from the motion_ai_enrichment table.
 If that table is empty, motions export with summary="" and tags=[].
@@ -30,8 +33,9 @@ from pathlib import Path
 
 import duckdb
 
+from .terms import CouncillorResolver, current_term, latest_term_entry, load_councillors, load_terms, term_for_date
+
 ROOT = Path(__file__).resolve().parents[1]
-COUNCILLORS_JSON = Path(__file__).parent / "reference_data" / "current_councillors.json"
 DB_PATH = ROOT / "datasets" / "ottawa_city_scraper.duckdb"
 DEFAULT_MUNICIPALITY = "ottawa"
 DEFAULT_OUTPUT = ROOT / "frontend" / "public" / "data" / DEFAULT_MUNICIPALITY
@@ -45,8 +49,35 @@ def _to_slug(name: str) -> str:
     return re.sub(r"-+", "-", n).strip("-")
 
 
-def _load_councillors() -> list[dict]:
-    return json.loads(COUNCILLORS_JSON.read_text(encoding="utf-8"))
+def _councillor_meta(councillor: dict, terms: list[dict], current: str) -> dict:
+    """Councillor fields shared by index.json and councillors/{slug}.json.
+
+    Top-level title/ward come from the latest term served; `terms` lists every term.
+    `active` means the councillor sits in the current term.
+    """
+    latest = latest_term_entry(councillor, terms)
+    return {
+        "slug": _to_slug(councillor["full_name"]),
+        "full_name": councillor["full_name"],
+        "first_name_initial": councillor["first_name_initial"],
+        "title": latest.get("title") or "",
+        "ward_number": latest.get("ward_number") or "",
+        "ward_name": latest.get("ward_name") or "",
+        "email": councillor.get("email") or "",
+        "telephone": councillor.get("telephone") or "",
+        "active": any(e["term"] == current for e in councillor.get("terms", [])),
+        "terms": [
+            {
+                "term": e["term"],
+                "title": e.get("title") or "",
+                "ward_number": e.get("ward_number") or "",
+                "ward_name": e.get("ward_name") or "",
+                "start": e.get("start"),
+                "end": e.get("end"),
+            }
+            for e in councillor.get("terms", [])
+        ],
+    }
 
 
 def _write_json(path: Path, data: object) -> None:
@@ -76,7 +107,13 @@ def _load_enrichments(con: duckdb.DuckDBPyConnection) -> dict[str, dict]:
 # index.json
 # ---------------------------------------------------------------------------
 
-def export_index(con: duckdb.DuckDBPyConnection, councillors: list[dict], output_dir: Path, municipality: str) -> list[str]:
+def export_index(
+    con: duckdb.DuckDBPyConnection,
+    councillors: list[dict],
+    terms: list[dict],
+    output_dir: Path,
+    municipality: str,
+) -> list[str]:
     """Write index.json; return sorted-descending list of dates with motion data."""
     dates = [
         row[0]
@@ -92,28 +129,21 @@ def export_index(con: duckdb.DuckDBPyConnection, councillors: list[dict], output
         ).fetchall()
     ]
 
-    active_councillors = [
-        {
-            "slug": _to_slug(c["full_name"]),
-            "full_name": c["full_name"],
-            "first_name_initial": c["first_name_initial"],
-            "title": c["title"],
-            "ward_number": c.get("ward_number") or "",
-            "ward_name": c.get("ward_name") or "",
-            "email": c.get("email") or "",
-            "telephone": c.get("telephone") or "",
-            "active": c.get("active", True),
-        }
-        for c in councillors
-        if c.get("active", True)
-    ]
+    current = current_term(terms)
+    # Everyone who has served in any term; the frontend narrows the list to the selected term.
+    councillors_meta = [_councillor_meta(c, terms, current) for c in councillors]
     # Sort: Mayor first (no ward_number), then by ward_number ascending
-    active_councillors.sort(
+    councillors_meta.sort(
         key=lambda c: (0 if not c["ward_number"] else 1, int(c["ward_number"]) if c["ward_number"] else 0)
     )
 
-    _write_json(output_dir / "index.json", {"dates": dates, "councillors": active_councillors})
-    print(f"  index.json  ({len(dates)} dates, {len(active_councillors)} councillors)", file=sys.stderr)
+    _write_json(output_dir / "index.json", {
+        "dates": dates,
+        "terms": [{"slug": t["slug"], "label": t["label"], "start": t["start"], "end": t["end"]} for t in terms],
+        "current_term": current,
+        "councillors": councillors_meta,
+    })
+    print(f"  index.json  ({len(dates)} dates, {len(terms)} terms, {len(councillors_meta)} councillors)", file=sys.stderr)
     return dates
 
 
@@ -126,6 +156,7 @@ def export_date_file(
     date: str,
     output_dir: Path,
     municipality: str,
+    terms: list[dict],
     enrichments: dict[str, dict] | None = None,
 ) -> None:
     """Write dates/{date}.json with all meetings → agenda_items → motions → votes."""
@@ -300,7 +331,11 @@ def export_date_file(
             "agenda_items": agenda_items,
         })
 
-    _write_json(output_dir / "dates" / f"{date}.json", {"date": date, "meetings": meetings})
+    _write_json(output_dir / "dates" / f"{date}.json", {
+        "date": date,
+        "term": term_for_date(terms, date),
+        "meetings": meetings,
+    })
 
 
 def export_all_dates(
@@ -308,10 +343,11 @@ def export_all_dates(
     dates: list[str],
     output_dir: Path,
     municipality: str,
+    terms: list[dict],
     enrichments: dict[str, dict] | None = None,
 ) -> None:
     for date in dates:
-        export_date_file(con, date, output_dir, municipality, enrichments=enrichments)
+        export_date_file(con, date, output_dir, municipality, terms, enrichments=enrichments)
     print(f"  dates/  ({len(dates)} files)", file=sys.stderr)
 
 
@@ -323,11 +359,19 @@ def export_councillor_file(
     con: duckdb.DuckDBPyConnection,
     councillor: dict,
     output_dir: Path,
+    terms: list[dict],
+    resolver: CouncillorResolver,
     enrichments: dict[str, dict] | None = None,
 ) -> int:
-    """Write councillors/{slug}.json; return number of votes written."""
+    """Write councillors/{slug}.json; return number of votes written.
+
+    Votes and motions are matched by name, then kept only when the meeting falls
+    inside one of the councillor's term memberships, so a different person with
+    the same "F. Lastname" in another term is not credited to them.
+    """
     if enrichments is None:
         enrichments = {}
+    full_name = councillor["full_name"]
     initial = councillor["first_name_initial"]
     slug = _to_slug(councillor["full_name"])
 
@@ -360,9 +404,12 @@ def export_councillor_file(
     votes = []
     for (date, meeting_name, meeting_id, source_url, agenda_item_number, item_title,
          motion_id, motion_number, motion_text, motion_result, for_count, against_count, vote) in rows:
+        if resolver.resolve(initial, date) != full_name:
+            continue
         enrichment = enrichments.get(motion_id, {})
         votes.append({
             "date": date,
+            "term": term_for_date(terms, date),
             "meeting_name": meeting_name or "",
             "meeting_id": meeting_id,
             "source_url": source_url or "",
@@ -393,7 +440,8 @@ def export_councillor_file(
             m.motion_result,
             m.for_count,
             m.against_count,
-            m.vote_kind
+            m.vote_kind,
+            m.motion_moved_by
         FROM motions m
         JOIN agenda_items ai ON m.item_id = ai.item_id
         JOIN meetings mt    ON m.meeting_id = mt.meeting_id
@@ -407,10 +455,13 @@ def export_councillor_file(
     motions_moved = []
     for (date, meeting_name, source_url, agenda_item_number, item_title,
          motion_id, motion_number, motion_text, motion_result, for_count, against_count,
-         vote_kind) in mover_rows:
+         vote_kind, motion_moved_by) in mover_rows:
+        if resolver.resolve_mover(motion_moved_by, date) != full_name:
+            continue
         enrichment = enrichments.get(motion_id, {})
         motions_moved.append({
             "date": date,
+            "term": term_for_date(terms, date),
             "meeting_name": meeting_name or "",
             "source_url": source_url or "",
             "agenda_item_number": agenda_item_number or "",
@@ -427,17 +478,7 @@ def export_councillor_file(
         })
 
     data = {
-        "councillor": {
-            "slug": slug,
-            "full_name": councillor["full_name"],
-            "first_name_initial": councillor["first_name_initial"],
-            "title": councillor["title"],
-            "ward_number": councillor.get("ward_number") or "",
-            "ward_name": councillor.get("ward_name") or "",
-            "email": councillor.get("email") or "",
-            "telephone": councillor.get("telephone") or "",
-            "active": councillor.get("active", True),
-        },
+        "councillor": _councillor_meta(councillor, terms, current_term(terms)),
         "votes": votes,
         "motions_moved": motions_moved,
     }
@@ -450,17 +491,18 @@ def export_all_councillors(
     con: duckdb.DuckDBPyConnection,
     councillors: list[dict],
     output_dir: Path,
+    terms: list[dict],
+    resolver: CouncillorResolver,
     enrichments: dict[str, dict] | None = None,
 ) -> None:
-    active = [c for c in councillors if c.get("active", True)]
     total_votes = 0
-    for councillor in sorted(active, key=lambda c: c["last_name"]):
-        n = export_councillor_file(con, councillor, output_dir, enrichments=enrichments)
+    for councillor in sorted(councillors, key=lambda c: c["last_name"]):
+        n = export_councillor_file(con, councillor, output_dir, terms, resolver, enrichments=enrichments)
         total_votes += n
         slug = _to_slug(councillor["full_name"])
         if n == 0:
             print(f"    skipped {slug} — no recorded votes", file=sys.stderr)
-    print(f"  councillors/  ({len(active)} files, {total_votes} total votes)", file=sys.stderr)
+    print(f"  councillors/  ({len(councillors)} files, {total_votes} total votes)", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
@@ -554,6 +596,7 @@ def export_tags(
     enrichments: dict[str, dict],
     output_dir: Path,
     municipality: str,
+    terms: list[dict],
 ) -> None:
     """Write tags/index.json and tags/{slug}.json for each tag that has motions."""
     from collections import Counter
@@ -572,9 +615,34 @@ def export_tags(
         print("  tags/  (skipped — no tags in enrichment data)", file=sys.stderr)
         return
 
+    # Per-term counts so the tag list can follow the selected term
+    motion_terms = {
+        motion_id: term_for_date(terms, date)
+        for motion_id, date in con.execute(
+            """
+            SELECT m.motion_id, strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE))
+            FROM motions m JOIN meetings mt ON m.meeting_id = mt.meeting_id
+            WHERE mt.municipality = ?
+            """,
+            [municipality],
+        ).fetchall()
+    }
+    tag_term_counts: dict[str, Counter] = {}
+    for motion_id, e in enrichments.items():
+        term = motion_terms.get(motion_id)
+        if term is None:
+            continue
+        for tag in (e.get("tags") or []):
+            tag_term_counts.setdefault(tag, Counter())[term] += 1
+
     tags_meta = sorted(
         [
-            {"tag": tag, "slug": _to_slug(tag), "motion_count": count}
+            {
+                "tag": tag,
+                "slug": _to_slug(tag),
+                "motion_count": count,
+                "counts_by_term": dict(tag_term_counts.get(tag, {})),
+            }
             for tag, count in tag_counts.items()
         ],
         key=lambda x: -x["motion_count"],
@@ -654,6 +722,7 @@ def export_tags(
                 "item_title": (item_title or "").strip(),
                 "agenda_item_number": agenda_item_number or "",
                 "date": meeting_date,
+                "term": term_for_date(terms, meeting_date),
                 "meeting_name": meeting_name or "",
                 "source_url": source_url or "",
                 "tags": enrichment.get("tags", []),
@@ -675,8 +744,11 @@ def export_committees(
     enrichments: dict[str, dict],
     output_dir: Path,
     municipality: str,
+    terms: list[dict],
 ) -> None:
     """Write committees/index.json and committees/{slug}.json for each meeting body."""
+    from collections import Counter
+
     committee_rows = con.execute(
         """
         SELECT mt.meeting_name, COUNT(DISTINCT m.motion_id) AS motion_count
@@ -690,11 +762,9 @@ def export_committees(
     ).fetchall()
 
     committees_meta = [
-        {"committee": name, "slug": _to_slug(name), "motion_count": count}
+        {"committee": name, "slug": _to_slug(name), "motion_count": count, "counts_by_term": {}}
         for name, count in committee_rows
     ]
-
-    _write_json(output_dir / "committees" / "index.json", {"committees": committees_meta})
 
     committee_files_written = 0
     for committee_info in committees_meta:
@@ -756,14 +826,18 @@ def export_committees(
                 "item_title": (item_title or "").strip(),
                 "agenda_item_number": agenda_item_number or "",
                 "date": meeting_date,
+                "term": term_for_date(terms, meeting_date),
                 "meeting_name": meeting_name or "",
                 "source_url": source_url or "",
                 "tags": enrichment.get("tags", []),
                 "votes": votes,
             })
 
+        committee_info["counts_by_term"] = dict(Counter(m["term"] for m in motions if m["term"]))
         _write_json(output_dir / "committees" / f"{slug}.json", {"committee": committee, "slug": slug, "motions": motions})
         committee_files_written += 1
+
+    _write_json(output_dir / "committees" / "index.json", {"committees": committees_meta})
 
     print(f"  committees/  ({committee_files_written} committee files)", file=sys.stderr)
 
@@ -772,42 +846,72 @@ def export_committees(
 # alignment.json
 # ---------------------------------------------------------------------------
 
-def export_alignment(con: duckdb.DuckDBPyConnection, output_dir: Path) -> None:
-    """Write alignment.json with voting alignment percentages between all councillor pairs."""
-    df = con.execute("""
-        WITH valid_motions AS (
-            SELECT m.motion_id, c.full_name AS mover
-            FROM motions m
-            JOIN councillors c ON m.motion_moved_by = c.first_name_initial
-            WHERE m.motion_moved_by IS NOT NULL
-        ),
-        mover_totals AS (
-            SELECT mover, COUNT(*) AS total_motions_moved
-            FROM valid_motions
-            GROUP BY mover
-        ),
-        motion_votes AS (
-            SELECT vm.mover, vc.full_name AS voter, v.vote
-            FROM valid_motions vm
-            LEFT JOIN votes v ON vm.motion_id = v.motion_id
-            LEFT JOIN councillors vc ON v.councillor_name LIKE vc.first_name_initial
-        )
-        SELECT
-            mv.mover,
-            mv.voter,
-            mt.total_motions_moved,
-            COUNT(*) FILTER (WHERE mv.vote = 'for') AS voted_for,
-            COUNT(*) AS total_votes,
-            ROUND(100.0 * COUNT(*) FILTER (WHERE mv.vote = 'for') / COUNT(*), 1) AS alignment_pct
-        FROM motion_votes mv
-        JOIN mover_totals mt ON mv.mover = mt.mover
-        WHERE mv.voter IS NOT NULL AND mv.mover != mv.voter
-        GROUP BY mv.mover, mv.voter, mt.total_motions_moved
-        ORDER BY mv.mover, alignment_pct DESC
-    """).df()
-    records = df.to_dict(orient="records")
+def export_alignment(
+    con: duckdb.DuckDBPyConnection,
+    output_dir: Path,
+    municipality: str,
+    terms: list[dict],
+    resolver: CouncillorResolver,
+) -> None:
+    """Write alignment.json: per term, how often each councillor voted for motions moved by each other councillor."""
+    motion_rows = con.execute(
+        """
+        SELECT m.motion_id, m.motion_moved_by, strftime('%Y-%m-%d', CAST(mt.meeting_date AS DATE))
+        FROM motions m
+        JOIN meetings mt ON m.meeting_id = mt.meeting_id
+        WHERE mt.municipality = ? AND m.motion_moved_by IS NOT NULL
+        """,
+        [municipality],
+    ).fetchall()
+
+    # motion_id -> (term, mover full_name, date)
+    moved: dict[str, tuple[str, str, str]] = {}
+    total_moved: dict[tuple[str, str], int] = {}
+    for motion_id, moved_by, date in motion_rows:
+        term = term_for_date(terms, date)
+        mover = resolver.resolve_mover(moved_by, date)
+        if term is None or mover is None:
+            continue
+        moved[motion_id] = (term, mover, date)
+        total_moved[(term, mover)] = total_moved.get((term, mover), 0) + 1
+
+    # (term, mover, voter) -> [voted_for, total_votes]
+    tallies: dict[tuple[str, str, str], list[int]] = {}
+    for motion_id, councillor_name, vote in con.execute(
+        """
+        SELECT v.motion_id, v.councillor_name, v.vote
+        FROM votes v
+        JOIN motions m ON v.motion_id = m.motion_id
+        JOIN meetings mt ON m.meeting_id = mt.meeting_id
+        WHERE mt.municipality = ? AND m.motion_moved_by IS NOT NULL
+        """,
+        [municipality],
+    ).fetchall():
+        if motion_id not in moved:
+            continue
+        term, mover, date = moved[motion_id]
+        voter = resolver.resolve(councillor_name, date)
+        if voter is None or voter == mover:
+            continue
+        tally = tallies.setdefault((term, mover, voter), [0, 0])
+        tally[0] += vote == "for"
+        tally[1] += 1
+
+    records = [
+        {
+            "term": term,
+            "mover": mover,
+            "voter": voter,
+            "total_motions_moved": total_moved[(term, mover)],
+            "voted_for": voted_for,
+            "total_votes": total_votes,
+            "alignment_pct": round(100.0 * voted_for / total_votes, 1),
+        }
+        for (term, mover, voter), (voted_for, total_votes) in tallies.items()
+    ]
+    records.sort(key=lambda r: (r["term"], r["mover"], -r["alignment_pct"]))
     _write_json(output_dir / "alignment.json", records)
-    print(f"  alignment.json  ({len(records)} councillor pairs)", file=sys.stderr)
+    print(f"  alignment.json  ({len(records)} councillor pairs across terms)", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
@@ -841,7 +945,9 @@ def main() -> None:
 
     print(f"Exporting municipality={args.municipality} from {db_path} → {output_dir}", file=sys.stderr)
 
-    councillors = _load_councillors()
+    councillors = load_councillors(args.municipality)
+    terms = load_terms(args.municipality)
+    resolver = CouncillorResolver(councillors, terms)
     con = duckdb.connect(str(db_path), read_only=True)
 
     enrichments = _load_enrichments(con)
@@ -851,13 +957,13 @@ def main() -> None:
     else:
         print("  No AI enrichments found — motions will export without summaries/tags.", file=sys.stderr)
 
-    dates = export_index(con, councillors, output_dir, args.municipality)
-    export_all_dates(con, dates, output_dir, args.municipality, enrichments=enrichments)
-    export_all_councillors(con, councillors, output_dir, enrichments=enrichments)
+    dates = export_index(con, councillors, terms, output_dir, args.municipality)
+    export_all_dates(con, dates, output_dir, args.municipality, terms, enrichments=enrichments)
+    export_all_councillors(con, councillors, output_dir, terms, resolver, enrichments=enrichments)
     export_rss_feed(con, output_dir, args.municipality)
-    export_tags(con, enrichments, output_dir, args.municipality)
-    export_committees(con, enrichments, output_dir, args.municipality)
-    export_alignment(con, output_dir)
+    export_tags(con, enrichments, output_dir, args.municipality, terms)
+    export_committees(con, enrichments, output_dir, args.municipality, terms)
+    export_alignment(con, output_dir, args.municipality, terms, resolver)
 
     con.close()
     print("Done.", file=sys.stderr)

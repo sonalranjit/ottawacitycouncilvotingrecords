@@ -1,3 +1,25 @@
+/** A council term, e.g. 2022–2026. Dates are inclusive YYYY-MM-DD. */
+export interface Term {
+  slug: string;
+  label: string;
+  start: string;
+  end: string;
+}
+
+/** A councillor's role in one term; start/end are set only for mid-term joins or departures. */
+export interface CouncillorTermEntry {
+  term: string;
+  title: string;
+  ward_number: string;
+  ward_name: string;
+  start: string | null;
+  end: string | null;
+}
+
+/**
+ * Top-level title/ward are from the latest term served; `active` means the
+ * councillor sits in the current term.
+ */
 export interface CouncillorMeta {
   slug: string;
   full_name: string;
@@ -8,10 +30,13 @@ export interface CouncillorMeta {
   email: string;
   telephone: string;
   active: boolean;
+  terms: CouncillorTermEntry[];
 }
 
 export interface IndexData {
   dates: string[];
+  terms: Term[];
+  current_term: string;
   councillors: CouncillorMeta[];
 }
 
@@ -74,11 +99,13 @@ export interface Meeting {
 
 export interface DateData {
   date: string;
+  term?: string | null;
   meetings: Meeting[];
 }
 
 export interface CouncillorVoteRow {
   date: string;
+  term?: string | null;
   meeting_name: string;
   meeting_id: string;
   source_url: string;
@@ -97,6 +124,7 @@ export interface CouncillorVoteRow {
 
 export interface MovedMotion {
   date: string;
+  term?: string | null;
   meeting_name: string;
   source_url: string;
   agenda_item_number: string;
@@ -122,6 +150,7 @@ export interface TagMeta {
   tag: string;
   slug: string;
   motion_count: number;
+  counts_by_term?: Record<string, number>;
 }
 
 export interface TagIndexData {
@@ -139,6 +168,7 @@ export interface TagMotion {
   item_title: string;
   agenda_item_number: string;
   date: string;
+  term?: string | null;
   meeting_name: string;
   source_url: string;
   tags: string[];
@@ -155,6 +185,7 @@ export interface CommitteeMeta {
   committee: string;
   slug: string;
   motion_count: number;
+  counts_by_term?: Record<string, number>;
 }
 
 export interface CommitteeIndexData {
@@ -168,6 +199,7 @@ export interface CommitteeData {
 }
 
 export interface AlignmentRow {
+  term?: string;
   mover: string;
   voter: string;
   total_motions_moved: number;

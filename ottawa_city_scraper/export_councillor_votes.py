@@ -7,11 +7,11 @@ Usage:
     python -m ottawa_city_scraper.export_councillor_votes ariel-troster
     python -m ottawa_city_scraper.export_councillor_votes "A. Troster"
     python -m ottawa_city_scraper.export_councillor_votes "Ariel Troster" --output ariel-troster.csv
+    python -m ottawa_city_scraper.export_councillor_votes "Ariel Troster" --term 2022-2026
     python -m ottawa_city_scraper.export_councillor_votes --list
 """
 import argparse
 import csv
-import json
 import sys
 import unicodedata
 from datetime import datetime
@@ -19,8 +19,9 @@ from pathlib import Path
 
 import duckdb
 
+from .terms import CouncillorResolver, load_councillors, load_terms, term_for_date
+
 ROOT = Path(__file__).resolve().parents[1]
-COUNCILLORS_JSON = Path(__file__).parent / "reference_data" / "current_councillors.json"
 DB_PATH = ROOT / "ottawa_city_scraper.duckdb"
 
 CSV_COLUMNS = [
@@ -40,10 +41,6 @@ CSV_COLUMNS = [
 def _to_slug(name: str) -> str:
     n = unicodedata.normalize("NFD", name).encode("ascii", "ignore").decode("ascii")
     return n.lower().replace(" ", "-")
-
-
-def _load_councillors() -> list[dict]:
-    return json.loads(COUNCILLORS_JSON.read_text(encoding="utf-8"))
 
 
 def resolve_councillor(query: str, councillors: list[dict]) -> dict:
@@ -84,17 +81,28 @@ def _format_result(motion_result: str) -> str:
     return motion_result  # preserve as-is when unrecognised
 
 
-def _ward_display(councillor: dict) -> str:
-    if councillor["ward_name"]:
-        return f"{councillor['ward_name']} Ward"
+def _ward_display(term_entry: dict) -> str:
+    if term_entry.get("ward_name"):
+        return f"{term_entry['ward_name']} Ward"
     # Mayor or any role without a ward — use title
-    return councillor["title"]
+    return term_entry.get("title", "")
 
 
-def export_votes(councillor: dict, con: duckdb.DuckDBPyConnection) -> list[dict]:
+def export_votes(
+    councillor: dict,
+    con: duckdb.DuckDBPyConnection,
+    terms: list[dict],
+    resolver: CouncillorResolver,
+    term: str | None = None,
+) -> list[dict]:
+    """Return the councillor's votes, optionally limited to one term.
+
+    Votes are matched by "F. Lastname" and kept only for meetings inside the
+    councillor's term memberships; the ward column reflects the term of each vote.
+    """
     initial = councillor["first_name_initial"]
     slug = _to_slug(councillor["full_name"])
-    ward = _ward_display(councillor)
+    ward_by_term = {e["term"]: _ward_display(e) for e in councillor.get("terms", [])}
 
     rows = con.execute(
         """
@@ -117,16 +125,21 @@ def export_votes(councillor: dict, con: duckdb.DuckDBPyConnection) -> list[dict]
     ).fetchall()
 
     records = []
-    for i, (meeting_date, source_url, motion_number, motion_text,
-             motion_result, for_count, against_count, vote) in enumerate(rows, start=1):
+    for meeting_date, source_url, motion_number, motion_text, motion_result, for_count, against_count, vote in rows:
+        iso_date = str(meeting_date)[:10]
+        if resolver.resolve(initial, iso_date) != councillor["full_name"]:
+            continue
+        vote_term = term_for_date(terms, iso_date)
+        if term and vote_term != term:
+            continue
         records.append({
             "councillor": slug,
-            "airtable_row_index": i,
+            "airtable_row_index": len(records) + 1,
             "airtable_row_key": "",
             "date": _format_date(meeting_date),
             "vote": "Yes" if vote == "for" else "No",
             "motion": motion_text.strip(),
-            "ward": ward,
+            "ward": ward_by_term.get(vote_term, ""),
             "meeting_link": source_url,
             "result": _format_result(motion_result),
             "vote_tally": f"{for_count} Yes / {against_count} No",
@@ -160,17 +173,26 @@ def main() -> None:
         help="Directory for --all output files (default: current directory)",
     )
     parser.add_argument(
+        "--term",
+        help="Only export votes from this council term, e.g. 2022-2026 (default: all terms)",
+    )
+    parser.add_argument(
         "--db", default=str(DB_PATH),
         help=f"Path to DuckDB file (default: {DB_PATH})",
     )
     args = parser.parse_args()
 
-    councillors = _load_councillors()
+    councillors = load_councillors()
+    terms = load_terms()
+    resolver = CouncillorResolver(councillors, terms)
+    term_slugs = [t["slug"] for t in terms]
+    if args.term and args.term not in term_slugs:
+        parser.error(f"unknown term {args.term!r}; known terms: {', '.join(term_slugs)}")
 
     if args.list:
         for c in sorted(councillors, key=lambda x: x["last_name"]):
-            suffix = "" if c.get("active", True) else "  (inactive)"
-            print(f"{c['full_name']:25}  {_to_slug(c['full_name'])}{suffix}")
+            served = ", ".join(e["term"] for e in c.get("terms", []))
+            print(f"{c['full_name']:25}  {_to_slug(c['full_name']):25}  {served}")
         return
 
     con = duckdb.connect(args.db, read_only=True)
@@ -179,7 +201,7 @@ def main() -> None:
         out_dir = Path(args.output_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
         for councillor in sorted(councillors, key=lambda x: x["last_name"]):
-            records = export_votes(councillor, con)
+            records = export_votes(councillor, con, terms, resolver, args.term)
             slug = _to_slug(councillor["full_name"])
             if not records:
                 print(f"  skipped {councillor['full_name']} — no recorded votes", file=sys.stderr)
@@ -196,7 +218,7 @@ def main() -> None:
         parser.error("councillor argument is required (or use --all / --list)")
 
     councillor = resolve_councillor(args.councillor, councillors)
-    records = export_votes(councillor, con)
+    records = export_votes(councillor, con, terms, resolver, args.term)
 
     if not records:
         print(

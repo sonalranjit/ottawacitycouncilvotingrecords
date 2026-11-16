@@ -132,9 +132,25 @@ python -m ottawa_city_scraper.export_councillor_votes "Ariel Troster" --output a
 # Export all councillors to a directory
 python -m ottawa_city_scraper.export_councillor_votes --all --output-dir ./exports
 
-# List all known councillors
+# Only one council term
+python -m ottawa_city_scraper.export_councillor_votes "Ariel Troster" --term 2022-2026
+
+# List all known councillors and the terms they served
 python -m ottawa_city_scraper.export_councillor_votes --list
 ```
+
+---
+
+## Council terms
+
+Records are grouped by council term. Two reference files in `ottawa_city_scraper/reference_data/` define them:
+
+- `terms.json`: each term's `slug`, `label` and inclusive `start`/`end` dates. A meeting belongs to the term its date falls in. The *current* term is the one containing today (or the most recent one that has started).
+- `councillors.json`: one record per person (name, `first_name_initial`, contact info) with a `terms` array giving their `title` and ward in each term served. Set an entry's `start`/`end` only when someone joined or left mid-term (by-election, resignation).
+
+Votes are stored as the `F. Lastname` string from the minutes. They are attributed to a person by that string **and** the meeting date, so the same initial can belong to different people in different terms. Within one term, `first_name_initial` must be unique.
+
+**Starting a new term:** add the term to `terms.json`. For a returning councillor, append an entry to their `terms` array, which keeps one profile and URL. For a new councillor, add a new record. No re-scrape is needed.
 
 ---
 
@@ -144,7 +160,9 @@ Votes are stored in a DuckDB file (`ottawa_council.duckdb` by default) with the 
 
 | Table | Description |
 |---|---|
-| `councillors` | Reference data seeded from `current_councillors.json` |
+| `councillors` | One row per person, seeded from `councillors.json` (title/ward from their latest term) |
+| `terms` | Council terms, seeded from `terms.json` |
+| `councillor_terms` | One row per councillor per term served, with title, ward and membership window |
 | `meetings` | One row per scraped meeting |
 | `meeting_attendance` | Present/absent status per councillor per meeting |
 | `agenda_items` | Flattened agenda items (supports nested sub-items) |
@@ -184,12 +202,16 @@ This writes the following files to `frontend/public/data/<municipality>/`:
 
 | File | Contents |
 |---|---|
-| `index.json` | All dates with motion data + active councillor list |
+| `index.json` | All dates with motion data, council terms, current term, and every councillor with their per-term roles |
 | `dates/{YYYY-MM-DD}.json` | Meetings → agenda items → motions → votes for one date |
 | `councillors/{slug}.json` | Full vote history for one councillor |
 | `feed.xml` | RSS 2.0 feed of the most recent 100 motions |
 | `tags/index.json` | All topic tags with motion counts |
 | `tags/{slug}.json` | Motions for one topic tag |
+| `committees/index.json`, `committees/{slug}.json` | Council bodies and their motions |
+| `alignment.json` | Per term, how often each councillor voted for motions moved by each other councillor |
+
+Every date, vote, motion and alignment row has a `term` field. Tag and committee indexes include `counts_by_term`.
 
 Options: `--db <path>` (default: `datasets/ottawa_city_scraper.duckdb`), `--output-dir <path>` (default: `frontend/public/data/ottawa`).
 
@@ -248,7 +270,9 @@ npm run dev
 ### Pages
 
 - **Motions by date** (`/`) — pick a date to see all meetings, agenda items, and motions with vote tallies and individual votes.
-- **Councillor history** (`/councillors/:slug`) — select a councillor to see their full vote history in a sortable table.
+- **Councillor history** (`/councillors/:slug`) — select a councillor to see their vote history in a sortable table.
+
+Every page follows the term chosen in the header's term picker (`?term=2022-2026` in the URL). It defaults to the current term.
 - **Topics** (`/tags`) — browse motions grouped by thematic tag (e.g. Budget & Finance, Housing & Zoning). Populated from AI enrichment data.
 
 ### Build

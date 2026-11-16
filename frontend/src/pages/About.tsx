@@ -16,6 +16,11 @@ export default function About() {
           Technically this scraper can be scrape any municipality using the eScribe Meetings system.
           As a first proof of concept, the scraper runs for Ottawa.
         </p>
+        <p>
+          Records are grouped by council term (for example 2022–2026 and 2026–2030). Use the
+          term picker in the header to switch terms; every page shows the selected term only.
+          Councillors who return for another term keep a single page, filtered to the term you pick.
+        </p>
       </section>
 
       <section className={styles.section}>
@@ -79,8 +84,9 @@ export default function About() {
           <h3 className={styles.endpointTitle}>Index</h3>
           <code className={styles.url}>/data/ottawa/index.json</code>
           <p className={styles.endpointDesc}>
-            Returns a list of all available meeting dates and a directory of councillors
-            (name, ward, slug).
+            Returns a list of all available meeting dates, the council terms with their date
+            ranges, and a directory of every councillor who has served (name, slug, and their
+            title and ward in each term).
           </p>
         </div>
 

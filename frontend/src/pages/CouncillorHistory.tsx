@@ -1,19 +1,21 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { fetchIndex, fetchCouncillorData, fetchAlignmentData } from '../api/data';
-import type { IndexData, CouncillorData, AlignmentRow } from '../types';
+import { fetchCouncillorData, fetchAlignmentData } from '../api/data';
+import type { CouncillorData, AlignmentRow } from '../types';
+import { useTerm } from '../hooks/useTerm';
 import CouncillorSelector from '../components/CouncillorSelector';
 import TagPill from '../components/TagPill';
 import VoteTable from '../components/VoteTable';
 import AlignmentTable from '../components/AlignmentTable';
 import MotionsMovedTable from '../components/MotionsMovedTable';
 import { toSlug } from '../utils/format';
+import { councillorsInTerm, filterByTerm } from '../utils/terms';
 import styles from './CouncillorHistory.module.scss';
 
 export default function CouncillorHistory() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
-  const [index, setIndex] = useState<IndexData | null>(null);
+  const { index, error: indexError, terms, term, setTerm, termQuery } = useTerm();
   const [councillorData, setCouncillorData] = useState<CouncillorData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -21,17 +23,22 @@ export default function CouncillorHistory() {
   const [alignmentData, setAlignmentData] = useState<AlignmentRow[]>([]);
   const [activeTab, setActiveTab] = useState<'history' | 'alignment' | 'moved'>('history');
 
+  const termCouncillors = useMemo(
+    () => (index && term ? councillorsInTerm(index.councillors, term.slug) : []),
+    [index, term],
+  );
+
   useEffect(() => {
-    Promise.all([fetchIndex(), fetchAlignmentData()])
-      .then(([indexData, alignment]) => {
-        setIndex(indexData);
-        setAlignmentData(alignment);
-        if (!slug && indexData.councillors.length > 0) {
-          navigate(`/ottawa/councillors/${indexData.councillors[0].slug}`, { replace: true });
-        }
-      })
+    fetchAlignmentData()
+      .then(setAlignmentData)
       .catch((e: Error) => setError(e.message));
   }, []);
+
+  useEffect(() => {
+    if (!slug && termCouncillors.length > 0) {
+      navigate({ pathname: `/ottawa/councillors/${termCouncillors[0].slug}`, search: termQuery }, { replace: true });
+    }
+  }, [slug, termCouncillors]);
 
   useEffect(() => {
     if (!slug) return;
@@ -51,7 +58,7 @@ export default function CouncillorHistory() {
   function handleCouncillorChange(newSlug: string) {
     setActiveTagSlugs(new Set());
     setActiveTab('history');
-    navigate(`/ottawa/councillors/${newSlug}`);
+    navigate({ pathname: `/ottawa/councillors/${newSlug}`, search: termQuery });
   }
 
   function handleTagFilter(tagSlug: string) {
@@ -62,37 +69,48 @@ export default function CouncillorHistory() {
     });
   }
 
+  const termVotes = useMemo(
+    () => (councillorData ? filterByTerm(councillorData.votes, term?.slug) : []),
+    [councillorData, term],
+  );
+  const termMovedMotions = useMemo(
+    () => (councillorData ? filterByTerm(councillorData.motions_moved, term?.slug) : []),
+    [councillorData, term],
+  );
+  const termAlignment = useMemo(() => filterByTerm(alignmentData, term?.slug), [alignmentData, term]);
+
   const availableTags = useMemo(() => {
-    if (!councillorData) return [];
     const seen = new Map<string, string>(); // slug → tag label
-    for (const vote of councillorData.votes) {
+    for (const vote of termVotes) {
       for (const tag of (vote.tags ?? [])) {
         const s = toSlug(tag);
         if (!seen.has(s)) seen.set(s, tag);
       }
     }
     return [...seen.entries()].map(([s, tag]) => ({ slug: s, tag })).sort((a, b) => a.tag.localeCompare(b.tag));
-  }, [councillorData]);
+  }, [termVotes]);
 
   const filteredVotes = useMemo(() => {
-    if (!councillorData) return [];
-    if (activeTagSlugs.size === 0) return councillorData.votes;
-    return councillorData.votes.filter((v) =>
+    if (activeTagSlugs.size === 0) return termVotes;
+    return termVotes.filter((v) =>
       (v.tags ?? []).some((t) => activeTagSlugs.has(toSlug(t)))
     );
-  }, [councillorData, activeTagSlugs]);
+  }, [termVotes, activeTagSlugs]);
 
-  if (error) {
-    return <div className={styles.error}>Error: {error}</div>;
+  if (error || indexError) {
+    return <div className={styles.error}>Error: {error ?? indexError}</div>;
   }
 
   const councillor = councillorData?.councillor;
+  // The councillor's role in the selected term; undefined when they didn't serve in it
+  const termEntry = councillor && term ? councillor.terms.find((e) => e.term === term.slug) : undefined;
+  const servedTerms = councillor ? terms.filter((t) => councillor.terms.some((e) => e.term === t.slug)) : [];
 
   return (
     <div className={styles.page}>
       {index && (
         <CouncillorSelector
-          councillors={index.councillors}
+          councillors={termCouncillors}
           selectedSlug={slug ?? ''}
           onChange={handleCouncillorChange}
         />
@@ -100,15 +118,41 @@ export default function CouncillorHistory() {
 
       {loading && <div className={styles.loading}>Loading...</div>}
 
-      {!loading && councillor && (
+      {!loading && councillor && !termEntry && term && (
+        <div className={styles.notInTerm}>
+          <p>
+            {councillor.full_name} did not serve on council in the {term.label} term.
+          </p>
+          {servedTerms.length > 0 && (
+            <p>
+              See their record for:{' '}
+              {servedTerms.map((t, i) => (
+                <span key={t.slug}>
+                  {i > 0 && ', '}
+                  <button className={styles.termLink} onClick={() => setTerm(t.slug)}>
+                    {t.label}
+                  </button>
+                </span>
+              ))}
+            </p>
+          )}
+        </div>
+      )}
+
+      {!loading && councillor && termEntry && (
         <>
           <div className={styles.councillorCard}>
             <div className={styles.cardMain}>
               <h2 className={styles.name}>{councillor.full_name}</h2>
               <span className={styles.role}>
-                {councillor.title}
-                {councillor.ward_name ? ` — ${councillor.ward_name} Ward (Ward ${councillor.ward_number})` : ''}
+                {termEntry.title}
+                {termEntry.ward_name ? ` — ${termEntry.ward_name} Ward (Ward ${termEntry.ward_number})` : ''}
               </span>
+              {servedTerms.length > 1 && (
+                <span className={styles.termsServed}>
+                  Terms served: {servedTerms.map((t) => t.label).join(', ')}
+                </span>
+              )}
             </div>
             <div className={styles.cardMeta}>
               {councillor.email && (
@@ -171,9 +215,9 @@ export default function CouncillorHistory() {
 
               <div className={styles.tableHeader}>
                 <span className={styles.voteCount}>
-                  {filteredVotes.length === councillorData.votes.length
-                    ? `${councillorData.votes.length} vote${councillorData.votes.length !== 1 ? 's' : ''} recorded`
-                    : `${filteredVotes.length} of ${councillorData.votes.length} votes`}
+                  {filteredVotes.length === termVotes.length
+                    ? `${termVotes.length} vote${termVotes.length !== 1 ? 's' : ''} recorded in the ${term?.label ?? ''} term`
+                    : `${filteredVotes.length} of ${termVotes.length} votes`}
                 </span>
               </div>
 
@@ -182,11 +226,11 @@ export default function CouncillorHistory() {
           )}
 
           {activeTab === 'alignment' && (
-            <AlignmentTable moverFullName={councillor.full_name} rows={alignmentData} />
+            <AlignmentTable moverFullName={councillor.full_name} rows={termAlignment} />
           )}
 
           {activeTab === 'moved' && (
-            <MotionsMovedTable moverFullName={councillor.full_name} motions={councillorData.motions_moved} />
+            <MotionsMovedTable moverFullName={councillor.full_name} motions={termMovedMotions} />
           )}
         </>
       )}

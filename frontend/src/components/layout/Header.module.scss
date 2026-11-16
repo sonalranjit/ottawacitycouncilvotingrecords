@@ -109,3 +109,28 @@
   stroke: currentColor;
   flex-shrink: 0;
 }
+
+.termPicker {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xs;
+  flex-shrink: 0;
+}
+
+.termLabel {
+  font-size: $font-size-sm;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.termSelect {
+  font-size: $font-size-sm;
+  padding: 2px $spacing-xs;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: $border-radius;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+
+  option {
+    color: $color-text-primary;
+  }
+}

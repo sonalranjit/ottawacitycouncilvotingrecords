@@ -18,6 +18,7 @@ from .meeting_minutes_scraper import scrape_minutes_page
 from .db.connection import get_connection
 from .db.schema import create_tables
 from .db import upsert
+from . import attachment_links
 
 OTTAWA_ESCRIBE_MEETINGS_BASE_URL = "https://pub-ottawa.escribemeetings.com"
 
@@ -93,6 +94,21 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--verify-attachments", action="store_true",
+        help=(
+            "After scraping, compare stored attachment links with the live minutes pages "
+            "and re-scrape meetings whose links changed (eScribe re-issues them when it "
+            "republishes a meeting)"
+        ),
+    )
+    parser.add_argument(
+        "--verify-budget", type=int, default=attachment_links.DEFAULT_BUDGET,
+        help=(
+            "Maximum number of stored meetings to verify per run with --verify-attachments "
+            f"(default: {attachment_links.DEFAULT_BUDGET})"
+        ),
+    )
+    parser.add_argument(
         "--enrich",
         action="store_true",
         help=(
@@ -158,8 +174,12 @@ def format_calendar_datetime(date_text: str) -> str:
 
 
 def parse_meetings_json(file_path: str | Path) -> list[dict[str, Any]]:
+    """Parse a saved calendar-meetings response into a list of dicts."""
+    return parse_meetings_payload(json.loads(Path(file_path).read_text(encoding="utf-8")))
+
+
+def parse_meetings_payload(payload: Any) -> list[dict[str, Any]]:
     """Parse a calendar-meetings response payload into a list of dicts."""
-    payload = json.loads(Path(file_path).read_text(encoding="utf-8"))
     meetings = payload
 
     if isinstance(payload, dict):
@@ -270,7 +290,13 @@ def print_meeting_documents(meetings: list[dict[str, Any]]) -> None:
         print()
 
 
-def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path, session: requests.Session) -> Path:
+def request_calendar_meetings(
+    session: requests.Session,
+    start_date: str,
+    end_date: str,
+    verify_cert: bool = False,
+) -> Any:
+    """Fetch the raw calendar-meetings payload for a date range (YYYY-mm-dd)."""
     url = (
         f"{OTTAWA_ESCRIBE_MEETINGS_BASE_URL}"
         "/MeetingsCalendarView.aspx/GetCalendarMeetings"
@@ -279,27 +305,79 @@ def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path, session: re
         "Content-Type": "application/json",
     }
     payload = {
-        "calendarStartDate": format_calendar_datetime(args.start_date),
-        "calendarEndDate": format_calendar_datetime(args.end_date),
+        "calendarStartDate": format_calendar_datetime(start_date),
+        "calendarEndDate": format_calendar_datetime(end_date),
     }
 
     with warnings.catch_warnings():
-        if not args.verify_cert:
+        if not verify_cert:
             warnings.filterwarnings("ignore", category=InsecureRequestWarning)
         response = session.post(
             url,
             headers=headers,
             data=json.dumps(payload),
             timeout=(10, 60),
-            verify=args.verify_cert,
+            verify=verify_cert,
         )
     response.raise_for_status()
+    return response.json()
+
+
+def calendar_meetings_fetcher(session: requests.Session, verify_cert: bool = False):
+    """Return a (start_date, end_date) -> parsed meetings function, the shape
+    attachment_links.fetch_calendar_fingerprints expects."""
+    def fetch(start_date: str, end_date: str) -> list[dict[str, Any]]:
+        return parse_meetings_payload(
+            request_calendar_meetings(session, start_date, end_date, verify_cert)
+        )
+    return fetch
+
+
+def fetch_calendar_meetings(args: argparse.Namespace, run_dir: Path, session: requests.Session) -> Path:
     return write_json_to_run_dir(
         run_dir,
         "calendar_meetings.json",
-        response.json(),
+        request_calendar_meetings(session, args.start_date, args.end_date, args.verify_cert),
         log_label="calendar meetings",
     )
+
+
+def verify_attachment_links(
+    con,
+    session: requests.Session,
+    args: argparse.Namespace,
+    run_dir: Path,
+    skip_meeting_ids: list[str],
+) -> list[str]:
+    """Re-scrape stored meetings whose attachment links changed on eScribe.
+
+    Returns the IDs of the meetings that were re-scraped. Never raises: a
+    verification problem must not fail a scrape that otherwise succeeded.
+    """
+    try:
+        fingerprints = attachment_links.fetch_calendar_fingerprints(
+            con, calendar_meetings_fetcher(session, args.verify_cert)
+        )
+        report = attachment_links.verify_and_repair(
+            con,
+            session,
+            fingerprints=fingerprints,
+            budget=args.verify_budget,
+            verify_cert=args.verify_cert,
+            min_delay=args.min_delay,
+            max_delay=args.max_delay,
+            skip_meeting_ids=skip_meeting_ids,
+        )
+    except Exception:
+        logger.exception("Attachment link verification failed; continuing without it")
+        return []
+    write_json_to_run_dir(
+        run_dir,
+        "attachment_link_report.json",
+        report,
+        log_label="attachment link report",
+    )
+    return report["repaired_meeting_ids"]
 
 
 
@@ -315,6 +393,11 @@ def main(args: argparse.Namespace) -> int:
     meetings = parse_meetings_json(meetings_path)
     if args.meeting_name:
         meetings = filter_meetings_by_name(meetings, args.meeting_name)
+    # Taken before the document lists are narrowed to PostMinutes HTML below:
+    # the fingerprint covers all of a meeting's calendar documents.
+    calendar_fingerprints = {
+        m["id"]: attachment_links.calendar_fingerprint(m) for m in meetings if m.get("id")
+    }
     postminutes_html_english = filter_postminutes_html_english_documents(meetings)
     postminutes_html_english_count = sum(len(m.get("documents", [])) for m in postminutes_html_english)
     print_meeting_documents(postminutes_html_english)
@@ -335,7 +418,6 @@ def main(args: argparse.Namespace) -> int:
             continue
         if already_scraped:
             logger.info("Re-scraping meeting %s (%s) — replacing stored records", meeting_id, meeting.get("name"))
-            upsert.delete_meeting_children(con, meeting_id)
 
         output_filename = build_meeting_minutes_filename(meeting)
         for document in meeting.get("documents", []):
@@ -353,12 +435,22 @@ def main(args: argparse.Namespace) -> int:
                 scraped,
                 log_label="scraped meeting minutes",
             )
-            upsert.insert_meeting(con, meeting_id, meeting, scraped, args.municipality)
+            # The stored records are only replaced once the page has been
+            # fetched and parsed, so a failed fetch can't lose a meeting.
+            if already_scraped:
+                upsert.replace_meeting(con, meeting_id, meeting, scraped, args.municipality)
+            else:
+                upsert.insert_meeting(con, meeting_id, meeting, scraped, args.municipality)
+            attachment_links.record_fresh_scrape(con, meeting_id, calendar_fingerprints.get(meeting_id))
             scraped_meeting_ids.append(meeting_id)
             delay = random.uniform(args.min_delay, args.max_delay)
             if delay > 0:
                 logger.info("Waiting %.1fs before next request...", delay)
                 time.sleep(delay)
+
+    if args.verify_attachments:
+        repaired_meeting_ids = verify_attachment_links(con, session, args, run_dir, scraped_meeting_ids)
+        scraped_meeting_ids.extend(i for i in repaired_meeting_ids if i not in scraped_meeting_ids)
 
     if not args.no_parquet and scraped_meeting_ids:
         from .db.parquet_export import export_run_parquet

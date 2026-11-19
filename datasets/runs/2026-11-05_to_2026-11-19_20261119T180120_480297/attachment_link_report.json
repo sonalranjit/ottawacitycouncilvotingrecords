@@ -1,0 +1,701 @@
+{
+  "run_at": "2026-11-19T18:03:40.721199",
+  "dry_run": false,
+  "aborted": false,
+  "totals": {
+    "due": 60,
+    "checked": 60,
+    "unchanged": 59,
+    "repaired": 1,
+    "would_repair": 0,
+    "failed": 0
+  },
+  "repaired_meeting_ids": [
+    "7e8e2766-5703-4860-9fc6-7b51b4bd783a"
+  ],
+  "repaired": [
+    {
+      "meeting_id": "7e8e2766-5703-4860-9fc6-7b51b4bd783a",
+      "meeting_name": "City Council",
+      "meeting_date": "2026-11-12",
+      "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=7e8e2766-5703-4860-9fc6-7b51b4bd783a&Agenda=PostMinutes&lang=English",
+      "reason": "calendar links changed",
+      "links": {
+        "replaced": [
+          {
+            "attachment_title": "01 - (Cover) - ACS2026-PDB-PSX-0076 - ZBLA -  1740, 1754, 1760 St Laurent Boulevard and 700 Mountaineer Private.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341518",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341792"
+          },
+          {
+            "attachment_title": "01 - (Report) - ACS2026-PDB-PSX-0076 - ZBLA - 1740 1754 1760 St Laurent Boulevard and 700 Mountaineer Private.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341519",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341793"
+          },
+          {
+            "attachment_title": "02 - (Cover) - ACS2026-SI-HSI-0017 - Build Ottawa 2025 \u2013 Annual Report.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341520",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341794"
+          },
+          {
+            "attachment_title": "02 - (Report) - ACS2026-SI-HSI-0017 - Build Ottawa Annual Report.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341521",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341795"
+          },
+          {
+            "attachment_title": "02 - Document 1 - Build Ottawa Annual Report and Financial Statements 2025.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341522",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341796"
+          },
+          {
+            "attachment_title": "04 - (Cover) - ACS2026-PDB-PS-0071 - Lifting of Part Lot Control \u2013 230 Smyth Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341510",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341784"
+          },
+          {
+            "attachment_title": "04 - (Report) - ACS2026-PDB-PS-0071 - Lifting of Part-Lot Control  230 Smyth Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341511",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341785"
+          },
+          {
+            "attachment_title": "05 - (Cover) - ACS2026-PDB-PSX-0074 - Zoning By-law Amendment \u2013 1345 Baseline Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341532",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341806"
+          },
+          {
+            "attachment_title": "05 - (Report) - ACS2026-PDB-PSX-0074  - Zoning By-law Amendment  1345 Baseline Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341533",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341807"
+          },
+          {
+            "attachment_title": "06 - (Cover) - ACS2026-PDB-PS-0074 - Zoning of 3930 Riverside Drive \u2013 Repeal of by-law 2025-258.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341534",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341808"
+          },
+          {
+            "attachment_title": "06 - (Report) - ACS2026-PDB-PS-0074 - Repeal of Zoning By-law Amendment 3930 Riverside Drive.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341535",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341809"
+          },
+          {
+            "attachment_title": "07 - (Cover) - ACS2026-PDB-PSX-0003 - Temporary Zoning By-law Amendment \u2013 3971 Greenbank Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341589",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341863"
+          },
+          {
+            "attachment_title": "07 - (Report) - ACS2026-PDB-PSX-0003 -Temporary Zoning By-law Amendment - 3971 Greenbank Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341590",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341864"
+          },
+          {
+            "attachment_title": "08 - (Cover) - ACS2026-PDB-PSX-0033 - Zoning By-Law Amendment \u2013 3400 and 3428 Woodroffe Avenue.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341512",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341786"
+          },
+          {
+            "attachment_title": "08 - (Report) - ACS2026-PDB-PSX-0033 - Zoning By-law Amendment - 3400 and 3428 Woodroffe Avenue.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341513",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341787"
+          },
+          {
+            "attachment_title": "09 - (Cover) - ACS2026-PDB-PSX-0045 - Zoning By-law Amendment \u2013 475 Terry Fox Drive.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341514",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341788"
+          },
+          {
+            "attachment_title": "09 - (Report) - ACS2026-PDB-PSX-0045 - Zoning By-law Amendment - 475 Terry Fox Drive Report.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341515",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341789"
+          },
+          {
+            "attachment_title": "1 - (Report) - ACS2026-PDB-RHU-0049 - Designation of 936 March Rd.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341581",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341855"
+          },
+          {
+            "attachment_title": "10 - (Cover) - ACS2026-PDB-PS-0072 - Ontario Land Tribunal Settlement -OPA and ZBLA - 2175 Prince of Wales Drive.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341611",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341885"
+          },
+          {
+            "attachment_title": "10 - (Report) - ACS2026-PDB-PS-0072 - OLT Settlement -OPA and ZBLA - 2175 Prince of Wales Drive.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341612",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341886"
+          },
+          {
+            "attachment_title": "11 - (Cover) - ACS2026-OCC-CCS-0111 - Motion \u2013 Councillor G. Gower - Parkland Dedication Allocation Temporary Waiver.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341516",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341790"
+          },
+          {
+            "attachment_title": "11 - ACS2026-OCC-CCS-0111 - Motion - Parkland Dedication Allocation Temporary Waiver.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341517",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341791"
+          },
+          {
+            "attachment_title": "2026-2030 Council Governance Review report - EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341613",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341887"
+          },
+          {
+            "attachment_title": "2026-2030 Council Governance Review report - FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341614",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341888"
+          },
+          {
+            "attachment_title": "7.1 - Document 10 - Hydrogeological Study.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341531",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341805"
+          },
+          {
+            "attachment_title": "7.1 - Document 4 - Demonstration Plan.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341525",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341799"
+          },
+          {
+            "attachment_title": "7.1 - Document 5 - Serviceability Report (1).pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341526",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341800"
+          },
+          {
+            "attachment_title": "7.1 - Document 6 - Community Transportation Study.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341527",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341801"
+          },
+          {
+            "attachment_title": "7.1 - Document 7 - Environmental Impact Study.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341528",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341802"
+          },
+          {
+            "attachment_title": "7.1 - Document 8 - Addendum to the Environmental Impact Study.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341529",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341803"
+          },
+          {
+            "attachment_title": "7.1 - Document 9 - Addendum 2 to the Environmental Impact Study .pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341530",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341804"
+          },
+          {
+            "attachment_title": "CSC-2026-06 Inquiry - Lo - Greenbank Park.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341610",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341884"
+          },
+          {
+            "attachment_title": "Coverpage - 10 Cedarow Ct.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341571",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341845"
+          },
+          {
+            "attachment_title": "Coverpage - 200 Iber Road \u2013 New Acquisition Lease on behalf of Wastewater.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341601",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341875"
+          },
+          {
+            "attachment_title": "Coverpage - 2026 KPMG Financial Statement Audit Plan.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341536",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341810"
+          },
+          {
+            "attachment_title": "Coverpage - 2026 Procurement Mid-Year Report.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341595",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341869"
+          },
+          {
+            "attachment_title": "Coverpage - 26 Castlefrank Rd.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341569",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341843"
+          },
+          {
+            "attachment_title": "Coverpage - 354, 487 and 511 Rideau St.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341582",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341856"
+          },
+          {
+            "attachment_title": "Coverpage - 622 QE Driveway.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341573",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341847"
+          },
+          {
+            "attachment_title": "Coverpage - 936 March Rd.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341580",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341854"
+          },
+          {
+            "attachment_title": "Coverpage - Application for Approval to Expropriate Lands \u2013 Brian Coburn Widening.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341604",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341878"
+          },
+          {
+            "attachment_title": "Coverpage - Comprehensive Legal Services Report for the Period January 1 to June 30, 2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341599",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341873"
+          },
+          {
+            "attachment_title": "Coverpage - Delegation of Authority Updates.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341584",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341858"
+          },
+          {
+            "attachment_title": "Coverpage - Maple Grove Health Hub Request for Proposals.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341608",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341882"
+          },
+          {
+            "attachment_title": "Coverpage - OAG Audit of 3-1-1.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341559",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341833"
+          },
+          {
+            "attachment_title": "Coverpage - OAG Audit of Curbside Garbage Collection.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341553",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341827"
+          },
+          {
+            "attachment_title": "Coverpage - OAG External Quality Assessment Report.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341540",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341814"
+          },
+          {
+            "attachment_title": "Coverpage - OAG Review of Overtime.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341547",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341821"
+          },
+          {
+            "attachment_title": "Coverpage - OAG Semi-Annual Report on Follow-up Procedures.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341565",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341839"
+          },
+          {
+            "attachment_title": "Coverpage - S-4 Leitrim West of Bank Future Neighbourhood.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341523",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341797"
+          },
+          {
+            "attachment_title": "Coverpage - Uncollectible Taxes Under Section 354 of the Municipal Act, 2001.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341593",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341867"
+          },
+          {
+            "attachment_title": "Doc 1_Summary_ACS2026-PDB-PSX-0038 - Official Plan and Zoning By-law Amendment - 1052, 1060, 1064 St-Laurent Boulevard.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341576",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341850"
+          },
+          {
+            "attachment_title": "Doc 2_Summary_ACS2026-PDB-PSX-0001 - Zoning By-law Amendment - 342 Roosevelt Avenue.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341577",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341851"
+          },
+          {
+            "attachment_title": "Doc 3_Summary_ACS2026-PDB-PSX-0004 - Zoning By-law Amendment \u2013 560 Hazeldean Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341578",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341852"
+          },
+          {
+            "attachment_title": "Doc 4 - Summary - ACS2026-PDB-PSX-0027 -Zoning By-law Amendment \u2013 2095 Dilworth Road.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341579",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341853"
+          },
+          {
+            "attachment_title": "Document 1 - Contracts Awarded Under DOA January 1, 2026 to June 30, 2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341597",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341871"
+          },
+          {
+            "attachment_title": "Document 1 - OAG External Quality Assessment.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341542",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341816"
+          },
+          {
+            "attachment_title": "Document 1 English - Audit of 3-1-1 EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341561",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341835"
+          },
+          {
+            "attachment_title": "Document 1 English - Audit of Curbside Garbage Collection EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341555",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341829"
+          },
+          {
+            "attachment_title": "Document 1 English - Review of Overtime EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341549",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341823"
+          },
+          {
+            "attachment_title": "Document 1 English -\u202fOAG\u202fSemi-Annual Report on Follow-up Procedures EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341567",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341841"
+          },
+          {
+            "attachment_title": "Document 1 French - Audit of 3-1-1 FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341562",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341836"
+          },
+          {
+            "attachment_title": "Document 1 French - Audit of Curbside Garbage Collection FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341556",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341830"
+          },
+          {
+            "attachment_title": "Document 1 French - Review of Overtime FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341550",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341824"
+          },
+          {
+            "attachment_title": "Document 1 French -\u202fOAG\u202fSemi-Annual Report on Follow-up Procedures FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341568",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341842"
+          },
+          {
+            "attachment_title": "Document 1 \u2013 KPMG 2026 Financial Statement Audit Plan AODA.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341539",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341813"
+          },
+          {
+            "attachment_title": "Document 1 \u2013 KPMG 2026 Financial Statement Audit Plan.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341538",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341812"
+          },
+          {
+            "attachment_title": "Document 1 \u2013 Mayor",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341615",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341889"
+          },
+          {
+            "attachment_title": "Document 10  Update on the City of Ottawa",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341625",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341899"
+          },
+          {
+            "attachment_title": "Document 11  Revised Ottawa Investment Board Terms of Reference.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341626",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341900"
+          },
+          {
+            "attachment_title": "Document 12 - Draft revised Auditor General By-law.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341627",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341901"
+          },
+          {
+            "attachment_title": "Document 13 - Draft revised City Manager By-law.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341628",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341902"
+          },
+          {
+            "attachment_title": "Document 14 - Recommended amendments to the Delegation of Authority By-law.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341629",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341903"
+          },
+          {
+            "attachment_title": "Document 15 - Recommended amendments to the Procedure By-law.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341630",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341904"
+          },
+          {
+            "attachment_title": "Document 16 - Summary of recommended amendments to the Appointment Policy.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341631",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341905"
+          },
+          {
+            "attachment_title": "Document 17 - Recommended amendments to the Council Expense Policy.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341632",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341906"
+          },
+          {
+            "attachment_title": "Document 18 - Recommended amendments to the Council-Staff Relations Policy.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341633",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341907"
+          },
+          {
+            "attachment_title": "Document 2  Recommended Ward- and position-specific appointments.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341616",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341890"
+          },
+          {
+            "attachment_title": "Document 2 - Appendix A - Terminology-AODA.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341598",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341872"
+          },
+          {
+            "attachment_title": "Document 2 - City ofOttawa Execution Memo - Offer to Lease - Fully Executed -AODA.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341603",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341877"
+          },
+          {
+            "attachment_title": "Document 2 English - Audit of 3-1-1 - Audit Highlights EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341563",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341837"
+          },
+          {
+            "attachment_title": "Document 2 English - Audit of\u00a0Curbside Garbage Collecton - Audit Highlights EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341557",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341831"
+          },
+          {
+            "attachment_title": "Document 2 English - OAG Audit Charter EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341543",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341817"
+          },
+          {
+            "attachment_title": "Document 2 English - Review of Overtime - Highlights EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341551",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341825"
+          },
+          {
+            "attachment_title": "Document 2 French - Audit of 3-1-1 - Audit Highlights FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341564",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341838"
+          },
+          {
+            "attachment_title": "Document 2 French - Audit of\u00a0Curbside Garbage Collecton - Audit Highlights FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341558",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341832"
+          },
+          {
+            "attachment_title": "Document 2 French - OAG Audit Charter FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341544",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341818"
+          },
+          {
+            "attachment_title": "Document 2 French - Review of Overtime - Highlights FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341552",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341826"
+          },
+          {
+            "attachment_title": "Document 3 - Current and proposed Community Safety and Well-Being Advisory Committee membership.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341617",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341891"
+          },
+          {
+            "attachment_title": "Document 3 English - OAG Audit Charter - Updated Sections EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341545",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341819"
+          },
+          {
+            "attachment_title": "Document 3 French - OAG Audit Charter - Updated Sections FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341546",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341820"
+          },
+          {
+            "attachment_title": "Document 4 - Revised Terms of Reference for the Planning Advisory Committee.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341618",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341892"
+          },
+          {
+            "attachment_title": "Document 5 - Closed outstanding Inquiries from the 2022-2026 Term of Council.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341619",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341893"
+          },
+          {
+            "attachment_title": "Document 6 (EN) - 2026 Annual Report of the Integrity Commissioner.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341620",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341894"
+          },
+          {
+            "attachment_title": "Document 6 (FR) - Rapport annuel de la commissaire \u00e0 l",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341621",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341895"
+          },
+          {
+            "attachment_title": "Document 7 - Preliminary list of City policies affected by Bill 9.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341622",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341896"
+          },
+          {
+            "attachment_title": "Document 8 - Recommended amendments to the Ethical Framework for Members",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341623",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341897"
+          },
+          {
+            "attachment_title": "Document 9 - Recommended amendments to the Lobbyist Registry By-law.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341624",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341898"
+          },
+          {
+            "attachment_title": "ECCC Inquiry 2024-02 - T. Kavanagh - Wood burning fireplaces - FINAL - September 17 2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341586",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341860"
+          },
+          {
+            "attachment_title": "Memo_Follow up on motion - implementation of a communication protocol_EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341587",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341861"
+          },
+          {
+            "attachment_title": "Memo_Follow up on motion - implementation of a communication protocol_FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341588",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341862"
+          },
+          {
+            "attachment_title": "OCC Document 1 (EN) - Delegated Authority List.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341591",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341865"
+          },
+          {
+            "attachment_title": "OCC Document 1 (FR) - Delegated Authority List.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341592",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341866"
+          },
+          {
+            "attachment_title": "OCC Draft Minutes 87 (EN).pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341635",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341909"
+          },
+          {
+            "attachment_title": "OCC Draft Minutes 87 (FR).pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341634",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341908"
+          },
+          {
+            "attachment_title": "OCC-2026-10 Inquiry - Menard - LRFP \u2013 Facilities for Full Replacement_Final.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341507",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341781"
+          },
+          {
+            "attachment_title": "OCC-2026-17 Inquiry - Desroches - Reliability in City Telecommunications Contracts.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341508",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341782"
+          },
+          {
+            "attachment_title": "OCC-2026-18 Inquiry - Carr - Habitat for Humanity.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341509",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341783"
+          },
+          {
+            "attachment_title": "PHC-2024-02 Inquiry - Brown - New Developments - Winter Pathway Maintenance.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341607",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341881"
+          },
+          {
+            "attachment_title": "PHC-2026-03 Inquiry - Brockington - Central Experimental Farm Working Group Update.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341606",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341880"
+          },
+          {
+            "attachment_title": "Public Notices English - Council 2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341505",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341779"
+          },
+          {
+            "attachment_title": "Public Notices French - Council 2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341506",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341780"
+          },
+          {
+            "attachment_title": "Report - 200 Iber Road \u2013 New Acquisition Lease on behalf of IWSD.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341602",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341876"
+          },
+          {
+            "attachment_title": "Report - 2026 KPMG Financial Statement Audit Plan.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341537",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341811"
+          },
+          {
+            "attachment_title": "Report - 2026 Procurement Mid-Year Report-AODA.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341596",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341870"
+          },
+          {
+            "attachment_title": "Report - Application for Approval to Expropriate Lands \u2013 Brian Coburn Widening - DA.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341605",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341879"
+          },
+          {
+            "attachment_title": "Report - Audit of 3-1-1.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341560",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341834"
+          },
+          {
+            "attachment_title": "Report - Audit of Curbside Garbage Collection.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341554",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341828"
+          },
+          {
+            "attachment_title": "Report - Comprehensive Legal Services Report Q1 Q2 2026 .pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341600",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341874"
+          },
+          {
+            "attachment_title": "Report - Delegation of Authority Updates.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341585",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341859"
+          },
+          {
+            "attachment_title": "Report - Designation of 10 Cedarow Court.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341572",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341846"
+          },
+          {
+            "attachment_title": "Report - Designation of 26 Castlefrank Rd.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341570",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341844"
+          },
+          {
+            "attachment_title": "Report - Designation of 354, 487, and 511 Rideau St.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341583",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341857"
+          },
+          {
+            "attachment_title": "Report - Designation of 622 Queen Elizabeth Dr.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341574",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341848"
+          },
+          {
+            "attachment_title": "Report - External Quality Assessment.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341541",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341815"
+          },
+          {
+            "attachment_title": "Report - Maple Grove Health Hub Request for Proposals.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341609",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341883"
+          },
+          {
+            "attachment_title": "Report - Review of Overtime.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341548",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341822"
+          },
+          {
+            "attachment_title": "Report - S-4 Leitrim West of Bank Future Neighbourhood.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341524",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341798"
+          },
+          {
+            "attachment_title": "Report - Semi Annual Report on Follow-up Procedures.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341566",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341840"
+          },
+          {
+            "attachment_title": "Report - Summary of Submissions - Planning Matters approved October 14, 2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341575",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341849"
+          },
+          {
+            "attachment_title": "Report - Uncollectible Taxes Under Section 354 of the Municipal Act.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341594",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=341868"
+          }
+        ],
+        "removed": [],
+        "added": []
+      },
+      "before": {
+        "agenda_items": 85,
+        "motions": 45,
+        "votes": 100,
+        "attachments": 131
+      },
+      "status": "repaired",
+      "after": {
+        "agenda_items": 85,
+        "motions": 45,
+        "votes": 100,
+        "attachments": 131
+      }
+    }
+  ],
+  "would_repair": [],
+  "failed": []
+}

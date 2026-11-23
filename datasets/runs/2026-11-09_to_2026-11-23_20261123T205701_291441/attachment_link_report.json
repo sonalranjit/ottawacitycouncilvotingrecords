@@ -1,0 +1,17 @@
+{
+  "run_at": "2026-11-23T20:59:24.453756",
+  "dry_run": false,
+  "aborted": false,
+  "totals": {
+    "due": 60,
+    "checked": 60,
+    "unchanged": 60,
+    "repaired": 0,
+    "would_repair": 0,
+    "failed": 0
+  },
+  "repaired_meeting_ids": [],
+  "repaired": [],
+  "would_repair": [],
+  "failed": []
+}

@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useTerm } from '../../hooks/useTerm';
+import { TAB_BAR_QUERY, useMediaQuery } from '../../hooks/useMediaQuery';
 import TermPicker from './TermPicker';
 import styles from './Header.module.scss';
 
@@ -56,78 +57,88 @@ export default function Header() {
   const { index, terms, term, setTerm, termQuery } = useTerm();
   const currentTerm = index ? terms.find((t) => t.slug === index.current_term) : undefined;
   const viewingPastTerm = !!term && !!currentTerm && term.slug !== currentTerm.slug;
+  // On phones the links are a fixed tab bar. It is rendered outside the sticky
+  // header: iOS Safari lets a fixed element inside a sticky one scroll away.
+  const isTabBar = useMediaQuery(TAB_BAR_QUERY);
+
+  const sectionNav = (
+    <nav className={styles.nav} aria-label="Sections">
+      {NAV_ITEMS.map((item) => (
+        <NavLink
+          key={item.to}
+          to={{ pathname: item.to, search: termQuery }}
+          end={item.end}
+          className={({ isActive }) => (isActive ? `${styles.link} ${styles.active}` : styles.link)}
+        >
+          <span className={styles.iconPill} aria-hidden="true">
+            <svg
+              className={styles.navIcon}
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              focusable="false"
+            >
+              <path d={item.icon} />
+            </svg>
+          </span>
+          <span className={styles.linkLabel}>{item.label}</span>
+        </NavLink>
+      ))}
+    </nav>
+  );
 
   return (
-    <header className={styles.header}>
-      <div className={styles.bar}>
-        <div className={styles.inner}>
-          <div className={styles.brand}>
-            <span className={styles.brandTitle}>Ottawa City Council</span>
-            <span className={styles.brandSub}>Voting Records</span>
-          </div>
+    <>
+      <header className={styles.header}>
+        <div className={styles.bar}>
+          <div className={styles.inner}>
+            <div className={styles.brand}>
+              <span className={styles.brandTitle}>Ottawa City Council</span>
+              <span className={styles.brandSub}>Voting Records</span>
+            </div>
 
-          <nav className={styles.nav} aria-label="Sections">
-            {NAV_ITEMS.map((item) => (
-              <NavLink
-                key={item.to}
-                to={{ pathname: item.to, search: termQuery }}
-                end={item.end}
-                className={({ isActive }) => (isActive ? `${styles.link} ${styles.active}` : styles.link)}
+            {!isTabBar && sectionNav}
+
+            <div className={styles.actions}>
+              {terms.length > 1 && term && (
+                <TermPicker
+                  terms={terms}
+                  selected={term}
+                  currentSlug={index?.current_term}
+                  onSelect={setTerm}
+                />
+              )}
+              <a
+                href={RSS_HREF}
+                className={styles.rssLink}
+                title="Subscribe via RSS"
+                aria-label="Subscribe via RSS"
               >
-                <span className={styles.iconPill} aria-hidden="true">
-                  <svg
-                    className={styles.navIcon}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    focusable="false"
-                  >
-                    <path d={item.icon} />
-                  </svg>
-                </span>
-                <span className={styles.linkLabel}>{item.label}</span>
-              </NavLink>
-            ))}
-          </nav>
-
-          <div className={styles.actions}>
-            {terms.length > 1 && term && (
-              <TermPicker
-                terms={terms}
-                selected={term}
-                currentSlug={index?.current_term}
-                onSelect={setTerm}
-              />
-            )}
-            <a
-              href={RSS_HREF}
-              className={styles.rssLink}
-              title="Subscribe via RSS"
-              aria-label="Subscribe via RSS"
-            >
-              <RssIcon className={styles.rssIcon} />
-            </a>
+                <RssIcon className={styles.rssIcon} />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      {viewingPastTerm && term && currentTerm && (
-        <div className={styles.pastTerm} role="status">
-          <div className={styles.pastTermInner}>
-            <span>Showing the {term.label} term</span>
-            <button
-              type="button"
-              className={styles.pastTermButton}
-              onClick={() => setTerm(currentTerm.slug)}
-            >
-              Go to current term
-            </button>
+        {viewingPastTerm && term && currentTerm && (
+          <div className={styles.pastTerm} role="status">
+            <div className={styles.pastTermInner}>
+              <span>Showing the {term.label} term</span>
+              <button
+                type="button"
+                className={styles.pastTermButton}
+                onClick={() => setTerm(currentTerm.slug)}
+              >
+                Go to current term
+              </button>
+            </div>
           </div>
-        </div>
-      )}
-    </header>
+        )}
+      </header>
+      {isTabBar && sectionNav}
+    </>
   );
 }

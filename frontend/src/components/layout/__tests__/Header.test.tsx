@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Header from '../Header';
@@ -61,5 +61,27 @@ describe('Header', () => {
     renderHeader('/ottawa/about');
     expect(screen.getByRole('link', { name: 'About' }).className).toMatch(/active/);
     expect(screen.getByRole('link', { name: 'Topics' }).className).not.toMatch(/active/);
+  });
+
+  describe('on a phone-width screen', () => {
+    afterEach(() => vi.unstubAllGlobals());
+
+    it('renders the section links outside the sticky header, as a tab bar', () => {
+      vi.stubGlobal('matchMedia', (query: string) => ({
+        matches: true,
+        media: query,
+        addEventListener: () => {},
+        removeEventListener: () => {},
+      }));
+      renderHeader();
+      const nav = screen.getByRole('navigation', { name: 'Sections' });
+      expect(nav.closest('header')).toBeNull();
+      expect(screen.getAllByRole('navigation', { name: 'Sections' })).toHaveLength(1);
+    });
+  });
+
+  it('keeps the section links in the header on wider screens', () => {
+    renderHeader();
+    expect(screen.getByRole('navigation', { name: 'Sections' }).closest('header')).not.toBeNull();
   });
 });

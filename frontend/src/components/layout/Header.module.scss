@@ -70,7 +70,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 100;
+    // Below the header (100), so the term sheet opened from the header covers it
+    z-index: 90;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0;

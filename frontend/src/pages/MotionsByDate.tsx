@@ -5,6 +5,7 @@ import type { DateData } from '../types';
 import MotionCard from '../components/MotionCard';
 import { useTerm } from '../hooks/useTerm';
 import { councillorsInTerm, dateInTerm } from '../utils/terms';
+import { itemLabel } from '../utils/format';
 import styles from './MotionsByDate.module.scss';
 
 export default function MotionsByDate() {
@@ -140,16 +141,24 @@ export default function MotionsByDate() {
           )}
 
           {meeting.agenda_items.map((item) => (
-            <div key={item.item_id} className={styles.agendaItem}>
-              <h3 className={styles.itemTitle}>
-                <span className={styles.itemNumber}>{item.agenda_item_number}</span>
-                {item.title}
-              </h3>
-              <div className={styles.motions}>
-                {item.motions.map((motion) => (
-                  <MotionCard key={motion.motion_id} motion={motion} attachments={item.attachments} />
-                ))}
-              </div>
+            // One card per agenda item. The item heading sits inside its first
+            // motion; further motions follow as rows of the same card.
+            <div key={item.item_id} className={styles.itemCard}>
+              {item.motions.length === 0 ? (
+                <h3 className={styles.itemTitle}>
+                  <span className={styles.itemNumber}>{itemLabel(item.agenda_item_number)}</span>
+                  {item.title}
+                </h3>
+              ) : (
+                item.motions.map((motion, i) => (
+                  <MotionCard
+                    key={motion.motion_id}
+                    motion={motion}
+                    attachments={i === 0 ? item.attachments : undefined}
+                    item={i === 0 ? { number: item.agenda_item_number, title: item.title } : undefined}
+                  />
+                ))
+              )}
             </div>
           ))}
         </section>

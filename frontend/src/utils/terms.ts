@@ -51,3 +51,8 @@ export function countInTerm(
   if (!termSlug || !item.counts_by_term) return item.motion_count;
   return item.counts_by_term[termSlug] ?? 0;
 }
+
+/** "2022–2026" → "2022–26", for the narrow term chip on phones. */
+export function shortTermLabel(label: string): string {
+  return label.replace(/^(\d{4})–\d\d(\d\d)$/, '$1–$2');
+}

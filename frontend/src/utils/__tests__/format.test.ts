@@ -1,5 +1,13 @@
 import { describe, it, expect } from 'vitest';
-import { formatDate, motionOutcome, resultLabel, resultVariant } from '../format';
+import {
+  describeAttachment,
+  formatDate,
+  isStubMotionText,
+  itemLabel,
+  motionOutcome,
+  resultLabel,
+  resultVariant,
+} from '../format';
 
 describe('formatDate', () => {
   it('converts YYYY-MM-DD to M/D/YYYY', () => {
@@ -142,5 +150,57 @@ describe('resultVariant', () => {
   it('returns "neutral" for anything else', () => {
     expect(resultVariant('Withdrawn')).toBe('neutral');
     expect(resultVariant('')).toBe('neutral');
+  });
+});
+
+describe('describeAttachment', () => {
+  it('renames the usual report and cover page prefixes', () => {
+    expect(describeAttachment('Report - ACS2026-PDB-PSX-0001 - ZBLA - 342 Roosevelt Avenue.pdf')).toEqual({
+      label: 'Staff report',
+      detail: 'ACS2026-PDB-PSX-0001 – ZBLA – 342 Roosevelt Avenue',
+      fileType: 'PDF',
+    });
+    expect(describeAttachment('Coverpage - Zoning By-law Amendment – 2095 Dilworth Road.pdf').label).toBe('Cover page');
+    expect(describeAttachment('(Cover) - Item 4.1.pdf').label).toBe('Cover page');
+  });
+
+  it('splits numbered documents into number and subject', () => {
+    expect(describeAttachment('Document 1 - Location Map.pdf')).toEqual({
+      label: 'Document 1',
+      detail: 'Location Map',
+      fileType: 'PDF',
+    });
+  });
+
+  it('keeps other titles as they are, minus the extension', () => {
+    expect(describeAttachment('4.1 - Delegation list.pdf')).toEqual({
+      label: '4.1 - Delegation list',
+      detail: '',
+      fileType: 'PDF',
+    });
+    expect(describeAttachment('Report')).toEqual({ label: 'Report', detail: '', fileType: '' });
+  });
+});
+
+describe('isStubMotionText', () => {
+  it('flags text that is only a heading or a lead-in', () => {
+    expect(isStubMotionText('Committee Recommendation(s)\nThat Council:')).toBe(true);
+    expect(isStubMotionText('That Council:')).toBe(true);
+    expect(isStubMotionText('Report Recommendation(s)')).toBe(true);
+    expect(isStubMotionText('Committee recommendations, as amended\nThat Council approve:')).toBe(true);
+  });
+
+  it('keeps real motion text, and empty text for the placeholder', () => {
+    expect(isStubMotionText('Committee Recommendation(s)\nThat Council approve the zoning amendment.')).toBe(false);
+    expect(isStubMotionText('That the report be received.')).toBe(false);
+    expect(isStubMotionText('')).toBe(false);
+  });
+});
+
+describe('itemLabel', () => {
+  it('prefixes the agenda number and drops a trailing dot', () => {
+    expect(itemLabel('11.2')).toBe('Item 11.2');
+    expect(itemLabel('14.')).toBe('Item 14');
+    expect(itemLabel('')).toBe('');
   });
 });

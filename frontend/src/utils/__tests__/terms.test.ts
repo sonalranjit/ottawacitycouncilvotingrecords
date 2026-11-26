@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { councillorsInTerm, countInTerm, dateInTerm, filterByTerm, resolveTerm } from '../terms';
+import { councillorsInTerm, countInTerm, dateInTerm, filterByTerm, resolveTerm, shortTermLabel } from '../terms';
 import type { CouncillorMeta, Term } from '../../types';
 
 const oldTerm: Term = { slug: '2022-2026', label: '2022–2026', start: '2022-11-15', end: '2026-11-14' };
@@ -92,5 +92,15 @@ describe('countInTerm', () => {
 
   it('falls back to the total when per-term counts are missing', () => {
     expect(countInTerm({ motion_count: 10 }, '2026-2030')).toBe(10);
+  });
+});
+
+describe('shortTermLabel', () => {
+  it('shortens the end year', () => {
+    expect(shortTermLabel('2022–2026')).toBe('2022–26');
+  });
+
+  it('leaves other labels alone', () => {
+    expect(shortTermLabel('Interim')).toBe('Interim');
   });
 });

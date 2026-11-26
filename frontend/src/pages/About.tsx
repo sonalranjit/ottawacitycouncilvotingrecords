@@ -21,6 +21,10 @@ export default function About() {
           term picker in the header to switch terms; every page shows the selected term only.
           Councillors who return for another term keep a single page, filtered to the term you pick.
         </p>
+        <p>
+          To hear about new meetings as they are added,{' '}
+          <a href="./data/ottawa/feed.xml">subscribe via RSS</a>.
+        </p>
       </section>
 
       <section className={styles.section}>

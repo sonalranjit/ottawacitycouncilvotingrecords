@@ -3,7 +3,16 @@
 .page {
   display: flex;
   flex-direction: column;
-  gap: $spacing-lg;
+  gap: 20px;
+}
+
+.pickerRow {
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width: 600px) {
+    display: block;
+  }
 }
 
 .loading {
@@ -15,135 +24,6 @@
   padding: $spacing-md;
   border: 1px solid $color-against;
   border-radius: $border-radius;
-}
-
-.councillorCard {
-  background: $color-surface;
-  border: 1px solid $color-border;
-  border-left: 4px solid $color-accent;
-  border-radius: $border-radius;
-  padding: $spacing-md $spacing-lg;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: $spacing-lg;
-  flex-wrap: wrap;
-}
-
-.cardMain {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-}
-
-.name {
-  font-size: $font-size-lg;
-  font-weight: 700;
-}
-
-.role {
-  font-size: $font-size-sm;
-  color: $color-text-muted;
-}
-
-.cardMeta {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-  align-items: flex-end;
-
-  @media (max-width: 600px) {
-    align-items: flex-start;
-  }
-}
-
-.metaLink {
-  font-size: $font-size-sm;
-  color: $color-accent;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.tagFilter {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-sm;
-  background: $color-surface;
-  border: 1px solid $color-border;
-  border-radius: $border-radius;
-  padding: $spacing-md;
-}
-
-.tagFilterLabel {
-  font-size: $font-size-sm;
-  font-weight: 600;
-  color: $color-text-muted;
-}
-
-.tagFilterPills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $spacing-xs;
-}
-
-.clearFilter {
-  background: none;
-  border: none;
-  padding: 0;
-  color: $color-text-muted;
-  font-size: $font-size-sm;
-  cursor: pointer;
-  text-decoration: underline;
-  align-self: flex-start;
-
-  &:hover {
-    color: $color-text-primary;
-  }
-}
-
-.tableHeader {
-  display: flex;
-  align-items: center;
-}
-
-.voteCount {
-  font-size: $font-size-sm;
-  color: $color-text-muted;
-  font-weight: 500;
-}
-
-.tabs {
-  display: flex;
-  gap: 0;
-  border-bottom: 2px solid $color-border;
-}
-
-.tab {
-  background: none;
-  border: none;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -2px;
-  padding: $spacing-sm $spacing-md;
-  font-size: $font-size-sm;
-  font-weight: 600;
-  color: $color-text-muted;
-  cursor: pointer;
-
-  &:hover {
-    color: $color-text-primary;
-  }
-}
-
-.tabActive {
-  color: $color-accent;
-  border-bottom-color: $color-accent;
-}
-
-.termsServed {
-  font-size: $font-size-sm;
-  color: $color-text-muted;
 }
 
 .notInTerm {

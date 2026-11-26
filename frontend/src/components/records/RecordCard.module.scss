@@ -1,0 +1,107 @@
+@use '../../styles/variables' as *;
+
+$stack: 680px; // below this the card is one column
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background: $color-surface;
+  border: 1px solid #e2e2df;
+  border-radius: 12px;
+  overflow: hidden;
+
+  @media (max-width: $stack) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: $spacing-md;
+  }
+}
+
+.main {
+  flex: 999 1 480px;
+  min-width: 0;
+  padding: 18px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  // Its children join the card's column so the outcome can sit between them
+  @media (max-width: $stack) {
+    display: contents;
+  }
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media (max-width: $stack) {
+    order: 2;
+  }
+}
+
+.aside {
+  flex: 1 1 300px;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 18px 24px;
+  background: #fafaf8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  // In the one-column layout its 300px basis would become a height, so drop it
+  @media (max-width: $stack) {
+    flex: none;
+    order: 1;
+    padding: 0;
+    background: none;
+  }
+}
+
+.meta {
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.35;
+
+  a {
+    color: $color-text-primary;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-accent;
+      text-decoration: underline;
+    }
+  }
+}
+
+.summary {
+  margin: 0;
+  font-size: $font-size-sm;
+  line-height: 1.5;
+  color: #333;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}

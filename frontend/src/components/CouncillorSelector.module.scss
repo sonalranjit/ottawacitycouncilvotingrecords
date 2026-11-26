@@ -13,11 +13,18 @@
 }
 
 .select {
-  font-size: $font-size-base;
-  padding: $spacing-sm $spacing-md;
-  border: 1px solid $color-border;
-  border-radius: $border-radius;
+  height: 44px;
+  min-width: 280px;
+  max-width: 100%;
+  font-size: 1rem; // 16px stops iOS zooming in on focus
+  padding: 0 $spacing-md;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
   background: $color-surface;
   color: $color-text-primary;
-  max-width: 360px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    min-width: 0;
+  }
 }

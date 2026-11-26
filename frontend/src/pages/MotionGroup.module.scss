@@ -1,0 +1,120 @@
+@use '../styles/variables' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 680px;
+}
+
+.heading {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  @media (max-width: 600px) {
+    font-size: 1.375rem;
+  }
+}
+
+.lead {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.breadcrumb {
+  font-size: $font-size-sm;
+}
+
+.back {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: $color-accent;
+  font-weight: 600;
+  text-decoration: none;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.titleRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px 16px;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.subhead {
+  font-size: 0.9375rem;
+  color: $color-text-muted;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.more {
+  align-self: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background: $color-surface;
+  color: $color-text-primary;
+  font: inherit;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-bg;
+  }
+
+  @media (max-width: 600px) {
+    align-self: stretch;
+  }
+}
+
+.loading,
+.empty {
+  color: $color-text-muted;
+}
+
+.error {
+  color: $color-against;
+  padding: $spacing-md;
+  border: 1px solid $color-against;
+  border-radius: $border-radius;
+}

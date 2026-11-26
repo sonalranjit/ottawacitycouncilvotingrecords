@@ -132,3 +132,14 @@ export function itemLabel(agendaItemNumber: string): string {
   const n = agendaItemNumber.trim().replace(/\.$/, '');
   return n ? `Item ${n}` : '';
 }
+
+/** "13:00" → "1:00 pm", "09:30" → "9:30 am"; anything else comes back empty. */
+export function formatStartTime(time: string | null | undefined): string {
+  const m = (time ?? '').trim().match(/^(\d{1,2}):(\d{2})/);
+  if (!m) return '';
+  const hours = Number(m[1]);
+  if (hours > 23) return '';
+  const suffix = hours < 12 ? 'am' : 'pm';
+  const h12 = hours % 12 === 0 ? 12 : hours % 12;
+  return `${h12}:${m[2]} ${suffix}`;
+}

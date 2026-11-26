@@ -53,106 +53,115 @@
   border-radius: $border-radius;
 }
 
-// A meeting is a heading on the page background, followed by one card per agenda item
-.meeting {
+.meetingsNav {
   display: flex;
   flex-direction: column;
-  gap: $spacing-md;
+  gap: 10px;
 }
 
-.meetingHeader {
+.meetingsNavLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+// Tiles side by side on wide screens; one stacked list on phones
+.meetingsNavList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+
+  @media (max-width: 600px) {
+    gap: 0;
+    background: $color-surface;
+    border: 1px solid #e2e2df;
+    border-radius: 12px;
+    overflow: hidden;
+
+    li + li {
+      border-top: 1px solid #efefec;
+    }
+  }
+}
+
+.meetingJump {
+  width: 100%;
+  height: 100%;
+  min-height: 88px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 14px 16px;
+  background: $color-surface;
+  border: 1px solid #e2e2df;
+  border-radius: 12px;
+  color: $color-text-primary;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    border-color: color-mix(in srgb, $color-accent 45%, #e2e2df);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 600px) {
+    min-height: 60px;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 14px;
+  }
+}
+
+.jumpTop {
   display: flex;
   align-items: baseline;
-  gap: $spacing-xs $spacing-md;
-  flex-wrap: wrap;
-}
-
-.meetingName {
-  font-size: 1.375rem;
-  font-weight: 700;
-  color: $color-text-primary;
-}
-
-.meetingMeta {
-  font-size: $font-size-sm;
-  color: $color-text-muted;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
   gap: $spacing-sm;
 }
 
-.sourceLink {
-  color: $color-accent;
-  font-weight: 500;
+.jumpTime {
   font-size: $font-size-sm;
+  font-weight: 700;
+  color: $color-accent;
+  font-variant-numeric: tabular-nums;
+}
+
+.jumpCount {
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+}
+
+.jumpName {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.backToList {
+  align-self: center;
+  min-height: 44px;
+  padding: 0 $spacing-md;
+  border: 0;
+  background: none;
+  color: $color-accent;
+  font: inherit;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  cursor: pointer;
 
   &:hover {
     text-decoration: underline;
   }
-}
-
-.attendance {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-}
-
-.attendanceLabel {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: $color-text-muted;
-}
-
-.attendees {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $spacing-xs;
-}
-
-.attendee {
-  font-size: $font-size-sm;
-  padding: 2px $spacing-sm;
-  border-radius: $border-radius-pill;
-  background: color-mix(in srgb, $color-for 12%, transparent);
-  color: $color-for;
-
-  &.absent {
-    background: color-mix(in srgb, $color-against 12%, transparent);
-    color: $color-against;
-  }
-}
-
-.itemCard {
-  background: $color-surface;
-  border: 1px solid #e2e2df;
-  border-radius: 12px;
-  overflow: hidden;
-
-  // Further motions of the same item
-  > * + * {
-    border-top: 1px solid #e2e2df;
-  }
-}
-
-// Only for an item with no motions; otherwise the heading is inside MotionCard
-.itemTitle {
-  margin: 0;
-  padding: 20px 24px;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 1.35;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.itemNumber {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: $color-text-muted;
 }

@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { fetchDateData } from '../api/data';
-import type { DateData } from '../types';
-import MotionCard from '../components/MotionCard';
+import type { DateData, Meeting } from '../types';
+import MeetingSection from '../components/MeetingSection';
 import { useTerm } from '../hooks/useTerm';
 import { councillorsInTerm, dateInTerm } from '../utils/terms';
-import { itemLabel } from '../utils/format';
+import { formatStartTime } from '../utils/format';
 import styles from './MotionsByDate.module.scss';
 
 export default function MotionsByDate() {
@@ -60,10 +60,22 @@ export default function MotionsByDate() {
     index && term ? councillorsInTerm(index.councillors, term.slug).map((c) => [c.full_name, c.title]) : []
   );
 
-  const totalMotions = dateData?.meetings.reduce(
-    (sum, m) => sum + m.agenda_items.reduce((s, i) => s + i.motions.length, 0),
-    0,
-  ) ?? 0;
+  const motionCount = (m: Meeting) => m.agenda_items.reduce((s, i) => s + i.motions.length, 0);
+  const totalMotions = dateData?.meetings.reduce((sum, m) => sum + motionCount(m), 0) ?? 0;
+  // Earliest first; meetings without a start time keep their place at the end
+  const meetings = [...(dateData?.meetings ?? [])].sort((a, b) =>
+    (a.start_time || '99').localeCompare(b.start_time || '99'),
+  );
+  const meetingAnchor = (m: Meeting) => `meeting-${m.meeting_id}`;
+  const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+  function jumpTo(id: string) {
+    const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    document.getElementById(id)?.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    // Move focus with the view so keyboard and screen reader users land there too
+    const target = document.getElementById(`${id}-heading`) ?? document.getElementById(id);
+    target?.focus({ preventScroll: true });
+  }
 
   return (
     <div className={styles.page}>
@@ -84,7 +96,7 @@ export default function MotionsByDate() {
             ))}
           </select>
         </div>
-        {dateData && (
+        {dateData && dateData.meetings.length <= 1 && (
           <span className={styles.summary}>
             {dateData.meetings.length} meeting{dateData.meetings.length !== 1 ? 's' : ''},{' '}
             {totalMotions} motion{totalMotions !== 1 ? 's' : ''}
@@ -102,67 +114,45 @@ export default function MotionsByDate() {
         <p className={styles.empty}>No motions recorded for this date.</p>
       )}
 
-      {!loading && dateData?.meetings.map((meeting) => (
-        <section key={meeting.meeting_id} className={styles.meeting}>
-          <div className={styles.meetingHeader}>
-            <h2 className={styles.meetingName}>{meeting.meeting_name}</h2>
-            <div className={styles.meetingMeta}>
-              {meeting.meeting_number ? `#${meeting.meeting_number}` : ''}
-              {meeting.location ? ` · ${meeting.location}` : ''}
-              {meeting.source_url && (
-                <a
-                  href={meeting.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.sourceLink}
-                >
-                  Minutes
-                </a>
-              )}
-            </div>
-          </div>
-
-          {meeting.attendance && meeting.attendance.length > 0 && (
-            <div className={styles.attendance}>
-              <span className={styles.attendanceLabel}>Attendance</span>
-              <div className={styles.attendees}>
-                {meeting.attendance.map((a) => (
-                  <span
-                    key={a.councillor_name}
-                    className={`${styles.attendee} ${a.status === 'absent' ? styles.absent : ''}`}
-                  >
-                    {councillorTitles.has(a.councillor_name)
-                      ? `${councillorTitles.get(a.councillor_name)} ${a.councillor_name}`
-                      : a.councillor_name}
+      {!loading && meetings.length > 1 && (
+        <nav id="meetings-on-date" className={styles.meetingsNav} aria-labelledby="meetings-on-date-heading">
+          <h2 id="meetings-on-date-heading" className={styles.meetingsNavLabel} tabIndex={-1}>
+            {meetings.length} meetings on this date · {plural(totalMotions, 'motion')}
+          </h2>
+          <ul className={styles.meetingsNavList}>
+            {meetings.map((m) => (
+              <li key={m.meeting_id}>
+                <button type="button" className={styles.meetingJump} onClick={() => jumpTo(meetingAnchor(m))}>
+                  <span className={styles.jumpTop}>
+                    <span className={styles.jumpTime}>{formatStartTime(m.start_time)}</span>
+                    <span className={styles.jumpCount}>{plural(motionCount(m), 'motion')}</span>
                   </span>
-                ))}
-              </div>
-            </div>
-          )}
+                  <span className={styles.jumpName}>{m.meeting_name}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
 
-          {meeting.agenda_items.map((item) => (
-            // One card per agenda item. The item heading sits inside its first
-            // motion; further motions follow as rows of the same card.
-            <div key={item.item_id} className={styles.itemCard}>
-              {item.motions.length === 0 ? (
-                <h3 className={styles.itemTitle}>
-                  <span className={styles.itemNumber}>{itemLabel(item.agenda_item_number)}</span>
-                  {item.title}
-                </h3>
-              ) : (
-                item.motions.map((motion, i) => (
-                  <MotionCard
-                    key={motion.motion_id}
-                    motion={motion}
-                    attachments={i === 0 ? item.attachments : undefined}
-                    item={i === 0 ? { number: item.agenda_item_number, title: item.title } : undefined}
-                  />
-                ))
-              )}
-            </div>
-          ))}
-        </section>
+      {!loading && meetings.map((meeting) => (
+        <MeetingSection
+          key={meeting.meeting_id}
+          id={meetingAnchor(meeting)}
+          meeting={meeting}
+          councillorTitles={councillorTitles}
+        />
       ))}
+
+      {!loading && meetings.length > 1 && (
+        <button
+          type="button"
+          className={styles.backToList}
+          onClick={() => jumpTo('meetings-on-date')}
+        >
+          Back to the meetings list
+        </button>
+      )}
     </div>
   );
 }

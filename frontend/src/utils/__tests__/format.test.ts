@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
   describeAttachment,
   formatDate,
+  formatStartTime,
   isStubMotionText,
   itemLabel,
   motionOutcome,
@@ -207,5 +208,20 @@ describe('itemLabel', () => {
     expect(itemLabel('11.2')).toBe('Item 11.2');
     expect(itemLabel('14.')).toBe('Item 14');
     expect(itemLabel('')).toBe('');
+  });
+});
+
+describe('formatStartTime', () => {
+  it('converts 24-hour times to am/pm', () => {
+    expect(formatStartTime('09:30')).toBe('9:30 am');
+    expect(formatStartTime('13:00')).toBe('1:00 pm');
+    expect(formatStartTime('12:00')).toBe('12:00 pm');
+    expect(formatStartTime('00:15')).toBe('12:15 am');
+  });
+
+  it('returns nothing for missing or odd values', () => {
+    expect(formatStartTime('')).toBe('');
+    expect(formatStartTime(null)).toBe('');
+    expect(formatStartTime('noon')).toBe('');
   });
 });

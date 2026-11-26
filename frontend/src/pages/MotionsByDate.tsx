@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { fetchDateData } from '../api/data';
 import type { DateData, Meeting } from '../types';
 import MeetingSection from '../components/MeetingSection';
+import InstallPrompt from '../components/install/InstallPrompt';
 import { useTerm } from '../hooks/useTerm';
 import { councillorsInTerm, dateInTerm } from '../utils/terms';
 import { formatStartTime } from '../utils/format';
@@ -79,6 +80,7 @@ export default function MotionsByDate() {
 
   return (
     <div className={styles.page}>
+      <InstallPrompt />
       <div className={styles.controls}>
         <div className={styles.datePickerGroup}>
           <label className={styles.label} htmlFor="date-select">

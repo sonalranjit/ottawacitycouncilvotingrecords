@@ -1,0 +1,617 @@
+@use '../../styles/variables' as *;
+
+$accent-tint: color-mix(in srgb, $color-accent 12%, transparent);
+// iOS-style replicas: a darker blue than Apple's so small text passes contrast on the grey
+$ios-blue: #0064d2;
+$ios-grey: #f2f2f7;
+$ios-line: #dedee3;
+$text-secondary: #5c5c5c;
+
+// ---- Card in the feed ----
+
+.card {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: 16px;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.cardIcon {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 auto;
+  border-radius: 13px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cardText {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 2px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cardBody {
+  margin: 0;
+  font-size: $font-size-sm;
+  line-height: 1.4;
+  color: $text-secondary;
+}
+
+.cardClose {
+  width: 44px;
+  height: 44px;
+  margin: -10px -10px 0 0;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: $color-text-muted;
+
+  &:hover {
+    background: $color-bg;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: -2px;
+  }
+}
+
+.closeIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.cardActions {
+  display: flex;
+  gap: 10px;
+}
+
+.secondaryButton,
+.primaryButton {
+  height: 44px;
+  border-radius: 10px;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1;
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+}
+
+.secondaryButton {
+  flex: 0 0 auto;
+  padding: 0 18px;
+  border: 1px solid $color-border;
+  background: $color-surface;
+  color: $color-text-primary;
+
+  &:hover {
+    background: $color-bg;
+  }
+}
+
+.primaryButton {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0 14px;
+  border: 0;
+  background: $color-accent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  &:hover {
+    background: color-mix(in srgb, $color-accent 85%, #000);
+  }
+}
+
+.buttonIcon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  display: block;
+}
+
+.buttonLabel {
+  white-space: nowrap;
+}
+
+// ---- Sheet ----
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(20, 24, 28, 0.45);
+}
+
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 301;
+  // Tablets: a sheet of phone width, centred
+  max-width: 560px;
+  max-height: calc(100dvh - 24px);
+  margin: 0 auto;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 10px max(#{$spacing-md}, env(safe-area-inset-right)) calc(14px + env(safe-area-inset-bottom))
+    max(#{$spacing-md}, env(safe-area-inset-left));
+  background: $color-surface;
+  color: $color-text-primary;
+  border-radius: 22px 22px 0 0;
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.sheetPrompt {
+  padding: 10px max(20px, env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom))
+    max(20px, env(safe-area-inset-left));
+  border-radius: 28px 28px 0 0;
+  gap: 20px;
+}
+
+.handle {
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;
+  background: #cfcfcf;
+  align-self: center;
+  flex: 0 0 auto;
+}
+
+.sheetHeader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.sheetIcon {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sheetTitles {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheetTitle {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.sheetSubtitle {
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}
+
+.sheetClose {
+  width: 44px;
+  height: 44px;
+  margin-right: -6px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: #f1f1ef;
+  color: $color-tab-inactive;
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+}
+
+.closeIconSmall {
+  width: 18px;
+  height: 18px;
+}
+
+// ---- iOS steps ----
+
+.steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.step {
+  display: flex;
+  gap: 12px;
+}
+
+.stepNumber {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: $accent-tint;
+  color: $color-accent;
+  font-size: $font-size-sm;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepBody {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 2px;
+}
+
+.stepText,
+.stepTextInline {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+// Room for the button replicas when the sentence wraps, so they don't touch
+.stepTextInline {
+  line-height: 2.2;
+  margin-top: -6px;
+}
+
+.stepNote {
+  margin: -6px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: $text-secondary;
+}
+
+.keycap,
+.keycapLabelled {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  height: 26px;
+  margin: 0 2px;
+  border-radius: 8px;
+  background: $ios-grey;
+  border: 1px solid $ios-line;
+  color: $color-text-primary;
+  line-height: 1;
+}
+
+.keycap {
+  width: 34px;
+  justify-content: center;
+}
+
+.keycapLabelled {
+  gap: 7px;
+  padding: 0 10px 0 9px;
+  font-size: $font-size-sm;
+  font-weight: 600;
+}
+
+.keycapIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.shareIcon {
+  width: 16px;
+  height: 16px;
+  color: $ios-blue;
+}
+
+.menuDemo {
+  border-radius: 12px;
+  background: $ios-grey;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9375rem;
+  color: #000;
+}
+
+.menuRow {
+  height: 40px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: inset 0 0 0 2px $color-accent;
+  padding: 0 10px 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menuBadge {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: $color-accent;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuLabel {
+  flex: 1 1 auto;
+}
+
+.menuIcon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  color: $color-text-primary;
+}
+
+.addDemo {
+  border-radius: 12px;
+  background: $ios-grey;
+  overflow: hidden;
+  font-size: 0.9375rem;
+  color: #000;
+}
+
+.addDemoBar {
+  height: 44px;
+  padding: 0 6px 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $ios-line;
+}
+
+.iosLink {
+  color: $ios-blue;
+}
+
+.addDemoTitle {
+  font-weight: 600;
+}
+
+.addDemoAdd {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: $accent-tint;
+  box-shadow: inset 0 0 0 2px $color-accent;
+  color: $ios-blue;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.addDemoRow {
+  height: 44px;
+  padding: 0 12px 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle {
+  width: 46px;
+  height: 28px;
+  border-radius: 999px;
+  background: $color-for;
+  position: relative;
+  display: block;
+}
+
+.toggleKnob {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+// Points down at Safari's page menu button, just left of the address
+.startHere {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 55px;
+  color: $color-accent;
+  font-size: $font-size-sm;
+  font-weight: 700;
+}
+
+.startHereIcon {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 auto;
+  display: block;
+
+  @media (prefers-reduced-motion: no-preference) {
+    animation: nudge 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+// ---- One-tap install (Chrome, Edge, Samsung Internet) ----
+
+.promptHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.promptIcon {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.promptTitle {
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 16px;
+  background: #f6f6f3;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+}
+
+.benefitIcon {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  background: $accent-tint;
+  color: $color-accent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefitSvg {
+  width: 22px;
+  height: 22px;
+}
+
+.benefitText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+
+.benefitTitle {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.benefitNote {
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}
+
+.promptActions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.installButton,
+.notNowButton {
+  border-radius: 999px;
+  border: 0;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+}
+
+.installButton {
+  height: 52px;
+  background: $color-accent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  &:hover {
+    background: color-mix(in srgb, $color-accent 85%, #000);
+  }
+}
+
+.buttonIconLarge {
+  width: 20px;
+  height: 20px;
+}
+
+.notNowButton {
+  height: 48px;
+  background: none;
+  color: $color-accent;
+
+  &:hover {
+    background: $accent-tint;
+  }
+}

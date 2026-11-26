@@ -8,6 +8,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <!-- Home-screen app: the blue header runs up under the status bar (it pads by
+         env(safe-area-inset-top)), and the icon is labelled with the short name -->
+    <meta name="theme-color" content="#005a9e" />
+    <meta name="apple-mobile-web-app-title" content="Ottawa Votes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <!-- viewport-fit=cover lets the page draw edge to edge on phones with rounded corners and
          makes env(safe-area-inset-*) report real values, which the header and tab bar pad by -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />

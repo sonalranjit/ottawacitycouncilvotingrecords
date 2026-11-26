@@ -2,6 +2,11 @@ import { describe, it, expect } from 'vitest';
 import {
   describeAttachment,
   formatDate,
+  formatLongDate,
+  initials,
+  movedOutcome,
+  passRate,
+  plainResult,
   formatStartTime,
   isStubMotionText,
   itemLabel,
@@ -223,5 +228,34 @@ describe('formatStartTime', () => {
     expect(formatStartTime('')).toBe('');
     expect(formatStartTime(null)).toBe('');
     expect(formatStartTime('noon')).toBe('');
+  });
+});
+
+describe('plainResult', () => {
+  it('drops a trailing tally', () => {
+    expect(plainResult('Carried (8 to 2)')).toBe('Carried');
+    expect(plainResult('Carried as amended')).toBe('Carried as amended');
+  });
+});
+
+describe('movedOutcome and passRate', () => {
+  it('classifies results', () => {
+    expect(movedOutcome('Carried as amended')).toBe('passed');
+    expect(movedOutcome('Lost (11 to 14)')).toBe('lost');
+    expect(movedOutcome('')).toBe('none');
+    expect(movedOutcome('Referred')).toBe('other');
+  });
+
+  it('counts only motions with a result', () => {
+    expect(passRate(['Carried', 'Carried', 'Lost', ''])).toEqual({ passed: 2, decided: 3, pct: 67 });
+    expect(passRate(['', ''])).toEqual({ passed: 0, decided: 0, pct: null });
+  });
+});
+
+describe('initials and formatLongDate', () => {
+  it('works on names and dates', () => {
+    expect(initials('Ariel Troster')).toBe('AT');
+    expect(initials('Stéphanie Plante')).toBe('SP');
+    expect(formatLongDate('2026-11-12')).toBe('Nov 12, 2026');
   });
 });

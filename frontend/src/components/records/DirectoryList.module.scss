@@ -1,0 +1,154 @@
+@use '../../styles/variables' as *;
+
+.directory {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.searchField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 420px;
+}
+
+.searchLabel {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: $color-text-muted;
+}
+
+.search {
+  height: 44px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background: $color-surface;
+  font: inherit;
+  font-size: 1rem; // 16px stops iOS zooming in on focus
+}
+
+.countLine {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: $color-text-muted;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+// Separate tiles in a grid on wide screens, one joined list on phones
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 8px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    background: $color-surface;
+    border: 1px solid #e2e2df;
+    border-radius: 12px;
+    overflow: hidden;
+
+    li + li {
+      border-top: 1px solid #efefec;
+    }
+  }
+}
+
+.row {
+  min-height: 60px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: $color-surface;
+  border: 1px solid #e2e2df;
+  border-radius: 10px;
+  color: $color-text-primary;
+  text-decoration: none;
+
+  &:hover {
+    border-color: color-mix(in srgb, $color-accent 45%, #e2e2df);
+    text-decoration: none;
+
+    .name {
+      color: $color-accent;
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 600px) {
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.rowText {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rowTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: $spacing-sm;
+}
+
+.name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.count {
+  flex-shrink: 0;
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+  font-variant-numeric: tabular-nums;
+}
+
+.bar {
+  height: 4px;
+  border-radius: 999px;
+  background: #efefec;
+  overflow: hidden;
+
+  span {
+    display: block;
+    height: 100%;
+    background: #8fb3d6;
+  }
+}
+
+.chevron {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: #6b6f74;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.empty {
+  margin: 0;
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}

@@ -1,0 +1,62 @@
+@use '../../styles/variables' as *;
+
+.noVote {
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+}
+
+.note {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: $color-text-muted;
+  font-style: italic;
+}
+
+.against {
+  font-size: 0.8125rem;
+  color: #444;
+}
+
+.toggle {
+  align-self: flex-start;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background: $color-surface;
+  color: $color-text-primary;
+  font: inherit;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-bg;
+  }
+}
+
+.votes {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.voteGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.voteLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}

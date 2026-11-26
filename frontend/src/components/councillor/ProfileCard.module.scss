@@ -1,0 +1,205 @@
+@use '../../styles/variables' as *;
+
+.card {
+  background: $color-surface;
+  border: 1px solid #e2e2df;
+  border-radius: 12px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    'identity stats'
+    'contact stats'
+    'footnote footnote';
+  align-items: center;
+  gap: 16px 40px;
+
+  @media (max-width: 720px) {
+    padding: $spacing-md;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'identity'
+      'contact'
+      'stats'
+      'footnote';
+    gap: 14px;
+  }
+}
+
+.identity {
+  grid-area: identity;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  background: #e1ecf6;
+  color: $color-accent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.375rem;
+  font-weight: 700;
+
+  @media (max-width: 720px) {
+    width: 52px;
+    height: 52px;
+    font-size: 1.125rem;
+  }
+}
+
+.nameBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  @media (max-width: 720px) {
+    font-size: 1.375rem;
+  }
+}
+
+.role {
+  font-size: 0.9375rem;
+  color: #444;
+}
+
+.terms {
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+}
+
+.contact {
+  grid-area: contact;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  @media (max-width: 720px) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.contactLink {
+  min-height: 40px;
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  color: $color-text-primary;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  text-decoration: none;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  &:hover {
+    border-color: $color-accent;
+    color: $color-accent;
+    text-decoration: none;
+  }
+
+  @media (max-width: 720px) {
+    min-height: 44px;
+  }
+}
+
+// Phones get a short label; the full address or number doesn't fit a half-width button
+.contactLong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media (max-width: 720px) {
+    display: none;
+  }
+}
+
+.contactShort {
+  display: none;
+
+  @media (max-width: 720px) {
+    display: inline;
+  }
+}
+
+.stats {
+  grid-area: stats;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, auto));
+  gap: 32px;
+
+  @media (max-width: 720px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    padding-top: 14px;
+    border-top: 1px solid #efefec;
+  }
+}
+
+// Number above its label, numbers lined up along the top even when a label wraps
+.stat {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 2px;
+
+  dt {
+    font-size: 0.8125rem;
+    color: $color-text-muted;
+  }
+
+  dd {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+
+    @media (max-width: 720px) {
+      font-size: 1.375rem;
+    }
+  }
+}
+
+.footnote {
+  grid-area: footnote;
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid #efefec;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: $color-text-muted;
+
+  @media (max-width: 720px) {
+    padding-top: 0;
+    border-top: 0;
+  }
+}

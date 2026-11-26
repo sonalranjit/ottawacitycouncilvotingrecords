@@ -4,13 +4,22 @@ import { fetchCouncillorData, fetchAlignmentData } from '../api/data';
 import type { CouncillorData, AlignmentRow } from '../types';
 import { useTerm } from '../hooks/useTerm';
 import CouncillorSelector from '../components/CouncillorSelector';
-import TagPill from '../components/TagPill';
-import VoteTable from '../components/VoteTable';
-import AlignmentTable from '../components/AlignmentTable';
-import MotionsMovedTable from '../components/MotionsMovedTable';
-import { toSlug } from '../utils/format';
+import ProfileCard from '../components/councillor/ProfileCard';
+import VoteHistory from '../components/councillor/VoteHistory';
+import AlignmentList from '../components/councillor/AlignmentList';
+import MovedList from '../components/councillor/MovedList';
+import tabStyles from '../components/councillor/Tabs.module.scss';
+import { passRate } from '../utils/format';
 import { councillorsInTerm, filterByTerm } from '../utils/terms';
 import styles from './CouncillorHistory.module.scss';
+
+type Tab = 'votes' | 'alignment' | 'moved';
+
+const TABS: { id: Tab; label: string }[] = [
+  { id: 'votes', label: 'Votes' },
+  { id: 'alignment', label: 'Alignment' },
+  { id: 'moved', label: 'Motions moved' },
+];
 
 export default function CouncillorHistory() {
   const { slug } = useParams<{ slug: string }>();
@@ -19,9 +28,8 @@ export default function CouncillorHistory() {
   const [councillorData, setCouncillorData] = useState<CouncillorData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [activeTagSlugs, setActiveTagSlugs] = useState<Set<string>>(new Set());
   const [alignmentData, setAlignmentData] = useState<AlignmentRow[]>([]);
-  const [activeTab, setActiveTab] = useState<'history' | 'alignment' | 'moved'>('history');
+  const [activeTab, setActiveTab] = useState<Tab>('votes');
 
   const termCouncillors = useMemo(
     () => (index && term ? councillorsInTerm(index.councillors, term.slug) : []),
@@ -56,17 +64,8 @@ export default function CouncillorHistory() {
   }, [slug]);
 
   function handleCouncillorChange(newSlug: string) {
-    setActiveTagSlugs(new Set());
-    setActiveTab('history');
+    setActiveTab('votes');
     navigate({ pathname: `/ottawa/councillors/${newSlug}`, search: termQuery });
-  }
-
-  function handleTagFilter(tagSlug: string) {
-    setActiveTagSlugs((prev) => {
-      const next = new Set(prev);
-      next.has(tagSlug) ? next.delete(tagSlug) : next.add(tagSlug);
-      return next;
-    });
   }
 
   const termVotes = useMemo(
@@ -78,24 +77,7 @@ export default function CouncillorHistory() {
     [councillorData, term],
   );
   const termAlignment = useMemo(() => filterByTerm(alignmentData, term?.slug), [alignmentData, term]);
-
-  const availableTags = useMemo(() => {
-    const seen = new Map<string, string>(); // slug → tag label
-    for (const vote of termVotes) {
-      for (const tag of (vote.tags ?? [])) {
-        const s = toSlug(tag);
-        if (!seen.has(s)) seen.set(s, tag);
-      }
-    }
-    return [...seen.entries()].map(([s, tag]) => ({ slug: s, tag })).sort((a, b) => a.tag.localeCompare(b.tag));
-  }, [termVotes]);
-
-  const filteredVotes = useMemo(() => {
-    if (activeTagSlugs.size === 0) return termVotes;
-    return termVotes.filter((v) =>
-      (v.tags ?? []).some((t) => activeTagSlugs.has(toSlug(t)))
-    );
-  }, [termVotes, activeTagSlugs]);
+  const moved = useMemo(() => passRate(termMovedMotions.map((m) => m.motion_result)), [termMovedMotions]);
 
   if (error || indexError) {
     return <div className={styles.error}>Error: {error ?? indexError}</div>;
@@ -105,18 +87,22 @@ export default function CouncillorHistory() {
   // The councillor's role in the selected term; undefined when they didn't serve in it
   const termEntry = councillor && term ? councillor.terms.find((e) => e.term === term.slug) : undefined;
   const servedTerms = councillor ? terms.filter((t) => councillor.terms.some((e) => e.term === t.slug)) : [];
+  // Remount the tab panels per councillor and term so filters and paging start fresh
+  const panelKey = `${slug}-${term?.slug ?? ''}`;
 
   return (
     <div className={styles.page}>
       {index && (
-        <CouncillorSelector
-          councillors={termCouncillors}
-          selectedSlug={slug ?? ''}
-          onChange={handleCouncillorChange}
-        />
+        <div className={styles.pickerRow}>
+          <CouncillorSelector
+            councillors={termCouncillors}
+            selectedSlug={slug ?? ''}
+            onChange={handleCouncillorChange}
+          />
+        </div>
       )}
 
-      {loading && <div className={styles.loading}>Loading...</div>}
+      {loading && <div className={styles.loading}>Loading…</div>}
 
       {!loading && councillor && !termEntry && term && (
         <div className={styles.notInTerm}>
@@ -141,97 +127,40 @@ export default function CouncillorHistory() {
 
       {!loading && councillor && termEntry && (
         <>
-          <div className={styles.councillorCard}>
-            <div className={styles.cardMain}>
-              <h2 className={styles.name}>{councillor.full_name}</h2>
-              <span className={styles.role}>
-                {termEntry.title}
-                {termEntry.ward_name ? ` — ${termEntry.ward_name} Ward (Ward ${termEntry.ward_number})` : ''}
-              </span>
-              {servedTerms.length > 1 && (
-                <span className={styles.termsServed}>
-                  Terms served: {servedTerms.map((t) => t.label).join(', ')}
-                </span>
-              )}
-            </div>
-            <div className={styles.cardMeta}>
-              {councillor.email && (
-                <a href={`mailto:${councillor.email}`} className={styles.metaLink}>
-                  {councillor.email}
-                </a>
-              )}
-              {councillor.telephone && (
-                <a href={`tel:${councillor.telephone}`} className={styles.metaLink}>
-                  {councillor.telephone}
-                </a>
-              )}
-            </div>
+          <ProfileCard
+            councillor={councillor}
+            termEntry={termEntry}
+            servedTerms={servedTerms}
+            votes={termVotes.length}
+            moved={termMovedMotions.length}
+            passed={moved.passed}
+            decided={moved.decided}
+          />
+
+          <div role="tablist" aria-label="Councillor record" className={tabStyles.tablist}>
+            {TABS.map((t) => (
+              <button
+                key={t.id}
+                type="button"
+                role="tab"
+                id={`tab-${t.id}`}
+                aria-controls={`panel-${t.id}`}
+                aria-selected={activeTab === t.id}
+                className={`${tabStyles.tab} ${activeTab === t.id ? tabStyles.tabOn : ''}`}
+                onClick={() => setActiveTab(t.id)}
+              >
+                {t.label}
+              </button>
+            ))}
           </div>
 
-          <div className={styles.tabs}>
-            <button
-              className={`${styles.tab} ${activeTab === 'history' ? styles.tabActive : ''}`}
-              onClick={() => setActiveTab('history')}
-            >
-              Vote History
-            </button>
-            <button
-              className={`${styles.tab} ${activeTab === 'alignment' ? styles.tabActive : ''}`}
-              onClick={() => setActiveTab('alignment')}
-            >
-              Voting Alignment
-            </button>
-            <button
-              className={`${styles.tab} ${activeTab === 'moved' ? styles.tabActive : ''}`}
-              onClick={() => setActiveTab('moved')}
-            >
-              Motions Moved
-            </button>
+          <div role="tabpanel" id={`panel-${activeTab}`} aria-labelledby={`tab-${activeTab}`}>
+            {activeTab === 'votes' && <VoteHistory key={panelKey} votes={termVotes} termLabel={term?.label} />}
+            {activeTab === 'alignment' && (
+              <AlignmentList moverFullName={councillor.full_name} rows={termAlignment} />
+            )}
+            {activeTab === 'moved' && <MovedList key={panelKey} motions={termMovedMotions} termLabel={term?.label} />}
           </div>
-
-          {activeTab === 'history' && (
-            <>
-              {availableTags.length > 0 && (
-                <div className={styles.tagFilter}>
-                  <span className={styles.tagFilterLabel}>Filter by topic:</span>
-                  <div className={styles.tagFilterPills}>
-                    {availableTags.map(({ slug: tagSlug, tag }) => (
-                      <TagPill
-                        key={tagSlug}
-                        tag={tag}
-                        slug={tagSlug}
-                        active={activeTagSlugs.has(tagSlug)}
-                        onClick={handleTagFilter}
-                      />
-                    ))}
-                  </div>
-                  {activeTagSlugs.size > 0 && (
-                    <button className={styles.clearFilter} onClick={() => setActiveTagSlugs(new Set())}>
-                      Clear filter
-                    </button>
-                  )}
-                </div>
-              )}
-
-              <div className={styles.tableHeader}>
-                <span className={styles.voteCount}>
-                  {filteredVotes.length === termVotes.length
-                    ? `${termVotes.length} vote${termVotes.length !== 1 ? 's' : ''} recorded in the ${term?.label ?? ''} term`
-                    : `${filteredVotes.length} of ${termVotes.length} votes`}
-                </span>
-              </div>
-
-              <VoteTable votes={filteredVotes} onTagFilter={handleTagFilter} />
-            </>
-          )}
-
-          {activeTab === 'alignment' && (
-            <AlignmentTable moverFullName={councillor.full_name} rows={termAlignment} />
-          )}
-
-          {activeTab === 'moved' && (
-            <MotionsMovedTable moverFullName={councillor.full_name} motions={termMovedMotions} />
-          )}
         </>
       )}
     </div>

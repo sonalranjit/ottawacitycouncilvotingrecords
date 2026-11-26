@@ -1,0 +1,306 @@
+@use '../../styles/variables' as *;
+
+// Tab strip: underlined tabs on wide screens, a segmented control on phones
+
+.tablist {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #e2e2df;
+
+  @media (max-width: 600px) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    padding: 4px;
+    border-bottom: 0;
+    border-radius: 10px;
+    background: #ececea;
+  }
+}
+
+.tab {
+  min-height: 44px;
+  margin-bottom: -1px;
+  padding: 0 14px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: #4a4f55;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    color: $color-accent;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: -2px;
+  }
+
+  @media (max-width: 600px) {
+    min-height: 40px;
+    margin: 0;
+    padding: 0 4px;
+    border-bottom: 0;
+    border-radius: 8px;
+    font-size: $font-size-sm;
+  }
+}
+
+.tabOn {
+  color: $color-accent;
+  border-bottom-color: $color-accent;
+
+  @media (max-width: 600px) {
+    color: $color-text-primary;
+    background: $color-surface;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+// Shared by the three tab panels
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.empty {
+  margin: 0;
+  color: $color-text-muted;
+}
+
+.countLine {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.result {
+  font-size: 0.8125rem;
+  color: #444;
+}
+
+.more {
+  align-self: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background: $color-surface;
+  color: $color-text-primary;
+  font: inherit;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-bg;
+  }
+
+  @media (max-width: 600px) {
+    align-self: stretch;
+  }
+}
+
+.movedHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
+}
+
+// Voting alignment
+
+.alignmentIntro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px 40px;
+}
+
+.alignmentText {
+  flex: 1 1 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.panelHeading {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.explain {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: #333;
+}
+
+.miniStats {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, auto));
+  gap: 24px;
+
+  @media (max-width: 600px) {
+    flex: 1 1 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+}
+
+.miniStat {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 2px;
+
+  dt {
+    font-size: 0.8125rem;
+    color: $color-text-muted;
+  }
+
+  dd {
+    margin: 0;
+    font-size: 1.625rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (max-width: 600px) {
+    padding: 12px 14px;
+    background: $color-surface;
+    border: 1px solid #e2e2df;
+    border-radius: 10px;
+
+    dd {
+      font-size: 1.375rem;
+    }
+  }
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legendSwatch {
+  width: 18px;
+  height: 6px;
+  border-radius: 999px;
+  background: #a9c3dc;
+}
+
+.ranking {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 8px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    background: $color-surface;
+    border: 1px solid #e2e2df;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+}
+
+.rankRow {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px 10px;
+  padding: 10px 14px;
+  background: $color-surface;
+  border: 1px solid #e2e2df;
+  border-radius: 10px;
+
+  @media (max-width: 600px) {
+    border: 0;
+    border-radius: 0;
+
+    & + & {
+      border-top: 1px solid #efefec;
+    }
+  }
+}
+
+.rank {
+  grid-row: span 2;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #6b6f74;
+  font-variant-numeric: tabular-nums;
+}
+
+.voter {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pct {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.rankBar {
+  height: 6px;
+  border-radius: 999px;
+  background: #efefec;
+  overflow: hidden;
+}
+
+.rankFill,
+.rankFillFew {
+  display: block;
+  height: 100%;
+}
+
+.rankFill {
+  background: $color-accent;
+}
+
+.rankFillFew {
+  background: #a9c3dc;
+}
+
+.ofTotal {
+  font-size: 0.75rem;
+  color: $color-text-muted;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}

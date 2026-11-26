@@ -143,3 +143,47 @@ export function formatStartTime(time: string | null | undefined): string {
   const h12 = hours % 12 === 0 ? 12 : hours % 12;
   return `${h12}:${m[2]} ${suffix}`;
 }
+
+/** "Carried (8 to 2)" → "Carried"; the tally is shown separately. */
+export function plainResult(result: string): string {
+  return result.trim().replace(/\s*\(\d+\s+to\s+\d+\)\s*$/i, '');
+}
+
+export type MovedOutcome = 'passed' | 'lost' | 'tied' | 'other' | 'none';
+
+/** How a motion someone moved ended, for the Motions moved tab and pass rate. */
+export function movedOutcome(result: string): MovedOutcome {
+  if (!result.trim()) return 'none';
+  const v = resultVariant(result);
+  if (v === 'carried') return 'passed';
+  if (v === 'lost') return 'lost';
+  if (v === 'tied') return 'tied';
+  return 'other';
+}
+
+/**
+ * Share of moved motions that passed, counting only those with a recorded
+ * result: the minutes give no result for some, and we can't tell how those went.
+ */
+export function passRate(results: string[]): { passed: number; decided: number; pct: number | null } {
+  const outcomes = results.map(movedOutcome);
+  const decided = outcomes.filter((o) => o !== 'none').length;
+  const passed = outcomes.filter((o) => o === 'passed').length;
+  return { passed, decided, pct: decided === 0 ? null : Math.round((passed / decided) * 100) };
+}
+
+/** "Ariel Troster" → "AT" */
+export function initials(name: string): string {
+  const parts = name.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return '';
+  const first = parts[0][0] ?? '';
+  const last = parts.length > 1 ? parts[parts.length - 1][0] ?? '' : '';
+  return (first + last).toUpperCase();
+}
+
+/** "2026-11-12" → "Nov 12, 2026" */
+export function formatLongDate(iso: string): string {
+  const [y, m, d] = iso.split('-').map(Number);
+  if (!y || !m || !d) return iso;
+  return new Date(y, m - 1, d).toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' });
+}

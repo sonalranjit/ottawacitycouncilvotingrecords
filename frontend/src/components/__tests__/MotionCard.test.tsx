@@ -138,4 +138,61 @@ describe('MotionCard', () => {
     await userEvent.click(screen.getByRole('button', { name: /show votes/i }));
     expect(screen.getByRole('button', { name: /hide votes/i })).toBeInTheDocument();
   });
+
+  it('hides motion text that is only a lead-in', () => {
+    render(<MotionCard motion={{ ...baseMotion, motion_text: 'Committee Recommendation(s)\nThat Council:' }} />);
+    expect(screen.queryByText(/That Council:/)).not.toBeInTheDocument();
+    expect(screen.queryByText('No motion text recorded.')).not.toBeInTheDocument();
+  });
+
+  it('labels the summary as an AI plain-language summary', () => {
+    render(<MotionCard motion={{ ...baseMotion, summary: 'Approves a zoning change.' }} />);
+    expect(screen.getByText('In plain language')).toBeInTheDocument();
+    expect(screen.getByText('AI summary')).toBeInTheDocument();
+    expect(screen.getByText('Approves a zoning change.')).toBeInTheDocument();
+  });
+
+  it('lists documents with short labels and keeps the full name as a tooltip', () => {
+    const title = 'Report - ACS2026-PDB-PSX-0001 - ZBLA - 342 Roosevelt Avenue.pdf';
+    render(
+      <MotionCard
+        motion={baseMotion}
+        attachments={[{ url: 'https://example.test/doc?id=1', title }]}
+      />
+    );
+    const link = screen.getByRole('link', { name: /Staff report/ });
+    expect(link).toHaveAttribute('href', 'https://example.test/doc?id=1');
+    expect(link).toHaveAttribute('title', title);
+    expect(link).toHaveTextContent('ACS2026-PDB-PSX-0001 – ZBLA – 342 Roosevelt Avenue · PDF');
+  });
+
+  it('omits the motion label when the motion has no number', () => {
+    render(<MotionCard motion={{ ...baseMotion, motion_number: '' }} />);
+    expect(screen.queryByText(/^Motion/)).not.toBeInTheDocument();
+  });
+
+  it('shows the agenda item as the card heading when given', () => {
+    render(<MotionCard motion={baseMotion} item={{ number: '11.2', title: 'Zoning By-law Amendment' }} />);
+    expect(screen.getByText('Item 11.2')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 3, name: 'Zoning By-law Amendment' })).toBeInTheDocument();
+  });
+
+  it('scrolls a long document list and says how many there are', () => {
+    const attachments = Array.from({ length: 8 }, (_, i) => ({
+      url: `https://example.test/doc?id=${i}`,
+      title: `Document ${i + 1} - Appendix.pdf`,
+    }));
+    render(<MotionCard motion={baseMotion} attachments={attachments} />);
+    const list = screen.getByRole('list', { name: 'Documents, 8 files' });
+    expect(list.className).toMatch(/scrollable/);
+    expect(list).toHaveAttribute('tabindex', '0');
+    expect(screen.getByText('Scroll for all 8 documents')).toBeInTheDocument();
+  });
+
+  it('leaves a short document list as it is', () => {
+    const attachments = [{ url: 'https://example.test/a', title: 'Report - Item.pdf' }];
+    render(<MotionCard motion={baseMotion} attachments={attachments} />);
+    expect(screen.getByRole('list').className).not.toMatch(/scrollable/);
+    expect(screen.queryByText(/Scroll for all/)).not.toBeInTheDocument();
+  });
 });

@@ -9,6 +9,11 @@
 .main {
   flex: 1;
   padding: $spacing-lg 0 $spacing-xl;
+
+  // Leave room for the fixed bottom tab bar
+  @media (max-width: $breakpoint-tabs) {
+    padding: $spacing-md 0 calc(#{$spacing-xl} + 72px + env(safe-area-inset-bottom));
+  }
 }
 
 .container {

@@ -8,6 +8,7 @@ $color-border: #ddd;
 $color-text-primary: #1a1a1a;
 $color-text-muted: #666;
 $color-accent: #005a9e;
+$color-tab-inactive: #4a4f55;
 
 // Typography
 $font-family-base: system-ui, -apple-system, sans-serif;
@@ -26,3 +27,7 @@ $spacing-xl: 40px;
 $max-width: 960px;
 $border-radius: 4px;
 $border-radius-pill: 12px;
+
+// Breakpoints
+// Below this width the section links move to a bottom tab bar
+$breakpoint-tabs: 860px;

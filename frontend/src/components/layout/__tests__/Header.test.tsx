@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Header from '../Header';
@@ -20,7 +20,7 @@ describe('Header', () => {
 
   it('renders nav links pointing to the expected routes', () => {
     renderHeader();
-    expect(screen.getByRole('link', { name: 'Motions by Date' })).toHaveAttribute('href', '/ottawa');
+    expect(screen.getByRole('link', { name: 'Motions' })).toHaveAttribute('href', '/ottawa');
     expect(screen.getByRole('link', { name: 'Councillors' })).toHaveAttribute('href', '/ottawa/councillors');
     expect(screen.getByRole('link', { name: 'Committees' })).toHaveAttribute('href', '/ottawa/committees');
     expect(screen.getByRole('link', { name: 'Topics' })).toHaveAttribute('href', '/ottawa/tags');
@@ -29,21 +29,21 @@ describe('Header', () => {
 
   it('renders the RSS link', () => {
     renderHeader();
-    const rss = screen.getByRole('link', { name: 'RSS Feed' });
+    const rss = screen.getByRole('link', { name: 'Subscribe via RSS' });
     expect(rss).toHaveAttribute('href', './data/ottawa/feed.xml');
     expect(rss).toHaveAttribute('title', 'Subscribe via RSS');
   });
 
-  it('marks "Motions by Date" active on the index route, and not other links', () => {
+  it('marks "Motions" active on the index route, and not other links', () => {
     renderHeader('/ottawa');
-    expect(screen.getByRole('link', { name: 'Motions by Date' }).className).toMatch(/active/);
+    expect(screen.getByRole('link', { name: 'Motions' }).className).toMatch(/active/);
     expect(screen.getByRole('link', { name: 'Councillors' }).className).not.toMatch(/active/);
   });
 
   it('marks "Committees" active when on a committees route', () => {
     renderHeader('/ottawa/committees');
     expect(screen.getByRole('link', { name: 'Committees' }).className).toMatch(/active/);
-    expect(screen.getByRole('link', { name: 'Motions by Date' }).className).not.toMatch(/active/);
+    expect(screen.getByRole('link', { name: 'Motions' }).className).not.toMatch(/active/);
   });
 
   it('marks "Councillors" active on a nested councillor route (non-end NavLink)', () => {
@@ -61,5 +61,27 @@ describe('Header', () => {
     renderHeader('/ottawa/about');
     expect(screen.getByRole('link', { name: 'About' }).className).toMatch(/active/);
     expect(screen.getByRole('link', { name: 'Topics' }).className).not.toMatch(/active/);
+  });
+
+  describe('on a phone-width screen', () => {
+    afterEach(() => vi.unstubAllGlobals());
+
+    it('renders the section links outside the sticky header, as a tab bar', () => {
+      vi.stubGlobal('matchMedia', (query: string) => ({
+        matches: true,
+        media: query,
+        addEventListener: () => {},
+        removeEventListener: () => {},
+      }));
+      renderHeader();
+      const nav = screen.getByRole('navigation', { name: 'Sections' });
+      expect(nav.closest('header')).toBeNull();
+      expect(screen.getAllByRole('navigation', { name: 'Sections' })).toHaveLength(1);
+    });
+  });
+
+  it('keeps the section links in the header on wider screens', () => {
+    renderHeader();
+    expect(screen.getByRole('navigation', { name: 'Sections' }).closest('header')).not.toBeNull();
   });
 });

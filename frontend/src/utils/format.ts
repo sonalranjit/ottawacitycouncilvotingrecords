@@ -78,3 +78,68 @@ export function motionOutcome(result: string, voteKind?: VoteKind, voteCount = 0
   }
   return { label: r, variant: 'neutral', showTally: kind !== 'none' };
 }
+
+export interface AttachmentLabel {
+  /** Short name to show, e.g. "Staff report", or the file's own name */
+  label: string;
+  /** What the document is about, when the label was shortened */
+  detail: string;
+  /** File extension in capitals, e.g. "PDF"; empty when the title has none */
+  fileType: string;
+}
+
+/**
+ * Friendlier labels for eScribe attachment titles, which usually read
+ * "Report - ACS2026-… - ZBLA - 342 Roosevelt Avenue.pdf". The common
+ * "Report", "Coverpage" and "Document N" prefixes become the label with the
+ * rest as detail; anything else keeps its own name (minus the extension).
+ */
+export function describeAttachment(title: string): AttachmentLabel {
+  const ext = title.match(/^(.*)\.([a-z0-9]{2,4})$/i);
+  const base = (ext ? ext[1] : title).trim();
+  const fileType = ext ? ext[2].toUpperCase() : '';
+  // Parts are joined by " - " or " – ", and some eScribe titles use a double space instead
+  const [first, ...rest] = base.split(/\s+[-–]\s+|\s{2,}/);
+  const prefix = first.replace(/^\((.*)\)$/, '$1').trim();
+  const detail = rest.join(' – ');
+  if (detail) {
+    if (/^cover(\s?page)?$/i.test(prefix)) return { label: 'Cover page', detail, fileType };
+    if (/^report$/i.test(prefix)) return { label: 'Staff report', detail, fileType };
+    if (/^document \d+[a-z]?$/i.test(prefix)) return { label: prefix, detail, fileType };
+  }
+  return { label: base, detail: '', fileType };
+}
+
+const MOTION_HEADING_RE = /^((committee|report) recommendations?(\(s\))?)?[\s,]*(as amended)?[\s,:]*$/i;
+
+/**
+ * True when the minutes kept only a heading or a lead-in such as
+ * "Committee Recommendation(s)\nThat Council:" and lost the actual
+ * recommendation, so there is nothing worth showing.
+ */
+export function isStubMotionText(text: string): boolean {
+  const lines = text
+    .split('\n')
+    .map((l) => l.trim())
+    .filter((l) => l && !MOTION_HEADING_RE.test(l));
+  if (lines.length === 0) return text.trim() !== '';
+  const rest = lines.join(' ');
+  return /^that\b[^.]{0,60}:$/i.test(rest);
+}
+
+/** "11.2" → "Item 11.2"; a trailing dot ("14.") is dropped. */
+export function itemLabel(agendaItemNumber: string): string {
+  const n = agendaItemNumber.trim().replace(/\.$/, '');
+  return n ? `Item ${n}` : '';
+}
+
+/** "13:00" → "1:00 pm", "09:30" → "9:30 am"; anything else comes back empty. */
+export function formatStartTime(time: string | null | undefined): string {
+  const m = (time ?? '').trim().match(/^(\d{1,2}):(\d{2})/);
+  if (!m) return '';
+  const hours = Number(m[1]);
+  if (hours > 23) return '';
+  const suffix = hours < 12 ? 'am' : 'pm';
+  const h12 = hours % 12 === 0 ? 12 : hours % 12;
+  return `${h12}:${m[2]} ${suffix}`;
+}

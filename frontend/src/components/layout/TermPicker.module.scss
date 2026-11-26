@@ -1,0 +1,225 @@
+@use '../../styles/variables' as *;
+
+.picker {
+  position: relative;
+}
+
+.chip {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 10px 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.22);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+}
+
+.chipLabel {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.chipValueFull,
+.chipValueShort {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.chipValueShort {
+  display: none;
+}
+
+@media (max-width: $breakpoint-tabs) {
+  .chipValueFull {
+    display: none;
+  }
+
+  .chipValueShort {
+    display: inline;
+  }
+}
+
+.chevron {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+
+  @media (max-width: $breakpoint-tabs) {
+    background: rgba(20, 24, 28, 0.45);
+  }
+}
+
+// Desktop: a popover under the chip
+.panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 201;
+  width: 280px;
+  box-sizing: border-box;
+  padding: 12px;
+  background: $color-surface;
+  color: $color-text-primary;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  // Phones: a sheet along the bottom of the screen
+  @media (max-width: $breakpoint-tabs) {
+    position: fixed;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    padding: 10px $spacing-md calc(28px + env(safe-area-inset-bottom));
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.18);
+    gap: 8px;
+  }
+}
+
+.handle {
+  display: none;
+
+  @media (max-width: $breakpoint-tabs) {
+    display: block;
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background: #cfcfcf;
+    align-self: center;
+    margin-bottom: 8px;
+  }
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 4px;
+
+  @media (max-width: $breakpoint-tabs) {
+    font-size: 1.125rem;
+    margin: 0;
+  }
+}
+
+.hint {
+  margin: 0 4px 6px;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: $color-text-muted;
+
+  @media (max-width: $breakpoint-tabs) {
+    margin: 0 0 6px;
+    font-size: $font-size-sm;
+  }
+}
+
+.options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.option {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid $color-border;
+  background: $color-surface;
+  color: $color-text-primary;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-bg;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 1px;
+  }
+
+  @media (max-width: $breakpoint-tabs) {
+    min-height: 60px;
+    padding: 0 14px;
+    border-radius: 12px;
+  }
+}
+
+.optionSelected {
+  border: 2px solid $color-accent;
+  background: color-mix(in srgb, $color-accent 6%, $color-surface);
+
+  &:hover {
+    background: color-mix(in srgb, $color-accent 6%, $color-surface);
+  }
+}
+
+.optionText {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.optionLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.optionNote {
+  font-size: 0.8125rem;
+  color: $color-text-muted;
+}
+
+.check {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: $color-accent;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

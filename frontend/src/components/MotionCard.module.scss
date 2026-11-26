@@ -1,46 +1,126 @@
 @use '../styles/variables' as *;
 
+$side-width: 280px;
+$side-bg: #fafaf8;
+$card-stack: 680px; // below this the card is a single column
+
 .card {
-  background: $color-surface;
-  border: 1px solid $color-border;
-  border-radius: $border-radius;
-  padding: $spacing-md;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) $side-width;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'content outcome'
+    'content documents';
+  // The side column's tint runs the full height of the row, documents or not
+  background: linear-gradient(to left, $side-bg $side-width, $color-surface $side-width);
+
+  @media (max-width: $card-stack) {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: $spacing-md;
+    background: $color-surface;
+  }
+}
+
+.outcome {
+  grid-area: outcome;
+  min-width: 0;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media (max-width: $card-stack) {
+    order: -1;
+    padding: 0;
+  }
+}
+
+.content {
+  grid-area: content;
+  min-width: 0;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  // Its children join the card's column so the heading can come before the outcome
+  @media (max-width: $card-stack) {
+    display: contents;
+  }
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  @media (max-width: $card-stack) {
+    order: -2;
+  }
+}
+
+.itemNumber {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $color-text-muted;
+}
+
+.itemTitle {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: $color-text-primary;
+
+  @media (max-width: $card-stack) {
+    font-size: 1.0625rem;
+  }
+}
+
+.documents {
+  grid-area: documents;
+  min-width: 0;
+  padding: 0 24px 20px;
   display: flex;
   flex-direction: column;
   gap: $spacing-sm;
+
+  @media (max-width: $card-stack) {
+    order: 1;
+    padding: 0;
+  }
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  gap: $spacing-sm;
-  flex-wrap: wrap;
-}
-
-.motionNum {
-  font-size: $font-size-sm;
-  font-weight: 600;
-  color: $color-text-muted;
+.sectionLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
+  color: $color-text-muted;
 }
+
+// Outcome
 
 .result {
-  display: inline-block;
-  padding: 2px $spacing-sm;
-  border-radius: $border-radius-pill;
+  align-self: flex-start;
+  padding: 3px 10px;
+  border-radius: 999px;
   font-size: $font-size-sm;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .carried {
   background-color: color-mix(in srgb, $color-for 15%, transparent);
-  color: $color-for;
+  color: #1f5c33;
 }
 
 .lost {
   background-color: color-mix(in srgb, $color-against 15%, transparent);
-  color: $color-against;
+  color: #8f2a1f;
 }
 
 .tied {
@@ -50,20 +130,162 @@
 
 .neutral {
   background-color: color-mix(in srgb, $color-neutral 15%, transparent);
-  color: $color-neutral;
+  color: #3d3d3d;
 }
 
-.movers {
+.tally {
   display: flex;
-  gap: $spacing-md;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tallyCounts {
+  display: flex;
+  justify-content: space-between;
+  gap: $spacing-sm;
+  font-size: $font-size-sm;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.forCount {
+  color: #1f6b38;
+}
+
+.againstCount {
+  color: #a3311f;
+}
+
+.tallyBar {
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  display: flex;
+  background: #efefec;
+}
+
+.tallyFor {
+  background: $color-for;
+}
+
+.tallyAgainst {
+  background: $color-against;
+}
+
+.noVote {
   font-size: $font-size-sm;
   color: $color-text-muted;
+}
+
+.voteNote {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: $color-text-muted;
+  font-style: italic;
+}
+
+.toggleVotes {
+  align-self: flex-start;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background: $color-surface;
+  color: $color-text-primary;
+  font: inherit;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-bg;
+  }
+
+  @media (max-width: $card-stack) {
+    align-self: stretch;
+    min-height: 44px;
+  }
+}
+
+.votes {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  padding-top: $spacing-sm;
+  border-top: 1px solid $color-border;
+}
+
+.voteGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.chips {
+  display: flex;
   flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+// Content
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs $spacing-md;
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.motionNum {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.aiTag {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #4a4f55;
+  background: #efefec;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.summaryText {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: #262626;
+}
+
+.motionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  &.divided {
+    padding-top: 14px;
+    border-top: 1px solid #efefec;
+  }
 }
 
 .motionText {
   font-size: $font-size-sm;
   line-height: 1.5;
+  color: #444;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -79,152 +301,158 @@
 }
 
 .toggleText {
+  align-self: flex-start;
+  min-height: 32px;
   background: none;
   border: none;
   color: $color-accent;
-  font-size: $font-size-sm;
-  padding: 0;
-  cursor: pointer;
-  text-align: left;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.attachments {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-}
-
-.attachmentsLabel {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: $color-text-muted;
-}
-
-.attachmentList {
-  margin: 0;
-  padding-left: $spacing-md;
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-}
-
-.attachment {
-  font-size: $font-size-sm;
-  color: $color-accent;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.tally {
-  display: flex;
-  gap: $spacing-xs;
+  font: inherit;
   font-size: $font-size-sm;
   font-weight: 600;
-}
-
-.noVote {
-  font-size: $font-size-sm;
-  color: $color-text-muted;
-  font-style: italic;
-}
-
-.voteNote {
-  font-size: 0.75rem;
-  color: $color-text-muted;
-  font-style: italic;
-}
-
-.forCount {
-  color: $color-for;
-}
-
-.tallyDivider {
-  color: $color-text-muted;
-}
-
-.againstCount {
-  color: $color-against;
-}
-
-.toggleVotes {
-  background: none;
-  border: 1px solid $color-border;
-  border-radius: $border-radius;
-  color: $color-text-muted;
-  font-size: $font-size-sm;
-  padding: $spacing-xs $spacing-sm;
+  padding: 0;
   cursor: pointer;
-  align-self: flex-start;
 
   &:hover {
-    background: $color-bg;
-    color: $color-text-primary;
+    text-decoration: underline;
   }
-}
-
-.votes {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-sm;
-  padding-top: $spacing-xs;
-  border-top: 1px solid $color-border;
-}
-
-.voteGroup {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-}
-
-.voteGroupLabel {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: $color-text-muted;
-}
-
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $spacing-xs;
-}
-
-.summary {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-xs;
-}
-
-.summaryLabel {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: $color-text-muted;
-  font-style: italic;
-}
-
-.summaryText {
-  font-size: $font-size-sm;
-  line-height: 1.5;
-  margin: 0;
-  color: $color-text-primary;
-  font-style: italic;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: $spacing-xs;
-  margin-top: $spacing-xs;
+  gap: 6px;
+}
+
+// Documents
+
+.documentsHeading {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.documentCount {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #4a4f55;
+  background: #efefec;
+  padding: 1px 7px;
+  border-radius: 999px;
+}
+
+// Long lists scroll inside a box about five tiles tall, with a fade at the
+// bottom edge to show there is more
+.scrollFrame {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 6px;
+    bottom: 0;
+    height: 36px;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba($side-bg, 0), $side-bg);
+
+    @media (max-width: $card-stack) {
+      background: linear-gradient(to bottom, rgba($color-surface, 0), $color-surface);
+    }
+  }
+}
+
+.scrollable {
+  max-height: 312px; // five 56px tiles and their gaps
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 6px;
+  scrollbar-width: thin;
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+    border-radius: 8px;
+  }
+}
+
+.scrollHint {
+  font-size: 0.75rem;
+  color: $color-text-muted;
+}
+
+.documentList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+
+  @media (max-width: $card-stack) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+// Every tile is the same size; long names are cut off (the full name is in the tooltip)
+.document {
+  height: 56px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  border: 1px solid $color-border;
+  border-radius: 8px;
+  background: $color-surface;
+  color: $color-text-primary;
+  text-decoration: none;
+
+  &:hover {
+    border-color: color-mix(in srgb, $color-accent 45%, $color-border);
+    text-decoration: none;
+
+    .documentLabel {
+      color: $color-accent;
+    }
+  }
+
+  @media (max-width: $card-stack) {
+    background: $side-bg;
+  }
+}
+
+.fileIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: #8f2a1f;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.documentText {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.documentLabel {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.documentDetail {
+  font-size: 0.75rem;
+  color: $color-text-muted;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

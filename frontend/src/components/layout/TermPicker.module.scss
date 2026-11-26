@@ -102,7 +102,8 @@
     right: 0;
     bottom: 0;
     width: auto;
-    padding: 10px $spacing-md calc(28px + env(safe-area-inset-bottom));
+    padding: 10px max(#{$spacing-md}, env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom))
+      max(#{$spacing-md}, env(safe-area-inset-left));
     border-radius: 18px 18px 0 0;
     box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.18);
     gap: 8px;

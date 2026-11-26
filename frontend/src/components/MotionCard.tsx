@@ -5,6 +5,8 @@ import VoteChip from './VoteChip';
 import TagPill from './TagPill';
 import styles from './MotionCard.module.scss';
 
+const DOCUMENTS_BEFORE_SCROLL = 5;
+
 interface Props {
   motion: Motion;
   attachments?: Attachment[];
@@ -30,6 +32,8 @@ export default function MotionCard({ motion, attachments, highlightCouncillor, i
   const totalVotes = motion.for_count + motion.against_count;
   const forShare = totalVotes > 0 ? (motion.for_count / totalVotes) * 100 : 0;
   const showMotionText = !isStubMotionText(motion.motion_text);
+  // Some items carry dozens of documents; past a handful the list scrolls so the card stays short
+  const scrollDocs = (attachments?.length ?? 0) > DOCUMENTS_BEFORE_SCROLL;
 
   return (
     <article className={styles.card}>
@@ -162,35 +166,48 @@ export default function MotionCard({ motion, attachments, highlightCouncillor, i
 
       {attachments && attachments.length > 0 && (
         <div className={styles.documents}>
-          <span className={styles.sectionLabel}>Documents</span>
-          <ul className={styles.documentList}>
-            {attachments.map((a) => {
-              const doc = describeAttachment(a.title);
-              return (
-                <li key={a.url}>
-                  <a
-                    href={a.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.document}
-                    title={a.title}
-                  >
-                    <svg className={styles.fileIcon} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                      <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z M14 3v5h5" />
-                    </svg>
-                    <span className={styles.documentText}>
-                      <span className={styles.documentLabel}>{doc.label}</span>
-                      {(doc.detail || doc.fileType) && (
-                        <span className={styles.documentDetail}>
-                          {[doc.detail, doc.fileType].filter(Boolean).join(' · ')}
-                        </span>
-                      )}
-                    </span>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
+          <div className={styles.documentsHeading}>
+            <span className={styles.sectionLabel}>Documents</span>
+            {scrollDocs && <span className={styles.documentCount}>{attachments.length}</span>}
+          </div>
+          <div className={scrollDocs ? styles.scrollFrame : undefined}>
+            <ul
+              className={`${styles.documentList} ${scrollDocs ? styles.scrollable : ''}`}
+              // A scrolling list must be reachable by keyboard to be scrolled
+              tabIndex={scrollDocs ? 0 : undefined}
+              aria-label={scrollDocs ? `Documents, ${attachments.length} files` : undefined}
+            >
+              {attachments.map((a) => {
+                const doc = describeAttachment(a.title);
+                return (
+                  <li key={a.url}>
+                    <a
+                      href={a.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.document}
+                      title={a.title}
+                    >
+                      <svg className={styles.fileIcon} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z M14 3v5h5" />
+                      </svg>
+                      <span className={styles.documentText}>
+                        <span className={styles.documentLabel}>{doc.label}</span>
+                        {(doc.detail || doc.fileType) && (
+                          <span className={styles.documentDetail}>
+                            {[doc.detail, doc.fileType].filter(Boolean).join(' · ')}
+                          </span>
+                        )}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          {scrollDocs && (
+            <span className={styles.scrollHint}>Scroll for all {attachments.length} documents</span>
+          )}
         </div>
       )}
     </article>

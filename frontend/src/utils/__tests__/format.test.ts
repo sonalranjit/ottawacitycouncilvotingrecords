@@ -170,6 +170,11 @@ describe('describeAttachment', () => {
       detail: 'Location Map',
       fileType: 'PDF',
     });
+    expect(describeAttachment('Document 10  Update on the City of Ottawa')).toEqual({
+      label: 'Document 10',
+      detail: 'Update on the City of Ottawa',
+      fileType: '',
+    });
   });
 
   it('keeps other titles as they are, minus the extension', () => {

@@ -98,7 +98,8 @@ export function describeAttachment(title: string): AttachmentLabel {
   const ext = title.match(/^(.*)\.([a-z0-9]{2,4})$/i);
   const base = (ext ? ext[1] : title).trim();
   const fileType = ext ? ext[2].toUpperCase() : '';
-  const [first, ...rest] = base.split(/\s+[-–]\s+/);
+  // Parts are joined by " - " or " – ", and some eScribe titles use a double space instead
+  const [first, ...rest] = base.split(/\s+[-–]\s+|\s{2,}/);
   const prefix = first.replace(/^\((.*)\)$/, '$1').trim();
   const detail = rest.join(' – ');
   if (detail) {

@@ -176,4 +176,23 @@ describe('MotionCard', () => {
     expect(screen.getByText('Item 11.2')).toBeInTheDocument();
     expect(screen.getByRole('heading', { level: 3, name: 'Zoning By-law Amendment' })).toBeInTheDocument();
   });
+
+  it('scrolls a long document list and says how many there are', () => {
+    const attachments = Array.from({ length: 8 }, (_, i) => ({
+      url: `https://example.test/doc?id=${i}`,
+      title: `Document ${i + 1} - Appendix.pdf`,
+    }));
+    render(<MotionCard motion={baseMotion} attachments={attachments} />);
+    const list = screen.getByRole('list', { name: 'Documents, 8 files' });
+    expect(list.className).toMatch(/scrollable/);
+    expect(list).toHaveAttribute('tabindex', '0');
+    expect(screen.getByText('Scroll for all 8 documents')).toBeInTheDocument();
+  });
+
+  it('leaves a short document list as it is', () => {
+    const attachments = [{ url: 'https://example.test/a', title: 'Report - Item.pdf' }];
+    render(<MotionCard motion={baseMotion} attachments={attachments} />);
+    expect(screen.getByRole('list').className).not.toMatch(/scrollable/);
+    expect(screen.queryByText(/Scroll for all/)).not.toBeInTheDocument();
+  });
 });

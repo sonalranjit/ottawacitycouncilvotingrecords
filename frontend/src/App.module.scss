@@ -19,9 +19,9 @@
 .container {
   max-width: $max-width;
   margin: 0 auto;
-  padding: 0 $spacing-lg;
+  padding: 0 max(#{$spacing-lg}, env(safe-area-inset-right)) 0 max(#{$spacing-lg}, env(safe-area-inset-left));
 
   @media (max-width: 600px) {
-    padding: 0 $spacing-md;
+    padding: 0 max(#{$spacing-md}, env(safe-area-inset-right)) 0 max(#{$spacing-md}, env(safe-area-inset-left));
   }
 }

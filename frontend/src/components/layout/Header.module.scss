@@ -7,6 +7,8 @@
 }
 
 .bar {
+  // Clear the status bar when the site runs as a home-screen app (0 in a browser tab)
+  padding-top: env(safe-area-inset-top);
   background-color: $color-accent;
   color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
@@ -17,14 +19,16 @@
   margin: 0 auto;
   min-height: 64px;
   box-sizing: border-box;
-  padding: $spacing-sm $spacing-lg;
+  padding: $spacing-sm max(#{$spacing-lg}, env(safe-area-inset-right)) $spacing-sm
+    max(#{$spacing-lg}, env(safe-area-inset-left));
   display: flex;
   align-items: center;
   gap: $spacing-lg;
 
+  // Keep the brand and term chip clear of rounded screen corners and notches
   @media (max-width: $breakpoint-tabs) {
     min-height: 60px;
-    padding: 0 12px 0 $spacing-md;
+    padding: 0 max(20px, env(safe-area-inset-right)) 0 max(24px, env(safe-area-inset-left));
     gap: 12px;
   }
 }
@@ -75,7 +79,10 @@
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0;
-    padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+    // The side padding keeps the outer tabs off the rounded corners; the bottom
+    // padding clears the home indicator once Safari's toolbar slides away
+    padding: 8px max(16px, env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom))
+      max(16px, env(safe-area-inset-left));
     background: $color-surface;
     border-top: 1px solid $color-border;
     box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.06);
@@ -221,7 +228,8 @@
   gap: $spacing-sm;
 
   @media (max-width: $breakpoint-tabs) {
-    padding: $spacing-sm $spacing-md;
+    padding: $spacing-sm max(#{$spacing-md}, env(safe-area-inset-right)) $spacing-sm
+      max(#{$spacing-md}, env(safe-area-inset-left));
   }
 }
 

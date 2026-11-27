@@ -12,6 +12,13 @@
   background-color: $color-accent;
   color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+
+  // As a home-screen app, iOS 26 softly blurs a band along the top edge that reaches a
+  // little past the status bar. The extra room keeps the title below it, so the blur
+  // only covers plain blue.
+  @media (display-mode: standalone) {
+    padding-top: calc(env(safe-area-inset-top) + 16px);
+  }
 }
 
 .inner {

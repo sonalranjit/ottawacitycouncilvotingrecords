@@ -1,10 +1,17 @@
 @use 'variables' as *;
 @use 'reset';
 
+// iOS 26 colours the strip under the status bar (Safari's top bar, and a home-screen
+// app's status bar) from the page background, not theme-color. So the root is the
+// header blue, and the light page colour sits on the app shell (App.module.scss).
+// The gradient keeps a bounce past the bottom of the page light, not blue.
+html {
+  background: linear-gradient(to bottom, $color-accent 50%, $color-bg 50%) $color-accent;
+}
+
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
-  background-color: $color-bg;
   color: $color-text-primary;
   line-height: 1.6;
 }

@@ -2,6 +2,8 @@
 
 .shell {
   min-height: 100vh;
+  // The page colour lives here, not on body: see the html rule in global.scss
+  background-color: $color-bg;
   display: flex;
   flex-direction: column;
 }

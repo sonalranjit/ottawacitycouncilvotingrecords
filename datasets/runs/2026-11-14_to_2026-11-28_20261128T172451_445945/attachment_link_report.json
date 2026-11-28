@@ -1,0 +1,245 @@
+{
+  "run_at": "2026-11-28T17:27:19.396447",
+  "dry_run": false,
+  "aborted": false,
+  "totals": {
+    "due": 60,
+    "checked": 60,
+    "unchanged": 59,
+    "repaired": 1,
+    "would_repair": 0,
+    "failed": 0
+  },
+  "repaired_meeting_ids": [
+    "abe9d9f1-e19b-4bd0-95f6-465f4d38147b"
+  ],
+  "repaired": [
+    {
+      "meeting_id": "abe9d9f1-e19b-4bd0-95f6-465f4d38147b",
+      "meeting_name": "Audit Committee",
+      "meeting_date": "2026-11-03",
+      "source_url": "https://pub-ottawa.escribemeetings.com//Meeting.aspx?Id=abe9d9f1-e19b-4bd0-95f6-465f4d38147b&Agenda=PostMinutes&lang=English",
+      "reason": "routine re-check",
+      "links": {
+        "replaced": [
+          {
+            "attachment_title": "AC Minutes English 18_2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339434",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342454"
+          },
+          {
+            "attachment_title": "AC Minutes French 18_2026.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339435",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342455"
+          },
+          {
+            "attachment_title": "Document 1 - OAG External Quality Assessment.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339440",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342460"
+          },
+          {
+            "attachment_title": "Document 1 \u2013 KPMG 2026 Financial Statement Audit Plan AODA.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339433",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342453"
+          },
+          {
+            "attachment_title": "Document 1 \u2013 KPMG 2026 Financial Statement Audit Plan.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339432",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342452"
+          },
+          {
+            "attachment_title": "Document 2 English - OAG Audit Charter EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339441",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342461"
+          },
+          {
+            "attachment_title": "Document 2 French - OAG Audit Charter FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339442",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342462"
+          },
+          {
+            "attachment_title": "Document 3 English - OAG Audit Charter - Updated Sections EN.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339443",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342463"
+          },
+          {
+            "attachment_title": "Document 3 French - OAG Audit Charter - Updated Sections FR.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339444",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342464"
+          },
+          {
+            "attachment_title": "Public Notices English - Hybrid Standing Committee 2025 (AODA).pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339429",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342449"
+          },
+          {
+            "attachment_title": "Public Notices French - Hybrid Standing Committee 2025 (AODA).pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339430",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342450"
+          },
+          {
+            "attachment_title": "Report - 2026 KPMG Financial Statement Audit Plan.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339431",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342451"
+          },
+          {
+            "attachment_title": "Report - Audit of 3-1-1.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339455",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342475"
+          },
+          {
+            "attachment_title": "Report - Audit of Curbside Garbage Collection.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339450",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342470"
+          },
+          {
+            "attachment_title": "Report - External Quality Assessment.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339439",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342459"
+          },
+          {
+            "attachment_title": "Report - Review of Overtime.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339445",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342465"
+          },
+          {
+            "attachment_title": "Report - Semi Annual Report on Follow-up Procedures.pdf",
+            "old_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339436",
+            "new_url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342456"
+          }
+        ],
+        "removed": [
+          {
+            "attachment_title": "Document 1 English - Audit of 3-1-1 EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339456"
+          },
+          {
+            "attachment_title": "Document 1 English - Audit of Curbside Garbage Collection EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339451"
+          },
+          {
+            "attachment_title": "Document 1 English - Review of Overtime EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339446"
+          },
+          {
+            "attachment_title": "Document 1 English -\u202fOAG\u202fSemi-Annual Report on Follow-up Procedures EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339437"
+          },
+          {
+            "attachment_title": "Document 1 French - Audit of 3-1-1 FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339457"
+          },
+          {
+            "attachment_title": "Document 1 French - Audit of Curbside Garbage Collection FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339452"
+          },
+          {
+            "attachment_title": "Document 1 French - Review of Overtime FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339447"
+          },
+          {
+            "attachment_title": "Document 1 French -\u202fOAG\u202fSemi-Annual Report on Follow-up Procedures FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339438"
+          },
+          {
+            "attachment_title": "Document 2 English - Audit of 3-1-1 - Audit Highlights EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339458"
+          },
+          {
+            "attachment_title": "Document 2 English - Audit of\u00a0Curbside Garbage Collecton - Audit Highlights EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339453"
+          },
+          {
+            "attachment_title": "Document 2 English - Review of Overtime - Highlights EN.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339448"
+          },
+          {
+            "attachment_title": "Document 2 French - Audit of 3-1-1 - Audit Highlights FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339459"
+          },
+          {
+            "attachment_title": "Document 2 French - Audit of\u00a0Curbside Garbage Collecton - Audit Highlights FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339454"
+          },
+          {
+            "attachment_title": "Document 2 French - Review of Overtime - Highlights FR.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=339449"
+          }
+        ],
+        "added": [
+          {
+            "attachment_title": "Document 1 English -\u202fOAG\u202fSemi-Annual Report on Follow-up Procedures.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342457"
+          },
+          {
+            "attachment_title": "Document 1 French -\u202fOAG\u202fSemi-Annual Report on Follow-up Procedures.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342458"
+          },
+          {
+            "attachment_title": "Document 1 English - Review of Overtime .pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342466"
+          },
+          {
+            "attachment_title": "Document 1 French - Review of Overtime.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342467"
+          },
+          {
+            "attachment_title": "Document 2 English - Review of Overtime - Highlights.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342468"
+          },
+          {
+            "attachment_title": "Document 2 French - Review of Overtime - Highlights.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342469"
+          },
+          {
+            "attachment_title": "Document 1 English - Audit of Curbside Garbage Collection.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342471"
+          },
+          {
+            "attachment_title": "Document 1 French - Audit of Curbside Garbage Collection.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342472"
+          },
+          {
+            "attachment_title": "Document 2 English - Audit of\u00a0Curbside Garbage Collecton - Audit Highlights.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342473"
+          },
+          {
+            "attachment_title": "Document 2 French - Audit of\u00a0Curbside Garbage Collecton - Audit Highlights.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342474"
+          },
+          {
+            "attachment_title": "Document 1 English - Audit of 3-1-1.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342476"
+          },
+          {
+            "attachment_title": "Document 1 French - Audit of 3-1-1.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342477"
+          },
+          {
+            "attachment_title": "Document 2 English - Audit of 3-1-1 - Audit Highlights.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342478"
+          },
+          {
+            "attachment_title": "Document 2 French - Audit of 3-1-1 - Audit Highlights.pdf",
+            "url": "https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=342479"
+          }
+        ]
+      },
+      "before": {
+        "agenda_items": 18,
+        "motions": 9,
+        "votes": 0,
+        "attachments": 31
+      },
+      "status": "repaired",
+      "after": {
+        "agenda_items": 18,
+        "motions": 9,
+        "votes": 0,
+        "attachments": 31
+      }
+    }
+  ],
+  "would_repair": [],
+  "failed": []
+}
